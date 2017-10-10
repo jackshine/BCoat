@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+<suite name="Securlets Gmail Exposure and Remediation Suite CEP" >
+	<parameter name="environmentName" value="cep"/>
+	<parameter name="userName" value="admin@securletbeatle.com"/>
+	<parameter name="userPassword" value="Elastica123!"/>
+	<parameter name="tenantName" value="securletbeatlecom"/>
+	<parameter name="isLoggingOn" value="true"/>
+	<parameter name="apiBaseVersion" value="v1"/>
+	<parameter name="esScriptsHostName" value="10.0.0.242"/>
+	<parameter name="esScriptsUserName" value="madmin"/>
+	<parameter name="referer" value="https://eoe.elastica-inc.com"/>
+	<parameter name="tenantToken" value="H3YK/Vxr3p+qm9dfmKvmh7oYaPBJMqUsszm+LOStr4k="/>
+	
+	<parameter name="saasAppUsername" value="admin@securletbeatle.com"/>
+	<parameter name="saasAppPassword" value="Aut0mat10n#123"/>
+	<parameter name="saasAppUserRole" value="ADMIN"/>
+	<parameter name="socUserName" value="box admin securlet automation"/>
+	<parameter name="saasApp" value="GMAIL"/>
+	<parameter name="saasAppClientId" value="998314684213-34jm3g4k92nejio174qnnb32vojbqg0n.apps.googleusercontent.com"/>
+	<parameter name="saasAppClientSecret" value="YkMqf5GWiHQgHbA1P7BNhxto"/>
+	<parameter name="saasAppToken" value="1/fPDwECsPhJAPh6F_TsHHhz7Q1AArPFC-fa6XdV_bNko"/>
+	
+	<parameter name="saasAppEndUser1Name" value="testuser1@securletbeatle.com"/>
+	<parameter name="saasAppEndUser1Password" value="Elastica@123"/>
+	<parameter name="saasAppEndUser1ClientId" value="812119916773-hb47rkktb3p8appsc93cr8tokau0r1gs.apps.googleusercontent.com"/>
+	<parameter name="saasAppEndUser1ClientSecret" value="iSZQfwpG9RP8dKdusaevG1y6"/>
+	<parameter name="saasAppEndUser1Token" value="1/CGpA7p1rtHOWjMGJsNRLKiCoRKIkOpV7ZLo1LPMiKBkMEudVrK5jSpoR30zcRFq6"/>
+	
+	<parameter name="saasAppEndUser2Name" value="testuser2@securletbeatle.com"/>
+	<parameter name="saasAppEndUser2Password" value="Elastica@123"/>
+	<parameter name="saasAppEndUser2ClientId" value="51398359740-0k0fsk5vmgkm00m1vedi1246jqvketbu.apps.googleusercontent.com"/>
+	<parameter name="saasAppEndUser2ClientSecret" value="kMrrAfDABmn42Ytccjgj9t5o"/>
+	<parameter name="saasAppEndUser2Token" value="1/9Dvu1l5buYH5JLaZV9YoHY01EdpoCliIKKkdyIgc8XQ"/>
+	
+	<parameter name="saasAppExternalUser1Name" value="user1@gatewaybeatle.com"/>
+	<parameter name="saasAppExternalUser1Password" value="ThisIsGoogleAccount"/>
+	<parameter name="saasAppExternalUser2Name" value="admin@protecto365autobeatle.com"/>
+	<parameter name="saasAppExternalUser2Password" value="&amp;1CMlIvd!JWp6n2"/>
+	<parameter name="saasAppGroupMailId" value="group1@securletO365beatle.com"/>
+	
+	
+	
+	<test name="Securlets Gmail Exposure and Remediation Suite CEP" enabled="true" parallel="true">
+          	
+		<!-- <groups>
+		    <run> 
+		      <include name="SEND"/>
+		      <include name="RECEIVE"/>
+		     
+		    </run>
+		  </groups>
+		   -->
+		<classes>
+			<class name="com.elastica.beatle.tests.gmail.GmailRemediationTests">
+			<methods>
+<!-- 				<include name="verifyMailExposureAndRemediationDeleteMail"></include> -->
+				</methods>
+			</class>
+		</classes>
+	</test>
+	
+	
+	
+</suite>

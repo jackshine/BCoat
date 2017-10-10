@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+<suite name="Detect Kafka Poller Tests" parallel="false">
+	<parameter name="environmentName" value="eoe"></parameter>
+	
+	
+	<parameter name="userName" value="rocky@detectautomation.com"/>
+    <parameter name="userPassword" value="Elastica@1234"/>
+    <parameter name="tenantName" value="detectautomationcom"/>
+    <parameter name="tenantDomainName" value="detectautomation.com"></parameter>
+    <parameter name="tenantToken" value="QfDNmNo4usQ5m9+tEPhm1Pb7n+TCLSx6y0qKJqvM9eY="/>
+    
+	<parameter name="goldenInputTmplPath" value="src/test/resources/detect/golden_input_tmpl/"></parameter>
+	<parameter name="goldenInputPath" value="src/test/resources/detect/golden_input/"></parameter>
+	
+	<parameter name="esScriptsHostName" value="10.0.0.242"></parameter>
+	<parameter name="esScriptsUserName" value="vidyasagar"></parameter>
+	
+	<test name="Detect Kafka Poller Tests">
+		<classes>
+			<class name="com.elastica.beatle.tests.detect.DetectKafkaPollerTests"/>
+		</classes>
+	</test>
+</suite>

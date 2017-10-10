@@ -1,0 +1,9 @@
+<component name="libraryTable">
+  <library name="Sample">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/BEATLe/src/test/resources/dci/uploadRisks/SourceCode/Sample.zip!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>

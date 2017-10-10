@@ -1,0 +1,64 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+
+<suite name="Gateway Salesforce FE Sanity Test Suite">
+
+	<listeners>
+		<listener class-name="org.uncommons.reportng.HTMLReporter" />
+		<listener class-name="org.uncommons.reportng.JUnitXMLReporter" />
+		<listener class-name="com.elastica.listeners.SuiteListener" />
+		<listener class-name="com.elastica.listeners.MethodListener" />
+		<listener class-name="com.elastica.listeners.ScreenShotListener" />
+		<listener class-name="com.elastica.listeners.PriorityListener" />
+	</listeners>
+	
+	<parameter name="env" value="eu" />
+	<parameter name="browser" value="Firefox" />
+	<parameter name="mode" value="local" />
+	<parameter name="saasAppBaseUrl" value="https://console.aws.amazon.com/" />
+	<parameter name="username" value="admin@protectbeatle.com" />
+	<parameter name="password" value="Elastica456!" />
+	<parameter name="testUsername" value="admin@protectbeatle.com" />
+	<parameter name="testPassword" value="Elastica456!" />
+	<parameter name="saasAppName" value="Amazon Web Services" />
+	<parameter name="saasAppUsername" value="admin@protectbeatle.com" />
+	<parameter name="saasAppPassword" value="qN^kv7tD#JxI9CN" />
+	<parameter name="referer" value="https://app.eu.elastica.net" />
+	<parameter name="tenant" value="protectbeatle.com" />
+	<parameter name="tenantDomainName" value="protectbeatle.com" />
+	<parameter name="tenantToken" value="nIzqjM7QUjS4OcWe2Oti74jwfpY5A2Geg+2ugXIPGGk=" />
+	<parameter name="proxyUrl"
+		value="https://api.eu.elastica.net/92888b9ac70242fc871b0b6a6ca81955/1455313033/elastica.pac"></parameter>
+	<parameter name="proxyExtension" value="Load"></parameter>
+
+	<test name="Gatelet Tests - AWS Session Tests">
+		<parameter name="platform" value="Windows 8.1" />
+		<parameter name="browserVersion" value="40.0" />
+		<parameter name="browserName" value="firefox" />
+		<groups>
+			<run>
+				<include name="cloud"></include>
+				<include name="Sanity"></include>
+			</run>
+		</groups>
+		<classes>
+			<class name="com.elastica.tests.aws.AWSSessionGatewayTests" />
+		</classes>
+	</test>
+	
+	<test name="Gatelet Tests - AWS Sao Paulo Region">
+		<parameter name="platform" value="Windows 8.1" />
+		<parameter name="browserVersion" value="40.0" />
+		<parameter name="browserName" value="firefox" />
+		<parameter name="regionName" value="Sao Paulo"/>
+		<parameter name="regionCode" value="sa-east-1"/>
+		<groups>
+			<run>
+				<include name="cloud"></include>
+				<include name="Regression"></include>
+			</run>
+		</groups>
+		<classes>
+			<class name="com.elastica.tests.aws.AWSGatewayTests" />
+		</classes>
+	</test>
+</suite>

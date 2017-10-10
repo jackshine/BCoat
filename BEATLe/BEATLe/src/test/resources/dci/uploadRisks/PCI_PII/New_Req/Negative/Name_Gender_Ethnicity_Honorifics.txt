@@ -1,0 +1,9 @@
+Name: Alex Smith
+ Gender: Male
+ Ethnicity White Hispanic Male
+ miss Julia Smith
+
+
+
+
+

@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+<suite name="DropBox User Creation Suite">
+	<test name="DropBox User Creation  Tests" group-by-instances="true">
+		<classes>
+			<class name="com.universal.unifiedapi.CreateDropBoxUser">
+			<methods>
+				<!-- <include name="createUser"></include> -->
+				<include name="activateUser"></include>
+				<!-- <include name="createUser1"></include>
+				<include name="createUser2"></include>
+				<include name="createUser3"></include>
+				<include name="createUser4"></include>
+				<include name="createUser5"></include>
+				<include name="createUser6"></include>
+				<include name="createUser7"></include>
+				<include name="createUser8"></include>
+				<include name="createUser9"></include>
+				<include name="createUser10"></include> -->
+				
+				<!-- <include name="activateUser1"></include> -->
+				 <!-- <include name="activateUser2"></include> -->
+				 <!-- <include name="activateUser3"></include> -->
+				<!--<include name="activateUser4"></include>
+				<include name="activateUser5"></include>
+				<include name="activateUser6"></include>
+				<include name="activateUser7"></include>
+				<include name="activateUser8"></include>
+				<include name="activateUser9"></include>
+				<include name="activateUser10"></include> -->
+				 
+				
+			</methods>
+				
+			</class>
+		</classes>
+	</test>
+</suite>

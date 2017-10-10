@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+<suite name="Infra  Regression Test Group Suite CHA" parallel="false">
+	<parameter name="environmentName" value="envX"/>
+	<parameter name=" executiontype" value="sanity"/>
+	<parameter name="userName" value="admin@infrabeatle.com"/>
+	<parameter name="userPassword" value="Elastica@123"/>
+	<parameter name="tenantName" value="infrabeatle.com1"/>
+	<parameter name="bopUser" value="vijay.gangwar@elastica.co"/>
+	<parameter name="bopPassword" value="Elastica@123"/>
+	<parameter name="isLoggingOn" value="true"/>
+	<parameter name="apiBaseVersion" value="v1"/>
+	<parameter name="esScriptsHostName" value="10.0.0.242"/>
+	<parameter name="esScriptsUserName" value="madmin"/>
+	<parameter name="referer" value="https://eoe.elastica-inc.com/"/>
+	<parameter name="apiServer" value="https://chaapi.elastica-inc.com/"/>
+	<parameter name="tanentdb" value="infrabeatlecom1"/>
+	<parameter name="hostName" value="cha.elastica-inc.com"/>
+	<parameter name="tenantDomainName" value="infrabeatlecom1"/>
+	<test name="Infra Signin Regression Tests CHA">
+		<classes>
+			
+			
+			<class name="com.elastica.beatle.tests.infra.Infra">
+				
+			</class>
+		</classes>
+	</test>
+	<test name="Infra Feature Enablement Regression Tests CHA">
+	<parameter name="bopUser" value="adeel.hasan@elastica.co"/>
+	<parameter name="bopPassword" value="click123"/>
+		<groups>
+     	 	<run>
+     		 <include name="QAVPC" />
+     	 	</run>
+   		</groups>
+		<classes>
+			<class name="com.elastica.beatle.tests.infra.FeatureEnablement">				
+				<methods>
+					<exclude name="ActivateBoxSecurlet"></exclude>
+					<exclude name="deActivateBoxSecurlet"></exclude>
+				</methods>
+			</class>
+		</classes>
+	</test>
+	
+</suite>

@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+<suite name="Protect Test Suite">
+	<parameter name="environmentName" value="qavpc"/>
+	<parameter name="userName" value="admin@protectbeatle.com"/>
+	<parameter name="userPassword" value="Elastica1234!"/>
+	<parameter name="tenantName" value="protectbeatlecom"/>
+	<parameter name="isLoggingOn" value="true"/>
+	<parameter name="apiBaseVersion" value="v1"/>
+	<parameter name="apiserverHostName" value="qa-vpc-ui.elastica-inc.com"/>
+	<parameter name="saasApp" value="GDrive"></parameter>
+	
+	<!-- admin@securletbeatle.com
+	<parameter name="externalgdriveRefreshToken" value="1/eckCHbIndshTd6zxoq5Ds13OqYondPtDxMNV2BUIzGhIgOrJDtdun6zK6XiATCKT"/>
+    <parameter name="externalgdriveClientId" value="531581515230-0k9p8gne8a0uh116u4fff7j93o7nsdu1.apps.googleusercontent.com"/>
+    <parameter name="externalgdriveClientSecret" value="EQUZEc3QoEa0EqBzHVpoMLgr"/> -->
+    
+	<parameter name="saasAppClientId" value="598962447624-u80bj7upppl6rdc39imgo6n1piesu9is.apps.googleusercontent.com"/>
+	<parameter name="saasAppClientSecret" value="ZnCC0gArfy_2jnbi16S7_2U2"/>
+	<parameter name="saasAppRefreshToken" value="1/87lxp_CwWVlN9HfMtyMfvOydI9VEoK-rjyq-6uIHOOhIgOrJDtdun6zK6XiATCKT"/>
+	<parameter name="saasAppUsername" value="admin@protectbeatle.com"/>
+	
+	<parameter name="externalgdriveRefreshToken" value="1/KbQ0Uo8zWnnxKYfmWXPKMq8vFYhdcfqIp5xH4vkzvY9IgOrJDtdun6zK6XiATCKT"/>
+    <parameter name="externalgdriveClientId" value="395072213916-ll2adudv66mubfvddesp8j6u2fuvaruk.apps.googleusercontent.com"/>
+    <parameter name="externalgdriveClientSecret" value="j0ONnv9_R7nOdh-Dt81kTbTF"/>
+    <parameter name="externalgdriveUser" value="mayurbelekar@gmail.com"/>
+    
+	<parameter name="internalSaasAppClientSecret" value="mhLilGjqtLXwUO0sjiGUtpb2"/>
+	<parameter name="internalSaasAppClientId" value="1004916255039-2ot9p1th0cdjoquuhvbdrrfpumdsn91l.apps.googleusercontent.com"/>
+	<parameter name="internalSaasAppRefreshToken" value="1/XT-bazuYRqNHvyZsPM5y3EuiRv_Vn4VvPtrVWJY-mv9IgOrJDtdun6zK6XiATCKT"/>
+	<parameter name="internalSaasAppUsername" value="protectauto1@protectbeatle.com"/>
+    	
+	<test name="Protect DataExposure GDrive Securlet Prevent Writer Can Share Remediation">
+		<classes>
+			<class name="com.elastica.beatle.tests.protect.dataexposure.GoogleDrivePreventWritersCanShareTests"></class>
+		</classes>
+	</test>
+	
+	<test name="Protect DataExposure GDrive Securlet Prevent Download Copy Print Remediation">
+		<classes>
+			<class name="com.elastica.beatle.tests.protect.dataexposure.GoogleDrivePreventDownloadPrintCopyTests"></class>
+		</classes>
+	</test>
+	
+</suite>

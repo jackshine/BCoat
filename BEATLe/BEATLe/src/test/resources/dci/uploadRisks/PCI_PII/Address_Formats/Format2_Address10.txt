@@ -1,0 +1,9 @@
+Email: alex@yahoo.com
+SSN: 118-60-6458
+DOB 2/23/1986
+Age: 30
+Name Diane Gonzalez
+Street: 85 Country Club Drive
+City: Campbell
+State: California 
+Zip Code: 95008

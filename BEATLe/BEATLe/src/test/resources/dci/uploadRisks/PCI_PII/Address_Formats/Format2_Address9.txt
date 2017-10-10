@@ -1,0 +1,9 @@
+SSN: 169-24-1862 
+age 32 years old
+date of birth: 9/10/1981
+Email: tacoso@nipketfu.gov
+Name : Nancy Thompson 
+Street: 343 Valley Drive
+City: Onalaska
+State: Wisconsin
+Zip Code: 54650

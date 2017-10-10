@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+<suite name="Audit Test Suite" parallel="instances" thread-count="20">
+	<parameter name="userName" value="user@auditweekscp2zip.co"></parameter>
+	<parameter name="userPassword" value="Elastica@123"></parameter>
+	<parameter name="environmentName" value="eoe"></parameter>
+	<parameter name="tenantName" value="auditweekscp2zipco"></parameter>
+	<parameter name="referer" value="https://eoe.elastica-inc.com" />
+	<parameter name="tenantToken" value="V1cxbk0VNI+eDvnWEsd5gxVFi9kYPOV/sfTeE10Jses=" />
+	<parameter name="isLoggingOn" value="true"></parameter>
+	<parameter name="apiBaseVersion" value="v1"></parameter>
+	
+	<test name="Audit Weekly Scp ZIP Regression Tests">
+		<classes>
+			<class name="com.elastica.beatle.audit.factoryClass.weeklyregressionfactory.ScpWeeklyFactory.AuditScpUploadzipFactory"></class>
+		</classes>
+	</test>			
+</suite>
+

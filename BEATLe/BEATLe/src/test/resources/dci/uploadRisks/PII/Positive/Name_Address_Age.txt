@@ -1,0 +1,5 @@
+age 60 years old
+
+name Terry Saunders
+
+Street Address: 934 Cobblestone Court, Kingston, New York 12401

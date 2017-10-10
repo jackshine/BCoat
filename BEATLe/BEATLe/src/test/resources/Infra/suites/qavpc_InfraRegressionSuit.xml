@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+<suite name="Infra  Regression Test Suite" parallel="false">
+	<parameter name="environmentName" value="qavpc"/>
+	<parameter name=" executiontype" value="sanity"/>
+	<parameter name="userName" value="admin@infrabeatle.com"/>
+	<parameter name="userPassword" value="Matrix$123"/>
+	<parameter name="tenantName" value="infrabeatle.com"/>
+	<parameter name="isLoggingOn" value="true"/>
+	<parameter name="apiBaseVersion" value="v1"/>
+	<parameter name="esScriptsHostName" value="10.0.0.242"/>
+	<parameter name="esScriptsUserName" value="madmin"/>
+	<parameter name="referer" value="https://qa-vpc-ui.elastica-inc.com/"/>
+	<parameter name="apiServer" value="https://qa-vpc-api.elastica-inc.com"/>
+	<parameter name="tanentdb" value="infrabeatlecom"/>
+	<parameter name="hostName" value="qa-vpc-ui.elastica-inc.com"/>
+	<parameter name="tenantDomainName" value="infrabeatlecom"/>
+	<test name="Infra Users and Groups Regression Tests">
+		<classes>
+			<class name="com.elastica.beatle.tests.infra.Infra">
+			<!-- <methods>
+					<include name="ACreateAndDeleteUser"></include>
+				</methods> -->
+			
+			</class>
+		</classes>
+	</test>
+	<test name="Infra Feature Enablement Regression Tests">
+		<groups>
+     	 	<run>
+     		 <include name="EOE" />
+     	 	</run>
+   		</groups>
+		<classes>
+			<class name="com.elastica.beatle.tests.infra.FeatureEnablement">
+				
+				
+			</class>
+		</classes>
+	</test>
+	
+	
+	<test name="Infra RBAC Regression Tests">
+		<classes>
+			<class name="com.elastica.beatle.tests.infra.InfraRBAC">
+				
+				
+			</class>
+		</classes>
+	</test>
+	<test name="Infra Signin Regression Tests">
+		<classes>
+			
+			
+			<class name="com.elastica.beatle.tests.infra.Signin">
+				
+			</class>
+		</classes>
+	</test>
+
+</suite>

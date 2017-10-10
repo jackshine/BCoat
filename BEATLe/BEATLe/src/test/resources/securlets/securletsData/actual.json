@@ -1,0 +1,218 @@
+{
+          "severity": "critical",
+          "facility": "Box",
+          "_ObjectName": "/All Files/8c1640e1-f330-403d-9d83-632fc81d46e4_renamed_Box_HIPAA_Test2.txt",
+          "Resource_Id": "33593826725",
+          "Risks": "PII, ContentIQ Violations, HIPAA",
+          "__source": "API",
+          "content_checks": {
+            "pii": {
+              "updated_timestamp": "1437395734453",
+              "expressions": [
+                {
+                  "values": [
+                    {
+                      "key": "Date of birth",
+                      "value": 2
+                    },
+                    {
+                      "key": "Social security number",
+                      "value": 1
+                    },
+                    {
+                      "key": "Address",
+                      "value": 1
+                    },
+                    {
+                      "key": "Person name",
+                      "value": 1
+                    }
+                  ],
+                  "name": "Personally Identifiable Information"
+                }
+              ]
+            },
+            "computing": {
+              "Reasons": [
+                {
+                  "values": [
+                    {
+                      "key": "Low value",
+                      "value": "0.08 < 0.97"
+                    }
+                  ],
+                  "name": "Content analysis indicates programming or computer-science related material"
+                }
+              ]
+            },
+            "vk_glba": 0,
+            "vk_dlp": 0,
+            "vk_content_iq_violations": [
+              "SWIFT_CODE_Test",
+              "Tick_Dict_T",
+              "UK_Nat_Health_Ser_Test"
+            ],
+            "engineering": {
+              "Reasons": [
+                {
+                  "values": [
+                    {
+                      "key": "Low value",
+                      "value": "0.00 < 0.50"
+                    }
+                  ],
+                  "name": "Content analysis indicates engineering-related material"
+                }
+              ]
+            },
+            "legal": {
+              "Reasons": [
+                {
+                  "values": [
+                    {
+                      "key": "Low value",
+                      "value": "0.01 < 0.15"
+                    }
+                  ],
+                  "name": "Content analysis indicates legal-related material"
+                }
+              ]
+            },
+            "filename": "/mnt/tmp/box/elasticaqanet/4821e26b-b152-4933-bb17-d87a2fb1dcfa_33593826725.tmp",
+            "vk_encryption": 0,
+            "health": {
+              "Reasons": [
+                {
+                  "values": [
+                    {
+                      "key": "Contains",
+                      "value": "Health, medical, or insurance information"
+                    }
+                  ],
+                  "name": "Content analysis indicates health-related material"
+                }
+              ]
+            },
+            "violations": true,
+            "vk_source_code": 0,
+            "content_iq_violations": [
+              {
+                "updated_timestamp": "1437395734453",
+                "violations": [
+                  {
+                    "count": 1,
+                    "predefined_term": "SWIFT code"
+                  }
+                ],
+                "key": "SWIFT_CODE_Test"
+              },
+              {
+                "updated_timestamp": "1437395734453",
+                "violations": [
+                  {
+                    "count": 1,
+                    "dictionary": "Ticker Symbols",
+                    "keyword": "MG"
+                  },
+                  {
+                    "count": 1,
+                    "dictionary": "Ticker Symbols",
+                    "keyword": "MD"
+                  }
+                ],
+                "key": "Tick_Dict_T"
+              },
+              {
+                "updated_timestamp": "1437395734453",
+                "violations": [
+                  {
+                    "count": 1,
+                    "predefined_term": "UK National Health Service Number"
+                  }
+                ],
+                "key": "UK_Nat_Health_Ser_Test"
+              }
+            ],
+            "business": {
+              "Reasons": [
+                {
+                  "values": [
+                    {
+                      "key": "Low value",
+                      "value": "0.00 < 0.70"
+                    }
+                  ],
+                  "name": "Content analysis indicates business-related material"
+                }
+              ]
+            },
+            "vk_vba_macros": 0,
+            "virus": {},
+            "hipaa": {
+              "keywords": [
+                {
+                  "values": [
+                    {
+                      "key": "St.",
+                      "value": 1
+                    },
+                    {
+                      "key": "Mrs.",
+                      "value": 1
+                    },
+                    {
+                      "key": "Miss.",
+                      "value": 1
+                    },
+                    {
+                      "key": "Mr.",
+                      "value": 1
+                    }
+                  ],
+                  "name": "personal_info_keyword"
+                }
+              ],
+              "updated_timestamp": "1437395734453",
+              "expressions": [
+                {
+                  "values": [
+                    {
+                      "key": "icd9_codes",
+                      "value": 1
+                    }
+                  ],
+                  "name": "drug_codes"
+                },
+                {
+                  "values": [
+                    {
+                      "key": "social_security_number_dashes",
+                      "value": 1
+                    },
+                    {
+                      "key": "us_phone",
+                      "value": 3
+                    }
+                  ],
+                  "name": "personal_info_regex"
+                }
+              ]
+            },
+            "mimetype": "application/rtf",
+            "vk_virus": 0,
+            "vk_pci": 0,
+            "doc_class": [
+              "health"
+            ],
+            "vk_pii": 1,
+            "vba_macros": {},
+            "vk_hipaa": 1,
+            "design doc": {}
+          },
+          "user": "qa-admin@elasticaqa.net",
+          "created_timestamp": "2015-07-20T12:35:34",
+          "message": "File 8c1640e1-f330-403d-9d83-632fc81d46e4_renamed_Box_HIPAA_Test2.txt has risk(s) - PII, ContentIQ Violations, HIPAA",
+          "Activity_type": "Content Inspection",
+          "inserted_timestamp": "2015-07-20T12:35:34",
+          "name": "8c1640e1-f330-403d-9d83-632fc81d46e4_renamed_Box_HIPAA_Test2.txt"
+        }

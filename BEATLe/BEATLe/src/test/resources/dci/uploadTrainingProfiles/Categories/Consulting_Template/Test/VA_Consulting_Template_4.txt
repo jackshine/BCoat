@@ -1,0 +1,136 @@
+﻿SAMPLE JOINT MARKETING AGREEMENT (TEMPLATE)
+{quick note: this is written in fully parallel structure, with both parties having the same rights and obligations.  I've substituted in "MyCorp" for the originating company, and a blank for the partner company, later referred to as "Company."  You will want to change the specific business terms for your individual deal, and review it with your company's attorneys if that is your policy.}	
+
+
+	This Marketing Agreement (this “Agreement”) is entered into this ___ day of _____________, 200x (the “Effective Date”) by and between MyCorp, Inc., a ___________ corporation (“MyCorp”), with offices at _________________________, and _____________, a ___________________ corporation, with offices at ___________________________(the “Company”).  MyCorp and Company are sometimes referred to herein collectively as the “parties” or individually as a “party.”
+A.	MyCorp provides, among other things, _______________________.
+B.	The Company provides, among other things, _______________________.
+C.	The parties wish to enter into this Agreement to cooperate in certain co-marketing activities.
+NOW, THEREFORE, in consideration of the above premises, the representations, warranties and covenants set forth herein, and for other good and valuable consideration, the receipt and sufficiency of which is hereby acknowledged, and intending to be legally bound hereby, the parties agree as follows:  
+1. Marketing and Promotional Activities.  To the extent indicated on Exhibit A hereto, the parties agree to use commercially reasonable efforts to engage in the marketing and promotional activities described on Exhibit A hereto.
+2. [Trademarks;] Reservation of Rights.
+2.1 Materials.  To the extent indicated on Exhibit A, each party will provide the other party with electronic files containing the trademarks, logos and trade names of such party to be used under this Agreement, as specified in Exhibit B, if any (the “Marks”).
+2.2 License by MyCorp.   Subject to the terms and conditions of this Agreement, MyCorp hereby grants to Company a [worldwide,] non-exclusive, non-assignable, non-sublicenseable, royalty-free, paid up, limited license [in the geographical territory or other field of use] to use and display MyCorp’s Marks solely as necessary to perform Company’s obligations under this Agreement and as specifically described on Exhibit A.  
+2.3 License by Company.  Subject to the terms and conditions of this Agreement, Company hereby grants to MyCorp a [worldwide,] non-exclusive, non-assignable, non-sublicenseable, royalty-free, paid up, limited license [in the geographical territory or other field of use] to use and display Company’s Marks solely as necessary to perform MyCorp’s obligations under this Agreement and as specifically described on Exhibit A.  
+2.4 Trademark Guidelines.  In its use of the Marks of the other party (“Licensor”), each party (“Licensee”) will comply with any trademark usage guidelines that Licensor may communicate to Licensee from time to time.  Each use of Licensor’s Marks by Licensee will be accompanied by the appropriate trademark symbol (either “™” or “®”) and a legend specifying that such Marks are trademarks of Licensor as specified on Exhibit B, and will be in accordance with Licensor’s then-current trademark usage policies as provided in writing to Licensee from time to time.  Licensee will provide Licensor with copies of any materials bearing any of Licensor’s Marks as requested by Licensor from time to time.  If Licensee’s use of any of Licensor’s Marks, or if any material bearing such Marks, does not comply with the then-current trademark usage policies provided in writing by Licensor, Licensee will promptly remedy such deficiencies upon receipt of written notice of such deficiencies from Licensor.  Other than the express licenses granted herein with respect to each Licensor’s Marks, nothing herein will grant to Licensee any other right, title or interest in Licensor’s Marks.  All goodwill resulting from Licensee’s use of Licensor’s Marks will inure solely to Licensor.  Licensee will not, at any time during or after this Agreement, register, attempt to register, claim any interest in, contest the use of, or otherwise adversely affect the validity of any of Licensor’s Marks (including, without limitation, any act or assistance to any act, which may infringe or lead to the infringement of any such Marks).]
+2.5 Reservation of Rights.  The parties acknowledge and agree that, except for the rights and licenses expressly granted by each party to the other party under this Agreement, each party will retain all right, title and interest in and to its products, services, Marks, and all content, information and other materials on its website(s), and nothing contained in this Agreement will be construed as conferring upon such party, by implication, operation of law or otherwise, any other license or other right.
+3. Warranties; Limitation of Liability.  
+3.1 Warranties.  Each party represents and warrants to the other that (a) it has the full power to enter into this Agreement and to perform its obligations hereunder, (b) this Agreement constitutes a legal, valid and binding obligation of such party, enforceable against such party in accordance with its terms, and (c) this Agreement does not contravene, violate or conflict with any other agreement of such party.
+3.2 Disclaimer.  EXCEPT AS SPECIFICALLY PROVIDED IN THIS AGREEMENT, NEITHER PARTY MAKES, AND EACH PARTY EXPRESSLY DISCLAIMS, ANY REPRESENTATIONS OR WARRANTIES IN CONNECTION WITH THIS AGREEMENT, WHETHER EXPRESS, IMPLIED, STATUTORY OR OTHERWISE, INCLUDING, WITHOUT LIMITATION, WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE, NON-INFRINGEMENT OF THIRD PARTY RIGHTS, TITLE, ANY WARRANTIES ARISING OUT OF A COURSE OF PERFORMANCE, DEALING OR TRADE USAGE, AND THEIR EQUIVALENTS UNDER THE LAWS OF ANY JURISDICTION.
+3.3 Limitation of Liability.  [EXCEPT FOR THE PARTIES’ OBLIGATIONS PURSUANT TO SECTION 4,] NEITHER PARTY SHALL BE LIABLE TO THE OTHER PARTY FOR ANY SPECIAL, CONSEQUENTIAL, PUNITIVE, INCIDENTAL, OR INDIRECT DAMAGES, OR ANY DAMAGES FOR LOST DATA, BUSINESS INTERRUPTION, LOST PROFITS, LOST REVENUE OR LOST BUSINESS, ARISING OUT OF OR IN CONNECTION WITH THIS AGREEMENT, HOWEVER CAUSED AND BASED ON ANY THEORY OF LIABILITY, ARISING OUT OF THIS AGREEMENT, WHETHER OR NOT SUCH PARTY HAS BEEN ADVISED OF THE POSSIBILITY OF SUCH DAMAGE, AND NOTWITHSTANDING ANY FAILURE OF ESSENTIAL PURPOSE OF ANY LIMITED REMEDY.  [IN NO EVENT WILL THE AGGREGATE LIABILITY OF ANY PARTY UNDER THIS AGREEMENT EXCEED $____________.]
+4. No Agency[; No Disparagement].  Notwithstanding anything in this Agreement, neither party will make any claims, representations or warranties on behalf of the other party or bind the other party, and neither party is authorized to do so by this Agreement.  The relationship between the parties will be that of independent contractors.  Nothing contained herein will be construed to imply a joint venture, principal or agent relationship, or other joint relationship, and neither party will have the right, power or authority to bind or create any obligation, express or implied, on behalf of the other party.  [During the term of this Agreement, each party shall not make any public statements disparaging the other party’s [Marks], products or services.]
+5. Indemnification.  Except as expressly set forth in this Section 5, neither party shall have any obligations to indemnify the other party.
+1.1 By Company.  Company agrees to indemnify and hold harmless MyCorp from and against any and all claims, damages, liabilities, losses,  judgments, costs, and attorneys’ fees arising directly out of, or relating to: (a) Company’s gross negligence or willful misconduct in engaging in the marketing and promotional activities described in Section 1 hereof, [and (b) any statements made by Company during the term of this Agreement disparaging the [Marks,] products or services of Company, whether or not such statements are true, provided that occasional inadvertent breaches of this clause (b) by Company shall not be deemed a material breach of this Agreement].  Notwithstanding the foregoing, MyCorp shall have the right, in its absolute discretion and at its sole cost, to employ attorneys of its own choice and to institute or defend any claim for which MyCorp has a right to be indemnified. 
+1.2 By MyCorp.  MyCorp agrees to indemnify and hold harmless Company from and against any and all claims, damages, liabilities, losses,  judgments, costs, and attorneys’ fees arising directly out of, or relating to: (a) MyCorp’s gross negligence or willful misconduct in engaging in the marketing and promotional activities described in Section 1 hereof, [and (b) any statements made by MyCorp during the term of this Agreement disparaging the [Marks,] products or services of Company, whether or not such statements are true, provided that occasional inadvertent breaches of this clause (b) by MyCorp shall not be deemed a material breach of this Agreement].  Notwithstanding the foregoing, Company shall have the right, in its absolute discretion and at its sole cost, to employ attorneys of its own choice and to institute or defend any claim for which Company has a right to be indemnified.  
+6. Term and Termination.
+6.1 Term.  This Agreement will be in effect for a ______ ( ) year term commencing on the Effective Date unless earlier terminated pursuant to this Section 6.  [If not earlier terminated, this Agreement will renew automatically for additional one (1) year terms unless either party delivers to the other party written notice of its intention not to renew at least thirty (30) days prior to the end of the initial or any renewal term.]
+1.3 Termination For Cause.  Either party may terminate this Agreement upon thirty (30) days prior written notice to the other party. 
+1.4 Survival.  Sections 2.5, 3.2, 3.3, 4, 5, 1.4, and 7 will survive any expiration or termination of this Agreement.  Notwithstanding the foregoing, the expiration or termination of this Agreement will not relieve the parties of any liability or obligation that accrued prior to such expiration or termination.  [Upon the expiration or termination of this Agreement, each party will cease the display and use of the Marks of the other party as described on Exhibit A and shall not use or display the Marks of the other party except as permitted by applicable law.]
+7. General. 
+7.1 Confidential Information.  The disclosure and use of any confidential information exchanged by the parties is governed by a separate confidentiality agreement entered into by the parties. 
+7.2  Governing Law; Venue.  This Agreement is to be construed in accordance with and governed by the internal laws of the State of California without giving effect to any choice of law rule that would cause the application of the laws of any jurisdiction other than the internal laws of the State of California to the rights and duties of the parties.  Each party hereby irrevocably consents to the jurisdiction and venue of the state and federal courts located in Los Angeles County, California in connection with any claim, action, suit, or proceeding relating to this Agreement and agrees that all suits or proceedings relating to this Agreement shall be brought only in such courts, provided that either party may seek injunctive, equitable or similar relief from any court of competent jurisdiction.  
+7.3 Waiver; Severability.  No waiver of a party’s rights shall be effective unless such waiver is in writing signed by the waiving party.  If any provision of this Agreement or the application of such provision to any person or circumstance shall be held invalid, illegal, against public policy or is otherwise unenforceable, the remainder of this Agreement or the application of such provision to persons or circumstances other than those to which it is held invalid shall not be affected thereby.
+7.4 Assignment.  Either party shall have the right to assign this Agreement provided that such party provides prior written notice of such assignment to the other party. 
+7.5 Notices.   Any notice required or permitted to be given by either party under this Agreement shall be in writing and sent to each party at its address or facsimile number set forth in the first paragraph of this Agreement, or such new address or facsimile number as may from time to time be supplied by the parties hereto in accordance with this Section 7.5.   
+7.6 Captions; Entire Agreement; Amendment.  The captions or headings of the Sections of this Agreement are for reference only and are not to be construed in any way as part of this Agreement. This Agreement constitutes the complete understanding and agreement of the parties and supersedes all prior and contemporaneous negotiations, understandings and agreements with respect to the subject matter of this Agreement.  Any modification or amendment of any provision of this Agreement will be effective only if in writing and signed by an authorized representative of both parties.
+7.7  Counterparts.  This Agreement may be executed in one or more counterparts, each of which shall constitute an original, but all of which together shall constitute one instrument.
+*****************
+
+
+IN WITNESS WHEREOF, the parties have executed this Marketing Agreement as of the date first written above.
+
+
+MYCORP, INC.
+[COMPANY]
+By: 					
+By: 					
+Name: _                        _____________________
+Name: 					
+Title: _                        ____________________  _
+Title: 					
+
+
+
+Exhibit A
+
+Marketing and Promotional Activities
+
+The parties will engage in the marketing and promotional activities which are marked by an “X” below:
+
+“X”
+Description of Activity
+Additional Information
+
+____
+Public statements about the inter-operability of, or other relationship between, the parties’ products and services
+
+____
+Collaboration activities and public statements about such collaboration activities
+
+
+____
+Promotion of other party’s products/services on each party’s website through ___ links, ___ buttons, ___ banners and other graphical and textual material
+
+
+____
+Press releases regarding the parties’ relationship and the other party’s products/services issued by each party solely 
+
+
+____
+Joint press releases regarding parties’ relationship and the other party’s products/services issued jointly by the parties
+
+____
+Development of joint marketing materials
+
+
+____
+Case study of the compatibility and inter-operability of, or other relationship between, the parties’ products/services
+
+
+____
+White paper on the compatibility and inter-operability of, or other relationship between, the parties’ products/services
+
+____
+Endorsement and introduction of each party to other party’s customers
+
+____
+Endorsement and introduction of each party to other party’s sales agents and representatives
+
+____
+Training of, and support provided to, the other party’s sales personnel
+
+
+____
+Joint attendance/sponsoring of trade shows, conventions, conferences, and other events agreed by the parties
+
+
+
+____
+Providing each party with demonstration units of each party’s products/services (and assistance in setting up units at party’s facilities, industry events and other demonstration locales)
+
+____
+Other:
+
+
+____
+Other:
+
+
+____
+Other:
+
+
+
+
+
+
+
+
+
+
+Exhibit B
+
+Marks 
+
+
+

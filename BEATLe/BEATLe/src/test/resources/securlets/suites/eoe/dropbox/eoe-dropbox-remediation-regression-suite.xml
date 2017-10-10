@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+<suite name="[EoE] Dropbox Remediation Regression Test Suite" parallel="false">
+    <parameter name="environmentName" value="eoe"/>
+    <parameter name="userName" value="admin@securletbeatle.com"/>
+    <parameter name="userPassword" value="Elastica1234!"/>
+    <parameter name="tenantName" value="securletbeatlecom"/>
+    <parameter name="isLoggingOn" value="true"/>
+    <parameter name="apiBaseVersion" value="v1"/>
+    <parameter name="esScriptsHostName" value="10.0.0.242"/>
+    <parameter name="esScriptsUserName" value="madmin"/>
+    <parameter name="referer" value="https://eoe.elastica-inc.com"/>
+    <parameter name="tenantToken" value="H3YK/Vxr3p+qm9dfmKvmh7oYaPBJMqUsszm+LOStr4k="/>
+    <parameter name="dropboxAdminAccessToken" value="R2VaTghjreAAAAAAAAAACLC6oj6NaOAhJFEtiu-GxlkGFm_PXYZnJzYW0hEIERP5"/>
+    <parameter name="dropboxTeamMemberManagementToken" value="OoI6e7PmtUAAAAAAAADRcfKky3nC-nRw1wkcKasY73_pA5BLUAFKanDakfcnEJiR"/>
+    <parameter name="dropboxTeamMemberFileAccessToken" value="OoI6e7PmtUAAAAAAAADRcysQoCn0MMmu0vn9GE6q6aL7xs3cxG2eEFJ7jfBuuEI2"/>
+    <parameter name="delayBetweenSaaSActivity" value="60"/>   
+    <parameter name="waitPeriodForElasticSearchEngine" value="120"/> 
+    <parameter name="maxRetryCount" value="2"/>     
+	
+    <test name="Securlets Dropbox Remediation Regression Test Suite" preserve-order="true" parallel="false">
+		
+        <classes>
+            <class name="com.elastica.beatle.tests.securlets.DropboxSecurletRemediation">
+                <methods>     
+                    <!--                SaaS Activities-->
+                    <include name="performFileUploadAndFolderCreationInSaasApp"/>
+                    <include name="createPublicLinkOfFileinSaasApp"/>
+                    <include name="performSharedLinkRevokeRemediationAndValidateInSaaSApp"/>     
+                    <include name="performDeleteRemediationAndValidateInSaaSApp"/>  
+                  
+                </methods>
+            </class>
+        </classes>
+    </test>
+</suite>

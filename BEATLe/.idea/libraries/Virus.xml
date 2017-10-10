@@ -1,0 +1,9 @@
+<component name="libraryTable">
+  <library name="virus">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/BEATLe/src/test/resources/uploads/office365/virus.zip!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>

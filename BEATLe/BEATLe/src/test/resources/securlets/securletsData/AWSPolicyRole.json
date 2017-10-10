@@ -1,0 +1,1 @@
+{"Version":"2012-10-17","Statement":[{"Action":"sts:AssumeRole","Principal":{"AWS":"arn:aws:iam::730926784978:root"},"Effect":"Allow","Condition":{"StringEquals":{"sts:ExternalId":"El970855749174"}},"Sid":""}]}

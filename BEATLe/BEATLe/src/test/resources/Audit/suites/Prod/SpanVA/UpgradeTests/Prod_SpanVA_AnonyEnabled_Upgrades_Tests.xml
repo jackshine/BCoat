@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+<suite name="Audit Test Suite">
+ <parameter name="userName" value="admin@protecto365autobeatle.com"/>
+    <parameter name="userPassword" value="Elastica123#"/>
+    <parameter name="environmentName" value="prod"></parameter>
+	<parameter name="tenantName" value="protecto365autobeatlecom"/>
+    <parameter name="referer" value="https://app.elastica.net" />
+    <parameter name="tenantToken" value="OTvuLKboVDvZECaCIIzphWZBI051s+gcjd0HiHAPkFI="/>
+    <parameter name="isLoggingOn" value="true"></parameter>
+	<parameter name="apiBaseVersion" value="v1"></parameter>
+	<parameter name="spanvaip" value="10.0.61.53" />
+	<parameter name="spanvausername" value="admin" />
+	<parameter name="spanvapwd" value="Admin123!" />
+	<parameter name="spanvaUpgradedVersion" value="1.15.2.61.0-15rc" />
+	<parameter name="dpoUserName" value="dpotest@protecto365autobeatle.com" />
+	<parameter name="dpoUserPassword" value="XKSukr2#" />
+	<parameter name="spanvaAgentName" value="Prod_SpanvaUpgrades_AnonyEnabled" />
+	<parameter name="loadApparraziServicesCheck" value="yes" />
+	
+	
+	<test name="Audit Spanva upgrades tests 1.15.2.58.1-4rc to 1.15.2.61.0-15rc  - tenant: protecto365autobeatlecom">
+		<classes>
+			<class name="com.elastica.beatle.tests.audit.spanvatests.SpanvaUpgradeTests.Audit_SpanVA_Scp_to_Upgraded_Scp_ScpClient_FtpClient_Https_Put_Post_Tests"/>
+		</classes>
+	</test>	
+
+</suite>
+

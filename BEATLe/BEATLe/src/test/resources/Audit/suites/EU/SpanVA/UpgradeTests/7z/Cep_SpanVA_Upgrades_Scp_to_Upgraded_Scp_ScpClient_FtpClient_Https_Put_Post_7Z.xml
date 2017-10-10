@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+<suite name="Audit Test Suite">
+	 <parameter name="userName" value="admin@securletbeatle.com"></parameter>
+	<parameter name="userPassword" value="Elastica123!"></parameter>
+	<parameter name="environmentName" value="cep"></parameter>
+	<parameter name="tenantName" value="securletbeatlecom"></parameter>
+	<parameter name="referer" value="https://app-cep.elastica.net" />
+	<parameter name="tenantToken" value="H3YK/Vxr3p+qm9dfmKvmh7oYaPBJMqUsszm+LOStr4k="/>
+	<parameter name="isLoggingOn" value="true"></parameter>
+	<parameter name="apiBaseVersion" value="v1"></parameter>
+	<parameter name="spanvaip" value="10.0.62.133" />
+	<parameter name="spanvausername" value="admin" />
+	<parameter name="spanvapwd" value="Admin123!" />
+	<parameter name="spanvaAgentName" value="eoetest1" />
+	<parameter name="logCompressionFormat" value="7z" />
+	
+	<test name="Audit_SpanVA_Integration_Upgrade_Regression_Tests_on_1_10_2_51_0-9rc">
+			<classes>
+			<class name="com.elastica.beatle.tests.audit.spanvatests.SpanvaUpgradeTests.Audit_SpanVA_Scp_to_Upgraded_Scp_ScpClient_FtpClient_Https_Put_Post_Tests"/>
+		</classes>
+		</test>
+	
+</suite>

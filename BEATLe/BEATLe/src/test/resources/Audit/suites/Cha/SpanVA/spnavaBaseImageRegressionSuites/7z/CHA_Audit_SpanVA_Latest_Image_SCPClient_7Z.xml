@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+<suite name="Audit Test Suite" parallel="instances" thread-count="2">
+	<parameter name="userName" value="elastica-support-elastica@auditddd2.com"></parameter>
+        <parameter name="userPassword" value="Elastica@123"></parameter>
+        <parameter name="environmentName" value="envX"></parameter>
+        <parameter name="tenantName" value="auditddd2com"></parameter>
+        <parameter name="tenantToken"
+                           value="PnytMl+DQiUdwmE8Gb8xug==" />
+        <parameter name="referer" value="https://cha.elastica-inc.com" />
+        <parameter name="isLoggingOn" value="true"></parameter>
+        <parameter name="apiBaseVersion" value="v1"></parameter>
+     <parameter name="spanvaip" value="10.0.60.211" />
+	<parameter name="spanvausername" value="admin" />
+	<parameter name="spanvapwd" value="Admin123!" />
+	<parameter name="spanvaAgentName" value="CHA_Anony_Disabled" />
+	<parameter name="loadApparraziServicesCheck" value="no" />
+	
+	<test name="Audit SpanVA Latest Image  SCP Client 7Z Regression Tests">
+		<classes>
+			<class name="com.elastica.beatle.audit.factoryClass.spanva.AuditSpanvaLatestImageScpClient7ZFactory"/>
+		</classes>
+	</test>	
+
+</suite>

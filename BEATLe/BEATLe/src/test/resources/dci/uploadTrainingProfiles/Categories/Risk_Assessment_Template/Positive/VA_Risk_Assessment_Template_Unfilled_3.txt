@@ -1,0 +1,387 @@
+DELIBERATE RISK ASSESSMENT WORKSHEET
+1. MISSION/TASK DESCRIPTION
+
+2. DATE (DD/MM/YYYY)
+
+3. PREPARED BY
+a. Name (Last, First, Middle Initial)
+
+b. Rank/Grade
+
+c. Duty Title/Position
+
+f. Telephone (DSN/Commercial (Include Area Code))
+
+d. Unit
+
+e. Work Email
+
+g. UIC/CIN (as required)
+
+h. Training Support/Lesson Plan or OPORD (as required) i. Signature of Preparer
+
+Five steps of Risk Management: (1) Identify the hazards
+
+(2) Assess the hazards
+
+(4) Implement controls
+4. SUBTASK/SUBSTEP
+OF MISSION/TASK
+
+5. HAZARD
+
+(3) Develop controls & make decisions
+
+(5) Supervise and evaluate
+6. INITIAL
+RISK
+LEVEL
+
+(Step numbers not equal to numbered items on form)
+9. RESIDUAL
+
+8. HOW TO IMPLEMENT/
+WHO WILL IMPLEMENT
+
+7. CONTROL
+
+RISK LEVEL
+
+How:
+Who:
+How:
+Who:
+How:
+Who:
+How:
+
+Who:
+How:
+Who:
+
+Additional entries for items 5 through 9 are provided on page 2.
+10. OVERALL RESIDUAL RISK LEVEL (All controls implemented):
+EXTREMELY HIGH
+
+HIGH
+
+MEDIUM
+
+LOW
+
+11. OVERALL SUPERVISION PLAN AND RECOMMENDED COURSE OF ACTION
+
+12. APPROVAL OR DISAPPROVAL OF MISSION OR TASK
+a. Name (Last, First, Middle Initial )
+
+b. Rank/Grade
+
+APPROVE
+c. Duty Title/Position
+
+DISAPPROVE
+d. Signature of Approval Authority
+
+e. Additional Guidance:
+
+DD FORM 2977, JAN 2014
+
+Page 1 of ____ Pages
+Adobe Professional X
+
+DELIBERATE RISK ASSESSMENT WORKSHEET
+4. SUBTASK/SUBSTEP
+OF MISSION/TASK
+
+5. HAZARD
+
+6. INITIAL
+RISK
+LEVEL
+
+7. CONTROL
+
+8. HOW TO IMPLEMENT/
+WHO WILL IMPLEMENT
+
+9. RESIDUAL
+RISK LEVEL
+
+How:
+
+Who:
+How:
+
+Who:
+How:
+
+Who:
+How:
+
+Who:
+How:
+
+Who:
+How:
+
+Who:
+How:
+
+Who:
+How:
+
+Who:
+How:
+
+Who:
+How:
+
+Who:
+How:
+
+Who:
+How:
+
+Who:
+How:
+
+Who:
+How:
+
+Who:
+
+DD FORM 2977, JAN 2014
+
+Page ____ of ____ Pages
+
+DELIBERATE RISK ASSESSMENT WORKSHEET
+Probability (expected frequency)
+Frequent:
+
+Risk Assessment Matrix
+
+Continuous,
+regular, or
+inevitable
+occurrences
+
+Severity (expected consequence)
+Catastrophic: Death, unacceptable
+loss or damage, mission failure,
+or unit readiness eliminated
+
+Critical: Severe injury, illness, loss,
+or damage; significantly degraded
+unit readiness or mission capability
+
+Moderate: Minor injury, illness, loss,
+or damage; somewhat degraded
+unit readiness or mission capability
+Negligible: Minimal injury, loss,
+
+or damage; little or no impact to
+unit readiness or mission capability
+
+Legend:
+EH – extremely high risk
+
+Likely:
+
+Occasional:
+
+Seldom:
+
+Several or
+numerous
+occurrences
+
+Sporadic or
+intermittent
+occurrences
+
+Infrequent
+occurrences
+
+Unlikely:
+Possible
+occurrences but
+improbable
+
+A
+
+B
+
+C
+
+D
+
+E
+
+I
+
+EH
+
+EH
+
+H
+
+H
+
+M
+
+II
+
+EH
+
+H
+
+H
+
+M
+
+L
+
+III
+
+H
+
+M
+
+M
+
+L
+
+L
+
+IV
+
+M
+
+L
+
+L
+
+L
+
+L
+
+H – high risk
+
+M – medium risk
+
+L – low risk
+
+13. RISK ASSESSMENT REVIEW 5HTXLUHGZKHQDVVHVVPHQWDSSOLHVWRRQJRLQJRSHUDWLRQVRUDFWLYLWLHV
+a. Date
+
+b. Last Name
+
+c. Rank/Grade
+
+d. Duty Title/Position
+
+e. Signature of Reviewer
+
+14. FEEDBACK AND LESSONS LEARNED
+
+15. ADDITIONAL COMMENTS OR REMARKS
+
+DD FORM 2977, JAN 2014
+
+Page ____ of ____ Pages
+
+Instructions for Completing DD Form 2977, "Deliberate Risk Assessment Worksheet"
+1. Mission/Task Description: Briefly describe the overall
+
+10. Overall Risk After Controls are Implemented: Assign
+
+Mission or Task for which the deliberate risk assessment
+
+an overall residual risk level. This is the highest residual
+
+is being conducted.
+
+risk level (from block 9).
+
+2. Date ''00<<<<: Self Explanatory.
+
+3. Prepared By: Information provided by the individual
+conducting the deliberate risk assessment for the operation
+or training .
+Legend: UIC = Unit Identification Code; CIN = Course ID
+Number; OPORD = operation order; DSN = defense
+switched network; COMM = commercial
+
+11. Supervision Plan and Recommended Course of Action:
+Completed by preparer. Identify specific tasks and levels
+of responsibility for supervisory personnel and provide the
+decision authority with a recommend course of action for
+approval or disapproval based upon the overall risk
+assessment.
+12. Approval/Disapproval of Mission/Task: Risk approval
+authority approves or disapproves the mission or task based
+on the overall risk assessment, including controls, residual
+
+4. Sub-task/Sub-Step of Mission/Task: Briefly describe all
+subtasks or substeps that warrant risk management.
+
+risk level, and supervision plan. Space provided for authority to
+provide additional guidance; use continuation page if needed.
+13. Risk Assessment Review: Should be conducted on a
+
+5. Hazard: Specify hazards related to the subtask in block 4.
+
+regular basis. Reviewers should have sufficient oversight of
+the mission or activity and controls to provide valid input on
+changes or adjustments needed. If the residual risk rises
+
+6. Initial Risk Level: Determine probability and severity.
+Using the risk assessment matrix (page 3), determine level
+of risk for each hazard specified. probability, severity and
+associated Risk Level; enter level into column.
+
+above the level already approved, operations should cease
+until the appropriate approval authority is contacted and
+approves continued operations.
+14. Feedback and Lessons Learned: Provide specific input
+on the effectiveness of risk controls and their contribution to
+
+7. Control: Enter risk mitigation resources/controls identified
+to abate or reduce risk relevant to the hazard identified in
+block 5.
+
+mission success or failure. Include recommendations for
+new or revised controls, practicable solutions, or alternate
+actions. Submit and brief valid lessons learned as necessary
+to persons affected.
+
+8. How to Implement / Who Will Implement: Briefly
+
+15. Additional Comments or Remarks: Preparer provides
+
+describe the means of employment for each control
+
+additional comments, remarks, or information to support
+
+(i.e., OPORD, briefing, rehearsal) and the name of the
+
+the risk assessment. If block 15 is used as a continuation
+
+individual unit or office that has primary responsibility for
+
+of block 14, strike through the block number and title.
+
+control implementation.
+Additional Guidance: Block 4-9 continuance page may be
+9. Residual Risk Level: After controls are implemented,
+determine resulting probability, severity, and residual risk
+level.
+
+DD FORM 2977 INSTRUCTIONS, JAN 2014
+
+reproduced as necessary for processing of all subtasks/
+substeps of the mission/task. If a complete page is not utilized,
+write “NOTHING FOLLOWS” on the first unused row,
+immediately after the final item assessed.
+
+

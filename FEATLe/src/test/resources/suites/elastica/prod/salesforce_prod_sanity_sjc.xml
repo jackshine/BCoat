@@ -1,0 +1,61 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+
+<suite name="Gateway Salesforce FE Sanity Test Suite">
+
+	<listeners>
+		<listener class-name="org.uncommons.reportng.HTMLReporter" />
+		<listener class-name="org.uncommons.reportng.JUnitXMLReporter" />
+		<listener class-name="com.elastica.listeners.SuiteListener" />
+		<listener class-name="com.elastica.listeners.MethodListener" />
+		<listener class-name="com.elastica.listeners.ScreenShotListener" />
+		<listener class-name="com.elastica.listeners.PriorityListener" />
+	</listeners>
+	
+	<!-- <parameter name="env" value="prod" />
+	<parameter name="browser" value="Firefox" />
+	<parameter name="mode" value="local" />
+	<parameter name="saasAppBaseUrl" value="https://portal.office.com" />
+	<parameter name="username" value="admin@gatewayo365beatle.com" />
+	<parameter name="password" value="Elastica@123" />
+	<parameter name="testUsername" value="testuserprod@gatewayo365beatle.com" />
+	<parameter name="testPassword" value="Test123!@#" />
+	<parameter name="testUsername" value="admin@gatewayo365beatle.com" />
+	<parameter name="testPassword" value="Elastica@123"/>
+	<parameter name="accountType" value="Internal" /> -->
+
+	<parameter name="env" value="prod" />
+	<parameter name="browser" value="firefox" />
+	<parameter name="mode" value="local" />
+	<parameter name="saasAppBaseUrl" value="https://na34.salesforce.com" />
+	<parameter name="username" value="admin@securletbeatle.com" />
+	<parameter name="password" value="Elastica1234!" />
+	<parameter name="testUsername" value="admin@securletbeatle.com" />
+	<parameter name="testPassword" value="Elastica1234!" />
+	<parameter name="saasAppName" value="Salesforce" />
+	<parameter name="saasAppUsername" value="admin@securletbeatle.com" />
+	<parameter name="saasAppPassword" value="Q#V(7dkkbA@GLz3" />
+	<parameter name="referer" value="https://app.elastica.net" />
+	<parameter name="tenant" value="securletbeatle.com" />
+	<parameter name="tenantDomainName" value="securletbeatle.com" />
+	<parameter name="tenantToken" value="H3YK/Vxr3p+qm9dfmKvmh7oYaPBJMqUsszm+LOStr4k=" />
+	<parameter name="proxyUrl"
+		value="https://api-vip.elastica.net/0e0dc8c9098743139891f6777fb1bbfe/1456123637/elastica.pac"></parameter>
+	<parameter name="proxyExtension" value="Load"></parameter>
+
+	<test name="Gatelet Tests - Salesforce">
+		<parameter name="platform" value="Windows 8.1" />
+		<parameter name="browserVersion" value="40.0" />
+		<parameter name="browserName" value="firefox" />
+		<groups>
+			<run>
+				<include name="cloud"></include>
+				<include name="Sanity"></include>
+			</run>
+		</groups>
+		<classes>
+			<class name="com.elastica.tests.salesforce.SalesforceReportTests" />
+		</classes>
+	</test>
+
+
+</suite>

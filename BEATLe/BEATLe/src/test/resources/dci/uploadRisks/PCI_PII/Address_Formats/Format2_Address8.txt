@@ -1,0 +1,9 @@
+Email: alex@yahoo.com
+SSN: 118-60-6458
+DOB 2/23/1986
+Age: 30
+Name Catherine Bell
+Street: 401 Route 2 
+City: Dover 
+State: New Hampshire 
+Zip Code: 03820

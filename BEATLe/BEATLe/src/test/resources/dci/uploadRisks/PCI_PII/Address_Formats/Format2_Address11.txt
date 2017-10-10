@@ -1,0 +1,9 @@
+SSN: 639-88-0511
+DOB = 10/6/1987 
+age 29 years old
+Name: Wayne Gonzales
+EMAIL: hudun@vijooc.org
+Street: 766 Maple Avenue
+City: Longview
+State: Texas 
+Zip Code:75604

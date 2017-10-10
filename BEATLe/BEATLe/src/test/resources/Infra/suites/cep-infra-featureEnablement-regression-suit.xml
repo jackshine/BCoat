@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+<suite name="Infra Feature Enablement Regression Test Suite" parallel="false">
+	<parameter name="environmentName" value="cep"/>
+	<parameter name=" executiontype" value="sanity"/>
+	<parameter name="userName" value="admin@infrabeatle.com"/>
+	<parameter name="userPassword" value="Elastica123!"/>
+	<parameter name="tenantName" value="infrabeatle.com"/>
+	<parameter name="isLoggingOn" value="true"/>
+	<parameter name="apiBaseVersion" value="v1"/>
+	<parameter name="esScriptsHostName" value="10.0.0.242"/>
+	<parameter name="esScriptsUserName" value="madmin"/>
+	<parameter name="referer" value="https://app-cep.elastica.net/"/>
+   <parameter name="apiServer" value="https://api-cep.elastica.net"/>
+	<parameter name="tanentdb" value="infrabeatlecom"/>
+	
+	
+	<test name="Infra Feature Enablement Regression Tests">
+	<groups>
+      <run>
+      <include name="CEP" />
+      </run>
+   </groups>
+		<classes>
+		
+			<class name="com.elastica.beatle.tests.infra.FeatureEnablement">
+			<!--	<methods>
+					<include name="CEP"></include>
+				</methods> -->
+			</class>
+		</classes>
+	</test>
+</suite>

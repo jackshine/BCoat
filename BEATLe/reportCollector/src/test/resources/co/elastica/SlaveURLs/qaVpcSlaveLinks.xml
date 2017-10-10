@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE properties SYSTEM "http://java.sun.com/dtd/properties.dtd">
+<properties>
+	<entry key="slaveLink">http://10.0.0.38:8080/view/BEATLe%20QA-VPC/job/Audit%20Web%20File%20Upload%20BE%20Regression-QAVPC/ws/BEATLe/target/surefire-reports/emailable-report.html</entry>
+	<entry key="slaveLink">http://10.0.0.38:8080/view/BEATLe%20QA-VPC/job/Audit%20Multiple%20DeviceLogs%20Regression%20Tests%20-QAVPC/ws/BEATLe/target/surefire-reports/emailable-report.html</entry>
+	<entry key="slaveLink">http://10.0.0.38:8080/view/BEATLe%20QA-VPC/job/Audit%20Negative%20Regression%20Tests%20-QAVPC/ws/BEATLe/target/surefire-reports/emailable-report.html</entry>
+	<entry key="slaveLink">http://10.0.0.38:8080/view/BEATLe%20QA-VPC/job/Audit%20S3%20Upload%20BE%20Regression%20Test%20-QAVPC/ws/BEATLe/target/surefire-reports/emailable-report.html</entry>
+	<entry key="slaveLink">http://10.0.0.38:8080/view/BEATLe%20QA-VPC/job/Audit%20ScpSftp%20BE%20Regression-QAVPC/ws/BEATLe/target/surefire-reports/emailable-report.html</entry>
+	<entry key="slaveLink">http://10.0.0.38:8080/view/BEATLe%20QA-VPC/job/Audit%20SpanVA%20Latest%20Image%20Regression%20Tests%20-QAVPC/ws/BEATLe/target/surefire-reports/emailable-report.html</entry>
+	<entry key="slaveLink">	http://10.0.0.38:8080/job/BOP%20BE%20Regression%20QAVPC/lastSuccessfulBuild/artifact/BEATLe/ws/emailable-report.html</entry>
+	<!-- Dashboard links-->
+	<entry key="slaveLink">http://10.0.0.38:8080/view/BEATLe%20QA-VPC/job/Dashboard%20BE%20Regression%20QA-VPC/ws/BEATLe/target/surefire-reports/emailable-report.html</entry>
+	
+	<!-- Infra links -->
+	<entry key="slaveLink">http://10.0.0.38:8080/view/BEATLe%20QA-VPC/job/Infra%20BE%20Regression%20QAVPC/ws/BEATLe/target/surefire-reports/emailable-report.html</entry>
+	<entry key="slaveLink">http://10.0.0.38:8080/view/BEATLe%20QA-VPC/job/Securlet%20BE%20Regression-Gmail%20Mail%20ActivityLogs%20QAVPC/ws/BEATLe/target/surefire-reports/emailable-report.html</entry>
+	<entry key="slaveLink">http://10.0.0.38:8080/view/BEATLe%20QA-VPC/job/DCI%20SaaS%20BE%20Regression%20QAVPC/ws/BEATLe/target/surefire-reports/emailable-report.html</entry>
+	<entry key="slaveLink">http://10.0.0.38:8080/view/BEATLe%20QA-VPC/job/DCI%20CIQ%20Profile%20BE%20Regression%20QAVPC/ws/BEATLe/target/surefire-reports/emailable-report.html</entry>
+	<entry key="slaveLink">http://10.0.0.38:8080/view/BEATLe%20QA-VPC/job/DCI%20CIQ%20Profile%20High%20Sensitivity%20BE%20Regression%20QAVPC/ws/BEATLe/target/surefire-reports/emailable-report.html</entry>
+	<entry key="slaveLink">http://10.0.0.38:8080/view/BEATLe%20QA-VPC/job/DCI%20CIQ%20Profile%20Real%20World%20Files%20BE%20Regression%20QAVPC/ws/BEATLe/target/surefire-reports/emailable-report.html</entry>
+	<entry key="slaveLink">http://10.0.0.38:8080/view/BEATLe%20QA-VPC/job/DCI%20Office365%20Mail%20CIQ%20Profile%20BE%20Regression%20QAVPC/ws/BEATLe/target/surefire-reports/emailable-report.html</entry>
+	<entry key="slaveLink">http://10.0.0.38:8080/view/BEATLe%20QA-VPC/job/DCI%20Risk%20Types%20Goldenset%20BE%20Regression%20QAVPC/ws/BEATLe/target/surefire-reports/emailable-report.html</entry>
+	<entry key="slaveLink">http://10.0.0.38:8080/view/BEATLe%20QA-VPC/job/DCI%20Risk%20Types%20BE%20Regression%20QAVPC/ws/BEATLe/target/surefire-reports/emailable-report.html</entry>
+	<entry key="slaveLink">http://10.0.0.38:8080/view/BEATLe%20QA-VPC/job/DCI%20Content%20Types%20BE%20Regression%20QAVPC/ws/BEATLe/target/surefire-reports/emailable-report.html</entry>
+	<entry key="slaveLink">http://10.0.0.38:8080/view/BEATLe%20QA-VPC/job/DCI%20CIQ%20PDT%20BE%20Regression%20QAVPC/ws/BEATLe/target/surefire-reports/emailable-report.html</entry>
+	<entry key="slaveLink">http://10.0.0.38:8080/view/BEATLe%20QA-VPC/job/DCI%20Box%20Risk%20Types%20Exposure%20Filter%20Metrics%20BE%20Regression%20QAVPC/ws/BEATLe/target/surefire-reports/emailable-report.html</entry>
+	<entry key="slaveLink">http://10.0.0.38:8080/view/BEATLe%20QA-VPC/job/DCI%20Office365%20Risk%20Types%20Exposure%20Filter%20Metrics%20BE%20Regression%20QAVPC/ws/BEATLe/target/surefire-reports/emailable-report.html</entry>
+	
+
+	<entry key="slaveLink">http://10.0.0.38:8080/view/BEATLe%20QA-VPC/job/Detect%20Box%20End%20to%20End%20BE%20Regression%20Tests%20QAVPC/ws/BEATLe/target/surefire-reports/emailable-report.html</entry>
+	<entry key="slaveLink">http://10.0.0.38:8080/view/BEATLe%20QA-VPC/job/Detect%20DropBox%20End%20to%20End%20BE%20Regression%20Tests%20QAVPC/ws/BEATLe/target/surefire-reports/emailable-report.html</entry>
+	<entry key="slaveLink">http://10.0.0.38:8080/view/BEATLe%20QA-VPC/job/Detect%20Gdrive%20End%20to%20End%20BE%20Regression%20Tests%20QAVPC/ws/BEATLe/target/surefire-reports/emailable-report.html</entry>
+	<entry key="slaveLink">http://10.0.0.38:8080/view/BEATLe%20QA-VPC/job/Detect%20office365%20End%20to%20End%20BE%20Regression%20Tests%20QAVPC/ws/BEATLe/target/surefire-reports/emailable-report.html</entry>
+	<entry key="slaveLink">http://10.0.0.38:8080/view/BEATLe%20QA-VPC/job/Detect%20One%20Step%20Sequence%20Detector%20Regression%20Tests%20GDRIVE_API%20QAVPC/ws/BEATLe/target/surefire-reports/emailable-report.html</entry>
+	<entry key="slaveLink">http://10.0.0.38:8080/view/BEATLe%20QA-VPC/job/Detect%20Preferences%20BE%20Regression%20QAVPC/ws/BEATLe/target/surefire-reports/emailable-report.html</entry>
+	<entry key="slaveLink">http://10.0.0.38:8080/view/BEATLe%20QA-VPC/job/Detect-Dashboard%20Regression%20Tests%20QAVPC/ws/BEATLe/target/surefire-reports/emailable-report.html</entry>
+	<entry key="slaveLink">http://10.0.0.38:8080/view/BEATLe%20QA-VPC/job/Detect-Sequence_detector-preference%20BE%20Regression%20QAVPC/ws/BEATLe/target/surefire-reports/emailable-report.html</entry>
+	
+	<entry key="slaveLink">http://10.0.0.38:8080/view/BEATLe%20QA-VPC/job/Securlet%20BE%20Regression-Box%20VPC/ws/BEATLe/target/surefire-reports/emailable-report.html</entry>
+	<entry key="slaveLink">http://10.0.0.38:8080/view/BEATLe%20QA-VPC/job/Securlet%20BE%20Regression-OnedriveBusiness%20VPC/ws/BEATLe/target/surefire-reports/emailable-report.html</entry>
+	<entry key="slaveLink">http://10.0.0.38:8080/view/BEATLe%20QA-VPC/job/Securlets%20BE%20Regression%20Gmail%20Exposure%20and%20Remediation%20%20QAVPC/ws/BEATLe/target/surefire-reports/emailable-report.html</entry>
+	<entry key="slaveLink">http://10.0.0.38:8080/view/BEATLe%20QA-VPC/job/Securlets%20BE%20Regression%20Gmail%20Dashboard%20and%20Metrics%20QAVPC/ws/BEATLe/target/surefire-reports/emailable-report.html</entry>
+	<entry key="slaveLink">http://10.0.0.38:8080/view/BEATLe%20QA-VPC/job/Securlet%20BE%20Regression-Office%20365%20Mail%20QAVPC/ws/BEATLe/target/surefire-reports/emailable-report.html</entry>
+	<entry key="slaveLink">http://10.0.0.38:8080/view/BEATLe%20QA-VPC/job/Securlet%20BE%20Regression-Office%20365%20Mail%20Exposure%20Metrics%20QAVPC/ws/BEATLe/target/surefire-reports/emailable-report.html</entry>
+	
+	<entry key="slaveLink">http://10.0.0.38:8080/view/BEATLe%20QA-VPC/job/Protect%20AccessMonitoring%20Box%20-%20BE%20Regression%20QAVPC/ws/BEATLe/target/surefire-reports/emailable-report.html</entry>
+	<entry key="slaveLink">http://10.0.0.38:8080/view/BEATLe%20QA-VPC/job/Protect%20DataExposure%20Box%20-%20Change%20Share%20Access%20Remediation%20-%20BE%20Regression%20QAVPC/ws/BEATLe/target/surefire-reports/emailable-report.html</entry>
+	<entry key="slaveLink">http://10.0.0.38:8080/view/BEATLe%20QA-VPC/job/Protect%20DataExposure%20Box%20-%20Link%20Expiration%20Remediation%20-%20BE%20Regression%20QAVPC/ws/BEATLe/target/surefire-reports/emailable-report.html</entry>
+	<entry key="slaveLink">http://10.0.0.38:8080/view/BEATLe%20QA-VPC/job/Protect%20DataExposure%20Box%20-%20Remove%20and%20Update%20Collaborator%20Remediation%20-%20BE%20Regression%20QAVPC/ws/BEATLe/target/surefire-reports/emailable-report.html</entry>
+	<entry key="slaveLink">http://10.0.0.38:8080/view/BEATLe%20QA-VPC/job/Protect%20DataExposure%20Box%20-%20Remove%20Link%20Remediation%20-%20BE%20Regression%20QAVPC/ws/BEATLe/target/surefire-reports/emailable-report.html</entry>
+	<entry key="slaveLink">http://10.0.0.38:8080/view/BEATLe%20QA-VPC/job/Protect%20DataExposure%20Dropbox%20Remediation%20-%20BE%20Regression%20QAVPC/ws/BEATLe/target/surefire-reports/emailable-report.html</entry>
+	<entry key="slaveLink">http://10.0.0.38:8080/view/BEATLe%20QA-VPC/job/Protect%20DataExposure%20Google%20Drive%20-%20Change%20File%20Access%20Remediation%20-%20BE%20Regression%20QAVPC/ws/BEATLe/target/surefire-reports/emailable-report.html</entry>
+	<entry key="slaveLink">http://10.0.0.38:8080/view/BEATLe%20QA-VPC/job/Protect%20DataExposure%20Google%20Drive%20-%20Prevent%20Copy%20Download%20Print%20and%20Writes%20Can%20Share%20-%20BE%20Regression%20QAVPC/ws/BEATLe/target/surefire-reports/emailable-report.html</entry>
+	<entry key="slaveLink">http://10.0.0.38:8080/view/BEATLe%20QA-VPC/job/Protect%20DataExposure%20Google%20Drive%20-%20Remove%20And%20Update%20Collaborator%20Remediation%20-%20BE%20Regression%20QAVPC/ws/BEATLe/target/surefire-reports/emailable-report.html</entry>
+	<entry key="slaveLink">http://10.0.0.38:8080/view/BEATLe%20QA-VPC/job/Protect%20DataExposure%20Google%20Drive%20-%20Remove%20Link%20Remediation%20-%20BE%20Regression%20QAVPC/ws/BEATLe/target/surefire-reports/emailable-report.html</entry>
+	<entry key="slaveLink">http://10.0.0.38:8080/view/BEATLe%20QA-VPC/job/Protect%20DataExposure%20Google%20Mail%20-%20Move%20To%20Trash%20Remediation%20-%20BE%20Regression%20QAVPC/ws/BEATLe/target/surefire-reports/emailable-report.html</entry>
+	<entry key="slaveLink">http://10.0.0.38:8080/view/BEATLe%20QA-VPC/job/Protect%20DataExposure%20O365%20-%20Delete%20Unique%20Permission%20Remediation%20-%20BE%20Regression%20QAVPC/ws/BEATLe/target/surefire-reports/emailable-report.html</entry>
+	<entry key="slaveLink">http://10.0.0.38:8080/view/BEATLe%20QA-VPC/job/Protect%20DataExposure%20O365%20-%20Remove%20External%20Collaborator%20Remediation%20-%20BE%20Regression%20QAVPC/ws/BEATLe/target/surefire-reports/emailable-report.html</entry>
+	<entry key="slaveLink">http://10.0.0.38:8080/view/BEATLe%20QA-VPC/job/Protect%20DataExposure%20O365%20-%20Removelink%20Remediation%20-%20BE%20Regression%20QAVPC/ws/BEATLe/target/surefire-reports/emailable-report.html</entry>
+	<entry key="slaveLink">http://10.0.0.38:8080/view/BEATLe%20QA-VPC/job/Protect%20DataExposure%20O365%20-%20Update%20External%20Collaborator%20Remediation%20-%20BE%20Regression%20QAVPC/ws/BEATLe/target/surefire-reports/emailable-report.html</entry>
+	<entry key="slaveLink">http://10.0.0.38:8080/view/BEATLe%20QA-VPC/job/Protect%20DataExposure%20O365%20-%20Update%20Permission%20Remediation%20-%20BE%20Regression%20QAVPC/ws/BEATLe/target/surefire-reports/emailable-report.html</entry>
+	<entry key="slaveLink">http://10.0.0.38:8080/view/BEATLe%20QA-VPC/job/Protect%20DataExposure%20Office%20365%20Mail%20-%20BE%20Regression%20QAVPC/ws/BEATLe/target/surefire-reports/emailable-report.html</entry>
+	<entry key="slaveLink">http://10.0.0.38:8080/view/BEATLe%20QA-VPC/job/Protect%20Exposure%20Combinations%20Box%20Tests%20-%20BE%20Regression%20QAVPC/ws/BEATLe/target/surefire-reports/emailable-report.html</entry>
+	<entry key="slaveLink">http://10.0.0.38:8080/view/BEATLe%20QA-VPC/job/Protect%20Exposure%20Combinations%20GoogleDrive%20Tests%20-%20BE%20Regression%20QAVPC/ws/BEATLe/target/surefire-reports/emailable-report.html</entry>
+	<entry key="slaveLink">http://10.0.0.38:8080/view/BEATLe%20QA-VPC/job/Protect%20Exposure%20Combinations%20OneDrive%20Tests%20-%20BE%20Regression%20QAVPC/ws/BEATLe/target/surefire-reports/emailable-report.html</entry>
+	<entry key="slaveLink">http://10.0.0.38:8080/view/BEATLe%20QA-VPC/job/Protect%20Impact%20Analysis%20BE%20Regression%20Tests%20QAVPC/ws/BEATLe/target/surefire-reports/emailable-report.html</entry>
+	<entry key="slaveLink">http://10.0.0.38:8080/view/BEATLe%20QA-VPC/job/Protect%20Miscellaneous%20Tests%20-%20BE%20Regression%20QAVPC/ws/BEATLe/target/surefire-reports/emailable-report.html</entry>
+	<entry key="slaveLink">http://10.0.0.38:8080/view/BEATLe%20QA-VPC/job/Protect%20ThreatScore%20Box%20-%20BlockUser%20-%20BE%20Regression%20QAVPC/ws/BEATLe/target/surefire-reports/emailable-report.html</entry>
+	<entry key="slaveLink">http://10.0.0.38:8080/view/BEATLe%20QA-VPC/job/Protect%20ThreatScore%20Dropbox%20-%20BlockUser%20-%20BE%20Regression%20QAVPC/ws/BEATLe/target/surefire-reports/emailable-report.html</entry>
+	<entry key="slaveLink">http://10.0.0.38:8080/view/BEATLe%20QA-VPC/job/Protect%20ThreatScore%20Google%20Drive%20-%20BlockUser%20-%20BE%20Regression%20QAVPC/ws/BEATLe/target/surefire-reports/emailable-report.html</entry>
+	<entry key="slaveLink">http://10.0.0.38:8080/view/BEATLe%20QA-VPC/job/Protect%20ThreatScore%20Office%20365%20-%20BlockUser%20-%20BE%20Regression%20QAVPC/ws/BEATLe/target/surefire-reports/emailable-report.html</entry>	
+</properties>

@@ -1,0 +1,9 @@
+Email: alex@yahoo.com
+SSN: 639-88-0511
+DOB 2/2/1986
+Age: 30
+Name Philip Garcia
+Street: 462 Aspen Court 
+City: Waukesha
+State: Wisconsin 
+Zip Code: 53186

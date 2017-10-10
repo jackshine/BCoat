@@ -1,0 +1,5 @@
+DOB: 01/02/1992
+Age: 25 years old
+SSN: 576-55-4600
+Email: lex@gmail.com
+Mrs. Julia Smith

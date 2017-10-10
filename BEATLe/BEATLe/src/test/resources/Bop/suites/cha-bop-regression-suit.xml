@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+<suite name="Bop Regression Test Suite" parallel="false">
+	<parameter name="environmentName" value="envX"/>
+	<parameter name="bopUser" value="adeel.hasan@elastica.co"/>
+	<parameter name="bopPassword" value="click123"/>
+	<parameter name=" executiontype" value="Regression"/>
+	<parameter name="userName" value="adeel.hasan@elastica.co"/>
+	<parameter name="userPassword" value="click123"/>
+	<parameter name="tenantName" value="testdel.com"/>
+	<parameter name="isLoggingOn" value="true"/>
+	<parameter name="apiBaseVersion" value="v1"/>
+	<parameter name="esScriptsHostName" value="10.0.0.242"/>
+	<parameter name="esScriptsUserName" value="madmin"/>
+	<parameter name="referer" value="https://chaapi.elastica-inc.com/"/>
+	
+	<test name="BOP Regression Tests">
+		<groups>
+     	 	<run>
+     		 <include name="EOE" />
+     	 	</run>
+   		</groups>
+		<classes>
+			<class name="com.elastica.beatle.tests.bop.BopTest">
+				<!-- <methods>
+					<include name="verifyUploadFileLogsWithQueryString"></include>
+				</methods> -->
+			</class>
+		</classes>
+	</test>
+</suite>

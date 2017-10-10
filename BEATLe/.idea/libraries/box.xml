@@ -1,0 +1,10 @@
+<component name="libraryTable">
+  <library name="box">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/UniversalAPI/src/test/resources/uploads/box/Attachments_2015630.zip!/" />
+      <root url="jar://$PROJECT_DIR$/UniversalAPI/src/test/resources/uploads/box/Virus.zip!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>

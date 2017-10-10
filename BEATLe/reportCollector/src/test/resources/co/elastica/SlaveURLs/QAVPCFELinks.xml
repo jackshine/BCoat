@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE properties SYSTEM "http://java.sun.com/dtd/properties.dtd">
+<properties>
+
+	<entry key="slaveLink">http://10.0.1.205:8080/view/gw_qavpc/job/Box_GW_FE_Regression_QAVPC_part1/ws/target/surefire-reports/emailable-report.html</entry>
+	<entry key="slaveLink">http://10.0.1.205:8080/view/gw_qavpc/job/O365_GW_FE_Reg_QAVPC_part/ws/target/surefire-reports/emailable-report.html</entry>
+	<entry key="slaveLink">http://10.0.1.205:8080/view/gw_qavpc/job/O365_GW_FE_Reg_QAVPC_part1/ws/target/surefire-reports/emailable-report.html</entry>
+	<entry key="slaveLink">http://10.0.1.205:8080/view/gw_qavpc/job/O365_GW_FE_Reg_QAVPC_part2/ws/target/surefire-reports/emailable-report.html</entry>
+	<entry key="slaveLink">http://10.0.1.205:8080/view/gw_qavpc/job/O365_GW_FE_Reg_QAVPC_part_basic/ws/target/surefire-reports/emailable-report.html</entry>
+	<entry key="slaveLink">http://10.0.1.205:8080/view/gw_qavpc/job/Dropbox%20GW%20FE%20Regression%20QAVPC/ws/target/surefire-reports/emailable-report.html</entry>
+    <entry key="slaveLink">http://10.0.1.205:8080/view/gw_qavpc/job/GDrive%20GW%20FE%20CIQ%20Regression%20QAVPC/ws/target/surefire-reports/emailable-report.html</entry>
+    <entry key="slaveLink">http://10.0.1.205:8080/view/gw_qavpc/job/AWS_GW_FE_Regression_QAVPC/ws/target/surefire-reports/emailable-report.html</entry>
+	<entry key="slaveLink">http://10.0.1.205:8080/view/gw_qavpc/job/Salesforce_GW_FE_Regression_QAVPC/ws/target/surefire-reports/emailable-report.html</entry>
+
+	
+	
+</properties>

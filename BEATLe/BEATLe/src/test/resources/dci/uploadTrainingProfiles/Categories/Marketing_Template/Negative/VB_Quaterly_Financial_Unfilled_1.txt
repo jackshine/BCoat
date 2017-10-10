@@ -1,0 +1,217 @@
+
+
+===============================================================================
+                            ****** Overview ******
+                                  SingleStep
+                                   MultiStep
+                                       ©
+===============================================================================
+****** Sheet 1: SingleStep ******
+     [Company                         Income
+     Name]                         Statement   [i_473570dc9e473e1c_html_6e523190.png]
+                                     For the
+                                       Years
+                                     Ending
+                                    [Dec 31,   Income_Statement_Template
+                                    2014 and
+                                     Dec 31,
+                                       2013]
+                                               © 2008-2014 Vertex42 LLC
+     Revenue                  2014      2013
+                Sales revenue
+                (Less sales
+                returns and
+                allowances)
+                Service
+                revenue
+                Interest
+                revenue
+                Other revenue
+     Total                       -         -
+     Revenues
+                                        [42]
+[42] Expenses
+                Advertising
+                Bad debt
+                Commissions
+                Cost of goods
+                sold
+                Depreciation
+                Employee
+                benefits
+                Furniture and
+                equipment
+                Insurance
+                Interest
+                expense
+                Maintenance
+                and repairs
+                Office
+                supplies
+                Payroll taxes
+                Rent
+                Research and
+                development
+                Salaries and
+                wages
+                Software
+                Travel
+                Utilities
+                Web hosting
+                and domains
+                Other
+     Total                       -         -
+     Expenses
+
+                Net Income       -         -
+                Before Taxes
+                Income tax
+                expense
+
+     Income
+     from                        -         -
+     Continuing
+     Operations
+                {42}                    [42]
+     Below-the-
+     Line Items
+                Income from
+                discontinued
+                operations
+                Effect of
+                accounting
+                changes
+                Extraordinary
+                items
+
+     Net Income                  -         -
+
+===============================================================================
+****** Sheet 2: MultiStep ******
+     [Company                           Income
+     Name]                           Statement   [i_473570dc9e473e1c_html_6e523190.png]
+                                       For the
+                                         Years
+                                       Ending
+                                      [Dec 31,   Income_Statement_Template
+                                      2014 and
+                                       Dec 31,
+                                         2013]
+                                                 © 2008-2014 Vertex42 LLC
+     Revenue                    2014      2013
+              Gross sales    181,683
+              (Less sales
+              returns and   (10,000)
+              allowances)
+              Net Sales      171,683         -
+
+     Cost of
+     Goods
+     Sold
+              Beginning
+              inventory
+              Goods
+              purchased or   130,028
+              manufactured
+              Total Goods    130,028         -
+              Available
+              (Less ending
+              inventory)
+              Cost of Goods  130,028         -
+              Sold
+
+              Gross Profit    41,655         -
+              (Loss)
+
+[42] Expenses
+              Advertising
+              Bad debt
+              Commissions
+              Depreciation    16,616
+              Employee
+              benefits
+              Furniture and
+              equipment
+              Insurance
+              Maintenance
+              and repairs
+              Office
+              supplies
+              Payroll taxes
+              Rent
+              Research and
+              development
+              Salaries and
+              wages
+              Software
+              Travel
+              Utilities
+              Web hosting
+              and domains
+              Other           16,192
+              Total
+              Operating       32,808         -
+              Expenses
+
+     Operating Income          8,847         -
+     (Loss)
+              Non-operating
+              revenues,       12,762
+              expenses,
+              gains, losses
+              (Less
+              interest       (6,113)
+              expense)
+              Income Before   15,496         -
+              Taxes
+              (Less income   (1,069)
+              tax expense)
+     Income From Continuing   14,427         -
+     Operations
+              {42}                        [42]
+     Below-
+     the-Line
+     Items
+              Income from
+              discontinued
+              operations
+              Extraordinary
+              items
+              Cumulative
+              effect of
+              accounting
+              changes
+
+     Net Income               14,427         -
+
+===============================================================================
+****** Sheet 3: © ******
+Income Statement Template[i_473570dc9e473e1c_html_13030059.png]
+
+By Vertex42.com
+http://www.vertex42.com/ExcelTemplates/income-statement.html
+
+© 2008-2014 Vertex42 LLC
+
+This spreadsheet, including all worksheets and associated content is
+considered a copyrighted work under the United States and other copyright
+laws.
+
+Do not submit copies or modifications of this template to any website or
+online template gallery.
+
+Please review the following license agreement to learn how you may or may
+not use this template. Thank you.
+
+See_License_Agreement
+http://www.vertex42.com/licensing/EULA_privateuse.html
+
+
+
+
+
+
+
+
+
+

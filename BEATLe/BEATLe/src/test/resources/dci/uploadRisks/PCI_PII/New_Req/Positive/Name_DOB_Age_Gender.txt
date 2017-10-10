@@ -1,0 +1,4 @@
+Name: Alex Smith
+DOB: 01/02/1992
+Age: 25 years old
+Gender: Male

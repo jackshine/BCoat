@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+<suite name="Audit Test Suite" parallel="instances" thread-count="3">
+	<parameter name="userName" value="elastica-support@vpcauditspanva.co"></parameter>
+	<parameter name="userPassword" value="C9PNbBCf"></parameter>
+	<parameter name="environmentName" value="qavpc"></parameter>
+	<parameter name="tenantName" value="vpcauditspanvaco"></parameter>
+	<parameter name="referer" value="https://qa-vpc-ui.elastica-inc.com"/>
+	<parameter name="isLoggingOn" value="true"></parameter>
+	<parameter name="apiBaseVersion" value="v1"></parameter>
+	<test name="Audit SpanVA Latest Image Regression Tests">
+		<classes>
+			<class name="com.elastica.beatle.audit.factoryClass.AuditSpanVAUploadFactory"/>
+		</classes>
+	</test>	
+
+</suite>

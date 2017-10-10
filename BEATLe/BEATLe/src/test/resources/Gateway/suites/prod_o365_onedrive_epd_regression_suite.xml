@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+<!-- <suite name="Gateway Regression Test Suite" parallel="tests" thread-count="2"> -->
+<suite name="GW - StreamIQ O365 Onedrive EPD Regression Suite" parallel="false">
+	<parameter name="environmentName" value="prod"/>
+	<parameter name="gwHostname" value="50.18.198.37" />
+	<parameter name="userName" value="admin@gatewayo365beatle.com"/>
+	<parameter name="userPassword" value="Elastica@1234"/>
+	<parameter name="tenantName" value="gatewayo365beatlecom"/>
+	<parameter name="tenantDomainName" value="gatewayo365beatle.com"/>
+	<parameter name="isLoggingOn" value="true"/>
+	<parameter name="apiBaseVersion" value="v1"/>
+	<parameter name="saasApp" value="onedrive"/>
+	
+	<test name="GW - StreamIQ O365 Onedrive EPD Regression Test Suite">
+		<parameter name="saasAppUsername" value="testuser1@gatewayo365beatle.com"/>
+		<groups>
+		    <run>
+		      <include name="TEST"/>
+		    </run>
+		  </groups>
+		
+		<classes>
+			<class name="com.elastica.beatle.tests.gateway.O365OneDriveEpdTest">
+			</class>
+		</classes>
+	</test>
+	
+	
+</suite>

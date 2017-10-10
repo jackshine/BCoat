@@ -1,0 +1,142 @@
+PM-298F2-IMM-75LK(1-07).ai
+
+4/12/07
+
+9:20:23 AM
+
+IMMUNIZATION RECORD
+Comprobante de Inmunización
+
+Registry ID Number
+
+VACCINE
+vacuna
+
+DATE
+GIVEN
+fecha de
+vacunación
+
+Type**
+
+Date given
+
+NEXT
+DOSE DUE
+próxima
+vacuna
+
+DOCTOR OFFICE OR CLINIC
+médico o clínica
+
+Name
+nombre
+Birthdate
+fecha de nacimiento
+
+Sex
+sexo
+
+Allergies
+alergias
+Vaccine Reactions
+reacciones a la vacuna
+
+RETAIN THIS DOCUMENT —
+
+VACCINE
+vacuna
+
+DATE
+GIVEN
+fecha de
+vacunación
+
+CONSERVE ESTE DOCUMENTO
+
+DOCTOR OFFICE OR CLINIC
+médico o clínica
+
+NEXT
+DOSE DUE
+próxima
+vacuna
+
+C
+
+M
+
+Y
+
+CM
+
+MY
+
+CY
+
+CMY
+
+K
+
+Parents:
+Padres:
+
+Your child must meet California’s immunization requirements to be enrolled in
+school and child care. Keep this Record as proof of immunization.
+Su niño debe cumplir con los requisitos de vacunas para asistir a la escuela y a la
+guardería. Mantenga este Comprobante: lo necesitará.
+
+DT/Td = Diphtheria, tetanus [difteria, tétano]
+DTaP/Tdap = Diphtheria, tetanus, and pertussis (whooping cough)
+[difteria, tétano, y tos ferina]
+DTP = Diphtheria, tetanus, pertussis (whooping cough)
+[difteria, tétano, y tos ferina]
+HEP A = Hepatitis A
+HEP B = Hepatitis B
+HIB = Hib meningitis ( Haemophilus influenzae type b) [meningitis Hib]
+HPV = Human papillomavirus [virus del papiloma humano]
+INFV = Influenza [la gripe]
+MCV = Meningococcal conjugate vaccine
+[vacuna meningocócia conjugada]
+MMR = Measles, mumps, rubella [sarampión, paperas y rubéola (sarampión alemán)]
+MPV = Meningococcal polysaccharide vaccine
+[vacuna meningocócia polisacárida]
+PNEUMO = Pneumococcal vaccine [neumocócica]
+POLIO = Poliomyelitis [poliomielitis]
+RV = Rotavirus [rotavirus]
+VZV = Varicella (chickenpox) [varicela]
+
+TB SKIN TESTS*
+Given by
+
+Pruebas de la Tuberculosis
+Date read
+
+Read by
+
+mm/indur
+
+Impression
+
+* A chest x-ray may be indicated if skin test is positive.
+** If required for school entry, must be Mantoux unless exception granted by local health department.
+CHEST X-RAY
+Film date: ____/____/____
+Interpretation:
+[Radiografiá]
+Person is free of communicable tuberculosis
+(Necessary if
+skin test positive.)
+
+normal
+yes
+
+abnormal
+no
+
+Signature/Agency: __________________________________________________
+PM 298 F2 (8/08) IMM-75LK
+
+Downloaded	  from	  http://www.tidyforms.com	  
+
+

@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+<suite name="Securlets Office 365 Mail Regression Suite EOE">
+	
+	<test name="Securlets Office 365 Mail End User Tests" parallel="true">
+	
+	<parameter name="environmentName" value="eoe"/>
+	<parameter name="userName" value="admin@securleto365beatle.com"/>
+	<parameter name="userPassword" value="Elastica123!"/>
+	<parameter name="tenantName" value="securletO365beatlecom"/>
+	<parameter name="isLoggingOn" value="true"/>
+	<parameter name="apiBaseVersion" value="v1"/>
+	<parameter name="esScriptsHostName" value="10.0.0.242"/>
+	<parameter name="esScriptsUserName" value="madmin"/>
+	<parameter name="referer" value="https://eoe.elastica-inc.com"/>
+	<parameter name="tenantToken" value="a5fJSgfR2eLjkwqm1pzF06cNrhCguy1t904na91NOtY="/>
+	<parameter name="domainName" value="securletO365beatle"/>
+	<parameter name="saasAppUsername" value="admin@securleto365beatle.com"/>
+	<parameter name="saasAppPassword" value="MHikwjETdOgeFS!"/>
+	<parameter name="saasAppUserRole" value="ADMIN"/>
+	<parameter name="saasAppEndUser2Name" value="testuser1@securleto365beatle.com"/>
+	<parameter name="saasAppEndUser2Password" value="Cafu0340"/>
+<!-- 	<parameter name="saasAppEndUser1Name" value="testuser3@securleto365beatle.com"/> -->
+<!-- 	<parameter name="saasAppEndUser1Password" value="RP)!UZVg5ap^TB1"/> -->
+	<parameter name="saasAppEndUser1Name" value="testuser2@securleto365beatle.com"/>
+	<parameter name="saasAppEndUser1Password" value="j*!uBL3ZndJ4kNC"/>
+	<parameter name="saasAppExternalUser1Name" value="personal.gatewaybeatle@gmail.com"/>
+	<parameter name="saasAppExternalUser1Password" value="ThisIsGoogleAccount"/>
+	<parameter name="saasAppExternalUser2Name" value="admin@protecto365autobeatle.com"/>
+	<parameter name="saasAppExternalUser2Password" value="&amp;1CMlIvd!JWp6n2"/>
+	<parameter name="saasAppGroupMailId" value="mygroup@securletO365beatle.com"/>
+	<parameter name="dpoUserName" value="testuseringroup1@securleto365beatle.com"/>
+	<parameter name="dpoUserPassword" value="Elastica@123"/>
+	
+		<groups>
+		    <run> 
+<!-- 		      <exclude name="i18n"/> -->
+		      <include name="PROD"/>
+<!-- 		      <include name="MAIL3"/> -->
+<!-- 		      <include name="MAIL4"/> -->
+		    </run>
+		  </groups>
+		<classes>
+			<class name="com.elastica.beatle.tests.securlets.Office365MailSecurletTests">
+				<methods>
+<!-- 				<include name="verifyMailFieldsEndUser"></include> -->
+<!-- 				<include name="verifyUserExposureExternalSwitch_BCB_35"></include> -->
+				</methods>
+			</class>
+		</classes>
+	</test> 
+	
+</suite>

@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+<suite name="Detect RBAC Regression Test Suite" parallel="false">
+	<listeners>
+		<listener class-name="com.elastica.beatle.PriorityListener" />
+	</listeners>
+	
+		<parameter name="environmentName" value="prod" />
+		
+		<parameter name="userName" value="admin@detecttbibeatle.com"/>
+	<parameter name="userPassword" value="Elastica@1234"/>
+	<parameter name="tenantName" value="detecttbibeatlecom"/>
+	<parameter name="tenantDomainName" value="detecttbibeatle.com"></parameter>
+	<parameter name="tenantToken" value="TRmYTI2h3mZBrFNbW5WBejpFhX6Aee5yBrOp19PKnQE="/>
+
+		<parameter name="isLoggingOn" value="true" />
+		<parameter name="apiBaseVersion" value="v1" />
+		<parameter name="esScriptsHostName" value="10.0.0.242" />
+		<parameter name="esScriptsUserName" value="madmin" />
+		<parameter name="referer" value="https://app.elastica.net" />
+		
+	
+		<parameter name="saasAppEndUser1Name" value="detecttbitest@detecttbibeatle.com"/>
+		<parameter name="saasAppEndUser1Password" value="Elastica@321"/>
+	
+		<parameter name="saasAppEndUser2Name" value="admin.detect.create@detecttbibeatle.com"/>
+		<parameter name="saasAppEndUser2Password" value="Elastica@1234"/>
+		
+
+	<test name="Detect RBAC Regression Tests">
+		<classes>
+			<class name="com.elastica.beatle.tests.detect.DetectRBACTests"/>
+		</classes>
+	</test>
+	
+</suite>

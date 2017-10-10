@@ -1,0 +1,9 @@
+SSN: 169-24-1862
+DOB = 10/6/1987 
+Age: 29
+Name Kenneth Hernandez
+EMAIL: hudun@vijooc.org
+Street: 428 Vine Street
+City:  Auburndale
+State: Florida
+Zip Code: 33823

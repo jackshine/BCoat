@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+<suite name="Securlets Gmail Regression Suite EOE " parallel="false">
+	<parameter name="environmentName" value="eoe"/>
+	<parameter name="userName" value="admin+6@securletbeatle.com"/>
+	<parameter name="userPassword" value="Elastica1234!"/>
+	<parameter name="tenantName" value="securletbeatlecom"/>
+	<parameter name="isLoggingOn" value="true"/>
+	<parameter name="apiBaseVersion" value="v1"/>
+	<parameter name="esScriptsHostName" value="10.0.0.242"/>
+	<parameter name="esScriptsUserName" value="madmin"/>
+	<parameter name="referer" value="https://eoe.elastica-inc.com"/>
+	<parameter name="tenantToken" value="H3YK/Vxr3p+qm9dfmKvmh7oYaPBJMqUsszm+LOStr4k="/>
+	<parameter name="saasAppUsername" value="box-admin@securletbeatle.com"/>
+	<parameter name="saasAppPassword" value="lYvA7)DZ1zD@CPQgt5zw"/>
+	<parameter name="saasAppUserRole" value="ADMIN"/>
+	<parameter name="socUserName" value="box admin securlet automation"/>
+	<parameter name="saasApp" value="GMAIL"/>
+	<parameter name="saasAppClientId" value="998314684213-34jm3g4k92nejio174qnnb32vojbqg0n.apps.googleusercontent.com"/>
+	<parameter name="saasAppClientSecret" value="YkMqf5GWiHQgHbA1P7BNhxto"/>
+	<parameter name="saasAppToken" value="1/cd7POgIHXlDzJAgwrXhDLWtCgeAozQxzR_r3MSDI1rU"/>
+	
+	<parameter name="saasAppClientIdTest1" value="812119916773-hb47rkktb3p8appsc93cr8tokau0r1gs.apps.googleusercontent.com"/>
+	<parameter name="saasAppClientSecretTest1" value="iSZQfwpG9RP8dKdusaevG1y6"/>
+	<parameter name="saasAppTokenTest1" value="1/WVs5ldMoG0dlsacbxAbDoq_6gfvOnRCQrc_XkFhreig"/>
+	
+	
+	
+	<test name="Securlets Gmail Regression tests" enabled="true">
+          	
+		<groups>
+		    <run> 
+		      <include name="REGRESSSION"/>
+		      
+		    
+		    </run>
+		  </groups>
+		  
+		<classes>
+			<class name="com.elastica.beatle.tests.gmail.GmailRBAC">
+				
+					 <methods>
+                        <include name="sendMail"></include> 
+                      <!--  <include name="createDraftWithAttachment"></include> -->
+                       
+                     <include name="fetchActivityLogs"></include> 
+                     <include name="verifySendPlainMailActivity"></include> 
+                    <include name="verifyRecievePlainMailActivity"></include>  
+                      
+                     
+                   
+                </methods> 
+				
+			</class>
+		</classes>
+	</test>
+	
+	<test name="Securlets Gmail ActivityLogs DVC Sanity tests" enabled="true">
+		<parameter name="environmentName" value="eoe" />
+		<parameter name="userName" value="qa-@rediffmail.com" />
+		<parameter name="userPassword" value="Elastica1234!" />
+		<parameter name="tenantName" value="rediffmailcom" />
+		<parameter name="isLoggingOn" value="true" />
+		<parameter name="apiBaseVersion" value="v1" />
+		<parameter name="esScriptsHostName" value="10.0.0.242" />
+		<parameter name="esScriptsUserName" value="madmin" />
+		<parameter name="referer" value="https://eoe.elastica-inc.com" />
+		<parameter name="tenantToken"
+			value="H3YK/Vxr3p+qm9dfmKvmh7oYaPBJMqUsszm+LOStr4k=" />
+		<parameter name="saasAppUsername" value="box-admin@securletbeatle.com" />
+		<parameter name="saasAppPassword" value="lYvA7)DZ1zD@CPQgt5zw" />
+		<parameter name="saasAppUserRole" value="ADMIN" />
+		<parameter name="socUserName" value="box admin securlet automation" />
+		<parameter name="saasApp" value="GMAIL" />
+		<parameter name="saasAppClientId"
+			value="998314684213-34jm3g4k92nejio174qnnb32vojbqg0n.apps.googleusercontent.com" />
+		<parameter name="saasAppClientSecret" value="YkMqf5GWiHQgHbA1P7BNhxto" />
+		<parameter name="saasAppToken"
+			value="1/cd7POgIHXlDzJAgwrXhDLWtCgeAozQxzR_r3MSDI1rU" />
+
+		<parameter name="saasAppClientIdTest1"
+			value="812119916773-hb47rkktb3p8appsc93cr8tokau0r1gs.apps.googleusercontent.com" />
+		<parameter name="saasAppClientSecretTest1" value="iSZQfwpG9RP8dKdusaevG1y6" />
+		<parameter name="saasAppTokenTest1"
+			value="1/WVs5ldMoG0dlsacbxAbDoq_6gfvOnRCQrc_XkFhreig" />
+
+
+		<classes>
+			<class name="com.elastica.beatle.tests.gmail.GmailRBACDVC">
+
+				<methods>
+					<include name="sendMailwithAttachmentSanity"></include>
+					<include name="verifySendAttachmentMessageActivitySanity"></include>
+				</methods>
+
+			</class>
+		</classes>
+	</test>
+	
+	
+</suite>

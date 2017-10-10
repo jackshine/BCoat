@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE properties SYSTEM "http://java.sun.com/dtd/properties.dtd">
+<properties>
+	<comment>Log File Attributes</comment>
+	<entry key="S3HostName">s3.amazonaws.com</entry>
+	<entry key="BucketName">elastica-qa</entry>
+	<entry key="S3AccessKey">AKIAJQHILO7KZFLLIVEQ</entry>
+	<entry key="S3AccessSecret">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</entry>
+	<entry key="folderName">beautomationFolder</entry>	
+	<!-- S3 Folder Path -->	
+	<entry key="CiscoASASeries.S3FolderName">Cisco-ASA</entry> <!-- valid -->
+	<entry key="barracudaActivityLog.S3FolderName">Barracuda_Activity_Log</entry>
+	<entry key="blueCoatProxySG.S3FolderName">BlueCoatProxy</entry>
+	<entry key="ciscoCWS.S3FolderName">Cisco_CWS</entry>
+	<entry key="ciscoWSAW3C.S3FolderName">Cisco_WSA_W3C</entry>
+	<entry key="juniperScreenOS.S3FolderName">JuniperScreenOS</entry>
+	<entry key="paloAltoNet.S3FolderName">PAN_CVS</entry>
+	<entry key="scanSafe.S3FolderName">ScanSafe</entry>	 <!-- valid -->
+	<entry key="juniperScreenOS.S3FolderName">JuniperScreenOS</entry>
+	<entry key="paloAltoNet.S3FolderName">PAN_CVS</entry>
+	<entry key="scanSafe.S3FolderName">ScanSafe</entry>
+	<entry key="wallmartPanCSV.S3FolderName">WallMartPanCSV</entry><!-- valid -->
+	<entry key="wallmartPanSYS.S3FolderName">WallMartPanSyS</entry> <!-- valid -->
+	<entry key="wallmartWebGateWayLog.S3FolderName">WallMartWebGateway</entry> <!-- valid -->
+	<entry key="panCSVMultipleDeviceIds.S3FolderName">pan_csv_multipledevice_ids</entry>
+	<entry key="panSYSMultipleDeviceIds.S3FolderName">pan_SYS_MultipleDeviceIds</entry>
+	<entry key="cwsMultipleDeviceIds.S3FolderName">cws_MultipleDeviceIds</entry>	
+	<entry key="checkpointCSV.S3FolderName">checkpointCSV</entry>	
+	<entry key="zscalar.S3FolderName">zscalar</entry>
+	<entry key="checkpointSmartView.S3FolderName">checkpointSmartView</entry>	
+	<entry key="juniperSRX.S3FolderName">juniperSRX</entry>	<!-- valid -->
+	<entry key="blueCoatProxySGDeviceIds.S3FolderName">blueCoatProxySGDeviceIds</entry>	
+	<entry key="wsaaccessDeviceIds.S3FolderName">wsaaccessDeviceIds</entry>	
+	<entry key="wsaaccessDeviceIds.S3FolderName">wsaaccessDeviceIds</entry>	
+	<entry key="wsaw3cDeviceIds.S3FolderName">wsaw3cDeviceIds</entry>	
+	<entry key="squidrpoxy.S3FolderName">squidrpoxy</entry>	<!-- valid -->
+	<entry key="mcafeesef.S3FolderName">mcafeesef</entry>	<!-- valid -->
+	
+	<!-- new Golden set data files -->
+	
+	<entry key="be_barracuda_cli.S3FolderName">be_barracuda_cli</entry>	
+	<entry key="be_barracuda_sys.S3FolderName">be_barracuda_sys</entry>	
+	<entry key="be_bluecoat_proxy.S3FolderName">be_bluecoat_proxy</entry>	
+	<entry key="be_bluecoatProxy_splunk_wo_ch.S3FolderName">be_bluecoatProxy_splunk_wo_ch</entry>	
+	<entry key="be_juniperscreenos.S3FolderName">be_juniperscreenos</entry>	
+	<entry key="be_checkpoint_smartview.S3FolderName">be_checkpoint_smartview</entry>
+	<entry key="be_pancsv.S3FolderName">be_pancsv</entry>	
+	<entry key="be_pancsv_splunk_wo_ch.S3FolderName">be_pancsv_splunk_wo_ch</entry>	
+	<entry key="be_wsaw3c.S3FolderName">be_wsaw3c</entry>	
+	<entry key="be_wsaaccess.S3FolderName">be_wsaaccess</entry>	
+	<entry key="be_zscalar.S3FolderName">be_zscalar</entry>	
+
+
+ <!-- 7z files -->
+ <entry key="be_barracuda_cli_7z.S3FolderName">be_barracuda_cli_7z</entry>	
+ <entry key="be_barracuda_sys_7z.S3FolderName">be_barracuda_sys_7z</entry>	
+ <entry key="be_bluecoat_proxy_7z.S3FolderName">be_bluecoat_proxy_7z</entry>	
+ <entry key="be_bluecoatProxy_splunk_wo_ch_7z.S3FolderName">be_bluecoatProxy_splunk_wo_ch_7z</entry>	
+ <entry key="be_checkpoint_csv_7z.S3FolderName">be_checkpoint_csv_7z</entry>	
+ <entry key="be_checkpoint_smartview_7z.S3FolderName">be_checkpoint_smartview_7z</entry>	
+ <entry key="be_juniperscreenos_7z.S3FolderName">be_juniperscreenos_7z</entry>	
+ <entry key="mcafeesef_7z.S3FolderName">mcafeesef_7z</entry>	
+ <entry key="squidrpoxy_7z.S3FolderName">squidrpoxy_7z</entry>	
+ <entry key="be_pancsv_7z.S3FolderName">be_pancsv_7z</entry>	
+ <entry key="be_pancsv_splunk_wo_ch_7z.S3FolderName">be_pancsv_splunk_wo_ch_7z</entry>	
+ <entry key="be_pancsv_splunk_ch_7z.S3FolderName">be_pancsv_splunk_ch_7z</entry>	
+ <entry key="be_wsaw3c_7z.S3FolderName">be_wsaw3c_7z</entry>	
+ <entry key="be_wsaaccess_7z.S3FolderName">be_wsaaccess_7z</entry>	
+ <entry key="be_zscalar_7z.S3FolderName">be_zscalar_7z</entry>	
+ <entry key="wallmartPanCSV_7z.S3FolderName">wallmartPanCSV_7z</entry>	
+ <entry key="wallmartPanSYS_7z.S3FolderName">wallmartPanSYS_7z</entry>	
+ <entry key="wallmartWebGateWayLog_7z.S3FolderName">wallmartWebGateWayLog_7z</entry>	
+ <entry key="juniperSRX_7z.S3FolderName">juniperSRX_7z</entry>	
+  <entry key="scanSafe_7z.S3FolderName">scanSafe_7z</entry>	
+ <entry key="CiscoASASeries_7z.S3FolderName">CiscoASASeries_7z</entry>	
+ 
+ 
+<!-- 7za files -->
+ <entry key="be_barracuda_cli_7za.S3FolderName">be_barracuda_cli_7za</entry>	
+ <entry key="be_barracuda_sys_7za.S3FolderName">be_barracuda_sys_7za</entry>	
+ <entry key="be_bluecoat_proxy_7za.S3FolderName">be_bluecoat_proxy_7za</entry>	
+ <entry key="be_bluecoatProxy_splunk_wo_ch_7za.S3FolderName">be_bluecoatProxy_splunk_wo_ch_7za</entry>	
+ <entry key="be_checkpoint_csv_7za.S3FolderName">be_checkpoint_csv_7za</entry>	
+ <entry key="be_checkpoint_smartview_7za.S3FolderName">be_checkpoint_smartview_7za</entry>	
+ <entry key="be_juniperscreenos_7za.S3FolderName">be_juniperscreenos_7za</entry>	
+ <entry key="mcafeesef_7za.S3FolderName">mcafeesef_7za</entry>	
+ <entry key="squidrpoxy_7za.S3FolderName">squidrpoxy_7za</entry>	
+ <entry key="be_pancsv_7za.S3FolderName">be_pancsv_7za</entry>	
+ <entry key="be_pancsv_splunk_wo_ch_7za.S3FolderName">be_pancsv_splunk_wo_ch_7za</entry>	
+ <entry key="be_pancsv_splunk_ch_7za.S3FolderName">be_pancsv_splunk_ch_7za</entry>	
+ <entry key="be_wsaw3c_7za.S3FolderName">be_wsaw3c_7za</entry>	
+ <entry key="be_wsaaccess_7za.S3FolderName">be_wsaaccess_7za</entry>	
+ <entry key="be_zscalar_7za.S3FolderName">be_zscalar_7za</entry>	
+ <entry key="wallmartPanCSV_7za.S3FolderName">wallmartPanCSV_7za</entry>	
+ <entry key="wallmartPanSYS_7za.S3FolderName">wallmartPanSYS_7za</entry>	
+ <entry key="wallmartWebGateWayLog_7za.S3FolderName">wallmartWebGateWayLog_7za</entry>	
+ <entry key="juniperSRX_7za.S3FolderName">juniperSRX_7za</entry>	
+ <entry key="scanSafe_7za.S3FolderName">scanSafe_7za</entry>	
+ <entry key="CiscoASASeries_7za.S3FolderName">CiscoASASeries_7za</entry>	
+ 
+ <entry key="websense_arc.S3FolderName">websense_arc</entry>	
+ <entry key="websense_hosted.S3FolderName">websense_hosted</entry>
+ <entry key="websense_arc_tar.S3FolderName">websense_arc_tar</entry>	
+ <entry key="sonicwall.S3FolderName">sonicwall</entry>
+ 
+
+	
+	
+</properties>

@@ -1,0 +1,48 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+
+<suite name="Gateway Salesforce FE Sanity Test Suite">
+
+	<listeners>
+		<listener class-name="com.elastica.listeners.EmailableReporterSauce" />
+		<listener class-name="org.uncommons.reportng.HTMLReporter" />
+		<listener class-name="org.uncommons.reportng.JUnitXMLReporter" />
+		<listener class-name="com.elastica.listeners.SuiteListener" />
+		<listener class-name="com.elastica.listeners.MethodListener" />
+		<listener class-name="com.elastica.listeners.ScreenShotListener" />
+		<listener class-name="com.elastica.listeners.PriorityListener" />
+	</listeners>
+	
+	<parameter name="env" value="eoe" />
+	<parameter name="browser" value="firefox" />
+	<parameter name="mode" value="local" />
+	<parameter name="saasAppBaseUrl" value="https://www.dropbox.com/login/" />
+	<parameter name="username" value="protectauto@protectbeatle.com" />
+	<parameter name="password" value="Elastica@123" />
+	<parameter name="testUsername" value="protectauto@protectbeatle.com" />
+	<parameter name="testPassword" value="Elastica@123" />
+	<parameter name="saasAppName" value="Dropbox" />
+	<parameter name="saasAppUsername" value="protectauto@protectbeatle.com" />
+	<parameter name="saasAppPassword" value="Elastica@123" />
+	<parameter name="referer" value="https://eoe.elastica-inc.com" />
+	<parameter name="tenant" value="protectbeatle.com" />
+	<parameter name="tenantDomainName" value="protectbeatle.com" />
+	<parameter name="tenantToken" value="nIzqjM7QUjS4OcWe2Oti74jwfpY5A2Geg+2ugXIPGGk=" />
+	<parameter name="proxyUrl"
+		value="https://api-eoe.elastica-inc.com/a7f6407c84bc421a8f9debb4c0806f63/1461307207/elastica.pac"></parameter>
+	<parameter name="proxyExtension" value="Load"></parameter>
+
+	
+	
+	<test name="Gatelet Tests - Protect Block Upload Dropbox">
+		<!-- <groups>
+			<run>
+				<include name="cloud"></include>
+				<include name="Regression"></include>
+			</run>
+		</groups> -->
+		<classes>
+			<class name="com.elastica.tests.protect.FileTransferPolicyTests" />
+		</classes>
+	</test>
+	
+</suite>

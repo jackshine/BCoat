@@ -1,0 +1,126 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+<suite name="Getelet Policy Update-Splunk Tests" parallel="tests"
+	thread-count="8">
+	<parameter name="environmentName" value="prod" />
+	<parameter name="userName" value="admin@infrabeatle.com" />
+	<parameter name="userPassword" value="Elastica@123" />
+	<parameter name="tenantName" value="infrabeatlecom" />
+	<parameter name="tenantDomainName" value="infrabeatlecom" />
+	<parameter name="isLoggingOn" value="true" />
+	<parameter name="apiBaseVersion" value="v1" />
+	<parameter name="tenantToken" value="7eXU8Mnxo3CiStZoeHwXQg==" />
+	<parameter name="saasApp" value="Box"></parameter>
+	<parameter name="saasAppUsername" value="testuser@infrabeatle.com" />
+	<parameter name="saasAppPassword" value="Elastica@123" />
+	<parameter name="proxyUrl"
+		value="https://api-vip.elastica.net/bb5813868cf945429bf821e36707feec/1460372475/elastica.pac"></parameter>
+	<parameter name="proxyExtension" value="elastica_auth.xpi"></parameter>
+	<parameter name="proxyExtensionVersion" value="1.0.2"></parameter>
+
+	<test name="Getelet Policy config update-Splunk Tests" parallel="methods">
+		<classes>
+			<class
+				name="com.elastica.beatle.tests.splunkTests.regionalGWTests.GateletPolicyUpdateSplunkTests">
+				<methods>
+					<include name="testGWPolicyCreateTests"></include>
+					<include name="testGWPolicyCreateDeleteTests"></include>
+					<include name="testGWPolicyActivateDeActivateTests"></include>
+					<include name="testGWPolicyCreateActivateTests"></include>
+					<include name="testGWPolicyCreateEditTests"></include>
+				</methods>
+			</class>
+		</classes>
+	</test>
+
+	<test name="SSO config update-Splunk Tests" parallel="methods">
+		<classes>
+			<class
+				name="com.elastica.beatle.tests.splunkTests.regionalGWTests.GateletPolicyUpdateSplunkTests">
+				<methods>
+					<include name="testAzureSSOEnablingDisable"></include>
+				</methods>
+			</class>
+		</classes>
+	</test>
+
+	<test name="Response Template config update-Splunk Tests"
+		parallel="methods">
+		<classes>
+			<class
+				name="com.elastica.beatle.tests.splunkTests.regionalGWTests.GateletPolicyUpdateSplunkTests">
+				<methods>
+					<include name="testCreateResponseTemplate"></include>
+					<include name="testdeleteResponseTemplate"></include>
+					<include name="testEditResponseTemplate"></include>
+				</methods>
+			</class>
+		</classes>
+	</test>
+
+
+	<test name="Group Create/Delete config update-Splunk Tests"
+		parallel="methods">
+		<classes>
+			<class
+				name="com.elastica.beatle.tests.splunkTests.regionalGWTests.GateletPolicyUpdateSplunkTests">
+				<methods>
+					<include name="testCreateAndDeleteGroup"></include>
+					<include name="testDeactivatingGroup"></include>
+					<include name="testActivateGroup"></include>
+					<include name="testEditGroup"></include>
+				</methods>
+			</class>
+		</classes>
+	</test>
+
+	<test name="Key Secure config update-Splunk Tests" parallel="methods">
+		<classes>
+			<class
+				name="com.elastica.beatle.tests.splunkTests.regionalGWTests.GateletPolicyUpdateSplunkTests">
+				<methods>
+					<include name="testCreateKeySecure"></include>
+					<include name="testEditKeySecure"></include>
+					<include name="testActivateDeactivateKeySecure"></include>
+					<include name="testdeleteKeySecure"></include>
+
+				</methods>
+			</class>
+		</classes>
+	</test>
+
+	<test name="Getelet Activation/Deactivation config update-Splunk Tests" parallel="methods">
+		<classes>
+			<class
+				name="com.elastica.beatle.tests.splunkTests.regionalGWTests.GateletPolicyUpdateSplunkTests">
+				<methods>
+					<include name="testActivateDeactivationGatelet"></include>
+				</methods>
+			</class>
+		</classes>
+	</test>
+
+
+	<test name="User Create config update-Splunk Tests" parallel="methods">
+		<classes>
+			<class
+				name="com.elastica.beatle.tests.splunkTests.regionalGWTests.GateletPolicyUpdateSplunkTests">
+				<methods>
+					<include name="testCreateActivateDeactivateDeleteUser"></include>
+				</methods>
+			</class>
+		</classes>
+	</test>
+
+	<test name="User Group Config update-Splunk Tests " parallel="methods">
+		<classes>
+			<class
+				name="com.elastica.beatle.tests.splunkTests.regionalGWTests.GateletPolicyUpdateSplunkTests">
+				<methods>
+					<include name="testAddRemoveUserFromGroup"></include>
+				</methods>
+			</class>
+		</classes>
+	</test>
+	
+</suite>

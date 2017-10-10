@@ -1,0 +1,45 @@
+Canadian Paycheck Stub
+
+EMPLOYER NAME
+
+TELEPHONE
+
+ADDRESS
+
+EMPLOYEE NAME
+
+SIN
+
+ADDRESS
+
+PERIOD ENDING
+
+EARNINGS
+
+PAY DATE
+
+RATE
+
+HOURS
+
+Regular
+
+GROSS PAY
+
+DEDUCTIONS
+Federal Tax
+Provincial Tax
+EI
+CPP
+Other:
+TOTAL DEDUCTIONS
+
+NET PAY
+
+Room & Board
+
+CURRENT
+
+YEAR TO DATE
+
+

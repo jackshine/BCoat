@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+<suite name="Detect One Step Sequence Detector Regression Tests O365  GW">
+	<parameter name="environmentName" value="eoe"></parameter>
+	
+	
+	<parameter name="userName" value="rocky@detectbackendautomation.com"></parameter>
+	<parameter name="userPassword" value="Elastica@3214"></parameter>
+	<parameter name="tenantName" value="detectbackendautomationcom"></parameter>
+	<parameter name="tenantDomainName" value="detectbackendautomation.com"></parameter>
+	<parameter name="tenantToken" value="t8OczyLDBiZdtywujeT4BUtV5gCTxkoaDLQHwlKWWZE="></parameter>
+	
+	<!-- <parameter name="userName" value="rocky@detecttbibeatle.com"/>
+	<parameter name="userPassword" value="Elastica@123"/>
+	<parameter name="tenantName" value="detecttbibeatlecom"/>
+	<parameter name="tenantDomainName" value="detecttbibeatle.com"></parameter>
+	<parameter name="tenantToken" value="TRmYTI2h3mZBrFNbW5WBejpFhX6Aee5yBrOp19PKnQE="/> -->
+
+	<parameter name="referer" value="https://eoe.elastica-inc.com"/>
+	<parameter name="host" value="eoe.elastica-inc.com"/>
+	<parameter name="apiServer" value="https://api-eoe.elastica-inc.com/"/>
+	
+	<parameter name="isLoggingOn" value="true"></parameter>	
+	<parameter name="apiBaseVersion" value="v1"></parameter>
+	
+	<parameter name="saasApp" value="onedrive"/>
+	
+	<parameter name="host" value="eoe.elastica-inc.com"/>
+	<parameter name="apiServer" value="api-eoe.elastica-inc.com"/>
+	
+	<test name="Detect One Step Sequence Detector Regression Tests Office 365  GW">
+	<parameter name="saasAppUsername" value="sagar_test@detectbackendautomation.com"/>
+	<!-- <parameter name="saasAppUsername" value="rocky@detectbackendautomation.com"></parameter> -->
+		<classes>
+			<class name="com.elastica.beatle.tests.detect.DetectOnestepSequence_Office_365_GW">
+			</class>
+		</classes>
+	</test>
+	
+</suite>

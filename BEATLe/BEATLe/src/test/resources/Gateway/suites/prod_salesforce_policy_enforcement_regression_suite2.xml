@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+<suite name="Gateway Regression Test Suite" parallel="false">
+	<parameter name="environmentName" value="prod"/>
+	<parameter name="gwHostname" value="50.18.198.37" />
+	<parameter name="userName" value="admin@salesforcegatewaybeatle.com"/>
+	<parameter name="userPassword" value="Elastica@1234"/>
+	<parameter name="tenantName" value="salesforcegatewaybeatlecom"/>
+	<parameter name="tenantDomainName" value="salesforcegatewaybeatle.com"/>
+	<parameter name="isLoggingOn" value="true"/>
+	<parameter name="apiBaseVersion" value="v1"/>
+	<parameter name="saasApp" value="Salesforce"/>
+	<parameter name="saasAppUsername" value="testuser1@salesforcegatewaybeatle.com"/>
+	
+	<test name="GW/StreamIq Salesforce File transfer policy suite">
+		<groups>
+		    <run>
+		       <include name="TEST"/>
+		    </run>
+		  </groups>
+		<classes>
+			<class name="com.elastica.beatle.tests.gateway.salesforce.FileTransferPolicyTest">
+			</class>
+		</classes>
+	</test> 
+	
+	<test name="GW/StreamIq Box File transfer CIQ policy suite">
+		<groups>
+		    <run>
+		       <include name="TEST"/>
+		    </run>
+		  </groups>
+		<classes>
+			<class name="com.elastica.beatle.tests.gateway.salesforce.FileTransferCIQPolicyTest">
+			</class>
+		</classes>
+	</test>
+</suite>

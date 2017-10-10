@@ -1,0 +1,663 @@
+Print Form
+
+Medical History Form
+Primary Physician
+
+Last, First, Middle
+Today's Date
+
+Male
+
+D.O.B. & Age
+
+Employer
+
+Statement of Present Health:
+
+Female
+
+Job Title
+
+Medications: All prescription, non-prescription, vitamins, home remedies, or herbal medication
+Name
+Dose (ex: mg/pill)
+How often?
+
+Excellent
+
+Good
+
+Fair
+
+Poor
+
+Date medication started
+
+Medication Allergies
+
+Social History
+YES
+
+NO
+Marital Status:
+single
+Spouse / Partner Name:
+
+married
+
+divorced
+
+widowed
+
+other
+
+Who lives at home with you?
+Do you have an end of life directive? (Living will, medical power of attorney, etc.)
+Tobacco Use: (type & amount per day)
+
+Date quit
+
+Alcohol Use: (type &frequency)
+Is alcohol a concern for you or others?
+Caffeine Intake: None:
+Diet: (please rate)
+
+Good:
+
+Coffee/Tea
+Fair:
+
+Cups/Day
+
+Soda
+
+Cups/Day
+
+Poor:
+
+Seat Belt Use:
+always ___
+occasionally ___
+never ___
+Are you, a relative, close friend, or companion who will be involved in your visit deaf or hard of hearing?
+
+Current Family Health Status
+Member
+
+Current Disease(s)
+
+Health Status (good,
+fair or poor)
+
+Date of Birth
+
+Deceased
+
+Cause of Death
+
+Father
+
+Mother
+
+Brother(s)
+
+Sister(s)
+
+Children
+
+1.
+Downloaded	  from	  http://www.tidyforms.com	  
+
+Patient Name:
+Family Medical History
+Please indicate (X) all family members* medical history (*Mother / Father, Brother / Sister, Grandmother / Grandfather) :
+Relationship
+
+Relationship
+
+Relationship
+
+Heart Disease
+
+Heart Disease
+
+High Blood Pressure
+
+High Blood Pressure
+
+Blood Disorder
+Stomach Disease
+
+Diabetes
+
+Diabetes
+
+Obesity
+
+High Cholesterol
+
+High Cholesterol
+
+Drug/Alcohol Abuse
+
+Stroke
+
+Stroke
+
+Mental Illness
+
+Cancer (Incl. type)
+
+Cancer (Incl. type)
+
+Other
+
+PAST Personal Medical History
+Immunizations and date completed:
+Hepatitis A
+
+Tetanus
+
+Pneumonia
+
+Hepatitis B
+
+Flu Shot
+
+Measles
+
+Rubella
+Varicella
+
+Polio
+(chicken pox)
+
+Zostervax
+
+Travel Vaccinations:
+
+** Please indicate (X) and provide details for any PASTMedical History (i.e. diagnosis, dates).
+Surgery or Procedure
+
+Other Hospitalizations
+Transfusion
+Heart problems
+Blood Pressure problems
+Diabetes:
+
+Type I
+
+Type II
+Date of last Cholesterol test & results
+
+Elevated Cholesterol/Lipids
+
+Stroke
+
+Cancer
+EENT problems (eye, ear, nose and throat):
+Lung problems
+Gastrointestinal problems
+
+Last colonoscopy date & results
+
+Kidney or Bladder problems
+Neurologic problems
+Skin problems
+Bone / Muscle / Joint problems
+Thyroid or other Endocrine problems
+Blood Disorders
+Depression / Suicide attempt or other psychiatric problems
+FEMALE: Gynecological problems
+Date of last Mammogram & results
+
+Ever abnormal?
+
+Abnormal breast symptoms? (describe on next page)
+
+Y
+
+N
+
+Date of last Pap Smear & results
+MALE: Prostate problems / sexual dysfunction
+
+Y
+
+N
+
+Breast Implants? Y
+
+N
+
+Ever abnormal?
+
+N
+
+Y
+
+Date of last PSA & results
+
+Other medical problems not previously mentioned
+
+page 2.
+Downloaded	  from	  http://www.tidyforms.com	  
+
+Patient Name:
+CURRENT
+
+Patient
+
+Please indicate (X) CURRENT
+HEAD / NECK
+
+Symptoms
+
+SYMPTOMS(please PROVIDE DETAILS for all "YES" answers in space provided):
+
+Headache
+Concussion Head
+Seizures
+Fainting Light
+Loss of Memory
+Visual problems:
+Glasses
+Blind in either eye: Right
+Color blind
+Hearing Difficulties: Loss
+Hearing Aid:
+Right
+Environmental allergies
+Sinus congestion
+Mouth: Poor Teeth
+Bleeding Gums
+Oral Hot / Cold Intolerance
+
+Migraine
+Injury
+
+CHEST
+
+Chest Pain / Discomfort
+Shortness of Breath - At rest
+Cough
+Wheeze
+Breast lump or pain
+
+Palpitations
+With exercise
+Cough up blood
+Associated with activity
+Nipple discharge
+
+Describe:
+Describe:
+Details:
+What activity?
+Details:
+
+THROAT
+
+Swollen Glands
+
+Difficulty Swallowing
+
+Details:
+
+GASTROINTESTINAL
+
+Nausea
+Diarrhea
+Change in Bowel Habits
+Abdominal Pain
+Hemorrhoids - Internal
+Bloody or tarry stools
+
+Vomiting
+Constipation Frequency:
+Longer than 1 week
+Hernia
+Hemorrhoids - External
+Frequency:
+
+Etiology:
+
+URINARY
+
+Burning with urination
+Urinary Incontinence
+Increased urination at night
+
+Frequency of urination
+Difficulty starting stream
+Inability to empty bladder
+
+Frequency:
+Frequency:
+Frequency:
+
+MUSCULOSKELETAL
+
+Muscle / joint pain
+Fracture or broken bone
+Numbness or Tingling
+
+Muscle / joint stiffness
+Limitation in motion
+Weakness
+
+Location:
+Location:
+Location:
+
+SKIN
+
+Rash
+Bruise / Bleed easily
+
+Mole / Skin Lesion
+Unexplained Lumps
+
+Location:
+Location:
+
+OTHER
+
+Unexplained weight loss
+Excessive thirst
+Change in energy level
+Fever / chills
+Anxiety
+Insomnia - can't fall asleep
+Snoring
+Daytime sleepiness
+Are you sexually active? Y
+
+Unexplained weight gain
+Number of pounds:
+Night sweats
+Frequency:
+Weakness
+Details:
+Mood swings
+Describe:
+Depression
+Describe:
+Inability to stay asleep
+Treatment:
+Does snoring wake you?
+Frequency:
+Are you told you stop breathing for periods of time when asleep?
+Method of Birth Control:
+
+Dizzy spells
+Headedness
+Contacts
+Left
+Double Vision
+Ringing / tinnitus
+Left
+Skin Allergies
+Allergy related symptoms
+Toothaches
+Mouth Sores
+
+N
+
+Describe:
+Describe:
+Details:
+Details:
+Details:
+Details:
+Etiology / cause:
+Details:
+Details:
+Details:
+Describe:
+Describe:
+Describe:
+Describe:
+Etiology / cause:
+
+Details:
+Describe:
+Details:
+Associated with hard stools?
+
+Sexual Concerns:
+FEMALES: Date of last menstrual period:
+Unusual vaginal bleeding
+MALES:
+
+Prostate Problems
+
+Y
+
+Y
+
+N
+
+Are you pregnant?
+
+Y
+
+N
+
+N
+
+Please provide any other information you feel your physician should be aware of:
+
+This information is accurate and complete to the best of my knowledge.
+
+Patient Signature:
+
+Date:
+
+Reviewer Name and Signature: ______________________________________________________________________________
+page 2
+
+Downloaded	  from	  http://www.tidyforms.com	  
+
+Exercise Program Assessment
+Patient Name:
+
+Body Fat%
+
+Date:
+
+Abd Girth
+
+CARDIO
+(check all that apply)
+
+Time (min)
+
+Low
+
+Med
+
+High
+
+Walk
+
+Low
+
+Med
+
+High
+
+Run
+
+Low
+
+Med
+
+High
+
+Bike (Stationary)
+
+Low
+
+Med
+
+High
+
+Bike (Outside)
+
+Low
+
+Med
+
+High
+
+Elliptical
+
+Low
+
+Med
+
+High
+
+Stair
+
+Low
+
+Med
+
+High
+
+Swim
+
+Low
+
+Med
+
+High
+
+Cross Country Ski
+
+Low
+
+Med
+
+High
+
+Aerobic Class
+
+Low
+
+Med
+
+High
+
+Row
+
+Low
+
+Med
+
+High
+
+Low
+
+Other
+
+Resistance / weight
+
+# reps / set
+
+Staff Use
+
+Wt
+
+Intensity
+
+Frequency (per wk)
+
+Jog
+
+STRENGTH
+
+Ht
+
+# sets
+
+Med
+
+High
+
+Frequency (per week)
+
+Chest
+Upper Back
+Lower Back
+Shoulders (Deltoids)
+Triceps
+Eliceps
+Forearms
+Mid-Section
+Hips
+Quadriceps
+Hamstrings
+Calves
+
+STRETCHING/
+FLEXIBILITY
+
+Frequency
+(per week)
+
+# stretches/
+Time held per stretch set
+
+Chest
+Upper Back
+Lower Back
+Shoulders (Deltoids)
+Triceps
+Biceps
+
+page 4.
+
+Downloaded	  from	  http://www.tidyforms.com	  
+
+Exercise Program Assessment
+Patient Name:
+Date:
+
+Gym Member?
+
+Gym equipment @ home/work
+
+Do you currently work with a personal trainer? Yes
+
+No
+
+If yes, frequency:
+
+Injuries/Restrictions
+FITNESS GOALS
+Increase strength/endurance
+Stress management
+Disease Management
+
+Type
+
+Race Event
+
+Type
+
+Other
+
+Type
+
+Barriers to exercise:
+
+Additional information you wish to share:
+
+page 5
+
+Downloaded	  from	  http://www.tidyforms.com	  
+
+

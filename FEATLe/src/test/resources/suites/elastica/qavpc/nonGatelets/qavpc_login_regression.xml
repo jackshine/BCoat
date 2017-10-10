@@ -1,0 +1,51 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+
+<suite name="Login Test Suite">
+
+
+	<listeners>
+		<listener class-name="org.uncommons.reportng.HTMLReporter" />
+		<listener class-name="org.uncommons.reportng.JUnitXMLReporter" />
+		<listener class-name="com.elastica.listeners.SuiteListener" />
+		<listener class-name="com.elastica.listeners.MethodListener" />
+		<listener class-name="com.elastica.listeners.ScreenShotListener" />
+		<listener class-name="com.elastica.listeners.PriorityListener" />
+	</listeners>
+
+	<parameter name="env" value="qavpc" />
+	<parameter name="browser" value="firefox" />
+	<parameter name="mode" value="local" />
+	<parameter name="platform" value="Windows 8.1" />
+	<parameter name="browserVersion" value="40" />
+	<parameter name="browserName" value="firefox" />
+	<parameter name="tenantName" value="dciautobeatlecom" />
+	<parameter name="tenantToken" value="WDcfGslRTTjZ8JOLpRV5rYjwfpY5A2Geg+2ugXIPGGk=" />
+	
+	<parameter name="username" value="sysadmin@dciautobeatle.com" />
+	<parameter name="password" value="Elastica1234!" />
+	<parameter name="adminUsername" value="useradmin@dciautobeatle.com" />
+	<parameter name="adminPassword" value="Elastica1234!" />
+	<parameter name="dpoUsername" value="dpo@dciautobeatle.com" />
+	<parameter name="dpoPassword" value="Elastica1234!" />
+	<parameter name="endUsername" value="enduser@dciautobeatle.com" />
+	<parameter name="endUserPassword" value="Elastica1234!" />
+	
+
+	<test name="Dashboard Login UI Tests">
+		<parameter name="platform" value="Windows 8.1" />
+		<parameter name="browserVersion" value="45.0" />
+		<parameter name="browserName" value="firefox" />
+		<groups>
+			<run>
+				<include name="local"></include>
+				<include name="regression"></include>
+			</run>
+		</groups>
+		<classes>
+			<class name="com.elastica.tests.dashboard.DashboardLoginTests" />
+		</classes>
+	</test>
+
+
+
+</suite>

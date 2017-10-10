@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE properties SYSTEM "http://java.sun.com/dtd/properties.dtd">
+<properties>
+	<comment> Protect API Configuration</comment>
+	<entry key="getAnomalyLogs">/admin/application/list/get_anomaly_logs</entry>	
+	<entry key="getSecurletlogVerification">/admin/application/list/get_forensics_logs</entry>
+	<entry key="createPolicy">/controls/documentshareapi/add</entry>
+	<entry key="activatePolicy">/controls/update</entry>
+	<entry key="deletePolicy">/controls/archive</entry>
+	<entry key="createContentIQ">/controls/add_ciq_profile</entry>	
+	<entry key="listContentIQ">/controls/make_api_request</entry>		
+</properties>

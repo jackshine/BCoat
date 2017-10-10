@@ -1,0 +1,7 @@
+Name: Alex Smith
+Age: 25 years old
+SSN: 576-55-4600
+Email: lex@gmail.com
+Address: 580 Hawthorne Avenue Piedmont, South Carolina 29673
+Gender: Male
+Ethnicity - White Hispanic Male

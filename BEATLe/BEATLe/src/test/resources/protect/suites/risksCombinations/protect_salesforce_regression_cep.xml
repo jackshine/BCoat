@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+<suite name="Protect Salesforce Regression Test Suite" parallel="false">
+	
+	<parameter name="environmentName" value="cep"/>
+	<parameter name="userName" value="admin@securletbeatle.com"/>
+	<parameter name="userPassword" value="Elastica123!"/>
+	<parameter name="tenantName" value="securletbeatlecom"/>
+	<parameter name="isLoggingOn" value="true"/>
+	<parameter name="apiBaseVersion" value="v1"/>
+	<parameter name="esScriptsHostName" value="10.0.0.242"/>
+	<parameter name="esScriptsUserName" value="madmin"/>
+	<parameter name="referer" value="https://app.eu.elastica.net"/>
+	<parameter name="tenantToken" value="H3YK/Vxr3p+qm9dfmKvmh7oYaPBJMqUsszm+LOStr4k="/>
+	<parameter name="saasAppUsername" value="admin@securletbeatle.com.protectsb"/>
+	<parameter name="saasAppPassword" value="Elastica@123"/>
+	<parameter name="saasAppUserRole" value="ADMIN"/>
+	<parameter name="saasApp" value="SALESFORCE"/>
+	<parameter name="domainName" value="securletbeatlecom"/>
+	<parameter name="saasAppLoginHost" value="cs3.salesforce.com/"/>
+	<parameter name="socUserName" value="QA Admin"/>
+	<parameter name="saasAppExternalUser1Name" value="protectauto1@protectbeatle.com"/>
+	<parameter name="saasAppExternalUser2Name" value="protectauto2@protectbeatle.com"/>
+	<parameter name="saasAppEndUser1Name" value="securletuser7@securletbeatle.com"/>  
+	<parameter name="saasAppClientId" value="3MVG9pHRjzOBdkd8Faekhz9VgUtJMJ7xAEdO.N_SXqA8pot3XzXnfdvsmLpF_.OtC0JSG0ilPBdq91rmpqURY"/>
+    <parameter name="saasAppClientSecret" value="512923208038728574"/>
+    <parameter name="saasAppToken" value="EQUZEc3QoEa0EqBzHVpoMLgr"/>
+	
+	<test name="Protect Salesforce Risks Policy Violation Tests">
+		<classes>
+			<class name="com.elastica.beatle.tests.protect.policyviolations.SalesforceRisksPolicyViolationTests" />
+		</classes>
+	</test>
+	
+	<test name="Protect Salesforce Content Type Policy Violation Tests">
+		<classes>
+			<class name="com.elastica.beatle.tests.protect.policyviolations.SalesforceContentTypePolicyViolationTests" />
+		</classes>
+	</test>
+	
+</suite>

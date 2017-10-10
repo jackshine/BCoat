@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+<suite name="Audit Test Suite">
+    <parameter name="userName" value="elastica-support@spanvatestanyena.com"></parameter>
+	<parameter name="userPassword" value="Elastica@123"></parameter>
+	<parameter name="environmentName" value="eoe"></parameter>
+	<parameter name="tenantName" value="spanvatestanyenacom"></parameter>
+	<parameter name="isLoggingOn" value="true"></parameter>
+	<parameter name="referer" value="https://eoe.elastica-inc.com" />
+	<parameter name="apiBaseVersion" value="v1"></parameter>
+	<parameter name="tenantToken" value="VMhFh8ZBphbrFgbHQc8Ywfb7n+TCLSx6y0qKJqvM9eY=" />
+	<parameter name="spanvaip" value="10.0.63.62" />
+	<parameter name="spanvausername" value="admin" />
+	<parameter name="spanvapwd" value="Admin123!" />
+	<parameter name="spanvaUpgradedVersion" value="1.15.2.61.1-1rc" />
+	<parameter name="spanvaAgentName" value="EOE_AnonyEna_Upgrades" /> 
+	<parameter name="dpoUserName" value="dpotest@spanvatestanyena.com" />
+	<parameter name="dpoUserPassword" value="PFKara0&amp;" />
+	<parameter name="loadApparraziServicesCheck" value="yes" />
+	
+	<test name="Audit_SpanVA_Anony_Enabled_Upgrades_Tests_from_1.15.2.61.0-15rc_to_1.15.2.61.1-1rc">
+		<classes>
+			<class name="com.elastica.beatle.tests.audit.spanvatests.SpanvaUpgradeTests.Audit_SpanVA_Anonymization_Upgrades_Tests"/>
+		</classes>
+	</test>	
+
+</suite>
+
+
+
+
+

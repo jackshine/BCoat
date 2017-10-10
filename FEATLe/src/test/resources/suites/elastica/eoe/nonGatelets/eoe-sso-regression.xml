@@ -1,0 +1,146 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+
+<suite name="SSO FE Regression Test Suite" parallel="tests"
+	thread-count="2">
+
+	<listeners>
+		<listener class-name="com.elastica.listeners.EmailableReporterSauce" />
+		<listener class-name="org.uncommons.reportng.HTMLReporter" />
+		<listener class-name="org.uncommons.reportng.JUnitXMLReporter" />
+		<listener class-name="com.elastica.listeners.SuiteListener" />
+		<listener class-name="com.elastica.listeners.MethodListener" />
+		<listener class-name="com.elastica.listeners.ScreenShotListener" />
+		<listener class-name="com.elastica.listeners.PriorityListener" />
+	</listeners>
+
+	<parameter name="env" value="eoe" />
+	<parameter name="browser" value="chrome" />
+	<parameter name="mode" value="local" />
+	<parameter name="platform" value="Windows 8.1" />
+	<parameter name="browserVersion" value="40.0" />
+	<parameter name="browserName" value="chrome" />
+	
+ 	<test name="SSO Tests - OneLogin">
+		<parameter name="username" value="suresh.babu@elastica.co" />
+		<parameter name="password" value="Elastica#123" />
+		<parameter name="saasAppName" value="OneLogin" />
+		<parameter name="saasAppUsername" value="suresh.babu@elastica.co" />
+		<parameter name="saasAppPassword" value="login@1234" />
+		<parameter name="saasAppMetaData" value="440477" />
+		<parameter name="saasAppBaseUrl"
+			value="https://admin.us.onelogin.com/saml/metadata/" />
+		<parameter name="saasAppBaseDomain" value="" />
+		<parameter name="saasAppToken" value="" />
+
+		<parameter name="tenant" value="elasticaco" />
+		<parameter name="tenantToken" value="HBhzAg76hDGC6xoYIx+fVQ==" />
+		<groups>
+			<run>
+				<include name="cloud"></include>
+				<include name="regression"></include>
+			</run>
+		</groups>
+		<classes>
+			<class name="com.elastica.tests.sso.SSOTests">
+			</class>
+		</classes>
+	</test>
+
+ 	<test name="SSO Tests - PingOne">
+		<parameter name="username" value="admin@protectbeatle.com" />
+		<parameter name="password" value="Elastica@456" />
+		<parameter name="saasAppName" value="PingOne" />
+		<parameter name="saasAppUsername" value="admin@protectbeatle.com" />
+		<parameter name="saasAppPassword" value="Elastica#123" />
+		<parameter name="saasAppMetaData" value="440477" />
+		<parameter name="saasAppBaseUrl" value="https://admin.pingone.com/web-portal" />
+		<parameter name="saasAppBaseDomain" value="" />
+		<parameter name="saasAppToken" value="" />
+		<parameter name="tenant" value="protectbeatlecom" />
+		<parameter name="tenantToken" value="HBhzAg76hDGC6xoYIx+fVQ==" />
+		<parameter name="downloadDir" value="src/test/resources/meta" />
+
+		<groups>
+			<run>
+				<include name="cloud"></include>
+				<include name="regression"></include>
+			</run>
+		</groups>
+		<classes>
+			<class name="com.elastica.tests.sso.SSOTests">
+			</class>
+		</classes>
+	</test>
+
+	<test name="SSO Tests - Okta">
+		<parameter name="username" value="ssoadmin@detectbbibeatle.com" />
+		<parameter name="password" value="Elastica#123" />
+		<parameter name="saasAppName" value="Okta" />
+		<parameter name="saasAppUsername" value="ssoadmin@detectbbibeatle.com" />
+		<parameter name="saasAppPassword" value="Elastica@123" />
+		<parameter name="saasAppMetaData" value="440477" />
+		<parameter name="saasAppBaseUrl" value="https://detectbbibeatledetectbbibeatlecom.okta.com" />
+		<parameter name="saasAppBaseDomain" value="detectbbibeatledetectbbibeatlecom-admin" />
+		<parameter name="saasAppToken" value="" />
+		<parameter name="tenant" value="detectbbibeatlecom" />
+		<parameter name="tenantToken" value="HBhzAg76hDGC6xoYIx+fVQ==" />
+		<groups>
+			<run>
+				<include name="cloud"></include>
+				<include name="regression"></include>
+			</run>
+		</groups>
+		<classes>
+			<class name="com.elastica.tests.sso.SSOTests">
+			</class>
+		</classes>
+	</test> 
+	
+	<test name="SSO Tests - AzureAD">
+		<parameter name="username" value="qa-admin@o365security.net" />
+		<parameter name="password" value="ebzSBY*EB1IwpGp" />
+		<parameter name="saasAppName" value="AzureAD" />
+		<parameter name="saasAppUsername" value="qa-admin@o365security.net" />
+		<parameter name="saasAppPassword" value="uF4$WCFj8zr@peh" />
+		<parameter name="saasAppMetaData" value="440477" />
+		<parameter name="saasAppBaseUrl"
+			value="https://account.activedirectory.windowsazure.com" />
+		<parameter name="saasAppBaseDomain" value="" />
+		<parameter name="saasAppToken" value="" />
+		<parameter name="tenant" value="o365security.net" />
+		<parameter name="tenantToken" value="upoE50KtMCBFWLEzcBHhug==" />
+		<groups>
+			<run>
+				<include name="cloud"></include>
+				<include name="regression"></include>
+			</run>
+		</groups>
+		<classes>
+			<class name="com.elastica.tests.sso.SSOTests" />
+		</classes>
+	</test>
+
+	 <test name="SSO Tests - Centrify">
+		<parameter name="username" value="chaks.chigurupati@elastica.net" />
+		<parameter name="password" value="Elastica@1234" />
+		<parameter name="saasAppName" value="Centrify" />
+		<parameter name="saasAppUsername" value="chaks.chigurupati@elastica.net" />
+		<parameter name="saasAppPassword" value="ELAstica1234" />
+		<parameter name="saasAppMetaData" value="440477" />
+		<parameter name="saasAppBaseUrl" value="https://ba215.my.centrify.com" />
+		<parameter name="saasAppBaseDomain" value="" />
+		<parameter name="saasAppToken" value="" />
+		<parameter name="tenant" value="elasticanet" />
+		<parameter name="tenantToken" value="HBhzAg76hDGC6xoYIx+fVQ==" />
+		<groups>
+			<run>
+				<include name="cloud"></include>
+				<include name="regression"></include>
+			</run>
+		</groups>
+		<classes>
+			<class name="com.elastica.tests.sso.SSOTests">
+			</class>
+		</classes>
+	</test>
+</suite>

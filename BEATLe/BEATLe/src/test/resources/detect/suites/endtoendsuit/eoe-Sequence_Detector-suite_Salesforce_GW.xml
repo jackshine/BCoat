@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+<suite name="Detect One Step Sequence Detector Regression Tests Box  GW">
+	<parameter name="environmentName" value="eoe"></parameter>
+	
+	<parameter name="userName" value="rocky@dgwbeatle.com"></parameter>
+	<parameter name="userPassword" value="Elastica@321"></parameter>
+	<parameter name="tenantName" value="dgwbeatlecom"></parameter>
+	<parameter name="tenantDomainName" value="dgwbeatle.com"></parameter>
+	<parameter name="tenantToken" value="vNcD3W0UYrRJ1YKyBDr1nw=="></parameter>
+
+	<parameter name="referer" value="https://eoe.elastica-inc.com"/>
+	<parameter name="host" value="eoe.elastica-inc.com"/>
+	<parameter name="apiServer" value="https://api-eoe.elastica-inc.com/"/>
+	
+	<parameter name="isLoggingOn" value="true"></parameter>	
+	<parameter name="apiBaseVersion" value="v1"></parameter>
+	
+	<parameter name="saasApp" value="Salesforce"/>
+	
+	<parameter name="host" value="eoe.elastica-inc.com"/>
+	<parameter name="apiServer" value="api-eoe.elastica-inc.com"/>
+	
+	<test name="Detect Sequence Detector Regression Tests Salesforce  GW">
+	<parameter name="saasAppUsername" value="rocky@dgwbeatle.com"/>
+		<classes>
+			<class name="com.elastica.beatle.tests.detect.DetectSequenceDetector_Salesforce_GW">
+			</class>
+		</classes>
+	</test>
+	
+</suite>

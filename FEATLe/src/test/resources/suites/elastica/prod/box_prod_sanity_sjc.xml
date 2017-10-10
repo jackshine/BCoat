@@ -1,0 +1,50 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+
+<suite name="GW BOX FE Sanity Test Suite">
+
+	<listeners>
+		<listener class-name="org.uncommons.reportng.HTMLReporter" />
+		<listener class-name="org.uncommons.reportng.JUnitXMLReporter" />
+		<listener class-name="com.elastica.listeners.SuiteListener" />
+		<listener class-name="com.elastica.listeners.MethodListener" />
+		<listener class-name="com.elastica.listeners.ScreenShotListener" />
+		<listener class-name="com.elastica.listeners.PriorityListener" />
+		<!-- <listener class-name="com.elastica.listeners.RetryListener" /> -->
+	</listeners>
+
+	<parameter name="env" value="prod" />
+	<parameter name="browser" value="Firefox" />
+	<parameter name="mode" value="local" />
+	<parameter name="saasAppBaseUrl" value="https://app.box.com/login" />
+	<parameter name="username" value="admin@gatewaybeatle.com" />
+	<parameter name="password" value="Elastica@123" />
+	<parameter name="testUsername" value="gwtestuser1@gatewaybeatle.com" />
+	<parameter name="testPassword" value="Elastica123#" />
+	<parameter name="saasAppName" value="Box" />
+	<parameter name="accountType" value="Internal" />
+	<parameter name="saasAppUsername" value="gwtestuser1@gatewaybeatle.com" />
+	<parameter name="saasAppPassword" value="Elastica123$" />
+	<parameter name="referer" value="https://app.elastica.net" />
+	<parameter name="tenant" value="gatewaybeatle.com" />
+	<parameter name="tenantDomainName" value="gatewaybeatle.com" />
+	<parameter name="tenantToken" value="FGCkwUL5roSPS7TwmIlBIojwfpY5A2Geg+2ugXIPGGk=" />
+	<parameter name="proxyUrl" value="https://api-vip.elastica.net/7f00bb88cf9f40d5a664cfdca93d75d2/1456144678/elastica.pac"></parameter>
+	<parameter name="proxyExtension" value="Load"></parameter>
+
+	<test name="Gatelet Tests - Box">
+		<parameter name="platform" value="Windows 8.1" />
+		<parameter name="browserVersion" value="40.0" />
+		<parameter name="browserName" value="firefox" />
+		<groups>
+			<run>
+				<include name="cloud"></include>
+				<include name="SANITY"></include>
+				
+			</run>
+		</groups>
+		<classes>
+			<class name="com.elastica.tests.box.BoxTest">
+			</class>
+		</classes>
+	</test>
+</suite>

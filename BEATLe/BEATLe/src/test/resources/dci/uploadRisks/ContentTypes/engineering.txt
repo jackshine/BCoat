@@ -1,0 +1,578 @@
+Flight 
+Investigations
+
+Alabama
+Dr. R. Michael 
+Banish
+Thermophysical 
+Property 
+Measurements of 
+Te-Based II-VI 
+Semiconductor 
+Compounds
+University of 
+Alabama, 
+Huntsville
+Huntsville, AL
+
+Dr. Frank R. 
+Szofran
+Influence of 
+Containment on 
+Defects in GeSi 
+Crystals:  
+Comparison of 
+Detached Bridgman 
+and Floating-Zone 
+Growth
+NASA Marshall 
+Space Flight 
+Center
+Huntsville, AL
+
+California
+Dr. James D. 
+Trolinger
+Investigation of 
+the Influence of 
+Microgravity on 
+Transport 
+Mechanisms in a 
+Virtual Space 
+Flight Chamber
+MetroLaser, 
+Incorporated
+Irvine, CA
+
+Dr. Gerald E. 
+Voecks
+Investigation of 
+Controlled Zeolite 
+Nucleation and 
+Crystal Growth 
+Development
+NASA Jet 
+Propulsion 
+Laboratory
+Pasadena, CA
+
+Illinois
+Dr. Richard Weber
+Microgravity 
+Studies of Liquid-
+Liquid Phase 
+Transitions in 
+Undercooled 
+Alumina-Yttria 
+Melts
+Containerless 
+Research, Inc.
+Evanston, IL
+
+Massachusetts
+Professor August 
+F. Witt
+Identification and 
+Control of Gravity 
+Related Defect 
+Formation During 
+Melt Growth of 
+Electro-optic 
+Single Crystals: 
+Sillenites 
+[Bi12SiO20), BSO
+Massachusetts 
+Institute of 
+Technology
+Cambridge, MA
+
+Missouri
+Dr. Delbert E. Day
+Kinetics of 
+Nucleation and 
+Crystal Growth in 
+Glass Forming 
+Melts in 
+Microgravity
+University of 
+Missouri, Rolla
+Rolla, MO
+
+Mississippi
+Dr. John A. Pojman
+Frontal 
+Polymerization in 
+Microgravity
+University of 
+Southern 
+Mississippi
+Hattiesburg, MS
+
+New York
+Dr. Martin E. 
+Glicksman
+Evolution of Local 
+Microstructures:  
+Spatial 
+Instabilities of 
+Coarsening 
+Clusters
+Rensselaer 
+Polytechnic 
+Institute
+Troy, NY
+
+Dr. Matthew B. 
+Koss
+Transient 
+Dendritic 
+Solidification 
+Experiment (TDSE)
+Rensselaer 
+Polytechnic 
+Institute
+Troy, NY
+
+Pennsylvania
+Professor Randall 
+M. German
+Gravitational 
+Effects on 
+Distortion in 
+Sintering
+Pennsylvania State 
+University
+University Park, 
+PA
+
+
+
+
+
+
+Ground 
+Investigations
+
+Alabama
+Dr. Alexander A. 
+Chernov
+Morphological 
+Stability of 
+Stepped Interfaces 
+Growing From 
+Solution
+Universities Space 
+Research 
+Association
+Huntsville, AL
+
+Dr. Robert J. 
+Naumann
+Reduction of 
+Convection in 
+Closed Tube Vapor 
+Growth Experiments
+University of 
+Alabama, 
+Huntsville
+Huntsville, AL
+
+Dr. Maria I. 
+Zugrav
+Ground Based 
+Experiments in 
+Support of 
+Microgravity 
+Research Results - 
+Vapor Growth of 
+Organic Nonlinear 
+Optical Thin Film
+University of 
+Alabama in 
+Huntsville
+Huntsville, AL
+
+Arizona
+Professor K. R. 
+Sridhar
+Development of 
+Superior Materials 
+for Layered Solid 
+Oxide 
+Electrolyzers 
+Based on 
+Mechanical and 
+Thermal Failure 
+Testing and 
+Analysis
+University of 
+Arizona
+Tucson, AZ
+
+California
+Professor James W. 
+Evans
+Exploiting the 
+Temperature 
+Dependence of 
+Magnetic 
+Susceptibility to 
+Control Convection 
+in Fundamental 
+Studies of 
+Solidification 
+Phenomena
+University of 
+California, 
+Berkeley
+Berkeley, CA
+
+Dr. Robert S. 
+Feigelson
+Investigation of 
+the Crystal Growth 
+of Dielectric 
+Materials by the 
+Bridgman Technique 
+Using Vibrational 
+Control
+Stanford 
+University
+Stanford, CA
+
+Dr. Lawrence H. 
+Heilbronn
+Radiation 
+Transmission 
+Properties of In-
+Situ Materials
+Ernest O. Lawrence 
+Berkeley National 
+Laboratory
+Berkeley, CA
+
+Dr. Arlon Hunt
+Porosity and 
+Variations in 
+Microgravity 
+Aerogel Nano-
+Structures
+Lawrence Berkeley 
+National 
+Laboratory
+Berkeley, CA
+
+Colorado
+Dr. Alan R. 
+Greenberg
+Influence of 
+Solutocapillary 
+Convection on 
+Macrovoid Defect 
+Formation in 
+Polymeric 
+Membranes
+University of 
+Colorado
+Boulder, CO
+
+Connecticut
+Dr. Robert E. 
+Apfel
+Nucleation and 
+Growth Mechanisms 
+Underlying the 
+Microstructure of 
+Polymer Foams 
+Produced by 
+Dynamic 
+Decompression and 
+Cooling
+Yale University
+New Haven, CT
+
+Illinois
+Dr. Jennifer A. 
+Lewis
+Colloidal 
+Stability in 
+Complex Fluids
+University of 
+Illinois-Urbana 
+Champaign
+Urbana, IL
+
+Dr. Constantine 
+Megaridis
+Microgravity 
+Investigation on 
+the Formation of 
+Oxides and 
+Adsorbed Oxygen 
+Films in Solder 
+Jetting 
+Applications 
+Pertinent to the 
+Electronics 
+Manufacturing 
+Industry
+University of 
+Illinois at 
+Chicago
+Chicago, IL
+
+Dr. John S. Walker
+Models of Magnetic 
+Damping for 
+Bridgman 
+Semiconductor 
+Crystal Growth in 
+Microgravity
+University of 
+Illinois at Urbana
+Urbana, IL
+
+Louisiana
+Dr. Ben Q. Li
+A Comparative 
+Modeling Study of 
+Magnetic and 
+Electrostatic 
+Levitation in 
+Microgravity
+Louisiana State 
+University
+Baton Rouge, LA
+
+Massachusetts
+Professor Peggy 
+Cebe
+Study of 
+Development of 
+Polymer Structure 
+in Microgravity 
+Using Ellipsometry
+Tufts University
+Medford, MA
+
+Dr. Albert Sacco
+Modeling of 
+Macroscopic/Micros
+copic Transport 
+and Growth 
+Phenomena in 
+Zeolite Crystals 
+Under Microgravity 
+Conditions
+Northeastern 
+University
+Boston, MA
+
+Maryland
+Dr. Geoffrey B. 
+McFadden
+A Phase-
+Field/Fluid Motion 
+Model of 
+Solidification: 
+Investigation of 
+Flow Effects 
+During Directional 
+Solidification and 
+Dendritic Growth
+National Institute 
+of Standards and 
+Technology
+Gaithersburg, MD
+
+Michigan
+Professor Thomas 
+H. Courtney
+Gravity Induced 
+Settling in 
+Interconnected 
+Liquid-Solid 
+Systems
+Michigan 
+Technological 
+University
+Houghton, MI
+
+Minnesota
+Professor Jeffrey 
+J. Derby
+Theoretical 
+Analysis of 3D, 
+Transient 
+Convection and 
+Segregation in 
+Microgravity 
+Bridgman Crystal 
+Growth
+University of 
+Minnesota
+Minneapolis, MN
+
+North Carolina
+Professor Jerry 
+Bernholc
+Growth and 
+Properties of 
+Carbon Nanotubes
+North Carolina 
+State University
+Raleigh, NC
+
+New York
+Dr. Allan S. 
+Myerson
+Thermodynamic and 
+Spectroscopic 
+Studies of 
+Secondary 
+Nucleation in 
+Microgravity
+Polytechnic 
+University
+Brooklyn, NY
+
+Dr. Liya L. Regel
+Improved Crystal 
+Quality by 
+Detached 
+Solidification in 
+Microgravity
+Clarkson 
+University
+Potsdam, NY
+
+
+Ohio
+Dr. Prabhat K. 
+Gupta
+Interdiffusion in 
+the Presence of 
+Free Convection
+Ohio State 
+University
+Columbus, OH
+
+Dr. Mohammad 
+Kassemi
+Effect of 
+Marangoni 
+Convection 
+Generated by Voids 
+on Segregation 
+During Low-g and 
+1-g Solidification
+NASA Lewis 
+Research Center
+Cleveland, OH
+
+Pennsylvania
+Dr. Paul Ducheyne
+Surface 
+Transformation of 
+Reactive Glass in 
+a Microgravity 
+Environment
+University of 
+Pennsylvania
+Philadelphia, PA
+
+Tennessee
+Dr. Adrienne C. 
+Friedli
+Development of 
+Anionic 
+Polyelectrolyte 
+for Solid Battery 
+Applications
+Middle Tennessee 
+University
+Murfreesboro, TN
+
+Texas
+Dr. Francis A. 
+Cucinotta
+Improved Radiation 
+Transport Code and 
+Nuclear Data Base 
+for Evaluation of 
+Spacecraft 
+Shielding
+NASA Johnson Space 
+Center
+Houston, TX
+
+Dr. Naomi Jean 
+Halas
+Metal Nanoshell 
+Functionalization 
+and Materials 
+Assembly: Effects 
+of Microgravity 
+Conditions
+Rice University
+Houston, TX
+
+Virginia
+Dr. Samy Elshall
+Gas Phase 
+Polymerization and 
+Nucleation 
+Experiments in 
+Microgravity
+Virginia 
+Commonwealth 
+University
+Richmond, VA
+
+Dr. John Wilson
+Improved 
+Spacecraft 
+Materials for 
+Radiation 
+Shielding
+NASA Langley 
+Research Center
+Hampton, VA
+
+Wisconsin
+Dr. Reid F. Cooper
+Dynamic-Reduction 
+and the Creation 
+of Fine-Grained 
+Ceramics From 
+Inviscid 
+Oxide/Silicate 
+Melts
+University of 
+Wisconsin, Madison
+Madison, WI
+
+Professor Sindo 
+Kou
+Physical 
+Simulation of 
+Marangoni 
+Convection in Weld 
+Pools
+University of 
+Wisconsin, Madison
+Madison, WI
+
+Dr. Eric E. Rice
+Carbon-based 
+Reduction of Lunar 
+Regolith (CRLB)
+Orbital 
+Technologies 
+Corporation
+Madison, WI
+
+
+
+
+

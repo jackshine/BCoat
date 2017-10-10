@@ -1,0 +1,184 @@
+Form W-4 (2016) 
+Purpose. Complete Form W-4 so that your employer can withhold the correct federal income tax from your pay. Consider completing a new Form W-4 each year and when your personal or financial situation changes. 
+Exemption from withholding. If you are exempt, complete only lines 1, 2, 3, 4, and 7 and sign the form to validate it. Your exemption for 2016 expires February 15, 2017. See Pub. 505, Tax Withholding and Estimated Tax. 
+Note: If another person can claim you as a dependent on his or her tax return, you cannot claim exemption from withholding if your income exceeds $1,050 and includes more than $350 of unearned income (for example, interest and dividends). 
+Exceptions. An employee may be able to claim exemption from withholding even if the employee is a dependent, if the employee: 
+• Is age 65 or older, • Is blind, or 
+• Will claim adjustments to income; tax credits; or itemized deductions, on his or her tax return. 
+The exceptions do not apply to supplemental wages greater than $1,000,000. 
+Basic instructions. If you are not exempt, complete the Personal Allowances Worksheet below. The worksheets on page 2 further adjust your withholding allowances based on itemized deductions, certain credits, adjustments to income, or two-earners/multiple jobs situations. 
+Complete all worksheets that apply. However, you may claim fewer (or zero) allowances. For regular wages, withholding must be based on allowances you claimed and may not be a flat amount or percentage of wages. 
+Head of household. Generally, you can claim head of household filing status on your tax return only if you are unmarried and pay more than 50% of the costs of keeping up a home for yourself and your dependent(s) or other qualifying individuals. See Pub. 501, Exemptions, Standard Deduction, and Filing Information, for information. 
+Tax credits. You can take projected tax credits into account in figuring your allowable number of withholding allowances. Credits for child or dependent care expenses and the child tax credit may be claimed using the Personal Allowances Worksheet below. See Pub. 505 for information on converting your other credits into withholding allowances. 
+Nonwage income. If you have a large amount of nonwage income, such as interest or dividends, consider making estimated tax payments using Form 1040-ES, Estimated Tax for Individuals. Otherwise, you may owe additional tax. If you have pension or annuity income, see Pub. 505 to find out if you should adjust your withholding on Form W-4 or W-4P. 
+Two earners or multiple jobs. If you have a working spouse or more than one job, figure the total number of allowances you are entitled to claim on all jobs using worksheets from only one Form W-4. Your withholding usually will be most accurate when all allowances are claimed on the Form W-4 for the highest paying job and zero allowances are claimed on the others. See Pub. 505 for details. 
+Nonresident alien. If you are a nonresident alien, see Notice 1392, Supplemental Form W-4 Instructions for Nonresident Aliens, before completing this form. 
+Check your withholding. After your Form W-4 takes effect, use Pub. 505 to see how the amount you are having withheld compares to your projected total tax for 2016. See Pub. 505, especially if your earnings exceed $130,000 (Single) or $180,000 (Married). 
+Future developments. Information about any future developments affecting Form W-4 (such as legislation enacted after we release it) will be posted at www.irs.gov/w4. 
+
+
+Personal Allowances Worksheet (Keep for your records.) 
+ 
+A Enter “1” for yourself if no one else can claim you as a dependent . . . . . . . . . { • You are single and have only one job; or 
+. . . 
+. . . . .. A 
+
+B Enter “1” if: • You are married, have only one job, and your spouse does not work; or • Your wages from a second job or your spouse’s wages (or the total of both) are $1,500 or less. 
+} 
+. .. B C Enter “1” for your spouse. But, you may choose to enter “-0-” if you are married and have either a working spouse or more 
+
+than one job. (Entering “-0-” may help you avoid having too little tax withheld.) . . . . . . . . . . . . 
+	.	D  Enter number of dependents (other than your spouse or yourself) you will claim on your tax return . . . . . .  
+	.	E  Enter “1” if you will file as head of household on your tax return (see conditions under Head of household above)  
+	.	F  Enter “1” if you have at least $2,000 of child or dependent care expenses for which you plan to claim a credit .  (Note: Do not include child support payments. See Pub. 503, Child and Dependent Care Expenses, for details.)  
+	.	G  Child Tax Credit (including additional child tax credit). See Pub. 972, Child Tax Credit, for more information.    
+• If your total income will be less than $70,000 ($100,000 if married), enter “2” for each eligible child; then less “1” if you have two to four eligible children or less “2” if you have five or more eligible children. • If your total income will be between $70,000 and $84,000 ($100,000 and $119,000 if married), enter “1” for each eligible child . 
+. G H Add lines A through G and enter total here. (Note: This may be different from the number of exemptions you claim on your tax return.) H 
+ 
+For accuracy, 
+complete all worksheets that apply. 
+{ 
+• • 
+• 
+If you plan to itemize or claim adjustments to income and want to reduce your withholding, see the Deductions and Adjustments Worksheet on page 2. 
+If you are single and have more than one job or are married and you and your spouse both work and the combined earnings from all jobs exceed $50,000 ($20,000 if married), see the Two-Earners/Multiple Jobs Worksheet on page 2 to avoid having too little tax withheld. If neither of the above situations applies, stop here and enter the number from line H on line 5 of Form W-4 below. 
+ 
+
+
+
+Separate here and give Form W-4 to your employer. Keep the top part for your records. 
+ 
+Form 
+Whether you are entitled to claim a certain number of allowances or exemption from withholding is subject to review by the IRS. Your employer may be required to send a copy of this form to the IRS. 
+
+
+W-4 
+Department of the Treasury Internal Revenue Service 
+
+Employee's Withholding Allowance Certificate 
+OMB No. 1545-0074 
+2016 
+
+1 Your first name and middle initial 
+Last name 
+Home address (number and street or rural route) City or town, state, and ZIP code 
+
+
+ 2 Your social security number 
+3 Single Married Married, but withhold at higher Single rate. Note: If married, but legally separated, or spouse is a nonresident alien, check the “Single” box. 
+
+4 If your last name differs from that shown on your social security card, 
+	.	5  Total number of allowances you are claiming (from line H above or from the applicable worksheet on page 2)  
+	.	6  Additional amount, if any, you want withheld from each paycheck . . . . . . . . . . . . . . $  
+	.	7  I claim exemption from withholding for 2016, and I certify that I meet both of the following conditions for exemption.  • Last year I had a right to a refund of all federal income tax withheld because I had no tax liability, and • This year I expect a refund of all federal income tax withheld because I expect to have no tax liability. If you meet both conditions, write “Exempt” here . . . . . . . . . . . . . . .  
+Under penalties of perjury, I declare that I have examined this certificate and, to the best of my knowledge and belief, it is true, correct, and complete. 
+56 
+7 
+Employee’s signature 
+Date
+(This form is not valid unless you sign it.)  8 Employer’s name and address (Employer: Complete lines 8 and 10 only if sending to the IRS.) 
+9 Office code (optional) 
+ 10 Employer identification number (EIN) 
+
+For Privacy Act and Paperwork Reduction Act Notice, see page 2. 
+Cat. No. 10220Q 
+Form W-4 (2016) 
+
+
+Deductions and Adjustments Worksheet 
+Note: Use this worksheet only if you plan to itemize deductions or claim certain credits or adjustments to income. 
+1 Enter an estimate of your 2016 itemized deductions. These include qualifying home mortgage interest, charitable contributions, state and local taxes, medical expenses in excess of 10% (7.5% if either you or your spouse was born before January 2, 1952) of your income, and miscellaneous deductions. For 2016, you may have to reduce your itemized deductions if your income is over $311,300 and you are married filing jointly or are a qualifying widow(er); $285,350 if you are head of household; $259,400 if you are single and 
+1 $ 2 $ 
+3 $ 4 $ 
+5$ 
+	.	6  $  
+	.	7  $  
+not head of household or a qualifying widow(er); or $155,650 if you are married filing separately. See Pub. 505 for details . . 
+{ $12,600 if married filing jointly or qualifying widow(er) 2 Enter: $9,300 if head of household 
+. 
+. 
+
+$6,300 if single or married filing separately 
+	.	3  Subtract line 2 from line 1. If zero or less, enter “-0-” . . .  
+	.	4  Enter an estimate of your 2016 adjustments to income and any additional standard deduction (see Pub. 505)  
+	.	5  Add lines 3 and 4 and enter the total. (Include any amount for credits from the Converting Credits to  
+Withholding Allowances for 2016 Form W-4 worksheet in Pub. 505.) . . . . 6 Enter an estimate of your 2016 nonwage income (such as dividends or interest) 
+. . . 
+. . . . 
+. . . . . . 
+. . . . 
+. . . . . . 
+. . . . 
+} 
+. . . . . . . . . . . . . . . . . . . . . . 
+    
+	.	7  Subtract line 6 from line 5. If zero or less, enter “-0-” . . . . . . . .  
+	.	8  Divide the amount on line 7 by $4,050 and enter the result here. Drop any fraction  
+	.	9  Enter the number from the Personal Allowances Worksheet, line H, page 1 . .  
+. . . 8 . 9 
+  
+10 Add lines 8 and 9 and enter the total here. If you plan to use the Two-Earners/Multiple Jobs Worksheet, also enter this total on line 1 below. Otherwise, stop here and enter this total on Form W-4, line 5, page 1 
+10 
+
+Two-Earners/Multiple Jobs Worksheet (See Two earners or multiple jobs on page 1.) 
+Note: Use this worksheet only if the instructions under line H on page 1 direct you here. 
+	.	1  Enter the number from line H, page 1 (or from line 10 above if you used the Deductions and Adjustments Worksheet) 1  
+	.	2  Find the number in Table 1 below that applies to the LOWEST paying job and enter it here. However, if  you are married filing jointly and wages from the highest paying job are $65,000 or less, do not enter more  than “3” . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .  
+	.	3  If line 1 is more than or equal to line 2, subtract line 2 from line 1. Enter the result here (if zero, enter  “-0-”) and on Form W-4, line 5, page 1. Do not use the rest of this worksheet . . . . . . . . .  
+Note: If line 1 is less than line 2, enter “-0-” on Form W-4, line 5, page 1. Complete lines 4 through 9 below to figure the additional withholding amount necessary to avoid a year-end tax bill. 
+	.	4  Enter the number from line 2 of this worksheet  
+	.	5  Enter the number from line 1 of this worksheet  
+	.	6  Subtract line 5 from line 4 . . . . . . .  
+	.	7  Find the amount in Table 2 below that applies to the HIGHEST paying job and enter it here . . .  
+	.	8  Multiply line 7 by line 6 and enter the result here. This is the additional annual withholding needed .  
+	.	9  Divide line 8 by the number of pay periods remaining in 2016. For example, divide by 25 if you are paid every two  weeks and you complete this form on a date in January when there are 25 pay periods remaining in 2016. Enter the result here and on Form W-4, line 6, page 1. This is the additional amount to be withheld from each paycheck  
+
+2 3 
+ 
+. . .. . . .. . . .. 
+..... .4 ..... .5 ..... ........ 
+. 6 
+  
+. . 
+7 $ 8 $ 
+9 $ 
+
+
+
+
+Table 1 
+Table 2 
+Married Filing Jointly 
+All Others 
+Married Filing Jointly 
+All Others 
+If wages from LOWEST paying job are— 
+Enter on line 2 above 
+If wages from LOWEST paying job are— 
+Enter on line 2 above 
+If wages from HIGHEST paying job are— 
+Enter on line 7 above 
+If wages from HIGHEST paying job are— 
+Enter on line 7 above 
+$0 - $6,000 6,001 - 14,000 14,001 - 25,000 25,001 - 27,000 27,001 - 35,000 35,001 - 44,000 44,001 - 55,000 55,001 - 65,000 65,001 - 75,000 75,001 - 80,000 80,001 - 100,000 100,001 - 115,000 115,001 - 130,000 130,001 - 140,000 140,001 - 150,000 
+150,001 and over 
+0 1 2 3 4 5 6 7 8 9 
+10 11 12 13 14 15 
+$0 - $9,000 9,001 - 17,000 17,001 - 26,000 26,001 - 34,000 34,001 - 44,000 44,001 - 75,000 75,001 - 85,000 85,001 - 110,000 110,001 - 125,000 125,001 - 140,000 
+140,001 and over 
+0 1 2 3 4 5 6 7 8 9 
+10 
+$0 - $75,000 75,001 - 135,000 135,001 - 205,000 205,001 - 360,000 360,001 - 405,000 
+405,001 and over 
+$610 1,010 1,130 1,340 1,420 1,600 
+$0 - $38,000 38,001 - 85,000 85,001 - 185,000 
+185,001 - 400,000 400,001 and over 
+$610 1,010 1,130 1,340 1,600 
+Privacy Act and Paperwork Reduction Act Notice. We ask for the information on this form to carry out the Internal Revenue laws of the United States. Internal Revenue Code sections 3402(f)(2) and 6109 and their regulations require you to provide this information; your employer uses it to determine your federal income tax withholding. Failure to provide a properly completed form will result in your being treated as a single person who claims no withholding allowances; providing fraudulent information may subject you to penalties. Routine uses of this information include giving it to the Department of Justice for civil and criminal litigation; to cities, states, the District of Columbia, and U.S. commonwealths and possessions for use in administering their tax laws; and to the Department of Health and Human Services for use in the National Directory of New Hires. We may also disclose this information to other countries under a tax treaty, to federal and state agencies to enforce federal nontax criminal laws, or to federal law enforcement and intelligence agencies to combat terrorism. 
+You are not required to provide the information requested on a form that is subject to the Paperwork Reduction Act unless the form displays a valid OMB control number. Books or records relating to a form or its instructions must be retained as long as their contents may become material in the administration of any Internal Revenue law. Generally, tax returns and return information are confidential, as required by Code section 6103. 
+The average time and expenses required to complete and file this form will vary depending on individual circumstances. For estimated averages, see the instructions for your income tax return. 
+If you have suggestions for making this form simpler, we would be happy to hear from you. See the instructions for your income tax return. 
+
+
+
+

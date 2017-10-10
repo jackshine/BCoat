@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+<suite name="Securlets Salesforce CleanUp Test Suite" parallel="false">
+	
+	<parameter name="environmentName" value="eoe"/>
+	<parameter name="userName" value="sajjad.alam@elastica.net"/>
+	<parameter name="userPassword" value="Elastica@123"/>
+	<parameter name="tenantName" value="elasticanet"/>
+	<parameter name="isLoggingOn" value="true"/>
+	<parameter name="apiBaseVersion" value="v1"/>
+	<parameter name="esScriptsHostName" value="10.0.0.242"/>
+	<parameter name="esScriptsUserName" value="madmin"/>
+	<parameter name="referer" value="https://eoe.elastica-inc.com"/>
+	<parameter name="tenantToken" value="upoE50KtMCBFWLEzcBHhug=="/>
+	<parameter name="saasAppUsername" value="farhanj@elastica.net.Sandbox1" />
+	<parameter name="saasAppPassword" value="A1200@sx3" />
+	<parameter name="saasAppLoginHost" value="cs22.salesforce.com"/>
+	<parameter name="saasAppUserRole" value="ADMIN"/>
+	<parameter name="saasApp" value="SALESFORCE"/>
+	<parameter name="domainName" value="elasticanet"/>
+	<parameter name="socUserName" value="Farhan Jaleel"/>
+	<parameter name="saasAppClientId" value="3MVG9OI03ecbG2VriqmqSqNh6dLQo3pAptm8Ciko4gv071kOi17W7c5fPX.Eela_6W.JfoCehAzoNFf2YM5vW"/>
+    <parameter name="saasAppClientSecret" value="8843821216714377683"/>
+    <parameter name="saasAppToken" value="EQUZEc3QoEa0EqBzHVpoMLgr"/>
+	
+	<!--  
+	<parameter name="environmentName" value="eoe"/>
+	<parameter name="userName" value="admin@securletbeatle.com"/>
+	<parameter name="userPassword" value="Elastica1234!"/>
+	<parameter name="tenantName" value="securletbeatlecom"/>
+	<parameter name="isLoggingOn" value="true"/>
+	<parameter name="apiBaseVersion" value="v1"/>
+	<parameter name="esScriptsHostName" value="10.0.0.242"/>
+	<parameter name="esScriptsUserName" value="madmin"/>
+	<parameter name="referer" value="https://eoe.elastica-inc.com"/>
+	<parameter name="tenantToken" value="H3YK/Vxr3p+qm9dfmKvmh7oYaPBJMqUsszm+LOStr4k="/>
+	<parameter name="saasAppUsername" value="admin@securletbeatle.com"/>
+	<parameter name="saasAppPassword" value="Q#V(7dkkbA@GLz3"/>
+	<parameter name="saasAppUserRole" value="ADMIN"/>
+	<parameter name="saasApp" value="SALESFORCE"/>
+	<parameter name="domainName" value="securletbeatlecom"/> 
+	 -->
+	
+	
+	
+	<test name="Securlets Salesforce Regression Tests">
+		 
+		<classes>
+			<class name="com.elastica.beatle.tests.securlets.salesforce.SalesforceActivityTests">
+				<methods>
+					<include name="cleanUp"></include>
+				</methods> 
+			</class>
+		</classes>
+	</test>
+</suite>

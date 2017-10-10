@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+<suite name="DCI Smoke Test Suite - QAVPC">
+
+	<test name="DCI Risk/Content Type Sanity Tests">
+		<parameter name="environmentName" value="qavpc" />
+		<parameter name="userName" value="admin@dcibeatle.com" />
+		<parameter name="userPassword" value="Elastica1234!" />
+		<parameter name="tenantName" value="dcibeatlecom" />
+		<parameter name="isLoggingOn" value="true" />
+		<parameter name="apiBaseVersion" value="v1" />
+		<parameter name="esScriptsHostName" value="10.0.0.242" />
+		<parameter name="esScriptsUserName" value="madmin" />
+		<parameter name="referer" value="https://qa-vpc-api.elastica-inc.com/" />
+		<parameter name="tenantToken" value="norz1GhMYMcqRkr9IxcuQA==" />
+		<parameter name="saasApp" value="Google Drive" />
+		<parameter name="saasAppUsername" value="admin@dcibeatle.com" />
+		<parameter name="saasAppPassword" value="WRFNmZX@hqJ61x!wv7)0" />
+		<parameter name="saasAppUserRole" value="ADMIN" />
+		<parameter name="saasAppToken"
+			value="1/qV5N0txotCDAUUdjEFPwBAFQURuVWWW5Rd_myfSNFDs" />
+		<parameter name="saasAppClientId"
+			value="1068547909400-59kv4u8g3vqnaonunqucp11g4hcarl84.apps.googleusercontent.com" />
+		<parameter name="saasAppClientSecret" value="rdbpridJ1dUI7O8ubccvGAbk" />
+
+		<groups>
+			<run>
+				<include name="Sanity" />
+			</run>
+		</groups>
+		<classes>
+			<class name="com.elastica.beatle.tests.dci.DCISanityTests"></class>
+		</classes>
+	</test>
+</suite>

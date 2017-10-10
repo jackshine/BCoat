@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE properties SYSTEM "http://java.sun.com/dtd/properties.dtd">
+<properties>
+	<comment>Log File Attributes</comment>
+	
+	<entry key="be_bluecoat_proxy.LogFilePath">/src/test/resources/audit/AuditTestData/bluecoat-vald-auto.log.zip</entry>
+	<entry key="be_bluecoat_proxy.DataSourceFormat">ELFF</entry>
+	<entry key="be_bluecoat_proxy.DataSourceType">Bluecoat ProxySG</entry>
+	<entry key="be_bluecoat_proxy.type">Bluecoat ProxySG</entry>
+	<entry key="be_bluecoat_proxy.log_format">ELFF</entry>
+	<entry key="be_bluecoat_proxy.filename">bluecoat-vald-auto.log.zip</entry>
+		
+</properties>

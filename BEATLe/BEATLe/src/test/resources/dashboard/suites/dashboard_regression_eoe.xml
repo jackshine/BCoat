@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+<suite name="Dashboard Test Suite">
+	<parameter name="environmentName" value="eoe"/>
+	<parameter name="cloudSocUName" value="protectauto"/>
+	<parameter name="tenantName" value="protectbeatlecom"/>
+	<parameter name="isLoggingOn" value="true"/>
+	<parameter name="apiBaseVersion" value="v1"/>
+	<test name="Dashboard Tests">
+		<classes>
+			<class name="com.elastica.beatle.tests.dashboard.DashboardTests">
+			<methods>
+					<exclude name="testDashboardAuditServicesWidgetData"></exclude>
+					<exclude name="testAuditSummaryUsersSessionDestinationTraffic"></exclude>
+				</methods>
+			</class>
+		</classes>
+	</test>
+</suite>

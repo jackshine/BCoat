@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+<suite name="Protect Test Suite">
+	<parameter name="environmentName" value="qavpc"/>
+	<parameter name="userName" value="admin@protectbeatle.com"/>
+	<parameter name="userPassword" value="Elastica1234!"/>
+	<parameter name="tenantName" value="protectbeatlecom"/>
+	<parameter name="isLoggingOn" value="true"/>
+	<parameter name="apiBaseVersion" value="v1"/>
+	<parameter name="apiserverHostName" value="qa-vpc-ui.elastica-inc.com"/>
+	<parameter name="domainName" value="protectbeatle.com"/>
+	<parameter name="saasApp" value="Gmail"></parameter>
+	<parameter name="tenantToken" value="nIzqjM7QUjS4OcWe2Oti74jwfpY5A2Geg+2ugXIPGGk="/>
+	
+	<parameter name="saasAppClientId" value="287386021131-l3tprddtegfkjblib53d5jocmhe5jgft.apps.googleusercontent.com"/>
+	<parameter name="saasAppClientSecret" value="wh3fPxSuNwwvs-fDEs3LcCDm"/>
+	<parameter name="saasAppRefreshToken" value="1/cd7POgIHXlDzJAgwrXhDLWtCgeAozQxzR_r3MSDI1rU"/>
+	<parameter name="saasAppUsername" value="admin@protectbeatle.com"/>
+	
+	<parameter name="externalSaasAppClientId" value="395072213916-ll2adudv66mubfvddesp8j6u2fuvaruk.apps.googleusercontent.com"/>
+	<parameter name="externalSaasAppClientSecret" value="j0ONnv9_R7nOdh-Dt81kTbTF"/>
+	<parameter name="externalSaasAppRefreshToken" value="1/SkidmOaQXkvQO6RAUYio1gIgUqF5nfyezLxikLOFxmw"/>
+	<parameter name="externalSaasAppUsername" value="mayurbelekar@gmail.com"/>
+	
+	<parameter name="internalSaasAppClientId" value="1004916255039-2ot9p1th0cdjoquuhvbdrrfpumdsn91l.apps.googleusercontent.com"/>
+	<parameter name="internalSaasAppClientSecret" value="mhLilGjqtLXwUO0sjiGUtpb2"/>
+	<parameter name="internalSaasAppRefreshToken" value="1/Cx7PxdY5x4PbELu1OzvZHH8G1jFZWkReuwA8aNZcEs8"/>
+	<parameter name="internalSaasAppUsername" value="protectauto1@protectbeatle.com"/>
+	
+	<test name="Protect DataExposure Gmail Securlet Move To Trash Remediation Admin User">
+		
+		<classes>
+			<class name="com.elastica.beatle.tests.protect.dataexposure.GMailMoveToTrashTests"></class>
+		</classes>
+	</test>
+</suite>

@@ -1,0 +1,18 @@
+{
+  "source": "audit_details",
+  "reportconfig": {
+    "start": 0,
+    "filters": {
+      
+    },
+     "aggregation_definition": {
+      "aggregations": {
+        "agg_0": {
+          "field": "service_info.service_id",
+          "agg_function": "distinct_count"
+        }
+      },
+      "type": "simple"
+    }
+  }
+}

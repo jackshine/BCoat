@@ -1,0 +1,11 @@
+<component name="libraryTable">
+  <library name="WallmartAuditLogs">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/BEATLe/src/test/resources/Audit/LogFiles/WallmartAuditLogs/PAN-Sys.zip!/" />
+      <root url="jar://$PROJECT_DIR$/BEATLe/src/test/resources/Audit/LogFiles/WallmartAuditLogs/PAN-post-vald.zip!/" />
+      <root url="jar://$PROJECT_DIR$/BEATLe/src/test/resources/Audit/LogFiles/WallmartAuditLogs/Mcaffe-web-gateway-final.zip!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>

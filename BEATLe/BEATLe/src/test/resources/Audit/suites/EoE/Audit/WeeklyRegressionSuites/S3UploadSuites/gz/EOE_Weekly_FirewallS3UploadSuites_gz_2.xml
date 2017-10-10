@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+<suite name="Audit Test Suite" parallel="instances" thread-count="20">
+	<parameter name="userName" value="user@auditweeks3gz.co"></parameter>
+	<parameter name="userPassword" value="Elastica@123"></parameter>
+	<parameter name="environmentName" value="eoe"></parameter>
+	<parameter name="tenantName" value="auditweeks3gzco"></parameter>
+	<parameter name="referer" value="https://eoe.elastica-inc.com" />
+	<parameter name="tenantToken" value="WZ8y7VB15hcv2Soa57pOCQ==" />
+	<parameter name="isLoggingOn" value="true"></parameter>
+	<parameter name="apiBaseVersion" value="v1"></parameter>
+	
+	<test name="Audit Weekly S3 GZ Regression Tests - Two">
+		<classes>
+			<class name="com.elastica.beatle.audit.factoryClass.weeklyregressionfactory.S3WeeklyFactory.AuditS3UploadgzFactory2"></class>
+		</classes>
+	</test>			
+</suite>
+

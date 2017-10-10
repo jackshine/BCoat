@@ -1,0 +1,2477 @@
+anadrol
+053.314.328-40 Identificação
+custom_dictionaries_only
+custom_terms_only
+ CREDIT CARD STATEMENT
+
+Wells Fargo
+
+SEND PAYMENT TO: 
+1015 EAST BOBBY COURTMILLERSVILLE, MISSOURI - 37072
+
+Social Security Number 098-32-5068
+Name Alex Smith 
+
+ACCOUNT NUMBER	NAME 			STATEMENT DATE		PAYMENT DUE DATE
+0987-527-810 		Alex Smith	10/01/2015		11/07/2015
+CREDIT LIMIT 		CREDIT AVAILABLE	NEW BALANCE	MINIMUM PAYMENT
+$5,000.00 		3,477.98		$1,522.02 		$69.87
+
+This Month’s Activity:
+TRANSACTION DATE
+POST DATE
+TRANSACTION DESCRIPTION
+AMOUNT
+09/05/2015
+09/07/2015
+Safeway
+101.01
+Flight 
+Investigations
+
+Alabama
+Dr. R. Michael 
+Banish
+Thermophysical 
+Property 
+Measurements of 
+Te-Based II-VI 
+Semiconductor 
+Compounds
+University of 
+Alabama, 
+Huntsville
+Huntsville, AL
+
+Dr. Frank R. 
+Szofran
+Influence of 
+Containment on 
+Defects in GeSi 
+Crystals:  
+Comparison of 
+Detached Bridgman 
+and Floating-Zone 
+Growth
+NASA Marshall 
+Space Flight 
+Center
+Huntsville, AL
+
+California
+Dr. James D. 
+Trolinger
+Investigation of 
+the Influence of 
+Microgravity on 
+Transport 
+Mechanisms in a 
+Virtual Space 
+Flight Chamber
+MetroLaser, 
+Incorporated
+Irvine, CA
+
+Dr. Gerald E. 
+Voecks
+Investigation of 
+Controlled Zeolite 
+Nucleation and 
+Crystal Growth 
+Development
+NASA Jet 
+Propulsion 
+Laboratory
+Pasadena, CA
+
+Illinois
+Dr. Richard Weber
+Microgravity 
+Studies of Liquid-
+Liquid Phase 
+Transitions in 
+Undercooled 
+Alumina-Yttria 
+Melts
+Containerless 
+Research, Inc.
+Evanston, IL
+
+Massachusetts
+Professor August 
+F. Witt
+Identification and 
+Control of Gravity 
+Related Defect 
+Formation During 
+Melt Growth of 
+Electro-optic 
+Single Crystals: 
+Sillenites 
+[Bi12SiO20), BSO
+Massachusetts 
+Institute of 
+Technology
+Cambridge, MA
+
+Missouri
+Dr. Delbert E. Day
+Kinetics of 
+Nucleation and 
+Crystal Growth in 
+Glass Forming 
+Melts in 
+Microgravity
+University of 
+Missouri, Rolla
+Rolla, MO
+
+Mississippi
+Dr. John A. Pojman
+Frontal 
+Polymerization in 
+Microgravity
+University of 
+Southern 
+Mississippi
+Hattiesburg, MS
+
+New York
+Dr. Martin E. 
+Glicksman
+Evolution of Local 
+Microstructures:  
+Spatial 
+Instabilities of 
+Coarsening 
+Clusters
+Rensselaer 
+Polytechnic 
+Institute
+Troy, NY
+
+Dr. Matthew B. 
+Koss
+Transient 
+Dendritic 
+Solidification 
+Experiment (TDSE)
+Rensselaer 
+Polytechnic 
+Institute
+Troy, NY
+
+Pennsylvania
+Professor Randall 
+M. German
+Gravitational 
+Effects on 
+Distortion in 
+Sintering
+Pennsylvania State 
+University
+University Park, 
+PA
+
+
+
+
+
+
+Ground 
+Investigations
+
+Alabama
+Dr. Alexander A. 
+Chernov
+Morphological 
+Stability of 
+Stepped Interfaces 
+Growing From 
+Solution
+Universities Space 
+Research 
+Association
+Huntsville, AL
+
+Dr. Robert J. 
+Naumann
+Reduction of 
+Convection in 
+Closed Tube Vapor 
+Growth Experiments
+University of 
+Alabama, 
+Huntsville
+Huntsville, AL
+
+Dr. Maria I. 
+Zugrav
+Ground Based 
+Experiments in 
+Support of 
+Microgravity 
+Research Results - 
+Vapor Growth of 
+Organic Nonlinear 
+Optical Thin Film
+University of 
+Alabama in 
+Huntsville
+Huntsville, AL
+
+Arizona
+Professor K. R. 
+Sridhar
+Development of 
+Superior Materials 
+for Layered Solid 
+Oxide 
+Electrolyzers 
+Based on 
+Mechanical and 
+Thermal Failure 
+Testing and 
+Analysis
+University of 
+Arizona
+Tucson, AZ
+
+California
+Professor James W. 
+Evans
+Exploiting the 
+Temperature 
+Dependence of 
+Magnetic 
+Susceptibility to 
+Control Convection 
+in Fundamental 
+Studies of 
+Solidification 
+Phenomena
+University of 
+California, 
+Berkeley
+Berkeley, CA
+
+Dr. Robert S. 
+Feigelson
+Investigation of 
+the Crystal Growth 
+of Dielectric 
+Materials by the 
+Bridgman Technique 
+Using Vibrational 
+Control
+Stanford 
+University
+Stanford, CA
+
+Dr. Lawrence H. 
+Heilbronn
+Radiation 
+Transmission 
+Properties of In-
+Situ Materials
+Ernest O. Lawrence 
+Berkeley National 
+Laboratory
+Berkeley, CA
+
+Dr. Arlon Hunt
+Porosity and 
+Variations in 
+Microgravity 
+Aerogel Nano-
+Structures
+Lawrence Berkeley 
+National 
+Laboratory
+Berkeley, CA
+
+Colorado
+Dr. Alan R. 
+Greenberg
+Influence of 
+Solutocapillary 
+Convection on 
+Macrovoid Defect 
+Formation in 
+Polymeric 
+Membranes
+University of 
+Colorado
+Boulder, CO
+
+Connecticut
+Dr. Robert E. 
+Apfel
+Nucleation and 
+Growth Mechanisms 
+Underlying the 
+Microstructure of 
+Polymer Foams 
+Produced by 
+Dynamic 
+Decompression and 
+Cooling
+Yale University
+New Haven, CT
+
+Illinois
+Dr. Jennifer A. 
+Lewis
+Colloidal 
+Stability in 
+Complex Fluids
+University of 
+Illinois-Urbana 
+Champaign
+Urbana, IL
+
+Dr. Constantine 
+Megaridis
+Microgravity 
+Investigation on 
+the Formation of 
+Oxides and 
+Adsorbed Oxygen 
+Films in Solder 
+Jetting 
+Applications 
+Pertinent to the 
+Electronics 
+Manufacturing 
+Industry
+University of 
+Illinois at 
+Chicago
+Chicago, IL
+
+Dr. John S. Walker
+Models of Magnetic 
+Damping for 
+Bridgman 
+Semiconductor 
+Crystal Growth in 
+Microgravity
+University of 
+Illinois at Urbana
+Urbana, IL
+
+Louisiana
+Dr. Ben Q. Li
+A Comparative 
+Modeling Study of 
+Magnetic and 
+Electrostatic 
+Levitation in 
+Microgravity
+Louisiana State 
+University
+Baton Rouge, LA
+
+Massachusetts
+Professor Peggy 
+Cebe
+Study of 
+Development of 
+Polymer Structure 
+in Microgravity 
+Using Ellipsometry
+Tufts University
+Medford, MA
+
+Dr. Albert Sacco
+Modeling of 
+Macroscopic/Micros
+copic Transport 
+and Growth 
+Phenomena in 
+Zeolite Crystals 
+Under Microgravity 
+Conditions
+Northeastern 
+University
+Boston, MA
+
+Maryland
+Dr. Geoffrey B. 
+McFadden
+A Phase-
+Field/Fluid Motion 
+Model of 
+Solidification: 
+Investigation of 
+Flow Effects 
+During Directional 
+Solidification and 
+Dendritic Growth
+National Institute 
+of Standards and 
+Technology
+Gaithersburg, MD
+
+Michigan
+Professor Thomas 
+H. Courtney
+Gravity Induced 
+Settling in 
+Interconnected 
+Liquid-Solid 
+Systems
+Michigan 
+Technological 
+University
+Houghton, MI
+
+Minnesota
+Professor Jeffrey 
+J. Derby
+Theoretical 
+Analysis of 3D, 
+Transient 
+Convection and 
+Segregation in 
+Microgravity 
+Bridgman Crystal 
+Growth
+University of 
+Minnesota
+Minneapolis, MN
+
+North Carolina
+Professor Jerry 
+Bernholc
+Growth and 
+Properties of 
+Carbon Nanotubes
+North Carolina 
+State University
+Raleigh, NC
+
+New York
+Dr. Allan S. 
+Myerson
+Thermodynamic and 
+Spectroscopic 
+Studies of 
+Secondary 
+Nucleation in 
+Microgravity
+Polytechnic 
+University
+Brooklyn, NY
+
+Dr. Liya L. Regel
+Improved Crystal 
+Quality by 
+Detached 
+Solidification in 
+Microgravity
+Clarkson 
+University
+Potsdam, NY
+
+
+Ohio
+Dr. Prabhat K. 
+Gupta
+Interdiffusion in 
+the Presence of 
+Free Convection
+Ohio State 
+University
+Columbus, OH
+
+Dr. Mohammad 
+Kassemi
+Effect of 
+Marangoni 
+Convection 
+Generated by Voids 
+on Segregation 
+During Low-g and 
+1-g Solidification
+NASA Lewis 
+Research Center
+Cleveland, OH
+
+Pennsylvania
+Dr. Paul Ducheyne
+Surface 
+Transformation of 
+Reactive Glass in 
+a Microgravity 
+Environment
+University of 
+Pennsylvania
+Philadelphia, PA
+
+Tennessee
+Dr. Adrienne C. 
+Friedli
+Development of 
+Anionic 
+Polyelectrolyte 
+for Solid Battery 
+Applications
+Middle Tennessee 
+University
+Murfreesboro, TN
+
+Texas
+Dr. Francis A. 
+Cucinotta
+Improved Radiation 
+Transport Code and 
+Nuclear Data Base 
+for Evaluation of 
+Spacecraft 
+Shielding
+NASA Johnson Space 
+Center
+Houston, TX
+
+Dr. Naomi Jean 
+Halas
+Metal Nanoshell 
+Functionalization 
+and Materials 
+Assembly: Effects 
+of Microgravity 
+Conditions
+Rice University
+Houston, TX
+
+Virginia
+Dr. Samy Elshall
+Gas Phase 
+Polymerization and 
+Nucleation 
+Experiments in 
+Microgravity
+Virginia 
+Commonwealth 
+University
+Richmond, VA
+
+Dr. John Wilson
+Improved 
+Spacecraft 
+Materials for 
+Radiation 
+Shielding
+NASA Langley 
+Research Center
+Hampton, VA
+
+Wisconsin
+Dr. Reid F. Cooper
+Dynamic-Reduction 
+and the Creation 
+of Fine-Grained 
+Ceramics From 
+Inviscid 
+Oxide/Silicate 
+Melts
+University of 
+Wisconsin, Madison
+Madison, WI
+
+Professor Sindo 
+Kou
+Physical 
+Simulation of 
+Marangoni 
+Convection in Weld 
+Pools
+University of 
+Wisconsin, Madison
+Madison, WI
+
+Dr. Eric E. Rice
+Carbon-based 
+Reduction of Lunar 
+Regolith (CRLB)
+Orbital 
+Technologies 
+Corporation
+Madison, WI
+
+
+
+
+
+FAFSA
+
+July 1, 2014 – June 30, 2015
+
+F R E E  A P P L I C AT I O N  f o r  F E D E R A L  S T U D E N T  A I D
+
+Using Your Tax Return
+
+Filling Out the FAFSA
+
+SM
+
+If you or your family experienced significant changes to your financial situation (such as
+loss of employment), complete this form to the extent you can and submit it as instructed.
+Consult with the financial aid office at the college(s) you applied to or plan to attend.
+For help in filling out the FAFSA, go to www.studentaid.gov/completefafsa or call
+1-800-4-FED-AID (1-800-433-3243). TTY users (for the hearing impaired) may call
+1-800-730-8913.
+Fill the answer fields directly on your screen or print the form and complete it by hand.
+Your answers will be read electronically; therefore if you complete the form by hand:
+tuse black ink and fill in circles completely:
+tprint clearly in CAPITAL letters and skip a
+box between words:
+treport dollar amounts (such as $12,356.41)
+like this:
+
+
+Check with your financial aid administrator for these states
+and territories:
+AL, AS *, AZ, CO, FM *, GA, GU *, HI *, MH *, MP *, NE, NM, NV *,
+PR, PW *, SD *, TX, UT, VA *, VI *, WI and WY *.
+
+Pay attention to the symbols that may be listed after
+your state deadline
+Blue is for student information and purple is for parent information.
+
+Mailing Your FAFSA
+
+After you complete this application, make a copy of pages 3 through 8 for your records.
+Then mail the original of pages 3 through 8 to:
+Federal Student Aid Programs, P.O. Box 4692, Mt. Vernon, IL 62864-4692.
+After your application is processed, you will receive a summary of your information in
+your Student Aid Report (SAR). If you provide an e-mail address, your SAR will be sent by
+e-mail within three to five days. If you do not provide an e-mail address, your SAR will be
+mailed to you within three weeks. If you would like to check the status of your FAFSA,
+go to www.fafsa.gov or call 1-800-4-FED-AID.
+
+Let’s Get Started!
+Now go to page 3 of the application form and begin filling it out. Refer to the
+notes as instructed.
+
+AK Education Grant and AK Performance Scholarship June 30, 2014
+Academic Challenge - June 1, 2014 (date received)
+Workforce Grant - Contact the financial aid office.
+Higher Education Opportunity Grant - June 1, 2014 (date
+received)
+Initial awards - March 2, 2014 + *
+Additional community college awards - September 2, 2014
+(date postmarked) + *
+February 15, 2014 (date received) # *
+April 1, 2014 (date received) * For priority consideration,
+submit application by April 30, 2014.
+For DCTAG, complete the DC OneApp and submit additional
+supporting documents on or before April 30, 2014.
+April 15, 2014 (date received)
+May 15, 2014 (date processed)
+July 1, 2014 (date received); earlier priority deadlines may
+exist for certain programs. *
+Opportunity Grant - March 1, 2014 (date received) # *
+As soon as possible after January 1, 2014. Awards made until
+funds are depleted.
+March 10, 2014 (date received)
+April 1, 2014 (date received) # *
+As soon as possible after January 1, 2014. Awards made until
+funds are depleted.
+June 30, 2015 (July 1, 2014 recommended)
+May 1, 2014 (date received) #
+March 1, 2014 (date received)
+May 1, 2014 (date received)
+March 1, 2014 (date received)
+30 days after term starts (date received)
+April 1, 2014 (date received)
+MTAG and MESG Grants - September 15, 2014 (date received)
+HELP Scholarship - March 31, 2014 (date received)
+March 1, 2014 (date received) #
+As soon as possible after January 1, 2014. Awards made until
+funds are depleted.
+April 15, 2014 (date received) # Early priority deadlines may
+exist for institutional programs.
+NH is not offering a state grant this year.
+2013-2014 Tuition Aid Grant recipients - June 1, 2014 (date
+received)
+All other applicants
+- October 1, 2014, fall & spring terms (date received)
+- March 1, 2015, spring term only (date received)
+June 30, 2015 (date received) *
+October 1, 2014 (date received)
+March 1, 2014 (date received) #
+OSAC Private Scholarships - March 1, 2014
+Oregon Opportunity Grant - February 1, 2014
+All first-time applicants at a community college; a business/
+trade/technical school; a hospital school of nursing; or
+enrolled in a non-transferable two-year program August 1, 2014 (date received)
+All other applicants - May 1, 2014 (date received)
+March 1, 2014 (date received) #
+Tuition Grants - June 30, 2014 (date received)
+SC Commission on Higher Education Need-based Grants - As
+soon as possible after January 1, 2014. Awards made until
+funds are depleted.
+State Grant - Prior-year recipients receive award if eligible and
+apply by March 1, 2014. All other awards made to neediest
+applicants who apply by March 1, 2014, until funds are
+depleted.
+State Lottery - fall term, September 1, 2014 (date received);
+spring & summer terms, February 1, 2015 (date received)
+As soon as possible after January 1, 2014. Awards made
+until funds are depleted. *
+As soon as possible after January 1, 2014. Awards made until
+funds are depleted.
+PROMISE Scholarship - March 1, 2014. New applicants must
+also submit additional application at www.cfwv.com. Contact
+your financial aid administrator or your state agency.
+WV Higher Education Grant Program - April 15, 2014
+
+# For priority consideration, submit application by date specified.
++ Applicants encouraged to obtain proof of mailing.
+* Additional form may be required.
+
+Federal Student Aid logo and FAFSA are registered trademarks or service marks of Federal Student Aid, U.S. Department of Education.
+
+STATE AID DEADLINES
+
+We recommend that you complete and submit your FAFSA as soon as possible on or
+after January 1, 2014. If you (or your parents) need to file a 2013 income tax return with
+the Internal Revenue Service (IRS), and have not done so yet, you can submit your FAFSA
+now using estimated tax information, and then you must correct that information after
+you file your return.
+The easiest way to complete or correct your FAFSA with accurate tax information is by
+using the IRS Data Retrieval Tool through www.fafsa.gov. In a few simple steps, most
+students and parents who filed a 2013 tax return can view and transfer their tax return
+information directly into their FAFSA.
+Note: Both parents or both the student and spouse may need to report income
+information on the FAFSA if they did not file a joint tax return for 2013. For assistance with
+answering the income information questions in this situation, call 1-800-4-FED-AID.
+
+APPLICATION DEADLINES
+Federal Aid Deadline - June 30, 2015
+State Aid Deadlines - See below.
+
+Notes for question 8 (page 3)
+Enter your Social Security Number (SSN). If you are a resident of the
+Freely Associated States (i.e., the Republic of Palau, the Republic of the
+Marshall Islands, or the Federated States of Micronesia) and were issued
+an identification number beginning with “666” when submitting a FAFSA
+previously, enter that number here. If you are a first-time applicant from
+the Freely Associated States, enter “666” in the first three boxes of the
+SSN field and leave the remaining six positions blank and we will create
+an identification number to be used for federal student aid purposes.
+
+Notes for questions 14 and 15 (page 3)
+If you are an eligible noncitizen, write in your eight- or nine-digit Alien
+Registration Number. Generally, you are an eligible noncitizen if you are
+(1) a permanent U.S. resident with a Permanent Resident Card (I-551); (2)
+a conditional permanent resident with a Conditional Green Card (I-551C);
+(3) the holder of an Arrival-Departure Record (I-94) from the Department
+of Homeland Security showing any one of the following designations:
+“Refugee,” “Asylum Granted,” “Parolee” (I-94 confirms that you were
+paroled for a minimum of one year and status has not expired), T-Visa
+holder (T-1, T-2, T-3, etc.) or “Cuban-Haitian Entrant;” or (4) the holder of a
+valid certification or eligibility letter from the Department of Health and
+Human Services showing a designation of “Victim of human trafficking.”
+If you are in the U.S. on an F1 or F2 student visa, a J1 or J2 exchange
+visitor visa, or a G series visa (pertaining to international organizations),
+select “No, I am not a citizen or eligible noncitizen.” You will not be
+eligible for federal student aid. If you have a Social Security Number but
+are not a citizen or an eligible noncitizen, you should still complete the
+FAFSA because you may be eligible for state or college aid.
+
+Notes for questions 16 and 17 (page 3)
+Report your marital status as of the date you sign your FAFSA. If your
+marital status changes after you sign your FAFSA, check with the
+financial aid office at the college. Consistent with the Supreme Court
+decision IPMEJOH 4FDUJPO  PG the Defense of Marriage Act (DOMA)
+VODPOTUJUVUJPOBM, same-sex couples must report their marital status as
+married if they were legally married in a state or other jurisdiction
+(foreign country) that permits same-sex marriage XJUIPVU SFHBSE UP
+XIFSFUIFDPVQMFSFTJEFT.
+
+Notes for question 22 (page 3)
+The Selective Service System, and the registration requirement for young
+men, preserves America’s ability to provide manpower in an emergency
+to the U.S. Armed Forces (Army, Navy, Air Force, Marines or Coast
+Guard). Almost all men—ages 18 through 25—must register. For more
+information about Selective Service, visit www.sss.gov.
+
+Notes for questions 33 (page 4)
+and 81 (page 6)
+
+Notes for questions 42 and 43 (page 4), 45j (page 5),
+and 91 and 92 (page 7)
+Net worth means current value minus debt. If net worth is negative, enter 0.
+Investments include real estate (do not include the home in which you
+live), rental property (includes a unit within a family home that has its
+own entrance, kitchen, and bath rented to someone other than a family
+member), trust funds, UGMA and UTMA accounts, money market funds,
+mutual funds, certificates of deposit, stocks, stock options, bonds, other
+securities, installment and land sale contracts (including mortgages
+held), commodities, etc.
+Investments also include qualified educational benefits or education
+savings accounts (e.g., Coverdell savings accounts, 529 college savings
+plans and the refund value of 529 prepaid tuition plans). For a student
+who does not report parental information, the accounts owned by the
+student (and/or the student’s spouse) are reported as student investments
+in question 42. For a student who must report parental information, the
+accounts are reported as parental investments in question 91, including
+all accounts owned by the student and all accounts owned by the parents
+for any member of the household.
+Money received, or paid on your behalf, also includes distributions to
+you (the student beneficiary) from a 529 plan that is owned by someone
+other than you or your parents (such as your grandparents, aunts, and
+uncles). You must include these distribution amounts in question 45j.
+Investments do not include the home you live in, the value of life
+insurance, retirement plans (401[k] plans, pension funds, annuities, noneducation IRAs, Keogh plans, etc.) or cash, savings and checking accounts
+already reported in questions 41 and 90.
+Investments also do not include UGMA and UTMA accounts for which
+you are the custodian, but not the owner.
+Investment value means the current balance or market value of these
+investments as of today. Investment debt means only those debts that
+are related to the investments.
+Business and/or investment farm value includes the market value of
+land, buildings, machinery, equipment, inventory, etc. Business and/or
+investment farm debt means only those debts for which the business or
+investment farm was used as collateral.
+Business value does not include the value of a small business if your
+family owns and controls more than 50 percent of the business and the
+business has 100 or fewer full-time or full-time equivalent employees.
+For small business value, your family includes (1) persons directly related
+to you, such as a parent, sister or cousin, or (2) persons who are or were
+related to you by marriage, such as a spouse, stepparent or sister-in-law.
+Investment farm value does not include the value of a family farm that
+you (your spouse and/or your parents) live on and operate.
+
+If you filed or will file a foreign tax return, a tax return with Puerto Rico,
+another U.S. territory (e.g., Guam, American Samoa, the U.S. Virgin
+Islands, Swain’s Island or the Northern Marianas Islands) or one of the
+Freely Associated States, use the information from that return to fill out
+this form. If you filed a foreign return, convert all monetary units to U.S.
+dollars, using the exchange rate that is in effect today. To view the daily
+exchange rate, go to www.federalreserve.gov/releases/h10/current.
+
+Notes for question 49 (page 5)
+
+Notes for questions 35 (page 4)
+and 83 (page 6)
+
+Notes for question 50 (page 5)
+
+In general, a person is eligible to file a 1040A or 1040EZ if he or she makes less
+than $100,000, does not itemize deductions, does not receive income from
+his or her own business or farm and does not receive alimony. A person is
+not eligible to file a 1040A or 1040EZ if he or she makes $100,000 or more,
+itemizes deductions, receives income from his or her own business or farm,
+is self-employed, receives alimony or is required to file Schedule D for capital
+gains. If you filed a 1040 only to claim the American Opportunity Tax Credit or
+Lifetime Learning Tax Credit, and you would have otherwise been eligible to
+file a 1040A or 1040EZ, answer “Yes” to this question. If you filed a 1040 and
+were not required to file a tax return, answer “Yes” to this question.
+
+Notes for questions 38 (page 4)
+and 87 (page 7) — Notes for those who filed a 1040EZ
+On the 1040EZ, if a person didn’t check either box on line 5, enter 01 if he or
+she is single or has never been married, or 02 if he or she is married. If a person
+checked either the “you” or “spouse” box on line 5, use 1040EZ worksheet line
+F to determine the number of exemptions ($3,800 equals one exemption).
+
+Page 2
+
+Answer “Yes” if you are currently serving in the U.S. Armed Forces or are
+a National Guard or Reserves enlistee who is on active duty for other than
+state or training purposes.
+Answer “No” if you are a National Guard or Reserves enlistee who is on
+active duty for state or training purposes.
+Answer “Yes” (you are a veteran) if you (1) have engaged in active duty
+(including basic training) in the U.S. Armed Forces, or are a National
+Guard or Reserves enlistee who was called to active duty for other than
+state or training purposes, or were a cadet or midshipman at one of the
+service academies, and (2) were released under a condition other than
+dishonorable. Also answer “Yes” if you are not a veteran now but will be
+one by June 30, 2015.
+Answer “No” (you are not a veteran) if you (1) have never engaged in
+active duty (including basic training) in the U.S. Armed Forces, (2)
+are currently an ROTC student or a cadet or midshipman at a service
+academy, (3) are a National Guard or Reserves enlistee activated only for
+state or training purposes, or (4) were engaged in active duty in the U.S.
+Armed Forces but released under dishonorable conditions.
+Also answer “No” if you are currently serving in the U.S. Armed Forces
+and will continue to serve through June 30, 2015.
+Notes continued on page 9.
+
+FAFSA
+
+July 1, 2014 – June 30, 2015
+
+SM
+
+F R E E A P P L I C AT I O N f o r F E D E R A L S T U D E N T A I D
+
+Step One (Student): For questions 1-31, leave blank any questions that do not apply to you (the student).
+
+OMB # 1845-0001
+
+Your full name (exactly as it appears on your Social Security card) If your name has a suffix, such as Jr. or III, include a space between your last name and suffix.
+
+1. Last name : Smith
+
+2. First name : Alex
+
+3. Middle initial
+
+Your mailing address
+4. Number and street  : 10th Floor, 100 South Main Street
+(include apt. number)
+
+5. City (and country if not U.S.) : , Los Angeles
+
+
+6. State : California
+
+7. ZIP code : 90012
+
+
+8. Your Social Security Number :  576-55-4600
+
+
+9. Your date of birth : 01/02/1992
+
+
+10. Your permanent telephone number : +1-888-452-1505
+
+
+
+Your driver’s license number and driver’s license state (if you have one)
+11. Driver’s license number : 123TH5845
+
+
+12. Driver’s license state : California
+
+13.Your e-mail address. If you provide your e-mail address, we will communicate with you electronically. For example, when your FAFSA has been processed, you will be
+notified by e-mail. Your e-mail address will also be shared with your state and the colleges listed on your FAFSA to allow them to communicate with you. If you do not
+have an e-mail address, leave this field blank.
+
+email : lex@gmail.com
+
+
+14. Are you a U.S.citizen? Yes
+
+
+15. Alien Registration Number:
+
+
+16. What is your marital status as of today? Unmarried
+
+17. Month and year you were
+married, remarried, separated,
+divorced or widowed.
+
+
+18. What is your state of legal residence : California
+
+21. Are you male or female : Male
+
+
+
+19. Did you become a legal resident of this state before January 1, 2009 : Yes
+
+20. If the answer to question 19 is “No,” give month and year you
+became a legal resident.
+
+22. If female, skip to question 
+
+23. Most male students must register with Selective Service to receive federal aid. If you are male, age 18-25 and not registered, fill in the circle and we will register you. See Notes page 2.
+
+23. Have you been convicted for the possession or sale of illegal drugs for an offense that occurred while you were receiving
+federal student aid (such as grants, loans or work-study)?
+Answer “No” if you have never received federal student aid or if you have never had a drug conviction for an offense that occurred while
+receiving federal student aid. If you have a drug conviction for an offense that occurred while you were receiving federal student aid, answer
+“Yes,” but complete and submit this application, and we will mail you a worksheet to help you determine if your conviction affects your
+eligibility for aid. If you are unsure how to answer this question, call 1-800-433-3243 for help.
+
+
+24. Highest school completed by Parent 1
+
+
+1. Middle school/Jr. high : Stanford school
+
+
+
+2. High school :  Stanford school
+
+
+3. College or beyond : Oxford University
+
+
+
+
+25. Highest school completed by Parent 2
+
+
+1 Middle school/Jr. high : Stanford school
+
+
+
+
+2 High school : Stanford school
+
+
+
+
+3 College or beyond : Stanford University
+
+
+
+26. When you begin college in the 2014-2015 school year, what will be your high school completion status?
+High school diploma. Answer question 27. . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+
+1 Homeschooled. Skip to question 28. . . . . . . . . . .
+
+3 General Educational Development (GED) certificate or state equivalent test. Skip to question 
+
+28.
+
+
+For Help — www.studentaid.gov/completefafsa
+
+Page 3
+
+Step One CONTINUED on page 4
+
+Step One CONTINUED from page 3
+
+28. Will you have your first bachelor’s degree
+before July 1, 2014?
+
+27. What is the name of the high school where you received or will receive your high school diploma?
+Enter the complete high school name, and the city and state where the high school is located.
+STATE
+
+High School Name
+
+Yes
+
+High School City
+
+29. When you begin the 2014-2015 school year, what will be your grade
+level?
+
+1
+
+No
+
+2
+
+30. When you begin the 2014-2015 school year, what degree or certificate will
+you be working on?
+
+Never attended college and 1st year undergraduate . . . . . . . . . . . . .
+
+
+
+1st bachelor’s degree . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+
+
+Attended college before and 1st year undergraduate . . . . . . . . . . . .
+
+
+2nd bachelor’s degree . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+
+
+2nd year undergraduate/sophomore . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+
+Associate degree (occupational or technical program) . . . . . . . . . . . . . . . . . . . . .
+
+
+Associate degree (general education or transfer program). . . . . . . . . . . . . . . . . .
+
+
+3rd year undergraduate/junior . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+
+
+4th year undergraduate/senior . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+
+
+5th year/other undergraduate. . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+
+
+1st year graduate/professional . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+
+
+Continuing graduate/professional or beyond . . . . . . . . . . . . . . . . . . . .
+
+
+Certificate or diploma (occupational, technical or education program
+of less than two years). . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+Certificate or diploma (occupational, technical or education program
+of two or more years) . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+
+
+Teaching credential (nondegree program) . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+
+
+Graduate or professional degree . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+
+
+
+Other/undecided . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+
+
+31. Are you interested in being considered for work-study?
+
+Step Two (Student):
+
+
+Answer questions 32–58 about yourself (the student). If you were never married or are separated, divorced
+or widowed, answer only about yourself. If you are married or remarried as of today, include information
+about your spouse (husband or wife).
+
+32. For 2013, have you (the student) completed
+your IRS income tax return or another tax
+return listed in question 33?
+I have already completed my return . . . . . . . .
+I will file but have not yet completed my
+return . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+I’m not going to file. Skip to question 39.
+
+
+33. What income tax return did you file or will you file
+for 2013?
+
+34. For 2013, what is or will be your tax filing
+status according to your tax return?
+
+IRS 1040 . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+
+
+IRS 1040A or 1040EZ . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+
+
+A foreign tax return. See Notes page 2. . . . . . . . . . . .
+
+
+A tax return with Puerto Rico, another U.S. territory,
+or Freely Associated State. See Notes page 2. . . . . .
+
+35. If you have filed or will file a 1040, were you eligible to file a 1040A or 1040EZ?
+See Notes page 2.
+
+4
+
+Single . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+Head of household. . . . . . . . . . . . . . . . . . .
+Married—filed joint return . . . . . . . . . . .
+Married—filed separate return . . . . . . .
+Qualifying widow(er). . . . . . . . . . . . . . . . .
+Don’t know . . . . . . . . . . . . . . . . . . . . . . . . . .
+Yes
+
+1
+
+No
+
+2
+
+Don’t know
+
+
+For questions 36–45, if the answer is zero or the question does not apply to you, enter 0. Report whole dollar amounts with no cents.
+36. What was your (and spouse’s) adjusted gross income for 2013? Adjusted gross income is on IRS Form 1040—line 37;
+$
+1040A—line 21; or 1040EZ—line 4.
+37. Enter your (and spouse’s) income tax for 2013. Income tax amount is on IRS Form 1040—line 55; 1040A—line 35; or $
+1040EZ—line 10.
+
+,
+
+38. Enter your (and spouse’s) exemptions for 2013. Exemptions are on IRS Form 1040—line 6d or Form 1040A—line 6d.
+For Form 1040EZ, see Notes page 2.
+Questions 39 and 40 ask about earnings (wages, salaries, tips, etc.) in 2013. Answer the questions whether or not a tax return was filed. This
+information may be on the W-2 forms, or on IRS Form 1040—lines 7 + 12 + 18 + Box 14 (Code A) of IRS Schedule K-1 (Form 1065); on 1040A—line 7; or
+on 1040EZ—line 1. If any individual earning item is negative, do not include that item in your calculation.
+39. How much did you earn from working in 2013?
+
+
+40. How much did your spouse earn from working in 2013?
+
+$
+
+,
+
+,
+
+41. As of today, what is your (and spouse’s) total current balance of cash, savings and checking accounts? Don’t include
+$
+student financial aid.
+42. As of today, what is the net worth of your (and spouse’s) investments, including real estate? Don’t include the home you
+$
+live in. Net worth means current value minus debt. See Notes page 2.
+43. As of today, what is the net worth of your (and spouse’s) current businesses and/or investment farms? Don’t include a
+$
+family farm or family business with 100 or fewer full-time or full-time equivalent employees. See Notes page 2.
+For Help — 1-800-433-3243
+
+Page 4
+
+Step Two CONTINUED on page 5
+
+Step Two CONTINUED from page 4
+44. Student’s 2013 Additional Financial Information (Enter the combined amounts for you and your spouse.)
+a. Education credits (American Opportunity Tax Credit and Lifetime Learning Tax Credit) from IRS Form 1040—line 49 or 1040A—line 31.
+
+$
+
+
+b. Child support paid because of divorce or separation or as a result of a legal requirement. Don’t include support for children in your
+household, as reported in question 95.
+
+$
+
+
+c. Taxable earnings from need-based employment programs, such as Federal Work-Study and need-based employment portions of
+fellowships and assistantships.
+
+$
+
+,
+
+,
+
+d. Taxable student grant and scholarship aid reported to the IRS in your adjusted gross income. Includes AmeriCorps benefits (awards,
+living allowances and interest accrual payments), as well as grant and scholarship portions of fellowships and assistantships.
+
+$
+
+,
+
+,
+
+e. Combat pay or special combat pay. Only enter the amount that was taxable and included in your adjusted gross income. Don’t include
+untaxed combat pay.
+
+$
+
+,
+
+,
+
+f. Earnings from work under a cooperative education program offered by a college.
+
+$
+
+,
+
+,
+
+a. Payments to tax-deferred pension and retirement savings plans (paid directly or withheld from earnings), including, but not limited to,
+amounts reported on the W-2 forms in Boxes 12a through 12d, codes D, E, F, G, H and S. Don’t include amounts reported in code DD
+(employer contributions toward employee health benefits).
+
+$
+
+,
+
+,
+
+b. IRA deductions and payments to self-employed SEP, SIMPLE, Keogh and other qualified plans from IRS Form 1040—line 28 + line 32
+or 1040A—line 17.
+
+$
+
+,
+
+,
+
+c. Child support received for any of your children. Don’t include foster care or adoption payments.
+
+$
+
+,
+
+,
+
+d. Tax exempt interest income from IRS Form 1040—line 8b or 1040A—line 8b.
+
+$
+
+,
+
+,
+
+e. Untaxed portions of IRA distributions from IRS Form 1040—lines (15a minus 15b) or 1040A—lines (11a minus 11b). Exclude rollovers.
+If negative, enter a zero here.
+
+$
+
+,
+
+,
+
+f. Untaxed portions of pensions from IRS Form 1040—lines (16a minus 16b) or 1040A—lines (12a minus 12b). Exclude rollovers.
+If negative, enter a zero here.
+
+$
+
+,
+
+,
+
+$
+
+,
+
+,
+
+$
+
+,
+
+,
+
+$
+
+,
+
+,
+
+$
+
+,
+
+,
+
+45. Student’s 2013 Untaxed Income (Enter the combined amounts for you and your spouse.)
+
+g. Housing, food and other living allowances paid to members of the military, clergy and others (including cash payments and cash value
+of benefits). Don’t include the value of on-base military housing or the value of a basic military allowance for housing.
+h. Veterans noneducation benefits, such as Disability, Death Pension, or Dependency & Indemnity Compensation (DIC) and/or VA
+Educational Work-Study allowances.
+i. Other untaxed income not reported in items 45a through 45h, such as workers’ compensation, disability, etc. Also include the untaxed
+portions of health savings accounts from IRS Form 1040—line 25. Don’t include extended foster care benefits, student aid, earned
+income credit, additional child tax credit, welfare payments, untaxed Social Security benefits, Supplemental Security Income, Workforce
+Investment Act educational benefits, on-base military housing or a military housing allowance, combat pay, benefits from flexible
+spending arrangements (e.g., cafeteria plans), foreign income exclusion or credit for federal tax on special fuels.
+j. Money received, or paid on your behalf (e.g., bills), not reported elsewhere on this form. This includes money that you received from a
+parentXIPTFGJOBODJBMJOGPSNBUJPOJTOPUSFQPSUFEPOUIJTGPSNBOEUIBUJTOPUpart of a legal child support agreement. See Notes page 2.
+
+Step Three (Student):
+
+Answer the questions in this step to determine if you will need to provide parental information. Once
+you answer “Yes” to any of the questions in this step, skip Step Four and go to Step Five on page 8.
+
+46. Were you born before January 1, 1991? . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+
+Yes
+
+1
+
+No
+
+2
+
+47. As of today, are you married? (Also answer “Yes” if you are separated but not divorced.) . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+48. At the beginning of the 2014-2015 school year, will you be working on a master’s or doctorate program (such as an MA,
+MBA, MD, JD, PhD, EdD, graduate certificate, etc.)?. . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+49. Are you currently serving on active duty in the U.S. Armed Forces for purposes other than training? See Notes page 2. . . . .
+50. Are you a veteran of the U.S. Armed Forces? See Notes page 2. . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+
+Yes
+
+1
+
+No
+
+2
+
+Yes
+
+1
+
+No
+
+2
+
+Yes
+
+1
+
+No
+
+2
+
+Yes
+
+1
+
+No
+
+2
+
+Yes
+
+1
+
+No
+
+2
+
+Yes
+
+1
+
+No
+
+2
+
+Yes
+
+1
+
+No
+
+2
+
+54. As determined by a court in your state of legal residence, are you or were you an emancipated minor? See Notes page 9. . . . .
+
+Yes
+
+1
+
+No
+
+2
+
+55. As determined by a court in your state of legal residence, are you or were you in legal guardianship? See Notes page 9. . . . .
+
+Yes
+
+1
+
+No
+
+2
+
+56. At any time on or after July 1, 2013, did your high school or school district homeless liaison determine that you were an
+unaccompanied youth who was homeless or were self-supporting and at risk of being homeless? See Notes page 9. . . . . . .
+
+Yes
+
+1
+
+No
+
+2
+
+Yes
+
+1
+
+No
+
+2
+
+Yes
+
+1
+
+No
+
+2
+
+51. Do you now have or will you have children who will receive more than half of their support from you between July 1, 2014
+and June 30, 2015?. . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+52. Do you have dependents (other than your children or spouse) who live with you and who receive more than half of their
+support from you, now and through June 30, 2015? . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+53. At any time since you turned age 13, were both your parents deceased, were you in foster care or were you a dependent
+or ward of the court? See Notes page 9. . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+
+57. At any time on or after July 1, 2013, did the director of an emergency shelter or transitional housing program funded by
+the U.S. Department of Housing and Urban Development determine that you were an unaccompanied youth who was
+homeless or were self-supporting and at risk of being homeless? See Notes page 9. . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+58. At any time on or after July 1, 2013, did the director of a runaway or homeless youth basic center or transitional living
+program determine that you were an unaccompanied youth who was homeless or were self-supporting and at risk of
+being homeless? See Notes page 9. . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+For Help — www.studentaid.gov/completefafsa
+
+Page 5
+
+If you (the student) answered “No” to every question in Step Three, go to Step Four.
+If you answered “Yes” to any question in Step Three, skip Step Four and go to Step Five on page 8.
+
+(Health professions students: Your college may require you to complete Step Four even if you answered “Yes” to any Step Three question.)
+
+If you believe that you are unable to provide parental information, see Notes page 9.
+
+Step Four (Parent): Complete this step if you (the student) answered “No” to all questions in Step Three.
+Answer all the questions in Step Four even if you do not live with your legal parents (your biological and/or adoptive parents). Grandparents, foster parents, legal guardians,
+aunts and uncles are not considered parents on this form unless they have legally adopted you. If your legal parents are married to each other or are not married to each
+other and live together, answer the questions about both of them. If your parent was never married or is remarried, divorced, separated or widowed, see Notes page 9 for
+additional instructions.
+
+59. As of today, what is the marital status of your legal parents?
+Never married. . . . . . . . . . . . . . . . . . . . . . . . .
+
+2
+
+Unmarried and both parents living
+together. . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+
+5
+
+Married or remarried. . . . . . . . . . . . . . . .
+
+1
+
+Divorced or separated. . . . . . . . . . . . . . .
+
+3
+
+Widowed . . . . . . . . . . . . . . . . . . . . . . . . . .
+
+4
+
+60. Month and year
+they were married,
+remarried, separated,
+divorced or widowed.
+
+MONTH
+
+YEAR
+
+What are the Social Security Numbers, names and dates of birth of the parents reporting information on this form?
+
+If your parent does not have a Social Security Number, you must enter 000-00-0000. If the name includes a suffix, such as Jr. or III, include a space between the last name and
+suffix. Enter two digits for each day and month (e.g., for May 31, enter 05 31).
+Questions 61-64 are for Parent 1 (father/mother/stepparent)
+
+61. SOCIAL SECURITY NUMBER
+
+–
+
+–
+
+65. SOCIAL SECURITY NUMBER
+
+1 9
+
+,
+
+Questions 65-68 are for Parent 2 (father/mother/stepparent)
+
+–
+
+63. FIRST INITIAL 64. DATE OF BIRTH
+
+62. LAST NAME, AND
+
+67. FIRST INITIAL 68. DATE OF BIRTH
+
+66. LAST NAME, AND
+
+–
+
+1 9
+
+,
+
+69. Your parents’ e-mail address. If you provide your parents’ e-mail address, we will let them know your FAFSA has been processed. This e-mail address will
+also be shared with your state and the colleges listed on your FAFSA to allow them to electronically communicate with your parents.
+
+@
+70. What is your
+parents’ state of
+legal residence?
+
+STATE
+
+71. Did your parents become
+legal residents of this state
+before January 1, 2009?
+
+Yes
+
+1
+
+No
+
+2
+
+72. If the answer to question 71 is “No,” give the
+month and year legal residency began for the
+parent who has lived in the state the longest.
+
+MONTH
+
+YEAR
+
+73. How many people are in your parents’ household?
+
+Include:
+t yourself, even if you don’t live with your parents,
+t your parents,
+t your parents’ other children if (a) your parents will provide more than half of their support between July 1, 2014 and June 30, 2015, or
+(b) the children could answer “No” to every question in Step Three on page 5 of this form, and
+t other people if they now live with your parents, your parents provide more than half of their support and your parents will continue to
+provide more than half of their support between July 1, 2014 and June 30, 2015.
+
+74. How many people in your parents’ household (from question 73) will be college students between July 1, 2014 and June 30, 2015?
+Always count yourself as a college student. Do not include your parents. You may include others only if they will attend, at least half-time in
+2014-2015, a program that leads to a college degree or certificate.
+
+In 2012 or 2013, did you, your parents or anyone in your parents’ household (from question 73) receive benefits from any of the federal programs listed?
+Mark all that apply. Answering these questions will not reduce eligibility for student aid or these programs. TANF may have a different name in your parents’ state. Call
+1-800-4-FED-AID to find out the name of the state’s program.
+
+75. Supplemental
+Security
+Income (SSI)
+
+76. Supplemental
+Nutrition Assistance
+Program (SNAP)
+
+77. Free or
+Reduced
+Price Lunch
+
+78. Temporary Assistance
+for Needy Families
+(TANF)
+
+79. Special Supplemental Nutrition
+Program for Women, Infants,
+and Children (WIC)
+
+*GZPVSBOTXFSUPRVFTUJPOXBTi6ONBSSJFEBOECPUIQBSFOUTMJWJOHUPHFUIFSwDPOUBDU'&%"*%GPSBTTJTUBODFXJUIBOTXFSJOHRVFTUJPOT
+80. For 2013, have your parents completed their IRS
+income tax return or another tax return listed in
+question 81?
+My parents have already completed their return. . .
+My parents will file but have not yet completed
+their return . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+My parents are not going to file.
+Skip to question 88. . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+
+83. If your parents have filed or will file a 1040,
+were they eligible to file a 1040A or 1040EZ?
+See Notes page 2.
+
+For Help — 1-800-433-3243
+
+81. What income tax return did your
+parents file or will they file for 2013?
+1
+
+2
+
+3
+
+82. For 2013, what is or will be your parents’ tax
+filing status according to their tax return?
+
+IRS 1040 . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+
+1
+
+IRS 1040A or 1040EZ . . . . . . . . . . . . . . . . . . . . . . . .
+
+2
+
+A foreign tax return. See Notes page 2. . . . . .
+
+3
+
+A tax return with Puerto Rico, another U.S.
+territory or Freely Associated State.
+See Notes page 2. . . . . . . . . . . . . . . . . . . . . . . . . .
+
+4
+
+Yes
+
+1
+
+No
+
+2
+
+Don’t know
+
+3
+
+Page 6
+
+Single . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+Head of household. . . . . . . . . . . . . . . . . . .
+Married—filed joint return . . . . . . . . . . .
+Married—filed separate return . . . . . . .
+Qualifying widow(er). . . . . . . . . . . . . . . . .
+Don’t know . . . . . . . . . . . . . . . . . . . . . . . . . .
+
+84. As of today, is either of your parents a
+dislocated worker? See Notes page 9.
+
+1
+4
+2
+3
+5
+6
+
+Yes
+
+1
+
+No
+
+2
+
+Don’t know
+
+3
+
+Step Four CONTINUED on page 7
+
+Step Four CONTINUED from page 6
+For questions 85–94, if the answer is zero or the question does not apply, enter 0. Report whole dollar amounts with no cents.
+85. What was your parents’ adjusted gross income for 2013? Adjusted gross income is on IRS Form 1040—line 37;
+1040A—line 21; or 1040EZ—line 4.
+
+$
+
+,
+
+,
+
+86. Enter your parents’ income tax for 2013. Income tax amount is on IRS Form 1040—line 55; 1040A—line 35; or
+1040EZ—line 10.
+
+$
+
+,
+
+,
+
+87. Enter your parents’ exemptions for 2013. Exemptions are on IRS Form 1040—line 6d or on Form 1040A—line 6d.
+For Form 1040EZ, see Notes page 2.
+Questions 88 and 89 ask about earnings (wages, salaries, tips, etc.) in 2013. Answer the questions whether or not a tax return was filed. This information may be on the W-2
+forms, or on IRS Form 1040—lines 7 + 12 + 18 + Box 14 (Code A) of IRS Schedule K-1 (Form 1065); on 1040A—line 7; or on 1040EZ—line 1. If any individual earning item is
+negative, do not include that item in your calculation.
+
+88. How much did Parent 1 (father/mother/stepparent) earn from working in 2013?
+
+$
+
+,
+
+,
+
+89. How much did Parent 2 (father/mother/stepparent) earn from working in 2013?
+
+$
+
+,
+
+,
+
+90. As of today, what is your parents’ total current balance of cash, savings and checking accounts?
+
+$
+
+,
+
+,
+
+,
+
+,
+
+,
+
+,
+
+91. As of today, what is the net worth of your parents’ investments, including real estate? Don’t include the home in which
+$
+your parents live. Net worth means current value minus debt. See Notes page 2.
+92. As of today, what is the net worth of your parents’ current businesses and/or investment farms? Don’t include a family
+$
+farm or family business with 100 or fewer full-time or full-time equivalent employees. See Notes page 2.
+93. Parents’ 2013 Additional Financial Information (Enter the amounts for your parent[s].)
+a. Education credits (American Opportunity Tax Credit and Lifetime Learning Tax Credit) from IRS Form 1040—line 49 or 1040A—
+line 31.
+
+$
+
+,
+
+,
+
+b. Child support paid because of divorce or separation or as a result of a legal requirement. Don’t include support for children in your
+parents’ household, as reported in question 73.
+
+$
+
+,
+
+,
+
+c. Your parents’ taxable earnings from need-based employment programs, such as Federal Work-Study and need-based employment
+portions of fellowships and assistantships.
+
+$
+
+d. Your parents’ taxable student grant and scholarship aid reported to the IRS in your parents’ adjusted gross income. Includes
+AmeriCorps benefits (awards, living allowances and interest accrual payments), as well as grant and scholarship portions of fellowships
+and assistantships.
+
+,
+
+,
+
+$
+
+,
+
+,
+
+e. Combat pay or special combat pay. Only enter the amount that was taxable and included in your parents’ adjusted gross income.
+Do not enter untaxed combat pay.
+
+$
+
+,
+
+,
+
+f. Earnings from work under a cooperative education program offered by a college.
+
+$
+
+,
+
+,
+
+a. Payments to tax-deferred pension and retirement savings plans (paid directly or withheld from earnings), including, but not limited to,
+amounts reported on the W-2 forms in Boxes 12a through 12d, codes D, E, F, G, H and S. Don’t include amounts reported in code DD
+(employer contributions toward employee health benefits).
+
+$
+
+,
+
+,
+
+b. IRA deductions and payments to self-employed SEP, SIMPLE, Keogh and other qualified plans from IRS Form 1040—line 28 + line 32 or
+1040A—line 17.
+
+$
+
+,
+
+,
+
+c. Child support received for any of your parents’ children. Don’t include foster care or adoption payments.
+
+$
+
+,
+
+,
+
+d. Tax exempt interest income from IRS Form 1040—line 8b or 1040A—line 8b.
+
+$
+
+,
+
+,
+
+e. Untaxed portions of IRA distributions from IRS Form 1040—lines (15a minus 15b) or 1040A—lines (11a minus 11b). Exclude rollovers.
+If negative, enter a zero here.
+
+$
+
+,
+
+,
+
+f. Untaxed portions of pensions from IRS Form 1040—lines (16a minus 16b) or 1040A—lines (12a minus 12b). Exclude rollovers.
+If negative, enter a zero here.
+
+$
+
+,
+
+,
+
+g. Housing, food and other living allowances paid to members of the military, clergy and others (including cash payments and cash value
+of benefits). Don’t include the value of on-base military housing or the value of a basic military allowance for housing.
+
+$
+
+,
+
+,
+
+h. Veterans noneducation benefits, such as Disability, Death Pension, or Dependency & Indemnity Compensation (DIC) and/or VA
+Educational Work-Study allowances.
+
+$
+
+,
+
+,
+
+$
+
+,
+
+,
+
+94. Parents’ 2013 Untaxed Income (Enter the amounts for your parent[s].)
+
+i. Other untaxed income not reported in items 94a through 94h, such as workers’ compensation, disability, etc. Also include the untaxed
+portions of health savings accounts from IRS Form 1040—line 25. Don’t include extended foster care benefits, student aid, earned
+income credit, additional child tax credit, welfare payments, untaxed Social Security benefits, Supplemental Security Income, Workforce
+Investment Act educational benefits, on-base military housing or a military housing allowance, combat pay, benefits from flexible
+spending arrangements (e.g., cafeteria plans), foreign income exclusion or credit for federal tax on special fuels.
+
+For Help — www.studentaid.gov/completefafsa
+
+Page 7
+
+Step Five (Student): Complete this step only if you (the student) answered “Yes” to any questions in Step Three.
+95. How many people are in your household?
+
+Include:
+t yourself (and your spouse),
+t your children, if you will provide more than half of their support between July 1, 2014 and June 30, 2015, and
+t other people if they now live with you, you provide more than half of their support and you will continue to provide more than half of their
+support between July 1, 2014 and June 30, 2015.
+
+96. How many people in your (and your spouse’s) household (from question 95) will be college students between July 1, 2014 and
+June 30, 2015? Always count yourself as a college student. Include others only if they will attend, at least half-time in 2014-2015, a program that
+leads to a college degree or certificate.
+
+In 2012 or 2013, did you (or your spouse) or anyone in your household (from question 95) receive benefits from any of the federal programs listed?
+Mark all that apply. Answering these questions will not reduce eligibility for student aid or these programs. TANF may have a different name in your state. Call
+1-800-4-FED-AID to find out the name of the state’s program.
+
+97. Supplemental
+Security
+Income (SSI)
+
+98. Supplemental
+Nutrition Assistance
+Program (SNAP)
+
+99. Free or
+Reduced
+Price Lunch
+
+100. Temporary Assistance
+for Needy Families
+(TANF)
+
+102. As of today, are you (or your spouse) a dislocated worker? See Notes page 9.
+
+101. Special Supplemental Nutrition
+Program for Women, Infants,
+and Children (WIC)
+
+Yes
+
+1
+
+No
+
+Don’t know
+
+2
+
+3
+
+Step Six (Student): Indicate which colleges you want to receive your FAFSA information.
+Enter the six-digit federal school code and your housing plans. You can find the school codes at www.fafsa.gov or by calling 1-800-4-FED-AID. If you
+cannot obtain the code, write in the complete name, address, city and state of the college. For state aid, you may wish to list your preferred college first.
+To find out how to have more colleges receive your FAFSA information, read What is the FAFSA? on page 10.
+103. a
+
+103. c
+
+103. e
+
+103. g
+
+1ST FEDERAL SCHOOL CODE
+
+OR
+2ND FEDERAL SCHOOL CODE
+
+OR
+3RD FEDERAL SCHOOL CODE
+
+OR
+4TH FEDERAL SCHOOL CODE
+
+OR
+
+HOUSING PLANS
+
+STATE
+
+NAME OF
+COLLEGE
+
+103. b on campus
+
+ADDRESS
+AND CITY
+STATE
+
+NAME OF
+COLLEGE
+ADDRESS
+AND CITY
+
+103. d
+
+STATE
+
+NAME OF
+COLLEGE
+ADDRESS
+AND CITY
+
+103. f
+
+STATE
+
+NAME OF
+COLLEGE
+ADDRESS
+AND CITY
+
+103. h
+
+1
+
+with parent
+
+2
+
+off campus
+
+3
+
+on campus
+
+1
+
+with parent
+
+2
+
+off campus
+
+3
+
+on campus
+
+1
+
+with parent
+
+2
+
+off campus
+
+3
+
+on campus
+
+1
+
+with parent
+
+2
+
+off campus
+
+3
+
+Step Seven (Student and Parent): Read, sign and date.
+If you are the student, by signing this application you certify that you (1) will use federal and/or
+state student financial aid only to pay the cost of attending an institution of higher education, (2)
+are not in default on a federal student loan or have made satisfactory arrangements to repay it,
+(3) do not owe money back on a federal student grant or have made satisfactory arrangements to
+repay it, (4) will notify your college if you default on a federal student loan and (5) will not receive a
+Federal Pell Grant from more than one college for the same period of time.
+
+104. Date this form was completed
+
+If you are the parent or the student, by signing this application you certify that all of the information
+you provided is true and complete to the best of your knowledge and you agree, if asked, to
+provide information that will verify the accuracy of your completed form. This information may
+include U.S. or state income tax forms that you filed or are required to file. Also, you certify that you
+understand that the Secretary of Education has the authority to verify information reported
+on this application with the Internal Revenue Service and other federal agencies. If you
+sign any document related to the federal student aid programs electronically using a personal
+identification number (PIN), you certify that you are the person identified by the PIN and have not
+disclosed that PIN to anyone else. If you purposely give false or misleading information, you may
+be fined up to $20,000, sent to prison, or both.
+
+105. Student (Sign below)
+
+If you or your family paid a fee for someone to
+fill out this form or to advise you on how to fill it
+out, that person must complete this part.
+
+106. Preparer’s Social Security Number (or 107)
+
+Preparer’s name, firm and address
+
+107. Employer ID number (or 106)
+
+–
+
+MONTH
+
+2014
+
+or
+
+2015
+
+1
+
+Parent (A parent from Step Four sign below.)
+2
+
+COLLEGE USE ONLY
+
+–
+
+–
+
+DAY
+
+D/O
+
+1
+
+FEDERAL SCHOOL CODE
+
+Homeless
+Youth
+Determination
+
+4
+
+FAA Signature
+1
+
+108. Preparer’s signature and date
+DATA ENTRY
+USE ONLY:
+
+1
+
+For Help — 1-800-433-3243
+
+Page 8
+
+P
+
+*
+
+L
+
+E
+
+Notes for question 53 (page 5)
+
+Notes for Step Four, questions 59–94 (pages 6 and 7)
+
+Answer “Yes” if at any time since you turned age 13:
+
+3FWJFXBMMinstructionsCFMPXUPEFUFSNJOFXho is considered a parent
+
+t You had no living parent (biological or adoptive), even if you are now
+adopted; or
+t You were in foster care, even if you are no longer in foster care today;
+or
+t You were a dependent or ward of the court, even if you are no longer
+a dependent or ward of the court today. For federal student aid
+purposes, someone who is incarcerated is not considered a ward of
+the court.
+The financial aid administrator at your school may require you to provide
+proof that you were in foster care or a dependent or ward of the court.
+
+Notes for questions 54 and 55 (page 5)
+The definition of legal guardianship does not include your parents, even
+if they were appointed by a court to be your guardians. You are also not
+considered a legal guardian of yourself.
+Answer “Yes” if you can provide a copy of a court’s decision that as of
+today you are an emancipated minor or are in legal guardianship. Also
+answer “Yes” if you can provide a copy of a court’s decision that you were
+an emancipated minor or were in legal guardianship immediately before
+you reached the age of being an adult in your state. The court must be
+located in your state of legal residence at the time the court’s decision
+was issued.
+Answer “No” if you are still a minor and the court decision is no longer
+in effect or the court decision was not in effect at the time you became
+an adult.
+The financial aid administrator at your college may require you to provide
+proof that you were an emancipated minor or in legal guardianship.
+
+Notes for questions 56–58 (page 5)
+Answer “Yes” if you received a determination at any time on or after
+July 1, 2013, that you were an unaccompanied youth who was homeless
+or at risk of being homeless.
+t “Homeless” means lacking fixed, regular and adequate housing. You
+may be homeless if you are living in shelters, parks, motels or cars, or
+are temporarily living with other people because you have nowhere
+else to go. Also, if you are living in any of these situations and fleeing
+an abusive parent you may be considered homeless even if your
+parent would provide support and a place to live.
+t “Unaccompanied” means you are not living in the physical custody
+of your parent or guardian.
+t “Youth” means you are 21 years of age or younger or you are still
+enrolled in high school as of the day you sign this application.
+Answer “No” if you are not homeless or at risk of being homeless, or do
+not have a determination. You should contact your financial aid office
+for assistance if you do not have a determination but believe you are an
+unaccompanied youth who is homeless or are an unaccompanied youth
+providing for your own living expenses who is at risk of being homeless.
+The financial aid administrator at your college may require you to
+provide a copy of the determination if you answered “Yes” to any of
+these questions.
+
+Notes for students unable to provide parental information on
+pages 6 and 7
+Under very limited circumstances (for example, your parents are
+incarcerated; you have left home due to an abusive family environment;
+or you do not know where your parents are and are unable to contact
+them), you may be able to submit your FAFSA without parental
+information. If you are unable to provide parental information, skip
+Steps Four and Five, and go to Step Six. Once you submit your FAFSA
+without parental data, you must follow up with the financial aid office
+at the college you plan to attend, in order to complete your FAFSA.
+
+Page 9
+
+on this form:
+t If your parent was never married and does not live with your
+other legal parent, or if your parent is widowed or not SFmarried,
+answerthequestions about that parent.
+t If your legal parents (biological and/or adoptive) are not married to
+each other and live together, select “Unmarried and both parents
+living together” and provide information about both of them
+regardless of their gender. Do not include any person who is not
+married to your parent and who is not a legal or biological parent.
+Contact 1-800-4-FED-AID for assistance in completing questions
+80-94.
+t If your parents are married, select “Married or remarried.”
+Consistentwith the Supreme Court decision IPMEJOH4FDUJPOPG
+the Defense of Marriage Act (DOMA) VODPOTUJUVUJPOBM, same-sex
+couples must report their marital status as married if they were
+legally married in a state or other jurisdiction (foreign country)
+that permits same-sex marriage XJUIPVU SFHBSE UP XIFSF UIF
+DPVQMF SFTJEFT. If your legal parents are divorced but living
+together, select “Unmarriedand both parentsliving together.” If
+your legal parents are separated but living together, select
+“Married or remarried,” not “Divorced or separated.”
+t If your parents are divorced or separated, answer the questions about
+the parent you lived with more during the past 12 months. (If you did
+not live with one parent more than the other, give answers about
+the parent who provided more financial support during the past 12
+months or during the most recent year that you actually received
+support from a parent.) If this parent is remarried as of today, answer
+the questions about that parent and your stepparent.
+t If your widowed parent is remarried as of today, answer the questions
+about that parent and your stepparent.
+
+Notes for questions 84 (page 6)
+and 102 (page 8)
+In general, a person may be considered a dislocated worker if he or she:
+t is receiving unemployment benefits due to being laid off or losing a
+job and is unlikely to return to a previous occupation;
+t has been laid off or received a lay-off notice from a job;
+t was self-employed but is now unemployed due to economic
+conditions or natural disaster; or
+t is a displaced homemaker. A displaced homemaker is generally a
+person who previously provided unpaid services to the family (e.g., a
+stay-at-home mom or dad), is no longer supported by the husband or
+wife, is unemployed or underemployed, and is having trouble finding
+or upgrading employment.
+If a person quits work, generally he or she is not considered a dislocated
+worker even if, for example, the person is receiving unemployment
+benefits.
+Answer “Yes” to question 84 if your parent is a dislocated worker. Answer
+“Yes” to question 102 if you or your spouse is a dislocated worker.
+Answer “No” to question 84 if your parent is not a dislocated worker.
+Answer “No” to question 102 if neither you nor your spouse is a dislocated
+worker.
+Answer “Don’t know” to question 84 if you are not sure whether your
+parent is a dislocated worker. Answer “Don’t know” to question 102 if
+you are not sure whether you or your spouse is a dislocated worker. You
+can contact your financial aid office for assistance in answering these
+questions.
+The financial aid administrator at your college may require you to
+provide proof that your parent is a dislocated worker, if you answered
+“Yes” to question 84, or that you or your spouse is a dislocated worker, if
+you answered “Yes” to question 102.
+
+What is the FAFSA ?
+
+Information on the Privacy Act and use of your
+Social Security Number
+
+Why fill out a FAFSA?
+
+We use the information that you provide on this form to determine if you are
+eligible to receive federal student financial aid and the amount that you are
+eligible to receive. Sections 483 and 484 of the Higher Education Act of 1965,
+as amended, give us the authority to ask you and your parents these questions,
+and to collect the Social Security Numbers of you and your parents. We use your
+Social Security Number to verify your identity and retrieve your records, and we
+may request your Social Security Number again for those purposes.
+
+SM
+
+The Free Application for Federal Student Aid (FAFSA) is the first step in the
+financial aid process. You use the FAFSA to apply for federal student aid, such
+as grants, loans and work-study. In addition, most states and colleges use
+information from the FAFSA to award nonfederal aid.
+
+Why all the questions?
+The questions on the FAFSA are required to calculate your Expected Family
+Contribution (EFC). The EFC measures your family’s financial strength and is
+used to determine your eligibility for federal student aid. Your state and the
+colleges you list may also use some of your responses. They will determine if
+you may be eligible for school or state aid, in addition to federal aid.
+
+How do I find out what my Expected Family Contribution (EFC) is?
+Your EFC will be listed on your Student Aid Report (SAR). Your SAR summarizes
+the information you submitted on your FAFSA. It is important to review your SAR
+to make sure all of your information is correct and complete. Make corrections
+or provide additional information, as necessary.
+
+State and institutional student financial aid programs may also use the
+information that you provide on this form to determine if you are eligible to
+receive state and institutional aid and the need that you have for such aid.
+Therefore, we will disclose the information that you provide on this form to
+each institution you list in questions 103a - 103h, state agencies in your state of
+legal residence and the state agencies of the states in which the colleges that
+you list in questions 103a - 103h are located.
+
+How much aid will I receive?
+
+If you are applying solely for federal aid, you must answer all of the following
+questions that apply to you: 1-9, 14-16, 18, 21-23, 26, 28-29, 32-37, 39-59, 61-68,
+70, 73-86, 88-102, 104-105. If you do not answer these questions, you will not
+receive federal aid.
+
+Using the information on your FAFSA and your EFC, the financial aid office at
+your college will determine the amount of aid you will receive. The college will
+use your EFC to prepare a financial aid package to help you meet your financial
+need. Financial need is the difference between your EFC and your college’s
+cost of attendance (which can include living expenses), as determined by
+the college. If you or your family have unusual circumstances that should be
+taken into account, contact your college’s financial aid office. Some examples
+of unusual circumstances are: unusual medical or dental expenses or a large
+change in income from last year to this year.
+
+Without your consent, we may disclose information that you provide to entities
+under a published “routine use.” Under such a routine use, we may disclose
+information to third parties that we have authorized to assist us in administering
+the above programs; to other federal agencies under computer matching
+programs, such as those with the Internal Revenue Service, Social Security
+Administration, Selective Service System, Department of Homeland Security,
+Department of Justice and Veterans Affairs; to your parents or spouse; and to
+members of Congress if you ask them to help you with student aid questions.
+
+When will I receive the aid?
+Any financial aid you are eligible to receive will be paid to you through your
+college. Typically, your college will first use the aid to pay tuition, fees and room
+and board (if provided by the college). Any remaining aid is paid to you for your
+other educational expenses. If you are eligible for a Federal Pell Grant, you may
+receive it from only one college for the same period of enrollment.
+
+How can I have more colleges receive my FAFSA information?
+If you are completing a paper FAFSA, you can only list four colleges in the
+school code step. You may add more colleges by doing one of the following:
+1. Use the Federal Student Aid PIN you will receive after your FAFSA has been
+processed and go to FAFSA on the Web at www.fafsa.gov. Click the “Login”
+button on the home page to log in to FAFSA on the Web, then click “Make
+FAFSA Corrections.”
+2. Use the Student Aid Report (SAR), which you will receive after your FAFSA is
+processed. Your Data Release Number (DRN) verifies your identity and will
+be listed on the first page of your SAR. You can call 1-800-4-FED-AID and
+provide your DRN to a customer service representative, who will add more
+school codes for you.
+3. Provide your DRN to the financial aid administrator at the college you want
+added, and he or she can add their school code to your FAFSA.
+Note: Your FAFSA record can only list up to ten school codes. If there are ten
+school codes on your record, any new school codes that you add will replace
+one or more of the school codes listed.
+
+Where can I receive more information on student aid?
+The best place for information about student financial aid is the financial aid
+office at the college you plan to attend. The financial aid administrator can tell
+you about student aid available from your state, the college itself and other
+sources.
+t You can also visit our web site StudentAid.gov.
+t For information by phone you can call our Federal Student Aid Information
+Center at 1-800-4-FED-AID (1-800-433-3243). TTY users (for the hearing
+impaired) may call 1-800-730-8913.
+t You can also check with your high school counselor, your state aid agency
+or your local library’s reference section.
+Information about other nonfederal assistance may be available from foundations,
+religious organizations, community organizations and civic groups, as well as
+organizations related to your field of interest, such as the American Medical
+Association or American Bar Association. Check with your parents’ employers or
+unions to see if they award scholarships or have tuition payment plans.
+
+Page 10
+
+If the federal government, the U.S. Department of Education, or an employee
+of the U.S. Department of Education is involved in litigation, we may send
+information to the Department of Justice, or a court or adjudicative body, if the
+disclosure is related to financial aid and certain conditions are met. In addition,
+we may send your information to a foreign, federal, state, or local enforcement
+agency if the information that you submitted indicates a violation or potential
+violation of law, for which that agency has jurisdiction for investigation
+or prosecution. Finally, we may send information regarding a claim that is
+determined to be valid and overdue to a consumer reporting agency. This
+information includes identifiers from the record; the amount, status and history
+of the claim; and the program under which the claim arose.
+
+State Certification
+By submitting this application, you are giving your state financial aid agency
+permission to verify any statement on this form and to obtain income tax
+information for all persons required to report income on this form.
+
+The Paperwork Reduction Act of 1995
+According to the Paperwork Reduction Act of 1995, no persons are required
+to respond to a collection of information unless such collection displays a
+valid OMB control number, which for this form is 1845-0001. Public reporting
+burden for this collection of information is estimated to average three hours
+per response, including time for reviewing instructions, searching existing
+data sources, gathering and maintaining the data needed, and completing
+and reviewing the collection of information. The obligation to respond to
+this collection is voluntary. Send comments regarding the burden estimate
+or any other aspect of this collection of information, including suggestions
+for reducing this burden, to the Federal Student Aid Information Center, P.O.
+Box 84, Washington, D.C. 20044. Please do not return the completed FAFSA to
+this address.
+We may request additional information from you to process your application
+more efficiently. We will collect this additional information only as needed and
+on a voluntary basis.
+

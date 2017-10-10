@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+<suite name="Audit Test Suite" parallel="instances" thread-count="5">
+	<parameter name="userName" value="admin@securletbeatle.com"></parameter>
+	<parameter name="userPassword" value="Elastica123!"></parameter>
+	<parameter name="environmentName" value="cep"></parameter>
+	<parameter name="tenantName" value="securletbeatlecom"></parameter>
+	<parameter name="referer" value="https://app-cep.elastica.net" />
+	<parameter name="tenantToken" value="H3YK/Vxr3p+qm9dfmKvmh7oYaPBJMqUsszm+LOStr4k="/>
+	<parameter name="isLoggingOn" value="true"></parameter>
+	<parameter name="apiBaseVersion" value="v1"></parameter>
+	<parameter name="loadApparraziServicesCheck" value="yes" />
+	<test name="Audit SCP/SFTP Regression Tests">
+		<classes>
+			<class name="com.elastica.beatle.audit.factoryClass.CepAuditScpUploadFactory"/>
+			
+		</classes>
+	</test>	
+</suite>
+

@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+<suite name="Detct dropbox End to End Test Suite"> 
+
+	<listeners>
+		<listener class-name="com.elastica.beatle.PriorityListener" />
+	</listeners>
+	
+	 <parameter name="environmentName" value="qavpc"/>
+    <parameter name="userName" value="admin@securletbeatle.com"/>
+    <parameter name="userPassword" value="Elastica1234!"/>
+    <parameter name="tenantName" value="securletbeatlecom"/>
+    <parameter name="tenantToken" value="H3YK/Vxr3p+qm9dfmKvmh7oYaPBJMqUsszm+LOStr4k="/>
+    
+ <parameter name="referer" value="https://qa-vpc-ui.elastica-inc.com/static/ng/appThreats/index.html"/>
+	<parameter name="host" value="qa-vpc-ui.elastica-inc.com"/>
+	<parameter name="apiServer" value="qa-vpc-api.elastica-inc.com"/>
+    
+    
+    <parameter name="isLoggingOn" value="true"/>
+    <parameter name="apiBaseVersion" value="v1"/>
+    <parameter name="esScriptsHostName" value="10.0.0.242"/>
+    <parameter name="esScriptsUserName" value="madmin"/>
+    
+	<parameter name="saasApp" value="Dropbox"/>
+	<parameter name="saasAppUsername" value="admin@securletbeatle.com"/>
+	<parameter name="saasAppPassword" value="ZG4nfWZand@jHp54fV781B"/>
+	<parameter name="saasAppUserRole" value="ADMIN"/>
+	<parameter name="saasAppToken" value="R2VaTghjreAAAAAAAAAACLC6oj6NaOAhJFEtiu-GxlkGFm_PXYZnJzYW0hEIERP5"/>
+   
+    
+	<test name="Detct dropbox End to End Tests">
+		<classes>
+		<class name="com.elastica.beatle.tests.detect.DetectEndtoEndTests">
+		<methods>
+		<include name="dropBox_upload_TBI_Test"></include>
+		<include name="dropBox_Encyption_TBI_Test"></include>
+		</methods>
+		</class>
+		
+		</classes>
+	</test>
+	
+</suite>

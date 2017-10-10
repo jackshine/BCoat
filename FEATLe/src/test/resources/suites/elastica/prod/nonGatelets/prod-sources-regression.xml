@@ -1,0 +1,40 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+
+
+<suite name="Sources Test Suite" parallel="methods" thread-count="4">
+
+	<listeners>
+		<listener class-name="org.uncommons.reportng.HTMLReporter" />
+		<listener class-name="org.uncommons.reportng.JUnitXMLReporter" />
+		<listener class-name="com.elastica.listeners.SuiteListener" />
+		<listener class-name="com.elastica.listeners.MethodListener" />
+		<listener class-name="com.elastica.listeners.ScreenShotListener" />
+		<listener class-name="com.elastica.listeners.PriorityListener" />
+		<listener class-name="com.elastica.listeners.GridListener" />
+	</listeners>
+
+	<parameter name="env" value="prod" />
+	<parameter name="browser" value="chrome" />
+	<parameter name="mode" value="grid" />
+	<parameter name="platform" value="Windows 8.1" />
+	<parameter name="browserVersion" value="40" />
+	<parameter name="browserName" value="chrome" />
+	<parameter name="username" value="admin@securletautoo365featle.com" />
+	<parameter name="saasAppName" value="Box" />
+	<parameter name="tenantName" value="securletautoo365featlecom" />
+
+	<test name="Sources UI Tests" group-by-instances="true"
+		preserve-order="true">
+		<groups>
+			<run>
+				<include name="granular"></include>
+				<include name="regression"></include>
+			</run>
+		</groups>
+		<classes>
+			<class name="com.elastica.tests.sources.SourcesTests" />
+		</classes>
+	</test>
+
+
+</suite>

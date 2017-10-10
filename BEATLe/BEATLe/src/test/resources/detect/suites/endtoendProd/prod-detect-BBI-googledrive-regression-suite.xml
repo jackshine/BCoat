@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+<suite name="Detct gDrive BBI Test Suite"> 
+
+	<listeners>
+		<listener class-name="com.elastica.beatle.PriorityListener" />
+	</listeners>
+	
+	<parameter name="environmentName" value="prod"/>
+	
+	<parameter name="userName" value="admin@detectbbibeatle.com"/>
+	<parameter name="userPassword" value="Elastica@1234"/>
+	<parameter name="tenantName" value="detectbbibeatlecom"/>
+	<parameter name="tenantDomainName" value="detectbbibeatle.com"></parameter>
+	<parameter name="tenantToken" value="0hRPzv3Hv0oYnhLQDhUFFTpFhX6Aee5yBrOp19PKnQE="/>
+	  
+	<parameter name="isLoggingOn" value="true" />
+		<parameter name="apiBaseVersion" value="v1" />
+		<parameter name="esScriptsHostName" value="10.0.0.242" />
+		<parameter name="esScriptsUserName" value="madmin" />
+		<parameter name="referer" value="https://app.elastica.net" />
+	
+	<parameter name="saasApp" value="Google Drive"/>
+	
+	<parameter name="saasAppUsername" value="detectbbi_10confidence@detectbbibeatle.com"/>
+	<parameter name="saasAppPassword" value="s8gic7wtv*oQqAX"/>
+	<parameter name="saasAppUserRole" value="ADMIN"/>
+	
+	<parameter name="saasAppToken" value="1/J9_8TfEeFr3S0k4gQ5c9wWsLkTjNFjBuRvfZ3mM8MopIgOrJDtdun6zK6XiATCKT"/>
+	<parameter name="saasAppClientId" value="256499535864-obc0kffuopld4ink0ha0h5faqn1h9c8j.apps.googleusercontent.com"/>
+	<parameter name="saasAppClientSecret" value="GwsWSdw7hl6zJ6vwSO6VIdHY"/>
+	
+	
+	<parameter name="host" value="app.elastica.net" />
+		<parameter name="apiServer" value="api-app.elastica.net" />
+	
+	
+	<test name="Detct gDrive BBI Test Suite">
+		<classes>
+		<class name="com.elastica.beatle.tests.detect.DetectBBIEndtoEndTests_API">
+		</class>
+		
+		</classes>
+	</test>
+	
+</suite>

@@ -1,0 +1,49 @@
+{
+  "source": {
+    "query": {
+      "bool": {
+        "must": [
+          {
+            "range": {
+              "updated_timestamp": {
+                "from": "FROM_TIME",
+                "to": "TO_TIME"
+              }
+            }
+          },
+          {
+            "term": {
+              "event_type": "AnomalyReport"
+            }
+          }
+        ],
+        "should": [
+          {
+            "term": {
+              "severity": "SEVERITY_LEVEL"
+            }
+          }
+        ],
+        "minimum_should_match": 1,
+        "must_not": {
+          "term": {
+            "__source": "audit"
+          }
+        }
+      }
+    },
+    "filter": {
+      "missing": {
+        "field": "__internal"
+      }
+    },
+    "sort": {
+      "updated_timestamp": {
+        "order": "desc",
+        "ignore_unmapped": "true"
+      }
+    },
+    "size": 100000
+  },
+  "sourceName": "DETECT"
+}

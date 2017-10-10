@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+<suite name="Gateway Regression Test Suite" parallel="false">
+	<parameter name="environmentName" value="eoe"/>
+	<parameter name="userName" value="admin@gatewaybeatle.com"/>
+	<parameter name="userPassword" value="Elastica@123"/>
+	<parameter name="tenantName" value="gatewaybeatlecom"/>
+	<parameter name="tenantDomainName" value="gatewaybeatle.com"/>
+	<parameter name="isLoggingOn" value="true"/>
+	<parameter name="apiBaseVersion" value="v1"/>
+	<parameter name="saasApp" value="Box"/>
+		<parameter name="saasAppUsername" value="testuser1@gatewaybeatle.com"/>
+	
+	
+	<test name="Gateway/StreamIq Box Access enforcement policy suite">
+		<parameter name="environmentName" value="eoe"/>
+			<parameter name="saasAppUsername" value="testuser1@gatewaybeatle.com"/>
+		<groups>
+		    <run>
+		       <include name="TEST"/>
+		    </run>
+		  </groups>
+		<classes>
+			<class name="com.elastica.beatle.tests.gateway.box.AccessEnforcementPolicyTest">
+			</class>
+		</classes>
+	</test>
+	
+	<test name="Gateway/StreamIq Box File sharing policy suite">
+		<parameter name="environmentName" value="eoe"/>
+			<parameter name="saasAppUsername" value="testuser1@gatewaybeatle.com"/>
+		<groups>
+		    <run>
+		       <include name="TEST"/>
+		    </run>
+		  </groups>
+		<classes>
+			<class name="com.elastica.beatle.tests.gateway.box.FileSharingPolicyTest">
+			</class>
+		</classes>
+	</test>
+	
+	
+	
+</suite>

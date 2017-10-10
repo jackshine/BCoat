@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+<suite name="Box Securlets Exposures Metrics and Filters Test Suite" parallel="false">
+	
+	
+	<parameter name="environmentName" value="eoe"/>
+	<parameter name="userName" value="admin@securletautomation.com"/>
+	<parameter name="userPassword" value="Elastica12345!"/>
+	<parameter name="dpoUserName" value="securletuser@securletautomation.com"/>
+	<parameter name="dpoUserPassword" value="Elastica1234!"/>
+	<parameter name="tenantName" value="securletautomationcom"/>
+	<parameter name="dpoUserName" value="securletuser@securletautomation.com"/>
+	<parameter name="dpoUserPassword" value="Elastica1234!"/>
+	<parameter name="isLoggingOn" value="true"/>
+	<parameter name="apiBaseVersion" value="v1"/>
+	<parameter name="esScriptsHostName" value="10.0.0.242"/>
+	<parameter name="esScriptsUserName" value="madmin"/>
+	<parameter name="socUserName" value="box admin securlet automation"/>
+	<parameter name="saasApp" value="BOX"/>
+	<parameter name="saasAppEndUser1Name" value="admin+1@securletautomation.com"/>
+	<parameter name="saasAppEndUser1Password" value="lYvA7)DZ1zD@CPQgt5zw"/>
+	<parameter name="saasAppUsername" value="admin@securletautomation.com"/>
+	<parameter name="saasAppPassword" value="CMdypmxM67Avt_%s"/>
+	<parameter name="saasAppUserRole" value="ADMIN"/>
+	<parameter name="custDomain" value="securletautomationcom1"/>
+	<parameter name="tenantToken" value="ICvXbrHeznTpjYMczg787TwDcZs9NgnzxjdHej61l0Q="/>
+	
+	<!-- 
+	<parameter name="environmentName" value="eoe"/>
+	<parameter name="userName" value="admin@securletbeatle.com"/>
+	<parameter name="userPassword" value="Elastica1234!"/>
+	<parameter name="tenantName" value="securletbeatlecom"/>
+	<parameter name="isLoggingOn" value="true"/>
+	<parameter name="apiBaseVersion" value="v1"/>
+	<parameter name="esScriptsHostName" value="10.0.0.242"/>
+	<parameter name="esScriptsUserName" value="madmin"/>
+	<parameter name="referer" value="https://eoe.elastica-inc.com"/>
+	<parameter name="tenantToken" value="H3YK/Vxr3p+qm9dfmKvmh7oYaPBJMqUsszm+LOStr4k="/>
+	<parameter name="saasApp" value="Box"/>
+	<parameter name="saasAppUsername" value="box-admin@securletbeatle.com"/>
+	<parameter name="saasAppPassword" value="lYvA7)DZ1zD@CPQgt5zw"/>
+	<parameter name="saasAppUserRole" value="ADMIN"/>
+	<parameter name="saasApp" value="BOX"/>
+	<parameter name="saasAppEndUser1Name" value="box-admin+1@securletbeatle.com"/>
+	<parameter name="saasAppEndUser1Password" value="lYvA7)DZ1zD@CPQgt5zw"/>
+	 -->
+	
+	
+	<test name="Box Securlets Exposures Metrics and Filters Test Suite">
+		<!-- <groups>
+		    <run>
+		      <include name="DASHBOARD"/>
+		    </run>
+		  </groups> -->
+		<classes>
+			<class name="com.elastica.beatle.tests.securlets.BoxSecurletExposureMetrics">
+				<methods>
+					<!--  Stabilized -->
+					
+					<include name="verifyExposuresMetricsForFileExposures"></include> 
+					<include name="verifyExposuresMetricsForFolderExposures"></include>
+					<include name="exposeRiskFileAndCheckExposedFilesAndOtherRisks"> </include>
+					<include name="exposeNonRiskFileAndCheckExposedFilesAndOtherRisks"> </include>
+					<include name="listAllInternallyExposedFiles"></include> 
+					<include name="listAllInternallyExposedFilesAfterInternalExposure"></include>
+					<include name="getAllInternalExposureTotalsOnly"></include>
+					<include name="verifyTopExposedFileTypes"></include>
+					<include name="exposeAFileTypeAndVerifyExposedFileTypes"></include>
+					<include name="getAllInternallyExposedContentTypes"></include>
+					<include name="exposeAFileTypeAndVerifyExposedContentTypes"></include>
+					<include name="verifyVulnerabilityTypes"></include>
+					<include name="exposeAFileTypeAndVerifyVulnerabilityTypes"></include>
+					<include name="verifyVulnerabilityTypesWithFilters"></include>
+					<include name="verifyInternallyExposedUsers"></include>
+					<include name="verifyFolderExposuresByInternalUsers"></include>
+					<include name="verifyUserTotalsAsInVennDiagram"></include>
+					<include name="verifyUserDocumentExposures"></include>
+					<include name="bulkRemediateExternalUser"></include>
+					<include name="verifyUserVulnerabilities"></include>
+					<include name="verifyUserTotalsAfterExposure"></include>
+					<include name="SearchForExposedFiles"></include>
+					
+					<!-- 
+				
+					<include name="exposeRiskFileAndCheckExposedFilesAndOtherRisks"></include>	
+					<include name="exposeAFileTypeAndVerifyExposedFileTypes"></include> -->
+					 <!-- 
+					<include name="verifyUserTotalsAsInVennDiagram"></include>
+					<include name="verifyUserTotalsAfterExposure"></include> -->
+					<!-- <include name="getAllInternalExposureTotalsOnly"></include> -->
+				</methods>
+			</class>
+		</classes>
+	</test>
+</suite>

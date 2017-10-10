@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+<suite name="DCI Test Suite" parallel="tests" thread-count="5">
+
+	<listeners>
+		<listener class-name="com.elastica.beatle.PriorityListener" />
+	</listeners>
+
+	<test name="DCI CIQ PDT and Obscenities Tests" group-by-instances="true" preserve-order="true">
+		<parameter name="environmentName" value="qavpc" />
+		<parameter name="cloudSocUName" value="box-admin" />
+		<parameter name="tenantName" value="dcibeatlecom" />
+		<parameter name="domainName" value="dcibeatle.com" />
+		<parameter name="saasApp" value="Box" />
+		<parameter name="apiBaseVersion" value="v1" />
+		<groups>
+			<run>
+				<include name="OBS" />
+
+			</run>
+		</groups>
+		<classes>
+			<class
+				name="com.elastica.beatle.tests.dci.ciq.DCICIQPDDPDTCombinationTests" />
+		</classes>
+	</test>
+
+	<test name="DCI CIQ PDT and Pharmaceutical Drugs Tests" group-by-instances="true" preserve-order="true">
+		<parameter name="environmentName" value="qavpc" />
+		<parameter name="cloudSocUName" value="box-admin" />
+		<parameter name="tenantName" value="dciautobeatlecom" />
+		<parameter name="domainName" value="dciautobeatle.com" />
+		<parameter name="saasApp" value="Box" />
+		<parameter name="apiBaseVersion" value="v1" />
+		<groups>
+			<run>
+				<include name="PD" />
+
+			</run>
+		</groups>
+		<classes>
+			<class
+				name="com.elastica.beatle.tests.dci.ciq.DCICIQPDDPDTCombinationTests" />
+		</classes>
+	</test>
+
+	<test name="DCI CIQ PDT and Ticker Symbols Tests" group-by-instances="true" preserve-order="true">
+		<parameter name="environmentName" value="qavpc" />
+		<parameter name="cloudSocUName" value="admin" />
+		<parameter name="tenantName" value="dciciqbeatlecom" />
+		<parameter name="domainName" value="dciciqbeatle.com" />
+		<parameter name="saasApp" value="Box" />
+		<parameter name="apiBaseVersion" value="v1" />
+		<groups>
+			<run>
+				<include name="TS" />
+
+			</run>
+		</groups>
+		<classes>
+			<class
+				name="com.elastica.beatle.tests.dci.ciq.DCICIQPDDPDTCombinationTests" />
+		</classes>
+	</test>
+
+	<test name="DCI CIQ PDT and USG Export Controlled Items Tests" group-by-instances="true" preserve-order="true">
+		<parameter name="environmentName" value="qavpc" />
+		<parameter name="cloudSocUName" value="admin" />
+		<parameter name="tenantName" value="dcimultibeatlecom" />
+		<parameter name="domainName" value="dcimultibeatle.com" />
+		<parameter name="saasApp" value="Box" />
+		<parameter name="apiBaseVersion" value="v1" />
+		<groups>
+			<run>
+				<include name="USG" />
+
+			</run>
+		</groups>
+		<classes>
+			<class
+				name="com.elastica.beatle.tests.dci.ciq.DCICIQPDDPDTCombinationTests" />
+		</classes>
+	</test>
+
+	<test name="DCI CIQ PDT and Violence Tests" group-by-instances="true" preserve-order="true">
+		<parameter name="environmentName" value="qavpc" />
+		<parameter name="cloudSocUName" value="admin" />
+		<parameter name="tenantName" value="securletautofeatlecom" />
+		<parameter name="domainName" value="securletautofeatle.com" />
+		<parameter name="saasApp" value="Box" />
+		<parameter name="apiBaseVersion" value="v1" />
+		<groups>
+			<run>
+				<include name="VIO" />
+
+			</run>
+		</groups>
+		<classes>
+			<class
+				name="com.elastica.beatle.tests.dci.ciq.DCICIQPDDPDTCombinationTests" />
+		</classes>
+	</test>
+
+</suite>

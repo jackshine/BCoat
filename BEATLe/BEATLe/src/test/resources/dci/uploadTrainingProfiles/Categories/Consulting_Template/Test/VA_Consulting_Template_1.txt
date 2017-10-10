@@ -1,0 +1,262 @@
+﻿Marketing Agreement
+This Agreement is entered into as of June 30, 2009 (the "Effective Date"), by and between EMIRATES TELECOMMUNICATIONS CORPORATION, a corporation having an office at P.O. Box No. 3838, Abu Dhabi, United Arab Emirates ("Carrier") and Vringo Inc., a Delaware corporation having an office at 85 5th Avenue 6 th Floor New York, NY 10003.
+RECITALS: Carrier wishes to engage with Vringo and Vringo wishes to engage with Carrier in a relationship whereby Carrier will offer a version of Vringo's video ringtone sharing service to its customers on the terms and conditions set forth in this Agreement.
+
+I.	Vringo's Obligations: Vringo shall make available to Carrier's customers a version or versions of the Vringo video ringtone sharing service (the "Service"). The Service shall be hosted and fully provided by Vringo. Vringo will supply content for the Service ("Vringo Content") and will allow the Carrier or third parties appointed by the Carrier to include additional content in the Service ("Carrier Content"). Vringo will co-brand the web portion of the Service. Vringo will provide Carrier with a spec detailing the elements Carrier must provide to Vringo for the creation of the co-brand.
+
+II.	Carrier's Obligations: Carrier shall:
+
+ 	a.	Provide Vringo with the elements for the co-brand
+
+ 	b.	Complete translation string spreadsheets provided by Vringo
+
+ 	c.	Ensure that any Carrier customer who signs up for the Service is not charged for data when using the Service
+
+ 	d.	Provide Vringo with access to Carrier's billing API and support Vringo in integrating said API
+
+ 	e.	Provide Vringo with access to Carrier's SMSC so that Vringo can send SMS's related to the Service via Carrier's SMSC. Vringo will not be charged for sending said SMS's.
+
+ 	f.	Market the Service to its customers. Said marketing shall include, but not be limited to, the activities listed in Exhibit A
+
+III.	Timing: The parties shall use commercially reasonable efforts to stick to the project and initial launch plan detailed in Exhibit B. The initial launch of the Service will be in English in the UAE. The parties may mutually agree to translate the Service into Arabic and/or to launch the Service in additional countries where Carrier is active.
+
+IV.	Revenue Share, Fees, Reports, Audit Rights:
+
+ 	a.	Users shall be charged a monthly subscription fee for use of the Service which shall be agreed upon by the parties from time to time. Additionally, Vringo may charge users for purchases of some Vringo Content and Vringo will charge users for purchases of some Carrier Content as mutually agreed upon by the parties. All fees will be charged directly to the users Carrier bill via Vringo's integration with Carrier's billing API.
+ 
+Page # 1 of #11
+CONFIDENTIAL TREATMENT REQUESTED
+WITH RESPECT TO CERTAIN PORTIONS HEREOF
+DENOTED WITH "***"
+ 
+ 	b.	Each month after the launch, Carrier will make payment to Vringo as per the following schedule of payment
+
+ 	i.	Subscription Fee
+***
+
+ 	ii.	Purchase of Virgo Content
+*** of the Gross Revenue billed and collected for the purchase of Virgo Content.
+
+ 	iii.	Purchase of Carrier Content
+*** of the Gross Revenue billed and collected for the purchase of Carrier Content
+Vringo shall be responsible for paying the content owners for Vringo Content and Carrier shall be responsible for paying the content owners for Carrier Content.
+
+ 	c.	
+On or before the fifteenth (15th) day of each calendar month, Carrier shall provide Vringo with a report detailing the gross revenue billed and collected for the subscription fee and the gross revenue billed for content purchases in the previous month and pay Vringo any amounts owed for said month. Vringo shall have the right to claim interest on any amounts not paid in accordance with the above at the rate of two per cent (2%) per annum above the prevailing base rate of HSBC Bank plc which interest shall accrue on a daily basis from the date payment becomes overdue until Carrier has made payment of the overdue amount,
+
+
+ 	d.	Once every six (6) months during the Term of this Agreement, and for six (6) months following the term, Vringo may cause an independent auditor reasonably satisfactory to Carrier to inspect Carrier's relevant books and records at Carrier's offices to verify the accuracy of Carrier's calculation of gross revenue; provided that reasonable advance notice is given, the inspection does not unreasonably interfere with Carrier's business activities and provided that the auditor signs Carrier's standard confidentiality agreement before conducting the audit. Carrier shall promptly make any underpayments revealed by said audit. Such audit shall be at Vringo's expense; however, if the audit reveals underpayments in excess of five percent (5%) of the fees owed for the period covered by the applicable audit, Carrier shall pay the reasonable cost of such audit.
+
+ 	e.	Except as otherwise specifically provided in this Agreement, each party shall be responsible for all costs and expenses relating to the performance of its obligations hereunder.
+
+V.	Exclusivity: In the UAE, Vringo will not launch the service via a direct relationship between Vringo and another telecom operator for a period of twelve (12) months from the launch of the Service by Carrier provided that Carrier meets it requirements as specified in the launch plan and the marketing commitments described in Exhibit A.
+In the Territories listed in Exhibit C, Vringo will not launch its service via a direct relationship with any telecom operator not owned by Carrier for a period of six (6) months from the date hereof without first providing notice to Carrier. Said notice shall provide Carrier with a 30 day period in which to negotiate an agreement with Vringo to launch the service in the territory about which the notice was provided before other telecom operators in the territory launch the service. Should the parties not come to an agreement during said 30 day period, Vringo shall be free to launch with other telecom operators in said territory and neither party shall bear any liability for failure to come to an agreement.
+ 
+Page # 2 of #11
+CONFIDENTIAL TREATMENT REQUESTED
+WITH RESPECT TO CERTAIN PORTIONS HEREOF
+DENOTED WITH "***"
+ 
+VI.	Proprietary Rights, Grant of License
+
+ 	a.	Ownership of Intellectual Property. As between the parties, each party shall own and retain all right, title and interest, including without limitation, all Intellectual Property Rights owned by such party, in and to such party's intellectual property, content, Marks and Promotional Materials. Neither party shall make any claim to the contrary. Each party agrees to reasonably assist the other party in the prosecution of any copyright infringement action or other litigation pertaining to the rights to the other party's materials or intellectual property.
+
+ 	b.	Proprietary Notices. The parties shall not remove, obscure or alter the other party's copyright notice or the Marks from approved materials provided to each party.
+
+ 	c.	Marks. Each party hereby grants the other party during the Term a non-exclusive non-transferable license to use said party's Marks for the sole purpose of fulfilling its obligations under this Agreement and in marketing materials and presentations. In using each other's Marks hereunder, each party acknowledges and agrees that: (i) the other party's Marks shall remain the sole property of the other party; (ii) nothing in this Agreement shall confer in either party any right of ownership in the other party's Marks; and (iii) neither party shall at any time contest the validity of the other party's Marks. Except as specifically provided in this Agreement, neither party shall have the right to use any Mark of the other party, or to refer to the other party directly or indirectly, in connection with any product, promotion or publication without the prior written approval of such other party. Each party hereto agrees that upon termination of this Agreement all rights granted to the other party in relation to the other party's Marks shall immediately terminate and revert to the respective owning or licensor party.
+
+VII.	Term:
+
+ 	a.	Term. This Agreement shall become effective upon execution and delivery hereof by both parties ("Effective Date") and, subject to termination as provided below, shall continue for eighteen (18) months from the Launch Date (the "Initial Term").
+
+ 	b.	Renewal. This Agreement shall automatically renew for successive twelve month terms, unless either party provides written notice of termination at least thirty (30) days prior to the expiration of the Initial Term or any renewal term. The Initial Term and any and all renewal terms are collectively referred to as the "Term."
+ 
+Page # 3 of #11
+CONFIDENTIAL TREATMENT REQUESTED
+WITH RESPECT TO CERTAIN PORTIONS HEREOF
+DENOTED WITH "***"
+ 
+ 	c.	Termination for Insolvency. Either party hereto may, at its option, upon five (5) days written notice, terminate this Agreement should the other party hereto (i) admit in writing its inability to pay its debts generally as they become due; (ii) make a general assignment for the benefit of creditors; (iii) institute proceedings to be adjudicated a voluntary bankrupt, or consent to the filing of a petition of bankruptcy against it; (iv) be adjudicated by a court of competent jurisdiction as being bankrupt or insolvent; (v) seek reorganization under any bankruptcy act, or consent to the filing of a petition seeking such reorganization, or (vi) have a decree entered against it by a court of competent jurisdiction appointing a receiver, liquidator, trustee or assignee in bankruptcy or in insolvency covering all or substantially all of such party's property or providing for the liquidation of such party's property or business affairs.
+
+ 	d.	Termination for Default. In the event that either party commits a material breach of its obligations hereunder, the other party may, at its option, terminate this Agreement by written notice of termination specifying such material breach; provided, however, that if such default is subject to cure, then such notice shall be subject to a twenty (20) day cure period from the date thereof, and if the defaulting party cures such default prior to expiration of such period, termination shall not take place.
+
+ 	e.	Survival of Termination. The obligations of the parties under this Agreement that by their nature would continue beyond expiration, termination or cancellation of this Agreement (including, without limitation, the warranties, indemnification obligations, confidentiality requirements and ownership and property rights) shall survive any such expiration, termination or cancellation.
+
+VIII.	Representations and Warranties, Indemnity:
+
+ 	a.	Representations and Warranties. Each party represents and warrants to the other that it has the full power and authority to enter into this Agreement, to grant the rights granted herein and to perform its obligations hereunder.
+
+ 	b.	Indemnity. Each party shall indemnify, defend and hold harmless the other party and its parents, subsidiaries, affiliates and their directors, officers, employees, agents and subcontractors against all third-party claims or actions, and any liabilities, losses, expenses, damages and costs (including, but not limited to, reasonable attorneys' fees) related thereto, to the extent same arise out of any breach or alleged breach of such party's representations or warranties contained in this Agreement or in the case of Vringo, any virus, worm, or other contaminating or destructive feature contained in the Service.
+ 
+Page # 4 of #11
+CONFIDENTIAL TREATMENT REQUESTED
+WITH RESPECT TO CERTAIN PORTIONS HEREOF
+DENOTED WITH "***"
+ 
+IX.	Confidentiality:
+
+ 	a.	Confidentiality. Each party acknowledges that by reason of its relationship to the other party under this Agreement it may have access to certain information and materials concerning the other party's business, plans, customers, code and products that are confidential and of substantial value to such party (referred to in this Section as "Confidential Information"), which value would be impaired if such Confidential Information were disclosed to third parties. The terms of this Agreement shall be deemed to be Confidential Information. Each party agrees to maintain all Confidential Information received from the other, both orally and in writing, in confidence and agrees not to disclose or otherwise make available such Confidential Information to any third party without the prior written consent of the disclosing party. Each party further agrees to use the Confidential Information only for the purpose of performing this Agreement. No Confidential Information shall be deemed confidential unless so marked if given in writing, or, if given orally, identified as confidential orally prior to disclosure, or information which by its nature or the nature of the circumstances surrounding disclosure should reasonably be understood to be confidential.
+
+ 	b.	Exclusions. The parties' obligations under the paragraph above shall not apply to Confidential Information which: (i) is or becomes a matter of public knowledge through no fault of or action by the receiving party; (ii) was rightfully in the receiving party's possession prior to disclosure by the disclosing party; or (iii) subsequent to disclosure, is rightfully obtained by the receiving party from a third party who is lawfully in possession of such Confidential Information without restriction. Whenever requested by a disclosing party, a receiving party shall immediately return to the disclosing party all manifestations of the Confidential Information or, at the disclosing party's option, shall destroy all such Confidential Information as the disclosing party may designate (excluding this Agreement). The receiving party's obligation of confidentiality shall survive this Agreement for a period of three (3) years from the date of its termination and thereafter shall terminate and be of no further force or effect. Nothing herein shall prohibit a party from complying with a lawful and binding order of any court, administrative agency or other governmental entity relating to Confidential Information.
+
+X.	Press Release: Each party shall have the right to issue a press release regarding the relationship between the parties.
+
+XI.	
+Limitation of Liability: IN NO EVENT SHALL EITHER PARTY BE LIABLE TO THE OTHER PARTY OR ANY OTHER PERSON OR ENTITY IN CONNECTION WITH THIS AGREEMENT FOR ANY SPECIAL, CONSEQUENTIAL, INCIDENTAL OR RELIANCE DAMAGES (OR ANY LOSS OF REVENUE, PROFITS OR DATA), HOWEVER CAUSED, WHETHER FOR BREACH OF CONTRACT, NEGLIGENCE OR UNDER ANY OTHER LEGAL THEORY, WHETHER FORESEEABLE OR NOT AND WHETHER OR NOT THE OTHER PARTY HAS BEEN ADVISED OF THE POSSIBILITY OF SUCH DAMAGE, AND NOTWITHSTANDING THE FAILURE OF ESSENTIAL PURPOSE OF ANY LIMITED REMEDY. BOTH PARTIES AGREE THAT THESE LIMITATIONS OF LIABILITY ARE
+
+ 
+Page # 5 of #11
+CONFIDENTIAL TREATMENT REQUESTED
+WITH RESPECT TO CERTAIN PORTIONS HEREOF
+DENOTED WITH "***"
+ 
+ 	
+AGREED ALLOCATIONS OF RISK AND ARE REFLECTED IN THE FEES AGREED UPON BY THE PARTIES. FURTHER, NEITHER PARTY'S AGGREGATE LIABILITY ARISING WITH RESPECT TO THIS AGREEMENT (EXCEPT FOR AMOUNTS PAYABLE HEREUNDER) SHALL EXCEED THE TOTAL AMOUNTS PAYABLE TO VRINGO UNDER THIS AGREEMENT. NOTWITHSTANDING ANYTHING TO THE CONTRARY HEREIN, THIS SECTION 9 SHALL NOT APPLY TO ANY AMOUNTS PAYABLE BY AN INDEMNIFYING PARTY PURSUANT TO EXPRESS INDEMNIFICATION OBLIGATIONS IN THIS AGREEMENT.
+
+XII.	General Provisions:
+
+ 	a.	Definitions. The definitions contained in Exhibit A to this Agreement, which is incorporated herein and made a part hereof, shall apply to the interpretation of this Agreement.
+
+ 	b.	Force Majeure. Neither party shall be liable for, or be considered in breach of or default under this Agreement on account of, any delay or failure to perform as required by this Agreement as a result of any causes or conditions which are beyond such party's reasonable control and which such party is unable to overcome by the exercise of reasonable diligence; provided, however, that either party may terminate this Agreement upon written notice to the other party in the event such failure to perform continues unremedied for a period of thirty (30) days.
+
+ 	c.	Independent Contractors. The parties to this Agreement are independent contractors. Neither party is an agent, representative, or partner of the other party. Neither party shall have any right, power or authority to enter into any agreement for or on behalf of, or incur any obligation or liability of, or to otherwise bind, the other party.
+
+ 	d.	Notice. Any notice or other communication to be given under this Agreement shall be in writing and signed by or on behalf of the party giving it and may be served by leaving it or sending it by fax, delivering it by hand or sending it by first class post
+
+ 	e.	No Waiver. The failure of either party to require or enforce strict performance by the other party of any provision of this Agreement or to exercise any right under this Agreement shall not be construed as a waiver or relinquishment to any extent of such party's right to assert or rely upon any such provision or right in that or any other instance.
+
+ 	f.	Entire Agreement. This Agreement sets forth the entire agreement, and supersedes any and all prior agreements of the parties with respect to the subject matter hereof. No change, amendment or modification of any provision of this Agreement shall be valid unless set forth in a written instrument signed by the duly authorized representatives of both parties. This Agreement may be executed in counterparts, each of which shall be deemed an original and all of which together shall constitute one and the same document.
+ 
+Page # 6 of #11
+CONFIDENTIAL TREATMENT REQUESTED
+WITH RESPECT TO CERTAIN PORTIONS HEREOF
+DENOTED WITH "***"
+ 
+ 	g.	Assignment. Neither party shall assign this Agreement or any right, interest or benefit under this Agreement without the prior written consent of the other party, which consent shall not be unreasonably withheld. Notwithstanding the foregoing, either party may assign this Agreement without the other party's consent to a parent or commonly controlled entity or to any person or entity, which acquires or succeeds to all or substantially all of such party's business assets. Subject to the foregoing, this Agreement shall be fully binding upon, inure to the benefit of and be enforceable by the parties hereto and their respective successors and assigns.
+
+ 	h.	Partial Invalidity. In the event that any provision of this Agreement is held invalid by a court with jurisdiction over the parties to this Agreement, such provision shall be deemed to be restated to reflect as nearly as possible the original intentions of the parties in accordance with applicable law, and the remainder of this Agreement shall remain in full force and effect.
+
+ 	i.	Applicable Law. All disputes arising under this Agreement shall be finally settled under the rules of conciliation and arbitration of the International Chamber of Commerce by three arbitrators appointed in accordance with the said rules. Arbitration if any shall take place in London, Great Britain and shall be held in the English Language
+In Witness Whereof, the parties hereto have executed this Agreement as of the day and year first above written.
+
+EMIRATES TELECOMMUNICATIONS
+CORPORATION- ETISALAT
+ 		 	Vringo Inc.
+By:	 	/s/ Abdulrahim Al Nooryani	 		 	By:	 	/s/ Jon Medved
+Name:	 	Abdulrahim Al Nooryani	 		 	Name:	 	
+Title:	 	Executive Vice President/Contracts & Administration	 		 	Title:	 	
+Date: June 30, 2009	 		 	Date: May 17, 2009
+ 
+Page # 7 of #11
+CONFIDENTIAL TREATMENT REQUESTED
+WITH RESPECT TO CERTAIN PORTIONS HEREOF
+DENOTED WITH "***"
+ 
+Appendix A:
+In addition to the terms hereinabove defined, the following capitalized terms have the indicated meanings ascribed thereto:
+"Intellectual Property Rights" means, with respect to any data, device, or other asset of any kind, all copyright, patent, trade secret, moral, termination, authorship and other proprietary rights relating to any such data, device, object code, source code or other asset including, without limitation, all rights necessary for the worldwide development, manufacture, modification, enhancement, sale, licensing, use, reproduction, publishing and display of such data, device, object code, source code or other asset.
+"Marks" means any and all trademarks, trade names, service marks or logos owned or licensed by either party.
+"Promotional Materials" shall mean all marketing, advertising, and promotional materials in all media, created or developed by or on behalf of one of the parties relating to or associated with this Agreement.
+ 
+Page # 8 of #11
+CONFIDENTIAL TREATMENT REQUESTED
+WITH RESPECT TO CERTAIN PORTIONS HEREOF
+DENOTED WITH "***"
+ 
+Exhibit A
+Etisalat Marketing Initiatives and the Vringo Service
+
+ 	1.	General Media Channels
+
+ 	a.	Newspaper
+
+ 	b.	Television
+
+ 	c.	Online (video pre-rolls and banners)
+
+ 	d.	SMS Broadcasts/Blasts
+
+ 	e.	Portals
+
+ 	i.	www.etisalat.ae
+
+ 	ii.	www.weyak.ae
+
+ 	f.	Leaflets/Handouts
+
+ 	2.	Retail Outlets (Etisalat Owned)
+
+ 	a.	Posters
+
+ 	b.	Leaflets
+
+ 	c.	Salesperson introduction
+
+ 	d.	Other in-store marketing
+
+ 	3.	Retail Outlets (Reseller)
+
+ 	a.	Posters
+
+ 	b.	Leaflets
+
+ 	c.	Salesperson introduction incentives
+
+ 	d.	Other in-store marketing
+
+ 	4.	On Device Portal as a Widget (Vringo to complete Widget Framework Integration with Streamezzo)
+
+ 	5.	Pre-Loaded on Group Level Purchase of Compatible Devices
+
+ 	a.	Estimated 50k within 90 days, 250k by end of 2009, or at least 75% of all 3G enabled Compatible Devices
+
+ 	b.	There is no cost for the application that is to be pre-loaded by the Carrier onto the Compatible Device
+
+ 	6.	If deemed technically possible, side loading of the application through Kiosks or from SD/Mini-SD/Micro-SD (memory cards) that users purchase for their phones and the application can be offered to the consumer
+
+ 	7.	SMS promotion with ëPremium Short-Code' response with Over-The-Air (OTA) download and activation
+
+ 	8.	Trade Shows and other events where the general public
+ 
+Page # 9 of #11
+CONFIDENTIAL TREATMENT REQUESTED
+WITH RESPECT TO CERTAIN PORTIONS HEREOF
+DENOTED WITH "***"
+ 
+ 	9.	Exhibit B
+Project and Initial Launch Plan
+The parties will begin with an internal trial of Carrier and content provider employees, friends and family.
+During the trial, the co-branded web site will be available but SMSC and billing integration will not be done.
+The service will be free during the trial period. Carrier shall ensure that Carrier Content is delivered to Vringo for the trial.
+The trial shall begin on or before January 1st, 2009
+The parties shall make reasonable commercial efforts to launch the service commercially to users by April 1, 2009 which launch shall include billing and SMSC integration.
+Upon the commercial launch to users Carrier's marketing activities will begin.
+ 
+Page # 10 of #11
+CONFIDENTIAL TREATMENT REQUESTED
+WITH RESPECT TO CERTAIN PORTIONS HEREOF
+DENOTED WITH "***"
+ 
+Exhibit C
+Carrier Territories
+Africa
+Egypt
+Nigeria
+Sudan
+Tanzania
+West Africa
+Benin
+Burkina Faso
+Gabon
+Niger
+Togo
+Cote D'Ivoire (Ivory Coast)
+Central African Republic
+The Middle East as defined below:
+United Arab Emirates
+Kingdom of Saudi Arabia
+Iraq
+Afghanistan
+Pakistan
+ 
+Page # 11 of #11

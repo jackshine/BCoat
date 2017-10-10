@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE properties SYSTEM "http://java.sun.com/dtd/properties.dtd">
+<properties>
+	<comment>SaaS Configurations</comment>
+
+	<entry key="box.username">box-admin@dcibeatle.com</entry>
+	<entry key="box.password">^y1fyeDEtwU@P55f</entry>
+	<entry key="box.userRole">ADMIN</entry>
+	<entry key="box.cloudsoc.tenantToken">norz1GhMYMcqRkr9IxcuQA==</entry>
+	
+	<entry key="dropbox.username">admin@dcibeatle.com</entry>
+	<entry key="dropbox.password">@ykd0e&amp;JkbSj41kZfZT9</entry>
+	<entry key="dropbox.userRole">ADMIN</entry>
+	<entry key="dropbox.appToken">_9aAN6O6IkAAAAAAAAACRhnc_meADhleVes8d_Pwc-ZOdR9DNWulXnlPRPhAvj8v</entry>
+	<entry key="dropbox.cloudsoc.tenantToken">norz1GhMYMcqRkr9IxcuQA==</entry>
+
+	<entry key="googledrive.username">admin@dcibeatle.com</entry>
+	<entry key="googledrive.password">WRFNmZX@hqJ61x!wv7)0</entry>
+	<entry key="googledrive.userRole">ADMIN</entry>
+	<entry key="googledrive.appToken">1/qV5N0txotCDAUUdjEFPwBAFQURuVWWW5Rd_myfSNFDs</entry>
+	<entry key="googledrive.appClientId">1068547909400-59kv4u8g3vqnaonunqucp11g4hcarl84.apps.googleusercontent.com</entry>
+	<entry key="googledrive.appClientSecret">rdbpridJ1dUI7O8ubccvGAbk</entry>
+	<entry key="googledrive.cloudsoc.tenantToken">norz1GhMYMcqRkr9IxcuQA==</entry>
+	
+	<entry key="office365.username">admin@dcio365beatle.com</entry>
+	<entry key="office365.password">%tP31Kzb4DZokQJ</entry>
+	<entry key="office365.userRole">ADMIN</entry>
+	<entry key="office365.appDomainName">%tP31Kzb4DZokQJ</entry>
+	<entry key="office365.cloudsoc.tenantToken">yQdsxK/uViwM+LymafPKMIjwfpY5A2Geg+2ugXIPGGk=</entry>
+	
+	
+	
+	
+	<entry key="eoe.box.userName">box-admin@dcio365beatle.com</entry>
+	<entry key="eoe.box.userPassword">WRFNmZX@hqJ61x!wv7)0</entry>
+	<entry key="eoe.box.tenantName">dcibeatlecom</entry>
+	<entry key="eoe.dropbox.userName">admin@dcio365beatle.com</entry>
+	<entry key="eoe.dropbox.userPassword">WRFNmZX@hqJ61x!wv7)0</entry>
+	<entry key="eoe.dropbox.tenantName">dcibeatlecom</entry>
+	<entry key="eoe.googledrive.userName">admin@dcio365beatle.com</entry>
+	<entry key="eoe.googledrive.userPassword">WRFNmZX@hqJ61x!wv7)0</entry>
+	<entry key="eoe.googledrive.tenantName">dcibeatlecom</entry>
+	<entry key="eoe.office365.userName">admin@dcio365beatle.com</entry>
+	<entry key="eoe.office365.userPassword">Elastica123!</entry>
+	<entry key="eoe.office365.tenantName">dcio365beatlecom</entry>
+	
+	<entry key="prod.box.userName">box-admin@dcio365beatle.com</entry>
+	<entry key="prod.box.userPassword">Elastica123!</entry>
+	<entry key="prod.box.tenantName">dcibeatlecom</entry>
+	<entry key="prod.dropbox.userName">admin@dcio365beatle.com</entry>
+	<entry key="prod.dropbox.userPassword">Elastica123!</entry>
+	<entry key="prod.dropbox.tenantName">dcibeatlecom</entry>
+	<entry key="prod.googledrive.userName">admin@dcio365beatle.com</entry>
+	<entry key="prod.googledrive.userPassword">Elastica123!</entry>
+	<entry key="prod.googledrive.tenantName">dcibeatlecom</entry>
+	<entry key="prod.office365.userName">admin@dcio365beatle.com</entry>
+	<entry key="prod.office365.userPassword">Elastica123!</entry>
+	<entry key="prod.office365.tenantName">dcio365beatlecom</entry>
+	
+	<entry key="cep.box.userName">box-admin@dcio365beatle.com</entry>
+	<entry key="cep.box.userPassword">Elastica123!</entry>
+	<entry key="cep.box.tenantName">dcibeatlecom</entry>
+	<entry key="cep.dropbox.userName">admin@dcio365beatle.com</entry>
+	<entry key="cep.dropbox.userPassword">Elastica123!</entry>
+	<entry key="cep.dropbox.tenantName">dcibeatlecom</entry>
+	<entry key="cep.googledrive.userName">admin@dcio365beatle.com</entry>
+	<entry key="cep.googledrive.userPassword">Elastica123!</entry>
+	<entry key="cep.googledrive.tenantName">dcibeatlecom</entry>
+	<entry key="cep.office365.userName">admin@dcio365beatle.com</entry>
+	<entry key="cep.office365.userPassword">Elastica123!</entry>
+	<entry key="cep.office365.tenantName">dcio365beatlecom</entry>
+
+	<entry key="qavpc.box.userName">box-admin@dcio365beatle.com</entry>
+	<entry key="qavpc.box.userPassword">WRFNmZX@hqJ61x!wv7)0</entry>
+	<entry key="qavpc.box.tenantName">dcibeatlecom</entry>
+	<entry key="qavpc.dropbox.userName">admin@dcio365beatle.com</entry>
+	<entry key="qavpc.dropbox.userPassword">WRFNmZX@hqJ61x!wv7)0</entry>
+	<entry key="qavpc.dropbox.tenantName">dcibeatlecom</entry>
+	<entry key="qavpc.googledrive.userName">admin@dcio365beatle.com</entry>
+	<entry key="qavpc.googledrive.userPassword">WRFNmZX@hqJ61x!wv7)0</entry>
+	<entry key="qavpc.googledrive.tenantName">dcibeatlecom</entry>
+	<entry key="qavpc.office365.userName">admin@dcio365beatle.com</entry>
+	<entry key="qavpc.office365.userPassword">Elastica123!</entry>
+	<entry key="qavpc.office365.tenantName">dcio365beatlecom</entry>
+
+</properties>

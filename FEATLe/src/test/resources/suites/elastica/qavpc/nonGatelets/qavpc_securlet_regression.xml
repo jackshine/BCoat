@@ -1,0 +1,110 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+
+
+<suite name="Securlet Dashboard Test Suite" parallel="tests" thread-count="2">
+
+	<listeners>
+		<listener class-name="org.uncommons.reportng.HTMLReporter" />
+		<listener class-name="org.uncommons.reportng.JUnitXMLReporter" />
+		<listener class-name="com.elastica.listeners.SuiteListener" />
+		<listener class-name="com.elastica.listeners.MethodListener" />
+		<listener class-name="com.elastica.listeners.ScreenShotListener" />
+		<listener class-name="com.elastica.listeners.PriorityListener" />
+	</listeners>
+
+	<parameter name="env" value="prod" />
+	<parameter name="browser" value="firefox" />
+	<parameter name="mode" value="local" />
+	<parameter name="platform" value="Windows 8.1" />
+	<parameter name="browserVersion" value="40" />
+	<parameter name="browserName" value="firefox" />
+
+	<test name="Securlet UI Dashboard Tests - Office 365">
+		<parameter name="username" value="admin@securleto365beatle.com" />
+		<parameter name="password" value="Aut0mat10n#123" />
+		<parameter name="saasAppName" value="Office 365" />
+		<parameter name="tenantName" value="securletO365beatlecom" />
+		<parameter name="tenantToken"
+			value="a5fJSgfR2eLjkwqm1pzF06cNrhCguy1t904na91NOtY=" />
+		<groups>
+			<run>
+				<include name="local"></include>
+				<include name="regression"></include>
+			</run>
+		</groups>
+		<classes>
+			<class name="com.elastica.tests.securlet.SecurletGeneralTests" />
+			<class name="com.elastica.tests.securlet.SecurletExposedFilesTabsTests" />
+			<class name="com.elastica.tests.securlet.SecurletExposedUsersTabsTests" />
+			<class name="com.elastica.tests.securlet.SecurletOtherRisksTabsTests" />
+			<class name="com.elastica.tests.securlet.SecurletActivitiesTabsTests" />
+		</classes>
+	</test>  
+
+	<test name="Securlet UI Dashboard Tests - Box">
+		<parameter name="username" value="admin@securletbeatle.com" />
+		<parameter name="password" value="Elastica1234!" />
+		<parameter name="saasAppName" value="Box" />
+		<parameter name="tenantName" value="securletbeatlecom" />
+		<parameter name="tenantToken"
+			value="H3YK/Vxr3p+qm9dfmKvmh7oYaPBJMqUsszm+LOStr4k=" />
+		<groups>
+			<run>
+				<include name="local"></include>
+				<include name="regression"></include>
+			</run>
+		</groups>
+		<classes>
+			<class name="com.elastica.tests.securlet.SecurletGeneralTests" />
+			<class name="com.elastica.tests.securlet.SecurletExposedFilesTabsTests" />
+			<class name="com.elastica.tests.securlet.SecurletExposedUsersTabsTests" />
+			<class name="com.elastica.tests.securlet.SecurletOtherRisksTabsTests" />
+			<class name="com.elastica.tests.securlet.SecurletActivitiesTabsTests" />
+		</classes>
+	</test> 
+
+	<test name="Securlet UI Dashboard Tests - Dropbox">
+		<parameter name="username" value="admin@securletbeatle.com" />
+		<parameter name="password" value="Elastica1234!" />
+		<parameter name="saasAppName" value="Dropbox" />
+		<parameter name="tenantName" value="securletbeatlecom" />
+		<parameter name="tenantToken"
+			value="H3YK/Vxr3p+qm9dfmKvmh7oYaPBJMqUsszm+LOStr4k=" />
+		<groups>
+			<run>
+				<include name="local"></include>
+				<include name="regression"></include>
+			</run>
+		</groups>
+		<classes>
+			<class name="com.elastica.tests.securlet.SecurletGeneralTests" />
+			<class name="com.elastica.tests.securlet.SecurletExposedFilesTabsTests" />
+			<class name="com.elastica.tests.securlet.SecurletExposedUsersTabsTests" />
+			<class name="com.elastica.tests.securlet.SecurletOtherRisksTabsTests" />
+			<class name="com.elastica.tests.securlet.SecurletActivitiesTabsTests" />
+		</classes>
+	</test>
+ 
+ 	<test name="Securlet UI Dashboard Tests - Google Apps">
+		<parameter name="username" value="admin@securletbeatle.com" />
+		<parameter name="password" value="Elastica1234!" />
+		<parameter name="saasAppName" value="Google Apps" />
+		<parameter name="tenantName" value="securletbeatlecom" />
+		<parameter name="tenantToken"
+			value="H3YK/Vxr3p+qm9dfmKvmh7oYaPBJMqUsszm+LOStr4k=" />
+		<groups>
+			<run>
+				<include name="local"></include>
+				<include name="regression"></include>
+			</run>
+		</groups>
+		<classes>
+			<class name="com.elastica.tests.securlet.SecurletGeneralTests" />
+			<class name="com.elastica.tests.securlet.SecurletExposedFilesTabsTests" />
+			<class name="com.elastica.tests.securlet.SecurletExposedUsersTabsTests" />
+			<class name="com.elastica.tests.securlet.SecurletOtherRisksTabsTests" />
+			<class name="com.elastica.tests.securlet.SecurletActivitiesTabsTests" />
+		</classes>
+	</test>   
+
+ </suite>

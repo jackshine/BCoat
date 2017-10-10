@@ -1,0 +1,6 @@
+SSN: 639-88-0511
+DOB = 10/6/1987 
+Age: 29
+NAME Eugene Harris
+EMAIL: hudun@vijooc.org 
+Address: 786 Lakeview Drive Flushing, New York 11354

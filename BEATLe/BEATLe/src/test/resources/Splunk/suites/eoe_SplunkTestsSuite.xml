@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+<suite name="Audit Test Suite">
+	<test name="Splunk Query Based Tests">
+		<parameter name="environmentName" value="eoe"></parameter>
+		<classes>
+			<class name="com.elastica.beatle.tests.splunkTests.SplunkTest">
+				<methods>
+					<include name="testDCIQueueSize"></include>
+					<include name="testGatewayInternalServerInIcapServer"></include>
+					<include name="testGooleAPIDailyLimitTests"></include>
+				</methods>
+			</class>
+		</classes>
+	</test>
+</suite>

@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+<suite name="Audit Test Suite" parallel="instances" thread-count="14">
+	<parameter name="userName" value="user@vpcauditmultidevice.co"></parameter>
+	<parameter name="userPassword" value="Elastica@123"></parameter>
+	<parameter name="environmentName" value="qavpc"></parameter>
+	<parameter name="tenantName" value="vpcauditmultideviceco"></parameter>
+	<parameter name="referer" value="https://qa-vpc-ui.elastica-inc.com"/>
+	<parameter name="tenantToken" value="QZQsjpvuPYbF0xquLpY8aiJ4+eXB1Fa8mgL+1r16MVg="/>
+	<parameter name="isLoggingOn" value="true"></parameter>
+	<parameter name="apiBaseVersion" value="v1"></parameter>
+	<test name="Audit Multiple DeviceLogs Regression Tests">
+		<classes>
+			<class name="com.elastica.beatle.audit.factoryClass.AuditDeviceLogsUploadFactory"></class>
+		</classes>
+	</test>	
+</suite>

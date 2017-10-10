@@ -1,0 +1,6 @@
+SSN:  530-42-3575
+age = 53 years old
+email address- surez@ni.org 
+Name - Ruby Foster
+DOB: 29/3/1963
+Address: 254 Park Avenue New Berlin, Wisconsin 53151

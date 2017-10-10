@@ -1,0 +1,74 @@
+"Account number test",
+"Account number: 24358-9762345-097890
+Name: William Smith
+City: San Jose
+State: CA
+
+1277 PINE STREET
+SAN FRANCISCO 90045
+
+SSN:555-55-5555
+
+TRANSACTION
+DATE
+POST
+DATE TRANSACTION DESCRIPTION AMOUNT
+01/01/09
+01/05/09
+01/12/09
+01/15/09
+01/22/09
+01/25/09
+01/01/09
+01/07/09
+01/13/09
+01/16/09
+01/25/09
+01/27/09
+ Payment
+ Reds Department Store
+ Record Mania
+ Sweeney’s Pozzeria
+ Country Airline
+ Sports Plus Apparel
+-250.00
+68.81
+18.05
+15.50
+188.00
+-77.35
+SEND PAYMENT TO:
+ Box 1234
+CREDIT CARD STATEMENT Cox town, USA
+ACCOUNT NUMBER NAME STATEMENT DATE PAYMENT DUE DATE
+1234-567-890 Jane Austen 01/01/2009 02/26/09
+CREDIT LIMIT CREDIT AVAILABLE NEW BALANCE MINIMUM PAYMENT DUE
+$5,000.00 $3,477.98 $1,522.02 $76.10
+This Month’s Activity:
+Statement Summary:
+Credit Limit 5,000.00 Daily Balance
+Available Credit 3,477.98
+Closing Date 02/15/2009 - Payments/Credits 327.35
+Days in Billing Period 30 + Finance Charges 12.28
+Scheduled to Pay 76.10 = New Balance 1,522.02
+Past Due 0.00 Minimum Payment 76.10
+FINANCE CHARGE SUMMARY PURCHASES ADVANCES For Customer Service Call
+Periodic Rate 1.65% 0.54% 1-800-000-0000
+Annual Percentage Rate 19.80% 6.48 For Lost or Stolen Card, Call:
+ 1-800-000-0000
+Please make check or money order payments 24-Hour Telephone Numbers
+to Any Bank.
+Any Bank
+The information provided is intended as general information and does not constitute financial
+advice. You should not rely on any material provided to make (or refrain from making) any
+decision or take (or refrain from taking) any action. For financial advice tailored to your situation,
+please contact a financial professional.
+©2009 Great Lakes Higher Education Guaranty Corporation. All rights reserved.
+Note
+these
+dates!
+Watch
+these
+numbers!
+SAMPLE CREDIT CARD
+STATEMENT

@@ -1,0 +1,10 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+
+<suite name="Daily SANITY Reports Collection">
+	<parameter name="envName" value="EoESanity"></parameter>
+	<test name="SANITY REPORT IN EoE">
+		<classes>
+			<class name="co.elastica.ReportCollector.App" />
+		</classes>
+	</test>
+</suite>

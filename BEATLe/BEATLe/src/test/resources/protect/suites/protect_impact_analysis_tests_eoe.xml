@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+<suite name="Protect Policy Impact Tests" parallel="tests" thread-count="2">
+	
+    <test name="Protect Box_Dropbox_GDrive - Policy Impact Tests">	
+		<parameter name="environmentName" value="eoe"/>
+		<parameter name="userName" value="protectauto@protectautobeatle.com"/>
+		<parameter name="userPassword" value="mS6#4GqS"/>
+		<parameter name="tenantName" value="protectautobeatlecom"/>
+		<parameter name="isLoggingOn" value="true"/>
+		<parameter name="apiBaseVersion" value="v1"/>
+		<parameter name="apiserverHostName" value="api-vip.elastica.net"/> 
+		<parameter name="tenantToken" value="rm/POmQIqcKZDmXTpJdATL1OSsYNX9xIq0mymmsA90Y="/>
+		<parameter name="saasApp" value="Dropbox"/>
+		<parameter name="saasAppUsername" value="protectauto@protectautobeatle.com"/>
+		<parameter name="saasAppPassword" value="Elastica@123"/>
+		<parameter name="domainName" value="protectautobeatle.com"/>
+		<parameter name="saasAppUserRole" value="ADMIN"/>
+		<parameter name="saasAppToken" value="tV4pHsJqX6AAAAAAAAAAB_8lVhp_Q1h8pnIOw1Dsm1Fpa6mnr7UFIqrEIeXnupqc"/>
+		<classes>
+			<class name="com.elastica.beatle.tests.protect.dataexposure.ProtectImpactAnalysisTests"></class>
+		</classes>
+	</test>
+
+</suite>

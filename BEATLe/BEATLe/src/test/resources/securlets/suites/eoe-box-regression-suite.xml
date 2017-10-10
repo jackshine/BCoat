@@ -1,0 +1,129 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+<suite name="Securlets Box Regression Suite EOE " parallel="false">
+	
+	
+	<parameter name="environmentName" value="eoe"/>
+	<parameter name="tenantName" value="securletbeatlecom"/>
+	<parameter name="isLoggingOn" value="true"/>
+	<parameter name="apiBaseVersion" value="v1"/>
+	<parameter name="socUserName" value="box admin securlet automation"/>
+	<parameter name="saasApp" value="BOX"/>
+	<parameter name="dpoUserName" value="securletuser@securletbeatle.com"/>
+	<parameter name="dpoUserPassword" value="Elastica1234!"/>
+	<parameter name="cloudSocUName" value="admin" />
+	
+	<!-- 
+	<parameter name="environmentName" value="eoe"/>
+	<parameter name="dpoUserName" value="securletuser@securletautomation.com"/>
+	<parameter name="dpoUserPassword" value="Elastica1234!"/>
+	<parameter name="tenantName" value="securletautomationcom"/>
+	<parameter name="isLoggingOn" value="true"/>
+	<parameter name="apiBaseVersion" value="v1"/>
+	<parameter name="socUserName" value="box admin securlet automation"/>
+	<parameter name="saasApp" value="BOX"/>
+	 -->
+	
+	
+	<test name="Securlets Box Regression tests" enabled="true">
+          	
+		<groups>
+		    <run> 
+		      
+		      <include name="GROUP"/>
+		      <include name="FILE"/>
+		      <include name="USER"/>
+		      <include name="FOLDER"/> 
+		      <include name="WEBLINK"/>
+		      <include name="COLLABORATION"/>
+		      <include name="FILTERS" />
+		      <include name="EXPORT" />
+		      <include name="CUSTOMER_DATA_SEPARATION"/>
+		    </run>
+		  </groups>
+		  
+		<classes>
+			<class name="com.elastica.beatle.tests.securlets.BoxSecurletTests">
+				
+			</class>
+		</classes>
+	</test>
+	
+	<test name="Securlets Box I18N Regression tests" enabled="true">
+        <parameter name="environmentName" value="eoe"/>
+		<parameter name="tenantName" value="securletbeatlecom"/>
+		<parameter name="isLoggingOn" value="true"/>
+		<parameter name="apiBaseVersion" value="v1"/>
+		<parameter name="socUserName" value="box admin securlet automation"/>
+		<parameter name="saasApp" value="BOX"/>
+		<parameter name="dpoUserName" value="securletuser@securletbeatle.com"/>
+		<parameter name="dpoUserPassword" value="Elastica1234!"/>
+		<parameter name="cloudSocUName" value="admin" />
+		<groups>
+		    <run>
+		      <include name="I18N_FILE"/>
+		    </run>
+		  </groups>
+		  
+		<classes>
+			<class name="com.elastica.beatle.tests.securlets.BoxSecurletTests">
+				
+			</class>
+		</classes>
+	</test>
+	
+	
+	<test name="Securlets Box Regression tests - End User Activities" enabled="true">
+		<parameter name="userName" value="admin@securletbeatle.com"/>
+		<parameter name="userPassword" value="Elastica1234!"/>
+        <parameter name="environmentName" value="eoe"/>
+		<parameter name="tenantName" value="securletbeatlecom"/>
+		<parameter name="isLoggingOn" value="true"/>
+		<parameter name="apiBaseVersion" value="v1"/>
+		<parameter name="saasAppUsername" value="box-admin+1@securletbeatle.com"/>
+		<parameter name="saasAppPassword" value="lYvA7)DZ1zD@CPQgt5zw"/>
+		<parameter name="saasAppUserRole" value="ADMIN"/>
+		<parameter name="socUserName" value="box user securlet automation"/>
+		<parameter name="saasApp" value="BOX"/>  
+		<parameter name="cloudSocUName" value="admin" />	
+		<groups>
+		    <run>
+		      <include name="FOLDER"/>
+		      <include name="FILE"/>
+		      
+		    </run>
+		  </groups>
+		  
+		<classes>
+			<class name="com.elastica.beatle.tests.securlets.BoxSecurletTests">
+			</class>
+		</classes>
+	</test>
+	
+	<test name="Securlets Box Regression tests - CoAdmin Activities" enabled="true">
+        <parameter name="userName" value="admin@securletbeatle.com"/>
+		<parameter name="userPassword" value="Elastica1234!"/>
+        <parameter name="environmentName" value="eoe"/>
+		<parameter name="tenantName" value="securletbeatlecom"/>
+		<parameter name="isLoggingOn" value="true"/>
+		<parameter name="apiBaseVersion" value="v1"/>
+		<parameter name="saasAppUsername" value="box-admin+2@securletbeatle.com"/>
+		<parameter name="saasAppPassword" value="lYvA7)DZ1zD@CPQgt5zw"/>
+		<parameter name="saasAppUserRole" value="ADMIN"/>
+		<parameter name="socUserName" value="box coadmin securlet automation"/>
+		<parameter name="saasApp" value="BOX"/>  	
+		<groups>
+		    <run>
+		     
+		      <include name="FILE"/>
+		      <include name="COLLABORATION"/>
+		    </run>
+		  </groups>
+		  
+		<classes>
+			<class name="com.elastica.beatle.tests.securlets.BoxSecurletTests">
+			</class>
+		</classes>
+	</test>
+	
+</suite>

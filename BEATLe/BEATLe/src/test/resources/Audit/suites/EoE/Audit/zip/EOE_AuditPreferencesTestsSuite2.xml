@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+<suite name="Audit Test Suite" parallel="instances" thread-count="14">
+   <parameter name="userName" value="user@auditbegative.co"></parameter>
+	<parameter name="userPassword" value="Elastica#123"></parameter>
+	<parameter name="environmentName" value="eoe"></parameter>
+	<parameter name="tenantName" value="auditbegativeco"></parameter>
+	<parameter name="referer" value="https://eoe.elastica-inc.com" />
+	<parameter name="apiBaseVersion" value="v1"></parameter>
+	<parameter name="tenantToken" value="M9Xpl/kTmSGmgJ5wp+ClhQ==" />
+	<parameter name="loadApparraziServicesCheck" value="yes" />
+	<test name="Audit Preferences Regression Tests">
+		<classes>
+			<class name="com.elastica.beatle.tests.audit.AuditPreferenceTests2"></class>
+		</classes>
+	</test>	
+</suite>

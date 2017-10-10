@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+<suite name="Detect End to End Test" preserve-order="true" > 
+<suite-files> 
+<suite-file path="./cep/cep-detect-box-regression-suite.xml"/> 
+<suite-file path="./cep/cep-detect-dropbox-regression-suite.xml"/> 
+</suite-files> 
+</suite>

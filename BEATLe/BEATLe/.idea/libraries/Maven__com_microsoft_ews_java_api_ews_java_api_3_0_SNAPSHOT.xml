@@ -1,0 +1,13 @@
+<component name="libraryTable">
+  <library name="Maven: com.microsoft.ews-java-api:ews-java-api:3.0-SNAPSHOT">
+    <CLASSES>
+      <root url="jar://$MAVEN_REPOSITORY$/com/microsoft/ews-java-api/ews-java-api/3.0-SNAPSHOT/ews-java-api-3.0-20150821.131658-8.jar!/" />
+    </CLASSES>
+    <JAVADOC>
+      <root url="jar://$MAVEN_REPOSITORY$/com/microsoft/ews-java-api/ews-java-api/3.0-SNAPSHOT/ews-java-api-3.0-20150821.131658-8-javadoc.jar!/" />
+    </JAVADOC>
+    <SOURCES>
+      <root url="jar://$MAVEN_REPOSITORY$/com/microsoft/ews-java-api/ews-java-api/3.0-SNAPSHOT/ews-java-api-3.0-20150821.131658-8-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>

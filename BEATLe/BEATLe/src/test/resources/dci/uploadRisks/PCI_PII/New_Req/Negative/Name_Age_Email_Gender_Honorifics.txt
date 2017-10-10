@@ -1,0 +1,9 @@
+Name: Alex Smith
+ Age: 25 years old
+ Email: lex@gmail.com
+ Gender: Male
+ miss Julia Smith
+
+
+
+

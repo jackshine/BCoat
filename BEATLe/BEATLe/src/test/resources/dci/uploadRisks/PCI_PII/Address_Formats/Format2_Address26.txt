@@ -1,0 +1,9 @@
+SSN: 639-88-0511
+DOB = 10/6/1987 
+Age: 29
+NAME Billy Brown
+EMAIL: hudun@vijooc.org
+Street: 286 Summit Street
+City: Garner
+State: North Carolina
+Zip Code: 27529

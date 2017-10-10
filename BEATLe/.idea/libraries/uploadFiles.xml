@@ -1,0 +1,10 @@
+<component name="libraryTable">
+  <library name="uploadFiles">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/BEATLe/src/test/resources/LogReplayLogs/uploadFiles/Attachments_2015630.zip!/" />
+      <root url="jar://$PROJECT_DIR$/BEATLe/src/test/resources/LogReplayLogs/uploadFiles/virus.zip!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>

@@ -1,0 +1,63 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+
+
+<suite name="CloudSoc App Test Suite" parallel="tests" thread-count="2">
+
+	<listeners>
+		<listener class-name="org.uncommons.reportng.HTMLReporter" />
+		<listener class-name="org.uncommons.reportng.JUnitXMLReporter" />
+		<listener class-name="com.elastica.listeners.SuiteListener" />
+		<listener class-name="com.elastica.listeners.MethodListener" />
+		<listener class-name="com.elastica.listeners.ScreenShotListener" />
+		<listener class-name="com.elastica.listeners.PriorityListener" />
+		<listener class-name="com.elastica.listeners.GridListener" />
+		<listener class-name="com.elastica.listeners.RetryListener" />
+	</listeners>
+
+	<parameter name="env" value="eu" />
+	<parameter name="browser" value="chrome" />
+	<parameter name="mode" value="grid" />
+	<parameter name="platform" value="Windows 8.1" />
+	<parameter name="browserVersion" value="40" />
+	<parameter name="browserName" value="chrome" />
+	<parameter name="tenantName" value="dciautobeatlecom" />
+	<parameter name="tenantToken" value="WDcfGslRTTjZ8JOLpRV5rYjwfpY5A2Geg+2ugXIPGGk=" />
+	<parameter name="username" value="sysadmin@dciautobeatle.com" />
+	<parameter name="password" value="Elastica1234!" />
+	<parameter name="adminUsername" value="useradmin@dciautobeatle.com" />
+	<parameter name="adminPassword" value="Elastica1234!" />
+	<parameter name="dpoUsername" value="dpo@dciautobeatle.com" />
+	<parameter name="dpoPassword" value="Elastica1234!" />
+	<parameter name="endUsername" value="enduser@dciautobeatle.com" />
+	<parameter name="endUserPassword" value="Elastica1234!" />
+	<parameter name="saasAppName" value="Box" />
+	
+
+	<test name="Dashboard Login UI Tests" group-by-instances="true"
+		preserve-order="true" parallel="methods" thread-count="4">
+		<groups>
+			<run>
+				<include name="granular"></include>
+				<include name="regression"></include>
+			</run>
+		</groups>
+		<classes>
+			<class name="com.elastica.tests.dashboard.DashboardLoginTests" />
+		</classes>
+	</test>
+
+	<test name="CloudSoc App UI Tests" group-by-instances="true"
+		preserve-order="true" parallel="methods" thread-count="4">
+		<groups>
+			<run>
+				<include name="granular"></include>
+				<include name="regression"></include>
+			</run>
+		</groups>
+		<classes>
+			<class name="com.elastica.tests.dashboard.DashboardTests" />
+		</classes>
+	</test> 
+	
+
+</suite>

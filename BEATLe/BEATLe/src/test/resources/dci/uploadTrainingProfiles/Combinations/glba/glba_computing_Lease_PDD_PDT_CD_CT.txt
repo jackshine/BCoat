@@ -1,0 +1,286 @@
+anadrol
+053.314.328-40 Identificação
+custom_dictionaries_only
+custom_terms_only
+ CREDIT CARD STATEMENT
+
+Wells Fargo
+
+SEND PAYMENT TO: 
+1015 EAST BOBBY COURTMILLERSVILLE, MISSOURI - 37072
+
+Social Security Number 098-32-5068
+Name Alex Smith 
+
+ACCOUNT NUMBER	NAME 			STATEMENT DATE		PAYMENT DUE DATE
+0987-527-810 		Alex Smith	10/01/2015		11/07/2015
+CREDIT LIMIT 		CREDIT AVAILABLE	NEW BALANCE	MINIMUM PAYMENT
+$5,000.00 		3,477.98		$1,522.02 		$69.87
+
+This Month’s Activity:
+TRANSACTION DATE
+POST DATE
+TRANSACTION DESCRIPTION
+AMOUNT
+09/05/2015
+09/07/2015
+Safeway
+101.01
+A question I get asked a lot on my email list is: what is the best programming language for machine learning?
+I’ve replied to this question many times now it’s about time to explore this further in a blog post. Ultimately, the programming language you use for machine learning should consider your own requirements and predilections. No one can meaningfully address those concerns for you.
+What Languages Are Being Used
+Before I give you my opinion, it is good to have  a look around to see what languages and platforms are popular in self-selected communities of data analysis and machine learning professionals.
+KDnuggets has had language polls forever. A recent poll is titled “What programming/statistics languages you used for an analytics / data mining / data science work in 2013“. The trends are almost identical to the previous year. The results suggest heavy use of R and Python and SQL for data access. SAS and MATLAB rank higher than I would have expected. I’d expect SAS accounts for larger corporate (Fortune 500) data analysis and MATLAB for engineering, research and student use.
+Kaggle offer machine learning competitions and have polled their user base as to the tools and programming languages used by participants in competitions. They posted results in 2011 titledKagglers’ Favorite Tools (also see the forum discussion). The results suggested the abundant use of R. The results also show good use of MATLAB and SAS with much lower Python representation. I can attest that I prefer R over Python for competition work. It just feels though it has more on offer in terms of data analysis and algorithm selection. Ben Hamner, Kaggle Admin and author of the blog post above on the Kaggle blog goes into more detail on the options when it comes to programming languages for machine learning in a forum post titled “What tools do people generally use to solve problems“.
+Ben comments that MATLAB/Octave is a good language for matrix operations and can be good when working with a well defined feature matrix. Python is fragmented by comprehensive and can be very slow unless you drop into C. He prefers Python when not working with a well defined feature matrix and uses Pandas and NLTK. Ben comments that “As a general rule, if it’s found to be interesting for statisticians, it’s been implemented in R” (well said). He also complains about the language itself being ugly and painful to work with. Finally, Ben comments on Julia that doesn’t have much to offer in the way of libraries but is his new favorite language. He comments that it has the conciseness of languages like MATLAB and Python with the speed of C.
+Anthony Goldbloom, the CEO of Kaggle gave a presentation to the Bay Area R user group in 2011 on the popularity of R in Kaggle competitions titled Predictive modeling competitions: making data science a sport (see the powerpoint slides). The presentation slides give more detail on the use of programming languages and suggest an Other category that is as close to as large as large as the usage of R. It would be nice to have the raw data that was collected (why didn’t they release it to their own data community, seriously!?).
+John Langford on his blog Hunch has an excellent article on the properties of a programming language to consider when working with machine learning algorithms titled “Programming Languages for Machine Learning Implementations“. He divides the properties into concerns of speed and the concerns of programability (programming ease). He points to powerful industry standard implementations of algorithms, all in C and comments that he has not used R or MATLAB (the post was written 8 years ago). Take some time and read some of the comments by academics and industry specialists alike. This is a deep and nuanced problem that really comes down to the specifics of the problem you are solving and the environment in which you are solving it.
+Machine Learning Languages
+I think of programming languages in the context of the machine learning activities I want to perform.
+MATLAB/Octave
+I think MATLAB is excellent for representing and working with matrices. As such, I think it’s an excellent language or platform to use when climbing into the linear algebra of a given method. I think it’s suited to learning about algorithms both superficially the first time around and deeply when you are trying to figure something out or go deep into the method. For example, it’s popular in university courses for beginners, like Andrew Ng’s Coursera Machine Learning course.
+R
+R is a workhorse for statistical analysis and by extension machine learning. Much talk is given to the learning curve, I didn’t really see the problem. It is the platform to use to understand and explore your data using statistical methods and graphs. It has a n enormous number of machine learning algorithms, and advanced implementations too written by the developers of the algorithm.
+I think you can explore, model and prototype with R. I think it suits one-off projects with an artefact like a set of predictions, report or research paper. For example, it is the most popular platform for machine learning competitors such as Kaggle.
+Python
+Python if a popular scientific language and a rising star for machine learning. I’d be surprised if it can take the data analysis mantle from R, but matrix handling in NumPy may challenge MATLAB and communication tools like IPython are very attractive and a step into the future of reproducibility.
+I think the SciPy stack for machine learning and data analysis can be used for one-off projects (like papers), and frameworks like scikit-learn may be mature enough to be used in production systems.
+Java-family/C-family
+Implementing a system that uses machine learning is an engineering challenge like any other. You need good design and developed requirements. Machine learning is algorithms, not magic. When it comes to serious production implementations, you need a robust library or you customize an implementation of the algorithm for your needs.
+There are robust libraries, for example Java has Weka and Mahout. Also note that the deeper implementations of core algorithms like regression (LIBLINEAR) and SVM (LIBSVM) are written in C and leveraged by Python and other toolkits. I think you are serious you may prototype in R or Python, but you will implement in a heavier language for reasons such as execution speed and system reliability. For example, the backend of BigML is implemented in Clojure.
+Other Concerns
+Not a Programmer: If you are not a programmer (or not a confident programmer) I recommend playing machine learning via a GUI interface like Weka.
+One Language for Research and Ops: You may want to use the same language for prototyping and for production to reduce risk of not effectively transferring the results.
+Pet Language: You may have a pet language of favorite language and want to stick to that. You can implement algorithms yourself or leverage libraries. Most languages have some form of machine learning package, however primitive.
+ 
+Agreement of Lease
+
+THIS LEASE, made and entered this  10 day of  April , 20-16 , by and between:
+(hereinafter called "Owner) and Last Name: Cooper , First Name: Alan (hereinafter called "Resident"),
+WITNESS THAT:
+1.
+
+Lease Term
+In consideration of the covenants hereinafter contained on the part of the Resident to be kept and performed,
+Owner does hereby lease to resident the house located at	 934 Cobblestone Court, Kingston, New York 12401 . The term of this lease
+shall commence on the  10 day of April  , 20-16 and expire at 12:00 am midnight on the
+10 day of April  , 20-17.
+
+2.
+
+Rental
+Resident shall pay to Owner a total rental of $ 1000 for the full term of this lease. Owner
+hereby acknowledges receipt of $ 100 simultaneously with the execution and delivery of this
+Lease; which sum shall be applied to the said rental. The remainder of $ 900 shall be paid by
+Resident to Owner in 10 equal installments of $ 100 each, due and payable on the first
+day of each calendar month throughout the term of this Lease with the first such payment due on 10 day of May,
+20-16. Resident shall pay the rent to Owner at 10th Floor, 100 South Main Street, Los Angeles, California 90012 or to such
+other address as Owner shall direct from time to time.
+
+3.
+
+Security Deposit
+Owner hereby acknowledges receipt from Resident of $ 1000 as security for resident's full and
+faithful performance of each and every term, covenant and condition of this Lease. In the event that Resident
+shall default in the payment of any installment of rent when due, or shall fail to perform and/or observe any
+term/covenant or condition of this Lease on Resident's part to be kept and/or observed, Owner may use, apply
+or retain the whole or any part of Resident's security deposit for the payment of any rent and/or additional
+rent then or at time thereafter due, or for the satisfaction of other sums which Owner may expend or be
+required to expend or incur by reason of Resident's default hereunder, including any expenses incurred in the
+reletting of the house.
+In the event that Resident shall fully and faithfully comply with all of the terms, provisions, covenants and
+conditions of the Lease, the said security deposit (or any balance thereof) shall be returned to Residents
+within fourteen (14) days after the expiration of the term of the lease and vacation of the premises by tenant
+or after 14 days that the said landlord learns that the premises has been abandoned, and shall provide a
+written statement describing the basis for retaining any deposit. The security deposit shall be refunded only if,
+(a) a thirty (30) day written notice of intention to vacate is given by Resident to Owner prior to the
+expiration of this Lease;
+(b) the keys are promptly returned to the Owner; and
+(c) the house and its contents are found, upon inspection, to be in good, clean condition with no unusual
+ordinary wear and tear expected.
+
+4.
+
+Default
+In the event Resident defaults under this Lease and the security deposit does not cover all rent due and all
+damages and expenses Owner incurs as a result thereof, including reasonable attorneys' fees, owner shall be
+entitled to collect such rent and damages in any lawful manner after providing a statutory 3 day notice for late
+rent and a statutory ten day notice for any other breach of contract. Resident covenants and agrees that if
+default shall be made in the payment of any installment of rent, or if Resident shall violate any of the terms,
+covenants, or conditions of this Lease, then Owner shall be entitled to reenter and retake possession of the
+house and recover any and all resulting damages, including all costs and reasonable attorney's fees after a
+statutory 3 day notice for late rent and a statutory ten day notice for any other breach of contract. Resident
+hereby acknowledges and agrees that in the event any statement made by Resident in the Application For
+Lease delivered to Owner in connection with this Lease is subsequently determined to be false, Owner may,
+at its election, terminate this Lease after the statutory ten day notice is provided.
+
+Downloaded	  from	  http://www.tidyforms.com	  
+
+5.
+
+Subordination
+This Lease shall be subject and subordinate at all times to the lien of any existing mortgages which may
+hereafter become alien on ________________. Resident agrees to promptly execute and return any
+instrument evidencing such subordination that Owner may request.
+
+6.
+
+Miscellaneous Provisions
+Resident, for themselves, their heirs, legal representative, successors and assigns, hereby covenant and agree
+that:
+a) Resident shall pay all utilities, except water during the four consecutive months of June through
+September. Water bills will be submitted to owner and reimbursed as due.
+b)
+
+Parking space is allowed only on above listed property and at Residents own risk. Owner is not and
+shall not be deemed to be responsible for any damage to vehicles or to contents which are on the
+premises.
+
+c)
+
+Owner is not an insurer of Residents person or personal property. Resident agrees that all of
+Resident's personal property in the house or elsewhere shall be at the sole risk of Resident, and that
+Resident will carry such insurance as Resident deems necessary therefore. Resident agrees that
+Owner, and its partners, agents and employees, shall not be liable for any damage to the person or
+property of Resident of any person occupying/visiting the house _______________________ for any
+reason whatsoever.
+
+d)
+
+Resident agrees to use the said house solely for the purpose of Resident’s personal residence.
+Resident shall not rent, sublet, transfer or assign this lease, or any interest herein, without the prior
+written consent of owner, which consent may be granted, withheld, or conditioned in Owner's sole
+and complete discretion. Resident agrees to make no unlawful, improper or offensive use of the house
+and to quit and deliver up the house and its appliances and equipment at the end of the term of this
+Lease in as clean a condition as they were on the date of first possession, ordinary wear and tear
+excepted.
+
+e)
+
+Resident agrees to comply with all laws, orders and government regulations which affect the house at
+____________________________, as the same may be amended from time to time.
+
+f)
+
+Resident may only keep pets or animals with Owner's Prior Written consent, which consent may be
+granted, withheld or conditioned in Owner's sole and complete discretion.
+
+g)
+
+Resident may only paint or make alterations, additions or improvements to the house with Owner's
+prior written consent, which consent may be granted, withheld or conditioned in Owner's sole and
+complete discretion.
+
+h)
+
+Owner or any of its agents shall have the right to enter the house during all reasonable hours to make
+inspections, repairs, additions, or alterations as may be deemed reasonable necessary for the safety,
+comfort or preservation thereof, or of the building after providing a statutory two day notice.
+However, owner or any of its agents may enter the house at any time for emergency repairs necessary
+for the protection of any person.
+
+i)
+
+Motorcycles, campers, trucks, boats and boat trailers, and commercial vehicles are not permitted at
+the house of ___________________________, without Owner's prior written consent, which consent
+may be granted, withheld or conditioned in Owner's sole and complete discretion.
+
+j)
+
+The house shall be occupied only by the undersigned Resident and those people listed on the
+approved Application For Lease, which is incorporated herein by this reference.
+
+k)
+
+Waterbeds are strictly prohibited without Owner's prior written consent, which consent may be
+granted, withheld or conditioned in Owner's sole and complete discretion.
+
+l)
+
+Carports and garages may be used for storage of vehicles and other miscellaneous items specifically
+approved in writing by Owner.
+
+m) Outdoor storage structures are strictly prohibited.
+
+Downloaded	  from	  http://www.tidyforms.com	  
+
+n)
+
+No more than four vehicles are permissible on the said property and are not permitted to be parked on
+any yard or along the side of the garage or parked in the street.
+
+o)
+
+If any provisions of this Lease, or the application of any provision of this Lease to any person or
+circumstances shall be invalid or unenforceable to any extent, the remainder of the Lease, or the
+application of such provision to persons or circumstances other than those to which it is invalid or
+unenforceable, shall not be affected thereby; and each provision of their Lease shall be valid and
+enforced to the fullest extent permitted by law.
+
+p)
+
+Resident has examined the house before signing this Lease and agrees that the premises and the rooms
+of the house and all appliances furnished are in good and satisfactory condition. ________________
+initials of Resident
+
+q)
+
+A late fee of $ 10 will be assessed if rent has not been paid by the 5th day of each
+calendar month, plus an additional late fee equal to $ 1 per day shall be assessed
+for each day after the 5th day following the rental due date with such rent remains unpaid.
+Notwithstanding the foregoing, the rent is due on the 1st day of each calendar month, and Resident
+shall be deemed to be, at the election of Owner, in default of this Lease if the rent is not paid by the
+1st day of each calendar month.
+
+r)
+
+In addition to any late fees which may be due, a fee of $ 10 will be assessed if
+Resident tenders a check to Owner that is returned to Owner for "insufficient funds" or on a closed
+account.
+
+s)
+
+A fee of $59.00 shall be payable by Resident to Owner to defray the cost of cleaning the carpet in the
+house after Resident vacates the same. Such fee shall be delivered by Resident to Owner at the time
+Resident delivers his notice of intention to vacate the house.
+
+t)
+
+Resident has been shown the location of all smoke alarms in said house. ________________ initials
+of Resident. Resident shall be required to maintain all smoke alarms according to manufacturers
+specifications and Owner shall not be responsible for any negligence of Resident that results in
+damage of Owners property or the personal property of Resident, Resident’s family or any of the
+Resident’s guests.
+
+u)
+
+In addition to stated provisions, no smoking and drug activity is permitted inside of residence.
+
+v)
+
+Should any action of contest by resident or leasor that may lead to arbitration or legal action, Owner
+will not be liable for any court fees and will be paid of any monetary lost and/or damaged from court
+appearances and arbitration expenses.
+
+IN WITNESS WHEREOF, the parties hereto have executed this Lease in several counterparts, each of which shall be
+deemed an original, as of the day, month, and year first above written.
+RESIDENT
+
+OWNER
+
+Signature_________________________________________
+
+Signature___________________________________
+
+Date 10/April/2016
+
+Date 10/April/2016
+
+
+Print Name Alan Cooper
+
+
+
+
+ 
+

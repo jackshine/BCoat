@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+<suite name="GDrive Regression Test Suite" parallel="tests">
+    <parameter name="environmentName" value="qavpc"/>
+    <parameter name="userName" value="admin@securletbeatle.com"/>
+    <parameter name="userPassword" value="Elastica1234!"/>
+    <parameter name="tenantName" value="securletbeatlecom"/>
+    <parameter name="isLoggingOn" value="true"/>
+    <parameter name="apiBaseVersion" value="v1"/>
+    <parameter name="esScriptsHostName" value="10.0.0.242"/>
+    <parameter name="esScriptsUserName" value="madmin"/>
+    <parameter name="tenantToken" value="H3YK/Vxr3p+qm9dfmKvmh7oYaPBJMqUsszm+LOStr4k="/>
+    <parameter name="referer" value="https://qa-vpc-api.elastica-inc.com/"/>
+    <parameter name="gdriveRefreshToken" value="1/eckCHbIndshTd6zxoq5Ds13OqYondPtDxMNV2BUIzGhIgOrJDtdun6zK6XiATCKT"/>
+    <parameter name="gdriveClientId" value="531581515230-0k9p8gne8a0uh116u4fff7j93o7nsdu1.apps.googleusercontent.com"/>
+    <parameter name="gdriveClientSecret" value="EQUZEc3QoEa0EqBzHVpoMLgr"/>
+    <parameter name="gDriveaccessToken" value="ya29.2gFrwi5rwwq8fFq1JBE_iomNsjizj3TmmwTNmmRMypxcaivt5iHwn-4QoNtblcc7SITW"/>
+    <parameter name="externalgdriveRefreshToken" value="1/x--1EEIYbUPbnzdzDsivTFQ24uT6Xn3CrLu52Qve_9HBactUREZofsF9C7PrpE-j"/>
+    <parameter name="externalgdriveClientId" value="379357503205-avpf0206mrta8e52m6cpacme3g98giv7.apps.googleusercontent.com"/>
+    <parameter name="externalgdriveClientSecret" value="ovbkbH6N-RX7eETzF96US6Tb"/>
+    <parameter name="refreshToken_gmail" value="1/cd7POgIHXlDzJAgwrXhDLWtCgeAozQxzR_r3MSDI1rU"/>
+    <parameter name="CLIENT_ID_gmail" value="998314684213-34jm3g4k92nejio174qnnb32vojbqg0n.apps.googleusercontent.com"/>
+    <parameter name="CLIENT_SECRET_gmail" value="YkMqf5GWiHQgHbA1P7BNhxto"/>
+    <parameter name="delayBetweenSaaSActivity" value="60"/>   
+    <parameter name="waitPeriodForElasticSearchEngine" value="180"/> 
+    <parameter name="maxRetryCount" value="1"/>
+    	
+    <test name="Securlets GDrive External User Activities" preserve-order="true">
+        <classes>
+            <class name="com.elastica.beatle.tests.securlets.GDriveSecurletTestDisplaylog">
+                <methods>         
+                    <include name="performSharingActionsToSeurletbeatleAccountBYExtrnalUser"/> 
+                    <include name="validateExternalUserActivities"/>
+                </methods>
+            </class>
+        </classes>
+    </test>
+   
+</suite>

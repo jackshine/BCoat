@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+<suite name="Protect Test Suite">
+	<parameter name="environmentName" value="qavpc"/>
+	<parameter name="userName" value="admin@protectbeatle.com"/>
+	<parameter name="userPassword" value="Elastica1234!"/>
+	<parameter name="tenantName" value="protectbeatlecom"/>
+	<parameter name="isLoggingOn" value="true"/>
+	<parameter name="apiBaseVersion" value="v1"/>
+	<parameter name="apiserverHostName" value="qa-vpc-ui.elastica-inc.com"/>
+	<parameter name="tenantToken" value="nIzqjM7QUjS4OcWe2Oti74jwfpY5A2Geg+2ugXIPGGk="/>
+	<parameter name="saasApp" value="Dropbox"/>
+	<parameter name="saasAppUsername" value="protectauto@protectbeatle.com"/>
+	<parameter name="saasAppPassword" value="Elastica@123"/>
+	<parameter name="saasAppUserRole" value="ADMIN"/>
+	<parameter name="saasAppToken" value="jYjld9_6elAAAAAAAAAABicNYvT0sh52Hb1GiDXQGWt6u_ejZ0-XC9MTJuFayLsq"/>	
+    <test name="Protect DataExposure DropBox Securlet Revoke Shared Link Remediation">
+		<classes>
+			<class name="com.elastica.beatle.tests.protect.dataexposure.DropboxRevokeSharedLinkTests"></class>
+		</classes>
+	</test>
+
+</suite>

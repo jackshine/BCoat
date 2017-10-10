@@ -1,0 +1,6 @@
+SSN: 639-88-0511
+DOB = 10/6/1987 
+Age: 29
+NAME Barbara Wright
+EMAIL: hudun@vijooc.org 
+Address: 516 Route 44 Chelsea, Massachusetts 02150

@@ -1,0 +1,379 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+
+<suite name="Gatelet - Box Customer Separation Tests">
+
+	<listeners>
+		<listener class-name="org.uncommons.reportng.HTMLReporter" />
+		<listener class-name="org.uncommons.reportng.JUnitXMLReporter" />
+		<listener class-name="com.elastica.listeners.SuiteListener" />
+		<listener class-name="com.elastica.listeners.MethodListener" />
+		<listener class-name="com.elastica.listeners.ScreenShotListener" />
+		<listener class-name="com.elastica.listeners.PriorityListener" />
+		<!-- <listener class-name="com.elastica.listeners.RetryListener" /> -->
+	</listeners>
+
+
+
+	<test name="File transfer policy - Customer1 - Creating File Upload policy and uploads file">
+		<parameter name="env" value="eoe" />
+		<parameter name="browser" value="Firefox" />
+		<parameter name="mode" value="local" />
+		<parameter name="saasAppBaseUrl" value="https://app.box.com/login" />
+		<parameter name="username" value="gwadmin@securletautoo365featle.com" />
+		<parameter name="testUsername" value="gwadmin@securletautoo365featle.com" />
+		<parameter name="saasAppName" value="Box" />
+		<parameter name="accountType" value="Internal" />
+		<parameter name="saasAppUsername" value="test.reg1@securletautoo365featle.com" />
+		<parameter name="tenant" value="securletautoo365featle.com" />
+		<parameter name="tenantDomainName" value="securletautoo365featle.com" />
+		<parameter name="proxyExtension" value="Load"></parameter>
+		<parameter name="platform" value="Windows 8.1" />
+		<parameter name="browserVersion" value="40.0" />
+		<parameter name="browserName" value="firefox" />
+		<groups>
+			<run>
+				<include name="cloud"></include>
+			</run>
+		</groups>
+		<classes>
+			<class name="com.elastica.tests.box.BoxTest">
+				<methods>
+					<include name="loginToCloudSocAppAndSetupSSO"></include>
+					<include name="validateLoginEvent"></include>
+					<include name="performFileUploadPolicy"></include>
+					<include name="validateFileUploadPolicy"></include>
+					<include name="validateLogoutEvent"></include>
+				</methods>
+			</class>
+		</classes>
+	</test>
+
+	<test name="File transfer policy - Customer2 - Uploads file">
+		<parameter name="env" value="eoe" />
+		<parameter name="browser" value="Firefox" />
+		<parameter name="mode" value="local" />
+		<parameter name="saasAppBaseUrl" value="https://app.box.com/login" />
+		<parameter name="username" value="admin@gatewaybeatle.com" />
+		<parameter name="testUsername" value="gwtestuser2@gatewaybeatle.com" />
+		<parameter name="saasAppName" value="Box" />
+		<parameter name="accountType" value="Internal" />
+		<parameter name="saasAppUsername" value="gwtestuser2@gatewaybeatle.com" />
+		<parameter name="tenant" value="gatewaybeatle.com" />
+		<parameter name="tenantDomainName" value="gatewaybeatle.com" />
+		<parameter name="proxyExtension" value="Load"></parameter>
+
+		<parameter name="platform" value="Windows 8.1" />
+		<parameter name="browserVersion" value="40.0" />
+		<parameter name="browserName" value="firefox" />
+		<groups>
+			<run>
+				<include name="cloud"></include>
+
+			</run>
+		</groups>
+		<classes>
+			<class name="com.elastica.tests.box.BoxTest">
+			<methods>
+					<include name="loginToCloudSocAppAndSetupSSO"></include>
+					<include name="validateLoginEvent"></include>
+					<include name="validateFileUpload"></include>
+				</methods>
+			</class>
+		</classes>
+	</test>
+
+	<test name="File transfer policy - Customer1 Deletes File Upload Policy">
+		<parameter name="env" value="eoe" />
+		<parameter name="browser" value="Firefox" />
+		<parameter name="mode" value="local" />
+		<parameter name="saasAppBaseUrl" value="https://app.box.com/login" />
+		<parameter name="username" value="gwadmin@securletautoo365featle.com" />
+		<parameter name="testUsername" value="gwadmin@securletautoo365featle.com" />
+		<parameter name="saasAppName" value="Box" />
+		<parameter name="accountType" value="Internal" />
+		<parameter name="saasAppUsername" value="test.reg1@securletautoo365featle.com" />
+		<parameter name="tenant" value="securletautoo365featle.com" />
+		<parameter name="tenantDomainName" value="securletautoo365featle.com" />
+		<parameter name="proxyExtension" value="Load"></parameter>
+		<parameter name="platform" value="Windows 8.1" />
+		<parameter name="browserVersion" value="40.0" />
+		<parameter name="browserName" value="firefox" />
+		<groups>
+			<run>
+				<include name="cloud"></include>
+			</run>
+		</groups>
+		<classes>
+			<class name="com.elastica.tests.box.BoxTest">
+				<methods>
+					<include name="loginToCloudSocAppAndSetupSSO"></include>
+					<include name="validateLoginEvent"></include>
+					<include name="deleteFileUploadPolicy"></include>
+				</methods>
+			</class>
+		</classes>
+	</test>
+	<test name="Access Enforcement Policy - Customer1 - Access Enforcement Policy Creation and Login">
+		<parameter name="env" value="eoe" />
+		<parameter name="browser" value="Firefox" />
+		<parameter name="mode" value="local" />
+		<parameter name="saasAppBaseUrl" value="https://app.box.com/login" />
+		<parameter name="username" value="gwadmin@securletautoo365featle.com" />
+		<parameter name="testUsername" value="gwadmin@securletautoo365featle.com" />
+		<parameter name="saasAppName" value="Box" />
+		<parameter name="accountType" value="Internal" />
+		<parameter name="saasAppUsername" value="test.reg1@securletautoo365featle.com" />
+		<parameter name="tenant" value="securletautoo365featle.com" />
+		<parameter name="tenantDomainName" value="securletautoo365featle.com" />
+		<parameter name="proxyExtension" value="Load"></parameter>
+		<parameter name="platform" value="Windows 8.1" />
+		<parameter name="browserVersion" value="40.0" />
+		<parameter name="browserName" value="firefox" />
+		<groups>
+			<run>
+				<include name="cloud"></include>
+			</run>
+		</groups>
+		<classes>
+			<class name="com.elastica.tests.box.BoxTest">
+				<methods>
+					<include name="createAccessEnforcementPolicy"></include>
+				</methods>
+			</class>
+		</classes>
+	</test>
+
+	<test name="Access Enforcement Policy - Customer2 - Logins with his account to check Access Enforcement Policy">
+		<parameter name="env" value="eoe" />
+		<parameter name="browser" value="Firefox" />
+		<parameter name="mode" value="local" />
+		<parameter name="saasAppBaseUrl" value="https://app.box.com/login" />
+		<parameter name="username" value="admin@gatewaybeatle.com" />
+		<parameter name="testUsername" value="gwtestuser2@gatewaybeatle.com" />
+		<parameter name="saasAppName" value="Box" />
+		<parameter name="accountType" value="Internal" />
+		<parameter name="saasAppUsername" value="gwtestuser2@gatewaybeatle.com" />
+		<parameter name="tenant" value="gatewaybeatle.com" />
+		<parameter name="tenantDomainName" value="gatewaybeatle.com" />
+		<parameter name="proxyExtension" value="Load"></parameter>
+
+		<parameter name="platform" value="Windows 8.1" />
+		<parameter name="browserVersion" value="40.0" />
+		<parameter name="browserName" value="firefox" />
+		<groups>
+			<run>
+				<include name="cloud"></include>
+
+			</run>
+		</groups>
+		<classes>
+			<class name="com.elastica.tests.box.BoxTest">
+			<methods>
+					<include name="loginToCloudSocAppAndSetupSSO"></include>
+					<include name="validateLoginEvent"></include>
+					<include name="validateLogoutEvent"></include>
+				</methods>
+			</class>
+		</classes>
+	</test>
+
+	<test name="Access Enforcement Policy - Customer1 Deletes Access Enforcement Policy">
+		<parameter name="env" value="eoe" />
+		<parameter name="browser" value="Firefox" />
+		<parameter name="mode" value="local" />
+		<parameter name="saasAppBaseUrl" value="https://app.box.com/login" />
+		<parameter name="username" value="gwadmin@securletautoo365featle.com" />
+		<parameter name="testUsername" value="gwadmin@securletautoo365featle.com" />
+		<parameter name="saasAppName" value="Box" />
+		<parameter name="accountType" value="Internal" />
+		<parameter name="saasAppUsername" value="test.reg1@securletautoo365featle.com" />
+		<parameter name="tenant" value="securletautoo365featle.com" />
+		<parameter name="tenantDomainName" value="securletautoo365featle.com" />
+		<parameter name="proxyExtension" value="Load"></parameter>
+		<parameter name="platform" value="Windows 8.1" />
+		<parameter name="browserVersion" value="40.0" />
+		<parameter name="browserName" value="firefox" />
+		<groups>
+			<run>
+				<include name="cloud"></include>
+			</run>
+		</groups>
+		<classes>
+			<class name="com.elastica.tests.box.BoxTest">
+				<methods>
+					<include name="deleteAccessEnforcementPolicy"></include>
+				</methods>
+			</class>
+		</classes>
+		
+	</test>
+
+
+
+	<test name="File share policy - Customer1 - Creates file sharing policy and shares file">
+		<parameter name="env" value="eoe" />
+		<parameter name="browser" value="Firefox" />
+		<parameter name="mode" value="local" />
+		<parameter name="saasAppBaseUrl" value="https://app.box.com/login" />
+		<parameter name="username" value="gwadmin@securletautoo365featle.com" />
+		<parameter name="testUsername" value="gwadmin@securletautoo365featle.com" />
+		<parameter name="saasAppName" value="Box" />
+		<parameter name="accountType" value="Internal" />
+		<parameter name="saasAppUsername" value="test.reg1@securletautoo365featle.com" />
+		<parameter name="tenant" value="securletautoo365featle.com" />
+		<parameter name="tenantDomainName" value="securletautoo365featle.com" />
+		<parameter name="proxyExtension" value="Load"></parameter>
+		<parameter name="platform" value="Windows 8.1" />
+		<parameter name="browserVersion" value="40.0" />
+		<parameter name="browserName" value="firefox" />
+		<groups>
+			<run>
+				<include name="cloud"></include>
+			</run>
+		</groups>
+		<classes>
+			<class name="com.elastica.tests.box.BoxTest">
+				<methods>
+<!-- 					<include name="loginToCloudSocAppAndSetupSSO"></include> -->
+<!-- 					<include name="validateLoginEvent"></include> -->
+					<include name="createFileSharingPolicy"></include>
+<!-- 					<include name="verifyFileSharingPolicy"></include> -->
+<!-- 					<include name="validateLogoutEvent"></include> -->
+				</methods>
+			</class>
+		</classes>
+	</test>
+
+	<test name="File share policy - Customer2 - Shares file">
+		<parameter name="env" value="eoe" />
+		<parameter name="browser" value="Firefox" />
+		<parameter name="mode" value="local" />
+		<parameter name="saasAppBaseUrl" value="https://app.box.com/login" />
+		<parameter name="username" value="admin@gatewaybeatle.com" />
+		<parameter name="testUsername" value="gwtestuser2@gatewaybeatle.com" />
+		<parameter name="saasAppName" value="Box" />
+		<parameter name="accountType" value="Internal" />
+		<parameter name="saasAppUsername" value="gwtestuser2@gatewaybeatle.com" />
+		<parameter name="tenant" value="gatewaybeatle.com" />
+		<parameter name="tenantDomainName" value="gatewaybeatle.com" />
+		<parameter name="proxyExtension" value="Load"></parameter>
+
+		<parameter name="platform" value="Windows 8.1" />
+		<parameter name="browserVersion" value="40.0" />
+		<parameter name="browserName" value="firefox" />
+		<groups>
+			<run>
+				<include name="cloud"></include>
+
+			</run>
+		</groups>
+		<classes>
+			<class name="com.elastica.tests.box.BoxTest">
+			<methods>
+					<include name="loginToCloudSocAppAndSetupSSO"></include>
+					<include name="validateLoginEvent"></include>
+					<include name="validateFileSharePeopleInCompany"></include>
+				</methods>
+			</class>
+		</classes>
+	</test>
+
+	<test name="File share policy - Customer1 Deletes File Sharing Policy">
+		<parameter name="env" value="eoe" />
+		<parameter name="browser" value="Firefox" />
+		<parameter name="mode" value="local" />
+		<parameter name="saasAppBaseUrl" value="https://app.box.com/login" />
+		<parameter name="username" value="gwadmin@securletautoo365featle.com" />
+		<parameter name="testUsername" value="gwadmin@securletautoo365featle.com" />
+		<parameter name="saasAppName" value="Box" />
+		<parameter name="accountType" value="Internal" />
+		<parameter name="saasAppUsername" value="test.reg1@securletautoo365featle.com" />
+		<parameter name="tenant" value="securletautoo365featle.com" />
+		<parameter name="tenantDomainName" value="securletautoo365featle.com" />
+		<parameter name="proxyExtension" value="Load"></parameter>
+		<parameter name="platform" value="Windows 8.1" />
+		<parameter name="browserVersion" value="40.0" />
+		<parameter name="browserName" value="firefox" />
+		<groups>
+			<run>
+				<include name="cloud"></include>
+			</run>
+		</groups>
+		<classes>
+			<class name="com.elastica.tests.box.BoxTest">
+				<methods>
+					<include name="deleteFileSharingPolicy"></include>
+				</methods>
+			</class>
+		</classes>
+	</test>
+	
+	
+<test name="Customer Separation : Customer1 creates a folder">
+		<parameter name="env" value="eoe" />
+		<parameter name="browser" value="Firefox" />
+		<parameter name="mode" value="local" />
+		<parameter name="saasAppBaseUrl" value="https://app.box.com/login" />
+		<parameter name="username" value="gwadmin@securletautoo365featle.com" />
+		<parameter name="testUsername" value="gwadmin@securletautoo365featle.com" />
+		<parameter name="saasAppName" value="Box" />
+		<parameter name="accountType" value="Internal" />
+		<parameter name="saasAppUsername" value="test.reg1@securletautoo365featle.com" />
+		<parameter name="tenant" value="securletautoo365featle.com" />
+		<parameter name="tenantDomainName" value="securletautoo365featle.com" />
+		<parameter name="proxyExtension" value="Load"></parameter>
+		<parameter name="platform" value="Windows 8.1" />
+		<parameter name="browserVersion" value="40.0" />
+		<parameter name="browserName" value="firefox" />
+		<parameter name="customerSeparationLogFolderName" value="customerSeparationLogPAC" />
+		<groups>
+			<run>
+				<include name="cloud"></include>
+			</run>
+		</groups>
+		<classes>
+			<class name="com.elastica.tests.box.BoxTest">
+				<methods>
+					<include name="loginToCloudSocAppAndSetupSSO"></include>
+					<include name="validateLoginEvent"></include>
+					<include name="customerSeparationCreateFolder"></include>
+				</methods>
+			</class>
+		</classes>
+	</test>
+
+	<test name="Customer Separation : Check in Customer2 , the Create folder log is not appearing there">
+		<parameter name="env" value="eoe" />
+		<parameter name="browser" value="Firefox" />
+		<parameter name="mode" value="local" />
+		<parameter name="saasAppBaseUrl" value="https://app.box.com/login" />
+		<parameter name="username" value="admin@gatewaybeatle.com" />
+		<parameter name="testUsername" value="gwtestuser2@gatewaybeatle.com" />
+		<parameter name="saasAppName" value="Box" />
+		<parameter name="accountType" value="Internal" />
+		<parameter name="saasAppUsername" value="gwtestuser2@gatewaybeatle.com" />
+		<parameter name="tenant" value="gatewaybeatle.com" />
+		<parameter name="tenantDomainName" value="gatewaybeatle.com" />
+		<parameter name="proxyExtension" value="Load"></parameter>
+
+		<parameter name="platform" value="Windows 8.1" />
+		<parameter name="browserVersion" value="40.0" />
+		<parameter name="browserName" value="firefox" />
+		<parameter name="customerSeparationLogFolderName" value="customerSeparationLogPAC" />
+		<groups>
+			<run>
+				<include name="cloud"></include>
+
+			</run>
+		</groups>
+		<classes>
+			<class name="com.elastica.tests.box.BoxTest">
+			<methods>
+					<include name="loginToCloudSocAppAndSetupSSO"></include>
+					<include name="customerSeparationVerifyLog"></include>
+				</methods>
+			</class>
+		</classes>
+	</test>
+
+</suite>

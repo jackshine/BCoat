@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+<suite name="[PROD] GDrive And Dropbox Sanity Test Suite" parallel="false">
+    <parameter name="environmentName" value="prod"/>
+    <parameter name="userName" value="admin@securletbeatle.com"/>
+    <parameter name="userPassword" value="Elastica1234!"/>
+    <parameter name="tenantName" value="securletbeatlecom"/>
+    <parameter name="isLoggingOn" value="true"/>
+    <parameter name="apiBaseVersion" value="v1"/>
+    <parameter name="esScriptsHostName" value="10.0.0.242"/>
+    <parameter name="esScriptsUserName" value="madmin"/>
+    <parameter name="referer" value="https://app.elastica.net/static/ng/appSecurlets/index.html"/>
+    <parameter name="tenantToken" value="H3YK/Vxr3p+qm9dfmKvmh7oYaPBJMqUsszm+LOStr4k="/>
+    <parameter name="gdriveRefreshToken" value="1/eckCHbIndshTd6zxoq5Ds13OqYondPtDxMNV2BUIzGhIgOrJDtdun6zK6XiATCKT"/>
+    <parameter name="gdriveClientId" value="531581515230-0k9p8gne8a0uh116u4fff7j93o7nsdu1.apps.googleusercontent.com"/>
+    <parameter name="gdriveClientSecret" value="EQUZEc3QoEa0EqBzHVpoMLgr"/>
+    <parameter name="gDriveaccessToken" value="ya29.2gFrwi5rwwq8fFq1JBE_iomNsjizj3TmmwTNmmRMypxcaivt5iHwn-4QoNtblcc7SITW"/>
+    <parameter name="delayBetweenSaaSActivity" value="60"/>   
+    <parameter name="waitPeriodForElasticSearchEngine" value="120"/> 
+    <parameter name="maxRetryCount" value="1"/>
+    <parameter name="dropboxAdminAccessToken" value="R2VaTghjreAAAAAAAAAACLC6oj6NaOAhJFEtiu-GxlkGFm_PXYZnJzYW0hEIERP5"/>
+    <parameter name="dropboxTeamMemberManagementToken" value="OoI6e7PmtUAAAAAAAAAAGJ3nxCdhV7a89IYbGptXxPbO30eH2jmgAM7V3ybQI3TR"/>
+    <parameter name="dropboxTeamMemberFileAccessToken" value="OoI6e7PmtUAAAAAAAAAAGtlq10AKvN8VbkEtjqrcVsfinNwYUXL6Nmk09c2T66HG"/>
+     	
+    <test name="GDrive And Dropbox Sanity Test Suite" preserve-order="true" parallel="false">
+		
+        <classes>
+            <class name="com.elastica.beatle.tests.securlets.GDriveSecurletsRemediationTests">
+                <methods>     
+                    <!--                      GDrive Remediation Sanity Activities-->
+                    <include name="performStandAloneEndToEndGDriveRemediationSanity"/>
+                </methods>
+            </class>
+            <class name="com.elastica.beatle.tests.securlets.GDriveSecurletTestDisplaylog">
+                <methods>     
+                    <!--                      GDrive File Operation Sanity Activities-->
+                    <include name="performStandAloneEndToEndGDriveFileOperationSanity"/>
+                </methods>
+            </class>
+            <class name="com.elastica.beatle.tests.securlets.DropboxSecurletTestDisplaylog">
+                <methods>      
+                    <!--                      Dropbox Sanity Activities-->
+                    <include name="performStandAloneEndToEndDropboxFileOperationSanity"/>
+                </methods>
+            </class>
+            <class name="com.elastica.beatle.tests.securlets.DropboxSecurletRemediation">
+                <methods>     
+                    <!--                      Dropbox Sanity Activities-->
+                    <include name="performStandAloneEndToEndDropboxRemediationSanity"/>
+                </methods>
+            </class>
+        </classes>
+    </test>
+</suite>

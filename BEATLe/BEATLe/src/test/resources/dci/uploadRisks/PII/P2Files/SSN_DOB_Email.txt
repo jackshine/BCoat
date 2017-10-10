@@ -1,0 +1,880 @@
+[Federal Register: August 6, 1999 (Volume 64, Number 151)]
+[Proposed Rules]
+[Page 42873-42887]
+From the Federal Register Online via GPO Access [wais.access.gpo.gov]
+[DOCID:fr06au99-27]
+
+SSN - 222-56-1103
+
+DOB 9/17/1973
+
+Email: bowtefab@za.io
+
+=======================================================================
+-----------------------------------------------------------------------
+
+DEPARTMENT OF HEALTH AND HUMAN SERVICES
+
+Food and Drug Administration
+
+21 CFR Part 314
+
+[Docket No. 85N-0214]
+
+
+180-Day Generic Drug Exclusivity for Abbreviated New Drug
+Applications
+
+AGENCY: Food and Drug Administration, HHS.
+
+ACTION: Proposed rule.
+
+-----------------------------------------------------------------------
+
+SUMMARY: The Food and Drug Administration (FDA) is proposing to amend
+its regulations governing 180-day generic drug exclusivity under the
+Federal Food, Drug, and Cosmetic Act (the act). The proposed rule
+clarifies existing eligibility requirements for abbreviated new drug
+application (ANDA) sponsors and describes new eligibility requirements.
+The proposed changes to the regulations are necessary because of recent
+court decisions invalidating portions of FDA's current regulations. The
+proposed regulations are intended to permit the prompt entry of generic
+drug products into the market while maintaining the incentive of market
+exclusivity for generic drug manufacturers.
+
+DATES: Submit written comments by November 4, 1999. Submit written
+comments on the information collection requirements by September 7,
+1999. See section VIII of this document for the effective date of a
+final rule based on this document.
+
+ADDRESSES: Submit written comments to the Dockets Management Branch
+(HFA-305), Food and Drug Administration, 5630 Fishers Lane, rm. 1061,
+Rockville, MD 20852. Submit written comments on the information
+collection requirements to the Office of Information and Regulatory
+Affairs, OMB, New Executive Office Bldg., 725 17th St. NW., rm. 10235,
+Washington, DC 20503, Attn: Desk Officer for FDA.
+
+FOR FURTHER INFORMATION CONTACT: Virginia G. Beakes, Center for Drug
+Evaluation and Research (HFD-7), Food and Drug Administration, 5600
+Fishers Lane, Rockville, MD 20857, 301-594-2041.
+
+SUPPLEMENTARY INFORMATION:
+
+ I. Background
+
+     The Drug Price Competition and Patent Term Restoration Act of 1984
+(Public Law 98-417) (the Hatch-Waxman Amendments) created section
+505(j) of the act (21 U.S.C. 355(j)). Section 505(j) established the
+ANDA approval process, which allows a generic version of a previously
+approved innovator drug to be approved without submission of a full new
+drug application (NDA). An ANDA refers to a previously approved new
+drug application (the ``listed drug'') and relies upon the agency's
+finding of safety and effectiveness for that drug product.
+     Innovator drug applicants must include in an NDA information about
+patents for the drug product that is the subject of the NDA. FDA
+publishes this patent information as part of the agency's publication
+``Approved Drug
+
+[[Page 42874]]
+
+Products with Therapeutic Equivalence Evaluations'' (the Orange Book).
+     Generic drug applicants must include in an ANDA a patent
+certification described in section 505(j)(2)(A)(vii) of the act for
+each patent listed in the Orange Book for the listed drug. The
+applicant must certify one of the following for each patent: (1) that
+no patent information on the drug product that is the subject of the
+ANDA has been submitted to FDA; (2) that such patent has expired; (3)
+the date on which such patent expires; or (4) that such patent is
+invalid or will not be infringed by the manufacture, use, or sale of
+the drug product for which the ANDA is submitted. These certifications
+are known as ``paragraph I,'' ``paragraph II,'' ``paragraph III,'' and
+``paragraph IV'' certifications, respectively.
+     Notice of a paragraph IV certification must be provided to each
+owner of the patent (patent owner) that is the subject of the
+certification and to the holder of the approved NDA (NDA holder) to
+which the ANDA refers. The terms ``patent owner'' and ``NDA holder'' as
+used throughout this proposed regulation mean either those parties or
+their representatives, including exclusive licensees. The agency
+recognizes that different terms are used throughout other sections of
+the regulations for the idea expressed in section 505(j)(2)(B)(i)(I)
+and (j)(2)(B)(i)(II) of the act that notice must be given to the
+principals (patent owner and NDA holder) or their representatives. The
+agency has added a definitions section to the proposed regulation to
+clarify the meaning of these terms, as well as other terms, as used in
+this section.
+     The submission of an ANDA for a drug product that is claimed in a
+patent is an infringing act if the ANDA product is intended to be
+marketed before expiration of the patent. (See 35 U.S.C. 271(e)(2).)
+Therefore, the submission of an ANDA with a paragraph IV certification
+may be the basis for patent infringement litigation.
+     Given this risk of patent infringement litigation, section
+505(j)(5)(B)(iv)\1\ of the act provides an incentive for generic drug
+applicants to file paragraph IV certifications challenging patents that
+may be invalid, unenforceable, or not infringed by the product that is
+the subject of the ANDA.
+---------------------------------------------------------------------------
+
+    \1\ Section 505(j)(5)(B)(iv) of the act states that:
+     If the application contains a certification described in
+subclause (IV) of paragraph (2)(A)(vii) and is for a drug for which
+a previous application has been submitted under this subsection
+continuing [sic] such a certification, the application shall be made
+effective not earlier than one hundred and eighty days after--
+    (I) the date the Secretary receives notice from the applicant
+under the previous application of the first commercial marketing of
+the drug under the previous application, or
+     (II) the date of a decision of a court in action described in
+clause (iii) holding the patent which is the subject of the
+certification to be invalid or not infringed, whichever is earlier.
+    Prior to the enactment of the Food and Drug Administration
+Modernization Act of 1997 (the Modernization Act), 180-day
+exclusivity was described at section 505(j)(4)(B)(iv) of the act.
+The Modernization Act added new provisions to section 505(j) that
+resulted in a renumbering of the sections.
+---------------------------------------------------------------------------
+
+     In certain circumstances, the first applicant whose ANDA contains
+a paragraph IV certification is protected from competition from
+subsequent generic versions of the same drug product for 180 days from
+either the date the first applicant's drug product is first
+commercially marketed or the date of a final court decision holding the
+patent that is the subject of the paragraph IV certification invalid,
+unenforceable, or not infringed. This marketing protection is commonly
+known as ``180-day exclusivity.''
+     In the Federal Register of October 3, 1994 (59 FR 50338), FDA
+published the final rule implementing the patent and marketing
+exclusivity provisions of the Hatch-Waxman Amendments. Section
+314.107(c)(1) (21 CFR 314.107(c)(1)), the regulation implementing
+section 505(j)(5)(B)(iv) of the act, provided:
+     If an abbreviated new drug application contains a certification
+that a relevant patent is invalid, unenforceable, or will not be
+infringed and the application is for a generic copy of the same
+listed drug for which one or more substantially complete abbreviated
+new drug applications were previously submitted containing a
+certification that the same patent was invalid, unenforceable, or
+would not be infringed and the applicant submitting the first
+application has successfully defended against a suit for patent
+infringement brought within 45 days of the patent owner's receipt of
+notice submitted under Sec. 314.95, approval of the subsequent
+abbreviated new drug application will be made effective no sooner
+than 180 days from whichever of the following dates is earlier:
+     (i) The date the applicant submitting the first application
+first commences commercial marketing of its drug product; or
+     (ii) The date of a decision of the court holding the relevant
+patent invalid, unenforceable, or not infringed.
+(Emphasis added)
+     FDA's requirements for 180-day exclusivity were successfully
+challenged in the courts in Mova Pharmaceutical Corp. v. Shalala, 140
+F.3d 1060 (D.C. Cir. 1998), and Granutec, Inc. v. Shalala, No. 97-1873
+and No. 97-1874, 1998 U.S. App. LEXIS 6685 (4th Cir. Apr. 3, 1998).
+     Following the Mova circuit court decision, on June 1, 1998, the
+district court entered an order stating that the successful defense
+requirement of Sec. 314.107(c)(1) is invalid and permanently enjoined
+FDA from enforcing it. In the Federal Register of July 14, 1998 (63 FR
+37890), FDA published a guidance for industry entitled ``180-Day
+Generic Drug Exclusivity Under the Hatch-Waxman Amendments to the
+Federal Food, Drug, and Cosmetic Act'' (June 1998), describing its
+approach to 180-day exclusivity in light of the court decisions. In the
+Federal Register of November 5, 1998 (63 FR 59710), the agency
+published an interim rule revoking the ``successful defense''
+requirement. Since that time the agency has regulated directly from the
+statute when making exclusivity decisions on a case-by-case basis.
+     The agency is proposing new regulations to address the issues that
+have arisen as a result of the Mova and Granutec decisions and to
+respond to other matters related to 180-day exclusivity not currently
+addressed by the regulations. Consistent with the legislative purpose
+of section 505(j)(5)(B)(iv) of the act, the proposed regulations
+continue to provide an incentive for challenging a listed patent, while
+at the same time preventing prolonged or indefinite delays in the
+availability of generic drug products.
+     During litigation of the many cases related to 180-day
+exclusivity, the parties and courts have recognized the potential for
+the 180-day exclusivity process to substantially delay the entry of
+competitive generic drug products into the market. This situation can
+occur when the marketing of any subsequent generic drug product is
+contingent upon the occurrence of an event that is within the first
+ANDA applicant's control. Such delays could result, for example, from
+the inability of the first ANDA applicant with a paragraph IV
+certification to obtain timely approval of its application and begin
+commercial marketing of its product.
+     Licensing agreements and other arrangements between an innovator
+company and the generic drug company who is the first ANDA applicant to
+file a paragraph IV certification can be of considerable financial
+benefit to the companies involved, but also may contribute to delayed
+generic competition by forestalling the beginning, or triggering, of
+the 180-day exclusivity period. These arrangements can create almost
+insurmountable barriers to the final approval and marketing of generic
+drug products that are otherwise ready for final approval. These
+barriers thwart a major congressional goal underlying the
+
+[[Page 42875]]
+
+passage of the Hatch-Waxman Amendments.
+     In developing the approach described in this proposal, the agency
+has been guided by the text of the statute, opinions rendered by courts
+that have addressed these issues, and concerns expressed to the agency
+in submissions commenting on the June 1998 guidance and November 1998
+interim rule. The agency has also been guided by its 15 years of
+experience with the 180-day exclusivity provisions. This experience has
+provided FDA with valuable information regarding the influence of the
+180-day exclusivity provisions on the ANDA approval process and the
+marketing of generic drug products.
+
+ II. Description of the Proposed Rule
+
+     This proposed rule would revise Sec. 314.107 to clarify and modify
+eligibility requirements for ANDA applicants seeking 180-day marketing
+exclusivity for a generic drug product. This new approach is offered in
+light of the courts' rejection of the previous requirement that an ANDA
+applicant successfully defend against a patent infringement lawsuit
+before it is eligible for exclusivity.
+
+ A. 180-Day Exclusivity Eligibility
+
+ 1. Only First Applicant is Eligible
+     The statutory language describing which applications are eligible
+for 180-day generic drug exclusivity is ambiguous. The current
+regulation interprets the statute as allowing eligibility for
+exclusivity only for the applicant that submits the first substantially
+complete ANDA with a paragraph IV certification. Although the agency
+has considered alternative interpretations, such as ``rolling
+exclusivity'' in which the next-in-line applicant is eligible for
+exclusivity should the previous applicant become ineligible, FDA
+proposes to maintain the current interpretation. The agency, however,
+invites comments related to exclusivity eligibility, both those
+supporting this interpretation and those suggesting other
+possibilities.
+     Under this proposed rule, only the applicant submitting the first
+substantially complete ANDA for a listed drug with a paragraph IV
+certification to any patent in the Orange Book for the listed drug
+(first applicant) would be eligible for exclusivity. A substantially
+complete application must contain all of the information required under
+section 505(j)(2)(A) of the act and under 21 CFR 314.50 and 314.94.
+These requirements include the submission of the results of any
+required bioequivalence studies, or, if appropriate, a request for a
+waiver of such studies. In order for an ANDA to be considered
+substantially complete for purposes of exclusivity, the bioequivalence
+studies submitted in the ANDA at the time it is initially submitted
+must, upon review by the agency, meet the appropriate standards for
+approval. If the applicant must conduct a new bioequivalence study to
+obtain approval of the ANDA, the application will not be considered to
+be substantially complete and the applicant will not be eligible for
+exclusivity. No other applicant with a paragraph IV certification will
+be eligible for exclusivity for that drug product. The agency is
+adopting this position out of concern that, in the rush to be the first
+ANDA with a paragraph IV, applicants will submit the results of the
+first completed bioequivalence study, whether or not the results meet
+the standards for approval. The bioequivalence study is a crucial
+component of the ANDA and conduct of the studies can be time consuming.
+In order to prevent the granting of exclusivity on the basis of
+submission of an inadequate bioequivalence study, FDA has determined
+that to be eligible for exclusivity, the ANDA applicant must submit, as
+part of the initial application, a bioequivalence study that meets the
+standards for approval.
+    To be eligible for exclusivity, an applicant must be the first to
+submit ANDA that is both substantially complete and contains a
+paragraph IV certification to any listed patent. The first applicant
+can be an applicant that submits an ANDA that initially contains a
+paragraph III certification, but later amends the certification to a
+paragraph IV certification, if at the time of the amendment that
+applicant's ANDA is the first substantially complete ANDA to contain a
+paragraph IV certification. If the first applicant subsequently
+withdraws its application or changes or withdraws its paragraph IV
+certification, either voluntarily or as a result of a settlement or
+defeat in patent litigation, no ANDA applicant will be eligible for
+180-day exclusivity.
+     Limiting eligibility for exclusivity to the first applicant to
+submit a substantially complete ANDA with a paragraph IV certification
+is consistent with the goal of permitting earlier entry into the market
+of generic competitor products by encouraging prompt challenges to
+innovator patents. Granting exclusivity to a later applicant that
+submits a patent challenge, and that only becomes first in line because
+another applicant(s) has withdrawn its application or paragraph IV
+certification, would further delay the entry into the market of generic
+drug products with no countervailing public benefit.
+     In addition, if the first applicant submits a new paragraph IV
+certification because, for example, it makes a formulation change
+requiring a supplement or an amendment to its ANDA, it may no longer be
+accorded first applicant status. If there is another applicant with a
+paragraph IV certification for the same drug product, the first
+applicant will no longer be eligible for 180-day exclusivity. Also, no
+other applicant will be eligible for 180-day exclusivity.
+     As described in the preamble to the 1994 final rule (59 FR 50338
+at 50348), there is one exception to this principle. If the agency
+accepted for filing a substantially complete ANDA prior to the NDA
+holder's submission of a late (untimely) filed patent, the ANDA
+applicant is not required to certify to this patent. However, if the
+ANDA applicant amends its ANDA to include a paragraph IV certification
+to the untimely filed patent, and the ANDA applicant later withdraws
+that paragraph IV certification, the next applicant to file a paragraph
+IV certification to the untimely filed patent will be eligible for
+exclusivity. The agency believes that in this situation it is
+appropriate to grant exclusivity to an applicant who was required to
+file a paragraph IV certification because the applicant filed its ANDA
+after the NDA holder submitted the patent information.
+     If there are multiple patents for the listed drug, the applicant
+submitting the first paragraph IV certification to any of the listed
+patents will be the only ANDA applicant eligible for exclusivity for
+that drug. The agency considered an approach that could have made
+multiple applicants eligible for exclusivity based upon the order of
+submission of paragraph IV certifications for each patent. Different
+ANDA's are most likely to have the first paragraph IV certifications to
+different patents when new patents are listed for the innovator drug
+after the submission of the first ANDA. Although the statute would
+support granting multiple exclusivities, the agency has determined that
+such multiple exclusivities for a single drug could further delay the
+entry of generic drugs onto the market. For example, if two different
+applicants were eligible for exclusivity because each was the first to
+file a paragraph IV certification for a different listed patent, and
+neither exclusivity could begin to run until first commercial marketing
+or a favorable court decision, it is possible that each exclusivity
+would block the final
+
+[[Page 42876]]
+
+approval of the other application for a substantial period of time.
+Moreover, the large number of patents listed for many drugs, the real
+possibility that different ANDA applicants may submit first paragraph
+IV certifications for these patents, and the relative ease with which
+an applicant now becomes eligible for exclusivity could combine to
+create an exclusivity program that is virtually unworkable in its
+complexity and which would create even more uncertainty for the
+industry.
+     If the ANDA applicant submitting the first substantially complete
+ANDA with a paragraph IV certification submits paragraph IV
+certifications to multiple patents at that time, any of those
+certifications will render the applicant eligible for exclusivity. The
+first court decision finding one of the patents invalid, not infringed,
+or unenforceable will trigger the running of the applicant's
+exclusivity.
+ 2. First Applicant Eligible if Not Sued
+     The agency is proposing to amend Sec. 314.107(c)(1) to state that
+the first applicant would be eligible for 180 days of market
+exclusivity even if the applicant is not sued for patent infringement
+by the patent owner or NDA holder. This is consistent with the policy
+established in FDA's June 1998 guidance. It is also consistent with the
+decision in Purepac v. Friedman, 162 F.3d 1201 (D.C. Cir. 1998), in
+which the court noted that section 505(j)(5)(B)(iv) of the act does not
+require the first applicant to be sued to be eligible for exclusivity.
+     The agency recognizes that neither the Purepac nor the Mova
+opinion expressly foreclosed the agency from adopting a requirement
+that an applicant be sued, and that in the 1989 proposed rule FDA
+considered a ``litigation'' requirement as a prerequisite for
+exclusivity eligibility. (See 54 FR 28872 at 28929, July 10, 1989.)
+However, in light of the removal of the ``successful defense''
+requirement and subsequent reconsideration of the statutory language,
+the agency proposes that an applicant would be eligible for 180-day
+exclusivity even if it is not sued by a patent owner or NDA holder.
+     FDA believes that if the first applicant avoids a lawsuit and the
+related 30-month stay of final approval (see section 505(j)(5)(B)(iii)
+of the act), for example, by designing around a patent in such a way
+that its drug product is clearly noninfringing, then that applicant
+should not be denied eligibility for exclusivity. In addition, an ANDA
+applicant should not be encouraged to file a frivolous certification
+that invites litigation so as to qualify for exclusivity. Permitting an
+applicant who avoids a lawsuit to be eligible for exclusivity is
+consistent with the statutory language and goal of facilitating prompt
+entry of generic drug products into the market.
+ 3. First Applicant Not Eligible if Sued and Loses Lawsuit
+     If the first applicant is sued and loses the patent litigation,
+proposed Sec. 314.107(c)(4) would require the applicant to change its
+certification from a paragraph IV to a paragraph III. Upon the required
+certification change, the applicant would lose any claim to exclusivity
+eligibility.
+     Nothing in the statute or the regulations supports an award of
+exclusivity to an ANDA applicant that loses its lawsuit. In fact, such
+an award would run counter to the statutory goal of promoting earlier
+entry of generic drug products into the market.
+     If the agency were to interpret the statute to permit exclusivity
+for an ANDA applicant that lost its patent litigation, a subsequent
+applicant that is not sued for patent infringement because it managed
+to design around the patent nonetheless would not be able to enter the
+market until after patent expiration. The court decision trigger for
+the beginning of exclusivity would be unavailable to this subsequent
+applicant because it applies only when there has been patent litigation
+as a result of the paragraph IV certification and an ANDA applicant has
+won.
+     Additionally, if the agency permitted exclusivity for an applicant
+that lost its litigation and therefore could not market its product,
+the innovator might avoid generic competition for the life of its
+patent merely by refusing to sue any subsequent ANDA applicant. This
+outcome would not be justified by the first applicant's unsuccessful
+challenge to the patent.
+     The declaratory judgment provision discussed in section II.F of
+this document could prevent an innovator company from using this
+strategy to completely block ANDA approvals in some cases. However, it
+is unreasonable to expect subsequent ANDA applicants to obtain a
+declaratory judgment that triggers exclusivity for a first applicant
+who has not provided any benefit to the public, merely because the
+subsequent applicant wants to avoid being blocked for the life of the
+patent.
+     If a first applicant that loses its patent suit is not eligible
+for exclusivity, generic drug products may be able to enter the market
+prior to expiration of the innovator's patent in several situations.
+Market entry can occur if a subsequent ANDA applicant with a paragraph
+IV certification prevails in its patent litigation, settles its patent
+litigation, or is not sued as a result of the paragraph IV
+certification.
+     The agency recognizes that this approach requires a new
+interpretation of Sec. 314.94(a)(12)(viii)(A). That provision states
+that when an applicant changes its paragraph certification from a IV to
+a III after losing a patent infringement suit, ``the application will
+no longer be considered to be one containing a [paragraph IV]
+certification.'' Previously the agency had described that regulatory
+provision as fulfilling only the ``housekeeping'' function of informing
+the agency that the ANDA would not be approved until the patent
+expired, and explained that the provision had no implications for
+exclusivity eligibility. That interpretation was consistent with the
+entire regulatory scheme that was built around the successful defense
+requirement.
+     The removal of the successful defense requirement has resulted in
+a fragmented regulatory framework, forcing the agency to modify not
+only the regulatory language in certain parts but also, as in this
+case, its interpretation of language that is to remain. Under the new
+proposed approach, when a first applicant loses its patent litigation
+and changes its certification from a paragraph IV to a paragraph III
+under Sec. 314.94(a)(12)(viii)(A), it would not be eligible for
+exclusivity. In addition, a voluntary change in patent certification
+from a IV to a III as described in Sec. 314.94(a)(12)(viii) also would
+have the effect of rendering the first ANDA applicant ineligible for
+180-day exclusivity. After the first applicant changed its patent
+certification to a III, no applicant would be eligible for exclusivity,
+and the agency could approve eligible subsequent applications.
+ 4. Shared Exclusivity for Multiple ANDA's Filed on the Same Day
+     The agency is proposing that all applicants for ANDA's containing
+paragraph IV certifications for a particular drug product that are
+received on the same day will be eligible for exclusivity if no other
+ANDA with a paragraph IV certification for the drug product has been
+previously filed. All such applicants would be considered first
+applicants. Submission of ANDA's on the same day is most likely to
+occur when an innovator's 5-year exclusivity barring FDA acceptance of
+ANDA's expires, or when ANDA applicants wish to challenge a patent
+listed for an innovator product with 5 years of exclusivity and file
+ANDA's at the end of 4 years of exclusivity (see section
+
+[[Page 42877]]
+
+505(j)(5)(D)(ii) of the act). The applicable periods would be 5 1/2
+years or 4 1/2 years when pediatric exclusivity has been granted (see
+section 505A(a) of the act (21 U.S.C. 355a(a)).
+     Under this proposal, the exclusivity period would be shared by all
+first applicants. Once the exclusivity period begins, it would run for
+all first applicants, protecting the group of first applicants from
+competition from later applicants during the 180-day period. The
+application of the triggering period, discussed in section II.B.1 of
+this document, would remain essentially the same, with a slight
+modification. After a triggering event (described in section II.B of
+this document) occurred, all eligible first applicants could be
+approved and would be eligible to share the 180-day exclusivity. Once
+the 180 days of exclusivity has run following the first triggering
+event, any ANDA that was not among the group of first applicants also
+would be eligible for final approval.
+     The agency believes the statutory language supports this approach,
+which would protect the incentive created by Congress for ANDA
+applicants to challenge patents. Further, this approach is preferable
+to alternative approaches. One alternative approach, which the agency
+does not propose because it does not preserve the incentive to
+challenge patents, would be for the agency to determine that no ANDA
+applicant is eligible for 180-day exclusivity if, on the same day, the
+agency receives more than one ANDA with a paragraph IV certification
+for the same drug product and no other ANDA with a paragraph IV
+certification for the drug product has been previously filed.
+     Another option is for the agency to attempt to determine which
+application it received first on the same day, an inquiry that is
+impractical and may result in an arbitrary ordering of applications. It
+may not be possible for the agency to determine which application was
+received first. If, for example, the agency received more than one
+eligible application in the same mail delivery on a particular day, it
+would be impossible to determine which application was received first.
+If applications were received by various means throughout the day, when
+the applications in the pile were retrieved to date-and time-stamp, the
+application that the agency received first might be stamped last.
+Although theoretically this particular problem could be avoided by
+stamping each document at the time of receipt, this solution is
+impractical given agency workload and resource constraints.
+ 5. Patent Expiration and 180-Day Exclusivity
+     The agency is clarifying that once the patent for which the first
+applicant filed a paragraph IV certification expires, the first
+applicant is no longer eligible for exclusivity. When the first
+applicant is no longer eligible for exclusivity, FDA may approve all
+otherwise eligible ANDA's. FDA regulations at Sec. 314.94(a)(12)(viii)
+currently provide that exclusivity cannot extend beyond the term of the
+patent.
+
+ B. The Results of the Patent Challenge
+
+     In general, once an ANDA applicant has submitted a paragraph IV
+certification and notified the NDA holder and patent owner of the
+patent challenge under Sec. 314.95 (21 CFR 314.95), a number of
+outcomes are possible including: (1) The NDA holder or patent owner may
+sue the ANDA applicant within the 45-day period established by statute
+(section 505(j)(5)(B)(iii) of the act) and that suit may be litigated
+to final judgment, (2) the parties may reach a settlement either before
+or after a patent infringement lawsuit is filed, or (3) the NDA holder
+and patent owner may refrain from filing a patent infringement suit.
+Which of these events occurs will depend on many factors, including
+market considerations and the relative strength of the patent claims.
+However, in each of these cases, there is the potential for a
+substantial delay in the entry of generic drug products into the
+market. The agency is proposing a relatively simple approach to
+limiting this delay, one that applies generally to all of the outcomes
+described previously.
+     Under the current 180-day exclusivity approach, delays in the
+approval of competitive generic drug products are the result of delays
+in the occurrence of one of the two events (triggering events) that
+will trigger the beginning of the 180-day exclusivity period--either
+the first commercial marketing of the first applicant's product, or a
+decision of a court holding the patent invalid, not infringed, or
+unenforceable, whichever is earlier. The courts in the Mova and Purepac
+decisions suggested that, to prevent unreasonable delay in the final
+approval of subsequent generic drug applications, FDA could require
+that a first ANDA applicant bring its product to market--and thus begin
+the running of exclusivity--within a prescribed time period. The agency
+believes that such a requirement is appropriate.
+ 1. Triggering Period
+     The agency proposes to adopt the approach suggested by the courts
+in the Mova and Purepac decisions and set a time limit for the exercise
+of exclusivity. The agency is proposing the use of a 180-day
+``triggering period,'' during which there must either be a favorable
+court decision regarding the patent or the first applicant must begin
+commercial marketing of its product. If neither of these events occur
+during the triggering period, the first applicant will lose its
+eligibility for exclusivity and subsequent ANDA's will be eligible for
+immediate approval.
+     The term ``triggering period'' is used throughout this proposed
+rule to refer to the 180-day period described previously; this is
+distinct from the 180-day exclusivity period (see section II.B.4 of
+this document) that may follow the triggering period. The term
+``trigger'' as used throughout this proposed rule refers to the two
+statutory conditions, one of which must be met, for exclusivity to
+begin (see section 505(j)(5)(B)(iv) of the act). Those conditions, as
+discussed in sections I and II.B of this document, are: (1) A court
+decision finding the patent to be invalid, unenforceable, or not
+infringed by the ANDA product, and (2) first commercial marketing of
+the ANDA product. The term ``triggering event'' in this proposed rule
+refers to the occurrence of one of the two statutory triggers.
+     In most cases, the triggering period would begin to run on the day
+a subsequent ANDA applicant with a paragraph IV certification receives
+a tentative approval stating that but for the first applicant's
+exclusivity, the subsequent ANDA would receive final approval. In three
+instances the triggering period would not begin to run on the date of
+the tentative approval.
+     First, if the first applicant was sued for patent infringement as
+a result of its paragraph IV certification and the litigation is
+ongoing, the triggering period would not begin until expiration of the
+30-month stay of ANDA approval (see section II.B.3 of this document).
+Similarly, if a court issued a preliminary injunction prohibiting the
+first applicant from commercially marketing its drug product, the
+triggering period would not begin until the injunction expired.
+Finally, the triggering period would not begin until expiration of the
+statutorily described time period corresponding with any existing
+exclusivity periods for the listed drug (see sections 505(j)(5)(D)(ii)
+and 505A(a) of the act).
+     To determine how a triggering period would work, the agency
+reviewed its experience with the 180-day exclusivity provision. In the
+past, delays in obtaining a court decision, or delays in the first
+applicant gaining approval for
+
+[[Page 42878]]
+
+its ANDA and/or bringing its product to market, have generally become a
+matter of concern when at least one subsequent ANDA applicant has
+obtained a tentative approval and the only barrier to final approval is
+the first applicant's eligibility for 180 days of exclusivity. Every
+day after the tentative approval during which the subsequent applicant
+can not market its product represents a lost opportunity both for the
+subsequent applicant and the consumer. The subsequent applicant can not
+benefit from having submitted an ANDA that meets the requirements of
+section 505(j) of the act, and the consumer does not have access to one
+or more lower cost generic products.
+     Where the first ANDA applicant is eligible for exclusivity and
+only that eligibility is blocking final approval of a subsequent ANDA,
+it is appropriate to begin the triggering period on the day that a
+subsequent applicant has received tentative approval for its ANDA. This
+is the first day that the absence of a generic drug product from the
+market is directly linked to the first applicant's eligibility for
+exclusivity.
+     a.  Length of triggering period. The agency is proposing that the
+triggering period be 180 days. As described previously, the 180-day
+period would follow one of the following: (1) The tentative approval of
+a subsequent ANDA with a paragraph IV certification for the same drug
+product, (2) expiration of a 30-month stay of ANDA approval due to
+patent litigation, (3) expiration of a preliminary injunction
+prohibiting marketing of an ANDA product, or (4) expiration of the
+statutorily described exclusivity periods for the listed drug.
+     Once the triggering period begins, the ANDA applicant eligible for
+exclusivity would have 180 days to trigger its exclusivity. This may be
+done by beginning commercial marketing of its drug product or obtaining
+a favorable court decision (in its own or other litigation regarding
+the same patent). Once triggered, the ANDA applicant's exclusivity
+would then run for 180 days. If, within the 180-day triggering period,
+the beginning of exclusivity was not triggered, the first applicant
+would no longer be eligible for exclusivity and the agency could
+approve subsequent ANDA's at the end of the triggering period.
+     It is possible that there could be no generic drug product
+marketed during the triggering period if the first applicant does not
+begin commercial marketing of its product. In this case, at least one
+generic drug product--the product that had received the tentative
+approval--would receive final approval upon expiration of the
+triggering period and could begin marketing.
+     b.  Basis for length of triggering period. The 180-day length of
+the triggering period is derived from the statutory provision governing
+180 days of exclusivity. This provision quite clearly allows (and
+Congress, therefore, presumably contemplated) the possibility of a 180-
+day period during which there is no generic drug product on the market.
+This would occur when the running of the 180-day period of exclusivity
+has begun with a court decision finding the patent invalid,
+unenforceable, or not infringed, but the applicant that has the
+exclusivity does not begin marketing its product because it is not
+approved or for another reason.
+     There is no statutory requirement that the running of the
+exclusivity triggered by the court decision described in section
+505(j)(5)(B)(iv)(II) of the act be accompanied by the commercial
+availability of the generic drug product. Even if no generic drug
+product is being marketed, the statute prohibits the agency from
+approving another ANDA until the 180-day exclusivity period has
+elapsed. After that period, however, the statute permits the approval
+of any otherwise eligible ANDA, even if the first applicant never
+marketed its product. It is therefore reasonable to assume that
+Congress thought that a 180-day period during which no generic drug
+product is marketed was acceptable.
+     At the same time, there is no indication that Congress would
+countenance an indefinite delay in the marketing of low cost generic
+drug products once the legal barriers to their approval have been
+removed. To the contrary, such a scenario directly conflicts with the
+goals of the Hatch-Waxman Amendments. Therefore, the agency is
+proposing a 180-day triggering period during which a triggering event
+must occur to commence the eligible ANDA applicant's period of
+exclusivity.
+     The agency recognizes that in very rare cases there could be a
+time period longer than 180 days during which no generic drug product
+is available. This may happen if, for example, a court decision
+triggering the exclusivity period is issued at the end of the 180-day
+triggering period, and the first applicant does not market its product
+or waive its right to exclusivity during the resulting 180-day
+exclusivity period. In the extreme case, this scenario could result in
+the inability of a subsequent ANDA applicant to market its product for
+a 360-day period (180-day triggering period plus 180-day exclusivity
+period) after its tentative approval.
+     The agency believes, however, that a first applicant that is
+unable to market its own product at the time a subsequent ANDA
+applicant receives a tentative approval would ordinarily waive its
+exclusivity (see section II.H of this document). This would permit
+final approval of the subsequent ANDA. Moreover, in contrast to the
+current regulatory structure, under which generic drugs may face almost
+insurmountable barriers to market entry, the proposed approach provides
+for much earlier market entry. Under the triggering period approach,
+there is certainty that one or more generic drug products will be able
+to enter the market after the 12-month period described previously, and
+in most cases, much more promptly.
+ 2. Alternative Length of Triggering Period in Specific Cases
+     The agency is also specifically seeking comment on an alternative
+approach. The agency is considering shortening the length of the
+triggering period to 60 days in some cases. The 60-day triggering
+period would apply to an ANDA applicant that already has received final
+approval at the time of the tentative approval of a subsequent ANDA,
+and either has not been sued as a result of its patent certification,
+or has been sued and the case was settled or dismissed without a
+decision on the merits of the patent claim. The possible 60-day
+triggering period in this case is based upon limited data from a July
+1998 Congressional Budget Office study entitled ``How Increased
+Competition from Generic Drugs Has Affected Prices and Returns in the
+Pharmaceutical Industry,'' and a March 1999 internal FDA study
+(available in Docket No. 85N-0214).
+     FDA does not consider this 60-day timeframe to be burdensome to
+ANDA applicants because the data suggest that, since passage of the
+Hatch-Waxman Amendments, first generic drug products generally reach
+the market promptly after approval. Specifically, the studies indicate
+that generic products are routinely marketed within a 2-month period
+following ANDA approval.
+ 3. Relationship of Triggering Period to 30-Month Stay
+     When the first applicant to submit an ANDA with a paragraph IV
+certification is sued by the NDA holder or patent owner, it would be
+unreasonable to start the triggering period with the tentative approval
+of a subsequent applicant if the tentative approval was granted
+relatively soon after the first applicant's patent litigation began.
+The first
+
+[[Page 42879]]
+
+applicant could find it difficult or impossible to either obtain a
+final court decision in a patent infringement case or begin commercial
+marketing of its product within 180 days of the subsequent applicant's
+tentative approval. The first applicant who is sued for patent
+infringement is, however, provided with a statutory time period, as
+discussed in the following paragraphs of this document, during which to
+resolve the patent litigation before the triggering period will begin.
+     The generic drug product approval process described in the Hatch-
+Waxman Amendments establishes a 30-month period for resolution of
+patent litigation resulting from a patent certification. (See section
+505(j)(B)(5)(iii) of the act.) During this period, FDA may not approve
+the ANDA that is the subject of the litigation. After the 30-month
+period, barring a court order, FDA may grant final approval to the ANDA
+that is the subject of the litigation. Therefore, the agency is
+proposing that when the first ANDA applicant is sued as a result of its
+paragraph IV certification and the patent litigation is ongoing, the
+triggering period would not begin at least until the 30-month period
+has lapsed. After the 30 months has passed, the triggering period would
+begin when a subsequent applicant received a tentative approval. If a
+subsequent applicant received a tentative approval during the 30-month
+stay, the 180-day triggering period would begin on the day the 30-month
+period expired. The first applicant then would have to begin marketing
+its product, or obtain a final court decision, during the 180-day
+triggering period to obtain its exclusivity.
+ 4. Distinction Between Triggering Period and Exclusivity Period
+     Although the triggering period would not begin until expiration of
+the first applicant's 30-month stay, it is still possible for the
+exclusivity period to begin during that 30-month period. If, for
+example, a court issues a favorable final decision in litigation over a
+subsequent ANDA's patent challenge during the 30-month stay of the
+first applicant, the exclusivity period for the first applicant would
+start on the date of that decision.
+     In proposing this interpretation of the statute--that the
+triggering period does not begin until expiration of the 30-month
+stay--the agency is aware that in some cases patent litigation
+resulting from a paragraph IV certification does not result in a final
+court decision within 30 months. The agency is also aware that parties
+to patent litigation in some cases may not have strong incentives to
+resolve the litigation as promptly as possible. This proposed approach
+may alter those incentives and encourage swifter resolution of
+litigation.
+     Although the agency is proposing that the general rule will be
+that the first ANDA applicant has 30 months in which to resolve its
+patent litigation before the triggering period may start, the agency
+also would allow for a reasonable extension of this period under
+certain circumstances. This would occur when the court hearing the
+patent infringement case issues a preliminary injunction prohibiting
+the marketing of the drug product that is the subject of the challenged
+ANDA until there is a court decision finding the patent invalid, not
+infringed, or unenforceable. The issuance of such an order is
+contemplated in section 505(j)(5)(B)(iii)(III) of the act.
+     FDA expects that an injunction would issue upon a finding that it
+is warranted by the facts and law in the particular case, and that the
+parties have reasonably cooperated in expediting the action. In the
+event the court issues an injunction prohibiting the marketing of the
+drug product under the first ANDA, the triggering period would not
+begin at least until the injunction expires or is lifted by the court.
+If the 30-month stay is shortened or lengthened by the court because
+either party has failed to reasonably cooperate, the triggering period
+will begin with reference to the date ordered by the court.
+     While the triggering and exclusivity periods are related, they are
+also distinct. The exclusivity period starts with either first
+commercial marketing of the first applicant's generic drug product or
+with a court decision finding the patent invalid, unenforceable, or not
+infringed. The triggering period, in contrast, would be tied to the
+date of a subsequent ANDA's tentative approval, and in some cases to
+the completion of a 30-month stay. The triggering period may not result
+in an exclusivity period for the first applicant if no triggering event
+occurs during the triggering period. In contrast, an exclusivity period
+may begin independent of any triggering period, if no subsequent ANDA
+is given a tentative approval to begin the triggering period.
+Alternatively, the exclusivity period could begin during the triggering
+period.
+
+ C. A Decision of a Court
+
+     FDA's current regulations state that for purposes of applying the
+ANDA approval and exclusivity provisions of the statute, ``the court''
+is the court that enters final judgment from which no appeal can be or
+has been taken (district or appellate court) (Sec. 314.107(e)). This
+interpretation was challenged in TorPharm v. Shalala, No. 97-1925, U.S.
+Dist. LEXIS 21983 (D.D.C. Sep. 15, 1997); appeal withdrawn and
+remanded, 1998 U.S. App. LEXIS 4681 (D.C. Cir. Feb. 5, 1998); vacated
+No. 97-1925 (D.D.C. April 9, 1998).
+     Plaintiffs in that case maintained that ``the court'' meant the
+district court and that final approval could be granted and exclusivity
+begin running upon the entry of a district court decision finding a
+patent invalid, unenforceable, or not infringed. Because the district
+court decision in TorPharm agreeing with plaintiffs was vacated (set
+aside or rendered void), the agency will not address it further in this
+proposed rule. FDA instead proposes to maintain its current
+interpretation. The agency believes this interpretation is most
+consistent with the statutory scheme.
+     The agency is also proposing that the decision of a court that may
+begin the running of exclusivity is the final decision of a court
+hearing any litigation involving the patent at issue. Current
+Sec. 314.107(c)(1)(ii) states that one of the two exclusivity triggers
+is the ``date of the decision of the court holding the relevant patent
+invalid, unenforceable, or not infringed.'' FDA proposes to modify
+Sec. 314.107(c)(1)(ii) to read the ``date of the decision of a court *
+* *.''
+     This modification is consistent with the statutory language in
+section 505(j)(5)(B)(iv) of the act. The agency is clarifying that for
+purposes of both the modified regulatory provision and section
+505(j)(5)(B)(iv)(II) of the act, `` a decision of a court in an action
+described in [section 505(j)(5)(B)(iii) of the act] holding the patent
+which is the subject of the certification to be invalid or not
+infringed'' can be a decision of any court hearing a patent
+infringement or declaratory judgment case involving the patent at
+issue. The decision triggering exclusivity need not come from the court
+hearing the patent litigation involving the first ANDA. (See also
+Granutec, Inc. v. Shalala, 1998 U.S. App. LEXIS 6685, Nos. 97-1873, 97-
+1874, slip op. at 14-18 (4th Cir. Apr. 3, 1998) (unpublished opinion
+discussing the agency's interpretation of ``a'' court decision).)
+     The use of different language in subsections (I) and (II) of
+section 505(j)(5)(B)(iv) of the act supports this interpretation. In
+subsection (I), the statutory trigger is specifically tied to the date
+that ``the applicant under the previous application'' gives notice that
+its product is being commercially marketed. In contrast, the trigger in
+subsection (II) relates only to the date of ``a decision of a court''
+in patent
+
+[[Page 42880]]
+
+litigation described in section 505(j)(5)(B)(iii) of the act.
+     The language of the first trigger refers to a particular
+applicant. In contrast, the language of the second trigger does not
+attach importance to the specific applicant. It instead refers
+generally to a type of court decision. In the absence of specific,
+controlling language to the contrary, the agency continues to interpret
+``a decision of a court'' in subsection (II) to mean a decision of any
+court hearing a patent infringement or declaratory judgment case
+involving the patent at issue.
+     This interpretation of the court decision trigger encourages
+prompt litigation of patent issues by all ANDA applicants, and under
+some circumstances could result in a corresponding earlier start of the
+180-day exclusivity period. This could result in situations where,
+although the first applicant was sued first, its litigation is not
+completed first, and its exclusivity begins to run while it is still in
+litigation.
+     The agency is aware that in some instances the first applicant may
+be unable or unwilling to market its product upon satisfaction of the
+court decision trigger involving another applicant. For example, the
+first applicant's own patent litigation may be ongoing and its ANDA may
+have been finally approved at the completion of a 30-month stay under
+section 505(j)(5)(B)(iii) of the act. However, the applicant may be
+unwilling to assume the risk of liability for damages by marketing
+before patent expiration or a court decision finding the applicant's
+product does not infringe the patent. The agency notes, however, that
+in such a situation the first applicant may obtain a financial benefit
+from the award of exclusivity by waiving its exclusivity with respect
+to a subsequent applicant (see section II.H of this document).
+     A contrary interpretation that required the court decision be a
+decision in patent litigation against the first applicant could, under
+some circumstances, delay entry into the market of drug products by all
+ANDA applicants. For example, the patent owner or NDA holder may elect
+not to sue the first ANDA applicant, in which case the court decision
+trigger would never apply to that applicant's patent challenge, and
+exclusivity could therefore begin running only with the first
+applicant's commencement of commercial marketing. If the first
+applicant's marketing is delayed because it cannot obtain final
+approval of its ANDA or, having obtained final approval, the first
+applicant either cannot or will not bring its product to market, there
+could be a substantial delay in marketing of any generic drug product.
+This delay would result even if a subsequent applicant is successful in
+challenging the patent, either in a lawsuit brought by the innovator or
+in a declaratory judgment action.
+     As described in section II.B.3 of this document, under the
+approach proposed in this rule, the triggering period would not apply
+when a subsequent applicant obtains a court decision that begins the
+period of exclusivity. In such cases the first applicant's exclusivity
+would begin to run on the date of the final court decision in the
+subsequent applicant's litigation. The triggering period applies only
+when a subsequent applicant has obtained a tentative approval where
+final approval is blocked by the first ANDA applicant's eligibility for
+exclusivity. Under these circumstances, the subsequent applicant would
+have been eligible for final approval because either: (1) It wasn't
+sued by the innovator, (2) it was sued but the litigation was settled
+or dismissed without a favorable court decision, or (3) it was sued and
+the 30-month stay had elapsed.
+

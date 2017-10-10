@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+<suite name="Detect Regression Test Suite" parallel="false">
+	<parameter name="environmentName" value="eoe"></parameter>
+	
+	<parameter name="userName" value="rocky@detectbackendautomation.com"></parameter>
+	<parameter name="userPassword" value="Elastica@3214"></parameter>
+	<parameter name="host" value="eoe.elastica-inc.com"/>
+	<parameter name="referer" value="https://eoe.elastica-inc.com"/>
+	<parameter name="apiServer" value="https://api-eoe.elastica-inc.com/"/>
+	<!-- "https://eoe.elastica-inc.com/static/ng/appThreats/index.html" -->
+	
+	<parameter name="tenantName" value="detectbackendautomationcom"></parameter>
+	<parameter name="tenantDomainName" value="detectbackendautomation.com"></parameter>
+	<parameter name="tenantToken" value="t8OczyLDBiZdtywujeT4BUtV5gCTxkoaDLQHwlKWWZE="></parameter>
+	<parameter name="isLoggingOn" value="true"></parameter>
+	<parameter name="apiBaseVersion" value="v1"></parameter>
+	
+	<parameter name="goldenInputTmplPath" value="src/test/resources/detect/golden_input_tmpl/"></parameter>
+	<parameter name="goldenInputPath" value="src/test/resources/detect/golden_input/"></parameter>
+	
+	<parameter name="esScriptsHostName" value="10.0.0.242"></parameter>
+	<parameter name="esScriptsUserName" value="madmin"></parameter>
+		
+	<test name="Detect Preferences Tests">
+		<classes>
+			<class name="com.elastica.beatle.tests.detect.DetectPreferencesTests">
+			</class>  
+		</classes>
+	</test>
+	
+	
+	
+</suite>

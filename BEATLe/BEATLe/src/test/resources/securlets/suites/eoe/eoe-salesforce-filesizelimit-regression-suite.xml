@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+<suite name="Securlets Salesforce Filesize Limit Regression Test Suite" parallel="false">
+	
+	<parameter name="environmentName" value="eoe"/>
+	<parameter name="userName" value="admin@securletbeatle.com"/>
+	<parameter name="userPassword" value="Elastica1234!"/>
+	<parameter name="tenantName" value="securletbeatlecom"/>
+	<parameter name="isLoggingOn" value="true"/>
+	<parameter name="apiBaseVersion" value="v1"/>
+	<parameter name="esScriptsHostName" value="10.0.0.242"/>
+	<parameter name="esScriptsUserName" value="madmin"/>
+	<parameter name="referer" value="https://eoe.elastica-inc.com"/>
+	<parameter name="tenantToken" value="H3YK/Vxr3p+qm9dfmKvmh7oYaPBJMqUsszm+LOStr4k="/>
+	<parameter name="saasAppUsername" value="admin@securletbeatle.com.Sandbox6"/>
+	<parameter name="saasAppPassword" value="NBB(6GCxGlArr47"/>
+	<parameter name="saasAppUserRole" value="ADMIN"/>
+	<parameter name="saasApp" value="SALESFORCE"/>
+	<parameter name="domainName" value="securletbeatlecom"/>
+	<parameter name="saasAppLoginHost" value="cs52.salesforce.com"/>
+	<parameter name="socUserName" value="QA Admin"/>
+	<parameter name="saasAppExternalUser1Name" value="t.push.paraj@gmail.com"/>
+	<parameter name="saasAppExternalUser2Name" value="push.pa.raj@aol.in"/>
+	<parameter name="saasAppEndUser1Name" value="secu.rlet.user@securletbeatle.com"/>  
+	<parameter name="saasAppClientId" value="3MVG9jfQT7vUue.Eo_PTDL3Iqm_St1W8HwjV8o3HLsSiAQ_lXZwEA1fz8xMCL82sAe3YdJ1OY.CGcqCus4ehC"/>
+    <parameter name="saasAppClientSecret" value="6136402971934082815"/>
+    <parameter name="saasAppToken" value="EQUZEc3QoEa0EqBzHVpoMLgr"/>
+	
+	<test name="Securlets Salesforce FileSize Limit Regression Tests">
+		  
+		  <groups>
+		    <run>
+		  	  <include name="CONTENT_INSPECTION_BYPASS"/>
+		    </run>
+		  </groups>
+	 	 
+		<classes>
+			<class name="com.elastica.beatle.tests.securlets.salesforce.SalesforceActivityTests">
+				
+			</class>
+		</classes>
+	</test>
+</suite>

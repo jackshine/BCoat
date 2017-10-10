@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+<suite name="Box Securlets External Exposures Regression Test Suite" parallel="false">
+	<parameter name="environmentName" value="eoe"/>
+	<parameter name="userName" value="admin@securletbeatle.com"/>
+	<parameter name="userPassword" value="Elastica1234!"/>
+	<parameter name="dpoUserName" value="securletuser@securletbeatle.com"/>
+	<parameter name="dpoUserPassword" value="Elastica1234!"/>
+	<parameter name="tenantName" value="securletbeatlecom"/>
+	<parameter name="isLoggingOn" value="true"/>
+	<parameter name="apiBaseVersion" value="v1"/>
+	<parameter name="esScriptsHostName" value="10.0.0.242"/>
+	<parameter name="esScriptsUserName" value="madmin"/>
+	<parameter name="referer" value="https://eoe.elastica-inc.com"/>
+	<parameter name="tenantToken" value="H3YK/Vxr3p+qm9dfmKvmh7oYaPBJMqUsszm+LOStr4k="/>
+	<parameter name="saasAppUsername" value="box-admin@securletbeatle.com"/>
+	<parameter name="saasAppPassword" value="lYvA7)DZ1zD@CPQgt5zw"/>
+	<parameter name="saasAppExternalUser1Name" value="admin@securletautomation.com"/>
+	<parameter name="saasAppExternalUser1Password" value="CMdypmxM67Avt_%s"/>
+	<parameter name="saasAppExternalUser2Name" value="box-admin@protectbeatle.com"/>
+	<parameter name="saasAppExternalUser2Password" value="WN&amp;VbrsV340L2^t"/>
+	<parameter name="saasAppUserRole" value="ADMIN"/>
+	<parameter name="socUserName" value="box admin securlet automation"/>
+	<parameter name="saasApp" value="BOX"/>
+	
+	
+	<test name="Box Securlets External Exposures Regression Test Suite">
+		<groups>
+		    <run>
+		      <include name="EXTERNAL_SWITCH"/>
+		    </run>
+		  </groups>
+		<classes>
+			<class name="com.elastica.beatle.tests.securlets.BoxExternalExposuresTests">
+				<methods>
+					<!-- <include name="verifyMetricsTotalBeforeExposureWithUIAndAPIServerCalls"></include> -->
+					<!-- <include name="verifyVennDiagramMetricsAfterExternalExposure"></include> -->
+					<!-- <include name="verifyCollaborateFolderAndChangeExternalCollaboratorRoles"></include> -->
+					<!-- <include name="verifyVulnerabilityTypes"></include> -->
+					<!-- <include name="verifyContentTypes"/> -->
+					<!-- <include name="verifyFileTypes"></include> -->
+					<!-- <include name="verifyExposedUsers"></include> -->
+					<!-- <include name="verifyUserDocumentExposures"></include> -->
+					<!-- <include name="verifyExternalUsers"></include>
+					<include name="verifyInternalCollabsOnExternalDocuments"></include> -->
+					<!-- <include name="verifyExternalOwnersDocuments"></include> -->
+					<!-- <include name="verifyInternalCollaboratorDocuments"></include> -->
+				</methods>
+			</class>
+		</classes>
+	</test>
+</suite>

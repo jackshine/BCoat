@@ -1,0 +1,11 @@
+<component name="libraryTable">
+  <library name="metrics">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/BEATLe/src/test/resources/reporting/suites/metrics/zscaler_test_Mallesh.log.zip!/" />
+      <root url="jar://$PROJECT_DIR$/BEATLe/src/test/resources/reporting/suites/metrics/zscaler_test.log.zip!/" />
+      <root url="jar://$PROJECT_DIR$/BEATLe/src/test/resources/reporting/suites/metrics/bluecoat-vald-auto.log.zip!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>

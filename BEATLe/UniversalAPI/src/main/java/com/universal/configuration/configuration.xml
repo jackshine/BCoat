@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE properties SYSTEM "http://java.sun.com/dtd/properties.dtd">
+<properties>
+	<comment>Configuration</comment>
+	
+	<entry key="box.networkprotocol">https</entry>
+	<entry key="box.host">app.box.com</entry>
+	<entry key="box.port"></entry>
+	
+	<entry key="dropbox.networkprotocol">http</entry>
+	<entry key="dropbox.host">jsonplaceholder.typicode.com</entry>
+	<entry key="dropbox.port"></entry>
+
+	<entry key="connectionHeader">keep-alive</entry>
+
+</properties>
+ 

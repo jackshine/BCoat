@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+<suite name="Detect Customer Data Seperation Tests" parallel="false">
+
+	<parameter name="environmentName" value="eoe"></parameter>
+	
+	<parameter name="userName" value="admin@detectbbibeatle.com"/>
+	<parameter name="userPassword" value="Elastica@1234"/>
+	<parameter name="tenantName" value="detectbbibeatlecom"/>
+	<parameter name="tenantDomainName" value="detectbbibeatle.com"></parameter>
+	<parameter name="tenantToken" value="0hRPzv3Hv0oYnhLQDhUFFTpFhX6Aee5yBrOp19PKnQE="/>
+	
+	<parameter name="dpoUserName" value="detectbbi.dpo@detectbbibeatle.com" />
+	<parameter name="dpoUserPassword" value="Elastica@321" />
+	
+	<parameter name="referer" value="https://eoe.elastica-inc.com"/>
+	<parameter name="host" value="eoe.elastica-inc.com"/>
+	<parameter name="apiServer" value="https://api-eoe.elastica-inc.com/"/>
+	
+	<parameter name="isLoggingOn" value="true"></parameter>
+	<parameter name="apiBaseVersion" value="v1"></parameter>
+	
+	<parameter name="userName2" value="admin@protectautobeatle.com"/>
+	<parameter name="userPassword2" value="gC4%2BiA"/>
+	<parameter name="tenantName2" value="protectautobeatlecom"/>
+	<parameter name="tenantToken2" value="rm/POmQIqcKZDmXTpJdATL1OSsYNX9xIq0mymmsA90Y="/>	
+		
+	<test name="Detect Customer Data Seperation Tests">
+		<classes>
+			<class name="com.elastica.beatle.tests.detect.DetectDataSeparationTests">
+			</class>
+		</classes>
+	</test>
+</suite>

@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+<suite name="Audit Test Suite" parallel="instances" thread-count="19">
+	
+	<!-- Tenant A- Sysadmin Details -->
+	<parameter name="userName" value="mitthan@cloudsecurity.mobi" />
+	<parameter name="userPassword" value="Elastica@123" />
+	<parameter name="tenantName" value="cloudsecuritymobi" />
+	<parameter name="tenantToken" value="+CTr7MjF/lV5obHNz4Fg1ZLzttLsQ2c3Kbb2fWb7FQI=" />
+	
+	
+	<!-- Tenant B- Sysadmin Details -->
+	<parameter name="userName2" value="qa-admin@elasticaqa.net"></parameter>
+	<parameter name="userPassword2" value="Elastica456$"></parameter>
+	<parameter name="tenantName2" value="elasticaqanet"></parameter>
+	<parameter name="tenantToken2" value="8Mcfo3OUrXx33ByfPIlCCA==" />
+	
+	<!-- Tenant- Admin User Details 
+	anam@auditguru.co/Elastica@1234-->
+	<parameter name="adminUser" value="qa-admin@elasticaqa.net"></parameter>
+	<parameter name="adminUserPwd" value="Elastica456$"></parameter>
+	<parameter name="adminUserTen" value="elasticaqanet"></parameter>
+	<parameter name="adminUserTenantToken" value="8Mcfo3OUrXx33ByfPIlCCA==" />
+	
+	<!-- DPO User Details for eoeauditanonyenabledco -->
+	<parameter name="dpoUserName" value="tarakdpo@elasticaqa.com" />
+	<parameter name="dpoUserPassword" value="Elastica#123" />
+	<parameter name="dpoUserTen" value="elasticaqacom" />
+	
+	
+	<!-- Other config details -->
+	<parameter name="environmentName" value="cep" />
+	<parameter name="isLoggingOn" value="true" />
+	<parameter name="referer" value="http://app-cep.elastica.net/"/>
+	<parameter name="apiBaseVersion" value="v1" />
+	<parameter name="loadApparraziServicesCheck" value="no" />
+	<parameter name="tenant2Aclcheck" value="yes" /> 
+	
+	
+	
+	<test name="Audit Customer Seperation Regression Tests">
+		<classes>
+			<class name="com.elastica.beatle.audit.factoryClass.AuditAclFactory"></class>
+		</classes>
+	</test>	
+	
+		
+	
+</suite>
+

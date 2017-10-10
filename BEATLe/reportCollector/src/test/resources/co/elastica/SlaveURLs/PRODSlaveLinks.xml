@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE properties SYSTEM "http://java.sun.com/dtd/properties.dtd">
+<properties>
+	<entry key="slaveLink">http://10.0.0.38:8080/view/BEATLe%20Prod/job/Audit%20S3%20Upload%20BE%20Regression%20Test%20cases%20PROD/ws/BEATLe/target/surefire-reports/emailable-report.html</entry>
+	<entry key="slaveLink">http://10.0.0.38:8080/view/BEATLe%20Prod/job/Audit%20SCP%20BE%20Regression%20Tests%20PROD/ws/BEATLe/target/surefire-reports/emailable-report.html</entry>
+	<entry key="slaveLink">http://10.0.0.38:8080/view/BEATLe%20Prod/job/Audit%20Web%20Upload%20BE%20Regression%20PROD/ws/BEATLe/target/surefire-reports/emailable-report.html</entry>
+	<entry key="slaveLink">http://10.0.0.38:8080/view/BEATLe%20Prod/job/Audit%20Multiple%20DeviceLogs%20Regression%20PROD/ws/BEATLe/target/surefire-reports/emailable-report.html</entry>
+	<!-- <entry key="slaveLink">http://10.0.0.38:8080/view/BEATLe%20Prod/job/Audit%20Negative%20Regression%20Prod/ws/BEATLe/target/surefire-reports/emailable-report.html</entry>
+	 --><entry key="slaveLink">http://10.0.0.38:8080/view/BEATLe%20Prod/job/Audit%20TIA%20Web%20Upload%20BE%20Regression%20Prod/ws/BEATLe/target/surefire-reports/emailable-report.html</entry>
+	<entry key="slaveLink">http://10.0.0.38:8080/view/BEATLe%20Prod/job/Audit%20Tags%20and%20Comments%20Regression%20PROD/ws/BEATLe/target/surefire-reports/emailable-report.html</entry>
+	
+	<entry key="slaveLink">http://10.0.0.38:8080/view/BEATLe%20Prod/job/Audit%20SpanVA%20Latest%20Image%20(1.15.2.61.0-15rc)%20SCP%20Regression%20Tests%20Prod/ws/BEATLe/target/surefire-reports/emailable-report.html</entry>
+	<entry key="slaveLink">http://10.0.0.38:8080/view/BEATLe%20Prod/job/Audit_SpanVA_Latest_Image_1_15_2_61_0-15rc_HTTPS_POST_Regression_Tests_Prod/ws/BEATLe/target/surefire-reports/emailable-report.html</entry>
+	<entry key="slaveLink">http://10.0.0.38:8080/view/BEATLe%20Prod/job/Audit_SpanVA_Latest_Image_1_15_2_61_0-15rc_FTP_CLIENT_Regression_Tests_Prod/ws/BEATLe/target/surefire-reports/emailable-report.html</entry>
+	<entry key="slaveLink">http://10.0.0.38:8080/view/BEATLe%20Prod/job/Audit_SpanVA_Latest_Image_1_15_2_61_0-15rc_HTTPS_PUT_Regression_Tests_Prod/ws/BEATLe/target/surefire-reports/emailable-report.html</entry>
+    
+
+
+	<entry key="slaveLink">http://10.0.0.38:8080/view/BEATLe%20Prod/job/Securlet%20BE%20Regression-Gmail%20RBAC%20ActivityLogs%20Prod/ws/BEATLe/target/surefire-reports/emailable-report.html</entry>
+	
+	<entry key="slaveLink">http://10.0.0.38:8080/job/DCI%20SaaS%20Risks%20and%20Content%20BE%20Regression%20Prod/ws/BEATLe/target/surefire-reports/emailable-report.html</entry>
+	<entry key="slaveLink">http://10.0.0.38:8080/job/DCI%20SaaS%20CIQ%20BE%20Regression%20Prod/ws/BEATLe/target/surefire-reports/emailable-report.html</entry>
+	<entry key="slaveLink">http://10.0.0.38:8080/job/DCI%20Risk%20and%20Content%20Types%20BE%20Regression%20Prod/ws/BEATLe/target/surefire-reports/emailable-report.html</entry>
+	<entry key="slaveLink">http://10.0.0.38:8080/job/DCI%20Risk%20Tier1%20BE%20Regression%20Prod/ws/BEATLe/target/surefire-reports/emailable-report.html</entry>
+	<entry key="slaveLink">http://10.0.0.38:8080/job/DCI%20Risk%20Types%20Exposure%20Filter%20Metrics%20Box%20BE%20Regression%20Prod/ws/BEATLe/target/surefire-reports/emailable-report.html</entry>
+	<entry key="slaveLink">http://10.0.0.38:8080/job/DCI%20Risk%20Types%20Exposure%20Filter%20Metrics%20Dropbox%20BE%20Regression%20Prod/ws/BEATLe/target/surefire-reports/emailable-report.html</entry>
+	<entry key="slaveLink">http://10.0.0.38:8080/job/DCI%20Risk%20Types%20Exposure%20Filter%20Metrics%20Office365%20BE%20Regression%20Prod/ws/BEATLe/target/surefire-reports/emailable-report.html</entry>
+	<entry key="slaveLink">http://10.0.0.38:8080/job/DCI%20Risk%20Types%20Exposure%20Filter%20Metrics%20Google%20Drive%20BE%20Regression%20Prod/ws/BEATLe/target/surefire-reports/emailable-report.html</entry>
+	<entry key="slaveLink">http://10.0.0.38:8080/job/DCI%20CIQ%20Profile%20BE%20Regression%20Prod/ws/BEATLe/target/surefire-reports/emailable-report.html</entry>
+	<entry key="slaveLink">http://10.0.0.38:8080/job/DCI%20CIQ%20Tier1%20BE%20Regression%20Prod/ws/BEATLe/target/surefire-reports/emailable-report.html</entry>
+	<entry key="slaveLink">http://10.0.0.38:8080/job/DCI%20CIQ%20Tier2%20BE%20Regression%20Prod/ws/BEATLe/target/surefire-reports/emailable-report.html</entry>
+	<entry key="slaveLink">http://10.0.0.38:8080/job/DCI%20CIQ%20Tier3-1%20BE%20Regression%20Prod/ws/BEATLe/target/surefire-reports/emailable-report.html</entry>
+	<entry key="slaveLink">http://10.0.0.38:8080/job/DCI%20CIQ%20Tier3-2%20BE%20Regression%20Prod/ws/BEATLe/target/surefire-reports/emailable-report.html</entry>
+	<entry key="slaveLink">http://10.0.0.38:8080/job/DCI%20CIQ%20Risks%20and%20Contents%20BE%20Regression%20Prod/ws/BEATLe/target/surefire-reports/emailable-report.html</entry>
+	<entry key="slaveLink">http://10.0.0.38:8080/job/DCI%20CIQ%20File%20Format%20BE%20Regression%20Prod/ws/BEATLe/target/surefire-reports/emailable-report.html</entry>
+	<entry key="slaveLink">http://10.0.0.38:8080/job/DCI%20CIQ%20Training%20Profile%20BE%20Regression%20Prod/ws/BEATLe/target/surefire-reports/emailable-report.html</entry>
+	<entry key="slaveLink">http://10.0.0.38:8080/view/DCI%20Jobs/job/DCI%20Granular%20BE%20Regression%20Prod/ws/BEATLe/target/surefire-reports/emailable-report.html</entry>
+	<entry key="slaveLink">http://10.0.0.38:8080/job/DCI%20Foreign%20Language%20FP%20BE%20Regression%20Prod/ws/BEATLe/target/surefire-reports/emailable-report.html</entry>
+
+	<entry key="slaveLink">http://10.0.0.38:8080/view/BEATLe%20Prod/job/Detect-googledrive-regression-Prod/ws/BEATLe/target/surefire-reports/emailable-report.html</entry>
+	<entry key="slaveLink">http://10.0.0.38:8080/view/BEATLe%20Prod/job/Detect-Dashboard%20Regression%20Tests%20Prod/ws/BEATLe/target/surefire-reports/emailable-report.html</entry>
+	<entry key="slaveLink">http://10.0.0.38:8080/view/BEATLe%20Prod/job/Detect-OneStep_Sequence-regression-Prod/ws/BEATLe/target/surefire-reports/emailable-report.html</entry>
+	<!-- <entry key="slaveLink">http://10.0.0.38:8080/view/BEATLe%20Prod/job/Detect%20Sequence%20One%20Step%20Box%20API%20Regression%20Tests/ws/BEATLe/target/surefire-reports/emailable-report.html</entry> -->
+	<entry key="slaveLink">http://10.0.0.38:8080/view/BEATLe%20Prod/job/Detect%20End%20to%20End%20BE%20Regression%20Tests%20Prod/ws/BEATLe/target/surefire-reports/emailable-report.html</entry>
+	<entry key="slaveLink">http://10.0.0.38:8080/view/BEATLe%20Prod/job/Detect-Preferences%20BE%20Regression%20Tests-Prod/ws/BEATLe/target/surefire-reports/emailable-report.html</entry>
+	<entry key="slaveLink">http://10.0.0.38:8080/view/BEATLe%20Prod/job/Detect_Sequence_detector-preference%20BE%20Regression%20tests_Prod/ws/BEATLe/target/surefire-reports/emailable-report.html</entry>
+	<entry key="slaveLink">http://10.0.0.38:8080/view/BEATLe%20Prod/job/Detect-BBI-googledrive-regression-Prod/ws/BEATLe/target/surefire-reports/emailable-report.html</entry>
+	<entry key="slaveLink">http://10.0.0.38:8080/view/BEATLe%20Prod/job/Detect-RBAC-Regression%20Tests%20Prod/ws/BEATLe/target/surefire-reports/emailable-report.html</entry>
+	<entry key="slaveLink">http://10.0.0.38:8080/view/BEATLe%20Prod/job/Detect_GMail-BBI-Regression%20Tests%20Prod/ws/BEATLe/target/surefire-reports/emailable-report.html</entry>
+	<entry key="slaveLink">http://10.0.0.38:8080/view/BEATLe%20Prod/job/Detect%20Sequence%20One%20Step%20Box%20API%20Regression%20Tests/lastSuccessfulBuild/artifact/BEATLe/target/surefire-reports/emailable-report.html</entry>
+	<entry key="slaveLink">http://10.0.0.38:8080/view/BEATLe%20Prod/job/Detect_SD_GMail-API%20PROD/ws/BEATLe/target/surefire-reports/emailable-report.html</entry>
+	
+	<entry key="slaveLink">http://10.0.0.38:8080/view/BEATLe%20Prod/job/Infra%20BE%20Regression%20Prod/ws/BEATLe/target/surefire-reports/emailable-report.html</entry> 
+	<entry key="slaveLink">http://10.0.0.38:8080/view/BEATLe%20Prod/job/Infra%20BE%20RBAC%20P1%20Regression%20Test%20Prod/ws/BEATLe/target/surefire-reports/emailable-report.html</entry> 
+	<entry key="slaveLink">http://10.0.0.38:8080/view/BEATLe%20Prod/job/Securlet%20BE%20Regression-Gmail%20Mail%20ActivityLogs%20Prod/ws/BEATLe/target/surefire-reports/emailable-report.html</entry>
+		
+	<entry key="slaveLink">http://10.0.0.38:8080/view/BEATLe%20Prod/job/Protect%20AccessMonitoring%20Box%20-%20BE%20Regression%20Prod/ws/BEATLe/target/surefire-reports/emailable-report.html</entry>
+	<entry key="slaveLink">http://10.0.0.38:8080/view/BEATLe%20Prod/job/Protect%20DataExposure%20Box%20Policy%20Violations%20Regression%20Prod/ws/BEATLe/target/surefire-reports/emailable-report.html</entry>
+	<entry key="slaveLink">http://10.0.0.38:8080/view/BEATLe%20Prod/job/Protect%20DataExposure%20Box%20Remediations%20Regression%20Prod/ws/BEATLe/target/surefire-reports/emailable-report.html</entry>
+	<entry key="slaveLink">http://10.0.0.38:8080/view/BEATLe%20Prod/job/Protect%20DataExposure%20Dropbox%20Policy%20Violations%20Regression%20Prod/ws/BEATLe/target/surefire-reports/emailable-report.html</entry>
+	<entry key="slaveLink">http://10.0.0.38:8080/view/BEATLe%20Prod/job/Protect%20DataExposure%20Dropbox%20Remediations%20Regression%20Prod/ws/BEATLe/target/surefire-reports/emailable-report.html</entry>
+	<entry key="slaveLink">http://10.0.0.38:8080/view/BEATLe%20Prod/job/Protect%20DataExposure%20GDrive%20Policy%20Violations%20Regression%20Prod/ws/BEATLe/target/surefire-reports/emailable-report.html</entry>
+	<entry key="slaveLink">http://10.0.0.38:8080/view/BEATLe%20Prod/job/Protect%20DataExposure%20GDrive%20Remediations%20Regression%20Prod/ws/BEATLe/target/surefire-reports/emailable-report.html</entry>
+	<entry key="slaveLink">http://10.0.0.38:8080/view/BEATLe%20Prod/job/Protect%20DataExposure%20Google%20Drive%20-%20Remediation%20Combination%20-%20BE%20Regression%20Prod/ws/BEATLe/target/surefire-reports/emailable-report.html</entry>
+	<entry key="slaveLink">http://10.0.0.38:8080/view/BEATLe%20Prod/job/Protect%20DataExposure%20Google%20Mail%20-%20Move%20To%20Trash%20Remediation%20-%20BE%20Regression%20Prod/ws/BEATLe/target/surefire-reports/emailable-report.html</entry>
+	<entry key="slaveLink">http://10.0.0.38:8080/view/BEATLe%20Prod/job/Protect%20DataExposure%20O365%20-%20Delete%20Unique%20Permission%20Remediation%20-%20BE%20Regression%20Prod/ws/BEATLe/target/surefire-reports/emailable-report.html</entry>
+	<entry key="slaveLink">http://10.0.0.38:8080/view/BEATLe%20Prod/job/Protect%20DataExposure%20ODrive%20Policy%20Violations%20Regression%20Prod/ws/BEATLe/target/surefire-reports/emailable-report.html</entry>
+	<entry key="slaveLink">http://10.0.0.38:8080/view/BEATLe%20Prod/job/Protect%20DataExposure%20ODrive%20Remediations%20Regressions%20Prod/ws/BEATLe/target/surefire-reports/emailable-report.html</entry>
+	<entry key="slaveLink">http://10.0.0.38:8080/view/BEATLe%20Prod/job/Protect%20DataExposure%20Office%20365%20Mail%20-%20BE%20Regression%20Prod/ws/BEATLe/target/surefire-reports/emailable-report.html</entry>
+	<entry key="slaveLink">http://10.0.0.38:8080/view/BEATLe%20Prod/job/Protect%20Miscellaneous%20Tests%20-%20BE%20Regression%20Prod/ws/BEATLe/target/surefire-reports/emailable-report.html</entry>
+	<entry key="slaveLink">http://10.0.0.38:8080/view/BEATLe%20Prod/job/Protect%20Policy%20Impact%20BE%20Regression%20Tests%20Prod/ws/BEATLe/target/surefire-reports/emailable-report.html</entry>
+	<entry key="slaveLink">http://10.0.0.38:8080/view/BEATLe%20Prod/job/Protect%20ThreatScore%20Box%20-%20BlockUser%20-%20BE%20Regression%20Prod/ws/BEATLe/target/surefire-reports/emailable-report.html</entry>
+	<entry key="slaveLink">http://10.0.0.38:8080/view/BEATLe%20Prod/job/Protect%20ThreatScore%20Dropbox%20-%20BlockUser%20-%20BE%20Regression%20Prod/ws/BEATLe/target/surefire-reports/emailable-report.html</entry>
+	<entry key="slaveLink">http://10.0.0.38:8080/view/BEATLe%20Prod/job/Protect%20ThreatScore%20Google%20Drive%20-%20BlockUser%20-%20BE%20Regression%20Prod/ws/BEATLe/target/surefire-reports/emailable-report.html</entry>
+	<entry key="slaveLink">http://10.0.0.38:8080/view/BEATLe%20Prod/job/Protect%20ThreatScore%20Office%20365%20-%20BlockUser%20-%20BE%20Regression%20Prod/ws/BEATLe/target/surefire-reports/emailable-report.html</entry>
+	<entry key="slaveLink">http://10.0.0.38:8080/view/BEATLe%20Prod/job/Protect_Policy_Severity_Verification_Prod/ws/BEATLe/target/surefire-reports/emailable-report.html</entry>
+	<entry key="slaveLink">http://10.0.0.38:8080/view/BEATLe%20Prod/job/Protect%20AccessMonitoring%20Box%20Groups%20-%20BE%20Regression%20Prod/ws/BEATLe/target/surefire-reports/emailable-report.html</entry>
+	<entry key="slaveLink">http://10.0.0.38:8080/view/BEATLe%20Prod/job/Protect%20Alerts%20Filter%20Combination%20-%20BE%20Regression%20Prod/ws/BEATLe/target/surefire-reports/emailable-report.html</entry>
+	<entry key="slaveLink">http://10.0.0.38:8080/view/BEATLe%20Prod/job/Protect%20Customer%20Data%20Seperation%20Regression%20Prod/ws/BEATLe/target/surefire-reports/emailable-report.html</entry>
+	<entry key="slaveLink">http://10.0.0.38:8080/view/BEATLe%20Prod/job/Protect%20Policy%20O365%20Impact%20BE%20Regression%20Tests%20Prod/ws/BEATLe/target/surefire-reports/emailable-report.html</entry>			
+	
+	<entry key="slaveLink">http://10.0.0.38:8080/view/BEATLe%20Prod/job/Securlet%20BE%20Regression-Box%20Prod/ws/BEATLe/target/surefire-reports/emailable-report.html</entry>
+        <entry key="slaveLink">http://10.0.0.38:8080/view/Dropbox%20Jobs/job/Securlet%20BE%20DropBox%20ExportAndFilterActivities%20-%20PROD/ws/BEATLe/target/surefire-reports/emailable-report.html</entry>
+	<entry key="slaveLink">http://10.0.0.38:8080/view/Dropbox%20Jobs/job/Securlet%20BE%20DropBox%20FilesAndFolderActivities%20-%20PROD/ws/BEATLe/target/surefire-reports/emailable-report.html</entry>
+        <entry key="slaveLink">http://10.0.0.38:8080/view/Dropbox%20Jobs/job/Securlet%20BE%20Regression-Remediation-DropBox%20PROD/ws/BEATLe/target/surefire-reports/emailable-report.html</entry>   
+        <entry key="slaveLink">http://10.0.0.38:8080/view/Dropbox%20Jobs/job/Securlet%20BE%20DropBox%20DashboardFilters%20-%20PROD/ws/BEATLe/target/surefire-reports/emailable-report.html</entry>   
+        <entry key="slaveLink">http://10.0.0.38:8080/view/GDrive%20Jobs/job/Securlet%20BE%20Regression-DashboardFilter-GDrive%20PROD/ws/BEATLe/target/surefire-reports/emailable-report.html</entry>
+        <entry key="slaveLink">http://10.0.0.38:8080/view/GDrive%20Jobs/job/Securlet%20BE%20Regression-FilePermissionsAndExposureActivities-GDrive%20PROD/ws/BEATLe/target/surefire-reports/emailable-report.html</entry>
+        <entry key="slaveLink">http://10.0.0.38:8080/view/GDrive%20Jobs/job/Securlet%20BE%20Regression-FolderPermissionsAndExposureActivities-GDrive%20PROD/ws/BEATLe/target/surefire-reports/emailable-report.html</entry>
+        <entry key="slaveLink">http://10.0.0.38:8080/view/BEATLe%20Prod/job/Securlet%20BE%20Regression-ExternalUserActivities-GDrive%20PROD/ws/BEATLe/target/surefire-reports/emailable-report.html</entry>
+        <entry key="slaveLink">http://10.0.0.38:8080/view/BEATLe%20Prod/job/Securlet%20BE%20Regression-FilesAndFolderActivities-GDrive%20PROD/ws/BEATLe/target/surefire-reports/emailable-report.html</entry>
+        <entry key="slaveLink">http://10.0.0.38:8080/view/BEATLe%20Prod/job/Securlet%20BE%20Regression-FilterAndExport-GDrive%20PROD/ws/BEATLe/target/surefire-reports/emailable-report.html</entry>
+	<entry key="slaveLink">http://10.0.0.38:8080/view/BEATLe%20Prod/job/Securlet%20BE%20Regression-GDrive-Remediation%20PROD/ws/BEATLe/target/surefire-reports/emailable-report.html</entry>
+	<entry key="slaveLink">http://10.0.0.38:8080/view/BEATLe%20Prod/job/Securlet%20BE%20Regression-GDrive-Exposure%20Metrics%20Prod/ws/BEATLe/target/surefire-reports/emailable-report.html</entry>
+        <entry key="slaveLink">http://10.0.0.38:8080/view/BEATLe%20Prod/job/Securlets%20Office365%20Mail%20Regression%20Prod/ws/BEATLe/target/surefire-reports/emailable-report.html</entry>
+	<entry key="slaveLink">http://10.0.0.38:8080/view/BEATLe%20Prod/job/Securlets%20Onedrive%20Business%20Regression%20-Prod/ws/BEATLe/target/surefire-reports/emailable-report.html</entry>
+	<entry key="slaveLink">http://10.0.0.38:8080/view/BEATLe%20Prod/job/Dashboard%20BE%20Regression%20Prod/ws/BEATLe/target/surefire-reports/emailable-report.html</entry>
+	<entry key="slaveLink">http://10.0.0.38:8080/view/BEATLe%20Prod/job/Securlet%20BE%20Regression-Office%20365%20Mail%20Exposure%20Metrics%20PROD/ws/BEATLe/target/surefire-reports/emailable-report.html</entry>
+	<entry key="slaveLink">http://10.0.0.38:8080/view/BEATLe%20Prod/job/Securlet%20Box%20Exposure%20Remediation%20BE%20Regression%20-%20Prod/ws/BEATLe/target/surefire-reports/emailable-report.html</entry>
+	<entry key="slaveLink">http://10.0.0.38:8080/view/BEATLe%20Prod/job/Securlet%20Onedrive%20Exposure%20Metrics%20-%20Prod/ws/BEATLe/target/surefire-reports/emailable-report.html</entry>
+	<entry key="slaveLink">http://10.0.0.38:8080/view/BEATLe%20Prod/job/Securlet%20Onedrive%20remediation%20BE%20Regression%20%20-%20Prod/ws/BEATLe/target/surefire-reports/emailable-report.html</entry>
+	<entry key="slaveLink">http://10.0.0.38:8080/view/BEATLe%20Prod/job/Securlet%20BE%20Service%20Now%20regression-Prod/ws/BEATLe/target/surefire-reports/emailable-report.html</entry>
+	<entry key="slaveLink">http://10.0.0.38:8080/view/BEATLe%20Prod/job/Securlets%20Salesforce%20Regression-Prod/ws/BEATLe/target/surefire-reports/emailable-report.html</entry>
+	<entry key="slaveLink">http://10.0.0.38:8080/view/BEATLe%20Prod/job/Securlets%20BE%20Regression%20Gmail%20Exposure%20and%20Remediation%20PROD/ws/BEATLe/target/surefire-reports/emailable-report.html</entry>
+	<entry key="slaveLink">http://10.0.0.38:8080/view/BEATLe%20Prod/job/Securlets%20BE%20Regression%20Gmail%20Dashboard%20and%20Metrics%20PROD/ws/BEATLe/target/surefire-reports/emailable-report.html</entry>
+	<entry key="slaveLink">http://10.0.0.38:8080/view/BEATLe%20Prod/job/Securlet%20BE%20Regression-AWS%20Prod/ws/BEATLe/target/surefire-reports/emailable-report.html</entry>
+	<entry key="slaveLink">http://10.0.0.38:8080/view/BEATLe%20Prod/job/Securlets%20BE%20Regression-Salesforce%20remediation-Prod/ws/BEATLe/target/surefire-reports/emailable-report.html</entry>
+	<entry key="slaveLink">http://10.0.0.38:8080/view/BEATLe%20Prod/job/Securlet%20BE%20Regression-Salesforce%20Exposure%20Metrics-Prod/ws/BEATLe/target/surefire-reports/emailable-report.html</entry>
+	<entry key="slaveLink">http://10.0.0.38:8080/view/BEATLe%20EOE/job/Securlet%20BE%20Regression-BOX-External-Switch-Tests-Prod/ws/BEATLe/target/surefire-reports/emailable-report.html</entry>
+	<entry key="slaveLink">http://10.0.0.38:8080/view/BEATLe%20EOE/job/Securlets%20Dashboard%20Filters%20Regression-Prod/ws/BEATLe/target/surefire-reports/emailable-report.html</entry>
+</properties>

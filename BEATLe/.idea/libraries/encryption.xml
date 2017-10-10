@@ -1,0 +1,9 @@
+<component name="libraryTable">
+  <library name="encryption">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/BEATLe/src/test/resources/dci/uploadRisks/RiskContentTypes/encryption.zip!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>

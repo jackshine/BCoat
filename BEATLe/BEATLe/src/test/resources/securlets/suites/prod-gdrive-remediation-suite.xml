@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+<suite name="DropBox Regression Test Suite" parallel="false">
+   <parameter name="environmentName" value="prod"/>
+    <parameter name="userName" value="admin@securletbeatle.com"/>
+    <parameter name="userPassword" value="Elastica1234!"/>
+    <parameter name="tenantName" value="securletbeatlecom"/>
+    <parameter name="isLoggingOn" value="true"/>
+    <parameter name="apiBaseVersion" value="v1"/>
+    <parameter name="esScriptsHostName" value="10.0.0.242"/>
+    <parameter name="esScriptsUserName" value="madmin"/>
+    <parameter name="referer" value="https://app.elastica.net/static/ng/appSecurlets/index.html"/>
+    <parameter name="tenantToken" value="H3YK/Vxr3p+qm9dfmKvmh7oYaPBJMqUsszm+LOStr4k="/>
+    <parameter name="gdriveRefreshToken" value="1/eckCHbIndshTd6zxoq5Ds13OqYondPtDxMNV2BUIzGhIgOrJDtdun6zK6XiATCKT"/>
+    <parameter name="gdriveClientId" value="531581515230-0k9p8gne8a0uh116u4fff7j93o7nsdu1.apps.googleusercontent.com"/>
+    <parameter name="gdriveClientSecret" value="EQUZEc3QoEa0EqBzHVpoMLgr"/>
+    <parameter name="gDriveaccessToken" value="ya29.2gFrwi5rwwq8fFq1JBE_iomNsjizj3TmmwTNmmRMypxcaivt5iHwn-4QoNtblcc7SITW"/>
+    <parameter name="externalgdriveRefreshToken" value="1/x--1EEIYbUPbnzdzDsivTFQ24uT6Xn3CrLu52Qve_9HBactUREZofsF9C7PrpE-j"/>
+    <parameter name="externalgdriveClientId" value="379357503205-avpf0206mrta8e52m6cpacme3g98giv7.apps.googleusercontent.com"/>
+    <parameter name="externalgdriveClientSecret" value="ovbkbH6N-RX7eETzF96US6Tb"/>
+    <parameter name="delayBetweenSaaSActivity" value="70"/>   
+    <parameter name="waitPeriodForElasticSearchEngine" value="360"/> 
+    <parameter name="maxRetryCount" value="1"/>
+    
+ <test name="GDrive Remediation Regression Test Suite" preserve-order="true" parallel="false">
+		
+        <classes>
+            <class name="com.elastica.beatle.tests.securlets.GDriveSecurletsRemediationTests">
+                <methods>
+                    <!-- GDrive Remediation Sanity Activities -->     
+                    <include name="performFolderCreateInSaasApp"/>
+                    <include name="performFileUploadInSaaSApp"/>
+                    <include name="publicExposedFile"/>
+                    <include name="validateUploadedFileInElasticaSearchEngine"/>
+                    <include name="validateRemediation"/>                  
+                </methods>
+            </class>
+        </classes>
+    </test>
+    <test name="GDrive Bulk Remediation And Prevent Remediation Regression Test Suite" preserve-order="true" parallel="false">
+		
+        <classes>
+            <class name="com.elastica.beatle.tests.securlets.GDriveSecurletsRemediationTests">
+                <methods>
+                    <!-- GDrive Remediation Sanity Activities -->
+                    <include name="validatePreventExternalUserFromSharing"/>
+                    <include name="validateBulkRemediation"/>                   
+                </methods>
+            </class>
+        </classes>
+    </test>
+</suite>

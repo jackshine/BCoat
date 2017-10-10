@@ -1,0 +1,135 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+<suite name="DCI Test Suite" parallel="tests" thread-count="20">
+
+	<listeners>
+		<listener class-name="com.elastica.beatle.PriorityListener" />
+	</listeners>
+
+	<test name="DCI Foreign Language Chinese False Positive Tests" group-by-instances="true"
+		preserve-order="true">
+		<parameter name="environmentName" value="eoe" />
+		<parameter name="cloudSocUName" value="box-admin" />
+		<parameter name="tenantName" value="dcibeatlecom" />
+		<parameter name="domainName" value="dcibeatle.com" />
+		<parameter name="saasApp" value="Box" />
+		<parameter name="apiBaseVersion" value="v1" />
+		<groups>
+			<run>
+				<include name="Chinese" />
+			</run>
+		</groups>
+		<classes>
+			<class name="com.elastica.beatle.tests.dci.risks.DCIForeignLanguageFalsePositiveTests"></class>
+		</classes>
+	</test>
+
+	<test name="DCI Foreign Language Dutch False Positive Tests" group-by-instances="true"
+		preserve-order="true">
+		<parameter name="environmentName" value="eoe" />
+		<parameter name="cloudSocUName" value="box-admin" />
+		<parameter name="tenantName" value="dciautobeatlecom" />
+		<parameter name="domainName" value="dciautobeatle.com" />
+		<parameter name="saasApp" value="Box" />
+		<parameter name="apiBaseVersion" value="v1" />
+		<groups>
+			<run>
+				<include name="Dutch" />
+			</run>
+		</groups>
+		<classes>
+			<class name="com.elastica.beatle.tests.dci.risks.DCIForeignLanguageFalsePositiveTests"></class>
+		</classes>
+	</test>
+
+	<test name="DCI Foreign Language French False Positive Tests" group-by-instances="true"
+		preserve-order="true">
+		<parameter name="environmentName" value="eoe" />
+		<parameter name="cloudSocUName" value="admin" />
+		<parameter name="tenantName" value="dciciqbeatlecom" />
+		<parameter name="domainName" value="dciciqbeatle.com" />
+		<parameter name="saasApp" value="Box" />
+		<parameter name="apiBaseVersion" value="v1" />
+		<groups>
+			<run>
+				<include name="French" />
+			</run>
+		</groups>
+		<classes>
+			<class name="com.elastica.beatle.tests.dci.risks.DCIForeignLanguageFalsePositiveTests"></class>
+		</classes>
+	</test>
+
+	<test name="DCI Foreign Language German False Positive Tests" group-by-instances="true"
+		preserve-order="true">
+		<parameter name="environmentName" value="eoe" />
+		<parameter name="cloudSocUName" value="admin" />
+		<parameter name="tenantName" value="dcimultibeatlecom" />
+		<parameter name="domainName" value="dcimultibeatle.com" />
+		<parameter name="saasApp" value="Box" />
+		<parameter name="apiBaseVersion" value="v1" />
+		<groups>
+			<run>
+				<include name="German" />
+			</run>
+		</groups>
+		<classes>
+			<class name="com.elastica.beatle.tests.dci.risks.DCIForeignLanguageFalsePositiveTests"></class>
+		</classes>
+	</test>
+	
+	<test name="DCI Foreign Language Japanese False Positive Tests" group-by-instances="true"
+		preserve-order="true">
+		<parameter name="environmentName" value="eoe" />
+		<parameter name="cloudSocUName" value="admin" />
+		<parameter name="tenantName" value="dcifileformatbeatlecom" />
+		<parameter name="domainName" value="dcifileformatbeatle.com" />
+		<parameter name="saasApp" value="Box" />
+		<parameter name="apiBaseVersion" value="v1" />
+		<groups>
+			<run>
+				<include name="Japanese" />
+			</run>
+		</groups>
+		<classes>
+			<class name="com.elastica.beatle.tests.dci.risks.DCIForeignLanguageFalsePositiveTests"></class>
+		</classes>
+	</test>
+	
+	<test name="DCI Foreign Language Korean False Positive Tests" group-by-instances="true"
+		preserve-order="true">
+		<parameter name="environmentName" value="eoe" />
+		<parameter name="cloudSocUName" value="admin" />
+		<parameter name="tenantName" value="dcimigrationbeatlecom" />
+		<parameter name="domainName" value="dcimigrationbeatle.com" />
+		<parameter name="saasApp" value="Box" />
+		<parameter name="apiBaseVersion" value="v1" />
+		<groups>
+			<run>
+				<include name="Korean" />
+			</run>
+		</groups>
+		<classes>
+			<class name="com.elastica.beatle.tests.dci.risks.DCIForeignLanguageFalsePositiveTests"></class>
+		</classes>
+	</test>
+	
+	<test name="DCI Foreign Language Spanish False Positive Tests" group-by-instances="true"
+		preserve-order="true">
+		<parameter name="environmentName" value="eoe" />
+		<parameter name="cloudSocUName" value="admin" />
+		<parameter name="tenantName" value="dciexemplarbeatlecom" />
+		<parameter name="domainName" value="dciexemplarbeatle.com" />
+		<parameter name="saasApp" value="Box" />
+		<parameter name="apiBaseVersion" value="v1" />
+		<groups>
+			<run>
+				<include name="Spanish" />
+			</run>
+		</groups>
+		<classes>
+			<class name="com.elastica.beatle.tests.dci.risks.DCIForeignLanguageFalsePositiveTests"></class>
+		</classes>
+	</test>
+
+</suite>

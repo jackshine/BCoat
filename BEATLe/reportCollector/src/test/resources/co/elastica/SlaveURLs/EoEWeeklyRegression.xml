@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE properties SYSTEM "http://java.sun.com/dtd/properties.dtd">
+<properties>
+	<entry key="slaveLink">http://10.0.0.38:8080/view/Weekly%20Audit%20Jobs/job/Audit%20S3%207ZA%20BE%20Regression%20EOE/ws/BEATLe/target/surefire-reports/emailable-report.html</entry>
+	<entry key="slaveLink">http://10.0.0.38:8080/view/Weekly%20Audit%20Jobs/job/Audit%20S3%207Z%20BE%20Regression%20EOE/ws/BEATLe/target/surefire-reports/emailable-report.html</entry>
+	<entry key="slaveLink">http://10.0.0.38:8080/view/Weekly%20Audit%20Jobs/job/Audit%20S3%20BZ2%20BE%20Regression%20EOE/ws/BEATLe/target/surefire-reports/emailable-report.html</entry>
+	<entry key="slaveLink">http://10.0.0.38:8080/view/Weekly%20Audit%20Jobs/job/Audit%20S3%20GZ%20BE%20Regression%20EOE/ws/BEATLe/target/surefire-reports/emailable-report.html</entry>
+	<entry key="slaveLink">http://10.0.0.38:8080/view/Weekly%20Audit%20Jobs/job/Audit%20S3%20ZIP%20BE%20Regression%20EOE/ws/BEATLe/target/surefire-reports/emailable-report.html</entry>
+	<entry key="slaveLink">http://10.0.0.38:8080/view/Weekly%20Audit%20Jobs/job/Audit%20SCP%207Z%20BE%20Regression%20EOE/ws/BEATLe/target/surefire-reports/emailable-report.html</entry>
+	<entry key="slaveLink">http://10.0.0.38:8080/view/Weekly%20Audit%20Jobs/job/Audit%20SCP%20BZ2%20BE%20Regression%20EOE/ws/BEATLe/target/surefire-reports/emailable-report.html</entry>
+	<entry key="slaveLink">http://10.0.0.38:8080/view/Weekly%20Audit%20Jobs/job/Audit%20SCP%20GZ%20BE%20Regression%20EOE/ws/BEATLe/target/surefire-reports/emailable-report.html</entry>
+	<entry key="slaveLink">http://10.0.0.38:8080/view/Weekly%20Audit%20Jobs/job/Audit%20SCP%20ZIP%20BE%20Regression%20EOE/ws/BEATLe/target/surefire-reports/emailable-report.html</entry>
+	<entry key="slaveLink">http://10.0.0.38:8080/view/Weekly%20Audit%20Jobs/job/Audit%20Web%20Upload%207Z%20BE%20Regression%20EOE/ws/BEATLe/target/surefire-reports/emailable-report.html</entry>
+	<entry key="slaveLink">http://10.0.0.38:8080/view/Weekly%20Audit%20Jobs/job/Audit%20Web%20Upload%20BZ2%20BE%20Regression%20EOE/ws/BEATLe/target/surefire-reports/emailable-report.html</entry>
+	<entry key="slaveLink">http://10.0.0.38:8080/view/Weekly%20Audit%20Jobs/job/Audit%20Web%20Upload%207ZA%20BE%20Regression%20EOE/ws/BEATLe/target/surefire-reports/emailable-report.html</entry>
+	<entry key="slaveLink">http://10.0.0.38:8080/view/Weekly%20Audit%20Jobs/job/Audit%20Web%20Upload%20GZ%20BE%20Regression%20EOE/ws/BEATLe/target/surefire-reports/emailable-report.html</entry>
+	<entry key="slaveLink">http://10.0.0.38:8080/view/Weekly%20Audit%20Jobs/job/Audit%20Web%20Upload%20GZ1%20BE%20Regression%20EOE/ws/BEATLe/target/surefire-reports/emailable-report.html</entry>
+	<entry key="slaveLink">http://10.0.0.38:8080/view/Weekly%20Audit%20Jobs/job/Audit%20Web%20Upload%20Zip%20BE%20Regression%20EOE/ws/BEATLe/target/surefire-reports/emailable-report.html</entry>
+</properties>

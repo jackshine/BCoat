@@ -1,0 +1,354 @@
+Dropbox:
+  AppName: Dropbox
+  Activities:
+    FolderNameUpload: qatest
+    TmpFolderUpload: qatmptest
+    FileNameUpload: glba-test.txt
+    FileNameMove: moveFile.txt
+    FileNameRename: renameFile.txt
+    FileNameCopy: copyFile.txt
+    UserIDForSharing: rahul.kumar@elastica.co
+    ExternalUser: rahulsky.java@gmail.com
+    
+    FileOperations:
+      FileTrash:
+         message: User trashed glba-test.txt 
+         name: glba-test.txt
+         Activity_type: Trash
+      FileShareOpenLink:
+         message: Opened a link glba-test.txt (non-team member)
+         name: glba-test.txt
+         Activity_type:  Share
+      FileUpload:
+         message: User added file /qatest/glba-test.txt
+         name: /qatest/glba-test.txt
+         Activity_type: Upload
+      FileRename:
+          FileRenameNew:
+           message: User trashed copyFile.txt
+           name: copyFile.txt
+           Activity_type: Trash
+          FileRenamePrevious:
+           message: User trashed copyFile.txt
+           name: copyFile.txt
+           Activity_type: Trash    
+      FileCopy:
+        message: User added file /qatmptest/copyFile.txt
+        name: /qatmptest/copyFile.txt
+        Activity_type: Upload
+      FileMove:
+        FileMoveUpload:
+         message: User added file /qatmptest/moveFile.txt
+         name: /qatmptest/moveFile.txt
+         Activity_type: Upload
+        FileMoveTrash:   
+         message: User trashed moveFile.txt
+         name: moveFile.txt
+         Activity_type: Trash
+             
+    FolderOperations:
+       FolderCreate:
+         message: User added folder /qatest
+         name: /qatest
+         Activity_type: Upload
+       FolderTrash:
+         message: User trashed qatest 
+         name: qatest
+         Activity_type: Trash
+       TmpFolderTrash:
+         message: User trashed qatmptest 
+         name: qatmptest
+         Activity_type: Trash
+         
+    ExternalUserActivities:
+       UploadFileToSharedFolder:
+           Activity_type: Upload
+           user: qa-admin@elasticaqa.net
+           message: User added file DROPBOX-RANDOM-FILE-UPLOAD-EXTERNAL-USER
+           name: DROPBOX-RANDOM-FILE-UPLOAD-EXTERNAL-USER
+           
+       UploadFileToUnsharedFolder:
+    
+    
+    BusinessActivities:
+        DeleteGroup:
+            message: Deleted a group
+            name: ElasticaBangalore
+            Activity_type: Remove
+        InviteUser:
+            message: rahulsky.java@gmail.com invited
+            Activity_type: Invite
+        SetAdminPermission:
+            message: Gave admin status
+            Activity_type: Make
+        RemoveAdminPermission:
+            message: Gave admin status
+            Activity_type: Make
+            
+            
+GDrive:
+  AppName: Google Drive
+  InsertOperationsInputFolderName: InsertOperation-QA
+  RemediationActionsInput:
+      Anyone can edit : open-writer
+      Anyone can view : open-reader
+      Anyone can comment : open-commenter
+      Any one with link can edit : open-withlink-writer
+      Any one with link can view : open-withlink-reader
+      Any one with link can comment : open-withlink-commenter
+#      Anyone with securletbeatle can edit : company-writer
+#      Anyone with securletbeatle can view : company-reader
+#      Anyone with securletbeatle can comment : company-commenter
+#      Anyone with in securletbeatle with link can edit : company-withlink-writer
+#      Anyone with in securletbeatle with link can view : company-withlink-reader
+#      Anyone with in securletbeatle with link can comment : company-withlink-commenter
+  
+  RemediationOperations:
+       PublicExposedFile:
+            Anyone can edit: anyone,writer
+            Anyone can view : anyone,reader
+            Anyone can comment : anyone,reader
+            Any one with link can edit : anyoneWithLink,writer,anyone
+            Any one with link can view : anyoneWithLink,reader,anyone
+            Any one with link can comment : anyoneWithLink,reader,anyone
+            Anyone with securletbeatle can edit : anyone
+            Anyone with securletbeatle can view : anyone
+            Anyone with securletbeatle can comment : anyone
+            Anyone with in securletbeatle with link can edit : anyone
+            Anyone with in securletbeatle with link can view : anyone
+            Anyone with in securletbeatle with link can comment : anyone
+            
+      
+  InsertOperationsInput:
+        PublicSharingWithReader:
+          role: reader
+          type: anyone
+          value: null
+        PublicSharingWithWriter:
+          role: writer
+          type: anyone
+          value: null
+        UserSharingWithReader:
+          role: reader
+          type: user
+          value: rahulsky.java@gmail.com
+        UserSharingWithWriter:
+          role: writer
+          type: user
+          value: rahulsky.java@gmail.com
+        GroupSharingWithReader:
+          role: reader
+          type: group
+          value: qatest@elasticaqa.net
+        GroupSharingWithWriter:
+          role: writer
+          type: group
+          value: qatest@elasticaqa.net
+        DomainSharingWithReader:
+          role: reader
+          type: domain
+          value: elastica.co
+        DomainSharingWithWriter:
+          role: writer
+          type: domain
+          value: elastica.co
+        
+  Activities:
+    FolderNameUpload: qatest
+    TmpFolderUpload: qatmptest
+    FileNameUpload: glba-test.txt
+    FileNameMove: moveFile.txt
+    FileNameRename: renameFile.txt
+    FileNameCopy : copyFile.txt
+    UserIDForSharing: rahul.kumar@elastica.co
+    FileAndFolderOperations:
+      FolderCreate:
+         message: User created folder QATest
+         name: QATest
+         Activity_type: Create
+      FileUpload:
+         message: User uploaded file QATest//glba-test.txt
+         name: QATest//glba-test.txt
+         Activity_type: Upload
+      FileMetaDataUpdate:
+         message: User QA Admin modified file QATest//renameFile.txt
+         name: QATest//renameFile.txt
+         Activity_type: Edit
+      FileRename:
+         message: User renamed file from QATest//fileUpdate.txt to QATest//renameFile.txt
+         name: QATest//renameFile.txt
+         Activity_type: Rename
+      FileTrash:
+         message: User trashed QATest//glba-test.txt 
+         name: QATest//glba-test.txt
+         Activity_type: Trash
+      FileDelete: 
+         message: User permanently deleted QATest//copyFile.txt from trash
+         name: QATest//copyFile.txt
+         Activity_type: Delete
+      FileCopy:
+         message: User uploaded file QATest//copyFile.txt
+         name: QATest//copyFile.txt
+         Activity_type: Upload
+      FolderTrash:
+         message: User trashed QATest 
+         name: QATest
+         Activity_type: Trash
+      FolderRestore:
+         message: User restored QATest 
+         name: QATest
+         Activity_type: Restore
+      FolderDelete:
+         message: User permanently deleted QATest from trash
+         name: QATest
+         Activity_type: Delete
+      FileRestore:
+         message: User restored QATest//glba-test.txt 
+         name: Restore
+         Activity_type: QATest//glba-test.txt
+         
+    PermissionOperations:
+        
+      ShareFileWithUserReader:
+        message: User shared InsertOperation-QA//UserSharingWithReader-value_rahulsky.java@gmail.com-role_reader-type_user
+        name: InsertOperation-QA//UserSharingWithReader-value_rahulsky.java@gmail.com-role_reader-type_user
+        Activity_type: Share
+        Role: reader
+        SharedWith: rahulsky.java@gmail.com
+      ShareFileWithUserWriter:
+        message: User shared InsertOperation-QA//UserSharingWithWriter-value_rahulsky.java@gmail.com-role_writer-type_user
+        name: InsertOperation-QA//UserSharingWithWriter-value_rahulsky.java@gmail.com-role_writer-type_user
+        Activity_type: Share
+        Role: writer
+        SharedWith: rahulsky.java@gmail.com
+      ShareFileWithGroupWriter:
+        message: User uploaded file InsertOperation-QA//GroupSharingWithWriter-value_qatest@elasticaqa.net-role_writer-type_group
+        name: InsertOperation-QA//UserSharingWithWriter-value_rahulsky.java@gmail.com-role_writer-type_user
+        Activity_type: Share
+        Role: writer
+        SharedWith: rahulsky.java@gmail.com
+      ShareFileWithGroupWriter:
+        message: User shared InsertOperation-QA//UserSharingWithWriter-value_rahulsky.java@gmail.com-role_writer-type_user
+        name: InsertOperation-QA//UserSharingWithWriter-value_rahulsky.java@gmail.com-role_writer-type_user
+        Activity_type: Share
+        Role: writer
+        SharedWith: rahulsky.java@gmail.com
+      ShareFileWithAllInternalReader:
+        message: User shared InsertOperation-QA//DomainSharingWithReader-value_elastica.co-role_reader-type_domain
+        name: InsertOperation-QA//DomainSharingWithReader-value_elastica.co-role_reader-type_domain
+        Activity_type: Share
+        Role: reader
+        SharedWith: All Internal
+      ShareFileWithAllInternalWriter:
+        message: User shared InsertOperation-QA//DomainSharingWithWriter-value_elastica.co-role_writer-type_domain
+        name: InsertOperation-QA//DomainSharingWithWriter-value_elastica.co-role_writer-type_domain
+        Activity_type: Share
+        Role: writer
+        SharedWith: All Internal
+      ShareFileWithPublicReader:
+        message: User shared InsertOperation-QA//PublicSharingWithReader-value_null-role_reader-type_anyone
+        name: InsertOperation-QA//PublicSharingWithReader-value_null-role_reader-type_anyone
+        Activity_type: Share
+        Role: reader
+        SharedWith: Public
+      ShareFileWithPublicWriter:
+        message: User shared InsertOperation-QA//PublicSharingWithWriter-value_null-role_writer-type_anyone
+        name: InsertOperation-QA//PublicSharingWithWriter-value_null-role_writer-type_anyone
+        Activity_type: Share
+        Role: writer
+        SharedWith: Public
+        
+        
+      UpdatePermission1:
+        message: User changed permission on file InsertOperation-QA//PublicSharingWithWriter-value_null-role_writer-type_anyone
+        name : InsertOperation-QA//PublicSharingWithWriter-value_null-role_writer-type_anyone
+        SharedWith: Public
+        Activity_type: Role Change
+      UpdatePermission2:
+        message: User changed permission on file InsertOperation-QA//UserSharingWithWriter-value_rahulsky.java@gmail.com-role_writer-type_user
+        name : InsertOperation-QA//UserSharingWithWriter-value_rahulsky.java@gmail.com-role_writer-type_user
+        SharedWith: rahulsky.java@gmail.com
+        Activity_type: Role Change
+      UpdatePermission3:
+        message: User changed permission on file InsertOperation-QA//DomainSharingWithWriter-value_elastica.co-role_writer-type_domain
+        name : InsertOperation-QA//DomainSharingWithWriter-value_elastica.co-role_writer-type_domain
+        SharedWith: All Internal
+        Activity_type: Role Change
+      UpdatePermission4:
+        message: User changed permission on file InsertOperation-QA//PublicSharingWithWriter-value_null-role_writer-type_anyone
+        name : InsertOperation-QA//PublicSharingWithWriter-value_null-role_writer-type_anyone
+        SharedWith: Public
+        Activity_type: Role Change
+        
+      PatchPermission1:
+        message: User changed permission on file InsertOperation-QA//PublicSharingWithWriter-value_null-role_writer-type_anyone
+        name : InsertOperation-QA//PublicSharingWithWriter-value_null-role_writer-type_anyone
+        SharedWith: Public
+        Activity_type: Role Change
+      PatchPermission2:
+        message: User changed permission on file InsertOperation-QA//UserSharingWithWriter-value_rahulsky.java@gmail.com-role_writer-type_user
+        name : InsertOperation-QA//UserSharingWithWriter-value_rahulsky.java@gmail.com-role_writer-type_user
+        SharedWith: rahulsky.java@gmail.com
+        Activity_type: Role Change
+      PatchPermission3:
+        message: User changed permission on file InsertOperation-QA//DomainSharingWithWriter-value_elastica.co-role_writer-type_domain
+        name : InsertOperation-QA//DomainSharingWithWriter-value_elastica.co-role_writer-type_domain
+        SharedWith: All Internal
+        Activity_type: Role Change
+      PatchPermission4:
+        message: User changed permission on file InsertOperation-QA//PublicSharingWithWriter-value_null-role_writer-type_anyone
+        name : InsertOperation-QA//PublicSharingWithWriter-value_null-role_writer-type_anyone
+        SharedWith: Public
+        Activity_type: Role Change
+           
+      UnShareFileWithUserReader:
+        message: User unshared InsertOperation-QA//UserSharingWithReader-value_rahulsky.java@gmail.com-role_reader-type_user
+        name: InsertOperation-QA//UserSharingWithReader-value_rahulsky.java@gmail.com-role_reader-type_user
+        Activity_type: Unshare
+        SharedWith: rahulsky.java@gmail.com
+      UnShareFileWithUserWriter:
+        message: User unshared InsertOperation-QA//UserSharingWithWriter-value_rahulsky.java@gmail.com-role_writer-type_user
+        name: InsertOperation-QA//UserSharingWithWriter-value_rahulsky.java@gmail.com-role_writer-type_user
+        Activity_type: Unshare
+        SharedWith: rahulsky.java@gmail.com
+      UnShareFileWithGroupWriter:
+        message: User unshared file InsertOperation-QA//GroupSharingWithWriter-value_qatest@elasticaqa.net-role_writer-type_group
+        name: InsertOperation-QA//UserSharingWithWriter-value_rahulsky.java@gmail.com-role_writer-type_user
+        Activity_type: Unshare
+        SharedWith: rahulsky.java@gmail.com
+      UnShareFileWithGroupWriter:
+        message: User unshared InsertOperation-QA//UserSharingWithWriter-value_rahulsky.java@gmail.com-role_writer-type_user
+        name: InsertOperation-QA//UserSharingWithWriter-value_rahulsky.java@gmail.com-role_writer-type_user
+        Activity_type: Unshare
+        SharedWith: rahulsky.java@gmail.com
+      UnShareFileWithAllInternalReader:
+        message: User unshared InsertOperation-QA//DomainSharingWithReader-value_elastica.co-role_reader-type_domain
+        name: InsertOperation-QA//DomainSharingWithReader-value_elastica.co-role_reader-type_domain
+        Activity_type: Unshare
+        SharedWith: All Internal
+      UnShareFileWithAllInternalWriter:
+        message: User unshared InsertOperation-QA//DomainSharingWithWriter-value_elastica.co-role_writer-type_domain
+        name: InsertOperation-QA//DomainSharingWithWriter-value_elastica.co-role_writer-type_domain
+        Activity_type: Unshare
+        SharedWith: All Internal
+      UnShareFileWithPublicReader:
+        message: User unshared InsertOperation-QA//PublicSharingWithReader-value_null-role_reader-type_anyone
+        name: InsertOperation-QA//PublicSharingWithReader-value_null-role_reader-type_anyone
+        Activity_type: Unshare
+        SharedWith: Public
+      UnShareFileWithPublicWriter:
+        message: User unshared InsertOperation-QA//PublicSharingWithWriter-value_null-role_writer-type_anyone
+        name: InsertOperation-QA//PublicSharingWithWriter-value_null-role_writer-type_anyone
+        Activity_type: Unshare
+        SharedWith: Public
+        
+    
+    
+          
+        
+    
+    
+    
+         
+        
+            

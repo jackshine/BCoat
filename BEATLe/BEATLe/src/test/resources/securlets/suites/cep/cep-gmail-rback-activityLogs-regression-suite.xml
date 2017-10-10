@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+ <suite name="Securlets Gmail RBAC Regression Suite PROD " parallel="false">
+	<test name="Securlets Gmail ActivityLogs RBAC Regression Tests" enabled="true">
+	<parameter name="environmentName" value="cep"/>
+	<parameter name="userName" value="admin+6@securletbeatle.com"/>
+	<parameter name="userPassword" value="Elastica123!"/>
+	<parameter name="tenantName" value="securletbeatlecom"/>
+	<parameter name="isLoggingOn" value="true"/>
+	<parameter name="apiBaseVersion" value="v1"/>
+	<parameter name="esScriptsHostName" value="10.0.0.242"/>
+	<parameter name="esScriptsUserName" value="madmin"/>
+	<parameter name="referer" value="https://app.eu.elastica.net"/>
+	<parameter name="tenantToken" value="H3YK/Vxr3p+qm9dfmKvmh7oYaPBJMqUsszm+LOStr4k="/>
+	<parameter name="saasAppUsername" value="box-admin@securletbeatle.com"/>
+	<parameter name="saasAppPassword" value="lYvA7)DZ1zD@CPQgt5zw"/>
+	<parameter name="saasAppUserRole" value="ADMIN"/>
+	<parameter name="socUserName" value="box admin securlet automation"/>
+	<parameter name="saasApp" value="GMAIL"/>
+	<parameter name="saasAppClientId" value="812119916773-hb47rkktb3p8appsc93cr8tokau0r1gs.apps.googleusercontent.com"/>
+	<parameter name="saasAppClientSecret" value="iSZQfwpG9RP8dKdusaevG1y6"/>
+	<parameter name="saasAppToken" value="1/CGpA7p1rtHOWjMGJsNRLKiCoRKIkOpV7ZLo1LPMiKBkMEudVrK5jSpoR30zcRFq6"/>
+    
+    <parameter name="saasAppClientIdTest1" value="51398359740-0k0fsk5vmgkm00m1vedi1246jqvketbu.apps.googleusercontent.com"/>
+	<parameter name="saasAppClientSecretTest1" value="kMrrAfDABmn42Ytccjgj9t5o"/>
+	<parameter name="saasAppTokenTest1" value="1/9Dvu1l5buYH5JLaZV9YoHY01EdpoCliIKKkdyIgc8XQ"/>
+	
+	<groups>
+		    <run> 
+		      <include name="REGRESSSION"/>
+		      
+		    
+		    </run>
+		  </groups>
+		  
+		<classes>
+			<class name="com.elastica.beatle.tests.gmail.GmailRBAC">
+				
+				<!-- 	 <methods>
+                        <include name="sendMail"></include> 
+                       <include name="createDraftWithAttachment"></include>
+                       
+                     <include name="fetchActivityLogs"></include> 
+                     <include name="verifySendPlainMailActivity"></include> 
+                    <include name="verifyRecievePlainMailActivity"></include>  
+                      
+                     
+                   
+                </methods>  -->
+				
+			</class>
+		</classes>
+	
+	</test>
+
+	 
+	<!-- <test name="Securlets Gmail ActivityLogs DVC Regression Tests" enabled="true">
+		<parameter name="environmentName" value="prod" />
+		<parameter name="userName" value="qa-admin+1@elasticaqa.net" />
+		<parameter name="userPassword" value="Elastica1234!" />
+		<parameter name="tenantName" value="elasticaqanet" />
+		<parameter name="isLoggingOn" value="true" />
+		<parameter name="apiBaseVersion" value="v1" />
+		<parameter name="esScriptsHostName" value="10.0.0.242" />
+		<parameter name="esScriptsUserName" value="madmin" />
+		<parameter name="referer" value="https://app.elastica.net" />
+		<parameter name="tenantToken"
+			value="8Mcfo3OUrXx33ByfPIlCCA==" />
+		<parameter name="saasAppUsername" value="box-admin@securletbeatle.com" />
+		<parameter name="saasAppPassword" value="lYvA7)DZ1zD@CPQgt5zw" />
+		<parameter name="saasAppUserRole" value="ADMIN" />
+		<parameter name="socUserName" value="box admin securlet automation" />
+		<parameter name="saasApp" value="GMAIL" />
+		<parameter name="saasAppClientId"
+			value="814105450800-m4vfqksff89eeup9h65k84tmd0ijj98a.apps.googleusercontent.com" />
+		<parameter name="saasAppClientSecret" value="ZE-Ne140UyfiYbi4vjCIbe5M" />
+		<parameter name="saasAppToken"
+			value="1/7VjDbFQ8LLr9G-IqA9_6S1Qj5xuiDgjsdCFl9q5XsWBIgOrJDtdun6zK6XiATCKT" />
+
+		<parameter name="saasAppClientIdTest1"
+			value="812119916773-hb47rkktb3p8appsc93cr8tokau0r1gs.apps.googleusercontent.com" />
+		<parameter name="saasAppClientSecretTest1" value="iSZQfwpG9RP8dKdusaevG1y6" />
+		<parameter name="saasAppTokenTest1"
+			value="1/WVs5ldMoG0dlsacbxAbDoq_6gfvOnRCQrc_XkFhreig" />
+
+		<groups>
+		    <run> 
+		      <include name="SANITY"/>
+		      
+		    
+		    </run>
+		  </groups>
+		<classes>
+			<class name="com.elastica.beatle.tests.gmail.GmailRBACDVC">
+		
+				<methods>
+					<include name="sendMailwithAttachmentSanityRBACDVC"></include>
+					<include name="verifySendMailActivitySanityRBACDVC"></include>
+				</methods>
+
+			</class>
+		</classes>
+	</test>
+	 -->
+	
+</suite>

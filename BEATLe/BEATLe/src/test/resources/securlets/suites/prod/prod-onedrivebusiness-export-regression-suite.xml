@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+<suite name="Securlets Onedrive Business Export Regression Test Suite - Production" parallel="false">
+	<parameter name="environmentName" value="prod"/>
+	<parameter name="userName" value="admin@securletO365beatle.com"/>
+	<parameter name="userPassword" value="Elastica123!"/>
+	<parameter name="tenantName" value="securletO365beatlecom"/>
+	<parameter name="isLoggingOn" value="true"/>
+	<parameter name="apiBaseVersion" value="v1"/>
+	<parameter name="esScriptsHostName" value="10.0.0.242"/>
+	<parameter name="esScriptsUserName" value="madmin"/>
+	<parameter name="referer" value="https://app.elastica.net"/>
+	<parameter name="tenantToken" value="a5fJSgfR2eLjkwqm1pzF06cNrhCguy1t904na91NOtY="/>
+	<parameter name="saasAppUsername" value="admin@securletO365beatle.com"/>
+	<parameter name="saasAppPassword" value="MHikwjETdOgeFS!"/>
+	<parameter name="saasAppUserRole" value="ADMIN"/>
+	<parameter name="saasApp" value="ONEDRIVEBUSINESS"/>
+	<parameter name="domainName" value="securletO365beatle"/>
+	<parameter name="dpoUserName" value="testuseringroup1@securleto365beatle.com"/>
+	<parameter name="dpoUserPassword" value="Elastica123!"/>
+	
+	
+	<test name="Securlets Onedrive Business Export Regression Tests - Production">
+		<groups>
+		    <run>
+		      <include name="EXPORT" /> 
+		    </run>
+		  </groups>
+		<classes>
+			<class name="com.elastica.beatle.tests.securlets.OneDriveBusinessSecurletTests">
+				<!-- <methods>
+					<include name="performUserRelatedActivities"></include>
+					<include name="userCreateActivity"></include>
+					<include name="userUpdateActivity"></include>
+					<include name="userDeleteActivity"></include>
+				</methods> -->
+			</class>
+		</classes>
+	</test>
+</suite>

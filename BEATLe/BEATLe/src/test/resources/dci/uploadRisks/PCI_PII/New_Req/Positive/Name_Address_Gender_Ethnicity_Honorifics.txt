@@ -1,0 +1,5 @@
+Name: Alex Smith
+Address: 580 Hawthorne Avenue Piedmont, South Carolina 29673
+Gender: Male
+Ethnicity White Hispanic Male
+Mrs. Julia Smith

@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+<suite name="GDrive Regression Test Suite" parallel="false">
+    <parameter name="environmentName" value="eoe"/>
+    <parameter name="userName" value="admin@securletbeatle.com"/>
+    <parameter name="userPassword" value="Elastica1234!"/>
+    <parameter name="tenantName" value="securletbeatlecom"/>
+    <parameter name="isLoggingOn" value="true"/>
+    <parameter name="apiBaseVersion" value="v1"/>
+    <parameter name="esScriptsHostName" value="10.0.0.242"/>
+    <parameter name="esScriptsUserName" value="madmin"/>
+    <parameter name="tenantToken" value="H3YK/Vxr3p+qm9dfmKvmh7oYaPBJMqUsszm+LOStr4k="/>
+    <parameter name="referer" value="https://eoe.elastica-inc.com"/>
+    <parameter name="isInternal" value="true"/> <!--   isInternal Specific to Combination filter export-->
+
+    <test name="Securlets GDrive Activities Individual Filters" preserve-order="true">
+        <classes>
+            <class name="com.elastica.beatle.tests.securlets.gdrive.GDriveIndividualFilterActivities">
+                <methods>         
+                    <include name="dashboardActivityTypeFilters"/>
+                    <include name="dashboardSeverityTypeFilters"/>  
+                    <include name="dashboardLocationTypeFilters"/>
+                    <include name="dashboardObjectTypeFilters"/> 
+                </methods>
+            </class>
+        </classes>
+    </test>
+    
+    <test name="Securlets GDrive Activities CSV Export without Filter" preserve-order="true">
+        <classes>
+            <class name="com.elastica.beatle.tests.securlets.gdrive.GDriveSecurletCSVExportWithoutFilter">
+                <methods>         
+                    <include name="performExportActivities"/>
+                    <include name="validateExportActivities"/> 
+                    <include name="validateSecurletCSVExport"/>
+                </methods>
+            </class>
+        </classes>
+    </test>
+    
+    <test name="Securlets GDrive Export with Filters" preserve-order="true">
+        <classes>
+            <class name="com.elastica.beatle.tests.securlets.gdrive.GDriveSecurletCSVExportWithFilters">
+                <methods>         
+                    <include name="csvExportOfExposedFilesWithDefaultDashBoard"/>
+                    <include name="csvExportOfExposedFilesWithFilters"/> 
+                    <include name="checkCSVExportOfExposedUsersWithFilters"/>
+                    <include name="csvExportOfRiskyFilesWithFilters"/>
+                </methods>
+            </class>
+        </classes>
+    </test>
+	
+</suite>

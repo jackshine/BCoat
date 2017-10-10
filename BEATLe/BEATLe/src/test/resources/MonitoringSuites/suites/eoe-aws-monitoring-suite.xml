@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+<suite name="EOE AWS Regression tests " parallel="false">
+
+	<test name="AWS Monitoring">
+		<classes>
+			<class name="com.elastica.beatle.tools.awsMonitorTool.AWSMonitor"></class>
+		</classes>
+	</test>
+</suite>

@@ -1,0 +1,75 @@
+
+
+
+
+
+
+
+
+
+
+
+
+Company
+Name                                                  PURCHASE
+and                                                      ORDER
+logo                                                            Brought to you by
+Street
+Address                                                         ExcelMadeEasy.com
+Zip,
+city
+                                                                If you have any
+Phone:                                    PO number   PO DATE   question or need for
+                                                                support
+Fax:                                    enter number   11/24/
+                                                        2014
+                                                                Email us to
+                                                                Admin@excelmadeeasy.com
+
+VENDOR                                 SHIP TO
+Name                                   Name                     To print, just click
+                                                                the print button.
+Company                                Company
+Name                                   Name
+Street                                 Street
+Address                                Address
+City,                                  City,
+ST ZIP                                 ST ZIP
+Phone                                  Phone
+Email
+Address
+                                       DELIVER TO
+                                       Name
+
+PO             Buyer       Date Vendor         Terms  Ship via
+Number                          No
+
+
+
+#       Part   DESCRIPTION                QTY   UNIT   AMOUNT
+        number                                 PRICE
+      1  1233  Product 1                   1   150.00   150.00
+      2  1234  Product 2                   4    72.00   288.00
+      3  1235  Service 1                   4    50.00   200.00
+                                                             -
+                                                             -
+                                                             -
+                                                             -
+                                                             -
+                                                             -
+                                                             -
+                                                             -
+                                                             -
+                                                             -
+                                                             -
+                                                             -
+                                                             -
+                                                             -
+                                                             -
+                                       TOTAL NET       $638.00
+
+
+
+
+Add any comment or other message here like your name, email
+or other comments.

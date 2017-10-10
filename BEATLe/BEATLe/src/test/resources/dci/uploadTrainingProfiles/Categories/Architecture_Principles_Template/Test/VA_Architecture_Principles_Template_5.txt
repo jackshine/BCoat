@@ -1,0 +1,216 @@
+
+Architecture Principles
+Project XXXX
+Client YYYY
+<<Note: This document provides a generic template. It may require tailoring to suit a specific client and project situation.>>
+Table of Contents
+1	Purpose of this Document	3
+2	Principle Template	4
+3	Summary of Principles	5
+4	Business Principles	6
+5	Data Principles	7
+6	Application Principles	8
+7	Technology Principles	9
+
+Document Information
+Project Name: Nancy Thompson
+Project XXX
+Prepared By: Nancy Thompson
+
+Document Version No:
+0.1
+Title:
+Architecture Principles
+Document Version Date:
+
+Reviewed By: Alan Richardson
+
+Review Date:23/12/2015
+
+Distribution List
+From
+Date
+Phone/Fax/Email: nancy.thompson@ymail.com
+
+
+
+
+
+
+
+To
+Action*
+Due Date
+Phone/Fax/Email
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+* Action Types: Approve, Review, Inform, File, Action Required, Attend Meeting, Other (please specify)
+Document Version History
+Version
+Number
+Version
+Date
+Revised By
+Description
+Filename
+
+
+
+
+
+
+
+
+
+
+1 Purpose of this Document
+This document details the Architecture Principles to which <enter organization name> adheres.
+<<The purpose of this document is to define the Architecture Principles for the relevant domain/sub-domain.
+Note 1: A principle defines the enduring rules that govern the architecture of a desired system; i.e., the target architecture. It is mandatory for principles to be considered when designing architectures.
+Note 2: A domain team may wish to create one principles document for the domain, or multiple principles documents – one per sub-domain. This section should outline the number of principles documents that exist for the domain.
+Note 3: If this document contains all the principles for a domain, Section 3 (Architecture Principles) can be split into a number of sections, one for each sub-domain, with each section heading including the sub-domain name in its title.
+Note 4: This exercise only defines the content structure and deliverable templates for the Reference Architecture. It does not define any governance or RACI aspects of these deliverables, nor state how and when these deliverables should be completed as these decisions will need to be taken by the XXXX architecture function that includes the domain teams.
+Note 5: These deliverable templates are based on generic enterprise architecture best practice, TOGAF, and the format of the current architecture documentation within XXXX.
+The purpose of this section is to provide the background and context for this document.
+Mandatory/optional: This section is mandatory.
+In terms of quality criteria, this section should make clear:
+a.	Domain/sub-domain for which this architecture principles document has been produced
+b.	Previous events and the rationale/background/context for this document
+c.	Purpose of the architecture principles and thus this document
+d.	Scope of this document which clearly outlines the architecture principles both in and out of scope
+e.	Stakeholders for the architecture principles and this document
+f.	Outline of the architecture principle documentation set>>
+2 Principle Template
+Principles are general rules and guidelines, intended to be enduring and seldom amended, that inform and support the way in which an organization sets about fulfilling its mission.
+In their turn, principles may be just one element in a structured set of ideas that collectively define and guide the organization, from values through to actions and results.
+It may be that the Architecture Principles are documented using a wiki or as an intranet rather than a text-based document. Even better would be to use a licensed TOGAF tool that captures this output.
+This document shows “typical” contents of the Architecture Principles and can be adapted to align with any TOGAF adaptation being implemented.
+Each principle will follow the template below. The template can be adapted to align with any TOGAF adaptation being implemented.
+The Name should both represent the essence of the rule as well as be easy to remember. Specific technology platforms should not be mentioned in the Name or Statement of a principle. Avoid ambiguous words in the Name and Statement such as: “support”, “open”, “consider”, and the word “avoid” itself. Be careful with “manage (ment)”, and look for unnecessary adjectives and adverbs (fluff).
+Name
+<Name of Principle>
+Reference
+<Unique identifier for the principle>
+Statement
+The Statement should succinctly and unambiguously communicate the fundamental rule. For the most part, the principles statements for managing information are similar from one organization to the next. It is vital that the principles statement be unambiguous.
+Rationale
+The Rationale should highlight the business benefits of adhering to the principle, using business terminology. Point to the similarity of information and technology principles to the principles governing business operations. Also describe the relationship to other principles, and the intentions regarding a balanced interpretation. Describe situations where one principle would be given precedence or carry more weight than another for making a decision.
+Implications
+The Implications should highlight the requirements, both for the business and IT, for carrying out the principle – in terms of resources, costs, and activities/tasks. It will often be apparent that current systems, standards, or practices would be incongruent with the principle upon adoption. The impact to the business and consequences of adopting a principle should be clearly stated. The reader should readily discern the answer to: “How does this affect me?” It is important not to oversimplify, trivialize, or judge the merit of the impact. Some of the implications will be identified as potential impacts only, and may be speculative rather than fully analyzed.
+3 Summary of Principles
+<<The purpose of this section is to provide a list of the high-level principles (in bullet or table format) that are defined in this document.
+Mandatory/optional: This section is mandatory.
+In terms of quality criteria, this section should make clear:
+a.	Descriptions of the high-level principles in this document>>
+4 Business Principles
+Name
+Primacy of Principles
+Reference
+BP01
+Statement
+These principles of information management apply to all organizations within the enterprise.
+Rationale
+The only way we can provide a consistent and measurable level of quality information to decision-makers is if all organizations abide by the principles.
+Implications
+Without this principle, exclusions, favoritism, and inconsistency would rapidly undermine the management of information.
+Information management initiatives will not begin until they are examined for compliance with the principles.
+A conflict with a principle will be resolved by changing the framework of the initiative.
+
+Mandatory/Advisory
+Principle Review Reason
+Review Date
+<Reflects whether the principle is mandatory (e.g., regulatory) or advisory.>
+<Circumstances under which the principle should be reviewed in order to ensure its validity.>
+<Latest review date> 
+
+Name
+<Name of Principle>
+Reference
+
+Statement
+
+Rationale
+
+Implications
+
+5 Data Principles
+Name:Stephen Patterson
+<Name of Principle>
+Reference
+
+Statement
+
+Rationale
+
+Implications
+
+
+Name
+<Name of Principle>
+Reference
+
+Statement
+
+Rationale
+
+Implications
+
+6 Application Principles
+Name
+<Name of Principle>
+Reference
+
+Statement
+
+Rationale
+
+Implications
+
+
+Name
+<Name of Principle>
+Reference
+
+Statement
+
+Rationale
+
+Implications
+
+7 Technology Principles
+Name
+<Name of Principle>
+Reference
+
+Statement
+
+Rationale
+
+Implications
+
+
+Name
+<Name of Principle>
+Reference
+
+Statement
+
+Rationale
+
+Implications
+
+

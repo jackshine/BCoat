@@ -1,0 +1,10 @@
+Social Security No: 576-55-4600
+age 32 years old
+name= Alex Smith
+Email: lex@gmail.com
+date of birth 27-08-1991
+Address:
+Street: 4589 SW Bonnie St.
+City: Oakland
+State: California
+Zip Code: 97455

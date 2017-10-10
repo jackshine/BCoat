@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+<suite name="Protect Test Suite">
+	<parameter name="environmentName" value="qavpc"/>
+	<parameter name="userName" value="qa-admin@o365security.net"/>
+	<parameter name="userPassword" value="Elastica@123"/>
+	<parameter name="tenantName" value="o365securitynet"/>
+	<parameter name="isLoggingOn" value="true"/>
+	<parameter name="apiBaseVersion" value="v1"/>
+	<parameter name="apiserverHostName" value="qa-vpc-api.elastica-inc.com"/>
+	<parameter name="esScriptsHostName" value="10.0.0.242"/>
+	<parameter name="esScriptsUserName" value="madmin"/>
+	<parameter name="referer" value="https://qa-vpc-ui.elastica-inc.com"/>
+	<parameter name="tenantToken" value="rJu5qTHa9428sYsdpxO4eg=="/>
+	<parameter name="saasAppUserRole" value="ADMIN"/>
+	<parameter name="saasApp" value="Office365"/>
+	<parameter name="saasAppUsername" value="qa-admin@o365security.net"/>
+	<parameter name="saasAppPassword" value="uF4$WCFj8zr@peh"/>
+	<parameter name="domainName" value="o365securitynet"/>
+	
+	<test name="Protect Threatscore O365 Tests">
+		<classes>
+			<class name="com.elastica.beatle.tests.protect.threatscore.O365ThreatScoreTests"></class>
+		</classes>
+	</test>
+</suite>

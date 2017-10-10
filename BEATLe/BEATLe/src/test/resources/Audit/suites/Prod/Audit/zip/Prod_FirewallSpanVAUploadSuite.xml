@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+<suite name="Audit Test Suite" parallel="instances" thread-count="9">
+	<parameter name="userName" value="syed.muzaffar@elastica.net"></parameter>
+	<parameter name="userPassword" value="WX1tTwI9SYMdhCq2BD1%"></parameter>
+	<parameter name="environmentName" value="prod"></parameter>
+	<parameter name="tenantName" value="elasticanet"></parameter>
+	<parameter name="isLoggingOn" value="true"></parameter>
+	<parameter name="apiBaseVersion" value="v1"></parameter>
+	<parameter name="loadApparraziServicesCheck" value="yes" />
+	<test name="Audit SpanVA Regression Tests">
+		<classes>
+			<class name="com.elastica.beatle.tests.audit.AuditSpanVATests">
+			
+			<methods>
+			<exclude name="testGetRegistrationKeyDetailsForNewAgent"/>
+			<exclude name="deleteAgent"/>
+			
+			
+			</methods>
+			</class>
+			
+		
+		</classes>
+	</test>	
+	
+	
+</suite>

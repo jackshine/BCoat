@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+<suite name="Audit Test Suite" parallel="instances" thread-count="3">
+	<!-- <parameter name="userName" value="bhaskar.maddi@brr1.com"></parameter>
+	<parameter name="userPassword" value="MyElastica@123"></parameter>
+	<parameter name="environmentName" value="eoe"></parameter>
+	<parameter name="tenantName" value="brr1com"></parameter>
+	<parameter name="isLoggingOn" value="true"></parameter>
+	<parameter name="referer" value="https://eoe.elastica-inc.com" />
+	<parameter name="apiBaseVersion" value="v1"></parameter>
+	<parameter name="spanvaip" value="10.0.61.180" />
+	<parameter name="spanvausername" value="admin" />
+	<parameter name="spanvapwd" value="Admin123!" />
+	<parameter name="spanvaAgentName" value="AnuvrathSpanvaMachine" />
+	<parameter name="tenantToken" value="NmlUO6DvvnX+iH6RdyPaxA==" /> -->
+	
+	<parameter name="userName" value="user@auditweeklyscp.co"></parameter>
+	<parameter name="userPassword" value="Elastica@123"></parameter>
+	<parameter name="environmentName" value="eoe"></parameter>
+	<parameter name="tenantName" value="auditweeklyscpco"></parameter>
+	<parameter name="isLoggingOn" value="true"></parameter>
+	<parameter name="referer" value="https://eoe.elastica-inc.com" />
+	<parameter name="apiBaseVersion" value="v1"></parameter>
+	<parameter name="tenantToken" value="NV3a35KFHmxDYZGk3jviwIjwfpY5A2Geg+2ugXIPGGk=" />
+	<parameter name="spanvaip" value="10.0.63.147" />
+	<parameter name="spanvausername" value="admin" />
+	<parameter name="spanvapwd" value="Admin123!" />
+	<parameter name="spanvaAgentName" value="EOE_SpanVaAgent" />
+	<parameter name="loadApparraziServicesCheck" value="no" />
+	
+	<test name="Audit SpanVA Syslog transport test on Latest image">
+		<classes>
+			<class name="com.elastica.beatle.audit.factoryClass.AuditSpanVASyslogLatestImageTestsFactory"/>
+		</classes>
+	</test>	
+</suite>

@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+<suite name="Protect Smoke Test Suite - EU">
+	<test name="Protect Sanity Tests">
+		<parameter name="environmentName" value="cep" />
+		<parameter name="userName" value="admin@protectbeatle.com" />
+		<parameter name="userPassword" value="Elastica456!" />
+		<parameter name="tenantName" value="protectbeatlecom" />
+		<parameter name="isLoggingOn" value="true" />
+		<parameter name="apiBaseVersion" value="v1" />
+		<parameter name="apiserverHostName" value="api-cep.elastica.net" />
+		<parameter name="tenantToken"
+			value="nIzqjM7QUjS4OcWe2Oti74jwfpY5A2Geg+2ugXIPGGk=" />
+		<classes>
+			<class
+				name="com.elastica.beatle.tests.protect.dataexposure.ProtectSanityTests">
+				<methods>
+					<include name="testProtect"></include>
+				</methods>
+			</class>
+		</classes>
+	</test>
+</suite>

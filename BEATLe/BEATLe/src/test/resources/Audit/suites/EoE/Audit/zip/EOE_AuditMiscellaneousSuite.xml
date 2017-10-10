@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+<suite name="Audit Test Suite" parallel="instances" thread-count="15">
+   <parameter name="userName" value="user@auditbegative.co"></parameter>
+	<parameter name="userPassword" value="Elastica#123"></parameter>
+	<parameter name="environmentName" value="eoe"></parameter>
+	<parameter name="referer" value="https://eoe.elastica-inc.com" />
+	<parameter name="tenantName" value="auditbegativeco"></parameter>
+	<parameter name="apiBaseVersion" value="v1"></parameter>
+		<parameter name="loadApparraziServicesCheck" value="yes" />
+	<test name="Audit Negative Regression Tests">
+		<classes>
+			<class name="com.elastica.beatle.audit.factoryClass.AuditMiscellanousFactory"></class>
+		</classes>
+	</test>	
+</suite>

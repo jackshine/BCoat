@@ -1,0 +1,193 @@
+anadrol
+053.314.328-40 Identificação
+custom_dictionaries_only
+custom_terms_only
+ CREDIT CARD STATEMENT
+
+Wells Fargo
+
+SEND PAYMENT TO: 
+1015 EAST BOBBY COURTMILLERSVILLE, MISSOURI - 37072
+
+Social Security Number 098-32-5068
+Name Alex Smith 
+
+ACCOUNT NUMBER	NAME 			STATEMENT DATE		PAYMENT DUE DATE
+0987-527-810 		Alex Smith	10/01/2015		11/07/2015
+CREDIT LIMIT 		CREDIT AVAILABLE	NEW BALANCE	MINIMUM PAYMENT
+$5,000.00 		3,477.98		$1,522.02 		$69.87
+
+This Month’s Activity:
+TRANSACTION DATE
+POST DATE
+TRANSACTION DESCRIPTION
+AMOUNT
+09/05/2015
+09/07/2015
+Safeway
+101.01
+#include <stdio.h>int check_anagram(char [], char []);int main(){   char a[100], b[100];   int flag;   printf("Enter first string\n");   gets(a);   printf("Enter second string\n");   gets(b);   flag = check_anagram(a, b);   if (flag == 1)      printf("\"%s\" and \"%s\" are anagrams.\n", a, b);   else      printf("\"%s\" and \"%s\" are not anagrams.\n", a, b);   return 0;}int check_anagram(char a[], char b[]){   int first[26] = {0}, second[26] = {0}, c = 0;   while (a[c] != '\0')   {      first[a[c]-'a']++;      c++;   }   c = 0;   while (b[c] != '\0')   {      second[b[c]-'a']++;      c++;   }   for (c = 0; c < 26; c++)   {      if (first[c] != second[c])         return 0;   }   return 1;}Application to Establish an Accessory Dwelling Unit or Backyard Cottage
+
+City of Seattle
+
+Department of Planning and Development
+
+Application to Establish an Accessory Dwelling Unit
+I am (check one)
+Applying to create a new accessory dwelling unit.
+Applying to legalize an existing unauthorized unit. As reflected in King County real estate
+records, I purchased the lot on which the unauthorized unit is located less than one year ago,
+and am submitting proof of this purchase. (No penalty)
+Applying to voluntarily legalize an existing unauthorized unit. I may be subject to civil penalties until the permit process is completed.
+Project Number:987525
+Address: 60 Vine Street Noblesville, Indiana 46060
+Owner: Jeffrey Hall
+
+Daytime Phone # 154-087-7612
+
+Assessor’s Parcel Number:1098745
+Submit this form along with required plans and other documents.
+Parking Waiver Request, if necessary
+Not located within a Residential Parking Zone (RPZ)
+Located within a RPZ; parking waiver study included
+Phone:154-087-7612
+
+Name(s) of Tenant(s)
+
+Phone:154-933-0812
+Phone:154-254-8934
+Owner Occupancy Covenant, completed, notarized, recorded; original to DPD.
+Date Unit was Created (to best of your knowledge):02/02/2016
+Value of Construction Work Needed to Legalize Unit:
+Copy of the Contractor’s Registration/Lien Law Form (completed)
+Copy of Agent’s Authorization Letter from Owner (if agent)
+Applicant’s Name: Kimberly    Harris		
+
+Date received:09/03/2016
+(PLEASE PRINT)
+
+Applicant Signature		
+
+Date signed:09/03/2016
+
+Relationship of applicant: (circle one) owner, agent, architect, contractor, engineer
+Receipt #:94			
+
+Date of receipt: 10/03/2016
+
+For DPD Use Only (must be completed)
+Urban Village /
+Urban Center
+
+Application
+Parking
+
+Parking
+Waiver Granted
+
+# of Parking
+Spaces Provided
+
+Unit Square Footage
+
+_______ Detached
+(BYC)
+
+No
+
+No
+
+No
+
+___________ space
+
+___________ space
+
+_______ Attached
+(ADU)
+
+Page 1 of 2
+
+Application to Establish an Accessory Dwelling Unit or Backyard Cottage
+
+City of Seattle
+
+Department of Planning and Development
+
+Application to Establish a Backyard Cottage
+I am (check one):
+Applying to create a new accessory dwelling unit.
+Applying to legalize an existing unauthorized unit. As reflected in King County real estate
+records, I purchased the lot on which the unauthorized unit is located less than one year ago,
+and am submitting proof of this purchase. (No penalty)
+Applying to voluntarily legalize an existing unauthorized unit. I may be subject to civil penalties until the permit process is completed.
+Project Number
+Address
+Owner
+
+Daytime Phone #165-892-0982
+
+Assessor’s Parcel Number
+Submit this form along with required plans and other documents.
+Parking Waiver Request, if necessary
+Not located within a Residential Parking Zone (RPZ)
+Located within a RPZ; parking waiver study included
+Phone:
+
+Name(s) of Tenant(s):Alice    Long
+
+Phone:
+Phone:
+Owner Occupancy Covenant, completed, notarized, recorded; original to DPD.
+Date Unit was Created (to best of your knowledge):
+Value of Construction Work Needed to Legalize Unit:
+Copy of the Contractor’s Registration/Lien Law Form (completed)
+Copy of Agent’s Authorization Letter from Owner (if agent)
+Applicant’s Name		
+
+Date received
+(PLEASE PRINT)
+
+Applicant Signature		
+
+Date signed
+
+Relationship of applicant: (circle one) owner, agent, architect, contractor, engineer
+Receipt #			
+
+Date of receipt	
+
+For DPD Use Only (must be completed for units in single family zones)
+Urban Village /
+Urban Center
+
+Application
+Parking
+
+Parking
+Waiver Granted
+
+# of Parking
+Spaces Provided
+
+Unit Square Footage
+
+_______ Detached
+(BYC)
+
+Yes __ No __
+
+Yes __ No __
+
+Yes __ No __
+
+___________ space
+
+___________ space
+
+_______ Attached
+(ADU)
+
+Page 2 of 2
+
+

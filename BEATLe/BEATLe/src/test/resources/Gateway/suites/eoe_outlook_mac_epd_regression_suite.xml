@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+<suite name="GW - StreamIQ OutLook Mac Client EPD Regression Suite" parallel="false">
+	<parameter name="environmentName" value="eoe"/>
+	<parameter name="userName" value="admin@gatewayo365beatle.com"/>
+	<parameter name="userPassword" value="Elastica12!@"/>
+	<parameter name="tenantName" value="gatewayo365beatlecom"/>
+	<parameter name="tenantDomainName" value="gatewayo365beatle.com"/>
+	<parameter name="isLoggingOn" value="true"/>
+	<parameter name="apiBaseVersion" value="v1"/>
+	<parameter name="saasApp" value="OutLookMac"/>
+	
+	<test name="GW - StreamIQ OutLook Mac Client EPD Regression Test Suite">
+		<parameter name="saasAppUsername" value="testuser1@gatewayo365beatle.com"/>
+		<classes>
+			<class name="com.elastica.beatle.tests.gateway.mac.OutLookClientTest">
+			</class>
+		</classes>
+	</test>
+</suite>

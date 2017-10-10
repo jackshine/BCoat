@@ -1,0 +1,231 @@
+{
+  "meta": {
+    "limit": 22,
+    "next": null,
+    "offset": 0,
+    "previous": null,
+    "total_count": 22
+  },
+  "objects": [
+    {
+      "attribute_category": "Administrative",
+      "attribute_description": "",
+      "attribute_id": 11,
+      "attribute_name": "Admin Audit Trail",
+      "attribute_risk_bucket": "Administrative",
+      "attribute_weight": 3,
+      "id": "55f78639bf83126bae0f9446",
+      "resource_uri": "/auditbegativeco/api/admin/v1/tenantriskweights/55f78639bf83126bae0f9446/"
+    },
+    {
+      "attribute_category": "Access",
+      "attribute_description": "",
+      "attribute_id": 12,
+      "attribute_name": "Federated Identity Management",
+      "attribute_risk_bucket": "Access",
+      "attribute_weight": 3,
+      "id": "55f78639bf83126bae0f9450",
+      "resource_uri": "/auditbegativeco/api/admin/v1/tenantriskweights/55f78639bf83126bae0f9450/"
+    },
+    {
+      "attribute_category": "Access",
+      "attribute_description": "",
+      "attribute_id": 13,
+      "attribute_name": "Brute-force protection",
+      "attribute_risk_bucket": "Access",
+      "attribute_weight": 3,
+      "id": "55f78639bf83126bae0f9468",
+      "resource_uri": "/auditbegativeco/api/admin/v1/tenantriskweights/55f78639bf83126bae0f9468/"
+    },
+    {
+      "attribute_category": "Access",
+      "attribute_description": "",
+      "attribute_id": 14,
+      "attribute_name": "Multi-factor Authentication",
+      "attribute_risk_bucket": "Access",
+      "attribute_weight": 3,
+      "id": "55f78639bf83126bae0f944e",
+      "resource_uri": "/auditbegativeco/api/admin/v1/tenantriskweights/55f78639bf83126bae0f944e/"
+    },
+    {
+      "attribute_category": "Access",
+      "attribute_description": "",
+      "attribute_id": 15,
+      "attribute_name": "Password Quality Rules",
+      "attribute_risk_bucket": "Access",
+      "attribute_weight": 3,
+      "id": "55f78639bf83126bae0f9454",
+      "resource_uri": "/auditbegativeco/api/admin/v1/tenantriskweights/55f78639bf83126bae0f9454/"
+    },
+    {
+      "attribute_category": "Access",
+      "attribute_description": "",
+      "attribute_id": 16,
+      "attribute_name": "Access Control",
+      "attribute_risk_bucket": "Access",
+      "attribute_weight": 1,
+      "id": "55f78639bf83126bae0f9442",
+      "resource_uri": "/auditbegativeco/api/admin/v1/tenantriskweights/55f78639bf83126bae0f9442/"
+    },
+    {
+      "attribute_category": "Access",
+      "attribute_description": "",
+      "attribute_id": 17,
+      "attribute_name": "Enterprise Identity Integration",
+      "attribute_risk_bucket": "Access",
+      "attribute_weight": 3,
+      "id": "55f78639bf83126bae0f944c",
+      "resource_uri": "/auditbegativeco/api/admin/v1/tenantriskweights/55f78639bf83126bae0f944c/"
+    },
+    {
+      "attribute_category": "Administrative",
+      "attribute_description": "",
+      "attribute_id": 18,
+      "attribute_name": "Policies",
+      "attribute_risk_bucket": "Administrative",
+      "attribute_weight": 3,
+      "id": "55f78639bf83126bae0f9462",
+      "resource_uri": "/auditbegativeco/api/admin/v1/tenantriskweights/55f78639bf83126bae0f9462/"
+    },
+    {
+      "attribute_category": "Administrative",
+      "attribute_description": "",
+      "attribute_id": 19,
+      "attribute_name": "Role Based Access Control",
+      "attribute_risk_bucket": "Administrative",
+      "attribute_weight": 3,
+      "id": "55f78639bf83126bae0f945a",
+      "resource_uri": "/auditbegativeco/api/admin/v1/tenantriskweights/55f78639bf83126bae0f945a/"
+    },
+    {
+      "attribute_category": "Administrative",
+      "attribute_description": "",
+      "attribute_id": 20,
+      "attribute_name": "User Audit Trail",
+      "attribute_risk_bucket": "Administrative",
+      "attribute_weight": 3,
+      "id": "55f78639bf83126bae0f9452",
+      "resource_uri": "/auditbegativeco/api/admin/v1/tenantriskweights/55f78639bf83126bae0f9452/"
+    },
+    {
+      "attribute_category": "Data",
+      "attribute_description": "",
+      "attribute_id": 21,
+      "attribute_name": "Data at Rest Encryption",
+      "attribute_risk_bucket": "Data",
+      "attribute_weight": 1,
+      "id": "55f78639bf83126bae0f9466",
+      "resource_uri": "/auditbegativeco/api/admin/v1/tenantriskweights/55f78639bf83126bae0f9466/"
+    },
+    {
+      "attribute_category": "Data",
+      "attribute_description": "",
+      "attribute_id": 22,
+      "attribute_name": "Data in Motion Encryption",
+      "attribute_risk_bucket": "Data",
+      "attribute_weight": 3,
+      "id": "55f78639bf83126bae0f9456",
+      "resource_uri": "/auditbegativeco/api/admin/v1/tenantriskweights/55f78639bf83126bae0f9456/"
+    },
+    {
+      "attribute_category": "Data",
+      "attribute_description": "",
+      "attribute_id": 24,
+      "attribute_name": "Data Sharing Controls",
+      "attribute_risk_bucket": "Data",
+      "attribute_weight": 3,
+      "id": "55f78639bf83126bae0f9444",
+      "resource_uri": "/auditbegativeco/api/admin/v1/tenantriskweights/55f78639bf83126bae0f9444/"
+    },
+    {
+      "attribute_category": "Informational",
+      "attribute_description": "",
+      "attribute_id": 25,
+      "attribute_name": "Type of Service",
+      "attribute_risk_bucket": "Informational",
+      "attribute_weight": 1,
+      "id": "55f78639bf83126bae0f945e",
+      "resource_uri": "/auditbegativeco/api/admin/v1/tenantriskweights/55f78639bf83126bae0f945e/"
+    },
+    {
+      "attribute_category": "Informational",
+      "attribute_description": "",
+      "attribute_id": 26,
+      "attribute_name": "Type of Clients",
+      "attribute_risk_bucket": "Informational",
+      "attribute_weight": 1,
+      "id": "55f78639bf83126bae0f9458",
+      "resource_uri": "/auditbegativeco/api/admin/v1/tenantriskweights/55f78639bf83126bae0f9458/"
+    },
+    {
+      "attribute_category": "Compliance",
+      "attribute_description": "",
+      "attribute_id": 27,
+      "attribute_name": "Compliance Certifications",
+      "attribute_risk_bucket": "Compliance",
+      "attribute_weight": 3,
+      "id": "55f78639bf83126bae0f9440",
+      "resource_uri": "/auditbegativeco/api/admin/v1/tenantriskweights/55f78639bf83126bae0f9440/"
+    },
+    {
+      "attribute_category": "Compliance",
+      "attribute_description": "",
+      "attribute_id": 28,
+      "attribute_name": "SLA",
+      "attribute_risk_bucket": "Compliance",
+      "attribute_weight": 3,
+      "id": "55f78639bf83126bae0f9464",
+      "resource_uri": "/auditbegativeco/api/admin/v1/tenantriskweights/55f78639bf83126bae0f9464/"
+    },
+    {
+      "attribute_category": "Service",
+      "attribute_description": "",
+      "attribute_id": 29,
+      "attribute_name": "Hosting Service",
+      "attribute_risk_bucket": "Service",
+      "attribute_weight": 1,
+      "id": "55f78639bf83126bae0f9448",
+      "resource_uri": "/auditbegativeco/api/admin/v1/tenantriskweights/55f78639bf83126bae0f9448/"
+    },
+    {
+      "attribute_category": "Service",
+      "attribute_description": "",
+      "attribute_id": 30,
+      "attribute_name": "Multi-tenancy Support",
+      "attribute_risk_bucket": "Service",
+      "attribute_weight": 3,
+      "id": "55f78639bf83126bae0f945c",
+      "resource_uri": "/auditbegativeco/api/admin/v1/tenantriskweights/55f78639bf83126bae0f945c/"
+    },
+    {
+      "attribute_category": "Business",
+      "attribute_description": "",
+      "attribute_id": 31,
+      "attribute_name": "Financial Stability",
+      "attribute_risk_bucket": "Business",
+      "attribute_weight": 1,
+      "id": "55f78639bf83126bae0f944a",
+      "resource_uri": "/auditbegativeco/api/admin/v1/tenantriskweights/55f78639bf83126bae0f944a/"
+    },
+    {
+      "attribute_category": "Data",
+      "attribute_description": "",
+      "attribute_id": 97,
+      "attribute_name": "Data Handling",
+      "attribute_risk_bucket": "Data",
+      "attribute_weight": 3,
+      "id": "55f78639bf83126bae0f9460",
+      "resource_uri": "/auditbegativeco/api/admin/v1/tenantriskweights/55f78639bf83126bae0f9460/"
+    },
+    {
+      "attribute_category": "Data",
+      "attribute_description": "",
+      "attribute_id": 129,
+      "attribute_name": "HTTP Security Headers",
+      "attribute_risk_bucket": "Data",
+      "attribute_weight": 3,
+      "id": "56625cdf6c8a047a178ec4fd",
+      "resource_uri": "/auditbegativeco/api/admin/v1/tenantriskweights/56625cdf6c8a047a178ec4fd/"
+    }
+  ]
+}

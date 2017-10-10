@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE properties SYSTEM "http://java.sun.com/dtd/properties.dtd">
+<properties>
+	<comment> Dashboard API Configuration</comment>
+	<entry key="getDashboardUsersData">/dashboardapi/getUsersData</entry>
+	<entry key="getDashboardPoliciesData">/dashboardapi/getPoliciesData</entry>	
+	<entry key="getPolicyAlertsData">/dashboardapi/getPolicyAlertsData</entry>
+	<entry key="getThreadAlertsData">/dashboardapi/getThreatAlertsData</entry>
+	<entry key="getAuditServiceData">/dashboardapi/getServicesData</entry>
+	<entry key="getMapData">/dashboardapi/getGeoMapData</entry>
+	<entry key="getDashboardUserThreadScore">/dashboard/userthreatscore/</entry>
+	<entry key="getBlockedUsers">/controls/get_blocks</entry>
+	<entry key="detectPreferenceAPI">/admin/analytics/postanomalyvalues</entry>
+	<entry key="getUserDetailsAPI">/user/account</entry>
+	<entry key="updateUserDetailsAPI">/{tenantName}/api/user/v1/myinfo/{id}/</entry>
+	<entry key="getCloudServiceAnamolies">/admin/application/list/cloud_service_anomalies</entry>
+	
+	<entry key="getEsLogs">/eslogs/displaylogs/</entry>
+	<entry key="getUserData">/eslogs/getUserThreatsData/</entry>
+	<entry key="getTotalUsers">/admin/user/ng/list/0</entry>
+	<entry key="getPolicyList">/controls/list</entry>
+	<entry key="getAnamoly">/admin/application/list/get_anomaly_logs</entry>
+	<entry key="getAuditSummary">/{tenantName}/api/admin/{version}/audit/summary</entry>
+</properties>

@@ -1,0 +1,207 @@
+
+===============================================================================
+                            ****** Overview ******
+                                   Invoice_1
+                                   Invoice_2
+                                     Help
+                                       ©
+===============================================================================
+****** Sheet 1: Invoice 1 ******
+ABC Pvt Ltd
+[i_bea9993e2ff26d53_html_2b961ded.png]            INVOICE  [i_bea9993e2ff26d53_html_4f77300d.png]
+153, Park
+Haven                                                      © 2010-2014 Vertex42 LLC
+New York,                                          4/14/
+NY 10001                                    DATE    2016   Invoice_Template
+Phone:
+[253987-                                 INVOICE
+1049]                                          # [123456]
+Fax: [243-                              CUSTOMER
+916-7684]                                     ID   [123]
+Website:                                           5/14/
+newabc.com                              DUE DATE    2016
+
+
+BILL TO
+Alex Smith
+Cobblestone
+Court                                                      [i_bea9993e2ff26d53_html_9a924a54.png]
+Kingston                                                   HOW TO SEND AN INVOICE
+New York                                                   1) Save or Print the worksheet as a PDF
+12401
+153-324-                                                   2) Email the PDF to the client
+1289
+
+DESCRIPTION                               TAXED   AMOUNT
+[Service Fee]                                      230.00
+[Labor: 5 hours at $75/hr]                         375.00
+                                                           ← Place an &quot;X&quot; in the Taxed column if the amount is
+[Parts]                                      X     345.00  Taxable
+
+
+
+
+                                   [42] Subtotal   950.00
+                                                           ← This sums the amounts with an &quot;X&quot; in the Taxed
+                                        Taxable    345.00  column
+OTHER COMMENTS                          Tax rate   6.250%  ← Enter the Tax Rate
+1. Total payment due in 30 days         Tax due     21.56
+2. Please include the invoice                              ← You could change the label &quot;Other&quot; to
+number on your check                    Other           -  &quot;Shipping&quot; or &quot;Discount&quot;
+                                        TOTAL     $971.56
+
+                                         Make all checks
+                                           payable to
+                                           [Your Company
+                                               Name]
+
+
+   If you have any questions about this invoice, please
+                          contact
+                         [Name, Phone #, E-mail]
+                     Thank You For Your Business!
+
+===============================================================================
+****** Sheet 2: Invoice 2 ******
+Company Name
+[i_bea9993e2ff26d53_html_2b961ded.png]              INVOICE  [i_bea9993e2ff26d53_html_4f77300d.png]
+[Street
+Address]                                                     © 2010-2014 Vertex42 LLC
+                                                     4/14/
+[City, ST ZIP]                                DATE    2016   Invoice_Template
+Phone: [000-                               INVOICE
+000-0000]                                        # [123456]
+Fax: [000-000-                            CUSTOMER
+0000]                                           ID   [123]
+Website:                                             5/14/
+somedomain.com                            DUE DATE    2016
+
+
+BILL TO
+[Name]
+[Company Name]                                               [i_bea9993e2ff26d53_html_9a924a54.png]
+[Street                                                      HOW TO SEND AN INVOICE
+Address]
+[City, ST ZIP]                                               1) Save or Print the worksheet as a PDF
+[Phone]                                                      2) Email the PDF to the client
+
+DESCRIPTION            UNIT PRICE    QTY    TAXED   AMOUNT
+[Service Fee]                 150.00                 150.00
+[Labor @ $75/
+hr]                            75.00   5             375.00
+                                                             ← Place an &quot;X&quot; in the Taxed column if the amount is
+[Parts]                        25.00   3       X      75.00  Taxable
+                                                          -
+                                                          -
+                                                          -
+                                                          -
+                                                          -
+                                                          -
+                                                          -
+                                                          -
+                                                          -
+                                                          -
+                                                          -
+                                                          -
+                                                          -
+                                     [42] Subtotal   600.00
+                                                             ← This sums the amounts with an &quot;X&quot; in the Taxed
+                                          Taxable     75.00  column
+OTHER COMMENTS                            Tax rate   6.250%  ← Enter the Tax Rate
+1. Total payment due in 30 days           Tax due      4.69
+2. Please include the invoice number                         ← You could change the label &quot;Other&quot; to
+on your check                             Other           -  &quot;Shipping&quot; or &quot;Discount&quot;
+                                          TOTAL     $604.69
+
+                                           Make all checks
+                                             payable to
+                                             [Your Company
+                                                 Name]
+
+
+     If you have any questions about this invoice, please
+                            contact
+                           [Name, Phone #, E-mail]
+                       Thank You For Your Business!
+
+===============================================================================
+****** Sheet 3: Help ******
+HELP
+                         [i_bea9993e2ff26d53_html_3792a2d1.png]
+http://www.vertex42.com/
+ExcelTemplates/excel-                                   © 2014 Vertex42 LLC
+invoice-template.html
+
+Getting Started
+                         Customize the template with
+                         your company name, address,
+                         and other contact
+                         information. Then, save a
+                         backup of the file to use as
+                         a template for future
+                         invoices.
+
+                         For repeat customers, update
+                         the Bill To section and
+                         customer ID and save a backup
+                         of the invoice to use as a
+                         template for future invoices
+                         to that specific customer.
+                         You may want to name the file
+                         something like &quot;Invoice
+                         Template - Customer
+                         Name.&quot;
+
+                         Taxed
+                         Place an &quot;x&quot; in the
+                         Taxed column if the amount is
+                         Taxable. The Taxable subtotal
+                         is the sum of the amounts for
+                         the items with an
+                         &quot;x&quot; in the Taxed
+                         column.
+
+                         Other
+                         Just above the Total, you
+                         will see a field labeled
+                         &quot;Other.&quot; This can
+                         be changed to whatever you
+                         want, such as
+                         &quot;Shipping.&quot;
+
+Sending an Invoice to a
+Customer
+f26d53_html_3792a2d1.png]
+
+By Vertex42.com
+http://www.vertex42.com/ExcelTemplates/excel-invoice-template.html
+
+© 2010-2014 Vertex42 LLC
+
+This spreadsheet, including all worksheets and associated content is
+considered a copyrighted work under the United States and other copyright
+laws.
+
+Do not submit copies or modifications of this template to any website or
+online template gallery.
+
+Please review the following license agreement to learn how you may or may not
+use this template. Thank you.
+
+See_License_Agreement
+http://www.vertex42.com/licensing/EULA_privateuse.html
+
+Do not delete this worksheet. If necessary, you may hide it by right-clicking
+on the tab and selecting Hide.
+
+
+
+
+
+
+
+
+
+
+
+

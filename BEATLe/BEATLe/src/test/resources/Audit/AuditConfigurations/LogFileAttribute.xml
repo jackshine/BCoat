@@ -1,0 +1,1985 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE properties SYSTEM "http://java.sun.com/dtd/properties.dtd">
+<properties>
+
+
+	<comment>Log File Attributes</comment>
+	<entry key="CiscoASASeries.LogFilePath">/src/test/resources/Audit/LogFiles/TempLogFiles/Cisco_ASA_IPs.zip</entry>
+	<entry key="CiscoASASeries.DataSourceFormat">syslog</entry>
+	<entry key="CiscoASASeries.DataSourceType">Cisco</entry>
+	<entry key="CiscoASASeries.type">Cisco</entry>
+	<entry key="CiscoASASeries.log_format">syslog</entry>
+	<entry key="CiscoASASeries.filename">Cisco_ASA_IPs.zip</entry>
+	
+	<entry key="scanSafe.LogFilePath">/src/test/resources/Audit/LogFiles/TempLogFiles/scansafe.zip</entry>
+	<entry key="scanSafe.DataSourceFormat">CSV</entry>
+	<entry key="scanSafe.DataSourceType">ScanSafe</entry>
+	<entry key="scanSafe.type">ScanSafe</entry>
+	<entry key="scanSafe.log_format">CSV</entry>
+	<entry key="scanSafe.filename">scansafe.zip</entry>
+	
+	<entry key="juniperScreenOS.LogFilePath">/src/test/resources/Audit/LogFiles/TempLogFiles/Juniper_ScreenOS.csv.zip</entry>
+	<entry key="juniperScreenOS.DataSourceFormat">syslog</entry>
+	<entry key="juniperScreenOS.DataSourceType">Juniper ScreenOS</entry>
+	<entry key="juniperScreenOS.type">Juniper ScreenOS</entry>
+	<entry key="juniperScreenOS.log_format">syslog</entry>
+	<entry key="juniperScreenOS.filename">Juniper_ScreenOS.csv.zip</entry>
+	
+	<entry key="juniperSRX.LogFilePath">/src/test/resources/Audit/LogFiles/TempLogFiles/Juniper-srx-datavald.txt.zip</entry>
+	<entry key="juniperSRX.DataSourceFormat">WELF</entry>
+	<entry key="juniperSRX.DataSourceType">Juniper SRX</entry>
+	<entry key="juniperSRX.type">Juniper SRX</entry>
+	<entry key="juniperSRX.log_format">WELF</entry>
+	<entry key="juniperSRX.filename">Juniper-srx-datavald.txt.zip</entry>
+	
+	<entry key="blueCoatProxySG.LogFilePath">/src/test/resources/Audit/LogFiles/TempLogFiles/BlueCoatProxy.zip</entry>
+	<entry key="blueCoatProxySG.DataSourceFormat">ELFF</entry>
+	<entry key="blueCoatProxySG.DataSourceType">Bluecoat ProxySG</entry>
+	<entry key="blueCoatProxySG.type">Bluecoat ProxySG</entry>
+	<entry key="blueCoatProxySG.log_format">ELFF</entry>
+	<entry key="blueCoatProxySG.filename">BlueCoatProxy.zip</entry>
+	
+	
+	<entry key="blueCoatProxySGDeviceIds.LogFilePath">/src/test/resources/Audit/LogFiles/TempLogFiles/blue-coat.zip</entry>
+	<entry key="blueCoatProxySGDeviceIds.DataSourceFormat">ELFF</entry>
+	<entry key="blueCoatProxySGDeviceIds.DataSourceType">Bluecoat ProxySG</entry>
+	<entry key="blueCoatProxySGDeviceIds.type">Bluecoat ProxySG</entry>
+	<entry key="blueCoatProxySGDeviceIds.log_format">ELFF</entry>
+	<entry key="blueCoatProxySGDeviceIds.filename">blue-coat.zip</entry>
+	
+	<entry key="ciscoWSAW3C.LogFilePath">/src/test/resources/Audit/LogFiles/TempLogFiles/Cisco_wsa_w3c.zip</entry>
+	<entry key="ciscoWSAW3C.DataSourceFormat">W3C</entry>
+	<entry key="ciscoWSAW3C.DataSourceType">Cisco WSA</entry>
+	<entry key="ciscoWSAW3C.type">Cisco WSA</entry>
+	<entry key="ciscoWSAW3C.log_format">W3C</entry>
+	<entry key="ciscoWSAW3C.log_format">W3C</entry>
+	<entry key="ciscoWSAW3C.filename">Cisco_wsa_w3c.zip</entry>
+		
+	<entry key="paloAltoNet.LogFilePath">/src/test/resources/Audit/LogFiles/TempLogFiles/PAN_CVS_log_File.zip</entry>
+	<entry key="paloAltoNet.DataSourceFormat">CSV</entry>
+	<entry key="paloAltoNet.DataSourceType">Palo-Alto</entry>
+	<entry key="paloAltoNet.type">Palo-Alto</entry>
+	<entry key="paloAltoNet.log_format">CSV</entry>
+	<entry key="paloAltoNet.filename">PAN_CVS_log_File.zip</entry>
+	
+	<entry key="ciscoCWS.LogFilePath">/src/test/resources/Audit/LogFiles/TempLogFiles/Cisco_CWS.zip</entry>
+	<entry key="ciscoCWS.DataSourceFormat">tsv</entry>
+	<entry key="ciscoCWS.DataSourceType">CWS</entry>
+	<entry key="ciscoCWS.type">CWS</entry>
+	<entry key="ciscoCWS.log_format">tsv</entry>
+	<entry key="ciscoCWS.filename">Cisco_CWS.zip</entry>
+	
+	<entry key="barracudaActivityLog.LogFilePath">/src/test/resources/Audit/LogFiles/TempLogFiles/Barracuda_Activity_Format.zip</entry>
+	<entry key="barracudaActivityLog.DataSourceFormat">cli</entry>
+	<entry key="barracudaActivityLog.DataSourceType">Barracuda</entry>
+	<entry key="barracudaActivityLog.type">Barracuda</entry>
+	<entry key="barracudaActivityLog.log_format">cli</entry>
+	<entry key="barracudaActivityLog.filename">Barracuda_Activity_Format.zip</entry>
+	
+	<entry key="barracudaActivitySysLog.LogFilePath">/src/test/resources/Audit/LogFiles/TempLogFiles/Barracuda_Syslog.zip</entry>
+	<entry key="barracudaActivitySysLog.DataSourceFormat">syslog</entry>
+	<entry key="barracudaActivitySysLog.DataSourceType">Barracuda</entry>
+	<entry key="barracudaActivitySysLog.type">Barracuda</entry>
+	<entry key="barracudaActivitySysLog.log_format">syslog</entry>
+	<entry key="barracudaActivitySysLog.filename">Barracuda_Syslog.zip</entry>
+	
+	<!-- WALLMART LOG FILES CONFIGURATION -->
+	
+	<entry key="wallmartWebGateWayLog.LogFilePath">/src/test/resources/Audit/LogFiles/TempLogFiles/Wallmart_Mcaffe-web-gateway-final.zip</entry>
+	<entry key="wallmartWebGateWayLog.DataSourceFormat">access</entry>
+	<entry key="wallmartWebGateWayLog.DataSourceType">McAfee Web Gateway</entry>
+	<entry key="wallmartWebGateWayLog.type">McAfee Web Gateway</entry>
+	<entry key="wallmartWebGateWayLog.log_format">access</entry>
+	<entry key="wallmartWebGateWayLog.filename">Wallmart_Mcaffe-web-gateway-final.zip</entry>	
+	
+	
+	<entry key="wallmartPanCSV.LogFilePath">/src/test/resources/Audit/LogFiles/TempLogFiles/wallmart_PAN-post-vald.zip</entry>
+	<entry key="wallmartPanCSV.DataSourceFormat">CSV</entry>
+	<entry key="wallmartPanCSV.DataSourceType">Palo-Alto</entry>
+	<entry key="wallmartPanCSV.type">Palo-Alto</entry>
+	<entry key="wallmartPanCSV.log_format">CSV</entry>
+	<entry key="wallmartPanCSV.filename">wallmart_PAN-post-vald.zip</entry>	
+	
+	
+	<entry key="wallmartPanSYS.LogFilePath">/src/test/resources/Audit/LogFiles/TempLogFiles/Wallmart_PAN-Sys.zip</entry>
+	<entry key="wallmartPanSYS.DataSourceFormat">syslog</entry>
+	<entry key="wallmartPanSYS.DataSourceType">Palo-Alto</entry>
+	<entry key="wallmartPanSYS.type">Palo-Alto</entry>
+	<entry key="wallmartPanSYS.log_format">syslog</entry>
+	<entry key="wallmartPanSYS.filename">Wallmart_PAN-Sys.zip</entry>	
+	
+	<!-- WALLMART LOG FILES CONFIGURATION END -->
+	
+	
+	<!-- 2.47 Device logs -->
+	<entry key="panCSVMultipleDeviceIds.LogFilePath">/src/test/resources/Audit/LogFiles/TempLogFiles/PAN-CSV-Multiple-Device-IDs.zip</entry>
+	<entry key="panCSVMultipleDeviceIds.DataSourceFormat">CSV</entry>
+	<entry key="panCSVMultipleDeviceIds.DataSourceType">Palo-Alto</entry>
+	<entry key="panCSVMultipleDeviceIds.type">Palo-Alto</entry>
+	<entry key="panCSVMultipleDeviceIds.log_format">CSV</entry>
+	<entry key="panCSVMultipleDeviceIds.filename">PAN-CSV-Multiple-Device-IDs.zip</entry>	
+	
+	<entry key="panSYSMultipleDeviceIds.LogFilePath">/src/test/resources/Audit/LogFiles/TempLogFiles/PAN-Syslog_Multiple_Device_IDs.log.zip</entry>
+	<entry key="panSYSMultipleDeviceIds.DataSourceFormat">syslog</entry>
+	<entry key="panSYSMultipleDeviceIds.DataSourceType">Palo-Alto</entry>
+	<entry key="panSYSMultipleDeviceIds.type">Palo-Alto</entry>
+	<entry key="panSYSMultipleDeviceIds.log_format">syslog</entry>
+	<entry key="panSYSMultipleDeviceIds.filename">PAN-Syslog_Multiple_Device_IDs.log.zip</entry>
+	
+		
+	<entry key="cwsMultipleDeviceIds.LogFilePath">/src/test/resources/Audit/LogFiles/TempLogFiles/CWS-DeviceID-TSV.gz</entry>
+	<entry key="cwsMultipleDeviceIds.DataSourceFormat">tsv</entry>
+	<entry key="cwsMultipleDeviceIds.DataSourceType">CWS</entry>
+	<entry key="cwsMultipleDeviceIds.type">CWS</entry>
+	<entry key="cwsMultipleDeviceIds.log_format">tsv</entry>
+	<entry key="cwsMultipleDeviceIds.filename">CWS-DeviceID-TSV.gz</entry>
+	
+	<entry key="wsaaccessDeviceIds.LogFilePath">/src/test/resources/Audit/LogFiles/TempLogFiles/wsa-acess.zip</entry>
+	<entry key="wsaaccessDeviceIds.DataSourceFormat">access</entry>
+	<entry key="wsaaccessDeviceIds.DataSourceType">Cisco WSA</entry>
+	<entry key="wsaaccessDeviceIds.type">Cisco WSA</entry>
+	<entry key="wsaaccessDeviceIds.log_format">access</entry>
+	<entry key="wsaaccessDeviceIds.filename">wsa-acess.zip</entry>
+	
+	<entry key="wsaw3cDeviceIds.LogFilePath">/src/test/resources/Audit/LogFiles/TempLogFiles/WSA-W3cDeviceIds.zip</entry>
+	<entry key="wsaw3cDeviceIds.DataSourceFormat">W3C</entry>
+	<entry key="wsaw3cDeviceIds.DataSourceType">Cisco WSA</entry>
+	<entry key="wsaw3cDeviceIds.type">Cisco WSA</entry>
+	<entry key="wsaw3cDeviceIds.log_format">W3C</entry>
+	<entry key="wsaw3cDeviceIds.filename">WSA-W3cDeviceIds.zip</entry>	
+	
+
+	
+	<!-- Bluecoat proxy invalid logs -->
+	
+
+	<entry key="blueCoatProxySGInvalid.LogFilePath">/src/test/resources/Audit/LogFiles/Blue_Coat_22389.zip</entry>
+	<entry key="blueCoatProxySGInvalid.DataSourceFormat">ELFF</entry>
+	<entry key="blueCoatProxySGInvalid.DataSourceType">Bluecoat ProxySG</entry>
+	<entry key="blueCoatProxySGInvalid.type">Bluecoat ProxySG</entry>
+	<entry key="blueCoatProxySGInvalid.log_format">ELFF</entry>
+	<entry key="blueCoatProxySGInvalid.filename">BlueCoatProxy.zip</entry>
+	
+	<!-- zscalar -->
+	<entry key="zscalar.LogFilePath">/src/test/resources/Audit/LogFiles/TempLogFiles/ZScaler_diff_col_orders.log.zip</entry>
+	<entry key="zscalar.DataSourceFormat">NSS Custom</entry>
+	<entry key="zscalar.DataSourceType">ZScaler</entry>
+	<entry key="zscalar.type">ZScaler</entry>
+	<entry key="zscalar.log_format">NSS Custom</entry>
+	<entry key="zscalar.filename">ZScaler_diff_col_orders.log.zip</entry>
+	
+
+	<!-- Checkpoint -->
+	<entry key="checkpointCSV.LogFilePath">/src/test/resources/Audit/LogFiles/TempLogFiles/CheckPoint-2015-09-04.zip</entry>
+	<entry key="checkpointCSV.DataSourceFormat">CSV</entry>
+	<entry key="checkpointCSV.DataSourceType">Checkpoint</entry>
+	<entry key="checkpointCSV.type">Checkpoint</entry>
+	<entry key="checkpointCSV.log_format">CSV</entry>
+	<entry key="checkpointCSV.filename">CheckPoint-2015-09-04.zip</entry>
+	
+	<entry key="checkpointSmartView.LogFilePath">/src/test/resources/Audit/LogFiles/TempLogFiles/smartview_export_all.txt.gz</entry>
+	<entry key="checkpointSmartView.DataSourceFormat">SmartView</entry>
+	<entry key="checkpointSmartView.DataSourceType">Checkpoint</entry>
+	<entry key="checkpointSmartView.type">Checkpoint</entry>
+	<entry key="checkpointSmartView.log_format">SmartView</entry>
+	<entry key="checkpointSmartView.filename">smartview_export_all.txt.gz</entry>
+
+	
+	<!--  empty logs with 3 formats -->
+	<entry key="blueCoatFileWithSlash.LogFilePath">/src/test/resources/Audit/LogFiles/InValidLogs/Filenamewithslash.zip</entry>
+	<entry key="blueCoatFileWithSlash.DataSourceFormat">ELFF</entry>
+	<entry key="blueCoatFileWithSlash.DataSourceType">Bluecoat ProxySG</entry>
+	<entry key="blueCoatFileWithSlash.type">Bluecoat ProxySG</entry>
+	<entry key="blueCoatFileWithSlash.log_format">ELFF</entry>
+	<entry key="blueCoatFileWithSlash.filename">Filenamewithslash.zip</entry>
+		
+	
+	<entry key="wsaAccessEmpty_zip.LogFilePath">/src/test/resources/Audit/LogFiles/InValidLogs/empty_wsa_acess.zip</entry>
+	<entry key="wsaAccessEmpty_zip.DataSourceFormat">access</entry>
+	<entry key="wsaAccessEmpty_zip.DataSourceType">Cisco WSA</entry>
+	<entry key="wsaAccessEmpty_zip.type">Cisco WSA</entry>
+	<entry key="wsaAccessEmpty_zip.log_format">access</entry>
+	<entry key="wsaAccessEmpty_zip.filename">empty_wsa_acess.zip</entry>	
+	
+	
+	<entry key="wsaAccessEmpty_gz.LogFilePath">/src/test/resources/Audit/LogFiles/InValidLogs/empty_wsa_acess.gz</entry>
+	<entry key="wsaAccessEmpty_gz.DataSourceFormat">access</entry>
+	<entry key="wsaAccessEmpty_gz.DataSourceType">Cisco WSA</entry>
+	<entry key="wsaAccessEmpty_gz.type">Cisco WSA</entry>
+	<entry key="wsaAccessEmpty_gz.log_format">access</entry>
+	<entry key="wsaAccessEmpty_gz.filename">empty_wsa_acess.ez2</entry>
+	
+	
+	<entry key="wsaAccessEmpty_bz2.LogFilePath">/src/test/resources/Audit/LogFiles/InValidLogs/empty_wsa_acess.bz2</entry>
+	<entry key="wsaAccessEmpty_bz2.DataSourceFormat">access</entry>
+	<entry key="wsaAccessEmpty_bz2.DataSourceType">Cisco WSA</entry>
+	<entry key="wsaAccessEmpty_bz2.type">Cisco WSA</entry>
+	<entry key="wsaAccessEmpty_bz2.log_format">access</entry>
+	<entry key="wsaAccessEmpty_bz2.filename">empty_wsa_acess.bz2</entry>
+	
+	<!--  header only files with 3 formats-->
+	<entry key="cwsHeaderOnly_zip.LogFilePath">/src/test/resources/Audit/LogFiles/InValidLogs/header_only_CWS-DeviceID-TSV.zip</entry>
+	<entry key="cwsHeaderOnly_zip.DataSourceFormat">tsv</entry>
+	<entry key="cwsHeaderOnly_zip.DataSourceType">CWS</entry>
+	<entry key="cwsHeaderOnly_zip.type">CWS</entry>
+	<entry key="cwsHeaderOnly_zip.log_format">tsv</entry>
+	<entry key="cwsHeaderOnly_zip.filename">Header_only_CWS-DeviceID-TSV.zip</entry>
+	
+	<entry key="cwsHeaderOnly_gz.LogFilePath">/src/test/resources/Audit/LogFiles/InValidLogs/header_only_CWS-DeviceID-TSV.gz</entry>
+	<entry key="cwsHeaderOnly_gz.DataSourceFormat">tsv</entry>
+	<entry key="cwsHeaderOnly_gz.DataSourceType">CWS</entry>
+	<entry key="cwsHeaderOnly_gz.type">CWS</entry>
+	<entry key="cwsHeaderOnly_gz.log_format">tsv</entry>
+	<entry key="cwsHeaderOnly_gz.filename">Header_only_CWS-DeviceID-TSV.gz</entry>	
+	
+	<entry key="cwsHeaderOnly_bz2.LogFilePath">/src/test/resources/Audit/LogFiles/InValidLogs/header_only_CWS-DeviceID-TSV.bz2</entry>
+	<entry key="cwsHeaderOnly_bz2.DataSourceFormat">tsv</entry>
+	<entry key="cwsHeaderOnly_bz2.DataSourceType">CWS</entry>
+	<entry key="cwsHeaderOnly_bz2.type">CWS</entry>
+	<entry key="cwsHeaderOnly_bz2.log_format">tsv</entry>
+	<entry key="cwsHeaderOnly_bz2.filename">Header_only_CWS-DeviceID-TSV.bz2</entry>
+	
+	<!-- jpez files with 3 formats -->	
+	<entry key="ciscoasaJpeg_zip.LogFilePath">/src/test/resources/Audit/LogFiles/InValidLogs/ciscoasa_jpeg.zip</entry>
+	<entry key="ciscoasaJpeg_zip.DataSourceFormat">syslog</entry>
+	<entry key="ciscoasaJpeg_zip.DataSourceType">Cisco</entry>
+	<entry key="ciscoasaJpeg_zip.type">Cisco</entry>
+	<entry key="ciscoasaJpeg_zip.log_format">syslog</entry>
+	<entry key="ciscoasaJpeg_zip.filename">ciscoasa_jpeg.zip</entry>
+	
+	<entry key="ciscoasaJpeg_gz.LogFilePath">/src/test/resources/Audit/LogFiles/InValidLogs/ciscoasa_jpeg.gz</entry>
+	<entry key="ciscoasaJpeg_gz.DataSourceFormat">syslog</entry>
+	<entry key="ciscoasaJpeg_gz.DataSourceType">Cisco</entry>
+	<entry key="ciscoasaJpeg_gz.type">Cisco</entry>
+	<entry key="ciscoasaJpeg_gz.log_format">syslog</entry>
+	<entry key="ciscoasaJpeg_gz.filename">ciscoasa_jpeg.gz</entry>
+	
+	<entry key="ciscoasaJpeg_bz2.LogFilePath">/src/test/resources/Audit/LogFiles/InValidLogs/ciscoasa_jpeg.bz2</entry>
+	<entry key="ciscoasaJpeg_bz2.DataSourceFormat">syslog</entry>
+	<entry key="ciscoasaJpeg_bz2.DataSourceType">Cisco</entry>
+	<entry key="ciscoasaJpeg_bz2.type">Cisco</entry>
+	<entry key="ciscoasaJpeg_bz2.log_format">syslog</entry>
+	<entry key="ciscoasaJpeg_bz2.filename">ciscoasa_jpeg.bz2</entry>
+	
+	
+	<!-- exe files with 3 formats -->
+	<entry key="pancsvExe_zip.LogFilePath">/src/test/resources/Audit/LogFiles/InValidLogs/pancsv_exe.zip</entry>
+	<entry key="pancsvExe_zip.DataSourceFormat">CSV</entry>
+	<entry key="pancsvExe_zip.DataSourceType">Palo-Alto</entry>
+	<entry key="pancsvExe_zip.type">Palo-Alto</entry>
+	<entry key="pancsvExe_zip.log_format">CSV</entry>
+	<entry key="pancsvExe_zip.filename">pancsv_exe.zip</entry>
+	
+	<entry key="pancsvExe_gz.LogFilePath">/src/test/resources/Audit/LogFiles/InValidLogs/pancsv_exe.gz</entry>
+	<entry key="pancsvExe_gz.DataSourceFormat">CSV</entry>
+	<entry key="pancsvExe_gz.DataSourceType">Palo-Alto</entry>
+	<entry key="pancsvExe_gz.type">Palo-Alto</entry>
+	<entry key="pancsvExe_gz.log_format">CSV</entry>
+	<entry key="pancsvExe_gz.filename">pancsv_exe.bz2</entry>
+	
+	<entry key="pancsvExe_bz2.LogFilePath">/src/test/resources/Audit/LogFiles/InValidLogs/pancsv_exe.bz2</entry>
+	<entry key="pancsvExe_bz2.DataSourceFormat">CSV</entry>
+	<entry key="pancsvExe_bz2.DataSourceType">Palo-Alto</entry>
+	<entry key="pancsvExe_bz2.type">Palo-Alto</entry>
+	<entry key="pancsvExe_bz2.log_format">CSV</entry>
+	<entry key="pancsvExe_bz2.filename">pancsv_exe.bz2</entry>
+	
+	
+	<!-- single deviceId Audit configuration -->
+	<entry key="panSYS881901123456.LogFilePath">/src/test/resources/Audit/LogFiles/TempLogFiles/PAN-Syslog_DID_881901123456.log.zip</entry>
+	<entry key="panSYS881901123456.DataSourceFormat">syslog</entry>
+	<entry key="panSYS881901123456.DataSourceType">Palo-Alto</entry>
+	<entry key="panSYS881901123456.type">Palo-Alto</entry>
+	<entry key="panSYS881901123456.log_format">syslog</entry>
+	<entry key="panSYS881901123456.filename">PAN-Syslog_DID_881901123456.log.zip</entry>
+	
+	
+	<!-- negative tests for pan csv -->
+	<entry key="panTrafficOnlyZip.LogFilePath">/src/test/resources/Audit/LogFiles/pan_csv_traffic.zip</entry>
+	<entry key="panTrafficOnlyZip.DataSourceFormat">CSV</entry>
+	<entry key="panTrafficOnlyZip.DataSourceType">Palo-Alto</entry>
+	<entry key="panTrafficOnlyZip.type">Palo-Alto</entry>
+	<entry key="panTrafficOnlyZip.log_format">CSV</entry>
+	<entry key="panTrafficOnlyZip.filename">pan_csv_traffic.zip</entry>
+	
+	
+	<entry key="panUrlOnlyZip.LogFilePath">/src/test/resources/Audit/LogFiles/pan_csv_url.zip</entry>
+	<entry key="panUrlOnlyZip.DataSourceFormat">CSV</entry>
+	<entry key="panUrlOnlyZip.DataSourceType">Palo-Alto</entry>
+	<entry key="panUrlOnlyZip.type">Palo-Alto</entry>
+	<entry key="panUrlOnlyZip.log_format">CSV</entry>
+	<entry key="panUrlOnlyZip.filename">pan_csv_url.zip</entry>
+	
+	
+	
+		
+	
+	<!-- scp multi files copy configuration start -->
+
+   <!-- 1--> 
+	<entry key="wsaAccessHeaderOnly1.LogFilePath">/src/test/resources/Audit/LogFiles/TempLogFiles/wsa_access_headeronly1.zip</entry>
+	<entry key="wsaAccessHeaderOnly1.filename">wsa_access_headeronly1.zip</entry>
+	
+	<entry key="wsaAccessHeaderOnly2.LogFilePath">/src/test/resources/Audit/LogFiles/TempLogFiles/wsa_access_headeronly2.zip</entry>
+	<entry key="wsaAccessHeaderOnly2.filename">wsa_access_headeronly2.zip</entry>
+	
+	
+	<entry key="wsaAccessHeaderOnly3.LogFilePath">/src/test/resources/Audit/LogFiles/TempLogFiles/wsa_access_headeronly3.zip</entry>
+	<entry key="wsaAccessHeaderOnly3.filename">wsa_access_headeronly3.zip</entry>
+	
+	<entry key="wsaAccessHeaderOnly.DataSourceFormat">access</entry>
+	<entry key="wsaAccessHeaderOnly.DataSourceType">Cisco WSA</entry>
+	<entry key="wsaAccessHeaderOnly.type">Cisco WSA</entry>
+	<entry key="wsaAccessHeaderOnly.log_format">access</entry>
+	
+	<!-- 2 -->
+	<entry key="mcawebgatewaynegative1.LogFilePath">/src/test/resources/Audit/LogFiles/Mcaffe-web-gateway-negative1.zip</entry>
+    <entry key="mcawebgatewaynegative2.filename">Mcaffe-web-gateway-negative1.zip</entry>	
+	
+	
+	<entry key="mcawebgatewaynegative2.LogFilePath">/src/test/resources/Audit/LogFiles/Mcaffe-web-gateway-negative2.zip</entry>
+    <entry key="mcawebgatewaynegative2.filename">Mcaffe-web-gateway-negative2.zip</entry>	
+	
+	<entry key="mcawebgatewaynegative3.LogFilePath">/src/test/resources/Audit/LogFiles/Mcaffe-web-gateway-negative3.zip</entry>
+    <entry key="mcawebgatewaynegative3.filename">Mcaffe-web-gateway-negative3.zip</entry>	
+	
+	
+	<entry key="mcawebgatewaynegative.DataSourceFormat">access</entry>
+	<entry key="mcawebgatewaynegative.DataSourceType">McAfee Web Gateway</entry>
+	<entry key="mcawebgatewaynegative.type">McAfee Web Gateway</entry>
+	<entry key="mcawebgatewaynegative.log_format">access</entry>
+		
+	<!-- scp multi files copy configuration end -->
+	
+	<!--mcafee  -->
+
+	<entry key="mcafeesef.LogFilePath">/src/test/resources/Audit/LogFiles/TempLogFiles/BE_McAfee_SEF_Format.log.zip</entry>
+	<entry key="mcafeesef.DataSourceFormat">WELF</entry>
+	<entry key="mcafeesef.DataSourceType">McAfee</entry>
+	<entry key="mcafeesef.type">McAfee</entry>
+	<entry key="mcafeesef.log_format">WELF</entry>
+	<entry key="mcafeesef.filename">BE_McAfee_SEF_Format.log.zip</entry>	
+	
+	<!--squid proxy  -->
+	<entry key="squidrpoxy.LogFilePath">/src/test/resources/Audit/LogFiles/TempLogFiles/BE_Squid-2015-04-02.zip</entry>
+	<entry key="squidrpoxy.DataSourceFormat">access</entry>
+	<entry key="squidrpoxy.DataSourceType">Squid</entry>
+	<entry key="squidrpoxy.type">Squid</entry>
+	<entry key="squidrpoxy.log_format">access</entry>
+	<entry key="squidrpoxy.filename">BE_Squid-2015-04-02.zip</entry>	
+
+    <!-- TIA Log -->
+    <entry key="tiamca2.LogFilePath">/src/test/resources/Audit/LogFiles/TIACompressedFiles/McAfee_LowRepURL_01Apr16_UserTIA01.zip</entry>
+	<entry key="tiamca2.DataSourceFormat">WELF</entry>
+	<entry key="tiamca2.DataSourceType">McAfee</entry>
+	<entry key="tiamca2.type">McAfee</entry>
+	<entry key="tiamca2.log_format">WELF</entry>
+	<entry key="tiamca2.filename">McAfee_LowRepURL_01Apr16_UserTIA01.zip</entry> 
+	
+	<entry key="bc_nosessions_TBI_BBI.LogFilePath">/src/test/resources/Audit/LogFiles/TIACompressedFiles/BlueCoat_NoSessions_50_BC03_03Jan2016.zip</entry>
+	<entry key="bc_nosessions_TBI_BBI.DataSourceFormat">ELFF</entry>
+	<entry key="bc_nosessions_TBI_BBI.DataSourceType">Bluecoat ProxySG</entry>
+	<entry key="bc_nosessions_TBI_BBI.type">Bluecoat ProxySG</entry>
+	<entry key="bc_nosessions_TBI_BBI.log_format">ELFF</entry>
+	<entry key="bc_nosessions_TBI_BBI.filename">BlueCoat_NoSessions_50_BC03_03Jan2016.zip</entry>
+	
+	<entry key="bc_upload_download_TBI_BBI.LogFilePath">/src/test/resources/Audit/LogFiles/TIACompressedFiles/BlueCoat_UploadDownloadBBI_BC26_26Jan2016.zip</entry>
+	<entry key="bc_upload_download_TBI_BBI.DataSourceFormat">ELFF</entry>
+	<entry key="bc_upload_download_TBI_BBI.DataSourceType">Bluecoat ProxySG</entry>
+	<entry key="bc_upload_download_TBI_BBI.type">Bluecoat ProxySG</entry>
+	<entry key="bc_upload_download_TBI_BBI.log_format">ELFF</entry>
+	<entry key="bc_upload_download_TBI_BBI.filename">BlueCoat_UploadDownloadBBI_BC26_26Jan2016.zip</entry>
+	
+	
+	
+	<entry key="tiamca.LogFilePath">/src/test/resources/Audit/LogFiles/TempLogFiles/McAfee_LowRepURL_01Apr16_UserTIA01.zip</entry>
+	<entry key="tiamca.DataSourceFormat">WELF</entry>
+	<entry key="tiamca.DataSourceType">McAfee</entry>
+	<entry key="tiamca.type">McAfee</entry>
+	<entry key="tiamca.log_format">WELF</entry>
+	<entry key="tiamca.filename">McAfee_LowRepURL_01Apr16_UserTIA01.zip</entry>	
+	
+	
+	
+	<entry key="be_barracuda_cli.LogFilePath">/src/test/resources/Audit/LogFiles/TempLogFiles/BE_Barracuda_C120773_Postprocessing_Activity_Format.zip</entry>
+	<entry key="be_barracuda_cli.DataSourceFormat">cli</entry>
+	<entry key="be_barracuda_cli.DataSourceType">Barracuda</entry>
+	<entry key="be_barracuda_cli.type">Barracuda</entry>
+	<entry key="be_barracuda_cli.log_format">cli</entry>
+	<entry key="be_barracuda_cli.filename">BE_Barracuda_C120773_Postprocessing_Activity_Format.zip</entry>
+	
+	<entry key="be_barracuda_sys.LogFilePath">/src/test/resources/Audit/LogFiles/TempLogFiles/BE_Barracuda_C120773_Postprocessing_Syslog_Format.zip</entry>
+	<entry key="be_barracuda_sys.DataSourceFormat">syslog</entry>
+	<entry key="be_barracuda_sys.DataSourceType">Barracuda</entry>
+	<entry key="be_barracuda_sys.type">Barracuda</entry>
+	<entry key="be_barracuda_sys.log_format">syslog</entry>
+	<entry key="be_barracuda_sys.filename">BE_Barracuda_C120773_Postprocessing_Syslog_Format.zip</entry>
+	
+	
+	<entry key="be_bluecoat_proxy.LogFilePath">/src/test/resources/Audit/LogFiles/TempLogFiles/bluecoat-vald-auto.log.zip</entry>
+	<entry key="be_bluecoat_proxy.DataSourceFormat">ELFF</entry>
+	<entry key="be_bluecoat_proxy.DataSourceType">Bluecoat ProxySG</entry>
+	<entry key="be_bluecoat_proxy.type">Bluecoat ProxySG</entry>
+	<entry key="be_bluecoat_proxy.log_format">ELFF</entry>
+	<entry key="be_bluecoat_proxy.filename">bluecoat-vald-auto.log.zip</entry>
+	
+	
+	
+	<entry key="be_bluecoat_proxy_custom_header_space_escape.LogFilePath">/src/test/resources/Audit/LogFiles/TempLogFiles/BE_Bluecoat_Splunk_mandatory_headers_space_escaping.zip</entry>
+	<entry key="be_bluecoat_proxy_custom_header_space_escape.DataSourceFormat">ELFF</entry>
+	<entry key="be_bluecoat_proxy_custom_header_space_escape.DataSourceType">Bluecoat ProxySG</entry>
+	<entry key="be_bluecoat_proxy_custom_header_space_escape.type">Bluecoat ProxySG</entry>
+	<entry key="be_bluecoat_proxy_custom_header_space_escape.log_format">ELFF</entry>
+	<entry key="be_bluecoat_proxy_custom_header_space_escape.filename">BE_Bluecoat_Splunk_mandatory_headers_space_escaping.zip</entry>
+	<entry key="be_bluecoat_proxy_custom_header_space_escape.logfile_headers">"_time","cs_host","sc_bytes","cs_bytes","cs_username"</entry>
+	
+	<entry key="be_bluecoat_proxy_custom_header_quote_header.LogFilePath">/src/test/resources/Audit/LogFiles/TempLogFiles/BE_Bluecoat_Splunk_mandatory_headers_quote_header.zip</entry>
+	<entry key="be_bluecoat_proxy_custom_header_quote_header.DataSourceFormat">ELFF</entry>
+	<entry key="be_bluecoat_proxy_custom_header_quote_header.DataSourceType">Bluecoat ProxySG</entry>
+	<entry key="be_bluecoat_proxy_custom_header_quote_header.type">Bluecoat ProxySG</entry>
+	<entry key="be_bluecoat_proxy_custom_header_quote_header.log_format">ELFF</entry>
+	<entry key="be_bluecoat_proxy_custom_header_quote_header.filename">BE_Bluecoat_Splunk_mandatory_headers_quote_header.zip</entry>
+	<entry key="be_bluecoat_proxy_custom_header_quote_header.logfile_headers">_time cs_host sc_bytes cs_bytes cs_username</entry>
+	
+	
+	
+	<entry key="be_bluecoatProxy_splunk_wo_ch.LogFilePath">/src/test/resources/Audit/LogFiles/TempLogFiles/BE_Bluecoat_Splunk_20rec.zip</entry>
+	<entry key="be_bluecoatProxy_splunk_wo_ch.DataSourceFormat">ELFF</entry>
+	<entry key="be_bluecoatProxy_splunk_wo_ch.DataSourceType">Bluecoat ProxySG</entry>
+	<entry key="be_bluecoatProxy_splunk_wo_ch.type">Bluecoat ProxySG</entry>
+	<entry key="be_bluecoatProxy_splunk_wo_ch.log_format">ELFF</entry>
+	<entry key="be_bluecoatProxy_splunk_wo_ch.filename">BE_Bluecoat_Splunk_20rec.zip</entry>
+	
+	<entry key="be_bluecoatProxy_splunk_mandatory_headers.LogFilePath">/src/test/resources/Audit/LogFiles/TempLogFiles/BE_Bluecoat_Splunk_mandatory_headers.zip</entry>
+	<entry key="be_bluecoatProxy_splunk_mandatory_headers.DataSourceFormat">ELFF</entry>
+	<entry key="be_bluecoatProxy_splunk_mandatory_headers.DataSourceType">Bluecoat ProxySG</entry>
+	<entry key="be_bluecoatProxy_splunk_mandatory_headers.type">Bluecoat ProxySG</entry>
+	<entry key="be_bluecoatProxy_splunk_mandatory_headers.log_format">ELFF</entry>
+	<entry key="be_bluecoatProxy_splunk_mandatory_headers.filename">BE_Bluecoat_Splunk_mandatory_headers.zip</entry>
+	
+	<entry key="be_checkpoint_csv.LogFilePath">/src/test/resources/Audit/LogFiles/TempLogFiles/CheckPoint-2015-09-04.zip</entry>
+	<entry key="be_checkpoint_csv.DataSourceFormat">CSV</entry>
+	<entry key="be_checkpoint_csv.DataSourceType">Checkpoint</entry>
+	<entry key="be_checkpoint_csv.type">Checkpoint</entry>
+	<entry key="be_checkpoint_csv.log_format">CSV</entry>
+	<entry key="be_checkpoint_csv.filename">CheckPoint-2015-09-04.zip</entry>
+	
+	
+	<entry key="be_checkpoint_smartview.LogFilePath">/src/test/resources/Audit/LogFiles/TempLogFiles/smartview_export_all.txt.gz</entry>
+	<entry key="be_checkpoint_smartview.DataSourceFormat">SmartView</entry>
+	<entry key="be_checkpoint_smartview.DataSourceType">Checkpoint</entry>
+	<entry key="be_checkpoint_smartview.type">Checkpoint</entry>
+	<entry key="be_checkpoint_smartview.log_format">SmartView</entry>
+	<entry key="be_checkpoint_smartview.filename">smartview_export_all.txt.gz</entry>
+	
+	
+	<entry key="be_juniperscreenos.LogFilePath">/src/test/resources/Audit/LogFiles/TempLogFiles/Net-screen-final.zip</entry>
+	<entry key="be_juniperscreenos.DataSourceFormat">syslog</entry>
+	<entry key="be_juniperscreenos.DataSourceType">Juniper ScreenOS</entry>
+	<entry key="be_juniperscreenos.type">Juniper ScreenOS</entry>
+	<entry key="be_juniperscreenos.log_format">syslog</entry>
+	<entry key="be_juniperscreenos.filename">Net-screen-final.zip</entry>
+	
+
+	<entry key="be_pancsv.LogFilePath">/src/test/resources/Audit/LogFiles/TempLogFiles/BE_PAN_CSV.zip</entry>
+	<entry key="be_pancsv.DataSourceFormat">CSV</entry>
+	<entry key="be_pancsv.DataSourceType">Palo-Alto</entry>
+	<entry key="be_pancsv.type">Palo-Alto</entry>
+	<entry key="be_pancsv.log_format">CSV</entry>
+	<entry key="be_pancsv.filename">BE_PAN_CSV.zip</entry>
+	
+	<entry key="be_pancsv_splunk_wo_ch.LogFilePath">/src/test/resources/Audit/LogFiles/TempLogFiles/pan_20recs_with_all_splunk_header_only.log.zip</entry>
+	<entry key="be_pancsv_splunk_wo_ch.DataSourceFormat">Splunk</entry>
+	<entry key="be_pancsv_splunk_wo_ch.DataSourceType">Palo-Alto</entry>
+	<entry key="be_pancsv_splunk_wo_ch.type">Palo-Alto</entry>
+	<entry key="be_pancsv_splunk_wo_ch.log_format">Splunk</entry>
+	<entry key="be_pancsv_splunk_wo_ch.filename">pan_20recs_with_all_splunk_header_only.log.zip</entry>
+	
+	<entry key="be_pancsv_splunk_ch.LogFilePath">/src/test/resources/Audit/LogFiles/TempLogFiles/pan_20recs_with_raw_splunk_header_only.zip</entry>
+	<entry key="be_pancsv_splunk_ch.DataSourceFormat">Splunk</entry>
+	<entry key="be_pancsv_splunk_ch.DataSourceType">Palo-Alto</entry>
+	<entry key="be_pancsv_splunk_ch.type">Palo-Alto</entry>
+	<entry key="be_pancsv_splunk_ch.log_format">Splunk</entry>
+	<entry key="be_pancsv_splunk_ch.filename">pan_20recs_with_raw_splunk_header_only.zip</entry>
+	
+	<entry key="be_wsaw3c.LogFilePath">/src/test/resources/Audit/LogFiles/TempLogFiles/WSA_W3c-KU.log.zip</entry>
+	<entry key="be_wsaw3c.DataSourceFormat">W3C</entry>
+	<entry key="be_wsaw3c.DataSourceType">Cisco WSA</entry>
+	<entry key="be_wsaw3c.type">Cisco WSA</entry>
+	<entry key="be_wsaw3c.log_format">W3C</entry>
+	<entry key="be_wsaw3c.filename">WSA_W3c-KU.log.zip</entry>
+	
+	<entry key="be_wsaaccess.LogFilePath">/src/test/resources/Audit/LogFiles/TempLogFiles/WSA-Access_KU.log.zip</entry>
+	<entry key="be_wsaaccess.DataSourceFormat">access</entry>
+	<entry key="be_wsaaccess.DataSourceType">Cisco WSA</entry>
+	<entry key="be_wsaaccess.type">Cisco WSA</entry>
+	<entry key="be_wsaaccess.log_format">access</entry>
+	<entry key="be_wsaaccess.filename">WSA-Access_KU.log.zip</entry>
+	
+	<entry key="be_zscalar.LogFilePath">/src/test/resources/Audit/LogFiles/TempLogFiles/Zscaler_Edited_10Logs.zip</entry>
+	<entry key="be_zscalar.DataSourceFormat">NSS Custom</entry>
+	<entry key="be_zscalar.DataSourceType">ZScaler</entry>
+	<entry key="be_zscalar.type">ZScaler</entry>
+	<entry key="be_zscalar.log_format">NSS Custom</entry>
+	<entry key="be_zscalar.filename">Zscaler_Edited_10Logs.zip</entry>
+	
+	
+	<entry key="scpuploadcompleted.LogFilePath">/src/test/resources/Audit/LogFiles/UPLOAD_COMPLETED</entry>
+	<entry key="scpuploadcompleted.filename">UPLOAD_COMPLETED</entry>
+	
+	
+	<!-- websense proxy files -->
+	<entry key="websense_arc.LogFilePath">/src/test/resources/Audit/LogFiles/TempLogFiles/Websense-ArcSight-vald-final.zip</entry>
+	<entry key="websense_arc.DataSourceFormat">Local</entry>
+	<entry key="websense_arc.DataSourceType">Websense Proxy</entry>
+	<entry key="websense_arc.type">Websense Proxy</entry>
+	<entry key="websense_arc.log_format">Local</entry>
+	<entry key="websense_arc.filename">Websense-ArcSight-vald-final.zip</entry>
+	
+	
+	<entry key="websense_hosted.LogFilePath">/src/test/resources/Audit/LogFiles/TempLogFiles/Websense_Hosted_No_CustomHeader.zip</entry>
+	<entry key="websense_hosted.DataSourceFormat">Hosted</entry>
+	<entry key="websense_hosted.DataSourceType">Websense Proxy</entry>
+	<entry key="websense_hosted.type">Websense Proxy</entry>
+	<entry key="websense_hosted.log_format">Hosted</entry>
+	<entry key="websense_hosted.filename">Websense_Hosted_No_CustomHeader.zip</entry>
+	
+	<entry key="websense_hosted_7z.LogFilePath">/src/test/resources/Audit/LogFiles/TempLogFiles/Websense_Hosted_No_CustomHeader.7z</entry>
+	<entry key="websense_hosted_7z.DataSourceFormat">Hosted</entry>
+	<entry key="websense_hosted_7z.DataSourceType">Websense Proxy</entry>
+	<entry key="websense_hosted_7z.type">Websense Proxy</entry>
+	<entry key="websense_hosted_7z.log_format">Hosted</entry>
+	<entry key="websense_hosted_7z.filename">Websense_Hosted_No_CustomHeader.7z</entry>
+	
+	
+	<entry key="websense_hosted_bz2.LogFilePath">/src/test/resources/Audit/LogFiles/TempLogFiles/Websense_Hosted_No_CustomHeader.bz2</entry>
+	<entry key="websense_hosted_bz2.DataSourceFormat">Hosted</entry>
+	<entry key="websense_hosted_bz2.DataSourceType">Websense Proxy</entry>
+	<entry key="websense_hosted_bz2.type">Websense Proxy</entry>
+	<entry key="websense_hosted_bz2.log_format">Hosted</entry>
+	<entry key="websense_hosted_bz2.filename">Websense_Hosted_No_CustomHeader.bz2</entry>
+	
+	
+		
+	<entry key="websense_hosted_gz.LogFilePath">/src/test/resources/Audit/LogFiles/TempLogFiles/Websense_Hosted_No_CustomHeader.gz</entry>
+	<entry key="websense_hosted_gz.DataSourceFormat">Hosted</entry>
+	<entry key="websense_hosted_gz.DataSourceType">Websense Proxy</entry>
+	<entry key="websense_hosted_gz.type">Websense Proxy</entry>
+	<entry key="websense_hosted_gz.log_format">Hosted</entry>
+	<entry key="websense_hosted_gz.filename">Websense_Hosted_No_CustomHeader.gz</entry>
+	
+			
+	<entry key="websense_arc_tar.LogFilePath">/src/test/resources/Audit/LogFiles/TempLogFiles/Websense-ArcSight-vald-final.tar</entry>
+	<entry key="websense_arc_tar.DataSourceFormat">CEF</entry>
+	<entry key="websense_arc_tar.DataSourceType">Websense Proxy</entry>
+	<entry key="websense_arc_tar.type">Websense Proxy</entry>
+	<entry key="websense_arc_tar.log_format">CEF</entry>
+	<entry key="websense_arc_tar.filename">Websense-ArcSight-vald-final.tar</entry>
+	
+	
+	
+	
+	<!-- sonicwall file -->
+	<entry key="sonicwall.LogFilePath">/src/test/resources/Audit/LogFiles/TempLogFiles/audit_weekly_be_BE_SonicWall_all_syslog_time_format_in_one.zip</entry>
+	<entry key="sonicwall.DataSourceFormat">WELF</entry>
+	<entry key="sonicwall.DataSourceType">Sonicwall</entry>
+	<entry key="sonicwall.type">Sonicwall</entry>
+	<entry key="sonicwall.log_format">WELF</entry>
+	<entry key="sonicwall.filename">audit_weekly_be_BE_SonicWall_all_syslog_time_format_in_one.zip</entry>
+	
+	
+	
+	
+	
+	<!-- 7Z compressed formats -->
+	<entry key="be_barracuda_cli_7z.LogFilePath">/src/test/resources/Audit/LogFiles/TempLogFiles/BE_Barracuda_C120773_Postprocessing_Activity_Format.7z</entry>
+	<entry key="be_barracuda_cli_7z.DataSourceFormat">cli</entry>
+	<entry key="be_barracuda_cli_7z.DataSourceType">Barracuda</entry>
+	<entry key="be_barracuda_cli_7z.type">Barracuda</entry>
+	<entry key="be_barracuda_cli_7z.log_format">cli</entry>
+	<entry key="be_barracuda_cli_7z.filename">Barracuda_C120773_Postprocessing_Syslog_Format.7z</entry>
+	
+	<entry key="be_barracuda_sys_7z.LogFilePath">/src/test/resources/Audit/LogFiles/TempLogFiles/Barracuda_C120773_Postprocessing_Syslog_Format.7z</entry>
+	<entry key="be_barracuda_sys_7z.DataSourceFormat">syslog</entry>
+	<entry key="be_barracuda_sys_7z.DataSourceType">Barracuda</entry>
+	<entry key="be_barracuda_sys_7z.type">Barracuda</entry>
+	<entry key="be_barracuda_sys_7z.log_format">syslog</entry>
+	<entry key="be_barracuda_sys_7z.filename">BE_Barracuda_C120773_Postprocessing_Syslog_Format.7z</entry>
+	
+	
+	<entry key="be_bluecoat_proxy_7z.LogFilePath">/src/test/resources/Audit/LogFiles/TempLogFiles/bluecoat-vald-auto.log.7z</entry>
+	<entry key="be_bluecoat_proxy_7z.DataSourceFormat">ELFF</entry>
+	<entry key="be_bluecoat_proxy_7z.DataSourceType">Bluecoat ProxySG</entry>
+	<entry key="be_bluecoat_proxy_7z.type">Bluecoat ProxySG</entry>
+	<entry key="be_bluecoat_proxy_7z.log_format">ELFF</entry>
+	<entry key="be_bluecoat_proxy_7z.filename">bluecoat-vald-auto.log.7z</entry>
+	
+    <entry key="be_bluecoat_proxy_bz2.LogFilePath">/src/test/resources/Audit/LogFiles/TempLogFiles/bluecoat-vald-auto.log.bz2</entry>
+	<entry key="be_bluecoat_proxy_bz2.DataSourceFormat">ELFF</entry>
+	<entry key="be_bluecoat_proxy_bz2.DataSourceType">Bluecoat ProxySG</entry>
+	<entry key="be_bluecoat_proxy_bz2.type">Bluecoat ProxySG</entry>
+	<entry key="be_bluecoat_proxy_bz2.log_format">ELFF</entry>
+	<entry key="be_bluecoat_proxy_bz2.filename">bluecoat-vald-auto.log.bz2</entry>
+	
+	<entry key="be_bluecoat_proxy_gz.LogFilePath">/src/test/resources/Audit/LogFiles/TempLogFiles/bluecoat-vald-auto.log.gz</entry>
+	<entry key="be_bluecoat_proxy_gz.DataSourceFormat">ELFF</entry>
+	<entry key="be_bluecoat_proxy_gz.DataSourceType">Bluecoat ProxySG</entry>
+	<entry key="be_bluecoat_proxy_gz.type">Bluecoat ProxySG</entry>
+	<entry key="be_bluecoat_proxy_gz.log_format">ELFF</entry>
+	<entry key="be_bluecoat_proxy_gz.filename">bluecoat-vald-auto.log.gz</entry>
+	
+	
+	
+	<entry key="be_bluecoatProxy_splunk_wo_ch_7z.LogFilePath">/src/test/resources/Audit/LogFiles/TempLogFiles/Bluecoat_Splunk_20rec.7z</entry>
+	<entry key="be_bluecoatProxy_splunk_wo_ch_7z.DataSourceFormat">ELFF</entry>
+	<entry key="be_bluecoatProxy_splunk_wo_ch_7z.DataSourceType">Bluecoat ProxySG</entry>
+	<entry key="be_bluecoatProxy_splunk_wo_ch_7z.type">Bluecoat ProxySG</entry>
+	<entry key="be_bluecoatProxy_splunk_wo_ch_7z.log_format">ELFF</entry>
+	<entry key="be_bluecoatProxy_splunk_wo_ch_7z.filename">Bluecoat_Splunk_20rec.7z</entry>
+	
+	<entry key="be_checkpoint_csv_7z.LogFilePath">/src/test/resources/Audit/LogFiles/TempLogFiles/CheckPoint-2015-09-04.7z</entry>
+	<entry key="be_checkpoint_csv_7z.DataSourceFormat">CSV</entry>
+	<entry key="be_checkpoint_csv_7z.DataSourceType">Checkpoint</entry>
+	<entry key="be_checkpoint_csv_7z.type">Checkpoint</entry>
+	<entry key="be_checkpoint_csv_7z.log_format">CSV</entry>
+	<entry key="be_checkpoint_csv_7z.filename">CheckPoint-2015-09-04.7z</entry>
+	
+	
+	<entry key="be_checkpoint_smartview_7z.LogFilePath">/src/test/resources/Audit/LogFiles/TempLogFiles/smartview_export_all.txt.7z</entry>
+	<entry key="be_checkpoint_smartview_7z.DataSourceFormat">SmartView</entry>
+	<entry key="be_checkpoint_smartview_7z.DataSourceType">Checkpoint</entry>
+	<entry key="be_checkpoint_smartview_7z.type">Checkpoint</entry>
+	<entry key="be_checkpoint_smartview_7z.log_format">SmartView</entry>
+	<entry key="be_checkpoint_smartview_7z.filename">smartview_export_all.txt.7z</entry>
+	
+	<entry key="be_juniperscreenos_7z.LogFilePath">/src/test/resources/Audit/LogFiles/TempLogFiles/Net-screen-final.7z</entry>
+	<entry key="be_juniperscreenos_7z.DataSourceFormat">syslog</entry>
+	<entry key="be_juniperscreenos_7z.DataSourceType">Juniper ScreenOS</entry>
+	<entry key="be_juniperscreenos_7z.type">Juniper ScreenOS</entry>
+	<entry key="be_juniperscreenos_7z.log_format">syslog</entry>
+	<entry key="be_juniperscreenos_7z.filename">Net-screen-final.7z</entry>
+	
+	<entry key="juniperSRX_7z.LogFilePath">/src/test/resources/Audit/LogFiles/TempLogFiles/Juniper-srx-datavald.txt.7z</entry>
+	<entry key="juniperSRX_7z.DataSourceFormat">WELF</entry>
+	<entry key="juniperSRX_7z.DataSourceType">Juniper SRX</entry>
+	<entry key="juniperSRX_7z.type">Juniper SRX</entry>
+	<entry key="juniperSRX_7z.log_format">WELF</entry>
+	<entry key="juniperSRX_7z.filename">Juniper-srx-datavald.txt.7z</entry>
+	
+	
+	<entry key="mcafeesef_7z.LogFilePath">/src/test/resources/Audit/LogFiles/TempLogFiles/BE_McAfee_SEF_Format.7z</entry>
+	<entry key="mcafeesef_7z.DataSourceFormat">WELF</entry>
+	<entry key="mcafeesef_7z.DataSourceType">McAfee</entry>
+	<entry key="mcafeesef_7z.type">McAfee</entry>
+	<entry key="mcafeesef_7z.log_format">WELF</entry>
+	<entry key="mcafeesef_7z.filename">BE_McAfee_SEF_Format.7z</entry>	
+	
+	<!--squid proxy  -->
+	<entry key="squidrpoxy_7z.LogFilePath">/src/test/resources/Audit/LogFiles/TempLogFiles/BE_Squid-2015-04-02.7z</entry>
+	<entry key="squidrpoxy_7z.DataSourceFormat">access</entry>
+	<entry key="squidrpoxy_7z.DataSourceType">Squid</entry>
+	<entry key="squidrpoxy_7z.type">Squid</entry>
+	<entry key="squidrpoxy_7z.log_format">access</entry>
+	<entry key="squidrpoxy_7z.filename">BE_Squid-2015-04-02.7z</entry>	
+	
+	<entry key="be_pancsv_7z.LogFilePath">/src/test/resources/Audit/LogFiles/TempLogFiles/BE_PAN_CSV.7z</entry>
+	<entry key="be_pancsv_7z.DataSourceFormat">CSV</entry>
+	<entry key="be_pancsv_7z.DataSourceType">Palo-Alto</entry>
+	<entry key="be_pancsv_7z.type">Palo-Alto</entry>
+	<entry key="be_pancsv_7z.log_format">CSV</entry>
+	<entry key="be_pancsv_7z.filename">BE_PAN_CSV.7z</entry>	
+	
+	<entry key="be_pancsv_bz2.LogFilePath">/src/test/resources/Audit/LogFiles/TempLogFiles/BE_PAN_CSV.bz2</entry>
+	<entry key="be_pancsv_bz2.DataSourceFormat">CSV</entry>
+	<entry key="be_pancsv_bz2.DataSourceType">Palo-Alto</entry>
+	<entry key="be_pancsv_bz2.type">Palo-Alto</entry>
+	<entry key="be_pancsv_bz2.log_format">CSV</entry>
+	<entry key="be_pancsv_bz2.filename">BE_PAN_CSV.bz2</entry>	
+		
+	
+	<entry key="be_pancsv_gz.LogFilePath">/src/test/resources/Audit/LogFiles/TempLogFiles/BE_PAN_CSV.gz</entry>
+	<entry key="be_pancsv_gz.DataSourceFormat">CSV</entry>
+	<entry key="be_pancsv_gz.DataSourceType">Palo-Alto</entry>
+	<entry key="be_pancsv_gz.type">Palo-Alto</entry>
+	<entry key="be_pancsv_gz.log_format">CSV</entry>
+	<entry key="be_pancsv_gz.filename">BE_PAN_CSV.gz</entry>
+	
+	<entry key="be_pancsv_splunk_wo_ch_7z.LogFilePath">/src/test/resources/Audit/LogFiles/TempLogFiles/pan_20recs_with_all_splunk_header_only.log.7z</entry>
+	<entry key="be_pancsv_splunk_wo_ch_7z.DataSourceFormat">Splunk</entry>
+	<entry key="be_pancsv_splunk_wo_ch_7z.DataSourceType">Palo-Alto</entry>
+	<entry key="be_pancsv_splunk_wo_ch_7z.type">Palo-Alto</entry>
+	<entry key="be_pancsv_splunk_wo_ch_7z.log_format">Splunk</entry>
+	<entry key="be_pancsv_splunk_wo_ch_7z.filename">pan_20recs_with_all_splunk_header_only.log.7z</entry>
+	
+	<entry key="be_wsaw3c_7z.LogFilePath">/src/test/resources/Audit/LogFiles/TempLogFiles/WSA_W3c-KU.log.7z</entry>
+	<entry key="be_wsaw3c_7z.DataSourceFormat">W3C</entry>
+	<entry key="be_wsaw3c_7z.DataSourceType">Cisco WSA</entry>
+	<entry key="be_wsaw3c_7z.type">Cisco WSA</entry>
+	<entry key="be_wsaw3c_7z.log_format">W3C</entry>
+	<entry key="be_wsaw3c_7z.filename">WSA_W3c-KU.log.7z</entry>
+	
+	<entry key="be_wsaw3c_bz2.LogFilePath">/src/test/resources/Audit/LogFiles/TempLogFiles/WSA_W3c-KU.log.bz2</entry>
+	<entry key="be_wsaw3c_bz2.DataSourceFormat">W3C</entry>
+	<entry key="be_wsaw3c_bz2.DataSourceType">Cisco WSA</entry>
+	<entry key="be_wsaw3c_bz2.type">Cisco WSA</entry>
+	<entry key="be_wsaw3c_bz2.log_format">W3C</entry>
+	<entry key="be_wsaw3c_bz2.filename">WSA_W3c-KU.log.bz2</entry>
+	
+	<entry key="be_wsaw3c_gz.LogFilePath">/src/test/resources/Audit/LogFiles/TempLogFiles/WSA_W3c-KU.log.gz</entry>
+	<entry key="be_wsaw3c_gz.DataSourceFormat">W3C</entry>
+	<entry key="be_wsaw3c_gz.DataSourceType">Cisco WSA</entry>
+	<entry key="be_wsaw3c_gz.type">Cisco WSA</entry>
+	<entry key="be_wsaw3c_gz.log_format">W3C</entry>
+	<entry key="be_wsaw3c_gz.filename">WSA_W3c-KU.log.gz</entry>
+	
+	
+	<entry key="be_wsaaccess_7z.LogFilePath">/src/test/resources/Audit/LogFiles/TempLogFiles/WSA-Access_KU.log.zip.7z</entry>
+	<entry key="be_wsaaccess_7z.DataSourceFormat">access</entry>
+	<entry key="be_wsaaccess_7z.DataSourceType">Cisco WSA</entry>
+	<entry key="be_wsaaccess_7z.type">Cisco WSA</entry>
+	<entry key="be_wsaaccess_7z.log_format">access</entry>
+	<entry key="be_wsaaccess_7z.filename">WSA-Access_KU.log.zip.7z</entry>
+	
+	<entry key="be_zscalar_7z.LogFilePath">/src/test/resources/Audit/LogFiles/TempLogFiles/Zscaler_Edited_10Logs.7z</entry>
+	<entry key="be_zscalar_7z.DataSourceFormat">NSS Custom</entry>
+	<entry key="be_zscalar_7z.DataSourceType">ZScaler</entry>
+	<entry key="be_zscalar_7z.type">ZScaler</entry>
+	<entry key="be_zscalar_7z.log_format">NSS Custom</entry>
+	<entry key="be_zscalar_7z.filename">Zscaler_Edited_10Logs.7z</entry>
+	
+	<entry key="be_zscalar_bz2.LogFilePath">/src/test/resources/Audit/LogFiles/TempLogFiles/Zscaler_Edited_10Logs.bz2</entry>
+	<entry key="be_zscalar_bz2.DataSourceFormat">NSS Custom</entry>
+	<entry key="be_zscalar_bz2.DataSourceType">ZScaler</entry>
+	<entry key="be_zscalar_bz2.type">ZScaler</entry>
+	<entry key="be_zscalar_bz2.log_format">NSS Custom</entry>
+	<entry key="be_zscalar_bz2.filename">Zscaler_Edited_10Logs.bz2</entry>
+	
+	<entry key="be_zscalar_gz.LogFilePath">/src/test/resources/Audit/LogFiles/TempLogFiles/Zscaler_Edited_10Logs.gz</entry>
+	<entry key="be_zscalar_gz.DataSourceFormat">NSS Custom</entry>
+	<entry key="be_zscalar_gz.DataSourceType">ZScaler</entry>
+	<entry key="be_zscalar_gz.type">ZScaler</entry>
+	<entry key="be_zscalar_gz.log_format">NSS Custom</entry>
+	<entry key="be_zscalar_gz.filename">Zscaler_Edited_10Logs.gz</entry>
+	
+	
+	<entry key="wallmartWebGateWayLog_7z.LogFilePath">/src/test/resources/Audit/LogFiles/TempLogFiles/Wallmart_Mcaffe-web-gateway-final.7z</entry>
+	<entry key="wallmartWebGateWayLog_7z.DataSourceFormat">access</entry>
+	<entry key="wallmartWebGateWayLog_7z.DataSourceType">McAfee Web Gateway</entry>
+	<entry key="wallmartWebGateWayLog_7z.type">McAfee Web Gateway</entry>
+	<entry key="wallmartWebGateWayLog_7z.log_format">access</entry>
+	<entry key="wallmartWebGateWayLog_7z.filename">Wallmart_Mcaffe-web-gateway-final.7z</entry>	
+	
+	<entry key="wallmartWebGateWayLog_bz2.LogFilePath">/src/test/resources/Audit/LogFiles/TempLogFiles/Wallmart_Mcaffe-web-gateway-final.bz2</entry>
+	<entry key="wallmartWebGateWayLog_bz2.DataSourceFormat">access</entry>
+	<entry key="wallmartWebGateWayLog_bz2.DataSourceType">McAfee Web Gateway</entry>
+	<entry key="wallmartWebGateWayLog_bz2.type">McAfee Web Gateway</entry>
+	<entry key="wallmartWebGateWayLog_bz2.log_format">access</entry>
+	<entry key="wallmartWebGateWayLog_bz2.filename">Wallmart_Mcaffe-web-gateway-final.bz2</entry>	
+	
+	<entry key="wallmartWebGateWayLog_gz.LogFilePath">/src/test/resources/Audit/LogFiles/TempLogFiles/Wallmart_Mcaffe-web-gateway-final.gz</entry>
+	<entry key="wallmartWebGateWayLog_gz.DataSourceFormat">access</entry>
+	<entry key="wallmartWebGateWayLog_gz.DataSourceType">McAfee Web Gateway</entry>
+	<entry key="wallmartWebGateWayLog_gz.type">McAfee Web Gateway</entry>
+	<entry key="wallmartWebGateWayLog_gz.log_format">access</entry>
+	<entry key="wallmartWebGateWayLog_gz.filename">Wallmart_Mcaffe-web-gateway-final.gz</entry>
+	
+	
+	<entry key="wallmartPanCSV_7z.LogFilePath">/src/test/resources/Audit/LogFiles/TempLogFiles/wallmart_PAN-post-vald.7z</entry>
+	<entry key="wallmartPanCSV_7z.DataSourceFormat">CSV</entry>
+	<entry key="wallmartPanCSV_7z.DataSourceType">Palo-Alto</entry>
+	<entry key="wallmartPanCSV_7z.type">Palo-Alto</entry>
+	<entry key="wallmartPanCSV_7z.log_format">CSV</entry>
+	<entry key="wallmartPanCSV_7z.filename">wallmart_PAN-post-vald.7z</entry>	
+	
+	
+	<entry key="wallmartPanSYS_7z.LogFilePath">/src/test/resources/Audit/LogFiles/TempLogFiles/Wallmart_PAN-Sys.7z</entry>
+	<entry key="wallmartPanSYS_7z.DataSourceFormat">syslog</entry>
+	<entry key="wallmartPanSYS_7z.DataSourceType">Palo-Alto</entry>
+	<entry key="wallmartPanSYS_7z.type">Palo-Alto</entry>
+	<entry key="wallmartPanSYS_7z.log_format">syslog</entry>
+	<entry key="wallmartPanSYS_7z.filename">Wallmart_PAN-Sys.7z</entry>
+	
+	<entry key="scanSafe_7z.LogFilePath">/src/test/resources/Audit/LogFiles/TempLogFiles/scansafe.7z</entry>
+	<entry key="scanSafe_7z.DataSourceFormat">CSV</entry>
+	<entry key="scanSafe_7z.DataSourceType">ScanSafe</entry>
+	<entry key="scanSafe_7z.type">ScanSafe</entry>
+	<entry key="scanSafe_7z.log_format">CSV</entry>
+	<entry key="scanSafe_7z.filename">scansafe.7z</entry>
+	
+	
+	<entry key="CiscoASASeries_7z.LogFilePath">/src/test/resources/Audit/LogFiles/TempLogFiles/Cisco_ASA_IPs.7z</entry>
+	<entry key="CiscoASASeries_7z.DataSourceFormat">syslog</entry>
+	<entry key="CiscoASASeries_7z.DataSourceType">Cisco</entry>
+	<entry key="CiscoASASeries_7z.type">Cisco</entry>
+	<entry key="CiscoASASeries_7z.log_format">syslog</entry>
+	<entry key="CiscoASASeries_7z.filename">Cisco_ASA_IPs.7z</entry>
+	
+	<entry key="CiscoASASeries_bz2.LogFilePath">/src/test/resources/Audit/LogFiles/TempLogFiles/Cisco_ASA_IPs.bz2</entry>
+	<entry key="CiscoASASeries_bz2.DataSourceFormat">syslog</entry>
+	<entry key="CiscoASASeries_bz2.DataSourceType">Cisco</entry>
+	<entry key="CiscoASASeries_bz2.type">Cisco</entry>
+	<entry key="CiscoASASeries_bz2.log_format">syslog</entry>
+	<entry key="CiscoASASeries_bz2.filename">Cisco_ASA_IPs.bz2</entry>
+	
+	<entry key="CiscoASASeries_gz.LogFilePath">/src/test/resources/Audit/LogFiles/TempLogFiles/Cisco_ASA_IPs.gz</entry>
+	<entry key="CiscoASASeries_gz.DataSourceFormat">syslog</entry>
+	<entry key="CiscoASASeries_gz.DataSourceType">Cisco</entry>
+	<entry key="CiscoASASeries_gz.type">Cisco</entry>
+	<entry key="CiscoASASeries_gz.log_format">syslog</entry>
+	<entry key="CiscoASASeries_gz.filename">Cisco_ASA_IPs.gz</entry>
+	
+	<!-- 7z compressed formats over -->
+	
+	<!-- 7za compressed formats started -->
+	<entry key="be_barracuda_cli_7za.LogFilePath">/src/test/resources/Audit/LogFiles/TempLogFiles/BE_Barracuda_C120773_Postprocessing_Activity_Format.7za</entry>
+	<entry key="be_barracuda_cli_7za.DataSourceFormat">cli</entry>
+	<entry key="be_barracuda_cli_7za.DataSourceType">Barracuda</entry>
+	<entry key="be_barracuda_cli_7za.type">Barracuda</entry>
+	<entry key="be_barracuda_cli_7za.log_format">cli</entry>
+	<entry key="be_barracuda_cli_7za.filename">Barracuda_C120773_Postprocessing_Syslog_Format.7za</entry>
+	
+	<entry key="be_barracuda_sys_7za.LogFilePath">/src/test/resources/Audit/LogFiles/TempLogFiles/Barracuda_C120773_Postprocessing_Syslog_Format.7za</entry>
+	<entry key="be_barracuda_sys_7za.DataSourceFormat">syslog</entry>
+	<entry key="be_barracuda_sys_7za.DataSourceType">Barracuda</entry>
+	<entry key="be_barracuda_sys_7za.type">Barracuda</entry>
+	<entry key="be_barracuda_sys_7za.log_format">syslog</entry>
+	<entry key="be_barracuda_sys_7za.filename">BE_Barracuda_C120773_Postprocessing_Syslog_Format.7za</entry>
+	
+	
+	<entry key="be_bluecoat_proxy_7za.LogFilePath">/src/test/resources/Audit/LogFiles/TempLogFiles/bluecoat-vald-auto.log.7za</entry>
+	<entry key="be_bluecoat_proxy_7za.DataSourceFormat">ELFF</entry>
+	<entry key="be_bluecoat_proxy_7za.DataSourceType">Bluecoat ProxySG</entry>
+	<entry key="be_bluecoat_proxy_7za.type">Bluecoat ProxySG</entry>
+	<entry key="be_bluecoat_proxy_7za.log_format">ELFF</entry>
+	<entry key="be_bluecoat_proxy_7za.filename">bluecoat-vald-auto.log.7za</entry>
+	
+	
+	<entry key="be_bluecoatProxy_splunk_wo_ch_7za.LogFilePath">/src/test/resources/Audit/LogFiles/TempLogFiles/Bluecoat_Splunk_20rec.7za</entry>
+	<entry key="be_bluecoatProxy_splunk_wo_ch_7za.DataSourceFormat">ELFF</entry>
+	<entry key="be_bluecoatProxy_splunk_wo_ch_7za.DataSourceType">Bluecoat ProxySG</entry>
+	<entry key="be_bluecoatProxy_splunk_wo_ch_7za.type">Bluecoat ProxySG</entry>
+	<entry key="be_bluecoatProxy_splunk_wo_ch_7za.log_format">ELFF</entry>
+	<entry key="be_bluecoatProxy_splunk_wo_ch_7za.filename">Bluecoat_Splunk_20rec.7za</entry>
+	
+	<entry key="be_checkpoint_csv_7za.LogFilePath">/src/test/resources/Audit/LogFiles/TempLogFiles/CheckPoint-2015-09-04.7za</entry>
+	<entry key="be_checkpoint_csv_7za.DataSourceFormat">CSV</entry>
+	<entry key="be_checkpoint_csv_7za.DataSourceType">Checkpoint</entry>
+	<entry key="be_checkpoint_csv_7za.type">Checkpoint</entry>
+	<entry key="be_checkpoint_csv_7za.log_format">CSV</entry>
+	<entry key="be_checkpoint_csv_7za.filename">CheckPoint-2015-09-04.7za</entry>
+	
+	
+	<entry key="be_checkpoint_smartview_7za.LogFilePath">/src/test/resources/Audit/LogFiles/TempLogFiles/smartview_export_all.txt.7za</entry>
+	<entry key="be_checkpoint_smartview_7za.DataSourceFormat">SmartView</entry>
+	<entry key="be_checkpoint_smartview_7za.DataSourceType">Checkpoint</entry>
+	<entry key="be_checkpoint_smartview_7za.type">Checkpoint</entry>
+	<entry key="be_checkpoint_smartview_7za.log_format">SmartView</entry>
+	<entry key="be_checkpoint_smartview_7za.filename">smartview_export_all.txt.7za</entry>
+	
+	<entry key="be_juniperscreenos_7za.LogFilePath">/src/test/resources/Audit/LogFiles/TempLogFiles/Net-screen-final.7za</entry>
+	<entry key="be_juniperscreenos_7za.DataSourceFormat">syslog</entry>
+	<entry key="be_juniperscreenos_7za.DataSourceType">Juniper ScreenOS</entry>
+	<entry key="be_juniperscreenos_7za.type">Juniper ScreenOS</entry>
+	<entry key="be_juniperscreenos_7za.log_format">syslog</entry>
+	<entry key="be_juniperscreenos_7za.filename">Net-screen-final.7za</entry>
+	
+	<entry key="juniperSRX_7za.LogFilePath">/src/test/resources/Audit/LogFiles/TempLogFiles/Juniper-srx-datavald.txt.7za</entry>
+	<entry key="juniperSRX_7za.DataSourceFormat">WELF</entry>
+	<entry key="juniperSRX_7za.DataSourceType">Juniper SRX</entry>
+	<entry key="juniperSRX_7za.type">Juniper SRX</entry>
+	<entry key="juniperSRX_7za.log_format">WELF</entry>
+	<entry key="juniperSRX_7za.filename">Juniper-srx-datavald.txt.7za</entry>
+	
+	
+	<entry key="mcafeesef_7za.LogFilePath">/src/test/resources/Audit/LogFiles/TempLogFiles/BE_McAfee_SEF_Format.7za</entry>
+	<entry key="mcafeesef_7za.DataSourceFormat">WELF</entry>
+	<entry key="mcafeesef_7za.DataSourceType">McAfee</entry>
+	<entry key="mcafeesef_7za.type">McAfee</entry>
+	<entry key="mcafeesef_7za.log_format">WELF</entry>
+	<entry key="mcafeesef_7za.filename">BE_McAfee_SEF_Format.7za</entry>	
+	
+	<!--squid proxy  -->
+	<entry key="squidrpoxy_7za.LogFilePath">/src/test/resources/Audit/LogFiles/TempLogFiles/BE_Squid-2015-04-02.7za</entry>
+	<entry key="squidrpoxy_7za.DataSourceFormat">access</entry>
+	<entry key="squidrpoxy_7za.DataSourceType">Squid</entry>
+	<entry key="squidrpoxy_7za.type">Squid</entry>
+	<entry key="squidrpoxy_7za.log_format">access</entry>
+	<entry key="squidrpoxy_7za.filename">BE_Squid-2015-04-02.7za</entry>	
+	
+	<entry key="be_pancsv_7za.LogFilePath">/src/test/resources/Audit/LogFiles/TempLogFiles/BE_PAN_CSV.7za</entry>
+	<entry key="be_pancsv_7za.DataSourceFormat">CSV</entry>
+	<entry key="be_pancsv_7za.DataSourceType">Palo-Alto</entry>
+	<entry key="be_pancsv_7za.type">Palo-Alto</entry>
+	<entry key="be_pancsv_7za.log_format">CSV</entry>
+	<entry key="be_pancsv_7za.filename">BE_PAN_CSV.7za</entry>	
+	
+	<entry key="be_pancsv_splunk_wo_ch_7za.LogFilePath">/src/test/resources/Audit/LogFiles/TempLogFiles/pan_20recs_with_all_splunk_header_only.log.7za</entry>
+	<entry key="be_pancsv_splunk_wo_ch_7za.DataSourceFormat">Splunk</entry>
+	<entry key="be_pancsv_splunk_wo_ch_7za.DataSourceType">Palo-Alto</entry>
+	<entry key="be_pancsv_splunk_wo_ch_7za.type">Palo-Alto</entry>
+	<entry key="be_pancsv_splunk_wo_ch_7za.log_format">Splunk</entry>
+	<entry key="be_pancsv_splunk_wo_ch_7za.filename">pan_20recs_with_all_splunk_header_only.log.7za</entry>
+	
+	<entry key="be_wsaw3c_7za.LogFilePath">/src/test/resources/Audit/LogFiles/TempLogFiles/W3C_Small-auto.log.7za</entry>
+	<entry key="be_wsaw3c_7za.DataSourceFormat">W3C</entry>
+	<entry key="be_wsaw3c_7za.DataSourceType">Cisco WSA</entry>
+	<entry key="be_wsaw3c_7za.type">Cisco WSA</entry>
+	<entry key="be_wsaw3c_7za.log_format">W3C</entry>
+	<entry key="be_wsaw3c_7za.filename">W3C_Small-auto.log.7za</entry>
+	
+	
+	<entry key="be_wsaaccess_7za.LogFilePath">/src/test/resources/Audit/LogFiles/TempLogFiles/WSA-Access_KU.log.zip.7za</entry>
+	<entry key="be_wsaaccess_7za.DataSourceFormat">access</entry>
+	<entry key="be_wsaaccess_7za.DataSourceType">Cisco WSA</entry>
+	<entry key="be_wsaaccess_7za.type">Cisco WSA</entry>
+	<entry key="be_wsaaccess_7za.log_format">access</entry>
+	<entry key="be_wsaaccess_7za.filename">WSA-Access_KU.log.zip.7za</entry>
+	
+	<entry key="be_zscalar_7za.LogFilePath">/src/test/resources/Audit/LogFiles/TempLogFiles/Zscaler_Edited_10Logs.7za</entry>
+	<entry key="be_zscalar_7za.DataSourceFormat">NSS Custom</entry>
+	<entry key="be_zscalar_7za.DataSourceType">ZScaler</entry>
+	<entry key="be_zscalar_7za.type">ZScaler</entry>
+	<entry key="be_zscalar_7za.log_format">NSS Custom</entry>
+	<entry key="be_zscalar_7za.filename">Zscaler_Edited_10Logs.7za</entry>
+	
+	
+	<entry key="wallmartWebGateWayLog_7za.LogFilePath">/src/test/resources/Audit/LogFiles/TempLogFiles/Wallmart_Mcaffe-web-gateway-final.7za</entry>
+	<entry key="wallmartWebGateWayLog_7za.DataSourceFormat">access</entry>
+	<entry key="wallmartWebGateWayLog_7za.DataSourceType">McAfee Web Gateway</entry>
+	<entry key="wallmartWebGateWayLog_7za.type">McAfee Web Gateway</entry>
+	<entry key="wallmartWebGateWayLog_7za.log_format">access</entry>
+	<entry key="wallmartWebGateWayLog_7za.filename">Wallmart_Mcaffe-web-gateway-final.7za</entry>	
+	
+	
+	<entry key="wallmartPanCSV_7za.LogFilePath">/src/test/resources/Audit/LogFiles/TempLogFiles/wallmart_PAN-post-vald.7za</entry>
+	<entry key="wallmartPanCSV_7za.DataSourceFormat">CSV</entry>
+	<entry key="wallmartPanCSV_7za.DataSourceType">Palo-Alto</entry>
+	<entry key="wallmartPanCSV_7za.type">Palo-Alto</entry>
+	<entry key="wallmartPanCSV_7za.log_format">CSV</entry>
+	<entry key="wallmartPanCSV_7za.filename">wallmart_PAN-post-vald.7za</entry>	
+	
+	
+	<entry key="wallmartPanSYS_7za.LogFilePath">/src/test/resources/Audit/LogFiles/TempLogFiles/Wallmart_PAN-Sys.7za</entry>
+	<entry key="wallmartPanSYS_7za.DataSourceFormat">syslog</entry>
+	<entry key="wallmartPanSYS_7za.DataSourceType">Palo-Alto</entry>
+	<entry key="wallmartPanSYS_7za.type">Palo-Alto</entry>
+	<entry key="wallmartPanSYS_7za.log_format">syslog</entry>
+	<entry key="wallmartPanSYS_7za.filename">Wallmart_PAN-Sys.7za</entry>
+	
+	<entry key="scanSafe_7za.LogFilePath">/src/test/resources/Audit/LogFiles/TempLogFiles/scansafe.7za</entry>
+	<entry key="scanSafe_7za.DataSourceFormat">CSV</entry>
+	<entry key="scanSafe_7za.DataSourceType">ScanSafe</entry>
+	<entry key="scanSafe_7za.type">ScanSafe</entry>
+	<entry key="scanSafe_7za.log_format">CSV</entry>
+	<entry key="scanSafe_7za.filename">scansafe.7za</entry>
+	
+	
+	<entry key="CiscoASASeries_7za.LogFilePath">/src/test/resources/Audit/LogFiles/TempLogFiles/cisco-asa-post-vald.7za</entry>
+	<entry key="CiscoASASeries_7za.DataSourceFormat">syslog</entry>
+	<entry key="CiscoASASeries_7za.DataSourceType">Cisco</entry>
+	<entry key="CiscoASASeries_7za.type">Cisco</entry>
+	<entry key="CiscoASASeries_7za.log_format">syslog</entry>
+	<entry key="CiscoASASeries_7za.filename">cisco-asa-post-vald.7za</entry>
+	<!-- 7za compressed formats end -->
+	
+	
+	<!-- syslog files -->
+	<entry key="CiscoASASeries_syslog.LogFilePath">/src/test/resources/Audit/LogFiles/syslogFiles/cisco-asa-syslog.log</entry>
+	<entry key="CiscoASASeries_syslog.DataSourceFormat">syslog</entry>
+	<entry key="CiscoASASeries_syslog.DataSourceType">Cisco</entry>
+	<entry key="CiscoASASeries_syslog.type">Cisco</entry>
+	<entry key="CiscoASASeries_syslog.log_format">syslog</entry>
+	<entry key="CiscoASASeries_syslog.filename">cisco-asa-syslog.log</entry>
+	
+	<entry key="pan_syslog.LogFilePath">/src/test/resources/Audit/LogFiles/syslogFiles/PAN-Syslog_Multiple_Device_IDs.log</entry>
+	<entry key="pan_syslog.DataSourceFormat">syslog</entry>
+	<entry key="pan_syslog.DataSourceType">Palo-Alto</entry>
+	<entry key="pan_syslog.type">Palo-Alto</entry>
+	<entry key="pan_syslog.log_format">syslog</entry>
+	<entry key="pan_syslog.filename">PAN-Syslog_Multiple_Device_IDs.log</entry>
+	
+	<entry key="wsa_syslog.LogFilePath">/src/test/resources/Audit/LogFiles/syslogFiles/W3C_Small.log</entry>
+	<entry key="wsa_syslog.DataSourceFormat">W3C</entry>
+	<entry key="wsa_syslog.DataSourceType">Cisco WSA</entry>
+	<entry key="wsa_syslog.type">Cisco WSA</entry>
+	<entry key="wsa_syslog.log_format">W3C</entry>
+	<entry key="wsa_syslog.filename">W3C_Small.log</entry>
+	
+	
+	<!-- Added by Laxman for Weekly Regression Test -->
+	
+	 <!-- audit_weekly_be_barracuda_sys_zip --> 
+	 
+    <entry key="audit_weekly_be_barracuda_sys_zip.LogFilePath">/src/test/resources/Audit/LogFiles/TempLogFiles/BE_Barracuda_C120773_Postprocessing_Syslog_Format.zip</entry>
+	<entry key="audit_weekly_be_barracuda_sys_zip.DataSourceFormat">syslog</entry>
+	<entry key="audit_weekly_be_barracuda_sys_zip.DataSourceType">Barracuda</entry>
+	<entry key="audit_weekly_be_barracuda_sys_zip.type">Barracuda</entry>
+	<entry key="audit_weekly_be_barracuda_sys_zip.log_format">syslog</entry>
+	<entry key="audit_weekly_be_barracuda_sys_zip.filename">BE_Barracuda_C120773_Postprocessing_Syslog_Format.zip</entry>
+	
+	<!-- audit_weekly_be_bluecoat_proxy_zip -->
+	
+	<entry key="audit_weekly_be_bluecoat_proxy_zip.LogFilePath">/src/test/resources/Audit/LogFiles/TempLogFiles/bluecoat-vald-auto.log.zip</entry>
+	<entry key="audit_weekly_be_bluecoat_proxy_zip.DataSourceFormat">ELFF</entry>
+	<entry key="audit_weekly_be_bluecoat_proxy_zip.DataSourceType">Bluecoat ProxySG</entry>
+	<entry key="audit_weekly_be_bluecoat_proxy_zip.type">Bluecoat ProxySG</entry>
+	<entry key="audit_weekly_be_bluecoat_proxy_zip.log_format">ELFF</entry>
+	<entry key="audit_weekly_be_bluecoat_proxy_zip.filename">bluecoat-vald-auto.log.zip</entry>
+	
+	<!-- audit_weekly_be_bluecoatproxy_splunk_wo_ch_zip -->
+	
+	<entry key="audit_weekly_be_bluecoatProxy_splunk_wo_ch_zip.LogFilePath">/src/test/resources/Audit/LogFiles/TempLogFiles/BE_Bluecoat_Splunk_20rec.zip</entry>
+	<entry key="audit_weekly_be_bluecoatProxy_splunk_wo_ch_zip.DataSourceFormat">ELFF</entry>
+	<entry key="audit_weekly_be_bluecoatProxy_splunk_wo_ch_zip.DataSourceType">Bluecoat ProxySG</entry>
+	<entry key="audit_weekly_be_bluecoatProxy_splunk_wo_ch_zip.type">Bluecoat ProxySG</entry>
+	<entry key="audit_weekly_be_bluecoatProxy_splunk_wo_ch_zip.log_format">ELFF</entry>
+	<entry key="audit_weekly_be_bluecoatProxy_splunk_wo_ch_zip.filename">BE_Bluecoat_Splunk_20rec.zip</entry>
+	
+	
+	<!-- audit_weekly_be_checkpoint_csv_zip -->
+	
+	<entry key="audit_weekly_be_checkpoint_csv_zip.LogFilePath">/src/test/resources/Audit/LogFiles/TempLogFiles/CheckPoint-2015-09-04.zip</entry>
+	<entry key="audit_weekly_be_checkpoint_csv_zip.DataSourceFormat">CSV</entry>
+	<entry key="audit_weekly_be_checkpoint_csv_zip.DataSourceType">Checkpoint</entry>
+	<entry key="audit_weekly_be_checkpoint_csv_zip.type">Checkpoint</entry>
+	<entry key="audit_weekly_be_checkpoint_csv_zip.log_format">CSV</entry>
+	<entry key="audit_weekly_be_checkpoint_csv_zip.filename">CheckPoint-2015-09-04.zip</entry>
+	
+	<!-- audit_weekly_be_checkpoint_smartview_zip -->
+	
+	<entry key="audit_weekly_be_checkpoint_smartview_zip.LogFilePath">/src/test/resources/Audit/LogFiles/TempLogFiles/CheckPoint_smartview.zip</entry>
+	<entry key="audit_weekly_be_checkpoint_smartview_zip.DataSourceFormat">SmartView</entry>
+	<entry key="audit_weekly_be_checkpoint_smartview_zip.DataSourceType">Checkpoint</entry>
+	<entry key="audit_weekly_be_checkpoint_smartview_zip.type">Checkpoint</entry>
+	<entry key="audit_weekly_be_checkpoint_smartview_zip.log_format">SmartView</entry>
+	<entry key="audit_weekly_be_checkpoint_smartview_zip.filename">CheckPoint_smartview.zip</entry>
+	
+	<!-- audit_weekly_be_juniper_screenos_zip -->
+	
+	<entry key="audit_weekly_be_juniper_screenos_zip.LogFilePath">/src/test/resources/Audit/LogFiles/TempLogFiles/Net-screen-final.zip</entry>
+	<entry key="audit_weekly_be_juniper_screenos_zip.DataSourceFormat">syslog</entry>
+	<entry key="audit_weekly_be_juniper_screenos_zip.DataSourceType">Juniper ScreenOS</entry>
+	<entry key="audit_weekly_be_juniper_screenos_zip.type">Juniper ScreenOS</entry>
+	<entry key="audit_weekly_be_juniper_screenos_zip.log_format">syslog</entry>
+	<entry key="audit_weekly_be_juniper_screenos_zip.filename">Net-screen-final.zip</entry>
+	
+	<!-- audit_weekly_be_mcafee_sef_zip -->
+	
+	<entry key="audit_weekly_be_mcafee_sef_zip.LogFilePath">/src/test/resources/Audit/LogFiles/TempLogFiles/BE_McAfee_SEF_Format.log.zip</entry>
+	<entry key="audit_weekly_be_mcafee_sef_zip.DataSourceFormat">WELF</entry>
+	<entry key="audit_weekly_be_mcafee_sef_zip.DataSourceType">McAfee</entry>
+	<entry key="audit_weekly_be_mcafee_sef_zip.type">McAfee</entry>
+	<entry key="audit_weekly_be_mcafee_sef_zip.log_format">WELF</entry>
+	<entry key="audit_weekly_be_mcafee_sef_zip.filename">BE_McAfee_SEF_Format.log.zip</entry>	
+	
+	<!-- audit_weekly_be_pancsv_zip -->
+	
+	<entry key="audit_weekly_be_pancsv_zip.LogFilePath">/src/test/resources/Audit/LogFiles/TempLogFiles/BE_PAN_CSV.zip</entry>
+	<entry key="audit_weekly_be_pancsv_zip.DataSourceFormat">CSV</entry>
+	<entry key="audit_weekly_be_pancsv_zip.DataSourceType">Palo-Alto</entry>
+	<entry key="audit_weekly_be_pancsv_zip.type">Palo-Alto</entry>
+	<entry key="audit_weekly_be_pancsv_zip.log_format">CSV</entry>
+	<entry key="audit_weekly_be_pancsv_zip.filename">BE_PAN_CSV.zip</entry>	
+	
+	<!-- audit_weekly_be_pancsv_splunk_wo_ch_zip -->
+	
+	<entry key="audit_weekly_be_pancsv_splunk_wo_ch_zip.LogFilePath">/src/test/resources/Audit/LogFiles/TempLogFiles/pan_20recs_with_all_splunk_header_only.log.zip</entry>
+	<entry key="audit_weekly_be_pancsv_splunk_wo_ch_zip.DataSourceFormat">Splunk</entry>
+	<entry key="audit_weekly_be_pancsv_splunk_wo_ch_zip.DataSourceType">Palo-Alto</entry>
+	<entry key="audit_weekly_be_pancsv_splunk_wo_ch_zip.type">Palo-Alto</entry>
+	<entry key="audit_weekly_be_pancsv_splunk_wo_ch_zip.log_format">Splunk</entry>
+	<entry key="audit_weekly_be_pancsv_splunk_wo_ch_zip.filename">pan_20recs_with_all_splunk_header_only.log.zip</entry>
+	
+	<!-- audit_weekly_be_squid_proxy_zip -->
+	
+	<entry key="audit_weekly_be_squid_proxy_zip.LogFilePath">/src/test/resources/Audit/LogFiles/TempLogFiles/BE_Squid-2015-04-02.gz</entry>
+	<entry key="audit_weekly_be_squid_proxy_zip.DataSourceFormat">access</entry>
+	<entry key="audit_weekly_be_squid_proxy_zip.DataSourceType">Squid</entry>
+	<entry key="audit_weekly_be_squid_proxy_zip.type">Squid</entry>
+	<entry key="audit_weekly_be_squid_proxy_zip.log_format">access</entry>
+	<entry key="audit_weekly_be_squid_proxy_zip.filename">BE_Squid-2015-04-02.gz</entry>	
+	
+	<!-- audit_weekly_be_wsaw3c_zip -->
+	
+	<entry key="audit_weekly_be_wsaw3c_zip.LogFilePath">/src/test/resources/Audit/LogFiles/TempLogFiles/WSA_W3c-KU.log.zip</entry>
+	<entry key="audit_weekly_be_wsaw3c_zip.DataSourceFormat">W3C</entry>
+	<entry key="audit_weekly_be_wsaw3c_zip.DataSourceType">Cisco WSA</entry>
+	<entry key="audit_weekly_be_wsaw3c_zip.type">Cisco WSA</entry>
+	<entry key="audit_weekly_be_wsaw3c_zip.log_format">W3C</entry>
+	<entry key="audit_weekly_be_wsaw3c_zip.filename">WSA_W3c-KU.log.zip</entry>
+	
+	<!-- audit_weekly_be_wsa_access_zip -->
+	
+	<entry key="audit_weekly_be_wsa_access_zip.LogFilePath">/src/test/resources/Audit/LogFiles/TempLogFiles/WSA-Access_KU.log.zip</entry>
+	<entry key="audit_weekly_be_wsa_access_zip.DataSourceFormat">access</entry>
+	<entry key="audit_weekly_be_wsa_access_zip.DataSourceType">Cisco WSA</entry>
+	<entry key="audit_weekly_be_wsa_access_zip.type">Cisco WSA</entry>
+	<entry key="audit_weekly_be_wsa_access_zip.log_format">access</entry>
+	<entry key="audit_weekly_be_wsa_access_zip.filename">WSA-Access_KU.log.zip</entry>
+	
+	<!-- audit_weekly_be_zscalar_zip -->
+	
+	<entry key="audit_weekly_be_zscalar_zip.LogFilePath">/src/test/resources/Audit/LogFiles/TempLogFiles/Zscaler_Edited_10Logs.zip</entry>
+	<entry key="audit_weekly_be_zscalar_zip.DataSourceFormat">NSS Custom</entry>
+	<entry key="audit_weekly_be_zscalar_zip.DataSourceType">ZScaler</entry>
+	<entry key="audit_weekly_be_zscalar_zip.type">ZScaler</entry>
+	<entry key="audit_weekly_be_zscalar_zip.log_format">NSS Custom</entry>
+	<entry key="audit_weekly_be_zscalar_zip.filename">Zscaler_Edited_10Logs.zip</entry>
+	
+	<!-- audit_weekly_be_juniper_srx_zip -->
+	
+	<entry key="audit_weekly_be_juniper_srx_zip.LogFilePath">/src/test/resources/Audit/LogFiles/TempLogFiles/Juniper-srx-datavald.txt.zip</entry>
+	<entry key="audit_weekly_be_juniper_srx_zip.DataSourceFormat">WELF</entry>
+	<entry key="audit_weekly_be_juniper_srx_zip.DataSourceType">Juniper SRX</entry>
+	<entry key="audit_weekly_be_juniper_srx_zip.type">Juniper SRX</entry>
+	<entry key="audit_weekly_be_juniper_srx_zip.log_format">WELF</entry>
+	<entry key="audit_weekly_be_juniper_srx_zip.filename">Juniper-srx-datavald.txt.zip</entry>
+	
+	<!-- audit_weekly_be_scansafe_zip -->
+	
+	<entry key="audit_weekly_be_scansafe_zip.LogFilePath">/src/test/resources/Audit/LogFiles/TempLogFiles/scansafe.zip</entry>
+	<entry key="audit_weekly_be_scansafe_zip.DataSourceFormat">CSV</entry>
+	<entry key="audit_weekly_be_scansafe_zip.DataSourceType">ScanSafe</entry>
+	<entry key="audit_weekly_be_scansafe_zip.type">ScanSafe</entry>
+	<entry key="audit_weekly_be_scansafe_zip.log_format">CSV</entry>
+	<entry key="audit_weekly_be_scansafe_zip.filename">scansafe.zip</entry>
+	
+	<!-- audit_weekly_be_cisco_asa_series_zip -->
+	<entry key="audit_weekly_be_cisco_asa_series_zip.LogFilePath">/src/test/resources/Audit/LogFiles/TempLogFiles/Cisco_ASA_IPs.zip</entry>
+	<entry key="audit_weekly_be_cisco_asa_series_zip.DataSourceFormat">syslog</entry>
+	<entry key="audit_weekly_be_cisco_asa_series_zip.DataSourceType">Cisco</entry>
+	<entry key="audit_weekly_be_cisco_asa_series_zip.type">Cisco</entry>
+	<entry key="audit_weekly_be_cisco_asa_series_zip.log_format">syslog</entry>
+	<entry key="audit_weekly_be_cisco_asa_series_zip.filename">Cisco_ASA_IPs.zip</entry>
+	
+	<!-- audit_weekly_be_websense_arc_zip -->
+	
+	<entry key="audit_weekly_be_websense_arc_zip.LogFilePath">/src/test/resources/Audit/LogFiles/TempLogFiles/Websense-ArcSight-vald-final.zip</entry>
+	<entry key="audit_weekly_be_websense_arc_zip.DataSourceFormat">Local</entry>
+	<entry key="audit_weekly_be_websense_arc_zip.DataSourceType">Websense Proxy</entry>
+	<entry key="audit_weekly_be_websense_arc_zip.type">Websense Proxy</entry>
+	<entry key="audit_weekly_be_websense_arc_zip.log_format">Local</entry>
+	<entry key="audit_weekly_be_websense_arc_zip.filename">Websense-ArcSight-vald-final.zip</entry>
+	
+	<!-- audit_weekly_be_sonicwall_zip -->
+	
+	<entry key="audit_weekly_be_sonicwall_zip.LogFilePath">/src/test/resources/Audit/LogFiles/TempLogFiles/audit_weekly_be_BE_SonicWall_all_syslog_time_format_in_one.zip</entry>
+	<entry key="audit_weekly_be_sonicwall_zip.DataSourceFormat">WELF</entry>
+	<entry key="audit_weekly_be_sonicwall_zip.DataSourceType">Sonicwall</entry>
+	<entry key="audit_weekly_be_sonicwall_zip.type">Sonicwall</entry>
+	<entry key="audit_weekly_be_sonicwall_zip.log_format">WELF</entry>
+	<entry key="audit_weekly_be_sonicwall_zip.filename">audit_weekly_be_BE_SonicWall_all_syslog_time_format_in_one.zip</entry>
+	
+	<!-- audit_weekly_be_websence_hosted_zip -->
+	
+	<entry key="audit_weekly_be_websence_hosted_zip.LogFilePath">/src/test/resources/Audit/LogFiles/TempLogFiles/Websense_Hosted_No_CustomHeader.zip</entry>
+	<entry key="audit_weekly_be_websence_hosted_zip.DataSourceFormat">Hosted</entry>
+	<entry key="audit_weekly_be_websence_hosted_zip.DataSourceType">Websense Proxy</entry>
+	<entry key="audit_weekly_be_websence_hosted_zip.type">Websense Proxy</entry>
+	<entry key="audit_weekly_be_websence_hosted_zip.log_format">Hosted</entry>
+	<entry key="audit_weekly_be_websence_hosted_zip.filename">Websense_Hosted_No_CustomHeader.zip</entry>
+	
+	<!-- END ZIP --> 
+
+	
+	<!-- STARTED GZ --> 
+	
+	<!-- audit_weekly_be_barracuda_sys_gz -->
+	
+	<entry key="audit_weekly_be_barracuda_sys_gz.LogFilePath">/src/test/resources/Audit/LogFiles/TempLogFiles/Barracuda_C120773_Postprocessing_Syslog_Format.gz</entry>
+	<entry key="audit_weekly_be_barracuda_sys_gz.DataSourceFormat">syslog</entry>
+	<entry key="audit_weekly_be_barracuda_sys_gz.DataSourceType">Barracuda</entry>
+	<entry key="audit_weekly_be_barracuda_sys_gz.type">Barracuda</entry>
+	<entry key="audit_weekly_be_barracuda_sys_gz.log_format">syslog</entry>
+	<entry key="audit_weekly_be_barracuda_sys_gz.filename">Barracuda_C120773_Postprocessing_Syslog_Format.gz</entry>
+	
+	<!-- audit_weekly_be_bluecoat_proxy_gz -->
+	
+	<entry key="audit_weekly_be_bluecoat_proxy_gz.LogFilePath">/src/test/resources/Audit/LogFiles/TempLogFiles/bluecoat-vald-auto.log.gz</entry>
+	<entry key="audit_weekly_be_bluecoat_proxy_gz.DataSourceFormat">ELFF</entry>
+	<entry key="audit_weekly_be_bluecoat_proxy_gz.DataSourceType">Bluecoat ProxySG</entry>
+	<entry key="audit_weekly_be_bluecoat_proxy_gz.type">Bluecoat ProxySG</entry>
+	<entry key="audit_weekly_be_bluecoat_proxy_gz.log_format">ELFF</entry>
+	<entry key="audit_weekly_be_bluecoat_proxy_gz.filename">bluecoat-vald-auto.log.gz</entry>
+	
+	
+	<!-- audit_weekly_be_bluecoatProxy_splunk_wo_ch_gz --> 
+	
+	<entry key="audit_weekly_be_bluecoatProxy_splunk_wo_ch_gz.LogFilePath">/src/test/resources/Audit/LogFiles/TempLogFiles/Bluecoat_Splunk_20rec.gz</entry>
+	<entry key="audit_weekly_be_bluecoatProxy_splunk_wo_ch_gz.DataSourceFormat">ELFF</entry>
+	<entry key="audit_weekly_be_bluecoatProxy_splunk_wo_ch_gz.DataSourceType">Bluecoat ProxySG</entry>
+	<entry key="audit_weekly_be_bluecoatProxy_splunk_wo_ch_gz.type">Bluecoat ProxySG</entry>
+	<entry key="audit_weekly_be_bluecoatProxy_splunk_wo_ch_gz.log_format">ELFF</entry>
+	<entry key="audit_weekly_be_bluecoatProxy_splunk_wo_ch_gz.filename">Bluecoat_Splunk_20rec.gz</entry>
+	
+	<!-- audit_weekly_be_checkpoint_csv_gz -->
+	
+	<entry key="audit_weekly_be_checkpoint_csv_gz.LogFilePath">/src/test/resources/Audit/LogFiles/TempLogFiles/CheckPoint-2015-09-04.gz</entry>
+	<entry key="audit_weekly_be_checkpoint_csv_gz.DataSourceFormat">CSV</entry>
+	<entry key="audit_weekly_be_checkpoint_csv_gz.DataSourceType">Checkpoint</entry>
+	<entry key="audit_weekly_be_checkpoint_csv_gz.type">Checkpoint</entry>
+	<entry key="audit_weekly_be_checkpoint_csv_gz.log_format">CSV</entry>
+	<entry key="audit_weekly_be_checkpoint_csv_gz.filename">CheckPoint-2015-09-04.gz</entry>
+	
+	<!-- audit_weekly_be_checkpoint_smartview_gz -->
+	
+	<entry key="audit_weekly_be_checkpoint_smartview_gz.LogFilePath">/src/test/resources/Audit/LogFiles/TempLogFiles/smartview_export_all.txt.gz</entry>
+	<entry key="audit_weekly_be_checkpoint_smartview_gz.DataSourceFormat">SmartView</entry>
+	<entry key="audit_weekly_be_checkpoint_smartview_gz.DataSourceType">Checkpoint</entry>
+	<entry key="audit_weekly_be_checkpoint_smartview_gz.type">Checkpoint</entry>
+	<entry key="audit_weekly_be_checkpoint_smartview_gz.log_format">SmartView</entry>
+	<entry key="audit_weekly_be_checkpoint_smartview_gz.filename">smartview_export_all.txt.gz</entry>
+	
+	
+	<!-- audit_weekly_be_juniper_screenos_gz --> 
+	
+	<entry key="audit_weekly_be_juniper_screenos_gz.LogFilePath">/src/test/resources/Audit/LogFiles/TempLogFiles/Net-screen-final.gz</entry>
+	<entry key="audit_weekly_be_juniper_screenos_gz.DataSourceFormat">WELF</entry>
+	<entry key="audit_weekly_be_juniper_screenos_gz.DataSourceType">Juniper SRX</entry>
+	<entry key="audit_weekly_be_juniper_screenos_gz.type">Juniper SRX</entry>
+	<entry key="audit_weekly_be_juniper_screenos_gz.log_format">WELF</entry>
+	<entry key="audit_weekly_be_juniper_screenos_gz.filename">Net-screen-final.gz</entry>
+	
+	<!-- audit_weekly_be_mcafee_sef_gz   --> 
+
+	<entry key="audit_weekly_be_mcafee_sef_gz.LogFilePath">/src/test/resources/Audit/LogFiles/TempLogFiles/BE_McAfee_SEF_Format.log.gz</entry>
+	<entry key="audit_weekly_be_mcafee_sef_gz.DataSourceFormat">WELF</entry>
+	<entry key="audit_weekly_be_mcafee_sef_gz.DataSourceType">McAfee</entry>
+	<entry key="audit_weekly_be_mcafee_sef_gz.type">McAfee</entry>
+	<entry key="audit_weekly_be_mcafee_sef_gz.log_format">WELF</entry>
+	<entry key="audit_weekly_be_mcafee_sef_gz.filename">BE_McAfee_SEF_Format.log.gz</entry>	
+	
+	<!-- audit_weekly_be_pancsv_gz -->
+	
+	<entry key="audit_weekly_be_pancsv_gz.LogFilePath">/src/test/resources/Audit/LogFiles/TempLogFiles/BE_PAN_CSV.gz</entry>
+	<entry key="audit_weekly_be_pancsv_gz.DataSourceFormat">CSV</entry>
+	<entry key="audit_weekly_be_pancsv_gz.DataSourceType">Palo-Alto</entry>
+	<entry key="audit_weekly_be_pancsv_gz.type">Palo-Alto</entry>
+	<entry key="audit_weekly_be_pancsv_gz.log_format">CSV</entry>
+	<entry key="audit_weekly_be_pancsv_gz.filename">BE_PAN_CSV.gz</entry>
+	
+	<!-- audit_weekly_be_pancsv_splunk_wo_ch_gz   --> 
+	
+	<entry key="audit_weekly_be_pancsv_splunk_wo_ch_gz.LogFilePath">/src/test/resources/Audit/LogFiles/TempLogFiles/pan_20recs_with_all_splunk_header_only.log.gz</entry>
+	<entry key="audit_weekly_be_pancsv_splunk_wo_ch_gz.DataSourceFormat">Splunk</entry>
+	<entry key="audit_weekly_be_pancsv_splunk_wo_ch_gz.DataSourceType">Palo-Alto</entry>
+	<entry key="audit_weekly_be_pancsv_splunk_wo_ch_gz.type">Palo-Alto</entry>
+	<entry key="audit_weekly_be_pancsv_splunk_wo_ch_gz.log_format">Splunk</entry>
+	<entry key="audit_weekly_be_pancsv_splunk_wo_ch_gz.filename">pan_20recs_with_all_splunk_header_only.log.gz</entry>
+	
+	
+	<!-- audit_weekly_be_squid_proxy_gz   --> 
+	
+	<entry key="audit_weekly_be_squid_proxy_gz.LogFilePath">/src/test/resources/Audit/LogFiles/TempLogFiles/BE_Squid-2015-04-02.gz</entry>
+	<entry key="audit_weekly_be_squid_proxy_gz.DataSourceFormat">access</entry>
+	<entry key="audit_weekly_be_squid_proxy_gz.DataSourceType">Squid</entry>
+	<entry key="audit_weekly_be_squid_proxy_gz.type">Squid</entry>
+	<entry key="audit_weekly_be_squid_proxy_gz.log_format">access</entry>
+	<entry key="audit_weekly_be_squid_proxy_gz.filename">BE_Squid-2015-04-02.gz</entry>	
+	
+	
+	<!-- audit_weekly_be_wsaw3c_gz -->
+	
+	<entry key="audit_weekly_be_wsaw3c_gz.LogFilePath">/src/test/resources/Audit/LogFiles/TempLogFiles/WSA_W3c-KU.log.gz</entry>
+	<entry key="audit_weekly_be_wsaw3c_gz.DataSourceFormat">W3C</entry>
+	<entry key="audit_weekly_be_wsaw3c_gz.DataSourceType">Cisco WSA</entry>
+	<entry key="audit_weekly_be_wsaw3c_gz.type">Cisco WSA</entry>
+	<entry key="audit_weekly_be_wsaw3c_gz.log_format">W3C</entry>
+	<entry key="audit_weekly_be_wsaw3c_gz.filename">WSA_W3c-KU.log.gz</entry>
+
+	
+	<!-- audit_weekly_be_wsa_access_gz -->
+	
+	<entry key="audit_weekly_be_wsa_access_gz.LogFilePath">/src/test/resources/Audit/LogFiles/TempLogFiles/WSA-Access_KU.log.gz</entry>
+	<entry key="audit_weekly_be_wsa_access_gz.DataSourceFormat">access</entry>
+	<entry key="audit_weekly_be_wsa_access_gz.DataSourceType">Cisco WSA</entry>
+	<entry key="audit_weekly_be_wsa_access_gz.type">Cisco WSA</entry>
+	<entry key="audit_weekly_be_wsa_access_gz.log_format">access</entry>
+	<entry key="audit_weekly_be_wsa_access_gz.filename">WSA-Access_KU.log.gz</entry>
+	
+	
+	<!-- audit_weekly_be_zscalar_gz --> 
+	
+	<entry key="audit_weekly_be_zscalar_gz.LogFilePath">/src/test/resources/Audit/LogFiles/TempLogFiles/Zscaler_Edited_10Logs.gz</entry>
+	<entry key="audit_weekly_be_zscalar_gz.DataSourceFormat">NSS Custom</entry>
+	<entry key="audit_weekly_be_zscalar_gz.DataSourceType">ZScaler</entry>
+	<entry key="audit_weekly_be_zscalar_gz.type">ZScaler</entry>
+	<entry key="audit_weekly_be_zscalar_gz.log_format">NSS Custom</entry>
+	<entry key="audit_weekly_be_zscalar_gz.filename">Zscaler_Edited_10Logs.gz</entry>
+	
+	
+	<!-- audit_weekly_be_juniper_srx_gz -->
+	
+	<entry key="audit_weekly_be_juniper_srx_gz.LogFilePath">/src/test/resources/Audit/LogFiles/TempLogFiles/Juniper_srx.txt.gz</entry>
+	<entry key="audit_weekly_be_juniper_srx_gz.DataSourceFormat">WELF</entry>
+	<entry key="audit_weekly_be_juniper_srx_gz.DataSourceType">Juniper SRX</entry>
+	<entry key="audit_weekly_be_juniper_srx_gz.type">Juniper SRX</entry>
+	<entry key="audit_weekly_be_juniper_srx_gz.log_format">WELF</entry>
+	<entry key="audit_weekly_be_juniper_srx_gz.filename">Juniper_srx.txt.gz</entry>
+	
+	<!-- audit_weekly_be_scansafe_gz -->
+	
+	<entry key="audit_weekly_be_scansafe_gz.LogFilePath">/src/test/resources/Audit/LogFiles/TempLogFiles/scansafe.gz</entry>
+	<entry key="audit_weekly_be_scansafe_gz.DataSourceFormat">CSV</entry>
+	<entry key="audit_weekly_be_scansafe_gz.DataSourceType">ScanSafe</entry>
+	<entry key="audit_weekly_be_scansafe_gz.type">ScanSafe</entry>
+	<entry key="audit_weekly_be_scansafe_gz.log_format">CSV</entry>
+	<entry key="audit_weekly_be_scansafe_gz.filename">scansafe.gz</entry>
+	
+	<!-- audit_weekly_be_cisco_asa_series_gz -->
+	
+	<entry key="audit_weekly_be_cisco_asa_series_gz.LogFilePath">/src/test/resources/Audit/LogFiles/TempLogFiles/Cisco_ASA_IPs.gz</entry>
+	<entry key="audit_weekly_be_cisco_asa_series_gz.DataSourceFormat">syslog</entry>
+	<entry key="audit_weekly_be_cisco_asa_series_gz.DataSourceType">Cisco</entry>
+	<entry key="audit_weekly_be_cisco_asa_series_gz.type">Cisco</entry>
+	<entry key="audit_weekly_be_cisco_asa_series_gz.log_format">syslog</entry>
+	<entry key="audit_weekly_be_cisco_asa_series_gz.filename">Cisco_ASA_IPs.gz</entry>
+	
+	<!-- audit_weekly_be_websense_arc_gz   --> 
+	
+	<entry key="audit_weekly_be_websense_arc_gz.LogFilePath">/src/test/resources/Audit/LogFiles/TempLogFiles/Websense-ArcSight-vald-final.gz</entry>
+	<entry key="audit_weekly_be_websense_arc_gz.DataSourceFormat">Local</entry>
+	<entry key="audit_weekly_be_websense_arc_gz.DataSourceType">Websense Proxy</entry>
+	<entry key="audit_weekly_be_websense_arc_gz.type">Websense Proxy</entry>
+	<entry key="audit_weekly_be_websense_arc_gz.log_format">Local</entry>
+	<entry key="audit_weekly_be_websense_arc_gz.filename">Websense-ArcSight-vald-final.gz</entry>
+	
+	
+	<!-- audit_weekly_be_sonicwall_gz   --> 
+	
+	<entry key="audit_weekly_be_sonicwall_gz.LogFilePath">/src/test/resources/Audit/LogFiles/TempLogFiles/audit_weekly_be_BE_SonicWall_all_syslog_time_format_in_one.gz</entry>
+	<entry key="audit_weekly_be_sonicwall_gz.DataSourceFormat">WELF</entry>
+	<entry key="audit_weekly_be_sonicwall_gz.DataSourceType">Sonicwall</entry>
+	<entry key="audit_weekly_be_sonicwall_gz.type">Sonicwall</entry>
+	<entry key="audit_weekly_be_sonicwall_gz.log_format">WELF</entry>
+	<entry key="audit_weekly_be_sonicwall_gz.filename">audit_weekly_be_SonicWall_all_syslog_time_format_in_one.gz</entry>
+	
+	
+	<!-- audit_weekly_be_websence_hosted_gz -->
+	
+	<entry key="audit_weekly_be_websence_hosted_gz.LogFilePath">/src/test/resources/Audit/LogFiles/TempLogFiles/Websense_Hosted_No_CustomHeader.gz</entry>
+	<entry key="audit_weekly_be_websence_hosted_gz.DataSourceFormat">Hosted</entry>
+	<entry key="audit_weekly_be_websence_hosted_gz.DataSourceType">Websense Proxy</entry>
+	<entry key="audit_weekly_be_websence_hosted_gz.type">Websense Proxy</entry>
+	<entry key="audit_weekly_be_websence_hosted_gz.log_format">Hosted</entry>
+	<entry key="audit_weekly_be_websence_hosted_gz.filename">Websense_Hosted_No_CustomHeader.gz</entry>
+	
+	
+	<!-- END GZ --> 
+	
+	<!-- audit_weekly_be_barracuda_sys_bz2 -->
+	
+	<entry key="audit_weekly_be_barracuda_sys_bz2.LogFilePath">/src/test/resources/Audit/LogFiles/TempLogFiles/Barracuda_C120773_Postprocessing_Syslog_Format.bz2</entry>
+	<entry key="audit_weekly_be_barracuda_sys_bz2.DataSourceFormat">syslog</entry>
+	<entry key="audit_weekly_be_barracuda_sys_bz2.DataSourceType">Barracuda</entry>
+	<entry key="audit_weekly_be_barracuda_sys_bz2.type">Barracuda</entry>
+	<entry key="audit_weekly_be_barracuda_sys_bz2.log_format">syslog</entry>
+	<entry key="audit_weekly_be_barracuda_sys_bz2.filename">Barracuda_C120773_Postprocessing_Syslog_Format.bz2</entry>
+	
+	<!-- audit_weekly_be_bluecoat_proxy_bz2 -->
+	
+	<entry key="audit_weekly_be_bluecoat_proxy_bz2.LogFilePath">/src/test/resources/Audit/LogFiles/TempLogFiles/bluecoat-vald-auto.log.bz2</entry>
+	<entry key="audit_weekly_be_bluecoat_proxy_bz2.DataSourceFormat">ELFF</entry>
+	<entry key="audit_weekly_be_bluecoat_proxy_bz2.DataSourceType">Bluecoat ProxySG</entry>
+	<entry key="audit_weekly_be_bluecoat_proxy_bz2.type">Bluecoat ProxySG</entry>
+	<entry key="audit_weekly_be_bluecoat_proxy_bz2.log_format">ELFF</entry>
+	<entry key="audit_weekly_be_bluecoat_proxy_bz2.filename">bluecoat-vald-auto.log.bz2</entry>
+
+	<!-- audit_weekly_be_bluecoatproxy_splunk_wo_ch_bz2   --> 
+	
+	<entry key="audit_weekly_be_bluecoatProxy_splunk_wo_ch_bz2.LogFilePath">/src/test/resources/Audit/LogFiles/TempLogFiles/Bluecoat_Splunk_20rec.bz2</entry>
+	<entry key="audit_weekly_be_bluecoatProxy_splunk_wo_ch_bz2.DataSourceFormat">ELFF</entry>
+	<entry key="audit_weekly_be_bluecoatProxy_splunk_wo_ch_bz2.DataSourceType">Bluecoat ProxySG</entry>
+	<entry key="audit_weekly_be_bluecoatProxy_splunk_wo_ch_bz2.type">Bluecoat ProxySG</entry>
+	<entry key="audit_weekly_be_bluecoatProxy_splunk_wo_ch_bz2.log_format">ELFF</entry>
+	<entry key="audit_weekly_be_bluecoatProxy_splunk_wo_ch_bz2.filename">Bluecoat_Splunk_20rec.bz2</entry>
+	
+	
+	<!-- audit_weekly_be_checkpoint_csv_bz2 -->
+	
+	
+	 
+	<entry key="audit_weekly_be_checkpoint_csv_bz2.LogFilePath">/src/test/resources/Audit/LogFiles/TempLogFiles/CheckPoint-2015-09-04.bz2</entry>
+	<entry key="audit_weekly_be_checkpoint_csv_bz2.DataSourceFormat">CSV</entry>
+	<entry key="audit_weekly_be_checkpoint_csv_bz2.DataSourceType">Checkpoint</entry>
+	<entry key="audit_weekly_be_checkpoint_csv_bz2.type">Checkpoint</entry>
+	<entry key="audit_weekly_be_checkpoint_csv_bz2.log_format">CSV</entry>
+	<entry key="audit_weekly_be_checkpoint_csv_bz2.filename">CheckPoint-2015-09-04.bz2</entry>
+	
+	<!-- audit_weekly_be_checkpoint_smartview_bz2 -->
+	
+	<entry key="audit_weekly_be_checkpoint_smartview_bz2.LogFilePath">/src/test/resources/Audit/LogFiles/TempLogFiles/smartview_export_all.txt.bz2</entry>
+	<entry key="audit_weekly_be_checkpoint_smartview_bz2.DataSourceFormat">SmartView</entry>
+	<entry key="audit_weekly_be_checkpoint_smartview_bz2.DataSourceType">Checkpoint</entry>
+	<entry key="audit_weekly_be_checkpoint_smartview_bz2.type">Checkpoint</entry>
+	<entry key="audit_weekly_be_checkpoint_smartview_bz2.log_format">SmartView</entry>
+	<entry key="audit_weekly_be_checkpoint_smartview_bz2.filename">smartview_export_all.txt.bz2</entry>
+	
+	<!-- audit_weekly_be_juniper_screenos_bz2 -->
+	
+	<entry key="audit_weekly_be_juniper_screenos_bz2.LogFilePath">/src/test/resources/Audit/LogFiles/TempLogFiles/Net-screen-final.bz2</entry>
+	<entry key="audit_weekly_be_juniper_screenos_bz2.DataSourceFormat">WELF</entry>
+	<entry key="audit_weekly_be_juniper_screenos_bz2.DataSourceType">Juniper SRX</entry>
+	<entry key="audit_weekly_be_juniper_screenos_bz2.type">Juniper SRX</entry>
+	<entry key="audit_weekly_be_juniper_screenos_bz2.log_format">WELF</entry>
+	<entry key="audit_weekly_be_juniper_screenos_bz2.filename">Net-screen-final.bz2</entry>
+	
+	<!-- audit_weekly_be_mcafee_sef_bz2   --> 
+	
+	<entry key="audit_weekly_be_mcafee_sef_bz2.LogFilePath">/src/test/resources/Audit/LogFiles/TempLogFiles/BE_McAfee_SEF_Format.log.bz2</entry>
+	<entry key="audit_weekly_be_mcafee_sef_bz2.DataSourceFormat">WELF</entry>
+	<entry key="audit_weekly_be_mcafee_sef_bz2.DataSourceType">McAfee</entry>
+	<entry key="audit_weekly_be_mcafee_sef_bz2.type">McAfee</entry>
+	<entry key="audit_weekly_be_mcafee_sef_bz2.log_format">WELF</entry>
+	<entry key="audit_weekly_be_mcafee_sef_bz2.filename">BE_McAfee_SEF_Format.log.bz2</entry>
+	
+	<!-- audit_weekly_be_pancsv_bz2 -->
+	
+	<entry key="audit_weekly_be_pancsv_bz2.LogFilePath">/src/test/resources/Audit/LogFiles/TempLogFiles/BE_PAN_CSV.bz2</entry>
+	<entry key="audit_weekly_be_pancsv_bz2.DataSourceFormat">CSV</entry>
+	<entry key="audit_weekly_be_pancsv_bz2.DataSourceType">Palo-Alto</entry>
+	<entry key="audit_weekly_be_pancsv_bz2.type">Palo-Alto</entry>
+	<entry key="audit_weekly_be_pancsv_bz2.log_format">CSV</entry>
+	<entry key="audit_weekly_be_pancsv_bz2.filename">BE_PAN_CSV.bz2</entry>
+	
+	<!-- audit_weekly_be_pancsv_splunk_wo_ch_bz2   --> 
+	
+	<entry key="audit_weekly_be_pancsv_splunk_wo_ch_bz2.LogFilePath">/src/test/resources/Audit/LogFiles/TempLogFiles/pan_20recs_with_all_splunk_header_only.log.bz2</entry>
+	<entry key="audit_weekly_be_pancsv_splunk_wo_ch_bz2.DataSourceFormat">Splunk</entry>
+	<entry key="audit_weekly_be_pancsv_splunk_wo_ch_bz2.DataSourceType">Palo-Alto</entry>
+	<entry key="audit_weekly_be_pancsv_splunk_wo_ch_bz2.type">Palo-Alto</entry>
+	<entry key="audit_weekly_be_pancsv_splunk_wo_ch_bz2.log_format">Splunk</entry>
+	<entry key="audit_weekly_be_pancsv_splunk_wo_ch_bz2.filename">pan_20recs_with_all_splunk_header_only.log.bz2</entry>
+	
+	
+	<!-- audit_weekly_be_squid_proxy_bz2   --> 
+	
+	<entry key="audit_weekly_be_squid_proxy_bz2.LogFilePath">/src/test/resources/Audit/LogFiles/TempLogFiles/BE_Squid-2015-04-02.bz2</entry>
+	<entry key="audit_weekly_be_squid_proxy_bz2.DataSourceFormat">access</entry>
+	<entry key="audit_weekly_be_squid_proxy_bz2.DataSourceType">Squid</entry>
+	<entry key="audit_weekly_be_squid_proxy_bz2.type">Squid</entry>
+	<entry key="audit_weekly_be_squid_proxy_bz2.log_format">access</entry>
+	<entry key="audit_weekly_be_squid_proxy_bz2.filename">BE_Squid-2015-04-02.bz2</entry>	
+	
+	
+	<!-- audit_weekly_be_wsaw3c_bz2 -->
+	
+	<entry key="audit_weekly_be_wsaw3c_bz2.LogFilePath">/src/test/resources/Audit/LogFiles/TempLogFiles/WSA_W3c-KU.log.bz2</entry>
+	<entry key="audit_weekly_be_wsaw3c_bz2.DataSourceFormat">W3C</entry>
+	<entry key="audit_weekly_be_wsaw3c_bz2.DataSourceType">Cisco WSA</entry>
+	<entry key="audit_weekly_be_wsaw3c_bz2.type">Cisco WSA</entry>
+	<entry key="audit_weekly_be_wsaw3c_bz2.log_format">W3C</entry>
+	<entry key="audit_weekly_be_wsaw3c_bz2.filename">WSA_W3c-KU.log.bz2</entry>
+	
+	<!-- audit_weekly_be_wsa_access_bz2 -->
+	
+	<entry key="audit_weekly_be_wsa_access_bz2.LogFilePath">/src/test/resources/Audit/LogFiles/TempLogFiles/WSA-Access_KU.log.bz2</entry>
+	<entry key="audit_weekly_be_wsa_access_bz2.DataSourceFormat">access</entry>
+	<entry key="audit_weekly_be_wsa_access_bz2.DataSourceType">Cisco WSA</entry>
+	<entry key="audit_weekly_be_wsa_access_bz2.type">Cisco WSA</entry>
+	<entry key="audit_weekly_be_wsa_access_bz2.log_format">access</entry>
+	<entry key="audit_weekly_be_wsa_access_bz2.filename">WSA-Access_KU.log.bz2</entry>
+	
+	<!-- audit_weekly_be_zscalar_bz2 -->
+
+	<entry key="audit_weekly_be_zscalar_bz2.LogFilePath">/src/test/resources/Audit/LogFiles/TempLogFiles/Zscaler_Edited_10Logs.zip</entry>
+	<entry key="audit_weekly_be_zscalar_bz2.DataSourceFormat">NSS Custom</entry>
+	<entry key="audit_weekly_be_zscalar_bz2.DataSourceType">ZScaler</entry>
+	<entry key="audit_weekly_be_zscalar_bz2.type">ZScaler</entry>
+	<entry key="audit_weekly_be_zscalar_bz2.log_format">NSS Custom</entry>
+	<entry key="zaudit_weekly_be_zscalar_bz2.filename">Zscaler_Edited_10Logs.bz2</entry>
+	
+	<!-- audit_weekly_be_juniper_srx_bz2 -->
+	
+	<entry key="audit_weekly_be_juniper_srx_bz2.LogFilePath">/src/test/resources/Audit/LogFiles/TempLogFiles/Juniper_srx.txt.bz2</entry>
+	<entry key="audit_weekly_be_juniper_srx_bz2.DataSourceFormat">WELF</entry>
+	<entry key="audit_weekly_be_juniper_srx_bz2.DataSourceType">Juniper SRX</entry>
+	<entry key="audit_weekly_be_juniper_srx_bz2.type">Juniper SRX</entry>
+	<entry key="audit_weekly_be_juniper_srx_bz2.log_format">WELF</entry>
+	<entry key="audit_weekly_be_juniper_srx_bz2.filename">Juniper_srx.txt.bz2</entry>
+	
+	<!-- audit_weekly_be_scansafe_bz2 -->
+	
+	<entry key="audit_weekly_be_scansafe_bz2.LogFilePath">/src/test/resources/Audit/LogFiles/TempLogFiles/scansafe.bz2</entry>
+	<entry key="audit_weekly_be_scansafe_bz2.DataSourceFormat">CSV</entry>
+	<entry key="audit_weekly_be_scansafe_bz2.DataSourceType">ScanSafe</entry>
+	<entry key="audit_weekly_be_scansafe_bz2.type">ScanSafe</entry>
+	<entry key="audit_weekly_be_scansafe_bz2.log_format">CSV</entry>
+	<entry key="audit_weekly_be_scansafe_bz2.filename">scansafe.bz2</entry>
+	
+	<!-- audit_weekly_be_cisco_asa_series_bz2 -->
+	
+	<entry key="audit_weekly_be_cisco_asa_series_bz2.LogFilePath">/src/test/resources/Audit/LogFiles/TempLogFiles/Cisco_ASA_IPs.bz2</entry>
+	<entry key="audit_weekly_be_cisco_asa_series_bz2.DataSourceFormat">syslog</entry>
+	<entry key="audit_weekly_be_cisco_asa_series_bz2.DataSourceType">Cisco</entry>
+	<entry key="audit_weekly_be_cisco_asa_series_bz2.type">Cisco</entry>
+	<entry key="audit_weekly_be_cisco_asa_series_bz2.log_format">syslog</entry>
+	<entry key="audit_weekly_be_cisco_asa_series_bz2.filename">Cisco_ASA_IPs.bz2</entry>
+
+	<!-- audit_weekly_be_websense_arc_bz2   --> 
+	
+	<entry key="audit_weekly_be_websense_arc_bz2.LogFilePath">/src/test/resources/Audit/LogFiles/TempLogFiles/Websense-ArcSight-vald-final.bz2</entry>
+	<entry key="audit_weekly_be_websense_arc_bz2.DataSourceFormat">Local</entry>
+	<entry key="audit_weekly_be_websense_arc_bz2.DataSourceType">Websense Proxy</entry>
+	<entry key="audit_weekly_be_websense_arc_bz2.type">Websense Proxy</entry>
+	<entry key="audit_weekly_be_websense_arc_bz2.log_format">Local</entry>
+	<entry key="audit_weekly_be_websense_arc_bz2.filename">Websense-ArcSight-vald-final.bz2</entry>
+	
+	<!-- audit_weekly_be_sonicwall_bz2   -->
+	
+	<entry key="audit_weekly_be_sonicwall_bz2.LogFilePath">/src/test/resources/Audit/LogFiles/TempLogFiles/audit_weekly_be_BE_SonicWall_all_syslog_time_format_in_one.bz2</entry>
+	<entry key="audit_weekly_be_sonicwall_bz2.DataSourceFormat">WELF</entry>
+	<entry key="audit_weekly_be_sonicwall_bz2.DataSourceType">Sonicwall</entry>
+	<entry key="audit_weekly_be_sonicwall_bz2.type">Sonicwall</entry>
+	<entry key="audit_weekly_be_sonicwall_bz2.log_format">WELF</entry>
+	<entry key="audit_weekly_be_sonicwall_bz2.filename">audit_weekly_be_BE_SonicWall_all_syslog_time_format_in_one.bz2</entry>
+	 
+	
+	<!-- audit_weekly_be_websence_hosted_bz2 -->
+	
+	<entry key="audit_weekly_be_websence_hosted_bz2.LogFilePath">/src/test/resources/Audit/LogFiles/TempLogFiles/Websense_Hosted_No_CustomHeader.bz2</entry>
+	<entry key="audit_weekly_be_websence_hosted_bz2.DataSourceFormat">Hosted</entry>
+	<entry key="audit_weekly_be_websence_hosted_bz2.DataSourceType">Websense Proxy</entry>
+	<entry key="audit_weekly_be_websence_hosted_bz2.type">Websense Proxy</entry>
+	<entry key="audit_weekly_be_websence_hosted_bz2.log_format">Hosted</entry>
+	<entry key="audit_weekly_be_websence_hosted_bz2.filename">Websense_Hosted_No_CustomHeader.bz2</entry>
+	
+	
+	
+	<!-- audit_weekly_be_barracuda_sys_7z -->
+	
+	<entry key="audit_weekly_be_barracuda_sys_7z.LogFilePath">/src/test/resources/Audit/LogFiles/TempLogFiles/Barracuda_C120773_Postprocessing_Syslog_Format.7z</entry>
+	<entry key="audit_weekly_be_barracuda_sys_7z.DataSourceFormat">syslog</entry>
+	<entry key="audit_weekly_be_barracuda_sys_7z.DataSourceType">Barracuda</entry>
+	<entry key="audit_weekly_be_barracuda_sys_7z.type">Barracuda</entry>
+	<entry key="audit_weekly_be_barracuda_sys_7z.log_format">syslog</entry>
+	<entry key="audit_weekly_be_barracuda_sys_7z.filename">audit_weekly_be_Barracuda_C120773_Postprocessing_Syslog_Format.7z</entry>
+	
+	<!-- audit_weekly_be_bluecoat_proxy_7z -->
+	
+	<entry key="audit_weekly_be_bluecoat_proxy_7z.LogFilePath">/src/test/resources/Audit/LogFiles/TempLogFiles/bluecoat-vald-auto.log.7z</entry>
+	<entry key="audit_weekly_be_bluecoat_proxy_7z.DataSourceFormat">ELFF</entry>
+	<entry key="audit_weekly_be_bluecoat_proxy_7z.DataSourceType">Bluecoat ProxySG</entry>
+	<entry key="audit_weekly_be_bluecoat_proxy_7z.type">Bluecoat ProxySG</entry>
+	<entry key="audit_weekly_be_bluecoat_proxy_7z.log_format">ELFF</entry>
+	<entry key="audit_weekly_be_bluecoat_proxy_7z.filename">bluecoat-vald-auto.log.7z</entry>
+	
+	<!-- audit_weekly_be_bluecoatproxy_splunk_wo_ch_7z -->
+	
+	<entry key="audit_weekly_be_bluecoatProxy_splunk_wo_ch_7z.LogFilePath">/src/test/resources/Audit/LogFiles/TempLogFiles/Bluecoat_Splunk_20rec.7z</entry>
+	<entry key="audit_weekly_be_bluecoatProxy_splunk_wo_ch_7z.DataSourceFormat">ELFF</entry>
+	<entry key="audit_weekly_be_bluecoatProxy_splunk_wo_ch_7z.DataSourceType">Bluecoat ProxySG</entry>
+	<entry key="audit_weekly_be_bluecoatProxy_splunk_wo_ch_7z.type">Bluecoat ProxySG</entry>
+	<entry key="audit_weekly_be_bluecoatProxy_splunk_wo_ch_7z.log_format">ELFF</entry>
+	<entry key="audit_weekly_be_bluecoatProxy_splunk_wo_ch_7z.filename">Bluecoat_Splunk_20rec.7z</entry>
+	
+	<!-- audit_weekly_be_checkpoint_csv_7z -->
+	
+	<entry key="audit_weekly_be_checkpoint_csv_7z.LogFilePath">/src/test/resources/Audit/LogFiles/TempLogFiles/CheckPoint-2015-09-04.7z</entry>
+	<entry key="audit_weekly_be_checkpoint_csv_7z.DataSourceFormat">CSV</entry>
+	<entry key="audit_weekly_be_checkpoint_csv_7z.DataSourceType">Checkpoint</entry>
+	<entry key="audit_weekly_be_checkpoint_csv_7z.type">Checkpoint</entry>
+	<entry key="audit_weekly_be_checkpoint_csv_7z.log_format">CSV</entry>
+	<entry key="audit_weekly_be_checkpoint_csv_7z.filename">CheckPoint-2015-09-04.7z</entry>
+
+	
+	<!-- audit_weekly_be_checkpoint_smartview_7z -->
+	
+	<entry key="audit_weekly_be_checkpoint_smartview_7z.LogFilePath">/src/test/resources/Audit/LogFiles/TempLogFiles/smartview_export_all.txt.7z</entry>
+	<entry key="audit_weekly_be_checkpoint_smartview_7z.DataSourceFormat">SmartView</entry>
+	<entry key="audit_weekly_be_checkpoint_smartview_7z.DataSourceType">Checkpoint</entry>
+	<entry key="audit_weekly_be_checkpoint_smartview_7z.type">Checkpoint</entry>
+	<entry key="audit_weekly_be_checkpoint_smartview_7z.log_format">SmartView</entry>
+	<entry key="audit_weekly_be_checkpoint_smartview_7z.filename">smartview_export_all.txt.7z</entry>
+	
+	<!-- audit_weekly_be_juniper_screenos_7z -->
+	
+	<entry key="audit_weekly_be_juniper_screenos_7z.LogFilePath">/src/test/resources/Audit/LogFiles/TempLogFiles/Net-screen-final.7z</entry>
+	<entry key="audit_weekly_be_juniper_screenos_7z.DataSourceFormat">syslog</entry>
+	<entry key="audit_weekly_be_juniper_screenos_7z.DataSourceType">Juniper ScreenOS</entry>
+	<entry key="audit_weekly_be_juniper_screenos_7z.type">Juniper ScreenOS</entry>
+	<entry key="audit_weekly_be_juniper_screenos_7z.log_format">syslog</entry>
+	<entry key="audit_weekly_be_juniper_screenos_7z.filename">Net-screen-final.7z</entry>
+	
+	<!-- audit_weekly_be_mcafee_sef_7z -->
+	
+	<entry key="audit_weekly_be_mcafee_sef_7z.LogFilePath">/src/test/resources/Audit/LogFiles/TempLogFiles/BE_McAfee_SEF_Format.7z</entry>
+	<entry key="audit_weekly_be_mcafee_sef_7z.DataSourceFormat">WELF</entry>
+	<entry key="audit_weekly_be_mcafee_sef_7z.DataSourceType">McAfee</entry>
+	<entry key="audit_weekly_be_mcafee_sef_7z.type">McAfee</entry>
+	<entry key="audit_weekly_be_mcafee_sef_7z.log_format">WELF</entry>
+	<entry key="audit_weekly_be_mcafee_sef_7z.filename">BE_McAfee_SEF_Format.7z</entry>	
+	
+	<!-- audit_weekly_be_pancsv_7z -->
+	
+	<entry key="audit_weekly_be_pancsv_7z.LogFilePath">/src/test/resources/Audit/LogFiles/TempLogFiles/BE_PAN_CSV.7z</entry>
+	<entry key="audit_weekly_be_pancsv_7z.DataSourceFormat">CSV</entry>
+	<entry key="audit_weekly_be_pancsv_7z.DataSourceType">Palo-Alto</entry>
+	<entry key="audit_weekly_be_pancsv_7z.type">Palo-Alto</entry>
+	<entry key="audit_weekly_be_pancsv_7z.log_format">CSV</entry>
+	<entry key="audit_weekly_be_pancsv_7z.filename">BE_PAN_CSV.7z</entry>
+	
+	<!-- audit_weekly_be_pancsv_splunk_wo_ch_7z -->
+	
+	<entry key="audit_weekly_be_pancsv_splunk_wo_ch_7z.LogFilePath">/src/test/resources/Audit/LogFiles/TempLogFiles/pan_20recs_with_all_splunk_header_only.log.7z</entry>
+	<entry key="audit_weekly_be_pancsv_splunk_wo_ch_7z.DataSourceFormat">Splunk</entry>
+	<entry key="audit_weekly_be_pancsv_splunk_wo_ch_7z.DataSourceType">Palo-Alto</entry>
+	<entry key="audit_weekly_be_pancsv_splunk_wo_ch_7z.type">Palo-Alto</entry>
+	<entry key="audit_weekly_be_pancsv_splunk_wo_ch_7z.log_format">Splunk</entry>
+	<entry key="audit_weekly_be_pancsv_splunk_wo_ch_7z.filename">pan_20recs_with_all_splunk_header_only.log.7z</entry>
+	
+	<!-- audit_weekly_be_squid_proxy_7z --> 
+	
+	<entry key="audit_weekly_be_squid_proxy_7z.LogFilePath">/src/test/resources/Audit/LogFiles/TempLogFiles/BE_Squid-2015-04-02.7z</entry>
+	<entry key="audit_weekly_be_squid_proxy_7z.DataSourceFormat">access</entry>
+	<entry key="audit_weekly_be_squid_proxy_7z.DataSourceType">Squid</entry>
+	<entry key="audit_weekly_be_squid_proxy_7z.type">Squid</entry>
+	<entry key="audit_weekly_be_squid_proxy_7z.log_format">access</entry>
+	<entry key="audit_weekly_be_squid_proxy_7z.filename">BE_Squid-2015-04-02.7z</entry>	
+	
+	<!-- audit_weekly_be_wsaw3c_7z -->
+	
+	<entry key="audit_weekly_be_wsaw3c_7z.LogFilePath">/src/test/resources/Audit/LogFiles/TempLogFiles/WSA_W3c-KU.log.7z</entry>
+	<entry key="audit_weekly_be_wsaw3c_7z.DataSourceFormat">W3C</entry>
+	<entry key="audit_weekly_be_wsaw3c_7z.DataSourceType">Cisco WSA</entry>
+	<entry key="audit_weekly_be_wsaw3c_7z.type">Cisco WSA</entry>
+	<entry key="audit_weekly_be_wsaw3c_7z.log_format">W3C</entry>
+	<entry key="audit_weekly_be_wsaw3c_7z.filename">WSA_W3c-KU.log.7z</entry>
+
+	
+	<!-- audit_weekly_be_wsa_access_7z -->
+	
+	<entry key="audit_weekly_be_wsa_access_7z.LogFilePath">/src/test/resources/Audit/LogFiles/TempLogFiles/WSA-Access_KU.log.zip.7z</entry>
+	<entry key="audit_weekly_be_wsa_access_7z.DataSourceFormat">access</entry>
+	<entry key="audit_weekly_be_wsa_access_7z.DataSourceType">Cisco WSA</entry>
+	<entry key="audit_weekly_be_wsa_access_7z.type">Cisco WSA</entry>
+	<entry key="audit_weekly_be_wsa_access_7z.log_format">access</entry>
+	<entry key="audit_weekly_be_wsa_access_7z.filename">WSA-Access_KU.log.zip.7z</entry>
+	
+	<!-- audit_weekly_be_zscalar_7z -->
+	
+	<entry key="audit_weekly_be_zscalar_7z.LogFilePath">/src/test/resources/Audit/LogFiles/TempLogFiles/Zscaler_Edited_10Logs.7z</entry>
+	<entry key="audit_weekly_be_zscalar_7z.DataSourceFormat">NSS Custom</entry>
+	<entry key="audit_weekly_be_zscalar_7z.DataSourceType">ZScaler</entry>
+	<entry key="audit_weekly_be_zscalar_7z.type">ZScaler</entry>
+	<entry key="audit_weekly_be_zscalar_7z.log_format">NSS Custom</entry>
+	<entry key="audit_weekly_be_zscalar_7z.filename">Zscaler_Edited_10Logs.7z</entry>
+
+	
+	<!-- audit_weekly_be_juniper_srx_7z -->
+	
+	<entry key="audit_weekly_be_juniper_srx_7z.LogFilePath">/src/test/resources/Audit/LogFiles/TempLogFiles/Juniper-srx-datavald.txt.7z</entry>
+	<entry key="audit_weekly_be_juniper_srx_7z.DataSourceFormat">WELF</entry>
+	<entry key="audit_weekly_be_juniper_srx_7z.DataSourceType">Juniper SRX</entry>
+	<entry key="audit_weekly_be_juniper_srx_7z.type">Juniper SRX</entry>
+	<entry key="audit_weekly_be_juniper_srx_7z.log_format">WELF</entry>
+	<entry key="audit_weekly_be_juniper_srx_7z.filename">Juniper-srx-datavald.txt.7z</entry>
+	
+	<!-- audit_weekly_be_scansafe_7z -->
+	
+	<entry key="audit_weekly_be_scansafe_7z.LogFilePath">/src/test/resources/Audit/LogFiles/TempLogFiles/scansafe.7z</entry>
+	<entry key="audit_weekly_be_scansafe_7z.DataSourceFormat">CSV</entry>
+	<entry key="audit_weekly_be_scansafe_7z.DataSourceType">ScanSafe</entry>
+	<entry key="audit_weekly_be_scansafe_7z.type">ScanSafe</entry>
+	<entry key="audit_weekly_be_scansafe_7z.log_format">CSV</entry>
+	<entry key="audit_weekly_be_scansafe_7z.filename">scansafe.7z</entry>
+	
+	<!-- audit_weekly_be_cisco_asa_series_7z -->
+	
+	<entry key="audit_weekly_be_cisco_asa_series_7z.LogFilePath">/src/test/resources/Audit/LogFiles/TempLogFiles/Cisco_ASA_IPs.7z</entry>
+	<entry key="audit_weekly_be_cisco_asa_series_7z.DataSourceFormat">syslog</entry>
+	<entry key="audit_weekly_be_cisco_asa_series_7z.DataSourceType">Cisco</entry>
+	<entry key="audit_weekly_be_cisco_asa_series_7z.type">Cisco</entry>
+	<entry key="audit_weekly_be_cisco_asa_series_7z.log_format">syslog</entry>
+	<entry key="audit_weekly_be_cisco_asa_series_7z.filename">Cisco_ASA_IPs.7z</entry>
+
+	<!-- audit_weekly_be_websense_arc_7z   --> 
+	
+	<entry key="audit_weekly_be_websense_arc_7z.LogFilePath">/src/test/resources/Audit/LogFiles/TempLogFiles/custom1-websense-vald-final.7z</entry>
+	<entry key="audit_weekly_be_websense_arc_7z.DataSourceFormat">Local</entry>
+	<entry key="audit_weekly_be_websense_arc_7z.DataSourceType">Websense Proxy</entry>
+	<entry key="audit_weekly_be_websense_arc_7z.type">Websense Proxy</entry>
+	<entry key="audit_weekly_be_websense_arc_7z.log_format">Local</entry>
+	<entry key="audit_weekly_be_websense_arc_7z.filename">custom1-websense-vald-final.7z</entry>
+	
+	
+	<!-- audit_weekly_be_sonicwall_7z   --> 
+	
+	<entry key="audit_weekly_be_sonicwall_7z.LogFilePath">/src/test/resources/Audit/LogFiles/TempLogFiles/audit_weekly_be_SonicWall_all_time_format_in_one.7z</entry>
+	<entry key="audit_weekly_be_sonicwall_7z.DataSourceFormat">WELF</entry>
+	<entry key="audit_weekly_be_sonicwall_7z.DataSourceType">Sonicwall</entry>
+	<entry key="audit_weekly_be_sonicwall_7z.type">Sonicwall</entry>
+	<entry key="audit_weekly_be_sonicwall_7z.log_format">WELF</entry>
+	<entry key="audit_weekly_be_sonicwall_7z.filename">audit_weekly_be_SonicWall_all_syslog_time_format_in_one.7z</entry>
+	
+	
+	<!-- audit_weekly_be_websence_hosted_7z -->
+	
+	<entry key="audit_weekly_be_websence_hosted_7z.LogFilePath">/src/test/resources/Audit/LogFiles/TempLogFiles/Websense_Hosted_No_CustomHeader.7z</entry>
+	<entry key="audit_weekly_be_websence_hosted_7z.DataSourceFormat">Hosted</entry>
+	<entry key="audit_weekly_be_websence_hosted_7z.DataSourceType">Websense Proxy</entry>
+	<entry key="audit_weekly_be_websence_hosted_7z.type">Websense Proxy</entry>
+	<entry key="audit_weekly_be_websence_hosted_7z.log_format">Hosted</entry>
+	<entry key="audit_weekly_be_websence_hosted_7z.filename">Websense_Hosted_No_CustomHeader.7z</entry>
+	
+	<!-- audit_weekly_be_barracuda_sys_7za -->
+	
+	<entry key="audit_weekly_be_barracuda_sys_7za.LogFilePath">/src/test/resources/Audit/LogFiles/TempLogFiles/TempLogFiles/Barracuda_C120773_Postprocessing_Syslog_Format.7za</entry>
+	<entry key="audit_weekly_be_barracuda_sys_7za.DataSourceFormat">syslog</entry>
+	<entry key="audit_weekly_be_barracuda_sys_7za.DataSourceType">Barracuda</entry>
+	<entry key="audit_weekly_be_barracuda_sys_7za.type">Barracuda</entry>
+	<entry key="audit_weekly_be_barracuda_sys_7za.log_format">syslog</entry>
+	<entry key="audit_weekly_be_barracuda_sys_7za.filename">audit_weekly_be_Barracuda_C120773_Postprocessing_Syslog_Format.7za</entry>
+	
+	
+	<!-- audit_weekly_be_bluecoat_proxy_7za -->
+	
+	<entry key="audit_weekly_be_bluecoat_proxy_7za.LogFilePath">/src/test/resources/Audit/LogFiles/TempLogFiles/bluecoat-vald-auto.log.7za</entry>
+	<entry key="audit_weekly_be_bluecoat_proxy_7za.DataSourceFormat">ELFF</entry>
+	<entry key="audit_weekly_be_bluecoat_proxy_7za.DataSourceType">Bluecoat ProxySG</entry>
+	<entry key="audit_weekly_be_bluecoat_proxy_7za.type">Bluecoat ProxySG</entry>
+	<entry key="audit_weekly_be_bluecoat_proxy_7za.log_format">ELFF</entry>
+	<entry key="audit_weekly_be_bluecoat_proxy_7za.filename">bluecoat-vald-auto.log.7za</entry>
+	
+	
+	<entry key="audit_weekly_be_bluecoatProxy_splunk_wo_ch_7za.LogFilePath">/src/test/resources/Audit/LogFiles/TempLogFiles/Bluecoat_Splunk_20rec.7za</entry>
+	<entry key="audit_weekly_be_bluecoatProxy_splunk_wo_ch_7za.DataSourceFormat">ELFF</entry>
+	<entry key="audit_weekly_be_bluecoatProxy_splunk_wo_ch_7za.DataSourceType">Bluecoat ProxySG</entry>
+	<entry key="audit_weekly_be_bluecoatProxy_splunk_wo_ch_7za.type">Bluecoat ProxySG</entry>
+	<entry key="audit_weekly_be_bluecoatProxy_splunk_wo_ch_7za.log_format">ELFF</entry>
+	<entry key="audit_weekly_be_bluecoatProxy_splunk_wo_ch_7za.filename">Bluecoat_Splunk_20rec.7za</entry>
+	
+
+	<!-- audit_weekly_be_checkpoint_csv_7za -->
+	
+	<entry key="audit_weekly_be_checkpoint_csv_7za.LogFilePath">/src/test/resources/Audit/LogFiles/TempLogFiles/CheckPoint-2015-09-04.7za</entry>
+	<entry key="audit_weekly_be_checkpoint_csv_7za.DataSourceFormat">CSV</entry>
+	<entry key="audit_weekly_be_checkpoint_csv_7za.DataSourceType">Checkpoint</entry>
+	<entry key="audit_weekly_be_checkpoint_csv_7za.type">Checkpoint</entry>
+	<entry key="audit_weekly_be_checkpoint_csv_7za.log_format">CSV</entry>
+	<entry key="audit_weekly_be_checkpoint_csv_7za.filename">CheckPoint-2015-09-04.7za</entry>
+
+	
+	<!-- audit_weekly_be_checkpoint_smartview_7za -->
+	
+	<entry key="audit_weekly_be_checkpoint_smartview_7za.LogFilePath">/src/test/resources/Audit/LogFiles/TempLogFiles/smartview_export_all.txt.7za</entry>
+	<entry key="audit_weekly_be_checkpoint_smartview_7za.DataSourceFormat">SmartView</entry>
+	<entry key="audit_weekly_be_checkpoint_smartview_7za.DataSourceType">Checkpoint</entry>
+	<entry key="audit_weekly_be_checkpoint_smartview_7za.type">Checkpoint</entry>
+	<entry key="audit_weekly_be_checkpoint_smartview_7za.log_format">SmartView</entry>
+	<entry key="audit_weekly_be_checkpoint_smartview_7za.filename">smartview_export_all.txt.7za</entry>
+	
+	<!-- audit_weekly_be_juniper_screenos_7za -->
+	
+	<entry key="audit_weekly_be_juniper_screenos_7za.LogFilePath">/src/test/resources/Audit/LogFiles/TempLogFiles/Net-screen-final.7za</entry>
+	<entry key="audit_weekly_be_juniper_screenos_7za.DataSourceFormat">syslog</entry>
+	<entry key="audit_weekly_be_juniper_screenos_7za.DataSourceType">Juniper ScreenOS</entry>
+	<entry key="audit_weekly_be_juniper_screenos_7za.type">Juniper ScreenOS</entry>
+	<entry key="audit_weekly_be_juniper_screenos_7za.log_format">syslog</entry>
+	<entry key="audit_weekly_be_juniper_screenos_7za.filename">Net-screen-final.7za</entry>
+	
+	<!-- audit_weekly_be_mcafee_sef_7za -->
+	
+	<entry key="audit_weekly_be_mcafee_sef_7za.LogFilePath">/src/test/resources/Audit/LogFiles/TempLogFiles/BE_McAfee_SEF_Format.log.7za</entry>
+	<entry key="audit_weekly_be_mcafee_sef_7za.DataSourceFormat">WELF</entry>
+	<entry key="audit_weekly_be_mcafee_sef_7za.DataSourceType">McAfee</entry>
+	<entry key="audit_weekly_be_mcafee_sef_7za.type">McAfee</entry>
+	<entry key="audit_weekly_be_mcafee_sef_7za.log_format">WELF</entry>
+	<entry key="audit_weekly_be_mcafee_sef_7za.filename">BE_McAfee_SEF_Format.log.7za</entry>	
+	
+	<!-- audit_weekly_be_pancsv_7za -->
+	
+	<entry key="audit_weekly_be_pancsv_7za.LogFilePath">/src/test/resources/Audit/LogFiles/TempLogFiles/BE_PAN_CSV.7za</entry>
+	<entry key="audit_weekly_be_pancsv_7za.DataSourceFormat">CSV</entry>
+	<entry key="audit_weekly_be_pancsv_7za.DataSourceType">Palo-Alto</entry>
+	<entry key="audit_weekly_be_pancsv_7za.type">Palo-Alto</entry>
+	<entry key="audit_weekly_be_pancsv_7za.log_format">CSV</entry>
+	<entry key="audit_weekly_be_pancsv_7za.filename">BE_PAN_CSV.7za</entry>	
+
+	<!-- audit_weekly_be_pancsv_splunk_wo_ch_7za -->
+	
+	<entry key="audit_weekly_be_pancsv_splunk_wo_ch_7za.LogFilePath">/src/test/resources/Audit/LogFiles/TempLogFiles/pan_20recs_with_all_splunk_header_only.log.7za</entry>
+	<entry key="audit_weekly_be_pancsv_splunk_wo_ch_7za.DataSourceFormat">Splunk</entry>
+	<entry key="audit_weekly_be_pancsv_splunk_wo_ch_7za.DataSourceType">Palo-Alto</entry>
+	<entry key="audit_weekly_be_pancsv_splunk_wo_ch_7za.type">Palo-Alto</entry>
+	<entry key="audit_weekly_be_pancsv_splunk_wo_ch_7za.log_format">Splunk</entry>
+	<entry key="audit_weekly_be_pancsv_splunk_wo_ch_7za.filename">pan_20recs_with_all_splunk_header_only.log.7za</entry>
+	
+	<!-- audit_weekly_be_squid_proxy_7za --> 
+	
+	<entry key="audit_weekly_be_squid_proxy_7za.LogFilePath">/src/test/resources/Audit/LogFiles/TempLogFiles/BE_Squid-2015-04-02.7za</entry>
+	<entry key="audit_weekly_be_squid_proxy_7za.DataSourceFormat">access</entry>
+	<entry key="audit_weekly_be_squid_proxy_7za.DataSourceType">Squid</entry>
+	<entry key="audit_weekly_be_squid_proxy_7za.type">Squid</entry>
+	<entry key="audit_weekly_be_squid_proxy_7za.log_format">access</entry>
+	<entry key="audit_weekly_be_squid_proxy_7za.filename">BE_Squid-2015-04-02.7z</entry>	
+	
+	<!-- audit_weekly_be_wsaw3c_7za -->
+	
+	<entry key="audit_weekly_be_wsaw3c_7za.LogFilePath">/src/test/resources/Audit/LogFiles/TempLogFiles/WSA_W3c-KU.log.7za</entry>
+	<entry key="audit_weekly_be_wsaw3c_7za.DataSourceFormat">W3C</entry>
+	<entry key="audit_weekly_be_wsaw3c_7za.DataSourceType">Cisco WSA</entry>
+	<entry key="audit_weekly_be_wsaw3c_7za.type">Cisco WSA</entry>
+	<entry key="audit_weekly_be_wsaw3c_7za.log_format">W3C</entry>
+	<entry key="audit_weekly_be_wsaw3c_7za.filename">WSA_W3c-KU.log.7za</entry>
+
+	
+	<!-- audit_weekly_be_wsa_access_7za -->
+	
+	<entry key="audit_weekly_be_wsa_access_7za.LogFilePath">/src/test/resources/Audit/LogFiles/TempLogFiles/WSA-Access_KU.log.zip.7za</entry>
+	<entry key="audit_weekly_be_wsa_access_7za.DataSourceFormat">access</entry>
+	<entry key="audit_weekly_be_wsa_access_7za.DataSourceType">Cisco WSA</entry>
+	<entry key="audit_weekly_be_wsa_access_7za.type">Cisco WSA</entry>
+	<entry key="audit_weekly_be_wsa_access_7za.log_format">access</entry>
+	<entry key="audit_weekly_be_wsa_access_7za.filename">WSA-Access_KU.log.zip.7za</entry>
+	
+	
+	<!-- audit_weekly_be_zscalar_7za -->
+	
+	<entry key="audit_weekly_be_zscalar_7za.LogFilePath">/src/test/resources/Audit/LogFiles/TempLogFiles/Zscaler_Edited_10Logs.7za</entry>
+	<entry key="audit_weekly_be_zscalar_7za.DataSourceFormat">NSS Custom</entry>
+	<entry key="audit_weekly_be_zscalar_7za.DataSourceType">ZScaler</entry>
+	<entry key="audit_weekly_be_zscalar_7za.type">ZScaler</entry>
+	<entry key="audit_weekly_be_zscalar_7za.log_format">NSS Custom</entry>
+	<entry key="audit_weekly_be_zscalar_7za.filename">Zscaler_Edited_10Logs.7za</entry>
+	
+	<!-- audit_weekly_be_juniper_srx_7za -->
+	
+	<entry key="audit_weekly_be_juniper_srx_7za.LogFilePath">/src/test/resources/Audit/LogFiles/TempLogFiles/Juniper-srx-datavald.txt.7za</entry>
+	<entry key="audit_weekly_be_juniper_srx_7za.DataSourceFormat">WELF</entry>
+	<entry key="audit_weekly_be_juniper_srx_7za.DataSourceType">Juniper SRX</entry>
+	<entry key="audit_weekly_be_juniper_srx_7za.type">Juniper SRX</entry>
+	<entry key="audit_weekly_be_juniper_srx_7za.log_format">WELF</entry>
+	<entry key="audit_weekly_be_juniper_srx_7za.filename">Juniper-srx-datavald.txt.7za</entry>
+	
+	<!-- audit_weekly_be_scansafe_7za -->
+	
+	<entry key="audit_weekly_be_scansafe_7za.LogFilePath">/src/test/resources/Audit/LogFiles/TempLogFiles/scansafe.7za</entry>
+	<entry key="audit_weekly_be_scansafe_7za.DataSourceFormat">CSV</entry>
+	<entry key="audit_weekly_be_scansafe_7za.DataSourceType">ScanSafe</entry>
+	<entry key="audit_weekly_be_scansafe_7za.type">ScanSafe</entry>
+	<entry key="audit_weekly_be_scansafe_7za.log_format">CSV</entry>
+	<entry key="audit_weekly_be_scansafe_7za.filename">scansafe.7za</entry>
+	
+	<!-- audit_weekly_be_cisco_asa_series_7za -->
+	
+	<entry key="audit_weekly_be_cisco_asa_series_7za.LogFilePath">/src/test/resources/Audit/LogFiles/TempLogFiles/Cisco_ASA_IPs.7za</entry>
+	<entry key="audit_weekly_be_cisco_asa_series_7za.DataSourceFormat">syslog</entry>
+	<entry key="audit_weekly_be_cisco_asa_series_7za.DataSourceType">Cisco</entry>
+	<entry key="audit_weekly_be_cisco_asa_series_7za.type">Cisco</entry>
+	<entry key="audit_weekly_be_cisco_asa_series_7za.log_format">syslog</entry>
+	<entry key="audit_weekly_be_cisco_asa_series_7za.filename">Cisco_ASA_IPs.7za</entry>
+	
+	<!-- audit_weekly_be_websense_arc_7za   --> 
+	
+	<entry key="audit_weekly_be_websense_arc_7za.LogFilePath">/src/test/resources/Audit/LogFiles/TempLogFiles/custom1-websense-vald-final.7za</entry>
+	<entry key="audit_weekly_be_websense_arc_7za.DataSourceFormat">Local</entry>
+	<entry key="audit_weekly_be_websense_arc_7za.DataSourceType">Websense Proxy</entry>
+	<entry key="audit_weekly_be_websense_arc_7za.type">Websense Proxy</entry>
+	<entry key="audit_weekly_be_websense_arc_7za.log_format">Local</entry>
+	<entry key="audit_weekly_be_websense_arc_7za.filename">custom1-websense-vald-final.7za</entry>
+	
+	
+	<!-- audit_weekly_be_sonicwall_7za   --> 
+	
+	<entry key="audit_weekly_be_sonicwall_7za.LogFilePath">/src/test/resources/Audit/LogFiles/TempLogFiles/audit_weekly_be_SonicWall_all_time_format_in_one.7za</entry>
+	<entry key="audit_weekly_be_sonicwall_7za.DataSourceFormat">WELF</entry>
+	<entry key="audit_weekly_be_sonicwall_7za.DataSourceType">Sonicwall</entry>
+	<entry key="audit_weekly_be_sonicwall_7za.type">Sonicwall</entry>
+	<entry key="audit_weekly_be_sonicwall_7za.log_format">WELF</entry>
+	<entry key="audit_weekly_be_sonicwall_7za.filename">audit_weekly_be_SonicWall_all_time_format_in_one.7za</entry>
+	
+	<!-- audit_weekly_be_websence_hosted_7za   --> 
+	
+	<entry key="audit_weekly_be_websence_hosted_7za.LogFilePath">/src/test/resources/Audit/LogFiles/TempLogFiles/Websense_Hosted_No_CustomHeader.7za</entry>
+	<entry key="audit_weekly_be_websence_hosted_7za.DataSourceFormat">Hosted</entry>
+	<entry key="audit_weekly_be_websence_hosted_7za.DataSourceType">Websense Proxy</entry>
+	<entry key="audit_weekly_be_websence_hosted_7za.type">Websense Proxy</entry>
+	<entry key="audit_weekly_be_websence_hosted_7za.log_format">Hosted</entry>
+	<entry key="audit_weekly_be_websence_hosted_7za.filename">Websense_Hosted_No_CustomHeader.7za</entry>
+	
+	<!-- audit weekly bluecoat proxy custom headers All format   --> 
+	
+	<entry key="audit_weekly_be_bluecoat_proxy_custom_header_space_escape_zip.LogFilePath">/src/test/resources/Audit/LogFiles/TempLogFiles/BE_Bluecoat_Splunk_mandatory_headers_space_escaping.zip</entry>
+	<entry key="audit_weekly_be_bluecoat_proxy_custom_header_space_escape_zip.DataSourceFormat">ELFF</entry>
+	<entry key="audit_weekly_be_bluecoat_proxy_custom_header_space_escape_zip.DataSourceType">Bluecoat ProxySG</entry>
+	<entry key="audit_weekly_be_bluecoat_proxy_custom_header_space_escape_zip.type">Bluecoat ProxySG</entry>
+	<entry key="audit_weekly_be_bluecoat_proxy_custom_header_space_escape_zip.log_format">ELFF</entry>
+	<entry key="audit_weekly_be_bluecoat_proxy_custom_header_space_escape_zip.filename">BE_Bluecoat_Splunk_mandatory_headers_space_escaping.zip</entry>
+	<entry key="audit_weekly_be_bluecoat_proxy_custom_header_space_escape_zip.logfile_headers">"_time","cs_host","sc_bytes","cs_bytes","cs_username"</entry>
+	
+	<entry key="audit_weekly_be_bluecoat_proxy_custom_header_quote_header_zip.LogFilePath">/src/test/resources/Audit/LogFiles/TempLogFiles/BE_Bluecoat_Splunk_mandatory_headers_quote_header.zip</entry>
+	<entry key="audit_weekly_be_bluecoat_proxy_custom_header_quote_header_zip.DataSourceFormat">ELFF</entry>
+	<entry key="audit_weekly_be_bluecoat_proxy_custom_header_quote_header_zip.DataSourceType">Bluecoat ProxySG</entry>
+	<entry key="audit_weekly_be_bluecoat_proxy_custom_header_quote_header_zip.type">Bluecoat ProxySG</entry>
+	<entry key="audit_weekly_be_bluecoat_proxy_custom_header_quote_header_zip.log_format">ELFF</entry>
+	<entry key="audit_weekly_be_bluecoat_proxy_custom_header_quote_header_zip.filename">BE_Bluecoat_Splunk_mandatory_headers_quote_header.zip</entry>
+	<entry key="audit_weekly_be_bluecoat_proxy_custom_header_quote_header_zip.logfile_headers">_time cs_host sc_bytes cs_bytes cs_username</entry>
+	
+	<entry key="audit_weekly_be_bluecoat_proxy_custom_header_space_escape_7z.LogFilePath">/src/test/resources/Audit/LogFiles/TempLogFiles/BE_Bluecoat_Splunk_mandatory_headers_space_escaping.7z</entry>
+	<entry key="audit_weekly_be_bluecoat_proxy_custom_header_space_escape_7z.DataSourceFormat">ELFF</entry>
+	<entry key="audit_weekly_be_bluecoat_proxy_custom_header_space_escape_7z.DataSourceType">Bluecoat ProxySG</entry>
+	<entry key="audit_weekly_be_bluecoat_proxy_custom_header_space_escape_7z.type">Bluecoat ProxySG</entry>
+	<entry key="audit_weekly_be_bluecoat_proxy_custom_header_space_escape_7z.log_format">ELFF</entry>
+	<entry key="audit_weekly_be_bluecoat_proxy_custom_header_space_escape_7z.filename">BE_Bluecoat_Splunk_mandatory_headers_space_escaping.7z</entry>
+	<entry key="audit_weekly_be_bluecoat_proxy_custom_header_space_escape_7z.logfile_headers">"_time","cs_host","sc_bytes","cs_bytes","cs_username"</entry>
+	
+	<entry key="audit_weekly_be_bluecoat_proxy_custom_header_quote_header_7z.LogFilePath">/src/test/resources/Audit/LogFiles/TempLogFiles/BE_Bluecoat_Splunk_mandatory_headers_quote_header.7z</entry>
+	<entry key="audit_weekly_be_bluecoat_proxy_custom_header_quote_header_7z.DataSourceFormat">ELFF</entry>
+	<entry key="audit_weekly_be_bluecoat_proxy_custom_header_quote_header_7z.DataSourceType">Bluecoat ProxySG</entry>
+	<entry key="audit_weekly_be_bluecoat_proxy_custom_header_quote_header_7z.type">Bluecoat ProxySG</entry>
+	<entry key="audit_weekly_be_bluecoat_proxy_custom_header_quote_header_7z.log_format">ELFF</entry>
+	<entry key="audit_weekly_be_bluecoat_proxy_custom_header_quote_header_7z.filename">BE_Bluecoat_Splunk_mandatory_headers_quote_header.7z</entry>
+	<entry key="audit_weekly_be_bluecoat_proxy_custom_header_quote_header_7z.logfile_headers">_time cs_host sc_bytes cs_bytes cs_username</entry>
+	
+	<entry key="audit_weekly_be_bluecoat_proxy_custom_header_space_escape_bz2.LogFilePath">/src/test/resources/Audit/LogFiles/TempLogFiles/BE_Bluecoat_Splunk_mandatory_headers_space_escaping.bz2</entry>
+	<entry key="audit_weekly_be_bluecoat_proxy_custom_header_space_escape_bz2.DataSourceFormat">ELFF</entry>
+	<entry key="audit_weekly_be_bluecoat_proxy_custom_header_space_escape_bz2.DataSourceType">Bluecoat ProxySG</entry>
+	<entry key="audit_weekly_be_bluecoat_proxy_custom_header_space_escape_bz2.type">Bluecoat ProxySG</entry>
+	<entry key="audit_weekly_be_bluecoat_proxy_custom_header_space_escape_bz2.log_format">ELFF</entry>
+	<entry key="audit_weekly_be_bluecoat_proxy_custom_header_space_escape_bz2.filename">BE_Bluecoat_Splunk_mandatory_headers_space_escaping.bz2</entry>
+	<entry key="audit_weekly_be_bluecoat_proxy_custom_header_space_escape_bz2.logfile_headers">"_time","cs_host","sc_bytes","cs_bytes","cs_username"</entry>
+	
+	<entry key="audit_weekly_be_bluecoat_proxy_custom_header_quote_header_bz2.LogFilePath">/src/test/resources/Audit/LogFiles/TempLogFiles/BE_Bluecoat_Splunk_mandatory_headers_quote_header.bz2</entry>
+	<entry key="audit_weekly_be_bluecoat_proxy_custom_header_quote_header_bz2.DataSourceFormat">ELFF</entry>
+	<entry key="audit_weekly_be_bluecoat_proxy_custom_header_quote_header_bz2.DataSourceType">Bluecoat ProxySG</entry>
+	<entry key="audit_weekly_be_bluecoat_proxy_custom_header_quote_header_bz2.type">Bluecoat ProxySG</entry>
+	<entry key="audit_weekly_be_bluecoat_proxy_custom_header_quote_header_bz2.log_format">ELFF</entry>
+	<entry key="audit_weekly_be_bluecoat_proxy_custom_header_quote_header_bz2.filename">BE_Bluecoat_Splunk_mandatory_headers_quote_header.bz2</entry>
+	<entry key="audit_weekly_be_bluecoat_proxy_custom_header_quote_header_bz2.logfile_headers">_time cs_host sc_bytes cs_bytes cs_username</entry>
+
+	<entry key="audit_weekly_be_bluecoat_proxy_custom_header_space_escape_gz.LogFilePath">/src/test/resources/Audit/LogFiles/TempLogFiles/BE_Bluecoat_Splunk_mandatory_headers_space_escaping.gz</entry>
+	<entry key="audit_weekly_be_bluecoat_proxy_custom_header_space_escape_gz.DataSourceFormat">ELFF</entry>
+	<entry key="audit_weekly_be_bluecoat_proxy_custom_header_space_escape_gz.DataSourceType">Bluecoat ProxySG</entry>
+	<entry key="audit_weekly_be_bluecoat_proxy_custom_header_space_escape_gz.type">Bluecoat ProxySG</entry>
+	<entry key="audit_weekly_be_bluecoat_proxy_custom_header_space_escape_gz.log_format">ELFF</entry>
+	<entry key="audit_weekly_be_bluecoat_proxy_custom_header_space_escape_gz.filename">BE_Bluecoat_Splunk_mandatory_headers_space_escaping.gz</entry>
+	<entry key="audit_weekly_be_bluecoat_proxy_custom_header_space_escape_gz.logfile_headers">"_time","cs_host","sc_bytes","cs_bytes","cs_username"</entry>
+	
+	<entry key="audit_weekly_be_bluecoat_proxy_custom_header_quote_header_gz.LogFilePath">/src/test/resources/Audit/LogFiles/TempLogFiles/BE_Bluecoat_Splunk_mandatory_headers_quote_header.gz</entry>
+	<entry key="audit_weekly_be_bluecoat_proxy_custom_header_quote_header_gz.DataSourceFormat">ELFF</entry>
+	<entry key="audit_weekly_be_bluecoat_proxy_custom_header_quote_header_gz.DataSourceType">Bluecoat ProxySG</entry>
+	<entry key="audit_weekly_be_bluecoat_proxy_custom_header_quote_header_gz.type">Bluecoat ProxySG</entry>
+	<entry key="audit_weekly_be_bluecoat_proxy_custom_header_quote_header_gz.log_format">ELFF</entry>
+	<entry key="audit_weekly_be_bluecoat_proxy_custom_header_quote_header_gz.filename">BE_Bluecoat_Splunk_mandatory_headers_quote_header.gz</entry>
+	<entry key="audit_weekly_be_bluecoat_proxy_custom_header_quote_header_gz.logfile_headers">_time cs_host sc_bytes cs_bytes cs_username</entry>
+
+	<entry key="audit_weekly_be_bluecoat_proxy_custom_header_space_escape_7za.LogFilePath">/src/test/resources/Audit/LogFiles/TempLogFiles/BE_Bluecoat_Splunk_mandatory_headers_space_escaping.7za</entry>
+	<entry key="audit_weekly_be_bluecoat_proxy_custom_header_space_escape_7za.DataSourceFormat">ELFF</entry>
+	<entry key="audit_weekly_be_bluecoat_proxy_custom_header_space_escape_7za.DataSourceType">Bluecoat ProxySG</entry>
+	<entry key="audit_weekly_be_bluecoat_proxy_custom_header_space_escape_7za.type">Bluecoat ProxySG</entry>
+	<entry key="audit_weekly_be_bluecoat_proxy_custom_header_space_escape_7za.log_format">ELFF</entry>
+	<entry key="audit_weekly_be_bluecoat_proxy_custom_header_space_escape_7za.filename">BE_Bluecoat_Splunk_mandatory_headers_space_escaping.7za</entry>
+	<entry key="audit_weekly_be_bluecoat_proxy_custom_header_space_escape_7za.logfile_headers">"_time","cs_host","sc_bytes","cs_bytes","cs_username"</entry>
+	
+	<entry key="audit_weekly_be_bluecoat_proxy_custom_header_quote_header_7za.LogFilePath">/src/test/resources/Audit/LogFiles/TempLogFiles/BE_Bluecoat_Splunk_mandatory_headers_quote_header.7za</entry>
+	<entry key="audit_weekly_be_bluecoat_proxy_custom_header_quote_header_7za.DataSourceFormat">ELFF</entry>
+	<entry key="audit_weekly_be_bluecoat_proxy_custom_header_quote_header_7za.DataSourceType">Bluecoat ProxySG</entry>
+	<entry key="audit_weekly_be_bluecoat_proxy_custom_header_quote_header_7za.type">Bluecoat ProxySG</entry>
+	<entry key="audit_weekly_be_bluecoat_proxy_custom_header_quote_header_7za.log_format">ELFF</entry>
+	<entry key="audit_weekly_be_bluecoat_proxy_custom_header_quote_header_7za.filename">BE_Bluecoat_Splunk_mandatory_headers_quote_header.7za</entry>
+	<entry key="audit_weekly_be_bluecoat_proxy_custom_header_quote_header_7za.logfile_headers">_time cs_host sc_bytes cs_bytes cs_username</entry>
+	
+	
+	
+</properties>

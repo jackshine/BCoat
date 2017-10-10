@@ -1,0 +1,89 @@
+ABC Company Pty Ltd
+123 Burke Street, Melbourne 3000, Australia
+Tel : 1234-5678, Fax : 1234-5679, Email : sales@abc-company.com
+Web Site : www.abc-company.com
+
+TAX INVOICE
+Tax Reg No : 8765-1234-987
+
+Invoice No. IN10000
+Sold To
+
+Ship To
+
+Jason's Trading Pty Ltd
+765 Foster Street
+Dandenong
+Vic 3400
+Australia
+
+Date
+Our Ref.
+Cust Ref.
+Terms
+
+S/No Product ID
+
+Description
+
+1
+
+P876-123
+
+Paper - photo copier, A4 80 g
+
+2
+
+P876-765
+
+Paper - colour Ink jet, A4 105g
+
+Qty
+
+19/08/2005
+
+COD
+
+Unit Price
+
+Amount
+
+10reams
+
+$4.50
+
+$45.00
+
+10reams
+
+$8.80
+
+$88.00
+
+Sub Total
+Tax
+Tax 2
+Total
+Amount
+Shipping
+Paid
+&
+
+$133.00
+$13.30
+$146.30
+$0.00
+
+Amount Due
+
+$146.30
+
+Comments
+
+TERMS & CONDITIONS
+1. Interest may be levied on overdue accounts.
+2. Goods sold are not returnable or refundable
+
+Downloaded	  from	  http://www.tidyforms.com	  
+
+

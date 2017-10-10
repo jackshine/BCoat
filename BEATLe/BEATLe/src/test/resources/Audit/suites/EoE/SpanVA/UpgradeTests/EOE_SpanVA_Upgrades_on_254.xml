@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+<suite name="Audit Test Suite">
+	<parameter name="userName" value="user@spanonydis3.co"></parameter>
+	<parameter name="userPassword" value="Elastica@1234"></parameter>
+	<parameter name="environmentName" value="eoe"></parameter>
+	<parameter name="tenantName" value="spanonydis3co"></parameter>
+	<parameter name="isLoggingOn" value="true"></parameter>
+	<parameter name="apiBaseVersion" value="v1"></parameter>
+	<parameter name="tenantToken" value="Gb6TRgwsV3dTxx7rM1PSHQ==" />
+	<parameter name="spanvaip" value="10.0.63.63" />
+	<parameter name="spanvausername" value="admin" />
+	<parameter name="spanvapwd" value="Admin123!"/>
+	<parameter name="spanvaAgentName" value="EOE_SpanVa_upgrades" />
+	<parameter name="spanvaUpgradedVersion" value="1.15.2.69.0-3rc" />
+
+	<test name="Audit Spanva upgrades tests  from 1.15.2.58.1-4rc to 1.15.2.69.0-3rc - tenant: spanonydis3co">
+		<classes>
+			<class name="com.elastica.beatle.tests.audit.spanvatests.SpanvaUpgradeTests.Audit_SpanVA_Scp_to_Upgraded_Scp_ScpClient_FtpClient_Https_Put_Post_Tests"/>
+		</classes>
+	</test>	
+
+</suite>
+
+

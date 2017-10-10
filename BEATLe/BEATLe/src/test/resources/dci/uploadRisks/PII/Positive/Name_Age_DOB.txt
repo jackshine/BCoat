@@ -1,0 +1,3 @@
+Name = John Spencer
+Age - 58 years old
+Date of birth 2/24/1955

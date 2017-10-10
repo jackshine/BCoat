@@ -1,0 +1,5 @@
+DOB: 01/02/1992
+SSN: 576-55-4600
+Email: lex@gmail.com
+Gender: Male
+Mrs. Julia Smith

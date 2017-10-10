@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+<suite name="GW - StreamIQ - O365 OneDrive - Users and Groups Policy Regression Suite"
+	parallel="false">
+	<parameter name="environmentName" value="perf" />
+	<parameter name="gwHostname" value="10.0.26.141" />
+	<parameter name="dpoUserName" value="testdpo@gatewayo365beatle.com"/>
+	<parameter name="dpoUserPassword" value="Elastica@123"/>
+	<parameter name="tenantName" value="gatewayo365beatlecom" />
+	<parameter name="tenantDomainName" value="gatewayo365beatle.com" />
+	<parameter name="apiBaseVersion" value="v1" />
+	<parameter name="saasApp" value="onedrive" />
+	<parameter name="saasAppUsername" value="testuser1@gatewayo365beatle.com" />
+	
+	<test name="GW - StreamIQ - O365 Onedrive - Users and Groups Policy Regression Test">
+		<parameter name="userName" value="admin@gatewayo365beatle.com" />
+		<parameter name="userPassword" value="YBQvce2@" />
+		<parameter name="isLoggingOn" value="true" />
+		<classes>
+			<class name="com.elastica.beatle.tests.gateway.UsersGroupsO365OneDriveTest">
+			</class>
+		</classes>
+	</test>
+	
+	<test name="GW - StreamIQ - O365 Onedrive - Users and Groups Policy with Anonymization Regression Test">
+		<parameter name="userName" value="admin@gatewayo365beatle.com" />
+		<parameter name="userPassword" value="YBQvce2@" />
+		<parameter name="isLoggingOn" value="true" />
+		<classes>
+			<class name="com.elastica.beatle.tests.gateway.UsersGroupsAnonymizationO365OneDriveTest">
+			</class>
+		</classes>
+	</test>
+	
+	<test name="GW - StreamIQ - O365 Onedrive - Users and Groups File Transfer Policy Regression Test">
+		<parameter name="userName" value="admin@gatewayo365beatle.com" />
+		<parameter name="userPassword" value="YBQvce2@" />
+		<parameter name="isLoggingOn" value="true" />
+		<classes>
+			<class name="com.elastica.beatle.tests.gateway.UsersGroupsO365OneDriveFileTransferPolicyTest">
+			</class>
+		</classes>
+	</test>
+	
+	<test name="GW - StreamIQ - O365 Onedrive - Users and Groups File Transfer Policy with Anonymization Regression Test">
+		<parameter name="userName" value="admin@gatewayo365beatle.com" />
+		<parameter name="userPassword" value="YBQvce2@" />
+		<parameter name="isLoggingOn" value="true" />
+		<classes>
+			<class name="com.elastica.beatle.tests.gateway.UsersGroupsAnonymizationO365OneDriveFileTransferPolicyTest">
+			</class>
+		</classes>
+	</test>
+	
+</suite>

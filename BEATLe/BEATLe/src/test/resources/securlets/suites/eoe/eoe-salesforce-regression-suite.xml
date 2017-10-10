@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+<suite name="Securlets Salesforce Regression Test Suite" parallel="false">
+	
+	<parameter name="environmentName" value="eoe"/>
+	<parameter name="userName" value="sajjad.alam@elastica.net"/>
+	<parameter name="userPassword" value="A1200@sx1"/>
+	<parameter name="tenantName" value="elasticanet"/>
+	<parameter name="isLoggingOn" value="true"/>
+	<parameter name="apiBaseVersion" value="v1"/>
+	<parameter name="esScriptsHostName" value="10.0.0.242"/>
+	<parameter name="esScriptsUserName" value="madmin"/>
+	<parameter name="referer" value="https://eoe.elastica-inc.com"/>
+	<parameter name="tenantToken" value="upoE50KtMCBFWLEzcBHhug=="/>
+	<parameter name="saasAppUsername" value="farhanj@elastica.net.Sandbox1" />
+	<parameter name="saasAppPassword" value="A1200@sx2" />
+	<parameter name="saasAppUserRole" value="ADMIN"/>
+	<parameter name="saasApp" value="SALESFORCE"/>
+	<parameter name="domainName" value="elasticanet"/>
+	<parameter name="socUserName" value="Farhan Jaleel"/>
+	
+	<!--  
+	<parameter name="environmentName" value="eoe"/>
+	<parameter name="userName" value="admin@securletbeatle.com"/>
+	<parameter name="userPassword" value="Elastica1234!"/>
+	<parameter name="tenantName" value="securletbeatlecom"/>
+	<parameter name="isLoggingOn" value="true"/>
+	<parameter name="apiBaseVersion" value="v1"/>
+	<parameter name="esScriptsHostName" value="10.0.0.242"/>
+	<parameter name="esScriptsUserName" value="madmin"/>
+	<parameter name="referer" value="https://eoe.elastica-inc.com"/>
+	<parameter name="tenantToken" value="H3YK/Vxr3p+qm9dfmKvmh7oYaPBJMqUsszm+LOStr4k="/>
+	<parameter name="saasAppUsername" value="admin@securletbeatle.com"/>
+	<parameter name="saasAppPassword" value="Q#V(7dkkbA@GLz3"/>
+	<parameter name="saasAppUserRole" value="ADMIN"/>
+	<parameter name="saasApp" value="SALESFORCE"/>
+	<parameter name="domainName" value="securletbeatlecom"/> 
+	 -->
+	
+	<test name="Securlets Salesforce Regression Tests" enabled="false">
+		<groups>
+		    <run>
+		  	  <include name="FILE"/>
+		    </run>
+		  </groups>
+		<classes>
+			<class name="com.elastica.beatle.tests.securlets.SalesforceSanityTests">
+				<methods>
+					<!-- <include name="performSaasFileActivities"></include> -->
+				</methods> 
+			</class>
+		</classes>
+	</test>
+	
+	<test name="Securlets Salesforce Regression Tests">
+		  <!-- 
+		  <groups>
+		    <run>
+		  	  <include name="CASE"/>
+		    </run>
+		  </groups>
+	 	  -->
+		<classes>
+			<class name="com.elastica.beatle.tests.securlets.salesforce.SalesforceActivityTests">
+				<methods>
+					<!-- <include name="performSaasFileActivities"></include> -->
+				</methods> 
+			</class>
+		</classes>
+	</test>
+</suite>

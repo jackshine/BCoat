@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+<suite name="Audit Test Suite" parallel="instances" thread-count="19">
+        <parameter name="userName" value="admin2@testauditddd.co"></parameter>
+        <parameter name="userPassword" value="Elastica@123"></parameter>
+        <parameter name="environmentName" value="envX"></parameter>
+        <parameter name="tenantName" value="testauditdddco1"></parameter>
+        <parameter name="tenantToken"  value="AXH4lDRSFH0vqCWxIHzEWw==" />
+        <parameter name="referer" value="https://cha.elastica-inc.com" />
+        <parameter name="isLoggingOn" value="true"></parameter>
+        <parameter name="apiBaseVersion" value="v1"></parameter>
+		
+	<test name="DDD Audit WebUpload Regression Tests">
+		<classes>
+			<class name="com.elastica.beatle.audit.factoryClass.AuditWebUploadFactory"></class>
+		</classes>
+	</test>			
+</suite>
+

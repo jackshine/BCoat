@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+<suite name="Box Regression Test Suite - Production" parallel="false">
+
+	<parameter name="environmentName" value="prod"/>
+	<parameter name="userName" value="admin@securletbeatle.com"/>
+	<parameter name="userPassword" value="Elastica12345!"/>
+	<parameter name="tenantName" value="securletbeatlecom"/>
+	<parameter name="isLoggingOn" value="true"/>
+	<parameter name="apiBaseVersion" value="v1"/>
+	<parameter name="esScriptsHostName" value="10.0.0.242"/>
+	<parameter name="esScriptsUserName" value="madmin"/>
+	<parameter name="referer" value="https://app.elastica.net"/>
+	<parameter name="tenantToken" value="H3YK/Vxr3p+qm9dfmKvmh7oYaPBJMqUsszm+LOStr4k="/>
+	<parameter name="saasAppUsername" value="box-admin@securletbeatle.com"/>
+	<parameter name="saasAppPassword" value="lYvA7)DZ1zD@CPQgt5zw"/>
+	<parameter name="saasAppUserRole" value="ADMIN"/>
+	<parameter name="saasApp" value="BOX"/>
+	<parameter name="socUserName" value="box admin securlet automation"/>
+	<parameter name="dpoUserName" value="securletuser@securletbeatle.com"/>
+	<parameter name="dpoUserPassword" value="Elastica1234!"/>
+	
+	<test name="Securlets Box Regression Tests Production">
+		<groups>
+		    <run>
+				  <include name="GROUP"/>
+			      <include name="FILE"/>
+			      <include name="USER"/>
+			      <include name="FOLDER"/> 
+			      <include name="WEBLINK"/>
+			      <include name="COLLABORATION"/>
+			      <include name="FILTERS" />
+			      <include name="EXPORT" />
+		    </run>
+		  </groups>
+		<classes>
+			<class name="com.elastica.beatle.tests.securlets.BoxSecurletTests">
+			</class>
+		</classes>
+	</test>
+	
+	<test name="Securlets Box Regression tests - End User Activities" enabled="true">
+        <parameter name="environmentName" value="prod"/>
+		<parameter name="userName" value="admin@securletbeatle.com"/>
+		<parameter name="userPassword" value="Elastica12345!"/>
+		<parameter name="tenantName" value="securletbeatlecom"/>
+		<parameter name="isLoggingOn" value="true"/>
+		<parameter name="apiBaseVersion" value="v1"/>
+		<parameter name="esScriptsHostName" value="10.0.0.242"/>
+		<parameter name="esScriptsUserName" value="madmin"/>
+		<parameter name="referer" value="https://app.elastica.net"/>
+		<parameter name="tenantToken" value="H3YK/Vxr3p+qm9dfmKvmh7oYaPBJMqUsszm+LOStr4k="/>
+		<parameter name="saasAppUsername" value="box-admin+1@securletbeatle.com"/>
+		<parameter name="saasAppPassword" value="lYvA7)DZ1zD@CPQgt5zw"/>
+		<parameter name="saasAppUserRole" value="ENDUSER"/>
+		<parameter name="socUserName" value="box user securlet automation"/>
+		<parameter name="saasApp" value="BOX"/>  	
+		<groups>
+		    <run>
+		      <include name="FOLDER"/>
+		      <include name="FILE"/>
+		      
+		    </run>
+		  </groups>
+		  
+		<classes>
+			<class name="com.elastica.beatle.tests.securlets.BoxSecurletTests">
+			</class>
+		</classes>
+	</test>
+	
+	<test name="Securlets Box Regression tests - CoAdmin Activities" enabled="true">
+        <parameter name="environmentName" value="prod"/>
+		<parameter name="userName" value="admin@securletbeatle.com"/>
+		<parameter name="userPassword" value="Elastica12345!"/>
+		<parameter name="tenantName" value="securletbeatlecom"/>
+		<parameter name="isLoggingOn" value="true"/>
+		<parameter name="apiBaseVersion" value="v1"/>
+		<parameter name="esScriptsHostName" value="10.0.0.242"/>
+		<parameter name="esScriptsUserName" value="madmin"/>
+		<parameter name="referer" value="https://app.elastica.net"/>
+		<parameter name="tenantToken" value="H3YK/Vxr3p+qm9dfmKvmh7oYaPBJMqUsszm+LOStr4k="/>
+		<parameter name="saasAppUsername" value="box-admin+2@securletbeatle.com"/>
+		<parameter name="saasAppPassword" value="lYvA7)DZ1zD@CPQgt5zw"/>
+		<parameter name="saasAppUserRole" value="COADMIN"/>
+		<parameter name="socUserName" value="box coadmin securlet automation"/>
+		<parameter name="saasApp" value="BOX"/>  	
+		<groups>
+		    <run>
+		     
+		      <include name="FILE"/>
+		      <include name="COLLABORATION"/>
+		    </run>
+		  </groups>
+		  
+		<classes>
+			<class name="com.elastica.beatle.tests.securlets.BoxSecurletTests">
+			</class>
+		</classes>
+	</test>
+	
+</suite>

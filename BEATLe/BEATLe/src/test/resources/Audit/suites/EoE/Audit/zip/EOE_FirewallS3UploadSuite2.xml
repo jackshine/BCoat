@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+<suite name="Audit Test Suite" parallel="instances" thread-count="19">
+    <parameter name="userName" value="audits3@auditbe.com"></parameter>
+	<parameter name="userPassword" value="Elastica@1!"></parameter>
+	<parameter name="environmentName" value="eoe"></parameter>
+	<parameter name="tenantName" value="auditbecom"></parameter>
+	<parameter name="referer" value="https://eoe.elastica-inc.com" />
+	<parameter name="tenantToken" value="k+uHoDtA1QWHrJrsTNUjEg==" />
+	<parameter name="isLoggingOn" value="true"></parameter>
+	<parameter name="apiBaseVersion" value="v1"></parameter>
+		<parameter name="loadApparraziServicesCheck" value="yes" />
+	<test name="Audit S3 Regression Tests">
+		<classes>
+			<class name="com.elastica.beatle.audit.factoryClass.AuditS3UploadFactory2"></class>
+		</classes>
+	</test>	
+</suite>

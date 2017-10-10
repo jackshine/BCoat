@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+<suite name="Protect Test Suite">
+	<parameter name="environmentName" value="cep"/>
+	<parameter name="userName" value="admin@protectbeatle.com"/>
+	<parameter name="userPassword" value="Elastica456!"/>
+	<parameter name="tenantName" value="protectbeatlecom"/>
+	<parameter name="domainName" value="protectbeatle.com"/>
+	<parameter name="isLoggingOn" value="true"/>
+	<parameter name="apiBaseVersion" value="v1"/>
+	<parameter name="apiserverHostName" value="app-cep.elastica.net" />
+	<parameter name="saasApp" value="Box"/>
+	<parameter name="saasAppUsername" value="box-admin@protectbeatle.com"/>
+	<parameter name="saasAppPassword" value="WN&amp;VbrsV340L2^t"/>
+	<parameter name="saasAppUserRole" value="ADMIN"/>
+	<parameter name="tenantToken" value="nIzqjM7QUjS4OcWe2Oti74jwfpY5A2Geg+2ugXIPGGk="/>
+	
+	<test name="Protect DataExposure Box Securlet Change Permissions Remediation">
+		<classes>
+			<class name="com.elastica.beatle.tests.protect.dataexposure.BoxChangePermissionTests"></class>
+		</classes>
+	</test>
+	<test name="Protect DataExposure Box Securlet Link Expiration Remediation">
+		<classes>
+			<class name="com.elastica.beatle.tests.protect.dataexposure.BoxLinkExpirationTests"></class>
+		</classes>
+	</test>
+	<test name="Protect DataExposure Box Securlet Remove Link Remediation">
+		<classes>
+			<class name="com.elastica.beatle.tests.protect.dataexposure.BoxRemoveLinkTests"></class>
+		</classes>
+	</test>
+</suite>

@@ -1,0 +1,3 @@
+Name Erin Smith
+DOB = 8/30/1965
+Address: 580 Hawthorne Avenue Piedmont, South Carolina 29673

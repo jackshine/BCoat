@@ -1,0 +1,132 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE properties SYSTEM "http://java.sun.com/dtd/properties.dtd">
+<properties>
+
+
+<!-- PAC suites Start-->
+	<!-- Google And Box Common -->
+	<entry key="slaveLink">http://10.0.1.205:8080/job/COMMON_GW_AEP_POLICY_EOE/ws/target/surefire-reports/emailable-report.html</entry>
+	<!-- End of Google And Box Common -->
+
+	<!-- Google -->
+	<entry key="slaveLink">http://10.0.1.205:8080/job/GDrive_GW_FE_Regression_EoE/ws/target/surefire-reports/emailable-report.html</entry>
+	<entry key="slaveLink">http://10.0.1.205:8080/job/GDRIVE_GW_FE_LARGE_FILES_DOWNLOAD_EOE/ws/target/surefire-reports/emailable-report.html</entry>
+	<entry key="slaveLink">http://10.0.1.205:8080/job/GDRIVE_GW_FE_LARGE_FILES_UPLOAD_EOE/ws/target/surefire-reports/emailable-report.html</entry>
+	<entry key="slaveLink">http://10.0.1.205:8080/job/GDRIVE_GW_FE_BIG_FILES_EOE/ws/target/surefire-reports/emailable-report.html</entry>
+	<entry key="slaveLink">http://10.0.1.205:8080/job/GDRIVE_GW_FE_PERSONAL_EOE/ws/target/surefire-reports/emailable-report.html</entry>
+	<entry key="slaveLink">http://10.0.1.205:8080/job/GMAIL_GW_FE_EOE/ws/target/surefire-reports/emailable-report.html</entry>
+	<entry key="slaveLink">http://10.0.1.205:8080/job/GOOGLE_GW_FE_ADMIN_EOE/ws/target/surefire-reports/emailable-report.html</entry>
+	<entry key="slaveLink">http://10.0.1.205:8080/job/GDRIVE_GW_FE_P1_EVENT_EOE/lastSuccessfulBuild/artifact/target/surefire-reports/emailable-report.html</entry>
+	<entry key="slaveLink">http://10.0.1.205:8080/job/GDRIVE_GW_FE_MULTI_FILES_UPLOAD_EOE/ws/target/surefire-reports/emailable-report.html</entry>
+	<entry key="slaveLink">http://10.0.1.205:8080/job/GDRIVE_GW_FE_ACCESS_ENFORCEMENT_POLICY_EOE/ws/target/surefire-reports/emailable-report.html</entry>
+	<entry key="slaveLink">http://10.0.1.205:8080/job/GDRIVE_GW_FE_FILE_SHARING_POLICY_EOE/lastSuccessfulBuild/artifact/target/surefire-reports/emailable-report.html</entry>
+	<entry key="slaveLink">http://10.0.1.205:8080/job/GDRIVE_GW_FE_FILE_TRANSFER_POLICY_UPLOAD_EOE/ws/target/surefire-reports/emailable-report.html</entry>
+	<entry key="slaveLink">http://10.0.1.205:8080/job/GDRIVE_GW_FE_FILE_TRANSFER_POLICY_DOWNLOAD_EOE/ws/target/surefire-reports/emailable-report.html</entry>
+	<!-- Office 365 -->	
+	<entry key="slaveLink">http://10.0.1.205:8080/job/O365_GW_FE_P1_EVENTS_EOE/ws/target/surefire-reports/emailable-report.html</entry>
+	<entry key="slaveLink">http://10.0.1.205:8080/job/O365_GW_FE_FILE_EVENTS_EOE/ws/target/surefire-reports/emailable-report.html</entry>
+	<entry key="slaveLink">http://10.0.1.205:8080/job/O365_GW_FE_FOLDER_EVENTS_EOE/ws/target/surefire-reports/emailable-report.html</entry>
+	<entry key="slaveLink">http://10.0.1.205:8080/job/O365_GW_FE_DOCUMENTS_EOE/ws/target/surefire-reports/emailable-report.html</entry>
+	<entry key="slaveLink">http://10.0.1.205:8080/job/O365_GW_FE_DOCUMENTS_EXT_EOE/ws/target/surefire-reports/emailable-report.html</entry>
+	<entry key="slaveLink">http://10.0.1.205:8080/job/O365_GW_FE_BIG_FILES_EOE/ws/target/surefire-reports/emailable-report.html</entry>
+	<entry key="slaveLink">http://10.0.1.205:8080/job/O365_GW_FE_ADMIN_EVENTS_EOE/ws/target/surefire-reports/emailable-report.html</entry>
+	<entry key="slaveLink">http://10.0.1.205:8080/job/O365_GW_FE_EMAIL_EOE/ws/target/surefire-reports/emailable-report.html</entry>
+	<entry key="slaveLink">http://10.0.1.205:8080/job/O365_GW_FE_ONEDRIVE_PERSONAL_EOE/ws/target/surefire-reports/emailable-report.html</entry>
+	<entry key="slaveLink">http://10.0.1.205:8080/job/O365_GW_FE_OUTLOOK_EOE/ws/target/surefire-reports/emailable-report.html</entry>
+	<entry key="slaveLink">http://10.0.1.205:8080/job/O365_GW_FE_FILE_TRANSFER_POLICY_DOWNLOAD_EOE/ws/target/surefire-reports/emailable-report.html</entry>
+	<entry key="slaveLink">http://10.0.1.205:8080/job/O365_GW_FE_FILE_TRANSFER_POLICY_UPLOAD_EOE/ws/target/surefire-reports/emailable-report.html</entry>
+	<entry key="slaveLink">http://10.0.1.205:8080/job/O365_GW_FE_FILE_SHARING_POLICY_EOE/ws/target/surefire-reports/emailable-report.html</entry>
+	<entry key="slaveLink">http://10.0.1.205:8080/job/O365_GW_FE_ACCESS_ENFORCEMENT_POLICY_EOE/ws/target/surefire-reports/emailable-report.html</entry>
+	<entry key="slaveLink">http://10.0.1.205:8080/job/O365_GW_FE_CIQ_BLOCK_EOE/ws/target/surefire-reports/emailable-report.html</entry>
+	<entry key="slaveLink">http://10.0.1.205:8080/job/O365_GW_FE_ACCESS_ENFORCEMENT_POLICY_TESTUSER_CAPITAL_EOE/lastSuccessfulBuild/artifact/target/surefire-reports/emailable-report.html</entry>
+	<entry key="slaveLink">http://10.0.1.205:8080/job/O365_GW_FE_ACCESS_ENFORCEMENT_POLICY_SAAS_CAPITAL_EOE/lastSuccessfulBuild/artifact/target/surefire-reports/emailable-report.html</entry>
+	<entry key="slaveLink">http://10.0.1.205:8080/job/O365_GW_FE_SSO_P1_EVENTS_EOE/ws/target/surefire-reports/emailable-report.html</entry>
+	<entry key="slaveLink">http://10.0.1.205:8080/view/eoe_reg/job/O365_GW_FE_i18N_EOE/ws/target/surefire-reports/emailable-report.html</entry>
+	<!-- Azure -->
+	<entry key="slaveLink">http://10.0.1.205:8080/job/AZURE_GW_FE_EOE/ws/target/surefire-reports/emailable-report.html</entry>
+	<!-- Box  -->
+	<entry key="slaveLink">http://10.0.1.205:8080/job/BOX_GW_FE_EOE/ws/target/surefire-reports/emailable-report.html</entry>
+	<entry key="slaveLink">http://10.0.1.205:8080/job/BOX_GW_FE_PERSONAL_EOE/ws/target/surefire-reports/emailable-report.html</entry>
+	<!-- Dropbox -->
+	<entry key="slaveLink">http://10.0.1.205:8080/job/DROPBOX_GW_FE_EOE/ws/target/surefire-reports/emailable-report.html</entry>
+	<!-- AWS -->
+	<entry key="slaveLink">http://10.0.1.205:8080/job/AWS_GW_FE_S3_EOE/ws/target/surefire-reports/emailable-report.html</entry>
+	<entry key="slaveLink">http://10.0.1.205:8080/job/AWS_GW_FE_POLICY_EOE/ws/target/surefire-reports/emailable-report.html</entry>
+	<!-- Salesforce  -->
+	<entry key="slaveLink">http://10.0.1.205:8080/job/SALESFORCE_GW_FE_EOE/ws/target/surefire-reports/emailable-report.html</entry>
+	<entry key="slaveLink">http://10.0.1.205:8080/job/SALESFORCE_GW_FE_POLICY_EOE/ws/target/surefire-reports/emailable-report.html</entry>
+	<!-- CIQ -->
+	<entry key="slaveLink">http://10.0.1.205:8080/job/BOX_GW_FE_CIQ_EOE/ws/target/surefire-reports/emailable-report.html</entry>
+	<entry key="slaveLink">http://10.0.1.205:8080/job/GDRIVE_GW_FE_CIQ_EOE/ws/target/surefire-reports/emailable-report.html</entry>
+	<entry key="slaveLink">http://10.0.1.205:8080/view/eoe_ciq/job/O365_GW_FE_CIQ_EOE/ws/target/surefire-reports/emailable-report.html</entry>
+	<entry key="slaveLink">http://10.0.1.205:8080/view/eoe_ciq/job/O365_GW_FE_CIQ_EXCEPTION_EOE/ws/target/surefire-reports/emailable-report.html</entry>
+	<entry key="slaveLink">http://10.0.1.205:8080/view/eoe_ciq/job/O365_EMAIL_GW_FE_CIQ_EOE/ws/target/surefire-reports/emailable-report.html</entry>
+	<entry key="slaveLink">http://10.0.1.205:8080/view/eoe_ciq/job/O365_GW_FE_CIQ_ENCYPTION_EOE/ws/target/surefire-reports/emailable-report.html</entry>
+	<!-- PAC suites End-->
+	
+	
+	<!-- Reach Suites start -->
+	
+	<!-- Google And Box Common -->
+	<entry key="slaveLink">http://10.0.1.205:8080/job/COMMON_REACH_GW_AEP_POLICY_EOE/ws/target/surefire-reports/emailable-report.html</entry>	
+	
+	<!-- Google -->
+	
+	<entry key="slaveLink">http://10.0.1.205:8080/job/GDRIVE_REACH_GW_FE_REGRESSION_EOE/ws/target/surefire-reports/emailable-report.html</entry>	
+	<entry key="slaveLink">http://10.0.1.205:8080/job/GDRIVE_REACH_GW_FE_PERSONAL_EOE/ws/target/surefire-reports/emailable-report.html</entry>	
+	<entry key="slaveLink">http://10.0.1.205:8080/job/GDRIVE_REACH_GW_FE_P1_EVENTS_EOE/ws/target/surefire-reports/emailable-report.html</entry>	
+	<entry key="slaveLink">http://10.0.1.205:8080/job/GDRIVE_REACH_GW_FE_MULTI_FILES_UPLOAD_EOE/ws/target/surefire-reports/emailable-report.html</entry>	
+	<entry key="slaveLink">http://10.0.1.205:8080/job/GDRIVE_REACH_GW_FE_BIG_FILES_EOE/ws/target/surefire-reports/emailable-report.html</entry>	
+	<entry key="slaveLink">http://10.0.1.205:8080/job/GOOGLE_REACH_GW_FE_ADMIN_EOE/ws/target/surefire-reports/emailable-report.html</entry>	
+	<entry key="slaveLink">http://10.0.1.205:8080/job/GMAIL_REACH_GW_FE_EOE/ws/target/surefire-reports/emailable-report.html</entry>	
+	<entry key="slaveLink">http://10.0.1.205:8080/job/GDRIVE_REACH_GW_FE_LARGE_FILES_DOWNLOAD_EOE/ws/target/surefire-reports/emailable-report.html</entry>
+	<entry key="slaveLink">http://10.0.1.205:8080/job/GDRIVE_REACH_GW_FE_LARGE_FILES_UPLOAD_EOE/ws/target/surefire-reports/emailable-report.html</entry>
+	<entry key="slaveLink">http://10.0.1.205:8080/job/GDRIVE_REACH_GW_FE_FILE_SHARING_POLICY_EOE/ws/target/surefire-reports/emailable-report.html</entry>
+	<entry key="slaveLink">http://10.0.1.205:8080/job/GDRIVE_REACH_GW_FE_FILE_TRANSFER_POLICY_DOWNLOAD_EOE/ws/target/surefire-reports/emailable-report.html</entry>
+	<entry key="slaveLink">http://10.0.1.205:8080/job/GDRIVE_REACH_GW_FE_FILE_TRANSFER_POLICY_UPLOAD_EOE/ws/target/surefire-reports/emailable-report.html</entry>
+	<entry key="slaveLink">http://10.0.1.205:8080/job/GDRIVE_REACH_GW_FE_P1_EVENTS_EOE/ws/target/surefire-reports/emailable-report.html</entry>
+	<!-- Office 365 -->	
+	<entry key="slaveLink">http://10.0.1.205:8080/job/O365_REACH_GW_FE_P1_EVENTS_EOE/ws/target/surefire-reports/emailable-report.html</entry>
+	<entry key="slaveLink">http://10.0.1.205:8080/job/O365_REACH_GW_FE_ONEDRIVE_PERSONAL_EOE/ws/target/surefire-reports/emailable-report.html</entry>
+	<entry key="slaveLink">http://10.0.1.205:8080/job/O365_REACH_GW_FE_OUTLOOK_EOE/ws/target/surefire-reports/emailable-report.html</entry>
+	<entry key="slaveLink">http://10.0.1.205:8080/job/O365_REACH_GW_FE_DOCUMENTS_EOE/ws/target/surefire-reports/emailable-report.html</entry>
+	<entry key="slaveLink">http://10.0.1.205:8080/job/O365_REACH_GW_FE_DOCUMENTS_EXT_EOE/ws/target/surefire-reports/emailable-report.html</entry>
+	<entry key="slaveLink">http://10.0.1.205:8080/job/O365_REACH_GW_FE_FILE_EVENTS_EOE/ws/target/surefire-reports/emailable-report.html</entry>
+	<entry key="slaveLink">http://10.0.1.205:8080/job/O365_REACH_GW_FE_FOLDER_EVENTS_EOE/ws/target/surefire-reports/emailable-report.html</entry>
+	<entry key="slaveLink">http://10.0.1.205:8080/job/O365_REACH_GW_FE_i18N_EOE/ws/target/surefire-reports/emailable-report.html</entry>
+	<entry key="slaveLink">http://10.0.1.205:8080/job/O365_REACH_GW_FE_ADMIN_EVENTS_EOE/ws/target/surefire-reports/emailable-report.html</entry>
+	<entry key="slaveLink">http://10.0.1.205:8080/job/O365_REACH_GW_FE_BIG_FILES_EOE/ws/target/surefire-reports/emailable-report.html</entry>
+	<entry key="slaveLink">http://10.0.1.205:8080/job/O365_REACH_GW_FE_EMAIL_EOE/ws/target/surefire-reports/emailable-report.html</entry>
+	<entry key="slaveLink">http://10.0.1.205:8080/job/O365_REACH_GW_FE_ACCESS_ENFORCEMENT_POLICY_EOE/ws/target/surefire-reports/emailable-report.html</entry>
+	<entry key="slaveLink">http://10.0.1.205:8080/job/O365_REACH_GW_FE_ACCESS_ENFORCEMENT_POLICY_SAAS_CAPITAL_EOE/ws/target/surefire-reports/emailable-report.html</entry>
+	<entry key="slaveLink">http://10.0.1.205:8080/job/O365_REACH_GW_FE_ACCESS_ENFORCEMENT_POLICY_TESTUSER_CAPITAL_EOE/ws/target/surefire-reports/emailable-report.html</entry>
+	<entry key="slaveLink">http://10.0.1.205:8080/job/O365_REACH_GW_FE_FILE_SHARING_POLICY_EOE/ws/target/surefire-reports/emailable-report.html</entry>
+	<entry key="slaveLink">http://10.0.1.205:8080/job/O365_REACH_GW_FE_FILE_TRANSFER_POLICY_EOE/ws/target/surefire-reports/emailable-report.html</entry>
+	<!-- Azure -->
+	<entry key="slaveLink">http://10.0.1.205:8080/job/AZURE_REACH_GW_FE_EOE/ws/target/surefire-reports/emailable-report.html</entry>
+	<!-- Box  -->
+	<entry key="slaveLink">http://10.0.1.205:8080/job/BOX_REACH_GW_FE_EOE/ws/target/surefire-reports/emailable-report.html</entry>
+	<entry key="slaveLink">http://10.0.1.205:8080/job/BOX_REACH_GW_FE_PERSONAL_EOE/ws/target/surefire-reports/emailable-report.html</entry>
+	<!-- Dropbox -->
+	<entry key="slaveLink">http://10.0.1.205:8080/job/DROPBOX_REACH_GW_FE_EOE/ws/target/surefire-reports/emailable-report.html</entry>
+	<!-- CIQ -->
+	<entry key="slaveLink">http://10.0.1.205:8080/view/eoe_ciq/job/O365_REACH_CIQ_GW_FE_EOE/ws/target/surefire-reports/emailable-report.html</entry>
+	<entry key="slaveLink">http://10.0.1.205:8080/view/eoe_ciq/job/BOX_REACH_CIQ_GW_FE_EOE/ws/target/surefire-reports/emailable-report.html</entry>
+	<entry key="slaveLink">http://10.0.1.205:8080/view/eoe_ciq/job/GDRIVE_REACH_CIQ_GW_FE_EOE/ws/target/surefire-reports/emailable-report.html</entry>
+	<entry key="slaveLink">http://10.0.1.205:8080/view/eoe_ciq/job/O365_GW_FE_CIQ_REACH_EXCEPTION_EOE/ws/target/surefire-reports/emailable-report.html</entry>
+	<!-- Reach Suites ENd -->	
+	
+	
+	<entry key="slaveLink">http://10.0.1.205:8080/job/SSO%20FE%20Regression%20EoE/ws/target/surefire-reports/emailable-report.html</entry>
+	
+	
+	<entry key="slaveLink">http://10.0.1.205:8080/job/Securlet%20FE%20Regression%20EoE/ws/target/surefire-reports/emailable-report.html</entry>
+	<entry key="slaveLink">http://10.0.1.205:8080/job/Store%20FE%20Regression%20EoE/ws/target/surefire-reports/emailable-report.html</entry>
+	<entry key="slaveLink">http://10.0.1.205:8080/job/Audit%20FE%20Regression%20EoE/ws/target/surefire-reports/emailable-report.html</entry>
+	<entry key="slaveLink">http://10.0.1.205:8080/job/Detect%20FE%20Regression%20EoE/ws/target/surefire-reports/emailable-report.html</entry>
+	<entry key="slaveLink">http://10.0.1.205:8080/job/Investigate%20FE%20Regression%20EoE/ws/target/surefire-reports/emailable-report.html</entry>
+	<entry key="slaveLink">http://10.0.1.205:8080/job/CloudSoc%20FE%20Regression%20EoE/ws/target/surefire-reports/emailable-report.html</entry>
+	<entry key="slaveLink">http://10.0.1.205:8080/job/Sources%20FE%20Regression%20EoE/ws/target/surefire-reports/emailable-report.html</entry>
+	<entry key="slaveLink">http://10.0.1.205:8080/job/Protect%20FE%20Regression%20EoE/lastSuccessfulBuild/artifact/target/surefire-reports/emailable-report.html</entry>
+
+</properties>

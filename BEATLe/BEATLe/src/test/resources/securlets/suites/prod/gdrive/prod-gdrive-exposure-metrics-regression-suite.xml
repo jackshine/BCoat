@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+<suite name="GDrive Regression Test Suite" parallel="false">
+    <parameter name="environmentName" value="prod"/>
+    <parameter name="userName" value="admin@securletbeatle.com"/>
+    <parameter name="userPassword" value="Elastica12345!"/>
+    <parameter name="tenantName" value="securletbeatlecom"/>
+    <parameter name="isLoggingOn" value="true"/>
+    <parameter name="apiBaseVersion" value="v1"/>
+    <parameter name="esScriptsHostName" value="10.0.0.242"/>
+    <parameter name="esScriptsUserName" value="madmin"/>
+    <parameter name="tenantToken" value="H3YK/Vxr3p+qm9dfmKvmh7oYaPBJMqUsszm+LOStr4k="/>
+    <parameter name="referer" value="https://app.elastica.net/static/ng/appSecurlets/index.html"/>
+    <parameter name="saasAppUsername" value="admin@securletbeatle.com"/>
+    <parameter name="gdriveRefreshToken" value="1/eckCHbIndshTd6zxoq5Ds13OqYondPtDxMNV2BUIzGhIgOrJDtdun6zK6XiATCKT"/>
+    <parameter name="gdriveClientId" value="531581515230-0k9p8gne8a0uh116u4fff7j93o7nsdu1.apps.googleusercontent.com"/>
+    <parameter name="gdriveClientSecret" value="EQUZEc3QoEa0EqBzHVpoMLgr"/>
+    <parameter name="gDriveaccessToken" value="ya29.2gFrwi5rwwq8fFq1JBE_iomNsjizj3TmmwTNmmRMypxcaivt5iHwn-4QoNtblcc7SITW"/>
+    <parameter name="delayBetweenSaaSActivity" value="120"/>   
+    <parameter name="waitPeriodForElasticSearchEngine" value="180"/> 
+    <parameter name="maxRetryCount" value="2"/>
+    	
+	
+   <test name="Securlets GDrive Exposure Regression Tests" preserve-order="true" parallel="false">
+		
+        <classes>
+            <class name="com.elastica.beatle.tests.securlets.gdrive.GDriveSecurletsExposureMetricsTests">
+                <methods>     
+                    <!--                SaaS Activities-->
+                    <include name="performFolderCreateInSaasApp"/>
+                    <include name="performFileUploadInSaaSApp"/>
+<!--                                    Public File Sharing-->
+                    <include name="validateCountpublicShareFile"/>    
+<!--                    <include name="validateCountpublicShareFile_searchableOnWeb"/> -->
+<!--                    <include name="validateCountpublicShareFile_anyOneWithLink"/>   -->
+<!--                                    Internal with in domain File Sharing-->
+<!--                    <include name="validateCountInternalShareFile"/> -->
+                    <include name="validateCountInternalShareFileSearchableInCompany"/> 
+<!--                    <include name="validateCountInternalShareFilePeopleWithLink"/>        -->
+                    
+<!--                                    External File Sharing-->
+<!--                    <include name="validateCountExternalShareFile_searchableOnWeb"/> -->
+                    <include name="listAllInternallyExposedFiles"/>
+                    <include name="listAllInternallyExposedFilesAfterInternalExposure"/>     
+<!--                    <include name="exposeRiskFileAndCheckExposedFilesAndOtherRisks"/>-->
+                    <include name="exposeNonRiskFileAndCheckExposedFilesAndOtherRisks"/>
+                    <include name="getAllInternalExposureTotalsOnly"/>
+                    <include name="verifyTopExposedFileTypes"/>
+                    <include name="exposeAFileTypeAndVerifyExposedFileTypes"/>
+                    <include name="getAllInternallyExposedContentTypes"/>
+<!--                    <include name="exposeAFileTypeAndVerifyExposedContentTypes"/>-->
+                    <include name="verifyVulnerabilityTypes"/>
+<!--                    <include name="exposeAFileTypeAndVerifyVulnerabilityTypes"/>-->
+                    <include name="verifyVulnerabilityTypesWithFilters"/>
+<!--                    <include name="verifyInternallyExposedUsers"/>-->
+                    <include name="verifyUserTotalsAsInVennDiagram"/>
+<!--                    <include name="verifyFolderExposuresByInternalUsers"/>-->
+                    
+                    <include name="validateChildPermissionAfterParentSharing"/>
+                    <include name="validateVariousChildPermissionAfterParentSharing"/>
+                    
+                               
+                </methods>
+            </class>
+        </classes>
+    </test>
+</suite>

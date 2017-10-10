@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+<suite name="DCI Test Suite">
+
+	<listeners>
+		<listener class-name="com.elastica.beatle.PriorityListener" />
+	</listeners>
+
+	<parameter name="environmentName" value="friends" />
+	<parameter name="cloudSocUName" value="admin" />
+	<parameter name="tenantName" value="dcio365beatlecom" />
+	<parameter name="domainName" value="dcio365beatlecom" />
+	<parameter name="saasApp" value="Office365" />
+	<parameter name="apiBaseVersion" value="v1" />
+	<test name="Securlet Office365 DCI Filter Metrics Tests - Unexposed Files">
+		<groups>
+			<run>
+				<include name="Unexposed" />
+			</run>
+		</groups>
+		<classes>
+			<class name="com.elastica.beatle.tests.dci.DCIExposureMetricsTests"></class>
+		</classes>
+	</test>
+
+	<test
+		name="Securlet Office365 DCI Filter Metrics Tests - Publicly Exposed Files">
+		<groups>
+			<run>
+				<include name="ExposedPublic" />
+			</run>
+		</groups>
+		<classes>
+			<class name="com.elastica.beatle.tests.dci.DCIExposureMetricsTests"></class>
+		</classes>
+	</test>
+
+	<test
+		name="Securlet Office365 DCI Filter Metrics Tests - Internally Exposed Files">
+		<groups>
+			<run>
+				<include name="ExposedInternal" />
+			</run>
+		</groups>
+		<classes>
+			<class name="com.elastica.beatle.tests.dci.DCIExposureMetricsTests"></class>
+		</classes>
+	</test>
+
+	<test
+		name="Securlet Office365 DCI Filter Metrics Tests - Externally Exposed Files">
+		<groups>
+			<run>
+				<include name="ExposedExternal" />
+			</run>
+		</groups>
+		<classes>
+			<class name="com.elastica.beatle.tests.dci.DCIExposureMetricsTests"></class>
+		</classes>
+	</test>
+
+</suite>

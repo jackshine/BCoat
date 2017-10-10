@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+<suite name="Audit Test Suite" parallel="instances" thread-count="4">
+    <parameter name="userName" value="qa-admin@elasticaqa.net"/>
+    <parameter name="userPassword" value="pgfsPqpi6Lg66(O"/>
+    <parameter name="environmentName" value="prod"></parameter>
+	<parameter name="tenantName" value="elasticaqanet"/>
+    <parameter name="referer" value="https://app.elastica.net" />
+    <parameter name="tenantToken" value="8Mcfo3OUrXx33ByfPIlCCA=="/>
+    <parameter name="isLoggingOn" value="true"></parameter>
+	<parameter name="apiBaseVersion" value="v1"></parameter>
+	<parameter name="spanvaip" value="10.0.63.55" />
+	<parameter name="spanvausername" value="admin" />
+	<parameter name="spanvapwd" value="Admin123!" />
+	<parameter name="spanvaAgentName" value="Prod_LatestImage_SpanvaAgent_AnonyEnabled" />
+	<parameter name="dpoUserName" value="tarakdpo@elasticaqa.net" />
+	<parameter name="dpoUserPassword" value="Elastica#123" />
+	<parameter name="loadApparraziServicesCheck" value="yes" />
+	
+	<test name="Audit SpanVA Latest Image Anony Regression Tests">
+		<classes>
+			<class name="com.elastica.beatle.audit.factoryClass.spanva.AuditSpanvaLatestImageAnonyEnabledFactory"/>
+		</classes>
+	</test>	
+
+</suite>
+
+
+ 
+

@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+<suite name="Audit Test Suite" parallel="instances" thread-count="9">
+	<parameter name="userName" value="syed.muzaffar@cloudsecurity.mobi"></parameter>
+	<parameter name="userPassword" value="Uznw@%S$jsunG)uUc0!g"></parameter>
+	<parameter name="environmentName" value="cep"></parameter>
+	<parameter name="tenantName" value="cloudsecuritymobi"></parameter>
+	<parameter name="isLoggingOn" value="true"></parameter>
+	<parameter name="referer" value="https://app-cep.elastica.net" />
+	<parameter name="apiBaseVersion" value="v1"></parameter>
+	<parameter name="loadApparraziServicesCheck" value="yes" />
+	<test name="Audit SpanVA Regression Tests">
+		<classes>
+			<class name="com.elastica.beatle.tests.audit.AuditSpanVATests"/>
+			
+		
+		</classes>
+	</test>	
+	
+	
+</suite>

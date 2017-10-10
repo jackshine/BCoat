@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+<suite name="Protect Salesforce Regression Test Suite" parallel="false">
+	
+	<parameter name="environmentName" value="eoe"/>
+	<parameter name="userName" value="admin@securletbeatle.com"/>
+	<parameter name="userPassword" value="Elastica1234!"/>
+	<parameter name="tenantName" value="securletbeatlecom"/>
+	<parameter name="isLoggingOn" value="true"/>
+	<parameter name="apiBaseVersion" value="v1"/>
+	<parameter name="esScriptsHostName" value="10.0.0.242"/>
+	<parameter name="esScriptsUserName" value="madmin"/>
+	<parameter name="referer" value="https://eoe.elastica-inc.com"/>
+	<parameter name="apiserverHostName" value="api-eoe.elastica-inc.com"/>
+	<parameter name="tenantToken" value="H3YK/Vxr3p+qm9dfmKvmh7oYaPBJMqUsszm+LOStr4k="/>
+	<parameter name="saasAppUsername" value="admin@securletbeatle.com.protectsb"/>
+	<parameter name="saasAppPassword" value="Elastica@123"/>
+	<parameter name="saasAppUserRole" value="ADMIN"/>
+	<parameter name="saasApp" value="Salesforce"/>
+	<parameter name="domainName" value="securletbeatlecom"/>
+	<parameter name="saasAppLoginHost" value="cs3.salesforce.com/"/>
+	<parameter name="socUserName" value="QA Admin"/>
+	<parameter name="saasAppExternalUser1Name" value="protectauto1@protectbeatle.com"/>
+	<parameter name="saasAppExternalUser2Name" value="protectauto2@protectbeatle.com"/>
+	<parameter name="saasAppEndUser1Name" value="securletuser7@securletbeatle.com"/>
+	<parameter name="saasAppEndUser2Name" value="securletuser8@securletbeatle.com"/>  
+	<parameter name="saasAppClientId" value="3MVG9pHRjzOBdkd8Faekhz9VgUtJMJ7xAEdO.N_SXqA8pot3XzXnfdvsmLpF_.OtC0JSG0ilPBdq91rmpqURY"/>
+    <parameter name="saasAppClientSecret" value="512923208038728574"/>
+    <parameter name="saasAppToken" value="EQUZEc3QoEa0EqBzHVpoMLgr"/>
+	
+	<test name="Protect Salesforce Exposure Combination Policy Violation And Impact Tab Analysis Tests">
+		<classes>
+			<class name="com.elastica.beatle.tests.protect.exposure.SalesforceExposureCombinationTests" />
+		</classes>
+	</test>
+	
+	<test name="Protect Salesforce Users and Groups Policy Violation Tests">
+		<classes>
+			<class name="com.elastica.beatle.tests.protect.policyviolations.SalesforceUserGroupPolicyViolationTests" />
+		</classes>
+	</test> 
+	
+	<test name="Protect Salesforce File Size Policy Violation Tests">
+		<classes>
+			<class name="com.elastica.beatle.tests.protect.policyviolations.SalesforceFileSizePolicyViolationTests" />
+		</classes>
+	</test>
+	
+	<test name="Protect Salesforce Filename With Special Character Policy Violation Tests">
+		<classes>
+			<class name="com.elastica.beatle.tests.protect.policyviolations.SalesforceFilenameSpecialCharacterPolicyViolationTests" />
+		</classes>
+	</test>
+	
+	<test name="Protect Salesforce CIQ Profile Exception Policy Violation Tests">
+		<classes>
+			<class name="com.elastica.beatle.tests.protect.policyviolations.SalesforceCIQExceptionTests" />
+		</classes>
+	</test>
+	
+</suite>

@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+<suite name="GDrive Regression Test Suite">
+    <parameter name="environmentName" value="eoe"/>
+    <parameter name="userName" value="admin@securletbeatle.com"/>
+    <parameter name="userPassword" value="Elastica1234!"/>
+    <parameter name="tenantName" value="securletbeatlecom"/>
+    <parameter name="isLoggingOn" value="true"/>
+    <parameter name="apiBaseVersion" value="v1"/>
+    <parameter name="esScriptsHostName" value="10.0.0.242"/>
+    <parameter name="esScriptsUserName" value="madmin"/>
+    <parameter name="tenantToken" value="H3YK/Vxr3p+qm9dfmKvmh7oYaPBJMqUsszm+LOStr4k="/>
+    <parameter name="referer" value="https://eoe.elastica-inc.com"/>
+    <parameter name="SaaSAppUser" value="admin"/>
+    
+    <test name="Securlets GDrive Files And Folder Activities" preserve-order="true">
+        <classes>
+            <class name="com.elastica.beatle.tests.securlets.gdrive.GDriveFilesAndFolderActivities">
+                <methods>             
+                <include name="performFolderOperations"/>
+                <include name="validateFolderOperations"/>
+                <include name="performFileOperations"/>
+                <include name="validateFileOperations"/>
+                </methods>
+            </class>
+        </classes>
+    </test>
+    
+    <test name="Securlets GDrive Regression tests - End User Activities" enabled="true" preserve-order="true">
+        <parameter name="SaaSAppUser" value="internal"/>
+        <classes>
+            <class name="com.elastica.beatle.tests.securlets.gdrive.GDriveFilesAndFolderActivities">
+                <methods>         
+                <include name="performFolderOperations"/>
+                <include name="validateFolderOperations"/>
+                <include name="performFileOperations"/>
+                <include name="validateFileOperations"/>
+                </methods>
+            </class>
+        </classes>
+    </test>
+    
+</suite>

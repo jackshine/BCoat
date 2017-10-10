@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+<suite name="Securlets Onedrive Business External Switch Regression Tests" parallel="false">
+	
+	<parameter name="environmentName" value="eoe"/>
+	<parameter name="userName" value="admin@securlet365mailbeatle.com"/>
+	<parameter name="userPassword" value="Elastica123!"/>
+	<parameter name="tenantName" value="securlet365mailbeatlecom"/>
+	<parameter name="domainName" value="securlet365mailbeatle"/>
+	<parameter name="isLoggingOn" value="true"/>
+	<parameter name="apiBaseVersion" value="v1"/>
+	<parameter name="esScriptsHostName" value="10.0.0.242"/>
+	<parameter name="esScriptsUserName" value="madmin"/>
+	<parameter name="referer" value="https://eoe.elastica-inc.com"/>
+	<parameter name="tenantToken" value="IWhFYAti8ZAFWkW0FzIzoGZBI051s+gcjd0HiHAPkFI="/>
+	<parameter name="saasAppUsername" value="admin@securlet365mailbeatle.com"/>
+	<parameter name="saasAppPassword" value="o&amp;8Cg3wKScNe(4V"/>
+	<parameter name="saasAppUserRole" value="ADMIN"/>
+	<parameter name="saasApp" value="ONEDRIVEBUSINESS"/>
+	<parameter name="saasAppEndUser1Name" value="securletuser1@securlet365mailbeatle.com"/>
+	<parameter name="saasAppEndUser1Password" value="Wasu8700"/>
+	<parameter name="saasAppEndUser2Name" value="securletuser1@securlet365mailbeatle.com"/>
+	<parameter name="saasAppEndUser2Password" value="Wasu8700"/>
+	<parameter name="saasAppExternalUser1Name" value="admin@securletO365beatle.com"/>
+	<parameter name="saasAppExternalUser1Password" value="MHikwjETdOgeFS!"/>
+	
+	<test name="Securlets Onedrive Business External Switch Regression Tests">
+		<groups>
+			<run>
+				<!-- <include name="DASHBOARD" /> -->
+			</run>
+		</groups>
+		<classes>
+			<class name="com.elastica.beatle.tests.securlets.OnedriveExternalExposuresTests">
+			<methods>
+				<!-- <include name="verifyMetricsTotalBeforeExposureWithUIAndAPIServerCalls"></include> -->
+				<include name="verifyVennDiagramMetricsAfterExternalExposure"></include>
+			</methods>
+			</class>
+		</classes>
+	</test>
+</suite>

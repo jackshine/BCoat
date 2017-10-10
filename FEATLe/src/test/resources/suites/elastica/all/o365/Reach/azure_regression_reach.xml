@@ -1,0 +1,54 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+
+<suite name="GW BOX FE Regression Test Suite">
+
+	<listeners>
+		<listener class-name="org.uncommons.reportng.HTMLReporter" />
+		<listener class-name="org.uncommons.reportng.JUnitXMLReporter" />
+		<listener class-name="com.elastica.listeners.SuiteListener" />
+		<listener class-name="com.elastica.listeners.MethodListener" />
+		<listener class-name="com.elastica.listeners.ScreenShotListener" />
+		<listener class-name="com.elastica.listeners.PriorityListener" />
+	</listeners>
+
+	<parameter name="env" value="eoe" />
+	<parameter name="browser" value="Firefox" />
+	<parameter name="mode" value="local" />
+	<parameter name="saasAppBaseUrl" value="https://portal.azure.com/" />
+	<parameter name="username" value="gwadmin@securletautoo365featle.com" />
+	<parameter name="testUsername" value="regression.reach@securletautoo365featle.com" />
+	<parameter name="saasAppName" value="Microsoft Azure" />
+	<parameter name="accountType" value="External" />
+	<parameter name="saasAppUsername" value="mauze.muawwaz@elasticadev.com" />
+	<parameter name="saasAppPassword" value="ELASTICA@321@el$" />
+	<parameter name="tenant" value="securletautoo365featle.com" />
+	<parameter name="tenantDomainName" value="securletautoo365featle.com" />
+
+	<test name="Gatelet Tests - Azure - Reach Agent">
+		<parameter name="platform" value="Windows 8.1" />
+		<parameter name="browserVersion" value="40.0" />
+		<parameter name="browserName" value="firefox" />
+		<groups>
+			<run>
+				<include name="cloud"></include>
+<!-- 				<include name="REGRESSION"></include> -->
+				
+			</run>
+		</groups>
+		<classes>
+			<class name="com.elastica.tests.azure.AzureTest">
+			<methods>
+			<include name="validateLoginEvent"></include>
+			<include name="validateCertificateUpload"></include>
+			<include name="validateCertificateDelete"></include>
+			<include name="validateVirtualMachineStart"></include>
+			<include name="validateVirtualMachineStop"></include>
+			<include name="validateVirtualMachineDelete"></include>
+			<include name="validateVirtualMachineCreate"></include>
+			<include name="validateLogoutEvent"></include>
+			<include name="validateInvalidLogin"></include>
+			</methods>
+			</class>
+		</classes>
+	</test>
+</suite>

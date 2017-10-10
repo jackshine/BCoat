@@ -1,0 +1,18 @@
+2013-01-01T23:20:50.52Z 192.168.1.1 %ASA-6-302014: Teardown TCP connection 166778 for outside:108.174.10.10/443 to inside:192.168.1.1/52857 duration 0:01:00 bytes 1000 TCP FINs
+2013-01-01T24:25:57.52Z 192.168.1.1 %ASA-6-302014: Teardown TCP connection 166778 for outside:108.174.10.10/443 to inside:192.168.1.1/52857 duration 0:01:00 bytes 1000 TCP FINs
+2013-01-01T23:24:55.52Z 192.168.1.2 %ASA-6-302014: Teardown TCP connection 166778 for outside:108.160.166.142/443 to inside:192.168.1.2/52857 duration 0:01:00 bytes 3000 TCP FINs
+2013-04-12T19:30:50.52-04:00 192.168.1.3 %ASA-6-302014: Teardown TCP connection 156350 for outside:199.16.156.70/80 to inside:192.168.1.3/54309 duration 0:02:02 bytes 2167 TCP FINs
+2013-04-12T19:21:50.52-04:00 192.168.1.3 %ASA-6-302014: Teardown TCP connection 156350 for outside:199.16.156.70/80 to inside:192.168.1.3/54309 duration 0:02:02 bytes 4000 TCP FINs
+2013-08-24T05:14:15.000003-07:00 192.168.1.3 %ASA-6-302014: Teardown TCP connection 156834 for outside:74.112.185.182/443 to inside:192.168.1.4/56182 duration 0:02:00 bytes 500 TCP FINs
+2013-08-24T05:24:15.000003-07:00 192.168.1.3 %ASA-6-302014: Teardown TCP connection 156834 for outside:74.112.185.182/443 to inside:192.168.1.4/56182 duration 0:02:00 bytes 300 TCP FINs
+2013-08-24T05:34:15.000003-07:00 192.168.1.3 %ASA-6-302014: Teardown TCP connection 156834 for outside:74.112.185.182/443 to inside:192.168.1.4/56182 duration 0:02:00 bytes 3000 TCP FINs
+2013 Aug 24 22:14:15 192.168.1.5 %ASA-6-302014: Teardown TCP connection 158428 for outside:108.160.172.238/443 to inside:192.168.1.5/61834 duration 0:02:01 bytes 700 TCP FINs
+2013 Aug 24 22:28:15 192.168.1.5 %ASA-6-302014: Teardown TCP connection 158428 for outside:108.160.172.238/443 to inside:192.168.1.6/61834 duration 0:02:01 bytes 7000 TCP FINs
+2013 Aug 24 22:14:15 192.168.1.6 %ASA-6-302014: Teardown TCP connection 158428 for outside:31.13.69.197/443 to inside:192.168.1.7/61834 duration 0:02:01 bytes 100000 TCP FINs
+2013 Aug 24 22:28:15 192.168.1.7 %ASA-6-302014: Teardown TCP connection 158428 for outside:31.13.69.197/443 to inside:192.168.1.8/61834 duration 0:02:01 bytes 100 TCP FINs
+2013 Aug 24 22:35:15 192.168.1.8 %ASA-6-302014: Teardown TCP connection 158428 for outside:31.13.69.197/443 to inside:192.168.1.8/61834 duration 0:02:01 bytes 2000 TCP FINs
+2013 Aug 24 22:28:15 192.168.1.9 %ASA-6-302014: Teardown TCP connection 158428 for outside:54.208.45.156/443 to inside:192.168.1.9/61834 duration 0:02:01 bytes 2500 TCP FINs
+2013 Aug 24 22:35:15 192.168.1.9 %ASA-6-302014: Teardown TCP connection 158428 for outside:54.208.45.156/443 to inside:192.168.1.9/61834 duration 0:02:01 bytes 3000 TCP FINs
+2013 Aug 24 22:28:15 192.168.1.9 %ASA-6-302014: Teardown TCP connection 158428 for outside:184.173.147.39/443 to inside:192.168.1.10/61834 duration 0:02:01 bytes 2500 TCP FINs
+2013 Aug 24 22:35:15 192.168.1.9 %ASA-6-302014: Teardown TCP connection 158428 for outside:150.31.189.118/443 to inside:192.168.1.10/61834 duration 0:02:01 bytes 3000 TCP FINs
+2013 Aug 24 22:35:15 192.168.1.9 %ASA-6-302014: Teardown TCP connection 158428 for outside:104.130.102.223/443 to inside:192.168.1.10/61834 duration 0:02:01 bytes 4000 TCP FINs

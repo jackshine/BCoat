@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+<suite name="Protect Test Suite">
+	<parameter name="environmentName" value="eoe"/>
+	<parameter name="userName" value="protectauto@protectbeatle.com"/>
+	<parameter name="userPassword" value="Elastica456!"/>
+	<parameter name="tenantName" value="protectbeatlecom"/>
+	<parameter name="isLoggingOn" value="true"/>
+	<parameter name="apiBaseVersion" value="v1"/>
+	<parameter name="apiserverHostName" value="app-cep.elastica.net" />
+	<parameter name="tenantToken" value="nIzqjM7QUjS4OcWe2Oti74jwfpY5A2Geg+2ugXIPGGk="/>
+	<parameter name="saasApp" value="Dropbox"/>
+	<parameter name="saasAppUsername" value="protectauto@protectbeatle.com"/>
+	<parameter name="saasAppPassword" value="Elastica@123"/>
+	<parameter name="saasAppUserRole" value="ADMIN"/>
+	<parameter name="saasAppToken" value="jYjld9_6elAAAAAAAAAABicNYvT0sh52Hb1GiDXQGWt6u_ejZ0-XC9MTJuFayLsq"/>
+
+	<parameter name="externalSaasAppUsername" value="admin@protectautobeatle.com"/>
+	<parameter name="externalSaasAppPassword" value="g%mDgGY9VbqHbhP"/>
+	<parameter name="externalSaasAppUserRole" value="ADMIN"/>
+	<parameter name="externalSaasAppToken" value="n5na5FHeXeAAAAAAAAAABiVA_ZF62eDY3tSSj0ageVngtjsVATkShNKwYfjk83yB"/>
+	
+	<parameter name="internalSaasAppUsername" value="protectauto1@protectbeatle.com"/>
+	<parameter name="internalSaasAppPassword" value="nOiqxXuJR0ua(g0"/>
+	<parameter name="internalSaasAppUserRole" value="ADMIN"/>
+	<parameter name="internalSaasAppToken" value="g3t87VSt2nAAAAAAAAAAB0WM4s8mbH1UwB47fGeY3qtKgCJ7p-idUotHPBPAlrqs"/>
+	
+	<test name="Protect Dropbox Exposure Combinations Tests">
+		<classes>
+			<class name="com.elastica.beatle.tests.protect.exposure.DropboxExposureCombinationTests"></class>
+		</classes>
+	</test>
+
+</suite>

@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+<suite name="Securlets Salesforce Remediation Regression Test Suite" parallel="false">
+	<parameter name="environmentName" value="cep"/>
+	<parameter name="userName" value="admin@securletbeatle.com"/>
+	<parameter name="userPassword" value="Elastica123!"/>
+	<parameter name="tenantName" value="securletbeatlecom"/>
+	<parameter name="isLoggingOn" value="true"/>
+	<parameter name="apiBaseVersion" value="v1"/>
+	<parameter name="esScriptsHostName" value="10.0.0.242"/>
+	<parameter name="esScriptsUserName" value="madmin"/>
+	<parameter name="referer" value="https://app.eu.elastica.net"/>
+	<parameter name="tenantToken" value="H3YK/Vxr3p+qm9dfmKvmh7oYaPBJMqUsszm+LOStr4k="/>
+	<parameter name="saasAppUsername" value="admin@securletbeatle.com.Sandbox4"/>
+	<parameter name="saasAppPassword" value="NBB(6GCxGlArr47"/>
+	<parameter name="saasAppUserRole" value="ADMIN"/>
+	<parameter name="saasApp" value="SALESFORCE"/>
+	<parameter name="domainName" value="securletbeatlecom"/>
+	<parameter name="saasAppLoginHost" value="cs12.salesforce.com"/>
+	<parameter name="socUserName" value="QA Admin"/>
+	<parameter name="saasAppExternalUser1Name" value="tpush.paraj@gmail.com"/>
+	<parameter name="saasAppExternalUser2Name" value="pushpa.n@gmail.com"/>
+	<parameter name="saasAppEndUser1Name" value="securletuse.r@securletbeatle.com"/>
+	<parameter name="saasAppClientId" value="3MVG9Oe7T3Ol0ea6L_MkkhGggGztl0J1NmrP2WZJcoDl8OyWCCPkubgRRVrjLcgDziwWIgZtRDQRTqb2X4.MV"/>
+    <parameter name="saasAppClientSecret" value="5133430335727142523"/>
+    <parameter name="saasAppToken" value="EQUZEc3QoEa0EqBzHVpoMLgr"/>
+	
+	<test name="Securlets Salesforce Remediation Regression Tests" enabled="true">
+		<classes>
+			<class name="com.elastica.beatle.tests.securlets.salesforce.SalesforceRemediationTests">
+				<methods>
+				<!-- <include name="exposeFilepubliclyAndRemediateWithUnshare"></include> -->
+				</methods> 
+			</class>
+		</classes>
+	</test>
+</suite>

@@ -1,0 +1,150 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+<suite name="DCI Test Suite" parallel="tests" thread-count="8">
+
+	<listeners>
+		<listener class-name="com.elastica.beatle.PriorityListener" />
+	</listeners>
+
+	<parameter name="environmentName" value="friends" />
+	<parameter name="cloudSocUName" value="box-admin" />
+	<parameter name="tenantName" value="dcibeatlecom" />
+	<parameter name="domainName" value="dcibeatle.com" />
+	<parameter name="saasApp" value="Box" />
+	<parameter name="apiBaseVersion" value="v1" />
+
+	<test name="DCI HIPAA Tests">
+		<groups>
+			<run>
+				<include name="All" />
+			</run>
+		</groups>
+		<classes>
+			<class name="com.elastica.beatle.tests.dci.risks.DCIHIPAATests"></class>
+		</classes>
+	</test>
+
+	<test name="DCI Encryption Tests">
+		<groups>
+			<run>
+				<include name="All" />
+			</run>
+		</groups>
+		<classes>
+			<class name="com.elastica.beatle.tests.dci.risks.DCIEncryptionTests"></class>
+		</classes>
+	</test>
+
+	<test name="DCI Source Code Tests">
+		<groups>
+			<run>
+				<include name="All" />
+			</run>
+		</groups>
+		<classes>
+			<class name="com.elastica.beatle.tests.dci.risks.DCISourceCodeTests"></class>
+		</classes>
+	</test>
+
+	<test name="DCI FERPA Tests">
+		<groups>
+			<run>
+				<include name="All" />
+			</run>
+		</groups>
+		<classes>
+			<class name="com.elastica.beatle.tests.dci.risks.DCIFERPATests"></class>
+		</classes>
+	</test>
+
+	<test name="DCI VBA Macros Tests">
+		<groups>
+			<run>
+				<include name="All" />
+			</run>
+		</groups>
+		<classes>
+			<class name="com.elastica.beatle.tests.dci.risks.DCIVBAMacrosTests"></class>
+		</classes>
+	</test>
+
+	<test name="DCI Virus Tests">
+		<groups>
+			<run>
+				<include name="All" />
+			</run>
+		</groups>
+		<classes>
+			<class name="com.elastica.beatle.tests.dci.risks.DCIVirusTests"></class>
+		</classes>
+	</test>
+
+	<test name="DCI GLBA Tests">
+		<groups>
+			<run>
+				<include name="All" />
+			</run>
+		</groups>
+		<classes>
+			<class name="com.elastica.beatle.tests.dci.risks.DCIGLBATests"></class>
+		</classes>
+	</test>
+
+	<test name="DCI PCI Tests">
+		<groups>
+			<run>
+				<include name="All" />
+			</run>
+		</groups>
+		<classes>
+			<class name="com.elastica.beatle.tests.dci.risks.DCIPCITests"></class>
+		</classes>
+	</test>
+
+	<test name="DCI PII Tests">
+		<groups>
+			<run>
+				<include name="All" />
+			</run>
+		</groups>
+		<classes>
+			<class name="com.elastica.beatle.tests.dci.risks.DCIPIITests"></class>
+		</classes>
+	</test>
+
+	<test name="DCI PCI/PII Combination Tests">
+		<groups>
+			<run>
+				<include name="All" />
+			</run>
+		</groups>
+		<classes>
+			<class name="com.elastica.beatle.tests.dci.risks.DCIPCIPIITests"></class>
+		</classes>
+	</test>
+
+	<test name="DCI PII P2 Files Tests">
+		<groups>
+			<run>
+				<include name="All" />
+			</run>
+		</groups>
+		<classes>
+			<class name="com.elastica.beatle.tests.dci.risks.DCIPIIP2Tests"></class>
+		</classes>
+	</test>
+
+	<test name="DCI PCI P2 Files Tests">
+		<groups>
+			<run>
+				<include name="All" />
+			</run>
+		</groups>
+		<classes>
+			<class name="com.elastica.beatle.tests.dci.risks.DCIPCIP2Tests"></class>
+		</classes>
+	</test>
+
+	
+
+</suite>

@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+<suite name="Detct box End to End Tests"> 
+
+	<listeners>
+		<listener class-name="com.elastica.beatle.PriorityListener" />
+	</listeners>
+
+	<parameter name="environmentName" value="prod"/>
+	<parameter name="userName" value="admin@securletbeatle.com"/>
+	<parameter name="userPassword" value="Elastica12345!"/>
+	<parameter name="tenantName" value="securletbeatlecom"/>
+	<parameter name="isLoggingOn" value="true"/>
+	<parameter name="apiBaseVersion" value="v1"/>
+	<parameter name="esScriptsHostName" value="10.0.0.242"/>
+	<parameter name="esScriptsUserName" value="madmin"/>
+	<parameter name="referer" value="https://app.elastica.net"/>
+	<parameter name="tenantToken" value="H3YK/Vxr3p+qm9dfmKvmh7oYaPBJMqUsszm+LOStr4k="/>
+	<parameter name="saasAppUsername" value="box-admin@securletbeatle.com"/>
+	<parameter name="saasAppPassword" value="lYvA7)DZ1zD@CPQgt5zw"/>
+	<parameter name="saasAppUserRole" value="ADMIN"/>
+	<parameter name="saasApp" value="BOX"/>
+	
+	<parameter name="host" value="app.elastica.net"/>
+	<parameter name="apiServer" value="api-app.elastica.net"/>
+	
+	<test name="Detct Sequence Detector Regression Tests Box  API">
+		<classes>
+		<class name="com.elastica.beatle.tests.detect.DetectSequenceDetectors_Box_API">
+		</class>
+		</classes>
+	</test>
+	
+	<test name="Detct box TBI End to End Tests">
+		<classes>
+			<class name="com.elastica.beatle.tests.detect.DetectEndtoEndTests">
+		<methods>
+		<include name="box_upload_TBI_Test"></include>
+		<include name="box_Encyption_TBI_Test"></include>
+		</methods>
+		</class>
+		</classes>
+	</test>
+	<test name="Detect Sequence One Step Box API Test">
+		<classes>
+		<class name="com.elastica.beatle.tests.detect.DetectOnestepSequence_Box_API"></class>
+		</classes>
+	</test>
+</suite>

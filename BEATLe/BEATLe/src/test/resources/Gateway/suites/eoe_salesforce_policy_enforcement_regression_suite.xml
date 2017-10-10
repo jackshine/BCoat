@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+<suite name="Gateway Regression Test Suite" parallel="false">
+	<parameter name="environmentName" value="eoe"/>
+	<parameter name="userName" value="admin@salesforcegatewaybeatle.com"/>
+	<parameter name="userPassword" value="Elastica@1234"/>
+	<parameter name="tenantName" value="salesforcegatewaybeatlecom"/>
+	<parameter name="tenantDomainName" value="salesforcegatewaybeatle.com"/>
+	<parameter name="isLoggingOn" value="true"/>
+	<parameter name="apiBaseVersion" value="v1"/>
+	<parameter name="saasApp" value="Salesforce"/>
+		<parameter name="saasAppUsername" value="testuser1@salesforcegatewaybeatle.com"/>
+	
+	 
+	<test name="Gateway/StreamIq Salesforce Access enforcement policy suite">
+		<parameter name="environmentName" value="eoe"/>
+			<parameter name="saasAppUsername" value="testuser1@salesforcegatewaybeatle.com"/>
+		<groups>
+		    <run>
+		       <include name="TEST"/>
+		    </run>
+		  </groups>
+		<classes>
+			<class name="com.elastica.beatle.tests.gateway.salesforce.AccessEnforcementPolicyTest">
+			</class>
+		</classes>
+	</test>
+	
+	 <test name="Gateway/StreamIq Salesforce File sharing policy suite">
+		<parameter name="environmentName" value="eoe"/>
+			<parameter name="saasAppUsername" value="testuser1@salesforcegatewaybeatle.com"/>
+		<groups>
+		    <run>
+		       <include name="TEST"/>
+		    </run>
+		  </groups>
+		<classes>
+			<class name="com.elastica.beatle.tests.gateway.salesforce.FileSharingPolicyTest">
+			</class>
+		</classes>
+	</test> 
+	
+	
+	
+</suite>

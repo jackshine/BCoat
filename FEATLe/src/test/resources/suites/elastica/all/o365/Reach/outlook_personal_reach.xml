@@ -1,0 +1,44 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+
+<suite name="GW O365 FE Sanity Test Suite">
+
+	<listeners>
+		<listener class-name="org.uncommons.reportng.HTMLReporter" />
+		<listener class-name="org.uncommons.reportng.JUnitXMLReporter" />
+		<listener class-name="com.elastica.listeners.SuiteListener" />
+		<listener class-name="com.elastica.listeners.MethodListener" />
+		<listener class-name="com.elastica.listeners.ScreenShotListener" />
+		<listener class-name="com.elastica.listeners.PriorityListener" />
+		<!-- <listener class-name="com.elastica.listeners.RetryListener" /> -->
+	</listeners>
+
+	<parameter name="env" value="eoe" />
+	<parameter name="browser" value="Firefox" />
+	<parameter name="mode" value="local" />
+	<parameter name="saasAppBaseUrl" value="http://www.outlook.com/"/>
+	<parameter name="username" value="gwadmin@securletautoo365featle.com" />
+	<parameter name="testUsername" value="regression.reach@securletautoo365featle.com" />
+	<parameter name="saasAppName" value="Outlook.com" />
+	<parameter name="accountType" value="External" />
+	<parameter name="saasAppUsername" value="elasticatest1234@outlook.com" />
+	<parameter name="tenant" value="securletautoo365featle.com" />
+	<parameter name="tenantDomainName" value="securletautoo365featle.com" />
+
+	<test name="Gatelet - Outlook Personal Account Reach Agent">
+		<parameter name="platform" value="Windows 8.1" />
+		<parameter name="browserVersion" value="40.0" />
+		<parameter name="browserName" value="firefox" />
+		<groups>
+			<run>
+				<include name="cloud"></include>
+				<include name="REACH"></include>
+			</run>
+		</groups>
+		<classes>
+			<class name="com.elastica.tests.o365.O365Tests_Email_Personal_Regression">
+			</class>
+		</classes>
+	</test>
+
+
+</suite>

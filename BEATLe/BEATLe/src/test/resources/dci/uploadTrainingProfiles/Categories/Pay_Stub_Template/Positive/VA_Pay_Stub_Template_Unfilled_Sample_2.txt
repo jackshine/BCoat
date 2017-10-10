@@ -1,0 +1,30 @@
+
+
+
+
+                                    [COMPANY NAME]
+                                 [COMPANY ADDRESS]
+                              [COMPANY PHONE NUMBER]
+                                    Salary Paystub
+
+Employee Name:               Pay Period Begin Date:
+Employee Address:            Pay Period End Date:
+Employee ID:                 Rate:
+SSN:                         Hours:
+Earnings                     Deductions
+Regular Earnings    5,200.00 Provident Fund             358.00
+Overtime            1,100.00 Federal Withholding        120.00
+Incentive Pay            500 Federal MED                     -
+Bonus                    300 Federal OASDI                   -
+                             State Withholding               -
+                             Loan                            -
+Total Earnings      8,700.00 Total Deduction            478.00
+Current NET Salary                                    8,222.00
+YTD NET Salary                                       47,555.00
+Payment Information          Time Off Balance
+Check Number:                Paid Time Off Balance:
+Check Date:                  Sick Time Balance:
+Name of Bank:                Total Time Off Balance:
+
+
+Employee Signature:              Director Signature:

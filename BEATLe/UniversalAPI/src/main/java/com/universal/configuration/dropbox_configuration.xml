@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE properties SYSTEM "http://java.sun.com/dtd/properties.dtd">
+<properties>
+	<comment>Drop Box Configuration</comment>
+	
+	<entry key="dropbox.uri.getDefaultDrive">/posts/1</entry>
+	
+
+</properties>
+ 

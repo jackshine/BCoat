@@ -1,0 +1,65 @@
+{
+  "requestType": "insert",
+  "source": {
+    "description": "DownloadUploadWaitRepeat",
+    "enabled": true,
+    "importance": 2,
+    "groups": [
+      {
+        "steps": [
+          {
+            "source": [
+              "__any"
+            ],
+            "source_individually": false,
+            "user": [
+              "__any"
+            ],
+            "user_individually": true,
+            "facility": [
+              "__any"
+            ],
+            "facility_individually": false,
+            "Object_type": [
+              "__any"
+            ],
+            "Activity_type": [
+              "Download"
+            ],
+            "threshold": 0,
+            "window": 1,
+            "max_gap_time": -1
+          },
+          {
+            "source": [
+              "__any"
+            ],
+            "source_individually": false,
+            "user": [
+              "__any"
+            ],
+            "user_individually": true,
+            "facility": [
+              "__any"
+            ],
+            "facility_individually": false,
+            "Object_type": [
+              "__any"
+            ],
+            "Activity_type": [
+              "Upload"
+            ],
+            "threshold": 0,
+            "window": 1,
+            "max_gap_time": -1
+          }
+        ],
+        "threshold": 2,
+        "window": 36
+      }
+    ],
+    "name": "DownloadUploadWaitRepeat",
+    "ts_label": ""
+  },
+  "id": ""
+}

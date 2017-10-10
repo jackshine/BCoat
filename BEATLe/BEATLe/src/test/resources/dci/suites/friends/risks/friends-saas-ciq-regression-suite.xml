@@ -1,0 +1,208 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+<suite name="DCI Test Suite" parallel="tests" thread-count="11">
+
+	<listeners>
+		<listener class-name="com.elastica.beatle.PriorityListener" />
+	</listeners>
+
+	<test
+		name="DCI ContentIQ Profile Office365 Mail Attachment Tests" group-by-instances="true" preserve-order="true">
+		<parameter name="environmentName" value="friends" />
+		<parameter name="cloudSocUName" value="admin" />
+		<parameter name="tenantName" value="dcio365beatlecom" />
+		<parameter name="domainName" value="dcio365beatlecom" />
+		<parameter name="saasApp" value="Office365MailAttachment" />
+		<parameter name="apiBaseVersion" value="v1" />
+
+		<groups>
+			<run>
+				<include name="Attachment" />
+			</run>
+		</groups>
+		<classes>
+			<class name="com.elastica.beatle.tests.dci.DCISaaSCIQProfileTests"></class>
+		</classes>
+	</test>
+
+	<test
+		name="DCI ContentIQ Profile Office365 Mail Body Tests" group-by-instances="true" preserve-order="true">
+		<parameter name="environmentName" value="friends" />
+		<parameter name="cloudSocUName" value="admin" />
+		<parameter name="tenantName" value="securleto365featlecom" />
+		<parameter name="domainName" value="securleto365featlecom" />
+		<parameter name="saasApp" value="Office365MailBody" />
+		<parameter name="apiBaseVersion" value="v1" />
+
+
+		<groups>
+			<run>
+				<include name="Body" />
+			</run>
+		</groups>
+		<classes>
+			<class name="com.elastica.beatle.tests.dci.DCISaaSCIQProfileTests"></class>
+		</classes>
+	</test>
+	
+	<test
+		name="DCI ContentIQ Profile Office365 Mail Attachment and Body Tests" group-by-instances="true" preserve-order="true">
+		<parameter name="environmentName" value="friends" />
+		<parameter name="cloudSocUName" value="admin" />
+		<parameter name="tenantName" value="securleto365featlecom" />
+		<parameter name="domainName" value="securleto365featlecom" />
+		<parameter name="saasApp" value="Office365MailAttachmentBody" />
+		<parameter name="apiBaseVersion" value="v1" />
+
+		<groups>
+			<run>
+				<include name="AttachmentBody" />
+			</run>
+		</groups>
+		<classes>
+			<class name="com.elastica.beatle.tests.dci.DCISaaSCIQProfileTests"></class>
+		</classes>
+	</test>
+	
+	<test name="DCI ContentIQ Profile Box Tests" group-by-instances="true" preserve-order="true">
+		<parameter name="environmentName" value="friends" />
+		<parameter name="cloudSocUName" value="box-admin" />
+		<parameter name="tenantName" value="dcibeatlecom" />
+		<parameter name="domainName" value="dcibeatle.com" />
+		<parameter name="saasApp" value="Box" />
+		<parameter name="apiBaseVersion" value="v1" />
+		<groups>
+			<run>
+				<include name="All" />
+			</run>
+		</groups>
+		<classes>
+			<class name="com.elastica.beatle.tests.dci.DCISaaSCIQProfileTests"></class>
+		</classes>
+	</test>
+
+	<test name="DCI ContentIQ Profile Dropbox Tests" group-by-instances="true" preserve-order="true">
+		<parameter name="environmentName" value="friends" />
+		<parameter name="cloudSocUName" value="admin" />
+		<parameter name="tenantName" value="dciautobeatlecom" />
+		<parameter name="domainName" value="dciautobeatle.com" />
+		<parameter name="saasApp" value="Dropbox" />
+		<parameter name="apiBaseVersion" value="v1" />
+		<groups>
+			<run>
+				<include name="All" />
+			</run>
+		</groups>
+		<classes>
+			<class name="com.elastica.beatle.tests.dci.DCISaaSCIQProfileTests"></class>
+		</classes>
+	</test>
+
+	<test name="DCI ContentIQ Profile GoogleDrive Tests" group-by-instances="true" preserve-order="true">
+		<parameter name="environmentName" value="friends" />
+		<parameter name="cloudSocUName" value="admin" />
+		<parameter name="tenantName" value="dciciqbeatlecom" />
+		<parameter name="domainName" value="dciciqbeatle.com" />
+		<parameter name="saasApp" value="Google Drive" />
+		<parameter name="apiBaseVersion" value="v1" />
+
+		<groups>
+			<run>
+				<include name="All" />
+			</run>
+		</groups>
+		<classes>
+			<class name="com.elastica.beatle.tests.dci.DCISaaSCIQProfileTests"></class>
+		</classes>
+	</test>
+	
+	<test name="DCI ContentIQ Profile Office365 Tests" group-by-instances="true" preserve-order="true">
+		<parameter name="environmentName" value="friends" />
+		<parameter name="cloudSocUName" value="admin" />
+		<parameter name="tenantName" value="dcio365beatlecom" />
+		<parameter name="domainName" value="dcio365beatlecom" />
+		<parameter name="saasApp" value="Office365" />
+		<parameter name="apiBaseVersion" value="v1" />
+
+		<groups>
+			<run>
+				<include name="All" />
+			</run>
+		</groups>
+		<classes>
+			<class name="com.elastica.beatle.tests.dci.DCISaaSCIQProfileTests"></class>
+		</classes>
+	</test>
+
+	<test name="DCI ContentIQ Profile Gmail Attachment Tests" group-by-instances="true" preserve-order="true">
+		<parameter name="environmentName" value="friends" />
+		<parameter name="cloudSocUName" value="admin" />
+		<parameter name="tenantName" value="dcimultibeatlecom" />
+		<parameter name="domainName" value="dcimultibeatle.com" />
+		<parameter name="saasApp" value="GmailAttachment" />
+		<parameter name="apiBaseVersion" value="v1" />
+
+		<groups>
+			<run>
+				<include name="Attachment" />
+			</run>
+		</groups>
+		<classes>
+			<class name="com.elastica.beatle.tests.dci.DCISaaSCIQProfileTests"></class>
+		</classes>
+	</test>
+
+	<test name="DCI ContentIQ Profile Gmail Body Tests" group-by-instances="true" preserve-order="true">
+		<parameter name="environmentName" value="friends" />
+		<parameter name="cloudSocUName" value="admin" />
+		<parameter name="tenantName" value="dciautobeatlecom" />
+		<parameter name="domainName" value="dciautobeatle.com" />
+		<parameter name="saasApp" value="GmailBody" />
+		<parameter name="apiBaseVersion" value="v1" />
+		<groups>
+			<run>
+				<include name="Body" />
+			</run>
+		</groups>
+		<classes>
+			<class name="com.elastica.beatle.tests.dci.DCISaaSCIQProfileTests"></class>
+		</classes>
+	</test>
+	
+	<test name="DCI ContentIQ Profile Gmail Attachment and Body Tests" group-by-instances="true" preserve-order="true">
+		<parameter name="environmentName" value="friends" />
+		<parameter name="cloudSocUName" value="admin" />
+		<parameter name="tenantName" value="dciautobeatlecom" />
+		<parameter name="domainName" value="dciautobeatle.com" />
+		<parameter name="saasApp" value="GmailAttachmentBody" />
+		<parameter name="apiBaseVersion" value="v1" />
+		
+		<groups>
+			<run>
+				<include name="AttachmentBody" />
+			</run>
+		</groups>
+		<classes>
+			<class name="com.elastica.beatle.tests.dci.DCISaaSCIQProfileTests"></class>
+		</classes>
+	</test>
+	
+	<!-- <test name="DCI ContentIQ Profile Salesforce Tests" group-by-instances="true" preserve-order="true">
+		<parameter name="environmentName" value="friends"/>
+		<parameter name="cloudSocUName" value="admin" />
+		<parameter name="tenantName" value="securletbeatlecom"/>
+		<parameter name="domainName" value="securletbeatlecom"/>
+		<parameter name="saasApp" value="Salesforce"/>
+		<parameter name="saasAppLoginHost" value="cs50.salesforce.com"/>
+		
+		<groups>
+			<run>
+				<include name="All" />
+			</run>
+		</groups>
+		<classes>
+			<class name="com.elastica.beatle.tests.dci.DCISaaSCIQProfileTests"></class>
+		</classes>
+	</test> -->
+	
+</suite>

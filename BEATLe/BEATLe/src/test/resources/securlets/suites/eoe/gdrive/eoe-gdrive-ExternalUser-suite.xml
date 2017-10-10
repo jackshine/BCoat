@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+<suite name="GDrive Regression Test Suite" parallel="tests">
+    <parameter name="environmentName" value="eoe"/>
+    <parameter name="userName" value="admin@securletbeatle.com"/>
+    <parameter name="userPassword" value="Elastica1234!"/>
+    <parameter name="tenantName" value="securletbeatlecom"/>
+    <parameter name="isLoggingOn" value="true"/>
+    <parameter name="apiBaseVersion" value="v1"/>
+    <parameter name="esScriptsHostName" value="10.0.0.242"/>
+    <parameter name="esScriptsUserName" value="madmin"/>
+    <parameter name="tenantToken" value="H3YK/Vxr3p+qm9dfmKvmh7oYaPBJMqUsszm+LOStr4k="/>
+    <parameter name="referer" value="https://eoe.elastica-inc.com"/>
+    <test name="Securlets GDrive External User Activities" preserve-order="true">
+        <classes>
+            <class name="com.elastica.beatle.tests.securlets.gdrive.GDriveExternalUserActivities">
+                <methods>         
+                    <include name="performSharingActionsToSeurletbeatleAccountBYExtrnalUser"/> 
+                    <include name="validateExternalUserActivities"/>
+                </methods>
+            </class>
+        </classes>
+    </test>
+   
+</suite>

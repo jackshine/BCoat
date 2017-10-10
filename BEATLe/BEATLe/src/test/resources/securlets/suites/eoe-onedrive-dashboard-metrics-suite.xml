@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+<suite name="Securlets Onedrive Business Dashboard Metrics Regression Tests" parallel="false">
+	<!-- 
+	<parameter name="environmentName" value="eoe"/>
+	<parameter name="userName" value="admin@securletO365beatle.com"/>
+	<parameter name="userPassword" value="Elastica123!"/>
+	<parameter name="tenantName" value="securletO365beatlecom"/>
+	<parameter name="isLoggingOn" value="true"/>
+	<parameter name="apiBaseVersion" value="v1"/>
+	<parameter name="esScriptsHostName" value="10.0.0.242"/>
+	<parameter name="esScriptsUserName" value="madmin"/>
+	<parameter name="referer" value="https://eoe.elastica-inc.com"/>
+	<parameter name="tenantToken" value="a5fJSgfR2eLjkwqm1pzF06cNrhCguy1t904na91NOtY="/>
+	<parameter name="saasAppUsername" value="admin@securletO365beatle.com"/>
+	<parameter name="saasAppPassword" value="MHikwjETdOgeFS!"/>
+	<parameter name="saasAppUserRole" value="ADMIN"/>
+	<parameter name="saasApp" value="ONEDRIVEBUSINESS"/>
+	<parameter name="domainName" value="securletO365beatle"/>
+	<parameter name="saasAppEndUser1Name" value="testuser1@securleto365beatle.com"/>
+	<parameter name="saasAppEndUser1Password" value="Cafu0340"/>
+	<parameter name="saasAppEndUser2Name" value="testuser2@securleto365beatle.com"/>
+	<parameter name="saasAppEndUser2Password" value="j*!uBL3ZndJ4kNC"/>
+	<parameter name="saasAppExternalUser1Name" value="pushpan@gmail.com"/>
+	 -->
+	<parameter name="environmentName" value="eoe"/>
+	<parameter name="userName" value="admin@securlet365mailbeatle.com"/>
+	<parameter name="userPassword" value="Elastica1234!"/>
+	<parameter name="tenantName" value="securlet365mailbeatlecom"/>
+	<parameter name="isLoggingOn" value="true"/>
+	<parameter name="apiBaseVersion" value="v1"/>
+	<parameter name="esScriptsHostName" value="10.0.0.242"/>
+	<parameter name="esScriptsUserName" value="madmin"/>
+	<parameter name="referer" value="https://eoe.elastica-inc.com"/>
+	<parameter name="tenantToken" value="IWhFYAti8ZAFWkW0FzIzoGZBI051s+gcjd0HiHAPkFI="/>
+	<parameter name="saasAppUsername" value="admin@securlet365mailbeatle.com"/>
+	<parameter name="saasAppPassword" value="o&amp;8Cg3wKScNe(4V"/>
+	<parameter name="saasAppUserRole" value="ADMIN"/>
+	<parameter name="saasApp" value="ONEDRIVEBUSINESS"/>
+	<parameter name="domainName" value="securlet365mailbeatle"/>
+	<parameter name="saasAppEndUser1Name" value="securletuser1@securlet365mailbeatle.com"/>
+	<parameter name="saasAppEndUser1Password" value="Wasu8700"/>
+	<parameter name="saasAppEndUser2Name" value="securletuser1@securlet365mailbeatle.com"/>
+	<parameter name="saasAppEndUser2Password" value="Wasu8700"/>
+	<parameter name="saasAppExternalUser1Name" value="pushpan@gmail.com"/>
+	
+	<test name="Securlets Onedrive Business Dashboard Metrics Regression Tests">
+		<groups>
+			<run>
+				<include name="DASHBOARD" />
+			</run>
+		</groups>
+		<classes>
+			<class name="com.elastica.beatle.tests.securlets.OneDriveDashboardMetricsTests">
+			<!-- <methods>
+				<include name="verifyExposureCountAfterExposure"></include>
+			</methods> -->
+			</class>
+		</classes>
+	</test>
+</suite>

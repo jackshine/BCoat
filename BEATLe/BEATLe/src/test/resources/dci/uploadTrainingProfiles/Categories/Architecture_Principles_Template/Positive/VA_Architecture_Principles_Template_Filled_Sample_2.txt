@@ -1,0 +1,151 @@
+1 Executive Summary
+This document details the Architecture Principles to which Wipro adheres.
+2 Version History
+Date: 12/02/2016
+Version :2.0
+Comments
+
+
+3 Content
+1	Executive Summary	1
+2	Version History	1
+3	Content	1
+4	Purpose	2
+5	Principles Template	3
+6	Business Principles	3
+7	Data Principles	4
+8	Application Principles	4
+9	Technology Principles	4
+4 Purpose
+Principles are general rules and guidelines, intended to be enduring and seldom amended, that inform and support the way in which an organization sets about fulfilling its mission.
+In their turn, principles may be just one element in a structured set of ideas that collectively define and guide the organization, from values through to actions and results.
+It may be that the Architecture Principles are documented using a wiki or as an intranet rather than a text-based document. Even better would be to use a licensed TOGAF tool that captures this output.
+This document shows “typical” contents of the Architecture Principles and can be adapted to align with any TOGAF adaptation being implemented.
+5 Principles Template
+Each principle will follow the template below. The template can be adapted to align with any TOGAF adaptation being implemented.
+The Name should both represent the essence of the rule as well as be easy to remember. Specific technology platforms should not be mentioned in the Name or Statement of a principle. Avoid ambiguous words in the Name and Statement such as: “support”, “open”, “consider”, and the word “avoid” itself. Be careful with “manage(ment)”, and look for unnecessary adjectives and adverbs (fluff).
+
+Name
+Project MOSP
+Statement
+The Statement should succinctly and unambiguously communicate the fundamental rule. For the most part, the principles statements for managing information are similar from one organization to the next. It is vital that the principles statement be unambiguous.
+The Statement should succinctly and unambiguously communicate the fundamental rule. For the most part, the principles statements for managing information are similar from one organization to the next. It is vital that the principles statement be unambiguous.
+Rationale
+The Rationale should highlight the business benefits of adhering to the principle, using business terminology. Point to the similarity of information and technology principles to the principles governing business operations. Also describe the relationship to other principles, and the intentions regarding a balanced interpretation. Describe situations where one principle would be given precedence or carry more weight than another for making a decision.
+Implications
+The Implications should highlight the requirements, both for the business and IT, for carrying out the principle – in terms of resources, costs, and activities/tasks. It will often be apparent that current systems, standards, or practices would be incongruent with the principle upon adoption. The impact to the business and consequences of adopting a principle should be clearly stated. The reader should readily discern the answer to: “How does this affect me?” It is important not to oversimplify, trivialize, or judge the merit of the impact. Some of the implications will be identified as potential impacts only, and may be speculative rather than fully analyzed.
+6 Business Principles
+Name : Linda Roberts
+Primacy of Principles
+Statement
+These principles of information management apply to all organizations within the enterprise.
+Rationale
+The only way we can provide a consistent and measurable level of quality information to decision-makers is if all organizations abide by the principles.
+Implications
+Without this principle, exclusions, favoritism, and inconsistency would rapidly undermine the management of information.
+Information management initiatives will not begin until they are examined for compliance with the principles.
+A conflict with a principle will be resolved by changing the framework of the initiative.
+
+Name
+Project MOSP
+Statement
+
+Rationale
+
+Implications
+
+7 Data Principles
+Name Linda Roberts
+Project MOSP
+Statement
+
+Rationale
+
+Implications
+
+
+Name: Catherine Bell
+Project MOSP
+Statement
+
+Rationale
+The Rationale should highlight the business benefits of adhering to the principle, using business terminology. Point to the similarity of information and technology principles to the principles governing business operations. Also describe the relationship to other principles, and the intentions regarding a balanced interpretation. Describe situations where one principle would be given precedence or carry more weight than another for making a decision.
+
+
+Implications
+
+8 Application Principles
+Name: Catherine    Bell
+Project MOSP
+Statement
+The Statement should succinctly and unambiguously communicate the fundamental rule. For the most part, the principles statements for managing information are similar from one organization to the next. It is vital that the principles statement be unambiguous.
+
+Rationale
+The Rationale should highlight the business benefits of adhering to the principle, using business terminology. Point to the similarity of information and technology principles to the principles governing business operations. Also describe the relationship to other principles, and the intentions regarding a balanced interpretation. Describe situations where one principle would be given precedence or carry more weight than another for making a decision.
+
+
+Implications
+
+The Implications should highlight the requirements, both for the business and IT, for carrying out the principle – in terms of resources, costs, and activities/tasks. It will often be apparent that current systems, standards, or practices would be incongruent with the principle upon adoption. The impact to the business and consequences of adopting a principle should be clearly stated. The reader should readily discern the answer to: “How does this affect me?” It is important not to oversimplify, trivialize, or judge the merit of the impact. Some of the implications will be identified as potential impacts only, and may be speculative rather than fully analyzed
+
+
+Name: Billy Brown
+Project MOSP
+Statement
+
+Rationale
+The Rationale should highlight the business benefits of adhering to the principle, using business terminology. Point to the similarity of information and technology principles to the principles governing business operations. Also describe the relationship to other principles, and the intentions regarding a balanced interpretation. Describe situations where one principle would be given precedence or carry more weight than another for making a decision.
+
+
+Implications
+The Implications should highlight the requirements, both for the business and IT, for carrying out the principle – in terms of resources, costs, and activities/tasks. It will often be apparent that current systems, standards, or practices would be incongruent with the principle upon adoption. The impact to the business and consequences of adopting a principle should be clearly stated. The reader should readily discern the answer to: “How does this affect me?” It is important not to oversimplify, trivialize, or judge the merit of the impact. Some of the implications will be identified as potential impacts only, and may be speculative rather than fully analyzed
+
+9 Technology Principles
+Name: Benjamin Cook
+Project MOSP
+Statement
+The Statement should succinctly and unambiguously communicate the fundamental rule. For the most part, the principles statements for managing information are similar from one organization to the next. It is vital that the principles statement be unambiguous.
+
+Rationale
+The Rationale should highlight the business benefits of adhering to the principle, using business terminology. Point to the similarity of information and technology principles to the principles governing business operations. Also describe the relationship to other principles, and the intentions regarding a balanced interpretation. Describe situations where one principle would be given precedence or carry more weight than another for making a decision.
+
+
+Implications
+The Implications should highlight the requirements, both for the business and IT, for carrying out the principle – in terms of resources, costs, and activities/tasks. It will often be apparent that current systems, standards, or practices would be incongruent with the principle upon adoption. The impact to the business and consequences of adopting a principle should be clearly stated. The reader should readily discern the answer to: “How does this affect me?” It is important not to oversimplify, trivialize, or judge the merit of the impact. Some of the implications will be identified as potential impacts only, and may be speculative rather than fully analyzed
+
+
+Name: Benjamin Cook
+Project MOSP
+Statement
+The Statement should succinctly and unambiguously communicate the fundamental rule. For the most part, the principles statements for managing information are similar from one organization to the next. It is vital that the principles statement be unambiguous.
+
+Rationale
+The Rationale should highlight the business benefits of adhering to the principle, using business terminology. Point to the similarity of information and technology principles to the principles governing business operations. Also describe the relationship to other principles, and the intentions regarding a balanced interpretation. Describe situations where one principle would be given precedence or carry more weight than another for making a decision.
+
+
+Implications
+The Implications should highlight the requirements, both for the business and IT, for carrying out the principle – in terms of resources, costs, and activities/tasks. It will often be apparent that current systems, standards, or practices would be incongruent with the principle upon adoption. The impact to the business and consequences of adopting a principle should be clearly stated. The reader should readily discern the answer to: “How does this affect me?” It is important not to oversimplify, trivialize, or judge the merit of the impact. Some of the implications will be identified as potential impacts only, and may be speculative rather than fully analyzed
+
+
+4 Business Principles
+Name
+Primacy of Principles
+Reference
+BP01
+Statement
+These principles of information management apply to all organizations within the enterprise.
+Rationale
+The only way we can provide a consistent and measurable level of quality information to decision-makers is if all organizations abide by the principles.
+Implications
+Without this principle, exclusions, favoritism, and inconsistency would rapidly undermine the management of information.
+Information management initiatives will not begin until they are examined for compliance with the principles.
+A conflict with a principle will be resolved by changing the framework of the initiative.
+
+Mandatory/Advisory
+Principle Review Reason
+Review Date
+<Reflects whether the principle is mandatory (e.g., regulatory) or advisory.>
+<Circumstances under which the principle should be reviewed in order to ensure its validity.>
+<Latest review date> 
+
+

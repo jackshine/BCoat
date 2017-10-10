@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+<suite name="Protect Test Suite">
+	<parameter name="environmentName" value="prod"/>
+	<parameter name="userName" value="admin@protecto365autobeatle.com"/>
+	<parameter name="userPassword" value="Elastica123!"/>
+	<parameter name="tenantName" value="protecto365autobeatlecom"/>
+	<parameter name="isLoggingOn" value="true"/>
+	<parameter name="apiBaseVersion" value="v1"/>
+	<parameter name="apiserverHostName" value="api-vip.elastica.net"/>
+	<parameter name="referer" value="https://eoe.elastica-inc.com"/>
+	<parameter name="tenantToken" value="OTvuLKboVDvZECaCIIzphWZBI051s+gcjd0HiHAPkFI="/>
+	<parameter name="saasApp" value="Office365"/>
+	<parameter name="saasAppUsername" value="admin@protecto365autobeatle.com"/>
+	<parameter name="saasAppPassword" value="&amp;1CMlIvd!JWp6n2"/>
+	<parameter name="saasAppUserRole" value="ADMIN"/>
+	<parameter name="domainName" value="protecto365autobeatlecom"/>	
+	
+	<test name="Protect OneDrive Policy Violation Tests">
+		<classes>
+			<class name="com.elastica.beatle.tests.protect.policyviolations.ODrivePolicyViolationTests"></class>
+		</classes>
+	</test>
+</suite>

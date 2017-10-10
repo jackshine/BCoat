@@ -1,0 +1,29 @@
+{
+  "Accounts": [
+    {
+      "AccountName": "elasticaqa.com",
+      "AccountAccessKey": "AKIAILXZP5PBRVFZJGEQ",
+      "AccountSecreat": "TqeGbpUouNr3CGNjiVvN4WMHs+ESi5SPMcELZ15J"
+    },
+    {
+      "AccountName": "elasticaqa.net",
+      "AccountAccessKey": "AKIAIHEJD2NCQOLWKYQQ",
+      "AccountSecreat": "IbFsGjxNhtu7Y9+eqJArH975QOdnD01JY1hqxoD2"
+    },
+    {
+      "AccountName": "securletbeatle.com",
+      "AccountAccessKey": "AKIAJLCAWRS5IHZIF7TA",
+      "AccountSecreat": "yheXI26jqSw6mB2atCDtgFMyFvBI2ksGB/PlUFhY"
+    },    
+    {
+      "AccountName": "protectbeatle.com",
+      "AccountAccessKey": "AKIAIYFXIWAOHHNQXVQA",
+      "AccountSecreat": "pGxJcSS62DIPL7YXM56a5j9VJB7i9PClKUCwiSHR"
+    },
+    {
+      "AccountName": "gatewaybeatle.com",
+      "AccountAccessKey": "AKIAIM2U2YPTKIHYDJ5A",
+      "AccountSecreat": "xbJEAvIA88t+2oonbwbbhQVazW/Zk9k6SMKBw7V5"
+    }
+  ]
+}

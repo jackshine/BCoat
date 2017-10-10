@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+<suite name="Audit Test Suite" parallel="instances" thread-count="15">
+  <parameter name="userName" value="admin@protectbeatle.com"/>
+	<parameter name="userPassword" value="Elastica456!"/>
+	<parameter name="environmentName" value="cep"></parameter>
+	<parameter name="tenantName" value="protectbeatlecom"></parameter>
+	<parameter name="referer" value="http://app-cep.elastica.net/"/>
+	<parameter name="tenantToken" value="nIzqjM7QUjS4OcWe2Oti74jwfpY5A2Geg+2ugXIPGGk="/>
+	<parameter name="isLoggingOn" value="true"></parameter>
+	<parameter name="apiBaseVersion" value="v1"></parameter>
+	<test name="Audit Negative Regression Tests">
+		<classes>
+			<class name="com.elastica.beatle.audit.factoryClass.AuditMiscellanousFactory"></class>
+		</classes>
+	</test>	
+</suite>

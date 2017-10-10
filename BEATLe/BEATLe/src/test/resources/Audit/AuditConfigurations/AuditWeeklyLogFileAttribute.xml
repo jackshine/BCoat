@@ -1,0 +1,1312 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE properties SYSTEM "http://java.sun.com/dtd/properties.dtd">
+<properties>
+	<comment>Log File Attributes</comment>
+	
+	<entry key="be_barracuda_sys_zip.LogFilePath">/src/test/resources/Audit/LogFiles/Barracuda_Activity_Format.zip</entry>
+	<entry key="be_barracuda_sys_zip.DataSourceFormat">cli</entry>
+	<entry key="be_barracuda_sys_zip.DataSourceType">Barracuda</entry>
+	<entry key="be_barracuda_sys_zip.type">Barracuda</entry>
+	<entry key="be_barracuda_sys_zip.log_format">cli</entry>
+	<entry key="be_barracuda_sys_zip.filename">Barracuda_Activity_Format.zip</entry>
+	
+	
+	
+	<!-- <entry key="CiscoASASeries.LogFilePath">/src/test/resources/Audit/LogFiles/Cisco_ASA_IPs.zip</entry>
+	<entry key="CiscoASASeries.DataSourceFormat">syslog</entry>
+	<entry key="CiscoASASeries.DataSourceType">Cisco</entry>
+	<entry key="CiscoASASeries.type">Cisco</entry>
+	<entry key="CiscoASASeries.log_format">syslog</entry>
+	<entry key="CiscoASASeries.filename">Cisco_ASA_IPs.zip</entry>
+	
+	<entry key="scanSafe.LogFilePath">/src/test/resources/Audit/LogFiles/scansafe.zip</entry>
+	<entry key="scanSafe.DataSourceFormat">CSV</entry>
+	<entry key="scanSafe.DataSourceType">ScanSafe</entry>
+	<entry key="scanSafe.type">ScanSafe</entry>
+	<entry key="scanSafe.log_format">CSV</entry>
+	<entry key="scanSafe.filename">scansafe.zip</entry>
+	
+	<entry key="juniperScreenOS.LogFilePath">/src/test/resources/Audit/LogFiles/Juniper_ScreenOS.csv.zip</entry>
+	<entry key="juniperScreenOS.DataSourceFormat">syslog</entry>
+	<entry key="juniperScreenOS.DataSourceType">Juniper ScreenOS</entry>
+	<entry key="juniperScreenOS.type">Juniper ScreenOS</entry>
+	<entry key="juniperScreenOS.log_format">syslog</entry>
+	<entry key="juniperScreenOS.filename">Juniper_ScreenOS.csv.zip</entry>
+	
+	<entry key="juniperSRX.LogFilePath">/src/test/resources/Audit/LogFiles/Juniper-srx-datavald.txt.zip</entry>
+	<entry key="juniperSRX.DataSourceFormat">WELF</entry>
+	<entry key="juniperSRX.DataSourceType">Juniper SRX</entry>
+	<entry key="juniperSRX.type">Juniper SRX</entry>
+	<entry key="juniperSRX.log_format">WELF</entry>
+	<entry key="juniperSRX.filename">Juniper-srx-datavald.txt.zip</entry>
+	
+	<entry key="blueCoatProxySG.LogFilePath">/src/test/resources/Audit/LogFiles/BlueCoatProxy.zip</entry>
+	<entry key="blueCoatProxySG.DataSourceFormat">ELFF</entry>
+	<entry key="blueCoatProxySG.DataSourceType">Bluecoat ProxySG</entry>
+	<entry key="blueCoatProxySG.type">Bluecoat ProxySG</entry>
+	<entry key="blueCoatProxySG.log_format">ELFF</entry>
+	<entry key="blueCoatProxySG.filename">BlueCoatProxy.zip</entry>
+	
+	
+	<entry key="blueCoatProxySGDeviceIds.LogFilePath">/src/test/resources/Audit/LogFiles/blue-coat.zip</entry>
+	<entry key="blueCoatProxySGDeviceIds.DataSourceFormat">ELFF</entry>
+	<entry key="blueCoatProxySGDeviceIds.DataSourceType">Bluecoat ProxySG</entry>
+	<entry key="blueCoatProxySGDeviceIds.type">Bluecoat ProxySG</entry>
+	<entry key="blueCoatProxySGDeviceIds.log_format">ELFF</entry>
+	<entry key="blueCoatProxySGDeviceIds.filename">blue-coat.zip</entry>
+	
+	<entry key="ciscoWSAW3C.LogFilePath">/src/test/resources/Audit/LogFiles/Cisco_wsa_w3c.zip</entry>
+	<entry key="ciscoWSAW3C.DataSourceFormat">W3C</entry>
+	<entry key="ciscoWSAW3C.DataSourceType">Cisco WSA</entry>
+	<entry key="ciscoWSAW3C.type">Cisco WSA</entry>
+	<entry key="ciscoWSAW3C.log_format">W3C</entry>
+	<entry key="ciscoWSAW3C.log_format">W3C</entry>
+	<entry key="ciscoWSAW3C.filename">Cisco_wsa_w3c.zip</entry>
+		
+	<entry key="paloAltoNet.LogFilePath">/src/test/resources/Audit/LogFiles/PAN_CVS_log_File.zip</entry>
+	<entry key="paloAltoNet.DataSourceFormat">CSV</entry>
+	<entry key="paloAltoNet.DataSourceType">Palo-Alto</entry>
+	<entry key="paloAltoNet.type">Palo-Alto</entry>
+	<entry key="paloAltoNet.log_format">CSV</entry>
+	<entry key="paloAltoNet.filename">PAN_CVS_log_File.zip</entry>
+	
+	<entry key="ciscoCWS.LogFilePath">/src/test/resources/Audit/LogFiles/Cisco_CWS.zip</entry>
+	<entry key="ciscoCWS.DataSourceFormat">tsv</entry>
+	<entry key="ciscoCWS.DataSourceType">CWS</entry>
+	<entry key="ciscoCWS.type">CWS</entry>
+	<entry key="ciscoCWS.log_format">tsv</entry>
+	<entry key="ciscoCWS.filename">Cisco_CWS.zip</entry>
+	
+	<entry key="barracudaActivityLog.LogFilePath">/src/test/resources/Audit/LogFiles/Barracuda_Activity_Format.zip</entry>
+	<entry key="barracudaActivityLog.DataSourceFormat">cli</entry>
+	<entry key="barracudaActivityLog.DataSourceType">Barracuda</entry>
+	<entry key="barracudaActivityLog.type">Barracuda</entry>
+	<entry key="barracudaActivityLog.log_format">cli</entry>
+	<entry key="barracudaActivityLog.filename">Barracuda_Activity_Format.zip</entry>
+	
+	<entry key="barracudaActivitySysLog.LogFilePath">/src/test/resources/Audit/LogFiles/Barracuda_Syslog.zip</entry>
+	<entry key="barracudaActivitySysLog.DataSourceFormat">syslog</entry>
+	<entry key="barracudaActivitySysLog.DataSourceType">Barracuda</entry>
+	<entry key="barracudaActivitySysLog.type">Barracuda</entry>
+	<entry key="barracudaActivitySysLog.log_format">syslog</entry>
+	<entry key="barracudaActivitySysLog.filename">Barracuda_Syslog.zip</entry>
+	
+	WALLMART LOG FILES CONFIGURATION
+	
+	<entry key="wallmartWebGateWayLog.LogFilePath">/src/test/resources/Audit/LogFiles/Wallmart_Mcaffe-web-gateway-final.zip</entry>
+	<entry key="wallmartWebGateWayLog.DataSourceFormat">access</entry>
+	<entry key="wallmartWebGateWayLog.DataSourceType">McAfee Web Gateway</entry>
+	<entry key="wallmartWebGateWayLog.type">McAfee Web Gateway</entry>
+	<entry key="wallmartWebGateWayLog.log_format">access</entry>
+	<entry key="wallmartWebGateWayLog.filename">Wallmart_Mcaffe-web-gateway-final.zip</entry>	
+	
+	
+	<entry key="wallmartPanCSV.LogFilePath">/src/test/resources/Audit/LogFiles/wallmart_PAN-post-vald.zip</entry>
+	<entry key="wallmartPanCSV.DataSourceFormat">CSV</entry>
+	<entry key="wallmartPanCSV.DataSourceType">Palo-Alto</entry>
+	<entry key="wallmartPanCSV.type">Palo-Alto</entry>
+	<entry key="wallmartPanCSV.log_format">CSV</entry>
+	<entry key="wallmartPanCSV.filename">wallmart_PAN-post-vald.zip</entry>	
+	
+	
+	<entry key="wallmartPanSYS.LogFilePath">/src/test/resources/Audit/LogFiles/Wallmart_PAN-Sys.zip</entry>
+	<entry key="wallmartPanSYS.DataSourceFormat">syslog</entry>
+	<entry key="wallmartPanSYS.DataSourceType">Palo-Alto</entry>
+	<entry key="wallmartPanSYS.type">Palo-Alto</entry>
+	<entry key="wallmartPanSYS.log_format">syslog</entry>
+	<entry key="wallmartPanSYS.filename">Wallmart_PAN-Sys.zip</entry>	
+	
+	WALLMART LOG FILES CONFIGURATION END
+	
+	
+	2.47 Device logs
+	<entry key="panCSVMultipleDeviceIds.LogFilePath">/src/test/resources/Audit/LogFiles/PAN-CSV-Multiple-Device-IDs.zip</entry>
+	<entry key="panCSVMultipleDeviceIds.DataSourceFormat">CSV</entry>
+	<entry key="panCSVMultipleDeviceIds.DataSourceType">Palo-Alto</entry>
+	<entry key="panCSVMultipleDeviceIds.type">Palo-Alto</entry>
+	<entry key="panCSVMultipleDeviceIds.log_format">CSV</entry>
+	<entry key="panCSVMultipleDeviceIds.filename">PAN-CSV-Multiple-Device-IDs.zip</entry>	
+	
+	<entry key="panSYSMultipleDeviceIds.LogFilePath">/src/test/resources/Audit/LogFiles/PAN-Syslog_Multiple_Device_IDs.log.zip</entry>
+	<entry key="panSYSMultipleDeviceIds.DataSourceFormat">syslog</entry>
+	<entry key="panSYSMultipleDeviceIds.DataSourceType">Palo-Alto</entry>
+	<entry key="panSYSMultipleDeviceIds.type">Palo-Alto</entry>
+	<entry key="panSYSMultipleDeviceIds.log_format">syslog</entry>
+	<entry key="panSYSMultipleDeviceIds.filename">PAN-Syslog_Multiple_Device_IDs.log.zip</entry>
+	
+		
+	<entry key="cwsMultipleDeviceIds.LogFilePath">/src/test/resources/Audit/LogFiles/CWS-DeviceID-TSV.gz</entry>
+	<entry key="cwsMultipleDeviceIds.DataSourceFormat">tsv</entry>
+	<entry key="cwsMultipleDeviceIds.DataSourceType">CWS</entry>
+	<entry key="cwsMultipleDeviceIds.type">CWS</entry>
+	<entry key="cwsMultipleDeviceIds.log_format">tsv</entry>
+	<entry key="cwsMultipleDeviceIds.filename">CWS-DeviceID-TSV.gz</entry>
+	
+	<entry key="wsaaccessDeviceIds.LogFilePath">/src/test/resources/Audit/LogFiles/wsa-acess.zip</entry>
+	<entry key="wsaaccessDeviceIds.DataSourceFormat">access</entry>
+	<entry key="wsaaccessDeviceIds.DataSourceType">Cisco WSA</entry>
+	<entry key="wsaaccessDeviceIds.type">Cisco WSA</entry>
+	<entry key="wsaaccessDeviceIds.log_format">access</entry>
+	<entry key="wsaaccessDeviceIds.filename">wsa-acess.zip</entry>
+	
+	<entry key="wsaw3cDeviceIds.LogFilePath">/src/test/resources/Audit/LogFiles/WSA-W3cDeviceIds.zip</entry>
+	<entry key="wsaw3cDeviceIds.DataSourceFormat">W3C</entry>
+	<entry key="wsaw3cDeviceIds.DataSourceType">Cisco WSA</entry>
+	<entry key="wsaw3cDeviceIds.type">Cisco WSA</entry>
+	<entry key="wsaw3cDeviceIds.log_format">W3C</entry>
+	<entry key="wsaw3cDeviceIds.filename">WSA-W3cDeviceIds.zip</entry>	
+	
+
+	
+	Bluecoat proxy invalid logs
+	
+
+	<entry key="blueCoatProxySGInvalid.LogFilePath">/src/test/resources/Audit/LogFiles/Blue_Coat_22389.zip</entry>
+	<entry key="blueCoatProxySGInvalid.DataSourceFormat">ELFF</entry>
+	<entry key="blueCoatProxySGInvalid.DataSourceType">Bluecoat ProxySG</entry>
+	<entry key="blueCoatProxySGInvalid.type">Bluecoat ProxySG</entry>
+	<entry key="blueCoatProxySGInvalid.log_format">ELFF</entry>
+	<entry key="blueCoatProxySGInvalid.filename">BlueCoatProxy.zip</entry>
+	
+	zscalar
+	<entry key="zscalar.LogFilePath">/src/test/resources/Audit/LogFiles/ZScaler_diff_col_orders.log.zip</entry>
+	<entry key="zscalar.DataSourceFormat">NSS Custom</entry>
+	<entry key="zscalar.DataSourceType">ZScaler</entry>
+	<entry key="zscalar.type">ZScaler</entry>
+	<entry key="zscalar.log_format">NSS Custom</entry>
+	<entry key="zscalar.filename">ZScaler_diff_col_orders.log.zip</entry>
+	
+
+	Checkpoint
+	<entry key="checkpointCSV.LogFilePath">/src/test/resources/Audit/LogFiles/CheckPoint-2015-09-04.zip</entry>
+	<entry key="checkpointCSV.DataSourceFormat">CSV</entry>
+	<entry key="checkpointCSV.DataSourceType">Checkpoint</entry>
+	<entry key="checkpointCSV.type">Checkpoint</entry>
+	<entry key="checkpointCSV.log_format">CSV</entry>
+	<entry key="checkpointCSV.filename">CheckPoint-2015-09-04.zip</entry>
+	
+	<entry key="checkpointSmartView.LogFilePath">/src/test/resources/Audit/LogFiles/smartview_export_all.txt.gz</entry>
+	<entry key="checkpointSmartView.DataSourceFormat">SmartView</entry>
+	<entry key="checkpointSmartView.DataSourceType">Checkpoint</entry>
+	<entry key="checkpointSmartView.type">Checkpoint</entry>
+	<entry key="checkpointSmartView.log_format">SmartView</entry>
+	<entry key="checkpointSmartView.filename">smartview_export_all.txt.gz</entry>
+
+	
+	 empty logs with 3 formats
+	<entry key="blueCoatFileWithSlash.LogFilePath">/src/test/resources/Audit/LogFiles/InValidLogs/Filenamewithslash.zip</entry>
+	<entry key="blueCoatFileWithSlash.DataSourceFormat">ELFF</entry>
+	<entry key="blueCoatFileWithSlash.DataSourceType">Bluecoat ProxySG</entry>
+	<entry key="blueCoatFileWithSlash.type">Bluecoat ProxySG</entry>
+	<entry key="blueCoatFileWithSlash.log_format">ELFF</entry>
+	<entry key="blueCoatFileWithSlash.filename">Filenamewithslash.zip</entry>
+		
+	
+	<entry key="wsaAccessEmpty_zip.LogFilePath">/src/test/resources/Audit/LogFiles/InValidLogs/empty_wsa_acess.zip</entry>
+	<entry key="wsaAccessEmpty_zip.DataSourceFormat">access</entry>
+	<entry key="wsaAccessEmpty_zip.DataSourceType">Cisco WSA</entry>
+	<entry key="wsaAccessEmpty_zip.type">Cisco WSA</entry>
+	<entry key="wsaAccessEmpty_zip.log_format">access</entry>
+	<entry key="wsaAccessEmpty_zip.filename">empty_wsa_acess.zip</entry>	
+	
+	
+	<entry key="wsaAccessEmpty_gz.LogFilePath">/src/test/resources/Audit/LogFiles/InValidLogs/empty_wsa_acess.gz</entry>
+	<entry key="wsaAccessEmpty_gz.DataSourceFormat">access</entry>
+	<entry key="wsaAccessEmpty_gz.DataSourceType">Cisco WSA</entry>
+	<entry key="wsaAccessEmpty_gz.type">Cisco WSA</entry>
+	<entry key="wsaAccessEmpty_gz.log_format">access</entry>
+	<entry key="wsaAccessEmpty_gz.filename">empty_wsa_acess.ez2</entry>
+	
+	
+	<entry key="wsaAccessEmpty_bz2.LogFilePath">/src/test/resources/Audit/LogFiles/InValidLogs/empty_wsa_acess.bz2</entry>
+	<entry key="wsaAccessEmpty_bz2.DataSourceFormat">access</entry>
+	<entry key="wsaAccessEmpty_bz2.DataSourceType">Cisco WSA</entry>
+	<entry key="wsaAccessEmpty_bz2.type">Cisco WSA</entry>
+	<entry key="wsaAccessEmpty_bz2.log_format">access</entry>
+	<entry key="wsaAccessEmpty_bz2.filename">empty_wsa_acess.bz2</entry>
+	
+	 header only files with 3 formats
+	<entry key="cwsHeaderOnly_zip.LogFilePath">/src/test/resources/Audit/LogFiles/InValidLogs/header_only_CWS-DeviceID-TSV.zip</entry>
+	<entry key="cwsHeaderOnly_zip.DataSourceFormat">tsv</entry>
+	<entry key="cwsHeaderOnly_zip.DataSourceType">CWS</entry>
+	<entry key="cwsHeaderOnly_zip.type">CWS</entry>
+	<entry key="cwsHeaderOnly_zip.log_format">tsv</entry>
+	<entry key="cwsHeaderOnly_zip.filename">Header_only_CWS-DeviceID-TSV.zip</entry>
+	
+	<entry key="cwsHeaderOnly_gz.LogFilePath">/src/test/resources/Audit/LogFiles/InValidLogs/header_only_CWS-DeviceID-TSV.gz</entry>
+	<entry key="cwsHeaderOnly_gz.DataSourceFormat">tsv</entry>
+	<entry key="cwsHeaderOnly_gz.DataSourceType">CWS</entry>
+	<entry key="cwsHeaderOnly_gz.type">CWS</entry>
+	<entry key="cwsHeaderOnly_gz.log_format">tsv</entry>
+	<entry key="cwsHeaderOnly_gz.filename">Header_only_CWS-DeviceID-TSV.gz</entry>	
+	
+	<entry key="cwsHeaderOnly_bz2.LogFilePath">/src/test/resources/Audit/LogFiles/InValidLogs/header_only_CWS-DeviceID-TSV.bz2</entry>
+	<entry key="cwsHeaderOnly_bz2.DataSourceFormat">tsv</entry>
+	<entry key="cwsHeaderOnly_bz2.DataSourceType">CWS</entry>
+	<entry key="cwsHeaderOnly_bz2.type">CWS</entry>
+	<entry key="cwsHeaderOnly_bz2.log_format">tsv</entry>
+	<entry key="cwsHeaderOnly_bz2.filename">Header_only_CWS-DeviceID-TSV.bz2</entry>
+	
+	jpez files with 3 formats	
+	<entry key="ciscoasaJpeg_zip.LogFilePath">/src/test/resources/Audit/LogFiles/InValidLogs/ciscoasa_jpeg.zip</entry>
+	<entry key="ciscoasaJpeg_zip.DataSourceFormat">syslog</entry>
+	<entry key="ciscoasaJpeg_zip.DataSourceType">Cisco</entry>
+	<entry key="ciscoasaJpeg_zip.type">Cisco</entry>
+	<entry key="ciscoasaJpeg_zip.log_format">syslog</entry>
+	<entry key="ciscoasaJpeg_zip.filename">ciscoasa_jpeg.zip</entry>
+	
+	<entry key="ciscoasaJpeg_gz.LogFilePath">/src/test/resources/Audit/LogFiles/InValidLogs/ciscoasa_jpeg.gz</entry>
+	<entry key="ciscoasaJpeg_gz.DataSourceFormat">syslog</entry>
+	<entry key="ciscoasaJpeg_gz.DataSourceType">Cisco</entry>
+	<entry key="ciscoasaJpeg_gz.type">Cisco</entry>
+	<entry key="ciscoasaJpeg_gz.log_format">syslog</entry>
+	<entry key="ciscoasaJpeg_gz.filename">ciscoasa_jpeg.gz</entry>
+	
+	<entry key="ciscoasaJpeg_bz2.LogFilePath">/src/test/resources/Audit/LogFiles/InValidLogs/ciscoasa_jpeg.bz2</entry>
+	<entry key="ciscoasaJpeg_bz2.DataSourceFormat">syslog</entry>
+	<entry key="ciscoasaJpeg_bz2.DataSourceType">Cisco</entry>
+	<entry key="ciscoasaJpeg_bz2.type">Cisco</entry>
+	<entry key="ciscoasaJpeg_bz2.log_format">syslog</entry>
+	<entry key="ciscoasaJpeg_bz2.filename">ciscoasa_jpeg.bz2</entry>
+	
+	
+	exe files with 3 formats
+	<entry key="pancsvExe_zip.LogFilePath">/src/test/resources/Audit/LogFiles/InValidLogs/pancsv_exe.zip</entry>
+	<entry key="pancsvExe_zip.DataSourceFormat">CSV</entry>
+	<entry key="pancsvExe_zip.DataSourceType">Palo-Alto</entry>
+	<entry key="pancsvExe_zip.type">Palo-Alto</entry>
+	<entry key="pancsvExe_zip.log_format">CSV</entry>
+	<entry key="pancsvExe_zip.filename">pancsv_exe.zip</entry>
+	
+	<entry key="pancsvExe_gz.LogFilePath">/src/test/resources/Audit/LogFiles/InValidLogs/pancsv_exe.gz</entry>
+	<entry key="pancsvExe_gz.DataSourceFormat">CSV</entry>
+	<entry key="pancsvExe_gz.DataSourceType">Palo-Alto</entry>
+	<entry key="pancsvExe_gz.type">Palo-Alto</entry>
+	<entry key="pancsvExe_gz.log_format">CSV</entry>
+	<entry key="pancsvExe_gz.filename">pancsv_exe.bz2</entry>
+	
+	<entry key="pancsvExe_bz2.LogFilePath">/src/test/resources/Audit/LogFiles/InValidLogs/pancsv_exe.bz2</entry>
+	<entry key="pancsvExe_bz2.DataSourceFormat">CSV</entry>
+	<entry key="pancsvExe_bz2.DataSourceType">Palo-Alto</entry>
+	<entry key="pancsvExe_bz2.type">Palo-Alto</entry>
+	<entry key="pancsvExe_bz2.log_format">CSV</entry>
+	<entry key="pancsvExe_bz2.filename">pancsv_exe.bz2</entry>
+	
+	
+	single deviceId Audit configuration
+	<entry key="panSYS881901123456.LogFilePath">/src/test/resources/Audit/LogFiles/PAN-Syslog_DID_881901123456.log.zip</entry>
+	<entry key="panSYS881901123456.DataSourceFormat">syslog</entry>
+	<entry key="panSYS881901123456.DataSourceType">Palo-Alto</entry>
+	<entry key="panSYS881901123456.type">Palo-Alto</entry>
+	<entry key="panSYS881901123456.log_format">syslog</entry>
+	<entry key="panSYS881901123456.filename">PAN-Syslog_DID_881901123456.log.zip</entry>
+	
+	
+	negative tests for pan csv
+	<entry key="panTrafficOnlyZip.LogFilePath">/src/test/resources/Audit/LogFiles/pan_csv_traffic.zip</entry>
+	<entry key="panTrafficOnlyZip.DataSourceFormat">CSV</entry>
+	<entry key="panTrafficOnlyZip.DataSourceType">Palo-Alto</entry>
+	<entry key="panTrafficOnlyZip.type">Palo-Alto</entry>
+	<entry key="panTrafficOnlyZip.log_format">CSV</entry>
+	<entry key="panTrafficOnlyZip.filename">pan_csv_traffic.zip</entry>
+	
+	
+	<entry key="panUrlOnlyZip.LogFilePath">/src/test/resources/Audit/LogFiles/pan_csv_url.zip</entry>
+	<entry key="panUrlOnlyZip.DataSourceFormat">CSV</entry>
+	<entry key="panUrlOnlyZip.DataSourceType">Palo-Alto</entry>
+	<entry key="panUrlOnlyZip.type">Palo-Alto</entry>
+	<entry key="panUrlOnlyZip.log_format">CSV</entry>
+	<entry key="panUrlOnlyZip.filename">pan_csv_url.zip</entry>
+	
+	
+	
+	Audit Weekly Regresssion task Files configuration
+	
+	Audit Weekly Webupload regression files
+	checkpointCsv
+	<entry key="checkpointCSVZip.LogFilePath">/src/test/resources/Audit/LogFiles/WeeklyRegressionLogs/CheckPoint_CSV.zip</entry>
+	<entry key="checkpointCSVZip.DataSourceFormat">CSV</entry>
+	<entry key="checkpointCSVZip.DataSourceType">Checkpoint</entry>
+	<entry key="checkpointCSVZip.type">Checkpoint</entry>
+	<entry key="checkpointCSVZip.log_format">CSV</entry>
+	<entry key="checkpointCSVZip.filename">CheckPoint_CSV.zip</entry>
+	
+	<entry key="checkpointCSVGz.LogFilePath">/src/test/resources/Audit/LogFiles/WeeklyRegressionLogs/CheckPoint_CSV.gz</entry>
+	<entry key="checkpointCSVGz.DataSourceFormat">CSV</entry>
+	<entry key="checkpointCSVGz.DataSourceType">Checkpoint</entry>
+	<entry key="checkpointCSVGz.type">Checkpoint</entry>
+	<entry key="checkpointCSVGz.log_format">CSV</entry>
+	<entry key="checkpointCSVGz.filename">CheckPoint_CSV.gz</entry>
+	
+	<entry key="checkpointCSVBz2.LogFilePath">/src/test/resources/Audit/LogFiles/WeeklyRegressionLogs/CheckPoint_CSV.bz2</entry>
+	<entry key="checkpointCSVBz2.DataSourceFormat">CSV</entry>
+	<entry key="checkpointCSVBz2.DataSourceType">Checkpoint</entry>
+	<entry key="checkpointCSVBz2.type">Checkpoint</entry>
+	<entry key="checkpointCSVBz2.log_format">CSV</entry>
+	<entry key="checkpointCSVBz2.filename">CheckPoint_CSV.bz2</entry>
+	
+	checkpointSmartView
+	<entry key="checkpointSmartViewZip.LogFilePath">/src/test/resources/Audit/LogFiles/WeeklyRegressionLogs/CheckPoint_smartview.zip</entry>
+	<entry key="checkpointSmartViewZip.DataSourceFormat">SmartView</entry>
+	<entry key="checkpointSmartViewZip.DataSourceType">Checkpoint</entry>
+	<entry key="checkpointSmartViewZip.type">Checkpoint</entry>
+	<entry key="checkpointSmartViewZip.log_format">SmartView</entry>
+	<entry key="checkpointSmartViewZip.filename">CheckPoint_smartview.zip</entry>
+	
+	<entry key="checkpointSmartViewGz.LogFilePath">/src/test/resources/Audit/LogFiles/WeeklyRegressionLogs/CheckPoint_smartview.gz</entry>
+	<entry key="checkpointSmartViewGz.DataSourceFormat">SmartView</entry>
+	<entry key="checkpointSmartViewGz.DataSourceType">Checkpoint</entry>
+	<entry key="checkpointSmartViewGz.type">Checkpoint</entry>
+	<entry key="checkpointSmartViewGz.log_format">SmartView</entry>
+	<entry key="checkpointSmartViewGz.filename">CheckPoint_smartview.gz</entry>
+	
+	<entry key="checkpointSmartViewBz2.LogFilePath">/src/test/resources/Audit/LogFiles/WeeklyRegressionLogs/CheckPoint_smartview.bz2</entry>
+	<entry key="checkpointSmartViewBz2.DataSourceFormat">SmartView</entry>
+	<entry key="checkpointSmartViewBz2.DataSourceType">Checkpoint</entry>
+	<entry key="checkpointSmartViewBz2.type">Checkpoint</entry>
+	<entry key="checkpointSmartViewBz2.log_format">SmartView</entry>
+	<entry key="checkpointSmartViewBz2.filename">CheckPoint_smartview.bz2</entry>
+	
+	wallmartpancsv
+	<entry key="wallmartPanCSVZip.LogFilePath">/src/test/resources/Audit/LogFiles/WeeklyRegressionLogs/Wallmart_PAN_CSV.zip</entry>
+	<entry key="wallmartPanCSVZip.DataSourceFormat">CSV</entry>
+	<entry key="wallmartPanCSVZip.DataSourceType">Palo-Alto</entry>
+	<entry key="wallmartPanCSVZip.type">Palo-Alto</entry>
+	<entry key="wallmartPanCSVZip.log_format">CSV</entry>
+	<entry key="wallmartPanCSVZip.filename">Wallmart_PAN_CSV.zip</entry>
+	
+	<entry key="wallmartPanCSVGz.LogFilePath">/src/test/resources/Audit/LogFiles/WeeklyRegressionLogs/Wallmart_PAN_CSV.gz</entry>
+	<entry key="wallmartPanCSVGz.DataSourceFormat">CSV</entry>
+	<entry key="wallmartPanCSVGz.DataSourceType">Palo-Alto</entry>
+	<entry key="wallmartPanCSVGz.type">Palo-Alto</entry>
+	<entry key="wallmartPanCSVGz.log_format">CSV</entry>
+	<entry key="wallmartPanCSVGz.filename">Wallmart_PAN_CSV.gz</entry>
+	
+	<entry key="wallmartPanCSVBz2.LogFilePath">/src/test/resources/Audit/LogFiles/WeeklyRegressionLogs/Wallmart_PAN_CSV.bz2</entry>
+	<entry key="wallmartPanCSVBz2.DataSourceFormat">CSV</entry>
+	<entry key="wallmartPanCSVBz2.DataSourceType">Palo-Alto</entry>
+	<entry key="wallmartPanCSVBz2.type">Palo-Alto</entry>
+	<entry key="wallmartPanCSVBz2.log_format">CSV</entry>
+	<entry key="wallmartPanCSVBz2.filename">Wallmart_PAN_CSV.bz2</entry>
+	
+	wallmartPanSYSLog
+	<entry key="wallmartPanSYSZip.LogFilePath">/src/test/resources/Audit/LogFiles/WeeklyRegressionLogs/Wallmart_PAN-Sys.zip</entry>
+	<entry key="wallmartPanSYSZip.DataSourceFormat">syslog</entry>
+	<entry key="wallmartPanSYSZip.DataSourceType">Palo-Alto</entry>
+	<entry key="wallmartPanSYSZip.type">Palo-Alto</entry>
+	<entry key="wallmartPanSYSZip.log_format">syslog</entry>
+	<entry key="wallmartPanSYSZip.filename">Wallmart_PAN-Sys.zip</entry>	
+	
+	<entry key="wallmartPanSYSGz.LogFilePath">/src/test/resources/Audit/LogFiles/WeeklyRegressionLogs/Wallmart_PAN-Sys.gz</entry>
+	<entry key="wallmartPanSYSGz.DataSourceFormat">syslog</entry>
+	<entry key="wallmartPanSYSGz.DataSourceType">Palo-Alto</entry>
+	<entry key="wallmartPanSYSGz.type">Palo-Alto</entry>
+	<entry key="wallmartPanSYSGz.log_format">syslog</entry>
+	<entry key="wallmartPanSYSGz.filename">Wallmart_PAN-Sys.gz</entry>	
+	
+	<entry key="wallmartPanSYSBz2.LogFilePath">/src/test/resources/Audit/LogFiles/WeeklyRegressionLogs/Wallmart_PAN-Sys.bz2</entry>
+	<entry key="wallmartPanSYSBz2.DataSourceFormat">syslog</entry>
+	<entry key="wallmartPanSYSBz2.DataSourceType">Palo-Alto</entry>
+	<entry key="wallmartPanSYSBz2.type">Palo-Alto</entry>
+	<entry key="wallmartPanSYSBz2.log_format">syslog</entry>
+	<entry key="wallmartPanSYSBz2.filename">Wallmart_PAN-Sys.bz2</entry>
+	
+	wallmartmcawebgateway
+	<entry key="wallmartWebGateWayLogZip.LogFilePath">/src/test/resources/Audit/LogFiles/WeeklyRegressionLogs/Wallmart_Mcaffe-web-gateway-final.zip</entry>
+	<entry key="wallmartWebGateWayLogZip.DataSourceFormat">access</entry>
+	<entry key="wallmartWebGateWayLogZip.DataSourceType">McAfee Web Gateway</entry>
+	<entry key="wallmartWebGateWayLogZip.type">McAfee Web Gateway</entry>
+	<entry key="wallmartWebGateWayLogZip.log_format">access</entry>
+	<entry key="wallmartWebGateWayLogZip.filename">Wallmart_Mcaffe-web-gateway-final.zip</entry>
+	
+	<entry key="wallmartWebGateWayLogGz.LogFilePath">/src/test/resources/Audit/LogFiles/WeeklyRegressionLogs/Wallmart_Mcaffe-web-gateway-final.gz</entry>
+	<entry key="wallmartWebGateWayLogGz.DataSourceFormat">access</entry>
+	<entry key="wallmartWebGateWayLogGz.DataSourceType">McAfee Web Gateway</entry>
+	<entry key="wallmartWebGateWayLogGz.type">McAfee Web Gateway</entry>
+	<entry key="wallmartWebGateWayLogGz.log_format">access</entry>
+	<entry key="wallmartWebGateWayLogGz.filename">Wallmart_Mcaffe-web-gateway-final.gz</entry>
+	
+	<entry key="wallmartWebGateWayLogBz2.LogFilePath">/src/test/resources/Audit/LogFiles/WeeklyRegressionLogs/Wallmart_Mcaffe-web-gateway-final.bz2</entry>
+	<entry key="wallmartWebGateWayLogBz2.DataSourceFormat">access</entry>
+	<entry key="wallmartWebGateWayLogBz2.DataSourceType">McAfee Web Gateway</entry>
+	<entry key="wallmartWebGateWayLogBz2.type">McAfee Web Gateway</entry>
+	<entry key="wallmartWebGateWayLogBz2.log_format">access</entry>
+	<entry key="wallmartWebGateWayLogBz2.filename">Wallmart_Mcaffe-web-gateway-final.bz2</entry>
+	
+	Audit weekly scp regression files
+	Bluecoat proxy
+	<entry key="blueCoatProxySGZip.LogFilePath">/src/test/resources/Audit/LogFiles/WeeklyRegressionLogs/BlueCoatProxy.zip</entry>
+	<entry key="blueCoatProxySGZip.DataSourceFormat">ELFF</entry>
+	<entry key="blueCoatProxySGZip.DataSourceType">Bluecoat ProxySG</entry>
+	<entry key="blueCoatProxySGZip.type">Bluecoat ProxySG</entry>
+	<entry key="blueCoatProxySGZip.log_format">ELFF</entry>
+	<entry key="blueCoatProxySGZip.filename">BlueCoatProxy.zip</entry>
+	
+	<entry key="blueCoatProxySGGz.LogFilePath">/src/test/resources/Audit/LogFiles/WeeklyRegressionLogs/BlueCoatProxy.gz</entry>
+	<entry key="blueCoatProxySGGz.DataSourceFormat">ELFF</entry>
+	<entry key="blueCoatProxySGGz.DataSourceType">Bluecoat ProxySG</entry>
+	<entry key="blueCoatProxySGGz.type">Bluecoat ProxySG</entry>
+	<entry key="blueCoatProxySGGz.log_format">ELFF</entry>
+	<entry key="blueCoatProxySGGz.filename">BlueCoatProxy.gz</entry>
+	
+	<entry key="blueCoatProxySGBz2.LogFilePath">/src/test/resources/Audit/LogFiles/WeeklyRegressionLogs/BlueCoatProxy.bz2</entry>
+	<entry key="blueCoatProxySGBz2.DataSourceFormat">ELFF</entry>
+	<entry key="blueCoatProxySGBz2.DataSourceType">Bluecoat ProxySG</entry>
+	<entry key="blueCoatProxySGBz2.type">Bluecoat ProxySG</entry>
+	<entry key="blueCoatProxySGBz2.log_format">ELFF</entry>
+	<entry key="blueCoatProxySGBz2.filename">BlueCoatProxy.bz2</entry>
+	
+	
+	zscalar
+	<entry key="zscalarZip.LogFilePath">/src/test/resources/Audit/LogFiles/WeeklyRegressionLogs/ZScaler_log.zip</entry>
+	<entry key="zscalarZip.DataSourceFormat">NSS Custom</entry>
+	<entry key="zscalarZip.DataSourceType">ZScaler</entry>
+	<entry key="zscalarZip.type">ZScaler</entry>
+	<entry key="zscalarZip.log_format">NSS Custom</entry>
+	<entry key="zscalarZip.filename">ZScaler_log.zip</entry>
+	
+	<entry key="zscalarGz.LogFilePath">/src/test/resources/Audit/LogFiles/WeeklyRegressionLogs/ZScaler_log.gz</entry>
+	<entry key="zscalarGz.DataSourceFormat">NSS Custom</entry>
+	<entry key="zscalarGz.DataSourceType">ZScaler</entry>
+	<entry key="zscalarGz.type">ZScaler</entry>
+	<entry key="zscalarGz.log_format">NSS Custom</entry>
+	<entry key="zscalarGz.filename">ZScaler_log.gz</entry>
+	
+	<entry key="zscalarBz2.LogFilePath">/src/test/resources/Audit/LogFiles/WeeklyRegressionLogs/ZScaler_log.bz2</entry>
+	<entry key="zscalarBz2.DataSourceFormat">NSS Custom</entry>
+	<entry key="zscalarBz2.DataSourceType">ZScaler</entry>
+	<entry key="zscalarBz2.type">ZScaler</entry>
+	<entry key="zscalarBz2.log_format">NSS Custom</entry>
+	<entry key="zscalarBz2.filename">ZScaler_log.bz2</entry>
+	
+	
+	barracuda cli
+	<entry key="barracudaActivityLogZip.LogFilePath">/src/test/resources/Audit/LogFiles/WeeklyRegressionLogs/Barracuda_CLI.zip</entry>
+	<entry key="barracudaActivityLogZip.DataSourceFormat">cli</entry>
+	<entry key="barracudaActivityLogZip.DataSourceType">Barracuda</entry>
+	<entry key="barracudaActivityLogZip.type">Barracuda</entry>
+	<entry key="barracudaActivityLogZip.log_format">cli</entry>
+	<entry key="barracudaActivityLogZip.filename">Barracuda_CLI.zip</entry>
+	
+	<entry key="barracudaActivityLogGz.LogFilePath">/src/test/resources/Audit/LogFiles/WeeklyRegressionLogs/Barracuda_CLI.gz</entry>
+	<entry key="barracudaActivityLogGz.DataSourceFormat">cli</entry>
+	<entry key="barracudaActivityLogGz.DataSourceType">Barracuda</entry>
+	<entry key="barracudaActivityLogGz.type">Barracuda</entry>
+	<entry key="barracudaActivityLogGz.log_format">cli</entry>
+	<entry key="barracudaActivityLogGz.filename">Barracuda_CLI.gz</entry>
+	
+    <entry key="barracudaActivityLogBz2.LogFilePath">/src/test/resources/Audit/LogFiles/WeeklyRegressionLogs/Barracuda_CLI.bz2</entry>
+	<entry key="barracudaActivityLogBz2.DataSourceFormat">cli</entry>
+	<entry key="barracudaActivityLogBz2.DataSourceType">Barracuda</entry>
+	<entry key="barracudaActivityLogBz2.type">Barracuda</entry>
+	<entry key="barracudaActivityLogBz2.log_format">cli</entry>
+	<entry key="barracudaActivityLogBz2.filename">Barracuda_CLI.bz2</entry>
+	
+	barracuda sys
+    <entry key="barracudaActivitySysLogZip.LogFilePath">/src/test/resources/Audit/LogFiles/WeeklyRegressionLogs/Barracuda_Syslog.zip</entry>
+	<entry key="barracudaActivitySysLogZip.DataSourceFormat">syslog</entry>
+	<entry key="barracudaActivitySysLogZip.DataSourceType">Barracuda</entry>
+	<entry key="barracudaActivitySysLogZip.type">Barracuda</entry>
+	<entry key="barracudaActivitySysLogZip.log_format">syslog</entry>
+	<entry key="barracudaActivitySysLogZip.filename">Barracuda_Syslog.zip</entry>
+	
+	<entry key="barracudaActivitySysLogGz.LogFilePath">/src/test/resources/Audit/LogFiles/WeeklyRegressionLogs/Barracuda_Syslog.gz</entry>
+	<entry key="barracudaActivitySysLogGz.DataSourceFormat">syslog</entry>
+	<entry key="barracudaActivitySysLogGz.DataSourceType">Barracuda</entry>
+	<entry key="barracudaActivitySysLogGz.type">Barracuda</entry>
+	<entry key="barracudaActivitySysLogGz.log_format">syslog</entry>
+	<entry key="barracudaActivitySysLogGz.filename">Barracuda_Syslog.gz</entry>
+	
+	<entry key="barracudaActivitySysLogBz2.LogFilePath">/src/test/resources/Audit/LogFiles/WeeklyRegressionLogs/Barracuda_Syslog.bz2</entry>
+	<entry key="barracudaActivitySysLogBz2.DataSourceFormat">syslog</entry>
+	<entry key="barracudaActivitySysLogBz2.DataSourceType">Barracuda</entry>
+	<entry key="barracudaActivitySysLogBz2.type">Barracuda</entry>
+	<entry key="barracudaActivitySysLogBz2.log_format">syslog</entry>
+	<entry key="barracudaActivitySysLogBz2.filename">Barracuda_Syslog.bz2</entry>
+	
+	JuniperSRX
+    <entry key="juniperSRXZip.LogFilePath">/src/test/resources/Audit/LogFiles/WeeklyRegressionLogs/Juniper_srx.txt.zip</entry>
+	<entry key="juniperSRXZip.DataSourceFormat">WELF</entry>
+	<entry key="juniperSRXZip.DataSourceType">Juniper SRX</entry>
+	<entry key="juniperSRXZip.type">Juniper SRX</entry>
+	<entry key="juniperSRXZip.log_format">WELF</entry>
+	<entry key="juniperSRXZip.filename">Juniper_srx.txt.zip</entry>
+	
+    <entry key="juniperSRXBz2.LogFilePath">/src/test/resources/Audit/LogFiles/WeeklyRegressionLogs/Juniper_srx.txt.bz2</entry>
+	<entry key="juniperSRXBz2.DataSourceFormat">WELF</entry>
+	<entry key="juniperSRXBz2.DataSourceType">Juniper SRX</entry>
+	<entry key="juniperSRXBz2.type">Juniper SRX</entry>
+	<entry key="juniperSRXBz2.log_format">WELF</entry>
+	<entry key="juniperSRXBz2.filename">Juniper_srx.txt.bz2</entry>
+	
+	<entry key="juniperSRXGz.LogFilePath">/src/test/resources/Audit/LogFiles/WeeklyRegressionLogs/Juniper_srx.txt.gz</entry>
+	<entry key="juniperSRXGz.DataSourceFormat">WELF</entry>
+	<entry key="juniperSRXGz.DataSourceType">Juniper SRX</entry>
+	<entry key="juniperSRXGz.type">Juniper SRX</entry>
+	<entry key="juniperSRXGz.log_format">WELF</entry>
+	<entry key="juniperSRXGz.filename">Juniper_srx.txt.gz</entry>
+	
+	S3 Weekly Regression tasks
+	scansafe
+    <entry key="scanSafeZip.LogFilePath">/src/test/resources/Audit/LogFiles/WeeklyRegressionLogs/Scansafe.zip</entry>
+	<entry key="scanSafeZip.DataSourceFormat">CSV</entry>
+	<entry key="scanSafeZip.DataSourceType">ScanSafe</entry>
+	<entry key="scanSafeZip.type">ScanSafe</entry>
+	<entry key="scanSafeZip.log_format">CSV</entry>
+	<entry key="scanSafeZip.filename">Scansafe.zip</entry>
+	
+	<entry key="scanSafeGz.LogFilePath">/src/test/resources/Audit/LogFiles/WeeklyRegressionLogs/Scansafe.gz</entry>
+	<entry key="scanSafeGz.DataSourceFormat">CSV</entry>
+	<entry key="scanSafeGz.DataSourceType">ScanSafe</entry>
+	<entry key="scanSafeGz.type">ScanSafe</entry>
+	<entry key="scanSafeGz.log_format">CSV</entry>
+	<entry key="scanSafeGz.filename">Scansafe.gz</entry>
+	
+	<entry key="scanSafeBz2.LogFilePath">/src/test/resources/Audit/LogFiles/WeeklyRegressionLogs/Scansafe.bz2</entry>
+	<entry key="scanSafeBz2.DataSourceFormat">CSV</entry>
+	<entry key="scanSafeBz2.DataSourceType">ScanSafe</entry>
+	<entry key="scanSafeBz2.type">ScanSafe</entry>
+	<entry key="scanSafeBz2.log_format">CSV</entry>
+	<entry key="scanSafeBz2.filename">Scansafe.bz2</entry>
+	
+	juniperScreenOS
+	<entry key="juniperScreenOSZip.LogFilePath">/src/test/resources/Audit/LogFiles/WeeklyRegressionLogs/Juniper_ScreenOS.zip</entry>
+	<entry key="juniperScreenOSZip.DataSourceFormat">syslog</entry>
+	<entry key="juniperScreenOSZip.DataSourceType">Juniper ScreenOS</entry>
+	<entry key="juniperScreenOSZip.type">Juniper ScreenOS</entry>
+	<entry key="juniperScreenOSZip.log_format">syslog</entry>
+	<entry key="juniperScreenOSZip.filename">Juniper_ScreenOS.zip</entry>
+	
+	<entry key="juniperScreenOSGz.LogFilePath">/src/test/resources/Audit/LogFiles/WeeklyRegressionLogs/Juniper_ScreenOS.gz</entry>
+	<entry key="juniperScreenOSGz.DataSourceFormat">syslog</entry>
+	<entry key="juniperScreenOSGz.DataSourceType">Juniper ScreenOS</entry>
+	<entry key="juniperScreenOSGz.type">Juniper ScreenOS</entry>
+	<entry key="juniperScreenOSGz.log_format">syslog</entry>
+	<entry key="juniperScreenOSGz.filename">Juniper_ScreenOS.gz</entry>
+	
+	<entry key="juniperScreenOSBz2.LogFilePath">/src/test/resources/Audit/LogFiles/WeeklyRegressionLogs/Juniper_ScreenOS.bz2</entry>
+	<entry key="juniperScreenOSBz2.DataSourceFormat">syslog</entry>
+	<entry key="juniperScreenOSBz2.DataSourceType">Juniper ScreenOS</entry>
+	<entry key="juniperScreenOSBz2.type">Juniper ScreenOS</entry>
+	<entry key="juniperScreenOSBz2.log_format">syslog</entry>
+	<entry key="juniperScreenOSBz2.filename">Juniper_ScreenOS.bz2</entry>
+	
+	ciscoWSAW3C
+	<entry key="ciscoWSAW3CZip.LogFilePath">/src/test/resources/Audit/LogFiles/WeeklyRegressionLogs/Cisco_WSA_w3c.zip</entry>
+	<entry key="ciscoWSAW3CZip.DataSourceFormat">W3C</entry>
+	<entry key="ciscoWSAW3CZip.DataSourceType">Cisco WSA</entry>
+	<entry key="ciscoWSAW3CZip.type">Cisco WSA</entry>
+	<entry key="ciscoWSAW3CZip.log_format">W3C</entry>
+	<entry key="ciscoWSAW3CZip.filename">Cisco_WSA_w3c.zip</entry>
+	
+	<entry key="ciscoWSAW3CBz2.LogFilePath">/src/test/resources/Audit/LogFiles/WeeklyRegressionLogs/Cisco_WSA_w3c.bz2</entry>
+	<entry key="ciscoWSAW3CBz2.DataSourceFormat">W3C</entry>
+	<entry key="ciscoWSAW3CBz2.DataSourceType">Cisco WSA</entry>
+	<entry key="ciscoWSAW3CBz2.type">Cisco WSA</entry>
+	<entry key="ciscoWSAW3CBz2.log_format">W3C</entry>
+	<entry key="ciscoWSAW3CBz2.filename">Cisco_WSA_w3c.bz2</entry>
+	
+	<entry key="ciscoWSAW3CGz.LogFilePath">/src/test/resources/Audit/LogFiles/WeeklyRegressionLogs/Cisco_WSA_w3c.gz</entry>
+	<entry key="ciscoWSAW3CGz.DataSourceFormat">W3C</entry>
+	<entry key="ciscoWSAW3CGz.DataSourceType">Cisco WSA</entry>
+	<entry key="ciscoWSAW3CGz.type">Cisco WSA</entry>
+	<entry key="ciscoWSAW3CGz.log_format">W3C</entry>
+	<entry key="ciscoWSAW3CGz.filename">Cisco_WSA_w3c.gz</entry>
+	
+	ciscoCWS
+    <entry key="ciscoCWSZip.LogFilePath">/src/test/resources/Audit/LogFiles/WeeklyRegressionLogs/Cisco_CWS.zip</entry>
+	<entry key="ciscoCWSZip.DataSourceFormat">tsv</entry>
+	<entry key="ciscoCWSZip.DataSourceType">CWS</entry>
+	<entry key="ciscoCWSZip.type">CWS</entry>
+	<entry key="ciscoCWSZip.log_format">tsv</entry>
+	<entry key="ciscoCWSZip.filename">Cisco_CWS.zip</entry>
+	
+	<entry key="ciscoCWSGz.LogFilePath">/src/test/resources/Audit/LogFiles/WeeklyRegressionLogs/Cisco_CWS.gz</entry>
+	<entry key="ciscoCWSGz.DataSourceFormat">tsv</entry>
+	<entry key="ciscoCWSGz.DataSourceType">CWS</entry>
+	<entry key="ciscoCWSGz.type">CWS</entry>
+	<entry key="ciscoCWSGz.log_format">tsv</entry>
+	<entry key="ciscoCWSGz.filename">Cisco_CWS.gz</entry>
+	
+	<entry key="ciscoCWSBz2.LogFilePath">/src/test/resources/Audit/LogFiles/WeeklyRegressionLogs/Cisco_CWS.bz2</entry>
+	<entry key="ciscoCWSBz2.DataSourceFormat">tsv</entry>
+	<entry key="ciscoCWSBz2.DataSourceType">CWS</entry>
+	<entry key="ciscoCWSBz2.type">CWS</entry>
+	<entry key="ciscoCWSBz2.log_format">tsv</entry>
+	<entry key="ciscoCWSBz2.filename">Cisco_CWS.bz2</entry>
+	
+	
+	
+	scp multi files copy configuration start
+
+   1 
+	<entry key="wsaAccessHeaderOnly1.LogFilePath">/src/test/resources/Audit/LogFiles/wsa_access_headeronly1.zip</entry>
+	<entry key="wsaAccessHeaderOnly1.filename">wsa_access_headeronly1.zip</entry>
+	
+	<entry key="wsaAccessHeaderOnly2.LogFilePath">/src/test/resources/Audit/LogFiles/wsa_access_headeronly2.zip</entry>
+	<entry key="wsaAccessHeaderOnly2.filename">wsa_access_headeronly2.zip</entry>
+	
+	
+	<entry key="wsaAccessHeaderOnly3.LogFilePath">/src/test/resources/Audit/LogFiles/wsa_access_headeronly3.zip</entry>
+	<entry key="wsaAccessHeaderOnly3.filename">wsa_access_headeronly3.zip</entry>
+	
+	<entry key="wsaAccessHeaderOnly.DataSourceFormat">access</entry>
+	<entry key="wsaAccessHeaderOnly.DataSourceType">Cisco WSA</entry>
+	<entry key="wsaAccessHeaderOnly.type">Cisco WSA</entry>
+	<entry key="wsaAccessHeaderOnly.log_format">access</entry>
+	
+	
+	2
+	
+    <entry key="mcawebgatewaynegative1.LogFilePath">/src/test/resources/Audit/LogFiles/Mcaffe-web-gateway-negative1.zip</entry>
+    <entry key="mcawebgatewaynegative2.filename">Mcaffe-web-gateway-negative1.zip</entry>	
+	
+	
+	<entry key="mcawebgatewaynegative2.LogFilePath">/src/test/resources/Audit/LogFiles/Mcaffe-web-gateway-negative2.zip</entry>
+    <entry key="mcawebgatewaynegative2.filename">Mcaffe-web-gateway-negative2.zip</entry>	
+	
+	<entry key="mcawebgatewaynegative3.LogFilePath">/src/test/resources/Audit/LogFiles/Mcaffe-web-gateway-negative3.zip</entry>
+    <entry key="mcawebgatewaynegative3.filename">Mcaffe-web-gateway-negative3.zip</entry>	
+	
+	
+	<entry key="mcawebgatewaynegative.DataSourceFormat">access</entry>
+	<entry key="mcawebgatewaynegative.DataSourceType">McAfee Web Gateway</entry>
+	<entry key="mcawebgatewaynegative.type">McAfee Web Gateway</entry>
+	<entry key="mcawebgatewaynegative.log_format">access</entry>
+		
+	scp multi files copy configuration end
+	
+	mcafee 
+
+	<entry key="mcafeesef.LogFilePath">/src/test/resources/Audit/LogFiles/BE_McAfee_SEF_Format.log.zip</entry>
+	<entry key="mcafeesef.DataSourceFormat">WELF</entry>
+	<entry key="mcafeesef.DataSourceType">McAfee</entry>
+	<entry key="mcafeesef.type">McAfee</entry>
+	<entry key="mcafeesef.log_format">WELF</entry>
+	<entry key="mcafeesef.filename">BE_McAfee_SEF_Format.log.zip</entry>	
+	
+	squid proxy 
+	<entry key="squidrpoxy.LogFilePath">/src/test/resources/Audit/LogFiles/BE_Squid-2015-04-02.zip</entry>
+	<entry key="squidrpoxy.DataSourceFormat">access</entry>
+	<entry key="squidrpoxy.DataSourceType">Squid</entry>
+	<entry key="squidrpoxy.type">Squid</entry>
+	<entry key="squidrpoxy.log_format">access</entry>
+	<entry key="squidrpoxy.filename">BE_Squid-2015-04-02.zip</entry>	
+
+    TIA Log
+    <entry key="tiamca2.LogFilePath">/src/test/resources/Audit/LogFiles/TIACompressedFiles/McAfee_LowRepURL_01Apr16_UserTIA01.zip</entry>
+	<entry key="tiamca2.DataSourceFormat">WELF</entry>
+	<entry key="tiamca2.DataSourceType">McAfee</entry>
+	<entry key="tiamca2.type">McAfee</entry>
+	<entry key="tiamca2.log_format">WELF</entry>
+	<entry key="tiamca2.filename">McAfee_LowRepURL_01Apr16_UserTIA01.zip</entry> 
+	
+	<entry key="bc_nosessions_TBI_BBI.LogFilePath">/src/test/resources/Audit/LogFiles/TIACompressedFiles/BlueCoat_NoSessions_50_BC03_03Jan2016.zip</entry>
+	<entry key="bc_nosessions_TBI_BBI.DataSourceFormat">ELFF</entry>
+	<entry key="bc_nosessions_TBI_BBI.DataSourceType">Bluecoat ProxySG</entry>
+	<entry key="bc_nosessions_TBI_BBI.type">Bluecoat ProxySG</entry>
+	<entry key="bc_nosessions_TBI_BBI.log_format">ELFF</entry>
+	<entry key="bc_nosessions_TBI_BBI.filename">BlueCoat_NoSessions_50_BC03_03Jan2016.zip</entry>
+	
+	<entry key="bc_upload_download_TBI_BBI.LogFilePath">/src/test/resources/Audit/LogFiles/TIACompressedFiles/BlueCoat_UploadDownloadBBI_BC26_26Jan2016.zip</entry>
+	<entry key="bc_upload_download_TBI_BBI.DataSourceFormat">ELFF</entry>
+	<entry key="bc_upload_download_TBI_BBI.DataSourceType">Bluecoat ProxySG</entry>
+	<entry key="bc_upload_download_TBI_BBI.type">Bluecoat ProxySG</entry>
+	<entry key="bc_upload_download_TBI_BBI.log_format">ELFF</entry>
+	<entry key="bc_upload_download_TBI_BBI.filename">BlueCoat_UploadDownloadBBI_BC26_26Jan2016.zip</entry>
+	
+	
+	
+	<entry key="tiamca.LogFilePath">/src/test/resources/Audit/LogFiles/GoldenSetDataLogs/McAfee_LowRepURL_01Apr16_UserTIA01.zip</entry>
+	<entry key="tiamca.DataSourceFormat">WELF</entry>
+	<entry key="tiamca.DataSourceType">McAfee</entry>
+	<entry key="tiamca.type">McAfee</entry>
+	<entry key="tiamca.log_format">WELF</entry>
+	<entry key="tiamca.filename">McAfee_LowRepURL_01Apr16_UserTIA01.zip</entry>	
+	
+	
+	
+	<entry key="be_barracuda_cli.LogFilePath">/src/test/resources/Audit/LogFiles/GoldenSetDataLogs/BE_Barracuda_C120773_Postprocessing_Activity_Format.zip</entry>
+	<entry key="be_barracuda_cli.DataSourceFormat">cli</entry>
+	<entry key="be_barracuda_cli.DataSourceType">Barracuda</entry>
+	<entry key="be_barracuda_cli.type">Barracuda</entry>
+	<entry key="be_barracuda_cli.log_format">cli</entry>
+	<entry key="be_barracuda_cli.filename">BE_Barracuda_C120773_Postprocessing_Activity_Format.zip</entry>
+	
+	<entry key="be_barracuda_sys.LogFilePath">/src/test/resources/Audit/LogFiles/GoldenSetDataLogs/BE_Barracuda_C120773_Postprocessing_Syslog_Format.zip</entry>
+	<entry key="be_barracuda_sys.DataSourceFormat">syslog</entry>
+	<entry key="be_barracuda_sys.DataSourceType">Barracuda</entry>
+	<entry key="be_barracuda_sys.type">Barracuda</entry>
+	<entry key="be_barracuda_sys.log_format">syslog</entry>
+	<entry key="be_barracuda_sys.filename">BE_Barracuda_C120773_Postprocessing_Syslog_Format.zip</entry>
+	
+	
+	<entry key="be_bluecoat_proxy.LogFilePath">/src/test/resources/Audit/LogFiles/GoldenSetDataLogs/bluecoat-vald-auto.log.zip</entry>
+	<entry key="be_bluecoat_proxy.DataSourceFormat">ELFF</entry>
+	<entry key="be_bluecoat_proxy.DataSourceType">Bluecoat ProxySG</entry>
+	<entry key="be_bluecoat_proxy.type">Bluecoat ProxySG</entry>
+	<entry key="be_bluecoat_proxy.log_format">ELFF</entry>
+	<entry key="be_bluecoat_proxy.filename">bluecoat-vald-auto.log.zip</entry>
+	
+	<entry key="be_bluecoatProxy_splunk_wo_ch.LogFilePath">/src/test/resources/Audit/LogFiles/GoldenSetDataLogs/BE_Bluecoat_Splunk_20rec.zip</entry>
+	<entry key="be_bluecoatProxy_splunk_wo_ch.DataSourceFormat">ELFF</entry>
+	<entry key="be_bluecoatProxy_splunk_wo_ch.DataSourceType">Bluecoat ProxySG</entry>
+	<entry key="be_bluecoatProxy_splunk_wo_ch.type">Bluecoat ProxySG</entry>
+	<entry key="be_bluecoatProxy_splunk_wo_ch.log_format">ELFF</entry>
+	<entry key="be_bluecoatProxy_splunk_wo_ch.filename">BE_Bluecoat_Splunk_20rec.zip</entry>
+	
+	<entry key="be_bluecoatProxy_splunk_mandatory_headers.LogFilePath">/src/test/resources/Audit/LogFiles/GoldenSetDataLogs/BE_Bluecoat_Splunk_mandatory_headers.zip</entry>
+	<entry key="be_bluecoatProxy_splunk_mandatory_headers.DataSourceFormat">ELFF</entry>
+	<entry key="be_bluecoatProxy_splunk_mandatory_headers.DataSourceType">Bluecoat ProxySG</entry>
+	<entry key="be_bluecoatProxy_splunk_mandatory_headers.type">Bluecoat ProxySG</entry>
+	<entry key="be_bluecoatProxy_splunk_mandatory_headers.log_format">ELFF</entry>
+	<entry key="be_bluecoatProxy_splunk_mandatory_headers.filename">BE_Bluecoat_Splunk_mandatory_headers.zip</entry>
+	
+	<entry key="be_checkpoint_csv.LogFilePath">/src/test/resources/Audit/LogFiles/CheckPoint-2015-09-04.zip</entry>
+	<entry key="be_checkpoint_csv.DataSourceFormat">CSV</entry>
+	<entry key="be_checkpoint_csv.DataSourceType">Checkpoint</entry>
+	<entry key="be_checkpoint_csv.type">Checkpoint</entry>
+	<entry key="be_checkpoint_csv.log_format">CSV</entry>
+	<entry key="be_checkpoint_csv.filename">CheckPoint-2015-09-04.zip</entry>
+	
+	
+	<entry key="be_checkpoint_smartview.LogFilePath">/src/test/resources/Audit/LogFiles/GoldenSetDataLogs/smartview_export_all.txt.gz</entry>
+	<entry key="be_checkpoint_smartview.DataSourceFormat">SmartView</entry>
+	<entry key="be_checkpoint_smartview.DataSourceType">Checkpoint</entry>
+	<entry key="be_checkpoint_smartview.type">Checkpoint</entry>
+	<entry key="be_checkpoint_smartview.log_format">SmartView</entry>
+	<entry key="be_checkpoint_smartview.filename">smartview_export_all.txt.gz</entry>
+	
+	
+	<entry key="be_juniperscreenos.LogFilePath">/src/test/resources/Audit/LogFiles/GoldenSetDataLogs/Net-screen-final.zip</entry>
+	<entry key="be_juniperscreenos.DataSourceFormat">syslog</entry>
+	<entry key="be_juniperscreenos.DataSourceType">Juniper ScreenOS</entry>
+	<entry key="be_juniperscreenos.type">Juniper ScreenOS</entry>
+	<entry key="be_juniperscreenos.log_format">syslog</entry>
+	<entry key="be_juniperscreenos.filename">Net-screen-final.zip</entry>
+	
+
+	<entry key="be_pancsv.LogFilePath">/src/test/resources/Audit/LogFiles/GoldenSetDataLogs/BE_PAN_CSV.zip</entry>
+	<entry key="be_pancsv.DataSourceFormat">CSV</entry>
+	<entry key="be_pancsv.DataSourceType">Palo-Alto</entry>
+	<entry key="be_pancsv.type">Palo-Alto</entry>
+	<entry key="be_pancsv.log_format">CSV</entry>
+	<entry key="be_pancsv.filename">BE_PAN_CSV.zip</entry>
+	
+	<entry key="be_pancsv_splunk_wo_ch.LogFilePath">/src/test/resources/Audit/LogFiles/GoldenSetDataLogs/pan_20recs_with_all_splunk_header_only.log.zip</entry>
+	<entry key="be_pancsv_splunk_wo_ch.DataSourceFormat">Splunk</entry>
+	<entry key="be_pancsv_splunk_wo_ch.DataSourceType">Palo-Alto</entry>
+	<entry key="be_pancsv_splunk_wo_ch.type">Palo-Alto</entry>
+	<entry key="be_pancsv_splunk_wo_ch.log_format">Splunk</entry>
+	<entry key="be_pancsv_splunk_wo_ch.filename">pan_20recs_with_all_splunk_header_only.log.zip</entry>
+	
+	<entry key="be_pancsv_splunk_ch.LogFilePath">/src/test/resources/Audit/LogFiles/GoldenSetDataLogs/pan_20recs_with_raw_splunk_header_only.zip</entry>
+	<entry key="be_pancsv_splunk_ch.DataSourceFormat">Splunk</entry>
+	<entry key="be_pancsv_splunk_ch.DataSourceType">Palo-Alto</entry>
+	<entry key="be_pancsv_splunk_ch.type">Palo-Alto</entry>
+	<entry key="be_pancsv_splunk_ch.log_format">Splunk</entry>
+	<entry key="be_pancsv_splunk_ch.filename">pan_20recs_with_raw_splunk_header_only.zip</entry>
+	
+	<entry key="be_wsaw3c.LogFilePath">/src/test/resources/Audit/LogFiles/GoldenSetDataLogs/WSA_W3c-KU.log.zip</entry>
+	<entry key="be_wsaw3c.DataSourceFormat">W3C</entry>
+	<entry key="be_wsaw3c.DataSourceType">Cisco WSA</entry>
+	<entry key="be_wsaw3c.type">Cisco WSA</entry>
+	<entry key="be_wsaw3c.log_format">W3C</entry>
+	<entry key="be_wsaw3c.filename">WSA_W3c-KU.log.zip</entry>
+	
+	<entry key="be_wsaaccess.LogFilePath">/src/test/resources/Audit/LogFiles/GoldenSetDataLogs/WSA-Access_KU.log.zip</entry>
+	<entry key="be_wsaaccess.DataSourceFormat">access</entry>
+	<entry key="be_wsaaccess.DataSourceType">Cisco WSA</entry>
+	<entry key="be_wsaaccess.type">Cisco WSA</entry>
+	<entry key="be_wsaaccess.log_format">access</entry>
+	<entry key="be_wsaaccess.filename">WSA-Access_KU.log.zip</entry>
+	
+	<entry key="be_zscalar.LogFilePath">/src/test/resources/Audit/LogFiles/GoldenSetDataLogs/Zscaler_Edited_10Logs.zip</entry>
+	<entry key="be_zscalar.DataSourceFormat">NSS Custom</entry>
+	<entry key="be_zscalar.DataSourceType">ZScaler</entry>
+	<entry key="be_zscalar.type">ZScaler</entry>
+	<entry key="be_zscalar.log_format">NSS Custom</entry>
+	<entry key="be_zscalar.filename">Zscaler_Edited_10Logs.zip</entry>
+	
+	
+	<entry key="scpuploadcompleted.LogFilePath">/src/test/resources/Audit/LogFiles/UPLOAD_COMPLETED</entry>
+	<entry key="scpuploadcompleted.filename">UPLOAD_COMPLETED</entry>
+	
+	
+	websense proxy files
+	<entry key="websense_arc.LogFilePath">/src/test/resources/Audit/LogFiles/GoldenSetDataLogs/Websense-ArcSight-vald-final.zip</entry>
+	<entry key="websense_arc.DataSourceFormat">Local</entry>
+	<entry key="websense_arc.DataSourceType">Websense Proxy</entry>
+	<entry key="websense_arc.type">Websense Proxy</entry>
+	<entry key="websense_arc.log_format">Local</entry>
+	<entry key="websense_arc.filename">Websense-ArcSight-vald-final.zip</entry>
+	
+	
+	<entry key="websense_hosted.LogFilePath">/src/test/resources/Audit/LogFiles/GoldenSetDataLogs/Websense_Hosted_No_CustomHeader.zip</entry>
+	<entry key="websense_hosted.DataSourceFormat">Hosted</entry>
+	<entry key="websense_hosted.DataSourceType">Websense Proxy</entry>
+	<entry key="websense_hosted.type">Websense Proxy</entry>
+	<entry key="websense_hosted.log_format">Hosted</entry>
+	<entry key="websense_hosted.filename">Websense_Hosted_No_CustomHeader.zip</entry>
+	
+	<entry key="websense_hosted_7z.LogFilePath">/src/test/resources/Audit/LogFiles/GoldenSetDataLogs7z/Websense_Hosted_No_CustomHeader.7z</entry>
+	<entry key="websense_hosted_7z.DataSourceFormat">Hosted</entry>
+	<entry key="websense_hosted_7z.DataSourceType">Websense Proxy</entry>
+	<entry key="websense_hosted_7z.type">Websense Proxy</entry>
+	<entry key="websense_hosted_7z.log_format">Hosted</entry>
+	<entry key="websense_hosted_7z.filename">Websense_Hosted_No_CustomHeader.7z</entry>
+	
+	
+	<entry key="websense_hosted_bz2.LogFilePath">/src/test/resources/Audit/LogFiles/GoldenSetDataLogsBz2/Websense_Hosted_No_CustomHeader.bz2</entry>
+	<entry key="websense_hosted_bz2.DataSourceFormat">Hosted</entry>
+	<entry key="websense_hosted_bz2.DataSourceType">Websense Proxy</entry>
+	<entry key="websense_hosted_bz2.type">Websense Proxy</entry>
+	<entry key="websense_hosted_bz2.log_format">Hosted</entry>
+	<entry key="websense_hosted_bz2.filename">Websense_Hosted_No_CustomHeader.bz2</entry>
+	
+	
+		
+	<entry key="websense_hosted_gz.LogFilePath">/src/test/resources/Audit/LogFiles/GoldenSetDataLogsGZ/Websense_Hosted_No_CustomHeader.gz</entry>
+	<entry key="websense_hosted_gz.DataSourceFormat">Hosted</entry>
+	<entry key="websense_hosted_gz.DataSourceType">Websense Proxy</entry>
+	<entry key="websense_hosted_gz.type">Websense Proxy</entry>
+	<entry key="websense_hosted_gz.log_format">Hosted</entry>
+	<entry key="websense_hosted_gz.filename">Websense_Hosted_No_CustomHeader.gz</entry>
+	
+			
+	<entry key="websense_arc_tar.LogFilePath">/src/test/resources/Audit/LogFiles/GoldenSetDataLogs/Websense-ArcSight-vald-final.tar</entry>
+	<entry key="websense_arc_tar.DataSourceFormat">CEF</entry>
+	<entry key="websense_arc_tar.DataSourceType">Websense Proxy</entry>
+	<entry key="websense_arc_tar.type">Websense Proxy</entry>
+	<entry key="websense_arc_tar.log_format">CEF</entry>
+	<entry key="websense_arc_tar.filename">Websense-ArcSight-vald-final.tar</entry>
+	
+	
+	
+	
+	sonicwall file
+	<entry key="sonicwall.LogFilePath">/src/test/resources/Audit/LogFiles/GoldenSetDataLogs/BE_SonicWall_all_syslog_time_format_in_one.zip</entry>
+	<entry key="sonicwall.DataSourceFormat">WELF</entry>
+	<entry key="sonicwall.DataSourceType">Sonicwall</entry>
+	<entry key="sonicwall.type">Sonicwall</entry>
+	<entry key="sonicwall.log_format">WELF</entry>
+	<entry key="sonicwall.filename">BE_SonicWall_all_syslog_time_format_in_one.zip</entry>
+	
+	
+	
+	
+	
+	7Z compressed formats
+	<entry key="be_barracuda_cli_7z.LogFilePath">/src/test/resources/Audit/LogFiles/GoldenSetDataLogs7z/BE_Barracuda_C120773_Postprocessing_Activity_Format.7z</entry>
+	<entry key="be_barracuda_cli_7z.DataSourceFormat">cli</entry>
+	<entry key="be_barracuda_cli_7z.DataSourceType">Barracuda</entry>
+	<entry key="be_barracuda_cli_7z.type">Barracuda</entry>
+	<entry key="be_barracuda_cli_7z.log_format">cli</entry>
+	<entry key="be_barracuda_cli_7z.filename">Barracuda_C120773_Postprocessing_Syslog_Format.7z</entry>
+	
+	<entry key="be_barracuda_sys_7z.LogFilePath">/src/test/resources/Audit/LogFiles/GoldenSetDataLogs7z/Barracuda_C120773_Postprocessing_Syslog_Format.7z</entry>
+	<entry key="be_barracuda_sys_7z.DataSourceFormat">syslog</entry>
+	<entry key="be_barracuda_sys_7z.DataSourceType">Barracuda</entry>
+	<entry key="be_barracuda_sys_7z.type">Barracuda</entry>
+	<entry key="be_barracuda_sys_7z.log_format">syslog</entry>
+	<entry key="be_barracuda_sys_7z.filename">BE_Barracuda_C120773_Postprocessing_Syslog_Format.7z</entry>
+	
+	
+	<entry key="be_bluecoat_proxy_7z.LogFilePath">/src/test/resources/Audit/LogFiles/GoldenSetDataLogs7z/bluecoat-vald-auto.log.7z</entry>
+	<entry key="be_bluecoat_proxy_7z.DataSourceFormat">ELFF</entry>
+	<entry key="be_bluecoat_proxy_7z.DataSourceType">Bluecoat ProxySG</entry>
+	<entry key="be_bluecoat_proxy_7z.type">Bluecoat ProxySG</entry>
+	<entry key="be_bluecoat_proxy_7z.log_format">ELFF</entry>
+	<entry key="be_bluecoat_proxy_7z.filename">bluecoat-vald-auto.log.7z</entry>
+	
+    <entry key="be_bluecoat_proxy_bz2.LogFilePath">/src/test/resources/Audit/LogFiles/GoldenSetDataLogsBz2/bluecoat-vald-auto.log.bz2</entry>
+	<entry key="be_bluecoat_proxy_bz2.DataSourceFormat">ELFF</entry>
+	<entry key="be_bluecoat_proxy_bz2.DataSourceType">Bluecoat ProxySG</entry>
+	<entry key="be_bluecoat_proxy_bz2.type">Bluecoat ProxySG</entry>
+	<entry key="be_bluecoat_proxy_bz2.log_format">ELFF</entry>
+	<entry key="be_bluecoat_proxy_bz2.filename">bluecoat-vald-auto.log.bz2</entry>
+	
+	<entry key="be_bluecoat_proxy_gz.LogFilePath">/src/test/resources/Audit/LogFiles/GoldenSetDataLogsGZ/bluecoat-vald-auto.log.gz</entry>
+	<entry key="be_bluecoat_proxy_gz.DataSourceFormat">ELFF</entry>
+	<entry key="be_bluecoat_proxy_gz.DataSourceType">Bluecoat ProxySG</entry>
+	<entry key="be_bluecoat_proxy_gz.type">Bluecoat ProxySG</entry>
+	<entry key="be_bluecoat_proxy_gz.log_format">ELFF</entry>
+	<entry key="be_bluecoat_proxy_gz.filename">bluecoat-vald-auto.log.gz</entry>
+	
+	
+	
+	<entry key="be_bluecoatProxy_splunk_wo_ch_7z.LogFilePath">/src/test/resources/Audit/LogFiles/GoldenSetDataLogs7z/Bluecoat_Splunk_20rec.7z</entry>
+	<entry key="be_bluecoatProxy_splunk_wo_ch_7z.DataSourceFormat">ELFF</entry>
+	<entry key="be_bluecoatProxy_splunk_wo_ch_7z.DataSourceType">Bluecoat ProxySG</entry>
+	<entry key="be_bluecoatProxy_splunk_wo_ch_7z.type">Bluecoat ProxySG</entry>
+	<entry key="be_bluecoatProxy_splunk_wo_ch_7z.log_format">ELFF</entry>
+	<entry key="be_bluecoatProxy_splunk_wo_ch_7z.filename">Bluecoat_Splunk_20rec.7z</entry>
+	
+	<entry key="be_checkpoint_csv_7z.LogFilePath">/src/test/resources/Audit/LogFiles/GoldenSetDataLogs7z/CheckPoint-2015-09-04.7z</entry>
+	<entry key="be_checkpoint_csv_7z.DataSourceFormat">CSV</entry>
+	<entry key="be_checkpoint_csv_7z.DataSourceType">Checkpoint</entry>
+	<entry key="be_checkpoint_csv_7z.type">Checkpoint</entry>
+	<entry key="be_checkpoint_csv_7z.log_format">CSV</entry>
+	<entry key="be_checkpoint_csv_7z.filename">CheckPoint-2015-09-04.7z</entry>
+	
+	
+	<entry key="be_checkpoint_smartview_7z.LogFilePath">/src/test/resources/Audit/LogFiles/GoldenSetDataLogs7z/smartview_export_all.txt.7z</entry>
+	<entry key="be_checkpoint_smartview_7z.DataSourceFormat">SmartView</entry>
+	<entry key="be_checkpoint_smartview_7z.DataSourceType">Checkpoint</entry>
+	<entry key="be_checkpoint_smartview_7z.type">Checkpoint</entry>
+	<entry key="be_checkpoint_smartview_7z.log_format">SmartView</entry>
+	<entry key="be_checkpoint_smartview_7z.filename">smartview_export_all.txt.7z</entry>
+	
+	<entry key="be_juniperscreenos_7z.LogFilePath">/src/test/resources/Audit/LogFiles/GoldenSetDataLogs7z/Net-screen-final.7z</entry>
+	<entry key="be_juniperscreenos_7z.DataSourceFormat">syslog</entry>
+	<entry key="be_juniperscreenos_7z.DataSourceType">Juniper ScreenOS</entry>
+	<entry key="be_juniperscreenos_7z.type">Juniper ScreenOS</entry>
+	<entry key="be_juniperscreenos_7z.log_format">syslog</entry>
+	<entry key="be_juniperscreenos_7z.filename">Net-screen-final.7z</entry>
+	
+	<entry key="juniperSRX_7z.LogFilePath">/src/test/resources/Audit/LogFiles/GoldenSetDataLogs7z/Juniper-srx-datavald.txt.7z</entry>
+	<entry key="juniperSRX_7z.DataSourceFormat">WELF</entry>
+	<entry key="juniperSRX_7z.DataSourceType">Juniper SRX</entry>
+	<entry key="juniperSRX_7z.type">Juniper SRX</entry>
+	<entry key="juniperSRX_7z.log_format">WELF</entry>
+	<entry key="juniperSRX_7z.filename">Juniper-srx-datavald.txt.7z</entry>
+	
+	
+	<entry key="mcafeesef_7z.LogFilePath">/src/test/resources/Audit/LogFiles/GoldenSetDataLogs7z/BE_McAfee_SEF_Format.7z</entry>
+	<entry key="mcafeesef_7z.DataSourceFormat">WELF</entry>
+	<entry key="mcafeesef_7z.DataSourceType">McAfee</entry>
+	<entry key="mcafeesef_7z.type">McAfee</entry>
+	<entry key="mcafeesef_7z.log_format">WELF</entry>
+	<entry key="mcafeesef_7z.filename">BE_McAfee_SEF_Format.7z</entry>	
+	
+	squid proxy 
+	<entry key="squidrpoxy_7z.LogFilePath">/src/test/resources/Audit/LogFiles/GoldenSetDataLogs7z/BE_Squid-2015-04-02.7z</entry>
+	<entry key="squidrpoxy_7z.DataSourceFormat">access</entry>
+	<entry key="squidrpoxy_7z.DataSourceType">Squid</entry>
+	<entry key="squidrpoxy_7z.type">Squid</entry>
+	<entry key="squidrpoxy_7z.log_format">access</entry>
+	<entry key="squidrpoxy_7z.filename">BE_Squid-2015-04-02.7z</entry>	
+	
+	<entry key="be_pancsv_7z.LogFilePath">/src/test/resources/Audit/LogFiles/GoldenSetDataLogs7z/BE_PAN_CSV.7z</entry>
+	<entry key="be_pancsv_7z.DataSourceFormat">CSV</entry>
+	<entry key="be_pancsv_7z.DataSourceType">Palo-Alto</entry>
+	<entry key="be_pancsv_7z.type">Palo-Alto</entry>
+	<entry key="be_pancsv_7z.log_format">CSV</entry>
+	<entry key="be_pancsv_7z.filename">BE_PAN_CSV.7z</entry>	
+	
+	<entry key="be_pancsv_bz2.LogFilePath">/src/test/resources/Audit/LogFiles/GoldenSetDataLogsBz2/BE_PAN_CSV.bz2</entry>
+	<entry key="be_pancsv_bz2.DataSourceFormat">CSV</entry>
+	<entry key="be_pancsv_bz2.DataSourceType">Palo-Alto</entry>
+	<entry key="be_pancsv_bz2.type">Palo-Alto</entry>
+	<entry key="be_pancsv_bz2.log_format">CSV</entry>
+	<entry key="be_pancsv_bz2.filename">BE_PAN_CSV.bz2</entry>	
+		
+	
+	<entry key="be_pancsv_gz.LogFilePath">/src/test/resources/Audit/LogFiles/GoldenSetDataLogsGZ/BE_PAN_CSV.gz</entry>
+	<entry key="be_pancsv_gz.DataSourceFormat">CSV</entry>
+	<entry key="be_pancsv_gz.DataSourceType">Palo-Alto</entry>
+	<entry key="be_pancsv_gz.type">Palo-Alto</entry>
+	<entry key="be_pancsv_gz.log_format">CSV</entry>
+	<entry key="be_pancsv_gz.filename">BE_PAN_CSV.gz</entry>
+	
+	<entry key="be_pancsv_splunk_wo_ch_7z.LogFilePath">/src/test/resources/Audit/LogFiles/GoldenSetDataLogs7z/pan_20recs_with_all_splunk_header_only.log.7z</entry>
+	<entry key="be_pancsv_splunk_wo_ch_7z.DataSourceFormat">Splunk</entry>
+	<entry key="be_pancsv_splunk_wo_ch_7z.DataSourceType">Palo-Alto</entry>
+	<entry key="be_pancsv_splunk_wo_ch_7z.type">Palo-Alto</entry>
+	<entry key="be_pancsv_splunk_wo_ch_7z.log_format">Splunk</entry>
+	<entry key="be_pancsv_splunk_wo_ch_7z.filename">pan_20recs_with_all_splunk_header_only.log.7z</entry>
+	
+	<entry key="be_wsaw3c_7z.LogFilePath">/src/test/resources/Audit/LogFiles/GoldenSetDataLogs7z/WSA_W3c-KU.log.7z</entry>
+	<entry key="be_wsaw3c_7z.DataSourceFormat">W3C</entry>
+	<entry key="be_wsaw3c_7z.DataSourceType">Cisco WSA</entry>
+	<entry key="be_wsaw3c_7z.type">Cisco WSA</entry>
+	<entry key="be_wsaw3c_7z.log_format">W3C</entry>
+	<entry key="be_wsaw3c_7z.filename">WSA_W3c-KU.log.7z</entry>
+	
+	<entry key="be_wsaw3c_bz2.LogFilePath">/src/test/resources/Audit/LogFiles/GoldenSetDataLogsBz2/WSA_W3c-KU.log.bz2</entry>
+	<entry key="be_wsaw3c_bz2.DataSourceFormat">W3C</entry>
+	<entry key="be_wsaw3c_bz2.DataSourceType">Cisco WSA</entry>
+	<entry key="be_wsaw3c_bz2.type">Cisco WSA</entry>
+	<entry key="be_wsaw3c_bz2.log_format">W3C</entry>
+	<entry key="be_wsaw3c_bz2.filename">WSA_W3c-KU.log.bz2</entry>
+	
+	<entry key="be_wsaw3c_gz.LogFilePath">/src/test/resources/Audit/LogFiles/GoldenSetDataLogsGZ/WSA_W3c-KU.log.gz</entry>
+	<entry key="be_wsaw3c_gz.DataSourceFormat">W3C</entry>
+	<entry key="be_wsaw3c_gz.DataSourceType">Cisco WSA</entry>
+	<entry key="be_wsaw3c_gz.type">Cisco WSA</entry>
+	<entry key="be_wsaw3c_gz.log_format">W3C</entry>
+	<entry key="be_wsaw3c_gz.filename">WSA_W3c-KU.log.gz</entry>
+	
+	
+	<entry key="be_wsaaccess_7z.LogFilePath">/src/test/resources/Audit/LogFiles/GoldenSetDataLogs7z/WSA-Access_KU.log.zip.7z</entry>
+	<entry key="be_wsaaccess_7z.DataSourceFormat">access</entry>
+	<entry key="be_wsaaccess_7z.DataSourceType">Cisco WSA</entry>
+	<entry key="be_wsaaccess_7z.type">Cisco WSA</entry>
+	<entry key="be_wsaaccess_7z.log_format">access</entry>
+	<entry key="be_wsaaccess_7z.filename">WSA-Access_KU.log.zip.7z</entry>
+	
+	<entry key="be_zscalar_7z.LogFilePath">/src/test/resources/Audit/LogFiles/GoldenSetDataLogs7z/Zscaler_Edited_10Logs.7z</entry>
+	<entry key="be_zscalar_7z.DataSourceFormat">NSS Custom</entry>
+	<entry key="be_zscalar_7z.DataSourceType">ZScaler</entry>
+	<entry key="be_zscalar_7z.type">ZScaler</entry>
+	<entry key="be_zscalar_7z.log_format">NSS Custom</entry>
+	<entry key="be_zscalar_7z.filename">Zscaler_Edited_10Logs.7z</entry>
+	
+	<entry key="be_zscalar_bz2.LogFilePath">/src/test/resources/Audit/LogFiles/GoldenSetDataLogsBz2/Zscaler_Edited_10Logs.bz2</entry>
+	<entry key="be_zscalar_bz2.DataSourceFormat">NSS Custom</entry>
+	<entry key="be_zscalar_bz2.DataSourceType">ZScaler</entry>
+	<entry key="be_zscalar_bz2.type">ZScaler</entry>
+	<entry key="be_zscalar_bz2.log_format">NSS Custom</entry>
+	<entry key="be_zscalar_bz2.filename">Zscaler_Edited_10Logs.bz2</entry>
+	
+	<entry key="be_zscalar_gz.LogFilePath">/src/test/resources/Audit/LogFiles/GoldenSetDataLogsGZ/Zscaler_Edited_10Logs.gz</entry>
+	<entry key="be_zscalar_gz.DataSourceFormat">NSS Custom</entry>
+	<entry key="be_zscalar_gz.DataSourceType">ZScaler</entry>
+	<entry key="be_zscalar_gz.type">ZScaler</entry>
+	<entry key="be_zscalar_gz.log_format">NSS Custom</entry>
+	<entry key="be_zscalar_gz.filename">Zscaler_Edited_10Logs.gz</entry>
+	
+	
+	<entry key="wallmartWebGateWayLog_7z.LogFilePath">/src/test/resources/Audit/LogFiles/GoldenSetDataLogs7z/Wallmart_Mcaffe-web-gateway-final.7z</entry>
+	<entry key="wallmartWebGateWayLog_7z.DataSourceFormat">access</entry>
+	<entry key="wallmartWebGateWayLog_7z.DataSourceType">McAfee Web Gateway</entry>
+	<entry key="wallmartWebGateWayLog_7z.type">McAfee Web Gateway</entry>
+	<entry key="wallmartWebGateWayLog_7z.log_format">access</entry>
+	<entry key="wallmartWebGateWayLog_7z.filename">Wallmart_Mcaffe-web-gateway-final.7z</entry>	
+	
+	<entry key="wallmartWebGateWayLog_bz2.LogFilePath">/src/test/resources/Audit/LogFiles/GoldenSetDataLogsBz2/Wallmart_Mcaffe-web-gateway-final.bz2</entry>
+	<entry key="wallmartWebGateWayLog_bz2.DataSourceFormat">access</entry>
+	<entry key="wallmartWebGateWayLog_bz2.DataSourceType">McAfee Web Gateway</entry>
+	<entry key="wallmartWebGateWayLog_bz2.type">McAfee Web Gateway</entry>
+	<entry key="wallmartWebGateWayLog_bz2.log_format">access</entry>
+	<entry key="wallmartWebGateWayLog_bz2.filename">Wallmart_Mcaffe-web-gateway-final.bz2</entry>	
+	
+	<entry key="wallmartWebGateWayLog_gz.LogFilePath">/src/test/resources/Audit/LogFiles/GoldenSetDataLogsGZ/Wallmart_Mcaffe-web-gateway-final.gz</entry>
+	<entry key="wallmartWebGateWayLog_gz.DataSourceFormat">access</entry>
+	<entry key="wallmartWebGateWayLog_gz.DataSourceType">McAfee Web Gateway</entry>
+	<entry key="wallmartWebGateWayLog_gz.type">McAfee Web Gateway</entry>
+	<entry key="wallmartWebGateWayLog_gz.log_format">access</entry>
+	<entry key="wallmartWebGateWayLog_gz.filename">Wallmart_Mcaffe-web-gateway-final.gz</entry>
+	
+	
+	<entry key="wallmartPanCSV_7z.LogFilePath">/src/test/resources/Audit/LogFiles/GoldenSetDataLogs7z/wallmart_PAN-post-vald.7z</entry>
+	<entry key="wallmartPanCSV_7z.DataSourceFormat">CSV</entry>
+	<entry key="wallmartPanCSV_7z.DataSourceType">Palo-Alto</entry>
+	<entry key="wallmartPanCSV_7z.type">Palo-Alto</entry>
+	<entry key="wallmartPanCSV_7z.log_format">CSV</entry>
+	<entry key="wallmartPanCSV_7z.filename">wallmart_PAN-post-vald.7z</entry>	
+	
+	
+	<entry key="wallmartPanSYS_7z.LogFilePath">/src/test/resources/Audit/LogFiles/GoldenSetDataLogs7z/Wallmart_PAN-Sys.7z</entry>
+	<entry key="wallmartPanSYS_7z.DataSourceFormat">syslog</entry>
+	<entry key="wallmartPanSYS_7z.DataSourceType">Palo-Alto</entry>
+	<entry key="wallmartPanSYS_7z.type">Palo-Alto</entry>
+	<entry key="wallmartPanSYS_7z.log_format">syslog</entry>
+	<entry key="wallmartPanSYS_7z.filename">Wallmart_PAN-Sys.7z</entry>
+	
+	<entry key="scanSafe_7z.LogFilePath">/src/test/resources/Audit/LogFiles/GoldenSetDataLogs7z/scansafe.7z</entry>
+	<entry key="scanSafe_7z.DataSourceFormat">CSV</entry>
+	<entry key="scanSafe_7z.DataSourceType">ScanSafe</entry>
+	<entry key="scanSafe_7z.type">ScanSafe</entry>
+	<entry key="scanSafe_7z.log_format">CSV</entry>
+	<entry key="scanSafe_7z.filename">scansafe.7z</entry>
+	
+	
+	<entry key="CiscoASASeries_7z.LogFilePath">/src/test/resources/Audit/LogFiles/GoldenSetDataLogs7z/Cisco_ASA_IPs.7z</entry>
+	<entry key="CiscoASASeries_7z.DataSourceFormat">syslog</entry>
+	<entry key="CiscoASASeries_7z.DataSourceType">Cisco</entry>
+	<entry key="CiscoASASeries_7z.type">Cisco</entry>
+	<entry key="CiscoASASeries_7z.log_format">syslog</entry>
+	<entry key="CiscoASASeries_7z.filename">Cisco_ASA_IPs.7z</entry>
+	
+	<entry key="CiscoASASeries_bz2.LogFilePath">/src/test/resources/Audit/LogFiles/GoldenSetDataLogsBz2/Cisco_ASA_IPs.bz2</entry>
+	<entry key="CiscoASASeries_bz2.DataSourceFormat">syslog</entry>
+	<entry key="CiscoASASeries_bz2.DataSourceType">Cisco</entry>
+	<entry key="CiscoASASeries_bz2.type">Cisco</entry>
+	<entry key="CiscoASASeries_bz2.log_format">syslog</entry>
+	<entry key="CiscoASASeries_bz2.filename">Cisco_ASA_IPs.bz2</entry>
+	
+	<entry key="CiscoASASeries_gz.LogFilePath">/src/test/resources/Audit/LogFiles/GoldenSetDataLogsGZ/Cisco_ASA_IPs.gz</entry>
+	<entry key="CiscoASASeries_gz.DataSourceFormat">syslog</entry>
+	<entry key="CiscoASASeries_gz.DataSourceType">Cisco</entry>
+	<entry key="CiscoASASeries_gz.type">Cisco</entry>
+	<entry key="CiscoASASeries_gz.log_format">syslog</entry>
+	<entry key="CiscoASASeries_gz.filename">Cisco_ASA_IPs.gz</entry>
+	
+	7z compressed formats over
+	
+	7za compressed formats started
+	<entry key="be_barracuda_cli_7za.LogFilePath">/src/test/resources/Audit/LogFiles/GoldenSetDataLogs7za/BE_Barracuda_C120773_Postprocessing_Activity_Format.7za</entry>
+	<entry key="be_barracuda_cli_7za.DataSourceFormat">cli</entry>
+	<entry key="be_barracuda_cli_7za.DataSourceType">Barracuda</entry>
+	<entry key="be_barracuda_cli_7za.type">Barracuda</entry>
+	<entry key="be_barracuda_cli_7za.log_format">cli</entry>
+	<entry key="be_barracuda_cli_7za.filename">Barracuda_C120773_Postprocessing_Syslog_Format.7za</entry>
+	
+	<entry key="be_barracuda_sys_7za.LogFilePath">/src/test/resources/Audit/LogFiles/GoldenSetDataLogs7za/Barracuda_C120773_Postprocessing_Syslog_Format.7za</entry>
+	<entry key="be_barracuda_sys_7za.DataSourceFormat">syslog</entry>
+	<entry key="be_barracuda_sys_7za.DataSourceType">Barracuda</entry>
+	<entry key="be_barracuda_sys_7za.type">Barracuda</entry>
+	<entry key="be_barracuda_sys_7za.log_format">syslog</entry>
+	<entry key="be_barracuda_sys_7za.filename">BE_Barracuda_C120773_Postprocessing_Syslog_Format.7za</entry>
+	
+	
+	<entry key="be_bluecoat_proxy_7za.LogFilePath">/src/test/resources/Audit/LogFiles/GoldenSetDataLogs7za/bluecoat-vald-auto.log.7za</entry>
+	<entry key="be_bluecoat_proxy_7za.DataSourceFormat">ELFF</entry>
+	<entry key="be_bluecoat_proxy_7za.DataSourceType">Bluecoat ProxySG</entry>
+	<entry key="be_bluecoat_proxy_7za.type">Bluecoat ProxySG</entry>
+	<entry key="be_bluecoat_proxy_7za.log_format">ELFF</entry>
+	<entry key="be_bluecoat_proxy_7za.filename">bluecoat-vald-auto.log.7za</entry>
+	
+	
+	<entry key="be_bluecoatProxy_splunk_wo_ch_7za.LogFilePath">/src/test/resources/Audit/LogFiles/GoldenSetDataLogs7za/Bluecoat_Splunk_20rec.7za</entry>
+	<entry key="be_bluecoatProxy_splunk_wo_ch_7za.DataSourceFormat">ELFF</entry>
+	<entry key="be_bluecoatProxy_splunk_wo_ch_7za.DataSourceType">Bluecoat ProxySG</entry>
+	<entry key="be_bluecoatProxy_splunk_wo_ch_7za.type">Bluecoat ProxySG</entry>
+	<entry key="be_bluecoatProxy_splunk_wo_ch_7za.log_format">ELFF</entry>
+	<entry key="be_bluecoatProxy_splunk_wo_ch_7za.filename">Bluecoat_Splunk_20rec.7za</entry>
+	
+	<entry key="be_checkpoint_csv_7za.LogFilePath">/src/test/resources/Audit/LogFiles/GoldenSetDataLogs7za/CheckPoint-2015-09-04.7za</entry>
+	<entry key="be_checkpoint_csv_7za.DataSourceFormat">CSV</entry>
+	<entry key="be_checkpoint_csv_7za.DataSourceType">Checkpoint</entry>
+	<entry key="be_checkpoint_csv_7za.type">Checkpoint</entry>
+	<entry key="be_checkpoint_csv_7za.log_format">CSV</entry>
+	<entry key="be_checkpoint_csv_7za.filename">CheckPoint-2015-09-04.7za</entry>
+	
+	
+	<entry key="be_checkpoint_smartview_7za.LogFilePath">/src/test/resources/Audit/LogFiles/GoldenSetDataLogs7za/smartview_export_all.txt.7za</entry>
+	<entry key="be_checkpoint_smartview_7za.DataSourceFormat">SmartView</entry>
+	<entry key="be_checkpoint_smartview_7za.DataSourceType">Checkpoint</entry>
+	<entry key="be_checkpoint_smartview_7za.type">Checkpoint</entry>
+	<entry key="be_checkpoint_smartview_7za.log_format">SmartView</entry>
+	<entry key="be_checkpoint_smartview_7za.filename">smartview_export_all.txt.7za</entry>
+	
+	<entry key="be_juniperscreenos_7za.LogFilePath">/src/test/resources/Audit/LogFiles/GoldenSetDataLogs7za/Net-screen-final.7za</entry>
+	<entry key="be_juniperscreenos_7za.DataSourceFormat">syslog</entry>
+	<entry key="be_juniperscreenos_7za.DataSourceType">Juniper ScreenOS</entry>
+	<entry key="be_juniperscreenos_7za.type">Juniper ScreenOS</entry>
+	<entry key="be_juniperscreenos_7za.log_format">syslog</entry>
+	<entry key="be_juniperscreenos_7za.filename">Net-screen-final.7za</entry>
+	
+	<entry key="juniperSRX_7za.LogFilePath">/src/test/resources/Audit/LogFiles/GoldenSetDataLogs7za/Juniper-srx-datavald.txt.7za</entry>
+	<entry key="juniperSRX_7za.DataSourceFormat">WELF</entry>
+	<entry key="juniperSRX_7za.DataSourceType">Juniper SRX</entry>
+	<entry key="juniperSRX_7za.type">Juniper SRX</entry>
+	<entry key="juniperSRX_7za.log_format">WELF</entry>
+	<entry key="juniperSRX_7za.filename">Juniper-srx-datavald.txt.7za</entry>
+	
+	
+	<entry key="mcafeesef_7za.LogFilePath">/src/test/resources/Audit/LogFiles/GoldenSetDataLogs7za/BE_McAfee_SEF_Format.7za</entry>
+	<entry key="mcafeesef_7za.DataSourceFormat">WELF</entry>
+	<entry key="mcafeesef_7za.DataSourceType">McAfee</entry>
+	<entry key="mcafeesef_7za.type">McAfee</entry>
+	<entry key="mcafeesef_7za.log_format">WELF</entry>
+	<entry key="mcafeesef_7za.filename">BE_McAfee_SEF_Format.7za</entry>	
+	
+	squid proxy 
+	<entry key="squidrpoxy_7za.LogFilePath">/src/test/resources/Audit/LogFiles/GoldenSetDataLogs7za/BE_Squid-2015-04-02.7za</entry>
+	<entry key="squidrpoxy_7za.DataSourceFormat">access</entry>
+	<entry key="squidrpoxy_7za.DataSourceType">Squid</entry>
+	<entry key="squidrpoxy_7za.type">Squid</entry>
+	<entry key="squidrpoxy_7za.log_format">access</entry>
+	<entry key="squidrpoxy_7za.filename">BE_Squid-2015-04-02.7za</entry>	
+	
+	<entry key="be_pancsv_7za.LogFilePath">/src/test/resources/Audit/LogFiles/GoldenSetDataLogs7za/BE_PAN_CSV.7za</entry>
+	<entry key="be_pancsv_7za.DataSourceFormat">CSV</entry>
+	<entry key="be_pancsv_7za.DataSourceType">Palo-Alto</entry>
+	<entry key="be_pancsv_7za.type">Palo-Alto</entry>
+	<entry key="be_pancsv_7za.log_format">CSV</entry>
+	<entry key="be_pancsv_7za.filename">BE_PAN_CSV.7za</entry>	
+	
+	<entry key="be_pancsv_splunk_wo_ch_7za.LogFilePath">/src/test/resources/Audit/LogFiles/GoldenSetDataLogs7za/pan_20recs_with_all_splunk_header_only.log.7za</entry>
+	<entry key="be_pancsv_splunk_wo_ch_7za.DataSourceFormat">Splunk</entry>
+	<entry key="be_pancsv_splunk_wo_ch_7za.DataSourceType">Palo-Alto</entry>
+	<entry key="be_pancsv_splunk_wo_ch_7za.type">Palo-Alto</entry>
+	<entry key="be_pancsv_splunk_wo_ch_7za.log_format">Splunk</entry>
+	<entry key="be_pancsv_splunk_wo_ch_7za.filename">pan_20recs_with_all_splunk_header_only.log.7za</entry>
+	
+	<entry key="be_wsaw3c_7za.LogFilePath">/src/test/resources/Audit/LogFiles/GoldenSetDataLogs7za/W3C_Small-auto.log.7za</entry>
+	<entry key="be_wsaw3c_7za.DataSourceFormat">W3C</entry>
+	<entry key="be_wsaw3c_7za.DataSourceType">Cisco WSA</entry>
+	<entry key="be_wsaw3c_7za.type">Cisco WSA</entry>
+	<entry key="be_wsaw3c_7za.log_format">W3C</entry>
+	<entry key="be_wsaw3c_7za.filename">W3C_Small-auto.log.7za</entry>
+	
+	
+	<entry key="be_wsaaccess_7za.LogFilePath">/src/test/resources/Audit/LogFiles/GoldenSetDataLogs7za/WSA-Access_KU.log.zip.7za</entry>
+	<entry key="be_wsaaccess_7za.DataSourceFormat">access</entry>
+	<entry key="be_wsaaccess_7za.DataSourceType">Cisco WSA</entry>
+	<entry key="be_wsaaccess_7za.type">Cisco WSA</entry>
+	<entry key="be_wsaaccess_7za.log_format">access</entry>
+	<entry key="be_wsaaccess_7za.filename">WSA-Access_KU.log.zip.7za</entry>
+	
+	<entry key="be_zscalar_7za.LogFilePath">/src/test/resources/Audit/LogFiles/GoldenSetDataLogs7za/Zscaler_Edited_10Logs.7za</entry>
+	<entry key="be_zscalar_7za.DataSourceFormat">NSS Custom</entry>
+	<entry key="be_zscalar_7za.DataSourceType">ZScaler</entry>
+	<entry key="be_zscalar_7za.type">ZScaler</entry>
+	<entry key="be_zscalar_7za.log_format">NSS Custom</entry>
+	<entry key="be_zscalar_7za.filename">Zscaler_Edited_10Logs.7za</entry>
+	
+	
+	<entry key="wallmartWebGateWayLog_7za.LogFilePath">/src/test/resources/Audit/LogFiles/GoldenSetDataLogs7za/Wallmart_Mcaffe-web-gateway-final.7za</entry>
+	<entry key="wallmartWebGateWayLog_7za.DataSourceFormat">access</entry>
+	<entry key="wallmartWebGateWayLog_7za.DataSourceType">McAfee Web Gateway</entry>
+	<entry key="wallmartWebGateWayLog_7za.type">McAfee Web Gateway</entry>
+	<entry key="wallmartWebGateWayLog_7za.log_format">access</entry>
+	<entry key="wallmartWebGateWayLog_7za.filename">Wallmart_Mcaffe-web-gateway-final.7za</entry>	
+	
+	
+	<entry key="wallmartPanCSV_7za.LogFilePath">/src/test/resources/Audit/LogFiles/GoldenSetDataLogs7za/wallmart_PAN-post-vald.7za</entry>
+	<entry key="wallmartPanCSV_7za.DataSourceFormat">CSV</entry>
+	<entry key="wallmartPanCSV_7za.DataSourceType">Palo-Alto</entry>
+	<entry key="wallmartPanCSV_7za.type">Palo-Alto</entry>
+	<entry key="wallmartPanCSV_7za.log_format">CSV</entry>
+	<entry key="wallmartPanCSV_7za.filename">wallmart_PAN-post-vald.7za</entry>	
+	
+	
+	<entry key="wallmartPanSYS_7za.LogFilePath">/src/test/resources/Audit/LogFiles/GoldenSetDataLogs7za/Wallmart_PAN-Sys.7za</entry>
+	<entry key="wallmartPanSYS_7za.DataSourceFormat">syslog</entry>
+	<entry key="wallmartPanSYS_7za.DataSourceType">Palo-Alto</entry>
+	<entry key="wallmartPanSYS_7za.type">Palo-Alto</entry>
+	<entry key="wallmartPanSYS_7za.log_format">syslog</entry>
+	<entry key="wallmartPanSYS_7za.filename">Wallmart_PAN-Sys.7za</entry>
+	
+	<entry key="scanSafe_7za.LogFilePath">/src/test/resources/Audit/LogFiles/GoldenSetDataLogs7za/scansafe.7za</entry>
+	<entry key="scanSafe_7za.DataSourceFormat">CSV</entry>
+	<entry key="scanSafe_7za.DataSourceType">ScanSafe</entry>
+	<entry key="scanSafe_7za.type">ScanSafe</entry>
+	<entry key="scanSafe_7za.log_format">CSV</entry>
+	<entry key="scanSafe_7za.filename">scansafe.7za</entry>
+	
+	
+	<entry key="CiscoASASeries_7za.LogFilePath">/src/test/resources/Audit/LogFiles/GoldenSetDataLogs7za/cisco-asa-post-vald.7za</entry>
+	<entry key="CiscoASASeries_7za.DataSourceFormat">syslog</entry>
+	<entry key="CiscoASASeries_7za.DataSourceType">Cisco</entry>
+	<entry key="CiscoASASeries_7za.type">Cisco</entry>
+	<entry key="CiscoASASeries_7za.log_format">syslog</entry>
+	<entry key="CiscoASASeries_7za.filename">cisco-asa-post-vald.7za</entry>
+	7za compressed formats end
+	
+	
+	syslog files
+	<entry key="CiscoASASeries_syslog.LogFilePath">/src/test/resources/Audit/LogFiles/syslogFiles/cisco-asa-syslog.log</entry>
+	<entry key="CiscoASASeries_syslog.DataSourceFormat">syslog</entry>
+	<entry key="CiscoASASeries_syslog.DataSourceType">Cisco</entry>
+	<entry key="CiscoASASeries_syslog.type">Cisco</entry>
+	<entry key="CiscoASASeries_syslog.log_format">syslog</entry>
+	<entry key="CiscoASASeries_syslog.filename">cisco-asa-syslog.log</entry>
+	
+	<entry key="pan_syslog.LogFilePath">/src/test/resources/Audit/LogFiles/syslogFiles/PAN-Syslog_Multiple_Device_IDs.log</entry>
+	<entry key="pan_syslog.DataSourceFormat">syslog</entry>
+	<entry key="pan_syslog.DataSourceType">Palo-Alto</entry>
+	<entry key="pan_syslog.type">Palo-Alto</entry>
+	<entry key="pan_syslog.log_format">syslog</entry>
+	<entry key="pan_syslog.filename">PAN-Syslog_Multiple_Device_IDs.log</entry>
+	
+	<entry key="wsa_syslog.LogFilePath">/src/test/resources/Audit/LogFiles/syslogFiles/W3C_Small.log</entry>
+	<entry key="wsa_syslog.DataSourceFormat">W3C</entry>
+	<entry key="wsa_syslog.DataSourceType">Cisco WSA</entry>
+	<entry key="wsa_syslog.type">Cisco WSA</entry>
+	<entry key="wsa_syslog.log_format">W3C</entry>
+	<entry key="wsa_syslog.filename">W3C_Small.log</entry> -->
+</properties>

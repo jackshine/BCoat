@@ -1,0 +1,14 @@
+<html>
+ <head>
+ </head>
+ <body>
+Elastic Enterprise is now about flexibility in how employees are enabled to
+use most efficient cloud services and mobile, to stay agile and
+competitive. Security is often the deterrent to such flexibility. Elastica
+solves the cloud security problem to enable your Elastic Enterprise.
+Thanks,
+Elastica Team
+   <img  id=""1"" src="cid:LogoElastica.png"></img>
+   <img  id=""2"" src="cid:LogoCloudSoc.png"></img>
+ </body>
+</html>	

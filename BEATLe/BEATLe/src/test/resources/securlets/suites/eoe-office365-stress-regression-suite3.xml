@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+<suite name="Stress testing Office 365 Mail" parallel="false">
+	<parameter name="environmentName" value="prod"/>
+	<parameter name="userName" value="admin@securleto365beatle.com"/>
+	<parameter name="userPassword" value="Aut0mat10n#123"/>
+	<parameter name="tenantName" value="securletO365beatlecom"/>
+	<parameter name="isLoggingOn" value="true"/>
+	<parameter name="apiBaseVersion" value="v1"/>
+	<parameter name="esScriptsHostName" value="10.0.0.242"/>
+	<parameter name="esScriptsUserName" value="madmin"/>
+	<parameter name="referer" value="https://app.elastica.net"/>
+	<parameter name="tenantToken" value="a5fJSgfR2eLjkwqm1pzF06cNrhCguy1t904na91NOtY="/>
+	<parameter name="domainName" value="securletO365beatle"/>
+	<parameter name="saasAppUsername" value="admin@securleto365beatle.com"/>
+	<parameter name="saasAppPassword" value="MHikwjETdOgeFS!"/>
+	<parameter name="saasAppUserRole" value="ADMIN"/>
+	<parameter name="saasAppEndUser1Name" value="testuser1@securleto365beatle.com"/>
+	<parameter name="saasAppEndUser1Password" value="Cafu0340"/>
+	<parameter name="saasAppEndUser2Name" value="testuser2@securleto365beatle.com"/>
+	<parameter name="saasAppEndUser2Password" value="j*!uBL3ZndJ4kNC"/>
+	<parameter name="saasAppExternalUser" value="user1@gatewaybeatle.com"/>
+	<parameter name="sheetName" value="StressTestJob3"/>
+	
+	
+	<test name="Stress testing Office 365 Mail - Job3">
+		<groups>
+		    <run> 
+		      
+		    </run>
+		  </groups>
+		<classes>
+			<class name="com.elastica.beatle.tests.securlets.Office365MailStressTests">
+				<methods>
+<!-- 					<include name="totalCountInFolders"></include> -->
+<!-- 					<include name="query1"></include> -->
+<!-- 					<include name="cleanupAccountEmails"></include> -->
+					<include name="sendMail"></include>
+				</methods> 
+			</class>
+		</classes>
+	</test>
+</suite>

@@ -1,0 +1,4 @@
+Address: 580 Hawthorne Avenue Piedmont, South Carolina 29673
+Name Alex Smith
+email - igenor@rammo.org
+DOB = 4/18/1988

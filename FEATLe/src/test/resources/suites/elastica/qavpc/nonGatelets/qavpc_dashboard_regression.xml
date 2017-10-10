@@ -1,0 +1,41 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+
+
+<suite name="CloudSoc App Test Suite" parallel="tests" thread-count="2">
+
+	<listeners>
+		<listener class-name="org.uncommons.reportng.HTMLReporter" />
+		<listener class-name="org.uncommons.reportng.JUnitXMLReporter" />
+		<listener class-name="com.elastica.listeners.SuiteListener" />
+		<listener class-name="com.elastica.listeners.MethodListener" />
+		<listener class-name="com.elastica.listeners.ScreenShotListener" />
+		<listener class-name="com.elastica.listeners.PriorityListener" />
+	</listeners>
+
+	<parameter name="env" value="qavpc" />
+	<parameter name="browser" value="firefox" />
+	<parameter name="mode" value="local" />
+	<parameter name="platform" value="Windows 8.1" />
+	<parameter name="browserVersion" value="40" />
+	<parameter name="browserName" value="firefox" />
+
+
+	<test name="CloudSoc App UI Tests">
+		<parameter name="username" value="admin@dcibeatle.com" />
+		<parameter name="password" value="Elastica@123!" />
+		<parameter name="saasAppName" value="Box" />
+		<parameter name="tenantName" value="dcibeatlecom" />
+		<parameter name="tenantToken" value="norz1GhMYMcqRkr9IxcuQA==" />
+		<groups>
+			<run>
+				<include name="local"></include>
+				<include name="regression"></include>
+			</run>
+		</groups>
+		<classes>
+			<class name="com.elastica.tests.dashboard.DashboardTests" />
+		</classes>
+	</test> 
+	
+
+</suite>

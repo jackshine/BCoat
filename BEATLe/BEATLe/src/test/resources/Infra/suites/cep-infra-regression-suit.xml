@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+<suite name="Infra Regression Test Suite" parallel="false">
+    <parameter name="environmentName" value="cep"/>
+   <parameter name="userName" value="admin@infrabeatle.com"/>
+	<parameter name="userPassword" value="Matrix$123"/>
+    <parameter name="tenantName" value="infrabeatlecom"/>
+    <parameter name="isLoggingOn" value="true"/>
+    <parameter name="apiBaseVersion" value="v1"/>
+    <parameter name="esScriptsHostName" value="10.0.0.242"/>
+    <parameter name="esScriptsUserName" value="madmin"/>
+    <parameter name="referer" value="https://app.eu.elastica.net/"/>
+   <parameter name="apiServer" value="https://api.eu.elastica.net"/>
+	<parameter name="tanentdb" value="infrabeatlecom"/>
+	<parameter name="tenantToken" value="7eXU8Mnxo3CiStZoeHwXQg=="/>
+	<parameter name="tenantDomainName" value="infrabeatlecom"/>
+	<parameter name="hostName" value="app.eu.elastica.net"/>
+      
+    <test name="Infra Signin Regression Tests">
+		<classes>
+			
+			
+			<class name="com.elastica.beatle.tests.infra.Signin">
+				
+			</class>
+		</classes>
+	</test>
+    <test name="Infra Regression Tests">
+		<classes>
+			<class name="com.elastica.beatle.tests.infra.Infra">
+				<!-- <methods>
+					 <include name="verifyUploadFileLogsWithQueryString"></include>
+				</methods> -->
+			</class>
+		</classes>
+	</test>
+	
+  	<test name="Infra Feature Enablement Regression Tests">
+		<groups>
+     	 	<run>
+     		 <include name="CEP" />
+     	 	</run>
+   		</groups>
+		<classes>
+			<class name="com.elastica.beatle.tests.infra.FeatureEnablement">
+				<methods>
+					<exclude name="ActivateBoxSecurlet"></exclude>
+					<exclude name="deActivateBoxSecurlet"></exclude>
+					<exclude name="enableApp"></exclude>
+					<exclude name="disableApp"></exclude>
+					<exclude name="disableSecurletAppsCEP"></exclude>
+					
+					
+				</methods>
+				
+			</class>
+		</classes>
+	</test>
+	
+ 	
+	<test name="Infra RBAC Regression Tests">
+		<groups>
+     	 	<run>
+     		 <include name="CEP" />
+     	 	</run>
+   		</groups>
+		<classes>
+		
+			<class name="com.elastica.beatle.tests.infra.InfraRBAC">
+				
+				
+			</class>
+		</classes>
+	</test>
+	
+	
+</suite>

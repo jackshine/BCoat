@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+<suite name="DCI Test Suite">
+
+	<listeners>
+		<listener class-name="com.elastica.beatle.PriorityListener" />
+	</listeners>
+
+	<test name="DCI Training Profile Tests">
+		<parameter name="environmentName" value="prod" />
+		<parameter name="cloudSocUName" value="admin" />
+		<parameter name="tenantName" value="dciexemplarbeatlecom" />
+		<parameter name="domainName" value="dciexemplarbeatle.com" />
+		<parameter name="saasApp" value="Box" />
+		<parameter name="apiBaseVersion" value="v1" />
+		<groups>
+			<run>
+				<include name="All" />
+			</run>
+		</groups>
+		<classes>
+			<class name="com.elastica.beatle.tests.dci.tp.DCITrainingProfileTests"></class>
+		</classes>
+	</test>
+	
+</suite>

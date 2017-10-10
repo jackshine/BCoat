@@ -1,0 +1,138 @@
+anadrol
+053.314.328-40 Identificação
+custom_dictionaries_only
+custom_terms_only
+STUDENT TRANSCRIPT
+ Official Transcript
+School's Name School's Complete Address
+Student's Name
+Student's Social Security Number_
+
+Student's Address
+Street Address
+Apt. #
+City
+State
+Zip
+Student's Program  Title:
+Program Title
+                             Enrollment Date   Required Hours Completion Date   Hours Completed      Final Grade      Grade Point Average
+
+
+
+Number of Transfer Hours (if applicable)
+Transfer Hours Accepted From (Name of School and Address)
+in Program/Course(s)
+
+
+Signature of School Official                                              Official’s Title                                           Date                                       Raised Seal of School
+A (Excellent)
+B (Above Average)
+C (Average)
+D (Below Average)
+F (Failure)
+WP - Withdrew Passing WF - Withdrew Failing Inc. - Incomplete
+93%-100%	4.0
+85%-92%	3.0
+75% - 84%	2.0
+70% - 74%	1.0
+
+Any grade falling below the school's graduation requirement of 70% (The above sample grades are aligned with recommendations from national accreditating agencies and various state agencies. It is the responsibility of each school to set their grading policy.)
+Sample Student Transcript Form/2004
+#include <stdio.h>int check_anagram(char [], char []);int main(){   char a[100], b[100];   int flag;   printf("Enter first string\n");   gets(a);   printf("Enter second string\n");   gets(b);   flag = check_anagram(a, b);   if (flag == 1)      printf("\"%s\" and \"%s\" are anagrams.\n", a, b);   else      printf("\"%s\" and \"%s\" are not anagrams.\n", a, b);   return 0;}int check_anagram(char a[], char b[]){   int first[26] = {0}, second[26] = {0}, c = 0;   while (a[c] != '\0')   {      first[a[c]-'a']++;      c++;   }   c = 0;   while (b[c] != '\0')   {      second[b[c]-'a']++;      c++;   }   for (c = 0; c < 26; c++)   {      if (first[c] != second[c])         return 0;   }   return 1;}Issued by the
+District Court Of The United States
+Central District Of California
+
+SUBPOENA IN A CIVIL CASE
+CASE NUMBER : #03- 5070
+
+Alex Smith
+________________________
+v.
+
+Julia Smith
+________________________
+
+
+TO:  Keeper of the Records,
+         United States Geological Survey 
+          151 causeway street ,suite 1001
+	Boston, massachusetts ,02114-1384.
+
+
+YOU ARE COMMANDED to appear in the United State District Court of , at the place, date, and
+time specified below to testify in the above case.
+
+Place of Testimony : United State District Court
+		          J.W McCormack Post Office and Courthouse
+			Boston, massachusetts
+
+Courtroom  : 6, 15th Floor
+
+Date and Time : Monday June 2016
+
+
+
+YOU ARE COMMANDED, at the time of the trial, hearing or deposition described above, to produce and permit inspection
+and copying of the following documents or objects (list documents or objects):
+
+
+YOU ARE COMMANDED, no more than  Ten business days after receiving this subpoena, to produce and permit inspection and copying of the following documents or objects (list documents or objects):
+
+Any organization not a party to this suit that is subpoenaed for the taking of a deposition shall designate one or more officers,
+directors, managing agents, or other persons who consent to testify on its behalf, and may set forth, for each person designated, the
+matters on which the person will testify. Arkansas Rules of Civil Procedure 30(b)(6).
+
+Issuing Officer Signature and Title (Indicate if Attorney for Plaintiff or Defendant)
+
+Date Apr 14, 2016
+
+Issuing Officer’s Name, Address, and Phone Number
+Frank Gray,
+Street: 516 Route 44
+City: Chelsea
+State: Massachusetts
+Zip Code: 02150
+
++1-888-452-1505
+
+
+PROOF OF SERVICE
+
+SERVED : september 10 ,2016 AD
+
+
+Place : United States Geological Survey 
+          151 causeway street ,suite 1001
+	Boston, massachusetts ,02114-1384.
+
+Served On (Print Name) : Honarable Paul Neill
+
+Manner of Service : Registered U.S Mail
+			 Serial # RB773293057US
+
+Served By (Print Name)  : Alex Smith
+
+Title
+
+DECLARATION OF SERVER
+I declare, under penalty of perjury under the laws of the State of Arkansas that the foregoing information
+contained in the Proof of Service is true and correct.
+Executed on
+
+
+Date  : Apr 14, 2016
+
+
+
+Signature of Server : 
+
+
+
+Street: 260 Redwood Drive
+City: Saint Charles
+State: Illinois
+Zip Code: 60174
+
+Address of Server
+

@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE properties SYSTEM "http://java.sun.com/dtd/properties.dtd">
+<properties>
+	<comment>Framework Configurations</comment>
+	<entry key="eoe.loginURL">https://eoe.elastica-inc.com/static/ng/appLogin/index.html#/?redirect=false</entry>
+	<entry key="eoe.apiServerhostname">api-eoe.elastica-inc.com</entry>
+	<entry key="eoe.hostname">eoe.elastica-inc.com</entry>
+	<entry key="eoe.referer">https://eoe.elastica-inc.com</entry>
+	<entry key="eoe.scheme">https</entry>
+	<entry key="eoe.port"></entry>
+	
+	<entry key="qavpc.loginURL">https://qa-vpc-ui.elastica-inc.com/static/ng/appLogin/index.html#/?redirect=false</entry>
+	<entry key="qavpc.apiServerhostname">qa-vpc-api.elastica-inc.com</entry>
+	<entry key="qavpc.hostname">qa-vpc-ui.elastica-inc.com</entry>
+	<entry key="qavpc.referer">https://qa-vpc-ui.elastica-inc.com</entry>
+	<entry key="qavpc.scheme">https</entry>
+	<entry key="qavpc.port"></entry>
+	
+	<entry key="perf.loginURL">https://perf.elastica-inc.com/static/ng/appLogin/index.html#/?redirect=false</entry>
+	<entry key="perf.apiServerhostname">perfapi.elastica-inc.com</entry>
+	<entry key="perf.hostname">perf.elastica-inc.com</entry>
+	<entry key="perf.referer">https://perf.elastica-inc.com</entry>
+	<entry key="perf.scheme">https</entry>
+	<entry key="perf.port"></entry>
+	
+	<entry key="prod.loginURL">https://app.elastica.net/static/ng/appLogin/index.html#/?redirect=false</entry>
+	<entry key="prod.apiServerhostname">api-vip.elastica.net</entry>
+	<entry key="prod.hostname">app.elastica.net</entry>
+	<entry key="prod.referer">https://app.elastica.net</entry>
+	<entry key="prod.scheme">https</entry>
+	<entry key="prod.port"></entry>
+	
+	<entry key="cep.loginURL">https://app.eu.elastica.net/static/ng/appLogin/index.html#/?redirect=false</entry>
+	<entry key="cep.apiServerhostname">api.eu.elastica.net</entry>
+	<entry key="cep.hostname">app.eu.elastica.net</entry>
+	<entry key="cep.referer">https://app.eu.elastica.net</entry>
+	<entry key="cep.scheme">https</entry>
+	<entry key="cep.port"></entry>
+	
+	<entry key="cwsintg.loginURL">https://app-cwsintg.elastica-inc.com/static/ng/appLogin/index.html#/?redirect=false</entry>
+	<entry key="cwsintg.apiServerhostname">api-cwsintg.elastica-inc.com</entry>
+	<entry key="cwsintg.hostname">app-cwsintg.elastica-inc.com</entry>
+	<entry key="cwsintg.referer">https://app-cwsintg.elastica-inc.com</entry>
+	<entry key="cwsintg.scheme">https</entry>
+	<entry key="cwsintg.port"></entry>
+	
+	<entry key="envX.loginURL">https://cha.elastica-inc.com/static/ng/appLogin/index.html#/?redirect=false</entry>
+	<entry key="envX.apiServerhostname">chaapi.elastica-inc.com</entry>
+	<entry key="envX.hostname">cha.elastica-inc.com</entry>
+	<entry key="envX.referer">https://cha.elastica-inc.com</entry>
+	<entry key="envX.scheme">https</entry>
+	<entry key="envX.port"></entry>
+	
+	<entry key="friends.loginURL">https://friends.elastica-inc.com/static/ng/appLogin/index.html#/?redirect=false</entry>
+	<entry key="friends.apiServerhostname">friendsapi.elastica-inc.com</entry>
+	<entry key="friends.hostname">friends.elastica-inc.com</entry>
+	<entry key="friends.referer">https://friends.elastica-inc.com</entry>
+	<entry key="friends.scheme">https</entry>
+	<entry key="friends.port"></entry>	
+</properties>

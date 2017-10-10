@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+<suite name="Audit Test Suite" parallel="instances" thread-count="7">
+ <parameter name="userName" value="admin@protecto365autobeatle.com"/>
+    <parameter name="userPassword" value="Elastica123#"/>
+    <parameter name="environmentName" value="prod"></parameter>
+	<parameter name="tenantName" value="protecto365autobeatlecom"/>
+    <parameter name="referer" value="https://app.elastica.net" />
+    <parameter name="tenantToken" value="OTvuLKboVDvZECaCIIzphWZBI051s+gcjd0HiHAPkFI="/>
+    <parameter name="isLoggingOn" value="true"></parameter>
+	<parameter name="apiBaseVersion" value="v1"></parameter>
+	<parameter name="spanvaip" value="10.0.62.90" />
+	<parameter name="spanvausername" value="admin" />
+	<parameter name="spanvapwd" value="Admin123!" />
+	<parameter name="spanvaAgentName" value="Prod_LatestImage_SpanvaAgent" />
+	<parameter name="loadApparraziServicesCheck" value="yes" />
+	<test name="Audit SpanVA Latest Image (1.15.2.61.0-15rc) NFS Regression Tests">
+		<classes>
+			<class name="com.elastica.beatle.audit.factoryClass.AuditSpanVANFSUploadFactory"/>
+		</classes>
+	</test>	
+
+</suite>

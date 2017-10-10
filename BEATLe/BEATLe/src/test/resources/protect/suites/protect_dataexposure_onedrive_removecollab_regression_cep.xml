@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+<suite name="Protect Test Suite" >
+	<parameter name="environmentName" value="cep"/>
+	<parameter name="userName" value="admin@protecto365autobeatle.com"/>
+	<parameter name="userPassword" value="Elastica@123"/>
+	<parameter name="tenantName" value="protecto365autobeatlecom"/>
+	<parameter name="isLoggingOn" value="true"/>
+	<parameter name="apiBaseVersion" value="v1"/>
+	<parameter name="apiserverHostName" value="api-cep.elastica.net"/>
+	<parameter name="tenantToken" value="OTvuLKboVDvZECaCIIzphWZBI051s+gcjd0HiHAPkFI="/>
+	<parameter name="domainName" value="protecto365autobeatlecom"/>
+	<parameter name="saasApp" value="Office365"/>
+	<parameter name="saasAppUsername" value="admin@protecto365autobeatle.com"/>
+	<parameter name="saasAppPassword" value="&amp;1CMlIvd!JWp6n2"/>
+	<parameter name="saasAppUserRole" value="ADMIN"/>	
+	
+	<test name="Protect DataExposure O365 Securlet Remove External Collaborator Remediation">
+		<classes>
+			<class name="com.elastica.beatle.tests.protect.dataexposure.Office365RemoveExternalCollaboratorTests"></class>
+		</classes>
+	</test>
+</suite>

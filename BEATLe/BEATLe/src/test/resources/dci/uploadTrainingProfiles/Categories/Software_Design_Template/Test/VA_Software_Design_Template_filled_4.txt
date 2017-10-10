@@ -1,0 +1,3870 @@
+﻿
+
+Design Specification
+
+Version 1.0a
+
+
+
+
+
+Sports Score System
+A Speech Enabled Application
+
+
+
+
+Sponsor:
+Jim Larson
+
+Development Team:
+Dan Corkum
+Jason Nguyen
+Dan Ragland
+Quang Vu
+Andrew Wagner
+
+
+
+
+
+April 22, 2016
+
+
+Table of Contents
+
+Introduction………………………………………………………………………………	3
+System Overview…………………………………………………………………………	2
+Design Considerations…………………………………………………………………...	4
+Assumptions and Dependencies………………………………………………………....	4
+Goals and Guidelines…………………………………………………………………….	5
+Architectural Strategies………………………………………………………………….	6
+System Architecture……………………………………………………………………...	7
+Web Viking………………………………………………………………………………..	7
+SSDB (Sports Score Database) Interface………………………………………………….	9
+Server Component…………………………………………………………………………	9
+Server Communications………………………………………………………………….	10
+Client Communications…………………………………………………………………..	11
+Client Component………………………………………………………………………...	12
+Dialog Database………………………………………………………………………….	13
+SSDB (Sports Score Database)…………………………………………………………..	20
+Dialog Generation Utility………………………………………………………………..	20
+ 
+Policies and Tactics………………………………………………………………………	20
+
+Detailed System Design………………………………………………………………….	21
+Web Viking……………………………………………………………………………….	21	
+SSDB (Sports Score Database) Interface………………………………………………….21
+Server Component………………………………………………………………………..	23
+Server Communications………………………………………………………………….	23
+Client Communications…………………………………………………………………..	24
+Client Component………………………………………………………………………...	25
+Dialog Database…………………………………………………………………………	25
+Dialog Generation Utility…………………………………………………………………
+
+Detailed SubSystem Design……………………………………………………………...	25
+Web Viking………………………………………………………………………………	25
+SSDB (Sports Score Database) Interface………………………………………………..	28
+Server Component………………………………………………………………………..	39
+Server Communications………………………………………………………………….	39
+Client Communications………………………………………………………………….	43
+Client Component………………………………………………………………………..	48
+Dialog Generation Utility………………………………………………………………...	80
+
+Glossary………………………………………………………………………………….	80
+Acronyms and Abbreviations…………………………………………………………. 81 
+Bibliography…………………………………………………………………………….	81
+
+
+
+Introduction
+
+This document is designed to be a reference for any person wishing to implement or any person interested in the architecture of the sports score client application, sports score server application, dialog database, or the sports score database.  This document describes each application’s architecture and sub-architecture their associated interfaces, database schemas, and the motivations behind the chosen design.  Both high-level and low-level designs are included in this document.
+
+This document should be read by an individual with a technical background and has experience reading data flow diagrams (DFDs), control flow diagrams (CFDs), interface designs, and development experience in object oriented programming and event driven programming.
+
+This design document has an accompanying specification document and test document.  This design document is per Sports Score System Specification version 3.0.  Any previous or later revisions of the specifications require a different revision of this design document.
+
+This document includes but is not limited to the following information for the Sports Score System; system overview, design considerations, architectural strategies, system architecture, policies and tactics, and detailed system design.
+
+
+
+System Overview
+
+
+The Sports Score System is a system 
+
+Design Considerations
+
+This section describes many of the issues that needed to be addressed or resolved before attempting to devise a complete design solution.
+
+Assumptions and Dependencies
+This design of the Sports Score system makes several assumptions about software and hardware, and has several software dependencies.  All environmental requirements of both the server and client applications can be found in the Sports Score System Requirements 3.1.
+
+Both the server and client applications make the following assumptions about their environmental environments;
+The system can be described by the environmental requirements associated to this document.
+The system the application is executing on will have the required resources available as necessary.  This entails sufficient memory and permanent storage space, an adequate CPU for the necessary application, and a TCP/IP network connection.
+
+The client application makes the following assumptions about its operation environment;
+The client machine will have MDAC 2.5 (Microsoft Data Access Components) installed.  The client application is dependent on this set of component.  These components are required for our implementation of access to the dialog database.
+The client machine will have the necessary databases setup through ODBC (Open DataBase Connectivity).
+The client machine will have Microsoft SAPI 4.0 (Speech Application Programming Interface) installed properly.  This is necessary for speech recognition with this design.
+The client machine will have an appropriate sound card installed which supports full-duplex.  This is necessary for speech recognition Barge-In technologies.
+The client machine will have an appropriate microphone and sound system for speech recognition.
+
+The server application makes the following assumptions about its operation environment;
+The server machine will have MDAC 2.5 (Microsoft Data Access Components) installed.  The server application is dependent on this set of components.  These components are required for our implementation of access to the Sports Score database.
+The server machine will have the necessary databases setup through ODBC (Open DataBase Connectivity).
+Preferably the server machine will have TCP port 12345 free for use of the server application.  This is the default port for the server to listen on, though it is not required to listen on this port.
+
+Goals and Guidelines
+The major goal of the Sports Score client is that it be extremely simple and intuitive to use.  The application is geared towards the sports enthusiast, not a technically inclined individual.  It is very important that the prompts for the user be clear and concise since this will be the highest level of interaction between the application and the user.  It is also important that series of prompts and responses be tested with users before being deployed as part of the product so that all interaction is “approved” by a potential user.
+
+The second major goal of the application is that the user gets a response in a timely fashion.  Intuition tells that a user will lose interest if they have to wait long times for software to respond.  This is why the design has minimal data transferred between client and server.  In this design, a minimum set of information is transferred to the server in order to retrieve the necessary information, and the server only returns the requested data that is then formatted into a readable phrase on the client side.
+
+A third major goal is that the client application could possibly be stored on a wireless cellular device.  As voice recognition improves with time, the size of the footprint of the application decreases relative to memory available.  In future revisions of the client application, there is a great possibility that the Sports Score client be stored on a cellular telephone.  A user could then request sports information, or any other type of information, from anywhere in the world at any time.
+
+This design attempted to keep the client application as data independent as possible.  All prompts and responses on the client side are completely data driven, so any prompt or response can be changed by a simple voice database change without changing any code.  This makes the client capable of prompting and responding to any structural type of data.  Theoretically the client could be loaded onto a cellular device and have the types of information available changed with a simple database change.  Potentially this could be done remotely from the server when the client application loads.
+
+The Sports Score server is intended to have a simple interface that is relatively easy to administer.  A minimal yet complete set of options is provided for the server administrator to have control of resources consumed by the server application.  These options include, but are not limited to; controlling the limit of clients able to connect to the server for maximum efficiency, ability to configure which port the server listens on, ability to change the Sports Score database location, and control how often the database is updated.
+
+Architectural Strategies
+
+The sports score system design has been divided into four major sub-systems; server application, client application, Sports Score database, and dialog database.  The server application is then separated into five major sub-sections; the server component, server communications, server GUI (Graphical User Interface), the Sports Score Database (SSDB) interface, and the “web viking”.  The client application is separated into two major sub-sections; the client component, and the client communications.
+
+The server application’s major design considerations include easy sports score data retrieval, easy database updates, multiple client support, and a minimal set of administrative features. The server application has been designed to be as flexible as possible, trying not to design the server for specifically sports score information, but for any type of information.  Given the project’s constraints of human resources, software resources, and time, the server is not completely “data independent”.  Portions of the server application are specific to this sports score system.  These portions are discussed in the server application’s detailed design strategies.
+
+The client application is designed to support the following major features; a simple and intuitive vocal user interface (VUI), easy to understand dialogs, flexible dialog structure support, and support of an internet transport for sports score information retrieval.
+
+Unlike the server application, the client application has been designed completely data independent.  No portion of the client application is implementation dependent (excluding dialog database access).  This provides maximal flexibility for other potential uses for the client application.
+
+Given the system’s requirement that the client application must be supported on a Windows platform, this design uses several Windows specific technologies such as Microsoft’s SAPI (Speech Application Programming Interface), ADO (ActiveX Data Objects), and JDBC (Java Database Connectivity).  These technologies were chosen because they required the least amount of research and learning time, both of which we are limited in.
+
+
+System Architecture
+
+Subsystem Architecture
+
+1 - Web Viking
+
+
+	  Web sites					                Error messages
+				    
+								 
+                Time
+							            Formatted data	
+							
+
+
+Figure 1 – Web Viking Program Level 0 
+
+
+
+
+
+
+
+Continued refinement to primitive transforms
+
+				
+	            				          
+
+                                                                                                                         
+		
+			
+								  	
+				          
+	 
+
+
+Figure 2 – Web Viking Program Level 1
+
+Retrieve HTML files:
+We’ll first retrieve data from MLBWS (http://www.majorleaguebaseball.com) if the data retrieved OK, then use this data as the input of the parse subroutine. Otherwise, log errors and retrieve data from ESPNWS (http://espn.go.com/mlb.) If the data retrieved OK the use this data as the input of the parse subroutine. Otherwise, log errors.
+
+Parse HTML files:
+We’ll go though each line of the HTML file, check if the line contains useful data; if so parse the line and get the data.
+
+Format outputs:
+Put parsed data in the format that we’ll discuss in the interface section. Then check if we get the correct data. The reason that we wait until this part to check the data instead of doing that right after we get the data is efficiency. We don’t want spending too much time checking data. If the data is correct, then write it to file. Otherwise, log errors.
+
+File maintenance
+     Create the directories data and logerr under the directory contains the programs to store results and log errors, respectively.
+
+The programs (schedule.pl, scores.pl, and standing.pl) should be executed right before midnight to ensure the stable format of the web site. So, we’ll have more chance getting the correct data.
+     To run the schedule program, type: perl schedule.pl
+     To run the score program, type: perl scores[ mmdd]+
+     Example: perl scores 0507 0523 0612
+     “0507” means May 7
+     To run the standing program, type: perl standing.pl
+
+
+2 - SSDB (Sports Score Database) Interface
+The SSDB class has two distinct components:
+1) The Database is implemented using MS Access.  It functions as storage to keep track of the entire team names, scores associated with each team and the schedule of date and time of game taken place.
+2) The Handler written in Java, its primary purpose is to query the database and fetch the results to the sport score server.
+
+
+3 - Server Component/Server GUI (Graphical User Interface)
+The server component can be broken up into three distinct sub-components; The GUI, the logger, and the server properties.
+
+Sports Score server GUI
+
+
+
+The GUI (Graphical User Interface) is how the administrator interacts with the Sports Score server.  The GUI provides the details/statistics about the server log, server TCP port, client limit, data fetch time, data source, and number of clients currently connected.  The administrator is provided the ability to configure the maximum number of clients, the time the server fetches sports data, the sports data source, the port the server uses, the database location (via ODBC Manager), and if debug logging is on or not.  The administrator also has the ability to start and stop the communications service on the fly.  This is useful for pre-disconnecting users before the server terminates, and changing the server port on the fly.
+
+The logger will log information about the server application, communications, Sports Score database, or webViking.  This log is written out to file in the event that the server unexpectedly terminates.  Optionally the log can be displayed in any Object.  The logger has two states it operates under; debug or not debug.  In debug mode, the logger will log any request to log information that is called upon it.  In non-debug mode, the logger discriminates between mandatory logs, and debug logs and records only the mandatory information.
+
+The server properties sub-component is used to store the properties and state of the server that must be maintained when the server is terminated.  Such properties include; server port, maximum number of clients, debug mode, data server, and sports score data fetch time.  All server properties are retrieved and stored in a properties file called “options.txt”.  When an property is changed, it is written out to the properties file.  In the event that a property description is not found in this file, a default is assigned to a given property.
+
+4 – N/A
+
+5 - Server Communications
+
+serverComm internal structure
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+The server communications can be separated into three sub-components; the serverComm interface, the server communications thread, and the server client threads.
+
+The interface to the Sports Score server provides a set of methods to use the server communications module.  Once the server “starts” the communications, a server communications thread is started.  If any interaction/information is required between the server application and communications, this interface provides those services.
+
+The server communications thread (serverCommThread) is responsible for managing the user connections.  When started by the server, this thread listens on a specified TCP (Transmission Control Protocol) port for Sports Score clients.  When a client requests a connection, the serverCommThread spins off a new serverClientThread.  Each client connected to the server is associated with one serverClientThread.  The serverCommThread also keeps a vector of serverClientThreads in the case that these need to be terminated, counted, or interacted with in some manner.
+
+The server client thread (serverClientThread) is responsible for direct communications with a connected Sports Score client.  When a client makes a data request, the serverClientThread forwards this request onto the Sports Score database interface which will then parse the request and retrieve the requested information.  The serverClientThread then packages this information and forwards it onto the client.  The client is then ultimately responsible for terminating the connection to the server.  When the client terminates, the thread notifies the server communications thread that it has been terminated and it is then removed from the server communications thread’s vector.
+
+
+6 - Client Communications
+
+clientComm internal structure
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+The client communications module provides a very basic and simple interface for the Sports Score client application to use.  The client connects to the Sports Score server via the connect() method.  This method will inform the client if the connection to the specified server and port is successful or not.  The client can then transmit sports data requests via the write method, and can receive results via the read method.
+
+Internally, the client communications module will packetize any data being transmitted to the server, and will de-packetize and data coming from the server.  These packets provide a method of both label data with a type (data request, ping, etc…) and putting a terminating character on the packet so the server knows if the complete packet has been transmitted or not.  This provides the ability for multiple types of information to be transmitted to the server, and provides the server an ability to route that information based on the label of that packet.
+
+
+7 - Client Component
+The user interface will be designed as two separate pieces--the dialogs, help systems, acceptable user commands, etc., and the infrastructure that will present this information to, and accept responses from the user.  The distinction between the dialogs and the code to present the dialogs is made to increase modularity and ease of updating dialogs.  Since the same rules are used to present each prompt to the user, it makes sense to keep all of the code in one place.  
+
+The dialogs themselves will not be hard-coded into the system.  Rather, they will be read and interpreted from a database structure.  A separate utility to manage the dialog database would make the dialog-building process much simpler than if each dialog had to be coded into the system (see the Dialog Builder, implemented and used to build the dialogs for this project). Moreover, an end user needs to know nothing about programming to build a front end to a voice-activated application with this method.
+
+The user interface infrastructure is quite complex, requiring the use of recursion in building grammars, putting together dialogs, etc.  However, the code should be fairly compact and easy to maintain.  The alternative, coding each dialog separately, would greatly expand the code, would most likely duplicate much of the common functionality several times, and would require generating grammars by hand.
+
+Included in the design of the infrastructure is the design of the dialog database.  The database structure is tightly coupled to the infrastructure and thus needs to be defined in order to build a meaningful control flow.
+
+The design document is written to include all functionality that may potentially be implemented during the course of this project.  Some of the features, however, will not be implemented unless time allows (see the requirements document).  The system should be implemented in such a way that the architecture remains open to these features even if they are not implemented at the current time.
+
+It is also important to note that many of the requirements are not met by the user interface infrastructure alone.  The infrastructure provides all of the functionality to meet the requirements it refers to.  However, if the dialogs themselves are not designed to take advantage of this functionality, some requirements may still not be met.
+
+The purpose of the user interface infrastructure is to take input from three sources—a human user, the dialog database, and the Sports Scores server, and to make the three interact in a meaningful way.  More specifically, it must read information from the database defining the interface to be presented to the human user.  It must present the information to the user and accept responses.  When the user has completed a query, the query must be sent to the server.  A result is read from the server and read to the user.  The process then begins again.
+
+The following components will be implemented in the user interface infrastructure to achieve its functionality. 
+
+7.1. A database initialization routine will be implemented to load the user dialogs at the start of the application.  This routine will not only need to open the database and set it up to be accessed, but will need to verify that the database has not been updated since the last time all grammars were built.  Grammars are used by the Microsoft SAPI voice-recognition interface to determine what the user is expected to say.  At each prompt in the system, the application will need to know this information.  If the database has been updated since the last build, the grammars will need to be updated to reflect this change.  
+
+7.2. A client communications initialization routine will be implemented to establish communications with the server.  Its only other responsibility is to inform the user if the server is unavailable and to exit the program if this is the case.
+
+7.3., 7.4., 7.6., 7.7.
+A routine will be implemented to establish the topmost flow control.  This will call all initialization functions, will present the user with a task objective if testing is active, will load up the first prompt, and will set user interaction in motion.  When the user has completed a set of prompts, the routine will send a query to the server and read the response to the user.  If in testing mode, the routine will then offer the user a series of questions about the task performed and will log the responses.  The next task will then be loaded and the process will begin again.  If the user is not in testing mode, the routine will act in the same manner, only it will allow the user to perform any allowable task until the user decides to exit the system.
+
+7.5. A subsystem will be implemented to present any necessary prompts to the user and compile the responses into a query string.  This is the most intricate portion of the system and will need to be implemented through a series of recursive calls.
+
+A screen will need to be put together that acts as a questionnaire for the user to fill out after accomplishing all tests (if in testing mode).  This will simply be a data entry screen and will store the results in a file for future reference.  All testing design has been included to help establish that usability requirements have been met.
+
+
+8 - Dialog Database
+
+The dialog database structure is as follows:
+Table
+Field
+Type
+Length
+Description
+Command
+Key
+Long Integer
+ 
+Unique Identifier (primary key)
+ 
+Global
+Boolean
+ 
+Yes if the command is globally available, no if for use in a prompt
+ 
+Prompt ID
+Long Integer
+ 
+The prompt that this command is associated with (if not global)
+ 
+Spoken Text
+String
+50
+What the user should say to access this command
+ 
+Enumerated
+Boolean
+ 
+Whether or not this command is to be enumerated during the help (when commands are read to users)
+ 
+Return Value
+String
+50
+The value to be associated with the prompt parameterwhen this command is selected
+ 
+Action
+Long Integer
+ 
+The action to be taken when this command is selected.  See design document for more info
+ 
+Call ID
+Long Integer
+ 
+The prompt or script ID to call if the action indicates we must call one
+ 
+Enabled
+Boolean
+ 
+Whether or not this command is enabled
+ 
+ 
+ 
+ 
+ 
+Help Text
+Key
+Long Integer
+ 
+Unique Identifier (primary key)
+ 
+Prompt ID
+Long Integer
+ 
+The number of the prompt ID with which this is associated
+ 
+User Level
+Long Integer
+ 
+The user level at which this text is read
+ 
+Hits Before Escalation
+Long Integer
+ 
+The number of times a user can visit this prompt before they should move to the next help level
+ 
+Text
+String
+Memo
+The number of times a user can visit this prompt before they should move to the next help level
+ 
+Global
+Boolean
+ 
+Whether or not this help text is globally available
+ 
+Read All Commands
+Boolean
+ 
+Whether or not we read all of the commands available at this prompt.
+ 
+ 
+ 
+ 
+ 
+Macro
+Key
+Long Integer
+ 
+Unique Identifier (primary key)
+ 
+Text
+String
+50
+The text the user will say to access this macro
+ 
+Query String
+String
+Memo
+The string that will be sent to the server to perform the query
+ 
+ 
+ 
+ 
+ 
+Prompt
+Key
+Long Integer
+ 
+Unique Identifier (primary key)
+ 
+Prompt ID
+Long Integer
+ 
+A unique identifier that is referenced by its detail tables.
+ 
+Name
+String
+100
+The (relatively) short prompt name for reference purposes
+ 
+Description
+String
+Memo
+A longer description of the prompt and what it represents
+ 
+Grammar
+String
+Memo
+The grammar to be used when this prompt is called up
+ 
+Parameter
+String
+50
+The name of the parameter that gets assigned a value for this prompt
+ 
+Test
+Boolean
+ 
+Whether or not this is a prompt to be used in test mode after a query is completed
+ 
+ 
+ 
+ 
+ 
+Prompt Text
+Key
+Long Integer
+ 
+Unique Identifier (primary key)
+ 
+Prompt ID
+Long Integer
+ 
+The prompt to which this text belongs.
+ 
+User Level
+Long Integer
+ 
+The user level at which this text is read
+ 
+Hits Before Escalation
+Long Integer
+ 
+The number of times a user can visit this prompt before they should move to the next text level
+ 
+Text
+String
+Memo
+The text to be read to the user
+ 
+ 
+ 
+ 
+ 
+Response Component
+Key
+Long Integer
+ 
+Unique Identifier (primary key)
+ 
+Response ID
+Long Integer
+ 
+The response definition to which this component belongs
+ 
+Order
+Long Integer
+ 
+The order in which this part of the response is read (low to high)
+ 
+Text
+String
+255
+The text to be read or the variable to be input
+ 
+Is Variable
+Boolean
+ 
+Yes if this is a variable name, no if it is literal text to be read.
+ 
+User Level
+Long Integer
+ 
+The user level at which this response is read.
+ 
+ 
+ 
+ 
+ 
+Response Criteria
+Key
+Long Integer
+ 
+Unique Identifier (primary key)
+ 
+Response ID
+Long Integer
+ 
+The reference to the response to which it belongs
+ 
+Parameter
+String
+50
+The name of the parameterthat this criteria is concerned with
+ 
+Value
+String
+50
+The value of the parameter that is required to meet this criteria
+ 
+Client Generated
+Boolean
+ 
+True if the client created this parameter, false if the server did
+ 
+ 
+ 
+ 
+ 
+Response Definition
+Key
+Long Integer
+ 
+Unique Identifier (primary key)
+ 
+Name
+String
+50
+The description of this particular response definition
+ 
+Response ID
+Long Integer
+ 
+The unique identifier of the response
+ 
+ 
+ 
+ 
+ 
+Script
+Key
+Long Integer
+ 
+Unique Identifier (primary key)
+ 
+Script ID
+Long Integer
+ 
+A unique identifier that will be referenced by script steps
+ 
+Name
+String
+50
+A short name of the script to be referenced in lookups
+ 
+Description
+String
+Memo
+A long description of the script
+ 
+ 
+ 
+ 
+ 
+Script Step
+Key
+Long Integer
+ 
+Unique Identifier (primary key)
+ 
+Script ID
+Long Integer
+ 
+The script to which this step belongs
+ 
+Prompt ID
+Long Integer
+ 
+The prompt which this step will call
+ 
+Order
+Long Integer
+ 
+The order in which this script step occurs in the grammar
+ 
+Grammar
+String
+Memo
+The grammar that is loaded when this script step comes up
+ 
+Query After
+Boolean
+ 
+Yes - Query after this step is performed.  No - Don't do that.
+ 
+ 
+ 
+ 
+ 
+System Parameters
+Key
+Long Integer
+ 
+Unique Identifier (primary key)
+ 
+Last Grammar Build
+Date/Time
+ 
+The last date and time that the grammar was built
+ 
+Last Modification
+Date/Time
+ 
+The last date and time that the prompt structure was modified
+ 
+First Prompt ID
+Long Integer
+ 
+The prompt that is the first to be called
+ 
+Host Name
+String
+255
+The name of the host where the server resides
+ 
+Port Number
+Long Integer
+ 
+The port number where the server will be listening
+ 
+ 
+ 
+ 
+ 
+Test Case
+Key
+Long Integer
+ 
+Unique Identifier (primary key)
+ 
+Preceding Text
+String
+Memo
+The text to be read to the user before the user is allowed to query the system
+ 
+Success Text
+String
+Memo
+The text to be read to the user if he or she meets the test objective
+ 
+Failure Text
+String
+Memo
+The text to be read to the user if he or she does not meet the test objective
+ 
+Expected User Response
+String
+Memo
+The expected query string to come out of the user interaction with the system
+ 
+Expected Server Response
+String
+Memo
+The expected response to come back from the server if the query is correct
+ 
+Enabled
+Boolean
+ 
+Whether or not this test case is enabled
+ 
+Order
+Long Integer
+ 
+The order in the test case sequence in which this one is used.
+
+
+The dialog will have a structure that supports the following guidelines:
+
+8.1. 	All tables will contain unique record identifiers as in a normal database structure.
+
+8.2. 	A table will be created to store prompts.
+	8.2.1.	Each prompt will contain a description and short name to be used for reference in building the prompts.
+	8.2.2.	Each prompt will store a parameter with which it is associated.  When a user visits the prompt and a value is returned, this is the parameter the value will be associated with.  It will be sent to the server as part of the query string.
+8.2.3. Each prompt will contain the base prompt grammar, or the grammar that the prompt will accept if it is not called from a script. 
+8.2.4. Each prompt will contain a flag indicating whether or not it is a debug prompt (to be read when a task is completed in testing mode)
+
+8.3.	A table will be created to store commands.  
+	8.3.1.	Each command will point to the prompt to which it belongs or will contain some information indicating it is a global command. (CF2.6.5.1) (CF2.6.5.2)
+	8.3.2.	Each command will contain the text that will be accepted from the user.
+	8.3.3.	Each command will contain a logical flag that will indicate whether this command is to be enumerated during help.  That is, if the user asks for help and the help menu reads options to the user, the flag will determine whether this command is among those options.  Each option will be given a number so that the user can say the number rather than the option text.  The motivation behind only enumerating some of the commands is so that different pronunciations or representations of the commands can be entered without the computer reading all of the synonymous options to the user during help. (CF2.6.2.1) (CF2.6.2.2) (CF2.6.4)
+	8.3.4.	Each command will contain a return value to be associated with its prompt parameter value.
+	8.3.5.	Each command will contain a code to indicate the action to take when the computer recognizes the command.  The action may be to return a value, to call another prompt, to call a script, etc.  It may also indicate a change in system behavior or a navigational command.
+	8.3.6.	Each command will contain the ID of a script or prompt to call, if the action referred to in 8.3.5. is to call either of these functions.
+	8.3.7.	Each command will contain a flag to indicate whether or not the command is enabled.  This will allow dialogs to be built ahead of time for functionality that may be implemented in the future.  Disabling it will make it invisible to the system.
+
+8.4.	A table will be created to store prompt text entries.  
+	8.4.1.	Each prompt text record will contain a pointer to the prompt with which it is associated.
+	8.4.2.	Each prompt text record will contain the user level at which this text is read.
+	8.4.3.	Each prompt text record will contain the text to be read to the user by the computer. (CF2.6.1.1)
+	8.4.4.	Each prompt text record will contain the number of visits required to this prompt text level before the user is elevated to the next level.  This will be used along with the system user level to determine which prompt level the user hears.  This is included because the user may be a low-level user but may visit the same prompt many times.  After visiting the prompt a certain number of times, he or she may no longer need to hear all of the text of the low level prompt texts.
+
+8.5.	A table will be created to store help text entries.
+	8.5.1.	Each help text entry will contain a pointer to the prompt with which it is associated.
+	8.5.2.	Each help text entry will contain the text to be read to the user. (CF2.4.1)
+	8.5.3.	Each help text entry will contain the user level for which this text is read. (CF2.4.2)
+8.5.4. Each help text entry will contain information to reflect whether or not the help is available globally.
+8.5.5. Each help text entry will contain the number of hits required before the next lowest help text entry is read.
+8.5.6. Each help text entry will contain a flag to indicate whether or not the command options are to be read at this help level.
+
+8.6.	A table will be created to store scripts.
+	8.6.1.	Each script will contain a short name.
+	8.6.2.	Each script will contain a long description.
+
+8.7.	A table will be created to store script steps, or each of the individual tasks performed by a script.
+	8.7.1.	Each script step will contain a reference to the script to which it belongs.
+	8.7.2.	Each script step will contain a reference to the prompt that will be called at this step.
+	8.7.3.	Each script step will contain the grammar for that step.
+	8.7.4.	Each script step will contain information indicating where in script sequence this step occurs.
+
+8.8.	A table will be created to store system parameters used to provide preferences for the system.
+	8.8.1.	The system parameter table will have only one record.
+	8.8.2.	The system parameter entry will contain a date and time of last database modification.
+	8.8.3.	The system parameter entry will contain the date and time of last grammar build.
+	8.8.4.	The system parameter entry will contain a reference to the first prompt to be executed by the system.
+	8.8.5.	The system parameter entry will contain the identification of the host containing the server. (CF1.5)
+	8.8.6.	The system parameter entry will contain the port number used to connect to the server. (CF1.5)
+
+8.9.	A table will be created to store user-defined macros that can be executed in the system.(CF2.6.6.1)
+	8.9.1.	Each macro entry will contain the text that the user can say to execute a macro.
+	8.9.2.	Each macro entry will contain the query string that is to be sent to the server when the macro is executed.  This corresponds to the query string that was formed when the user navigated the dialogs when the macro was created.
+
+8.10.	A test case table will be created to store the test scenarios the system will run in test mode.
+	8.10.1.	Each test case will contain text to be read to the user before the system starts that will explain the test objective to them.
+	8.10.2.	Each test case will contain the text of the query string that the user will generate if he or she successfully meets the objective.
+	8.10.3.	Each test case will contain the text of the expected response from the server.
+8.10.4. Each test case will contain a flag to indicate whether or not the test is to be executed.  This will allow some test cases to be enabled and disabled quickly as desired.
+8.10.5. Each test case will contain the text to be read to the user if he or she does not meet the objective.
+8.10.6. Each test case will contain an order field indicating the order in which they are read (low to high).
+8.10.7. Each test case will contain the query expected from the user in the scenario.
+
+8.11.	A response definition table will be created to store descriptions of each response the computer may read to the user, based on the user’s query string and the server’s returned parameters.
+8.11.1. Each response definition will have a unique identifier to be used in child tables.
+8.11.2. Each response definition will have a name to allow a dialog creator to recognize it.
+
+8.12 A response criteria table will be created to store the necessary criteria for a particular response format to be used.
+8.12.1. Each record will contain a reference to the response definition record to which it belongs.
+8.12.2. Each record will contain the name of the parameter, the value of which will be required to determine the format.
+8.12.3. Each record will contain the value of the parameter of the record that will be required to determine the format.
+8.12.4. Each record will contain a flag to indicate whether the parameter is a server-generated or client-generated parameter.
+
+8.13.	A response text component table will be created to define a portion of the response to be read to the user.
+8.13.1. Each record will contain a reference to the response definition to which it belongs.
+8.13.2. Each record will contain an order field to indicate where in the sequence of the response that it is read.
+8.13.3. Each record will contain a text field to be used as a variable name or as literal text to be read to the user.
+8.13.4. Each record will contain a flag to indicate whether it is to be read to the user or to be interpreted as a variable.
+8.13.5. Each record will contain a user level, describing the user level for which it is a component.
+
+
+9 - SSDB (Sports Score Database)
+
+10 - Dialog Generation Utility
+
+
+Policies and Tactics
+This design was attempted to be made as modular as possible.  This provides flexibility between component developments.  In design, we attempted to partition the development into sections that each individual could create independent of another, and have a clearly defined interface between components.  This would make compilation of the client and server applications trivial.  For example, the communications components work together, and are nearly independent of the data that they are transferring.  With a clearly defined interface for the communications components, integration of these components is made simple and painless.
+
+This design also took the policy of using coding standards such as standard Java/C++ variable prefixes and caption.  Generally method/property purposes are easily deciphered by their descriptive name.
+
+
+Detailed System Design
+
+1 - WebViking
+
+Classification
+Modular subsystem of the server.
+
+Purpose
+This class implements the html parser/stripper necessary to derive sports information from the Internet.  This class is used as part of the server application.
+Uses/Interactions
+This module is to be used by the server.  This subsystem will be invoked when the database is scheduled to be updated.
+
+
+Method
+WebViking( boolean bDebug, String strSSDBLoc )
+Purpose
+constructor for the web viking.
+Parameters
+bDebug – boolean indicating if the application has been started with debug on.
+values – true if debug is on, else false.
+strSSDBLoc – String noting the location of the sports score database.
+Method
+pillage( serverGUI ServerGUI )
+Purpose
+Invokes the beginning of web page pillaging and sports score database updating.
+Parameters
+ServerGUI – Pointer to the currently allocated serverGUI object.  Provides an interface to output logging information.
+
+
+
+2 - SSDB (Sports Score Database) Interface
+
+Classification
+Modular subsystem of the server.
+
+Purpose
+This subsystem is designed to provide an interface to both insert sports information into the sports score database, but also to extract it in a formatted fashion.
+
+Uses/Interactions
+This sybsystem will be used by the web viking to insert sports score information into the sports score database.  This subsystem will also be used by the server to request sports information from the sports score database.
+
+Method
+SSDB( boolean bDebug, SSDB ssdbLoc )
+Purpose
+Constructor for the serverGUI object.
+Parameters
+ssdbLoc – String indicating the location of the sports score database.
+bDebug – boolean indicating if the application has been started with debug on.
+values – true if debug is on, else false.
+return value – None
+Method
+String clientInfoRequest( String strClientRequest )
+Purpose
+Method to provide a client the requested information from the server in a readable fashion.
+Parameters
+strClientRequest – String indicating a client request for sports data.
+Values
+string formatted to the grammar defined by the hierarchical structure of the user dialog. 
+Return value
+String formatted for the text-to-speech synthesizer to read to the client.  If the requested information is not found, an appropriate phrase is returned to the client.  If the request is incorrectly formatted, an appropriate phrase is returned to the client.
+
+Method
+boolean updateGame( date dteGameDate, String strTeam1, String strTeam2, int iScore1, int iScore2, int iHits1, int iHits2, int iErr1, int iErr2, String strComment )
+Purpose
+Method to insert/update specific game information into the sports score database.
+Parameters
+dteGameDate – Date indicating the game’s date.
+strTeam1 – String indicating a team in the game.
+strTeam2 – String indicating the other team in the game.
+iScore1 – Score of team one.
+iScore2 – Score of team two.
+iHits1 – Number of hits by team one.
+iHits2 – Number of hits by team two.
+iErr1 – Number of errors by team one.
+iErr2 – Number of errors by team two.
+strComment – String indicating any commentary of the game.
+Return value
+true if the database update was successful, else false.
+
+Method
+boolean updateSchedule( date dteGameDate, String strTeam1, String strTeam2, time tmeGameTime )
+Purpose
+Logs a scheduled game into the sports score database.
+Parameters
+dteGameDate – Date of the scheduled game.
+strTeam1 – Name of a team in the game.
+strTeam2 – Name of the other team in the game.
+tmeGameTime – Time that the game is scheduled to begin
+Return value
+true if the database update was successful, else false.
+
+Method
+boolean updateStandings( String strTeam, int iWins, int iLosses )
+Purpose
+Updates a given team’s winning and losing record.
+Parameters
+strTeam – Team to be updated in the sports score database.
+iWins – Team’s game win count.
+iLosses – Team’s game loss count.
+Return value
+true if the database update was successful, else false.
+
+
+3 – Server Component
+
+Classification
+Modular subsystem of the server.
+
+Purpose
+This class implements any graphical interactions necessary for the user.
+
+Uses/Interactions
+WebViking and serverComm subsystems of the server will interact with this module.  This is necessary to log any information pertinent on the server.
+
+Methods
+serverGUI( boolean bDebug, SSDB ssdbLoc )
+Purpose – Constructor for the serverGUI object.
+Parameters
+ssdbLoc – String indicating the location of the sports score database.
+bDebug – boolean indicating if the application has been started with debug on.
+values – true if debug is on, else false.
+return value – None
+
+
+5 – serverComm (Server Communications)
+
+Classification
+Modular subsystem of the server
+
+Purpose
+This class implements the server side network communications necessary for the sports score system.  This network communications layer uses the TCP protocol as its transport.
+
+Uses/Interactions
+This is used by the server system.
+
+Methods
+serverComm( boolean bDebug )
+Purpose – Constructor for the serverComm object.
+Parameters
+bDebug – boolean indicating if the application has been started with debug on.
+values – true if debug is on, else false.
+Return value None
+
+
+6 – clientComm (Client Communications)
+
+Classification
+Modular subsystem of the client.
+
+Purpose
+This class implements the client side network communications necessary for the sports score system.  This network communications layer uses the TCP protocol as its transport.
+
+Uses/Interactions 
+Methods
+clientComm( boolean bDebug )
+Purpose
+Constructor for the ClientComm object.
+Parameters
+bDebug – boolean indicating if the application has been started with debug on.
+Values
+true if debug is on, else false.
+Return value
+None
+
+Method
+connect( strServerName, iServerPort )
+Purpose
+Opens a port on the client, and creates a connection to a specified server and port.
+Parameters
+strServerName – string indicating the name of the sports score server.  May be either an IP address, or DNS name.
+iServerPort – integer representing the port that the sports score server listens for clients on.
+Return value
+true if the connection to the server succeeded, else false.
+
+Method
+disconnect( )
+Purpose
+Disconnects the sports score client from the sports score server.
+Parameters
+None
+Return value
+true if disconnect succeeded, else false. 
+Assumptions – In the case that the client is not connected, this method will return true indicating that the client is disconnected.
+
+Method
+read( )
+Purpose
+This method is designed to retrieve data sent to the sports score client from the sports score server.  
+Parameters
+None
+Return value 
+A string of data transferred from the sports score server in a response to the client initiating an information request.
+Assumptions
+This method assumes that data coming from the sports score server is purely textual.
+Exceptions Thrown
+ServerMIAException – This exception is thrown in the case that more time has ellapsed than an acceptable response time from the server, or the sports score server has not responded to a PING, or the data received from the server is incomplete.
+
+Method
+write( strOutput )
+Purpose
+Parameters
+Exceptions Thrown
+ServerMIAException
+This exception is thrown in the case that more time has ellapsed than acceptable, or the sports score server has not responded to a PING.
+
+7 - Client Component
+
+8 - Dialog Database
+
+
+
+
+
+Detailed Subsystem Design
+1 - Web Viking
+
+1.1 - The schedule program
+
+     Program name: schedule.pl
+     Input: None
+     Output: a file contains schedule information of the MLB
+     Procedure:
+     For each month from the April to October do the following:
+         Create a link where the link is the url of the web site that contains the schedule of that month
+         Use that url to open a connection between client and server
+         Use CPAN the library function, Request, to get data from the server.
+         If we get the data successfully
+               Call the subroutine to parse data
+         Otherwise,
+               Call the error handling subroutine.
+
+     Parse schedule subroutine
+          Split the data getting from the server into lines
+          Store each line in an element of an array
+          Create a file, schedule.txt, to append under the directory data
+          For each element (line) of the array do the following:
+               Check if the line contains a date. If so, parse the line to get the date, format the data in the form, “Date”|the actual date, and write to file.
+               Check if the line contains a schedule. If so, parse the line to get schedule, format the data in the form, teamName|teamName|time, and write to file.
+          Close file
+
+     Log error subroutine
+          Create a file, schedule.err, to append under the directory logerr
+          Write to file explanations why the program failed
+          Close file
+
+1.2 - The score program
+
+     Program name: scores.pl
+     Input: dates of the day we want the result
+     Output: a file contains baseball scores of the MLB
+     Procedure:
+
+     Check the arguments. If the arguments are missing, log errors
+     For each argument, a given date, create a filename (e.g. sco0506.txt)
+         Create a link where the link is the url of the web site that contains the scores of     the given date.
+         Use that url to open a connection between client and server
+         Use CPAN the library function, Request, to get data from the server.
+         If we get the data successfully
+               Call the subroutine to parse data from MLB site
+         Otherwise,
+               Call the subroutine to parse data from the ESPN site
+
+     Parse scores subroutine
+          Split the data getting from the server into lines
+          Store each line in an element of an array
+          For each element (line) of the array do the following:
+               Check if the line contains a date. If so, parse the line to get the date, format the data in the form, “Date”|the actual date, and write to file.
+               For each game find the lines contain information about the first team name, the 
+               number of runs, homes, errors of the first team. Do the same thing with the 
+               second team.
+               To find the lines contain this information, study the html file that we retrieved,
+               Find the patterns to search.
+               Combine these data together with the ‘|’ in between.
+               Check if we get the right data. If so, write to file that we created. Otherwise, 
+               write to the error file. If it’s the first time we encounter an error, create a file
+               named “scores.err.” If it’s not the first time we encounter the problem, append
+               error messages to the file scores.err and close error file.
+          Close file
+
+     Parse data from the ESPN site: we’ll do the same as we do to get data from the MLB 
+     site. But, the url is the address of the ESPN web site. In addition, if this subroutine is
+     failed the program will fail.
+
+11.3 The standing program
+
+     Program name: standing.pl
+     Input: None
+     Output: a file contains baseball standing of the MLB
+     Procedure:
+
+     For each argument, a given date, create a filename (e.g. standing.txt)
+         Create a link where the link is the url of the web site that contains the current standing.
+         Use that url to open a connection between client and server
+         Use CPAN the library function, Request, to get data from the server.
+         If we get the data successfully
+               Call the subroutine to parse data from MLB site
+         Otherwise,
+               Call the subroutine to parse data from the ESPN site
+
+     Parse scores subroutine
+          Split the data getting from the server into lines
+          Store each line in an element of an array
+          For each element (line) of the array do the following:
+               Check if the line contains a date. If so, parse the line to get the date, format the data in the form, “Date”|the actual date, and write to file.
+               For each league find the top three teams
+                    For each team find the number of win and lost
+               To find the lines contain this information, study the html file that we retrieved,
+               Find the patterns to search.
+               Combine these data together with the ‘|’ in between.
+               Check if we get the right data. If so, write to file that we created. Otherwise, 
+               write to the error file. If it’s the first time we encounter an error, create a file
+               named “standing.err.” If it’s not the first time we encounter the problem, append
+               error messages to the file standing.err and close error file.
+          Close file
+
+     Parse data from the ESPN site: we’ll do the same as we do to get data from the MLB 
+     site. But, the url is the address of the ESPN web site. In addition, if this subroutine is
+     failed the program will fail.
+
+Interface/Exports 
+     The interfaces are output files from the Web Viking program. The DI will use these files as its input. There will be 3 files, scores.txt, standing.txt, and schedule.txt. 
+
+Format of the file scores.txt:
+Date (e.g. May 12 , 2000)
+Team1|#Run|#Home|#Error|Team2|#Run|#Home|#Error
+(e.g. Chi Cubs|3|7|3|Montreal|8|10|0)
+Team1|#Run|#Home|#Error|Team2|#Run|#Home|#Error
+Team1|#Run|#Home|#Error|Team2|#Run|#Home|#Error
+…
+
+Format of the file schedule.txt
+Date|date (e.g. Date|Sunday, April 30)
+Team1|Team2|time (e.g. Boston|Cleveland|1:05 PM)
+Team3|Team4|time
+…
+Date|date
+Team1|Team2|time
+Team3|Team4|time
+…
+TeamN-1|TeamN|time
+
+Format of the file standing.txt
+
+League|ALE
+Team1|W|L
+Team2|W|L
+Team3|W|L
+Team4|W|L
+Team5|W|L
+League|ALC
+Team1|W|L
+Team2|W|L
+Team3|W|L
+Team4|W|L
+Team5|W|L
+League|ALW
+Team1|W|L
+Team2|W|L
+Team3|W|L
+Team4|W|L
+
+     Team names are Anaheim Angels, Angles, Anaheim, Arizona, Arizona Diamondbacks, Diamondbacks, Atlanta, Braves, Atlanta Braves, Orioles, Baltimore, Baltimore Orioles, Chicago, Chi Cubs, Chicago Cubs, Cubs, Chi White Sox, Chicago White Sox, Chicago, White Sox, Chi W Sox, Chicago W Sox, Reds, Cincinnati Reds, Cincinnati, Indians, Cleveland, Cleveland Indians, Rockies, Colorado, Colorado Rockies, Detroit Tigers, Tigers, Detroit, Florida Marlins, Marlins, Florida, Houston Astros, Houston, Astros, Kansas City Royals, Kan City, Kansas City, Royas, Los Angeles Dodgers, Los Angeles, Dodgers, LA, Brewers, Milwaukee, Milwaukee Brewers, Twins, Minnesota, Minnesota Twins, Expos, Montreal, Montreal Expos, New York Mets, NY Mets, New York, Mets, Yankees, New York Yankees, NY Yankees, New York, Oakland, Oakland Athletics, A's, Athletics, Philadelphia Phillies, Philly, Philadelphia, Pittsburgh Pirates, Pittsburgh, Pirates, San Diego Padres, Padres, San Diego, Giants, San Francisco, San Fran, San Francisco Giants, Seattle, Seattle Mariners, Marines, St. Louis, St. Louis Browns, Browns, Devil Rays, Tampa Bay Devil Rays, Tampa Bay, Texas, Texas Rangers, Rangers, Toronto, Blue Jays, Toronto Blue Jays, Boston, Boston Red Sox, and Red Sox.
+
+
+2 - SSDB (Sports Score Database) Interface
+Classification 	
+Class
+
+Definition
+	It's a class that will handle the database
+
+Responsibilities
+This class will act as a container for the database handler.  
+
+Constraints
+	None
+
+Uses/Interactions
+This class will be used to by the server
+
+Resources
+This class will utilize the sport score database.
+
+Processing
+	See the description of each method.
+
+Interface/Exports
+	SSDB(); 			//a constructor which will initialize the Database Drive
+	Public int getStanding(String filename);
+	Public int getSchedule(String filename);
+	Public int getScore(String fileName);
+private int fileSetup(String fname)
+private int monthStringToMonthInt(String m)
+private String convertStringDateToIntDate (int d)
+private int today()
+private int yesterday()
+private void getScoreForAnyDate(String date)
+private void getScoreForATeam(String team)
+private void getRank(String division)
+private void getScheduleForLeague(String division)
+private public void getScheduleForATeam(String team)
+public String UserInfoRequest(String strQuery)
+
+SSDB()
+Classification 	
+	Method
+
+Definition
+	Name: SSDB
+	Input: None
+	Output: None
+
+Responsibilities
+This routine will be responsible for initializing database drive when an object of this class is created
+
+Constraints
+	None. 
+
+Uses/Interactions
+	Will be called automatically when an object of this class is created 
+	
+Resources
+	Database drive name
+	Database file name
+
+Processing
+
+	SSDB() {
+		Initialize the database drive
+	}
+
+Interface/Exports
+	None.
+
+string UserInfoRequest (string) 
+Classification 	
+	Method
+
+Definition
+	Name: clientInfoRequest
+	Input: string
+	Output: string
+	
+Responsibilities
+This routine will accept the input string as a paremeter, then it will parse the string into apropriate format.  Then, it will execute SQL from the string to get a desired result which will be formated then send back to server.
+
+Constraints
+	None. 
+
+Uses/Interactions
+	Will be called by the server
+	
+Resources
+	Require the input string and the database to do the query
+
+Processing
+
+	String UserInfoRequest(String  X) {
+		xmlQuery=new ServerXML();
+		xmlResults=new ServerXML();
+
+		UI_Node_Wrapper nodQuery;
+
+		nodQuery = xmlQuery.getDocument(strQuery);
+
+		// use nodQuery.getParameterValue(strParameterName) to get the value of any parameter.
+
+		String strResult = nodQuery.getParameterValue("FUNCTION");
+		if (strResult.equals("SCORE")){		
+		 	String strTeam = nodQuery.getParameterValue("TEAM");
+			if(strTeam.equals("DAY")) 
+				getScoreForAnyDate(nodQuery.getParameterValue("DAY"));
+			else
+				getScoreForATeam(strTeam);
+		}
+		else if(strResult.equals("RANK")) {
+			getRank(nodQuery.getParameterValue("GROUP"));
+		}
+		else if(strResult.equals("SCHEDULE")) {
+			String tmp=nodQuery.getParameterValue("TEAMLEAGUE");
+			if(tmp.equals("LEAGUENAME")) 
+				getScheduleForLeague(nodQuery.getParameterValue("LEAGUENAME"));
+			else
+				getScheduleForATeam(tmp);
+		}
+		else 
+			;//debug "Unregconize FUNCTION name="strResult" in function x
+				
+		return xmlResults.getResultString();				
+	}
+Interface/Exports
+	None.
+
+void update()
+Classification 	
+	Method
+
+Definition
+	This is the update routine. 
+	Input: None
+	Output: None
+
+Responsibilities
+This routine opens a file which was created by the Webviking and read the infon line by line as well as concurrently update the database.
+
+Constraints
+	None. 
+
+Uses/Interactions
+	Will be called by the server
+	
+Resources
+	Require a text file to read and a database to update or store info
+
+Processing
+
+void update() {
+	getSchedule(“schedule.txt”);
+	getScore(“score.txt”);
+	getStanding(“standing.txt”);	
+}
+
+Interface/Exports
+	None.
+
+void fileSetup(String)
+Classification 	
+	Method
+
+Definition
+	This is the file initialize routine. 
+	Input: the name of the file (String )
+	Output: a file pointer
+
+Responsibilities
+This routine opens a file which was created by the Webviking 
+Constraints
+	None. 
+
+Uses/Interactions
+	Will be called by the update() function
+	
+Resources
+	Require a text file to read and a database to update or store information
+
+Processing
+Void fileSetup(String) {
+	Open the file using the paremeter
+	Set up the pointer to point to the file
+}
+
+Interface/Exports
+	None.
+
+void getSchedule(String)
+Classification 	
+	Method
+
+Definition
+	This is getSchedule routine
+	Input: a file name
+	Output: None
+
+Responsibilities
+This routine opens a file which was created by the Webviking (schedule.txt) and read in the date/time and teams to insert into schedule table of the database.
+
+Constraints
+	None. 
+
+Uses/Interactions
+	Will be called by the update() function
+	
+Resources
+	Schedule.txt file
+	A database with a table schedule 
+
+Processing
+
+Void getSchedule(String fname) {
+	FileSetup(fname);
+	While not end of the file {
+	Read in the data line by line
+		Update the database (table schedule is used)
+	}
+}
+
+Interface/Exports
+	None.
+void getScore(String)
+Classification 	
+	Method
+
+Definition
+	This is the getScore routine. 
+	Input: a file name (string)
+	Output: None
+
+Responsibilities
+This routine opens a file which was created by the Webviking (score.txt) and read in the scores and the team associated with that score then insert into the score table of the database.
+
+Constraints
+	None. 
+
+Uses/Interactions
+	Will be called by the update() function
+	
+Resources
+	Score.txt file
+	A database with the table score	
+
+Processing
+
+Void getScore(String fname) {
+	FileSetup(fname);
+	While not end of the file {
+	Read in the data line by line
+		Update the database (table score is used)
+	}
+}
+
+Interface/Exports
+	None.
+
+void getStanding(String)
+Classification 	
+	Method
+
+Definition
+	This is the getStanding routine. 
+	Input: a file name (string)
+	Output: None
+
+Responsibilities
+This routine opens a file which was created by the Webviking (standing.txt) and read in the win and looses score and the team associated with that score then insert into the standing table of the database.
+
+Constraints
+	None. 
+
+Uses/Interactions
+	Will be called by the update() function
+	
+Resources
+	Standing.txt file
+	A database with the standing table	
+
+Processing
+
+Void getStanding(String fname) {
+	FileSetup(fname);
+	While not end of the file {
+	Read in the data line by line
+		Update the database (table standing is used)
+	}
+}
+
+Interface/Exports
+	None.
+
+private int monthStringToMonthInt(String m)
+Classification 	
+	Method
+
+Definition
+	Name: monthStringToMonthInt 
+	Input: a string
+	Output: an integer
+	
+Responsibilities
+This routine will parse and convert a month in a string format to an integer format
+
+Constraints
+	None. 
+
+Uses/Interactions
+	Is private, will be call by member function of SSDB class
+	
+Resources
+	Require the input string
+
+Processing
+
+	private int monthStringToMonthInt(String m){ 
+		process input string m
+		return the month in an integer format
+		}
+	}
+
+Interface/Exports
+	None.
+
+private String convertStringDateToIntDate (int d)
+Classification 	
+	Method
+
+Definition
+	Name:  convertStringDateToIntDate
+	Input: an integer
+	Output: a string
+	
+Responsibilities
+This routine will parser and convert a date in integer format to a string format.
+
+Constraints
+	None. 
+
+Uses/Interactions
+	Is private, will be called by the member method of SSDB class
+	
+Resources
+	Require an integer input
+
+Processing
+
+	private String convertStringDateToIntDate (int d){
+	parse the integer  d		
+		return the result string 
+	}
+
+Interface/Exports
+	None.
+
+private int today()
+Classification 	
+	Method
+
+Definition
+	Name: today
+	Input: None
+	Output: an integer
+	
+Responsibilities
+This routine will find out what the current day and convert that date object into integer format (Y:MM:DD)
+
+Constraints
+	None. 
+
+Uses/Interactions
+	Is private, will be called by member methods of SSDB class
+	
+Resources
+	None
+
+Processing
+	private int today() {
+		find out what today is
+		return the date in integer format (Y:MM:DD)
+	}
+	
+
+Interface/Exports
+	None.
+
+private int yesterday()
+Classification 	
+	Method
+
+Definition
+	Name: yesterday
+	Input: None 
+	Output: a day in an integer format (Y:MM:DD)
+	
+Responsibilities
+This routine will find out what date is yesterday
+
+Constraints
+	None. 
+
+Uses/Interactions
+	Is private, will be called by member methods of SSDB class
+	
+Resources
+	Require function today();
+
+Processing
+private int yesterday(){
+	call today() function
+	minus 1 
+	return the date
+}
+
+
+Interface/Exports
+	None.
+
+private void getScoreForAnyDate(String date)
+Classification 	
+	Method
+
+Definition
+	Name: getScoreForAnyDate
+	Input: a string
+	Output: a string to XmlServer
+	
+Responsibilities
+This routine will get a string date and find out all the scores for every teams that plays according to the date variable
+
+Constraints
+	None
+
+Uses/Interactions
+	Will be called by the member method getUserInfoRequest(String)
+	
+Resources
+	Require the input string and the database to do the query
+
+Processing
+	private void getScoreForAnyDate(String date){
+		query the database
+		put each record (recordset) in the xml server
+	}
+
+Interface/Exports
+	None.
+
+private void getScoreForATeam(String team)
+Classification 	
+	Method
+
+Definition
+	Name: getScoreForATeam
+	Input: a string
+	Output: a string to xmlServer
+	
+Responsibilities
+This routine will query the database to get the score for a given team according to today( Y:MM:DD)
+
+Constraints
+	None. 
+
+Uses/Interactions
+	Will be called by the member method getUserInfoRequest(String)
+	
+Resources
+	Require the input string and the database to do the query
+
+Processing
+private void getScoreForATeam(String team) {
+		query the database
+		put each record (recordset) in the xml server
+}
+
+Interface/Exports
+	None.
+
+private void getRank(String division)
+Classification 	
+	Method
+
+Definition
+	Name: getRank
+	Input: a string (ALW, ALC, ALE, NLW, NLC, NLW)
+	Output: a string to xmlServer 
+	
+Responsibilities
+This routine will get the top 3 teams’ standing according to the input division
+
+Constraints
+	None. 
+
+Uses/Interactions
+	Will be called by the member method getUserInfoRequest(String)
+	
+Resources
+	Require the input string and the database to do the query
+
+Processing
+
+private void getRank(String division) {
+	query the database;
+		put each record (recordset) in the xml server
+	}
+
+
+Interface/Exports
+	None.
+
+private void getScheduleForLeague(String division)
+Classification 	
+	Method
+
+Definition
+	Name: getScheduleForLeague
+	Input: a string
+	Output: a string
+	
+Responsibilities
+This routine will get the schedule for a league 
+
+Constraints
+	None. 
+
+Uses/Interactions
+	Will be called by the member method getUserInfoRequest(String)
+	
+Resources
+	Require the input string and the database to do the query
+
+Processing
+private void getScheduleForLeague(String division) {
+	query the database	
+		return the result string to the server
+	}
+
+Interface/Exports
+	None.
+
+private public void getScheduleForATeam(String team)
+Classification 	
+	Method
+
+Definition
+	Name: getScheduleForATeam
+	Input: a string
+	Output: a string
+	
+Responsibilities
+This routine will.
+
+Constraints
+	None. 
+
+Uses/Interactions
+	Will be called by the member method getUserInfoRequest(String)
+	
+Resources
+	Require the input string and the database to do the query
+
+Processing
+
+private public void getScheduleForATeam(String team) {
+		parse string team
+		execute SQL queries from string team
+		get the result
+		return the result string to the server
+	}
+
+Interface/Exports
+	None.
+
+
+3 - Server Component/Server GUI (Graphical User Interface)
+
+4 – N/A
+
+5 - serverComm
+Classification
+Class
+
+Definition
+	This is the interface class used by the server application.
+
+Responsibilities
+This class is responsible for setup of sockets, interfacing between the server and the client.
+
+Constraints
+	None 
+
+Uses/Interactions
+
+Resources
+This class will consume a TCP port for each client.
+
+Processing
+All processing will take place through threads used by this class. (serverCommThread and serverClientThread).
+
+Interface/Exports
+	openSocket, getPort, getClientCount, die
+
+
+boolean openSocket( int liPortNum )
+Classification
+Method
+
+Definition
+	This method is used to open the server socket to host clients.
+
+Responsibilities
+This class will open a serverSocket to host a specified number of clients.
+
+Constraints
+	The expected server port must not be in use before calling this method.
+
+Uses/Interactions
+
+Resources
+This class will consume a TCP port for the server to listen on, and one socket for each client.
+
+Processing
+This method will open a serverCommThread which will spin on a port listening for client connection requests.  Each client will be processed through serverClientThread.
+
+Interface/Exports
+	int liPortNum – port to attempt to start the serverSocket listening on.
+
+
+int getPort()
+Classification
+Method
+
+Definition
+	This method returns the port the server is listening on.
+
+Responsibilities
+None.
+
+Constraints
+	The expected server port must be connected before this is called.
+
+Uses/Interactions
+
+Resources
+None
+
+Processing
+This method will return the port the server is currently listening on.  It will return 0 otherwise.
+
+Interface/Exports
+	None
+
+
+int getClientCount()
+Classification
+Method
+
+Definition
+	This method returns the current count of clients connected to the server.
+
+Responsibilities
+None.
+
+Constraints
+	None
+
+Uses/Interactions
+
+Resources
+None
+
+Processing
+This method will return the current number of clients connected (via vector of serverClientThreads).
+
+Interface/Exports
+	None
+
+
+void die()
+Classification
+Method
+
+Definition
+	This method initiates shutdown of server communications.
+
+Responsibilities
+None.
+
+Constraints
+	None
+
+Uses/Interactions
+
+Resources
+None
+
+Processing
+This method will inform the serverCommThread associated with this to terminate.
+
+Interface/Exports
+	None
+
+
+5.2 - serverCommThread
+Classification
+Class
+
+Definition
+This class (and classes/Threads it uses) does most of the work associated with clients.
+
+Responsibilities
+This class is responsible for listening on the serverSocket for clients to connect to.  When a client attempts to connect, the serverCommThread spins off a new serverClientThread associated with the new client.  This class is also responsible for maintaining a count of clients connected.
+
+Constraints
+	None 
+
+Uses/Interactions
+
+Resources
+This class will consume a TCP port for each client.
+
+Processing
+All processing will take place through threads used by this class. (serverCommThread and serverClientThread).
+
+Interface/Exports
+	getPort, newClient, run
+
+
+int getPort()
+Classification
+Method
+
+Definition
+This class returns the port the server is listening on.
+
+Responsibilities
+
+Constraints
+	None 
+
+Uses/Interactions
+
+Resources
+None
+
+Processing
+
+Interface/Exports
+	Returns the port the server is listening on.  If the server is not listening on a port, this returns 0.
+
+
+boolean newClient( Socket clientSocket )
+Classification
+Method
+
+Definition
+This method is responsible for starting a new serverClientThread to maintain the newly connected client.
+
+Responsibilities
+Issues a new serverClientThread to deal with client io.  Also adds the newly created serverClientThread to a vector for access to all client threads.
+
+Constraints
+	None 
+
+Uses/Interactions
+
+Resources
+None
+
+Processing
+
+Interface/Exports
+	clientSocket – new socket associated with the newly connected client.
+	Returns true always.
+
+void run()
+Classification
+Method
+
+Definition
+This method executes the body of the serverCommThread.
+
+Responsibilities
+This method is responsible for looping while the serverSocket is open accepting clients.  This method continually checks the vector of serverClientThreads to check for termination of threads.  This is also a requirement to keep a client count.
+
+Constraints
+	None 
+
+Uses/Interactions
+
+Resources
+This method is responsible for the serverSocket.
+
+Processing
+	This thread is terminated by the die() method.
+
+Interface/Exports
+
+
+
+5.3 - serverClientThread
+Classification
+Class
+
+Definition
+	This is the interface class used by the server application.
+
+Responsibilities
+This class is responsible for setup of sockets, interfacing between the server and the client.
+
+Constraints
+	None 
+
+Uses/Interactions
+
+Resources
+This class will consume a TCP port for each client.
+
+Processing
+All processing will take place through threads used by this class. (serverCommThread and serverClientThread).
+
+Interface/Exports
+	getPort, newClient, run
+
+
+6 - clientComm
+Classification
+Class
+
+Definition
+	This is the interface class used by the server application.
+
+Responsibilities
+This class is responsible for setup of sockets, interfacing between the server and the client.
+
+Constraints
+	None 
+
+Uses/Interactions
+
+Resources
+This class will consume a TCP port for each client.
+
+Processing
+All processing will take place through threads used by this class. (serverCommThread and serverClientThread).
+
+Interface/Exports
+	getPort, newClient, run
+
+
+String packetize( String cHeader, String cEndOfString, String strData )
+Classification
+Method
+
+Definition
+	This method is used to “packetize” user data to be transported to the server.
+
+Responsibilities
+This method is responsible for packetizing user data to be used by the server.
+
+Constraints
+	None 
+
+Uses/Interactions
+
+Resources
+None
+
+Processing
+All processing will take place through threads used by this class. (serverCommThread and serverClientThread).
+
+Interface/Exports
+
+String depacketize( String strPacket )
+Classification
+Method
+
+Definition
+	This method is used to “depacketize” user data received from the server.
+
+Responsibilities
+This method is responsible for removing packetizing characters encapsulating the user data from the server.
+
+Constraints
+	None 
+
+Uses/Interactions
+	Calling this method will cause the first and last characters to be stripped on the “string”.
+
+Resources
+None
+
+Processing
+
+
+Interface/Exports
+
+boolean disconnect()
+Classification
+Method
+
+Definition
+	Disconnects the client from the server.
+
+Responsibilities
+Responsible for disconnecting an existing TCP connection to a sports score server.
+
+Constraints
+	None 
+
+Uses/Interactions
+Calling this method will terminate a TCP connection between the client and server.  If no connection exists, a “true” is returned anyways.
+
+Resources
+None
+
+Processing
+
+Interface/Exports
+
+
+boolean connect(String strServerName, int iPort )
+Classification
+Method
+
+Definition
+	This method is used to connect to a sports score server.
+
+Responsibilities
+This method is responsible for opening a TCP connection to the specified server and port.
+
+Constraints
+	None 
+
+Uses/Interactions
+	Calling this method attempts a connection to a sports score server.
+
+Resources
+This class will consume a TCP port for each client.
+
+Processing
+All processing will take place through threads used by this class. (serverCommThread and serverClientThread).
+
+Interface/Exports
+
+
+Socket openSocket( String strAddr, int iPort )
+Classification
+Method
+
+Definition
+	This method is used to open a socket with the sports score server.
+
+Responsibilities
+This method is responsible for opening a TCP connection to the specified server and port.
+
+Constraints
+	None 
+
+Uses/Interactions
+	Calling this method attempts to open a connection to a sports score server.
+
+Resources
+This class will consume a TCP port.
+
+Processing
+None.
+
+Interface/Exports
+	This method is used by connect().  Upon failure to open a socket, this method returns a null.
+
+
+String read()
+Classification
+Method
+
+Definition
+	This method is used to read a line of data from the server.
+
+Responsibilities
+This method is responsible for reading a line (CR terminating) of data from the server.
+
+Constraints
+	Must be connected to a sports score server.
+
+Uses/Interactions
+	Calling this method attempts to open a connection to a sports score server.
+
+Resources
+This class will consume a TCP port.
+
+Processing
+None.
+
+Interface/Exports
+	This method is used by connect().  Upon failure to open a socket, this method returns a null.
+
+
+
+void write( String sOut )
+Classification
+Method
+
+Definition
+	This method is used to write a line of data to the server.
+
+Responsibilities
+This method is responsible for sending a line of data to the sports score server.  Generally this line of data will be a data request in the form of xml.
+
+Constraints
+	Must be connected to a sports score server.
+
+Uses/Interactions
+	Calling this method attempts to send a line (CR terminated) of data to the sports score server.  
+
+Resources
+This class will consume network bandwidth.
+
+Processing
+None.
+
+Interface/Exports
+	None.
+
+
+
+
+
+
+7 - Client Component
+
+User_Interface
+
+Classification
+Class
+
+Definition
+	This is the container for the user interface.  This class controls all processing.
+
+Responsibilities
+As the class that controls all flow control, it must also declare any data structures that are required within the system.
+
+Constraints
+	Only one instance of this class should exist at any time, as it is the application.  
+
+Uses/Interactions
+No external components refer to User_Interface directly.  It makes use of the Client_Communications class, calling the methods connect(), disconnect(), read(), and write().  It also makes use of the UI_Tester Object and its Start_Test(), End_Test() and Present_Questionnaire() routines.  It also makes use of the UI_Dialogs() class and its Build_Grammars() routine, as well as its Present_Prompt() routine.
+
+Resources
+This class requires the existence of the dialog database and of the classes referred to in the Uses and Interactions section.
+
+Processing
+	All processing will take place through the main() method of this class.
+
+Interface/Exports
+Int main(int argc, String argv)
+public UI_User clsUser;  	//Contains the user definition class.  This is visible throughout the //program and is used for variables such as use level.
+
+void User_Interface::main(int argc, String argv)
+
+Classification 	
+	Method
+
+Definition
+This is the main function for the user interface infrastructure.  It is what initializes and controls the flow of the application.
+
+Responsibilities
+This routine must initialize variables and present the user with the various prompts, interacting with the client communications and the database, as well.  It must also parse out anything brought in on the command line to determine whether to put the system into test mode.
+
+Constraints
+	None.
+
+Uses/Interactions
+No external components refer to User_Interface::main() directly.  It will be called when the application begins due to naming conventions.
+
+Resources
+This class requires the existence of the dialog database and of the classes referred to in the Uses and Interactions section.
+
+Processing
+	The main() function should follow roughly these steps:
+	{
+		Determine Whether We Are In Debug Mode (from the command-line)
+		
+Create A UI_Dialogs Structure (which will initialize the database –send in a database location)
+
+		Create a UI_Response_Formulator Object
+
+		Call the Client Communications Connect() method.
+
+		If (test_mode)
+		{
+			Create the UI_Tester object.
+		}
+
+		do while (User hasn’t quit)
+		{
+			if (test_mode)
+				UI_Tester.Start_Test();	
+			
+			Query_String =  UI_Dialogs.First_Prompt().Present();
+			
+			If (User hasn’t quit)
+			{
+				Client_Communications.write(Query_String);
+
+				Client_Communications.read(strServerResponse);
+
+Response_String = UI_Response_Formulator.getResponse( Query_String, strServerResponse);
+
+Read Response_String to user.
+
+				If (test_mode)
+					UI_Tester.End_Test(Query_String, Response_String);
+			}
+	}
+	
+	Client_Communications.disconnect();
+
+	if (test_mode)
+		UI_Tester.Present_Questionnaire();
+	}
+
+Interface/Exports
+When the user interface calls upon the client communications to send a query string to the server, the query string should be in the following format:
+
+<Parameter 1>=<Value 1>
+<Parameter 2>=<Value 2>
+<Parameter 3>=<Value 3>
+…
+
+Each parameter/value pair is to be separated by a carriage return (character 13).  This will be the format in which parameters are accumulated as the dialogs execute.  The order is not significant.  When the user interface receives a response back from client communications, the response should be in the same format.  The parameters received from the server will not necessarily be identical, but they must follow the same format.
+
+UI_Dialogs
+
+Classification 	
+Class
+
+Definition
+This consists of an array of UI_Dialog_Components.  It acts as a container and allows prompts, scripts, and script steps to be accessed by ID.
+
+Responsibilities
+This class will act as a container for the dialog components.  It needs to provide access to any prompt, script, or script step through a simple interface.  It also needs to be the starting point for grammar building as well as application dialog interaction.
+
+Constraints
+The class will contain a data structure containing every prompt, script, and script step in it.  They will be stored in an array and referenced by a long integer.  Therefore, the sum of the number of prompts, scripts, and script steps cannot exceed the maximum length of a long integer.
+
+Uses/Interactions
+This class is referenced by User_Interface and uses UI_Prompt, UI_Script, UI_Script_Step, and UI_Dialog_Component.  It will also be referenced by each of the latter four classes.
+
+Resources
+This class will utilize the dialog database in the building of dialog components and their grammars.
+
+Processing
+	See the description of each method.
+
+Interface/Exports
+UI_Dialogs(String DBLocation);  // Just call refresh grammars to get it all set up.
+public void Refresh_Dialogs(String DBLocation)
+public UI_Prompt First_Prompt(); 	// Return the first prompt to be read by the system.
+public UI_Prompt Prompt(long Prompt_ID); // Return the prompt object corresponding to the ID 
+public UI_Script Script(long Script_ID); // Return the script object corresponding to the ID
+public UI_Script_Step Script_Step(long Script_Step ID)	// Return the script step object //corresponding to the ID
+public UI_Command Globals[];	// Array of all global commands.
+public UI_Command Macros[];	// Array of all macros.
+
+UI_Dialogs.Refresh_Dialogs(String DBLocation)
+
+Classification 	
+Method
+
+Definition
+This method will cause the dialog array to be completely rebuilt and grammars to be recreated and stored in the appropriate grammar files.
+
+Responsibilities
+This method must destroy any existing dialog structures, rebuild a single structure for each and every script, script step, prompt, command, and help level in the entire dialog database, and rebuild grammars as necessary.
+
+Constraints
+The dialog database must exist in a well-known place (to be passed by the main program).  This routine must be able to access the database.
+
+Uses/Interactions
+This method will only be utilized internally by the UI_Dialogs class.  It will only be called under two circumstances – the start of the application or on the addition of a macro.
+
+Resources
+This class will utilize the dialog database in the building of dialog components and their grammars.
+
+Processing
+	The routine must perform the following steps:
+	{
+		Release any currently existing structures (prompts, scripts, etc)
+		
+		Open the dialog database.
+	
+		Compare the date of last build with the date of last update.
+		if (last build < last update)
+		{
+On each load for a prompt, script, and script ID
+		}
+		
+		Open up the prompt table, script table, and script step table.
+Initialize an array of UI_Dialog_Components of length of the sum of the record counts of each table.
+		
+		Load up Globals[] array with all global commands in the command table.
+
+		Load up Macros[] array with all macro commands in the macro table.
+
+		For each prompt in the prompt table
+		{
+Set the lowest unused element of the array to a new UI_Prompt with the proper ID
+
+If this prompt is the start prompt, remember it as such.
+		}
+
+		For each script step in the script_step table
+		{
+Set the lowest unused element of the array to a new UI_Script_Step with the proper ID
+		}
+
+		For each script step in the script table
+		{
+Set the lowest unused element of the array to a new UI_Script with the proper ID
+		}
+
+First_Prompt.Build(DBNeedsRefreshing); 	// This will kick off the building of all //prompts, scripts, and script steps that are //used in the system (pass in whether or not //the grammars are to be saved)
+		
+		For each test prompt in the database
+		{
+			that_prompt.build();
+		}
+	}
+
+Interface/Exports
+	None.
+
+UI_Tester
+
+Classification 	
+Class
+
+Definition
+This class acts as an external-testing library.  It has a very simple method of access so that it is unobtrusive when called in code.  This class helps test the usability requirements defined in CF2.1.
+
+Responsibilities
+The UI_Tester has very few responsibilities.  It must initiate a test and evaluate whether or not the user passed.  It must also provide for user feedback that is recorded for future reference.
+
+Constraints
+The UI_Tester is only instantiated when the system is in test mode (see the User_Interface::main() routine).  Only one copy of this object needs to be created.  It makes use of the dialog database, which must be in place.
+
+Uses/Interactions
+This component uses no other components except for the dialog database described in 8.1-8.10.  It is used by the User_Interface class.
+
+Resources
+The UI_Tester uses the dialog database.  It also will create a text file to store test results in on the system.  This text file will be generated with a unique name and will not interfere with any existing files.
+
+Processing
+See UI_Tester::UI_Tester(), UI_Tester::Start_Test(), UI_Tester::End_Test(), UI_Tester::Present_Questionnaire
+
+Interface/Exports
+UI_Tester(String DBLocation);  	// Initialize the database to start reading tests (gets passed the //file location of the database)
+	public Int Start_Test()
+	public Int End_Test(String strQueryString, String strServerResponse)
+	public Int Present_Questionnaire()
+
+UI_Tester::Start_Test()
+
+Classification 	
+Method
+
+Definition
+This method will begin a test as defined in the dialog database.
+
+Responsibilities
+This routine will find the next test to be executed and will run the test by reading information to the user concerning the objective of the test.
+
+Constraints
+The dialog database must exist in a well-known place (to be passed by the main program).  This routine must be able to access the database.
+
+Uses/Interactions
+This method will be utilized from the main() routine of the User_Interface module.
+
+Resources
+This class will utilize the dialog database in determining what test to run and what text to read for that test.
+
+Processing
+	The routine must perform the following steps:
+	{
+		if there are no records in the test database
+		{
+			notify the user that a testing error has occurred
+			exit the program
+		}
+		else
+		{
+			Read the text from the current test record to the user.
+		}
+	}
+
+Interface/Exports
+	None.
+
+UI_Tester::End_Test(String strQueryString, String strServerResponse)
+
+Classification 	
+Method
+
+Definition
+This method will end a test as defined in the dialog database.
+
+Responsibilities
+This routine will take the query sent to the server as input as well as the response from the server and will log whether or not the query string was as expected and if the server response was as expected.  It will then let the user know whether or not they succeeded.  If they did not, it will give them the option of starting again.  If they did or they do not want to try again, it will read some debug questions to the user regarding the task’s usability and log the results.
+
+Constraints
+The dialog database must exist in a well-known place (to be passed by the main program).  This routine must be able to access the database.
+
+Uses/Interactions
+This method will be utilized from the main() routine of the User_Interface module.
+
+Resources
+This class will utilize the dialog database in determining what test to run and what text to read for that test.
+
+Processing
+	The routine must perform the following steps:
+	{
+		Compare the user results to the expected user results for the test
+		If (results match)
+		{
+			Log the information in a debug file
+			Log whether or not the server returned the right results in the debug file
+			For each test prompt in the dialog database
+			{
+				.present()
+				log results in debug file
+			}
+			Move to next record
+			
+			If eof()
+				User_quit = true
+		}
+		else
+		{
+			If the user wants to try again
+			{
+				don’t do anything—leave record pointer the same.
+			}
+			else
+			{
+			Log the information in a debug file
+				For each test prompt in the dialog database
+				{
+					.present()
+					log results in debug file
+			}
+				Move to next record
+			
+				If eof()
+					User_quit = true
+			}
+		}
+	}
+
+Interface/Exports
+	None.
+
+UI_Tester::Present_Questionnaire()
+
+Classification 	
+Method
+
+Definition
+This method will provide a GUI user interface for the user to fill out and will record the results.
+
+Responsibilities
+This will let the user know that the monitor can be turned on (in case it was off before) and will ask them to fill out the questionnaire.  It will present a GUI form for the user to fill out and will log the results.
+
+Constraints
+	The name of the debug file must be known and it must be able to be opened for write access.
+
+Uses/Interactions
+This method will be utilized from the main() routine of the User_Interface module.
+
+Resources
+This method will utilize the debug file used in all other debug actions.
+
+Processing
+	The routine must perform the following steps:
+	{
+		Tell the user to turn the monitor on if it is off.
+		Ask the user to fill out a questionnaire.
+		Present the questionnaire.
+		
+		Wait until the user clicks an “Okay” button.
+		Log the results in the debug file.
+	}
+
+Interface/Exports
+	None.
+
+UI_Enum_Command_Functions
+
+Classification 	
+Enumerated Type
+
+Definition
+Defines a set of functions that can be available when a command is selected from a prompt.
+
+Responsibilities
+This is only a data type that represents functions that may be called when commands are selected.  Its only responsibility is to provide this representation.
+
+Constraints
+	None.
+
+Uses/Interactions
+This type is used in the UI_Presentable interface.
+
+Resources
+N/A
+
+Processing
+	N/A	
+
+Interface/Exports
+cmdReturnPromptValue	//Don’t return this prompt value, return another prompt value.
+cmdReturnScriptValue	//Don’t return this prompt value, return a script value.
+cmdCallPrompt		//Call another prompt and return both that value and this prompt value
+cmdCallScript		//Call a script and return both that value and this prompt value
+cmdPromptThenReturn	//Call a prompt, but at the conclusion of the prompt, rerun this prompt.
+cmdScriptThenReturn	//Call a script, but at the conclusion of the script, rerun this script.
+cmdInvalid	//The text that the user said was invalid—used to weed out close //matches.
+cmdBack	//Go to the previous prompt
+cmdRepeat	//Read this prompt again
+cmdStartOver	//Go back to the start prompt
+cmdHelp	//Read the user some help
+cmdMacro	//Call a macro (then start over)
+cmdQuit	//Quit the entire program
+cmdUserLevelAdv	//Change the user level to advanced
+cmdUserLevelNovice	//Change the user level to novice
+cmdUserLevelInt	//Change the user level to intermediate
+cmdRecordMacro  	//Record the last action as a macro
+cmdReturnValue	//Just return the value recorded with the command
+cmdReadOptions	//Read off all of the possible commands at this prompt
+
+
+UI_Presentable
+
+Classification 	
+Interface
+
+Definition
+Defines an interface that, when implemented, allows a grammar to be built for this object and the object to be presented.  It is created as an interface because different objects require grammars but have different rules for building those grammars.  Also, different objects need to be presented to the user but have different rules for being presented.
+
+Responsibilities
+The UI_Presentable interface must provide a standard way of handling grammars and presenting data to the user.  It will do nothing on its own; rather, it will be up to the object implementing the interface to handle the code.  However, it will provide standard ways of accessing grammars and presentation.
+
+Constraints
+	None.
+
+Uses/Interactions
+This interface is implemented by UI_Dialog_Component, UI_Prompt, UI_Script, and UI_Script_Step.  It references UI_Dialog_Component in its function calls, as well as UI_Dialogs.  It also uses the enumerated type UI_Enum_Command_Functions.
+
+Resources
+None.
+
+Processing
+	The interface processes nothing on its own.  See the classes that implement it.	
+
+Interface/Exports
+	private UI_Dialogs Dialog_List;
+	public String Grammar
+	public String GrammarHeader
+	public UI_Dialog_Component arDependencies[]
+	public Int Build_Grammar(Boolean DBNeedsRefreshing)
+	public String Variable_Name
+	public String AssignmentString
+	public Int Present()
+	public UI_Enum_Command_Functions enumLastAction
+	private Boolean Has_Been_Built
+	private aPrompt_Text[] Text_Levels
+	private int Times_Visited
+	
+
+UI_Dialog_Component
+
+Classification
+Class
+
+Definition
+This class contains the basis for a prompt, script, or script step.  It is abstract and should never be instantiated.  It contains information that is necessary for proper handling of the sub-structures.
+
+Responsibilities
+This class is responsible for representing a prompt, script, or script step.  It must be able to generate its own grammar and present itself, as well as call any sub-prompts.  Since it is abstract, however, much of this functionality will be left up to the individual subclass.
+
+Constraints
+	None.
+
+Uses/Interactions
+The dialog component implements the UI_Presentable class.  It is never used directly but the UI_Prompt, UI_Script, and UI_Script_Step classes are all based on it.
+
+Resources
+None.
+
+Processing
+	See subclasses UI_Prompt, UI_Script, and UI_Script_Step.
+
+Interface/Exports
+private UI_Dialogs Dialog_List;
+UI_Dialog_Component(Recordset RSTable, int ID, UI_Dialogs);	
+// Just load up the appropriate entry in the appropriate table.  Initialize the 
+//Variable_Name, aText_Levels and aHelp_Levels
+public String Grammar;	// The grammar string to be loaded upon presentation.
+public String GrammarHeader;	// The string for the first level of commands available.
+public UI_Dialog_Component arDependencies[];	// An array containing components that the 
+//current component is dependent upon (and 
+// thus need to be included in the grammar)
+public Int Build_Grammar(Boolean DBNeedsRefreshing)
+public String Variable_Name;	// When a value is returned, the name of the variable to be 
+//assigned a value.
+public String Assignment_String;	// The string that will be used added to the query string from 
+//this element.
+public Int Present(UI_Dialogs clsDialogs)
+public UI_Enum_Command_Functions enumLastAction;  	// The last action that was taken at 
+//this component.
+private Boolean Has_Been_Built; //Whether or not the grammar has been built yet.
+private Prompt_Text[] aText_Levels; // The array of text that can be read for different user levels
+private int Times_Visited; // The number of times the user has visited this prompt.
+
+UI_Prompt
+
+Classification 	
+Class
+
+Definition
+This object represents a single prompt and contains the necessary data structures and routines to build a grammar for the prompt and present the prompt to the user.
+
+Responsibilities
+This class is responsible for representing a prompt that will be presented to the user.  As such, it needs to be able to present itself and accept a response.  It must be able to build a grammar of acceptable commands for itself.  It also must be able to accumulate a return value based on subprompts and scripts and return that value upon presentation.
+
+Constraints
+	None
+
+Uses/Interactions
+This class is a UI_Dialog_Component and is referenced by UI_Dialogs.  It implements the UI_Presentable interface and also makes reference to a UI_Dialogs object.
+
+Resources
+This class utilizes the dialog database.
+
+Processing
+	See individual methods.
+
+Interface/Exports
+private UI_Dialogs Dialog_List;
+UI_Prompt(Recordset RSTable, int ID, UI_Dialogs);	
+// Just load up the appropriate entry in the appropriate table.  Initialize the 
+//Variable_Name, aText_Levels and aHelp_Levels
+public UI_Command arCommands[]; //Set of all available commands
+public String Grammar;	// The grammar string to be loaded upon presentation.
+public String GrammarHeader;	// The string for the first level of commands available.
+public UI_Dialog_Component arDependencies[];	// An array containing components that the 
+//current component is dependent upon (and 
+// thus need to be included in the grammar)
+public int Build_Grammar(Boolean DBNeedsRefreshing)
+public String Variable_Name;	// When a value is returned, the name of the variable to be 
+//assigned a value.
+public String Assignment_String;	// The string that will be used added to the query string from 
+//this element.
+public int Present(String strLeftOvers)
+public UI_Enum_Command_Functions enumLastAction;  	// The last action that was taken at 
+//this component.
+private Boolean Has_Been_Built; //Whether or not the grammar has been built yet.
+private Prompt_Text[] aText_Levels; // The array of text that can be read for different user levels
+private int Times_Visited; // The number of times the user has visited this prompt.
+
+UI_Prompt::Build_Grammar(Boolean DBNeedsRefreshing)
+
+Classification 	
+Method
+
+Definition
+This method is used to build a grammar for a particular prompt.
+
+Responsibilities
+This method is responsible for building any dependencies that may be required, building the grammar for a single prompt, and storing that grammar in a text file for future reference.
+
+Constraints
+None.
+
+Uses/Interactions
+This method will be used from a UI_Dialog_Component or any subclasses.
+
+Resources
+None.
+
+Processing
+	The routine must take the following steps:
+	{
+if (has_been_built = false)
+{	
+	if (DBNeedsRefreshing)
+	{
+Grammar_Header = “[Grammar Name]-><Grammar Cmds>|<Global Cmds>|<Macro Cmds>”
+			}
+	
+for each dependent command
+	{
+		Put another command in arCommands[];
+		
+		Switch(arCommands[LastAdd].Function)
+		{
+		Case uiCallPrompt:
+WorkComponent = Dialog_List.Prompt (arCommands[current].Call_ID)
+				Case uiCallScript:
+WorkComponent = Dialog_List.Script (arCommands[current].Call_ID)
+				Case uiCallScriptStep:
+WorkComponent = Dialog_List.Script_Step (arCommands[current].Call_ID)
+				}
+				
+				WorkComponent.Build_Grammar();
+				
+				If (DBNeedsRefreshing)
+				{
+Compare WorkComponent.arDependencies to this.arDependencies, adding any dependencies that exist in WorkComponent to this.arDependencies.
+
+Add all of the commands for this object to the grammar with the header.
+
+Go through each prompt and script step this is dependent on and add the grammar headers and commands to the grammar
+(Not only will you add the commands to the list of availables, but the header will need to be updated for optional trailers to the current prompt grammar header).
+
+Add all macro and global commands to the header.
+
+Record the grammar in the grammar field of the table.
+			}
+				else
+				{
+Load the grammar property from the appropriate field in the table.
+				}
+	}	
+}
+return 1;
+	}
+
+Interface/Exports
+	None.
+
+UI_Prompt::Present(String strLeftOvers)
+
+Classification 	
+Method
+
+Definition
+This method is used to present the prompt to the user and accept a response.
+
+Responsibilities
+This routine must load the appropriate grammar, read the appropriate text to the user, accept a response, evaluate the response, and choose the correct course of action based on the response. It must also take any “left-overs,” or strings that were said in a previous prompt or script step, and try to apply them here.
+
+
+Constraints
+None.
+
+Uses/Interactions
+This method will be used from a UI_Dialog_Component.
+
+Resources
+None.
+
+Processing
+	The routine must take the following steps:
+	{
+do while true
+{
+	if (strLeftOvers.Length == 0)
+	{
+Load the grammar from its grammar property into memory as the current grammar that the speech recognition is listening for.
+
+Go through each prompt text entry and determine based on the current user level and the number of times this prompt has been visited, what text should be read.
+
+Increment the number of times the prompt has been visited
+
+Add any help text to the beginning of any prompt text.
+	
+			Begin reading the text to the user.
+			
+				Begin listening for a user response.
+
+				Begin timer testing for a timeout.
+
+			Do while no response and no timeout
+					Wait;
+			}
+
+			If timeout and strLeftOvers.Length == 0
+			{
+				// The user said nothing.
+				User.UsedHelp();
+Go through the help levels and determine which should be read to the user.  Store it to be added to the prompt text in the next loop iteration.
+			}
+			else
+			{
+				// The user said something.
+Go through each command and attempt to match the recognized text to a possible command.  Take the longest string possible as the match.
+
+Switch (function associated with selected command):
+{
+	case uiUnrecognized:
+		User.UsedHelp();
+Add text to be said letting the user know it was not recognized.
+Go through the help levels and determine which should be read to the user.  Store it to be added to the prompt text in the next loop iteration.
+Break;
+
+case uiHelp:
+		User.UsedHelp();
+
+Go through the help levels and determine which should be read to the user.  Store it to be added to the prompt text in the next loop iteration.
+
+Break;
+
+	case uiBack:
+		Flag last action as uiBack.  Exit loop.		
+		Break;
+	case uiStartOver:
+		Flag last action as uiStartOver. Exit loop.
+		Break;
+
+	case uiCallPrompt:
+		Store the appropriate prompt as WorkComponent
+		Break;
+	case uiCallScript:
+		Store the appropriate script as WorkComponent
+		Break;
+	
+	Case uiCallMacro:
+		Assignment string = Macro.Querystring
+		Exit loop
+	
+	case uiReturnValue:
+Set the assignment string to ‘<VariableName> = <Command Value>’
+Exit loop
+
+}
+
+if (uiCallPrompt) || (uiCallScript)
+{
+	WorkComponent.Present();
+	Switch (WorkComponent.LastAction)
+	{
+		case uiStartOver:
+			LastAction = uiStartOver;
+			Exit loop.
+		Case uiBack:
+			// Do nothing-stay in the loop.
+		Default:
+			// They got a return value.
+Add WorkComponent.Assignment_String to this.assignment_string and add ‘<VariableName> = <Command Value>’
+Exit loop
+	}
+}
+			}
+		}
+	}
+
+Interface/Exports
+	None.
+
+UI_Script
+
+Classification 	
+Class
+
+Definition
+This object represents a script, or series of prompts to be read in succession, and contains the necessary data structures and routines to build a grammar for the script and present the script to the user.
+
+Responsibilities
+This class is responsible for representing a script that will be presented to the user.  As such, it needs to be able to present itself, meaning every script step within the script.  It must be able to build a grammar of acceptable commands for itself.  It also must be able to accumulate a return value based on subprompts and scripts and return that value upon presentation.
+
+Constraints
+	None
+
+Uses/Interactions
+This class is a UI_Dialog_Component and is referenced by UI_Dialogs.  It implements the UI_Presentable interface and also makes reference to a UI_Dialogs object.  It also references the UI_Script_Step class and other UI_Dialog_Component objects.
+
+Resources
+This class utilizes the dialog database.
+
+Processing
+	See individual methods.
+
+Interface/Exports
+private UI_Dialogs Dialog_List;
+UI_Script(Recordset RSTable, int ID, UI_Dialogs);	
+// Just load up the appropriate entry in the appropriate table.  Initialize the 
+//Variable_Name, aText_Levels and aHelp_Levels
+public String Grammar;	// The grammar string to be loaded upon presentation.
+public String GrammarHeader;	// The string for the first level of commands available.
+public UI_Dialog_Component arDependencies[];	// An array containing components that the 
+//current component is dependent upon (and 
+// thus need to be included in the grammar)
+public Int Build_Grammar(Boolean DBNeedsRefreshing)
+public String Variable_Name;	// When a value is returned, the name of the variable to be 
+//assigned a value.
+public String Assignment_String;	// The string that will be used added to the query string from 
+//this element.
+public Int Present(String strLeftOvers)
+public UI_Enum_Command_Functions enumLastAction;  	// The last action that was taken at 
+//this component.
+private Boolean Has_Been_Built; //Whether or not the grammar has been built yet.
+private Prompt_Text[] aText_Levels; // The array of text that can be read for different user levels
+private int Times_Visited; // The number of times the user has visited this prompt.
+
+UI_Script::Build_Grammar(Boolean DBNeedsRefreshing)
+
+Classification 	
+Method
+
+Definition
+This method is used to build a script for a particular prompt.  It does not actually need to build a grammar for itself but it does for each script step underneath it.
+
+Responsibilities
+This method is responsible for building any dependencies that may be required.
+
+Constraints
+None.
+
+Uses/Interactions
+This method will be used from a UI_Dialog_Component or any subclasses.
+
+Resources
+None.
+
+Processing
+	The routine must take the following steps:
+	{
+if (has_been_built = false)
+{	
+for each script step defined for this script
+	{
+WorkComponent = Dialog_List.Script_Step (Dependent Script Step ID)
+			}
+				
+			WorkComponent.Build_Grammar();
+				
+			If (DBNeedsRefreshing)
+			{
+Compare WorkComponent.arDependencies to this.arDependencies, adding any dependencies that exist in WorkComponent to this.arDependencies.
+
+			}
+}
+return 1;
+	}
+
+Interface/Exports
+	None.
+
+
+UI_Script::Present(String strLeftOvers)
+
+Classification 	
+Method
+
+Definition
+This method is used to present the script to the user.
+
+Responsibilities
+This routine must simply call up the appropriate script steps one-by-one and return the assignment string for use by higher level routines.
+
+Constraints
+None.
+
+Uses/Interactions
+This method will be used from a UI_Dialog_Component.
+
+Resources
+None.
+
+Processing
+	The routine must take the following steps:
+	{
+for each script step in the script
+{
+Current.Present(strLeftOvers);
+Switch (Current.LastAction)
+{
+case uiStartOver:
+LastAction = uiStartOver;
+	Exit loop.
+Case uiBack:
+	If (Current = first)
+	{
+		LastAction = uiStartOver;
+		Exit Loop.
+					}
+					else
+						Current = Previous;
+Default:
+	// They got a return value.
+	StrLeftOvers = Current.LeftOverString
+Go to the next script step.
+			}
+		}
+		
+		for each script step in the script
+		{
+			Assignment_String += Current.Assignment_String
+		}
+	}
+
+Interface/Exports
+	None.
+
+UI_Script_Step
+
+Classification 	
+Class
+
+Definition
+This object represents a single prompt within a script and contains the necessary data structures and routines to build a grammar for the prompt and present the prompt to the user.
+
+Responsibilities
+This class is responsible for representing a script step that will be presented to the user.  As such, it needs to be able to present itself and accept a response.  It must be able to build a grammar of acceptable commands for itself.  It also must be able to accumulate a return value based on subprompts and scripts and return that value upon presentation.
+
+Constraints
+	None
+
+Uses/Interactions
+This class is a UI_Dialog_Component and is referenced by UI_Dialogs.  It implements the UI_Presentable interface and also makes reference to a UI_Dialogs object.  It references other UI_Script_Step objects as well as UI_Prompt objects.
+
+Resources
+This class utilizes the dialog database.
+
+Processing
+	See individual methods.
+
+Interface/Exports
+private UI_Dialogs Dialog_List;
+UI_Script_Step(Recordset RSTable, int ID, UI_Dialogs);	
+// Just load up the appropriate entry in the appropriate table.  Initialize the 
+//Variable_Name, aText_Levels and aHelp_Levels
+public UI_Script_Step Next_Step; // Holds the next step in the script to execute.
+public String Grammar;	// The grammar string to be loaded upon presentation.
+public String GrammarHeader;	// The string for the first level of commands available.
+public UI_Dialog_Component arDependencies[];	// An array containing components that the 
+//current component is dependent upon (and 
+// thus need to be included in the grammar)
+public Int Build_Grammar(Boolean DBNeedsRefreshing)
+public String Variable_Name;	// When a value is returned, the name of the variable to be 
+//assigned a value.
+public String Assignment_String;	// The string that will be used added to the query string from 
+//this element.
+public Int Present(String strLeftOvers)
+public UI_Enum_Command_Functions enumLastAction;  	// The last action that was taken at 
+//this component.
+private Boolean Has_Been_Built; //Whether or not the grammar has been built yet.
+private Prompt_Text[] aText_Levels; // The array of text that can be read for different user levels
+private int Times_Visited; // The number of times the user has visited this prompt.
+
+UI_Script_Step::Build_Grammar(Boolean DBNeedsRefreshing)
+
+Classification 	
+Method
+
+Definition
+This method is used to build a grammar for a particular script step.
+
+Responsibilities
+This method is responsible for building any dependencies that may be required, building the grammar for a single prompt, and storing that grammar in a text file for future reference.
+
+Constraints
+None.
+
+Uses/Interactions
+This method will be used from a UI_Dialog_Component or any subclasses.
+
+Resources
+None.
+
+Processing
+	The routine must take the following steps:
+	{
+if (has_been_built = false)
+{	
+If (DBNeedsRefreshing)
+			{
+		Build the prompt that this script step is based on
+
+		Build the script step that follows this step (if any)
+					
+Compare Prompt.arDependencies to this.arDependencies, adding any dependencies that exist in WorkComponent to this.arDependencies.
+
+Compare next script step dependencies to this.arDependencies, adding any dependencies that exist in the next step and not this one.
+				
+Use the prompt grammar header and add optional next script step trailers to it.
+
+Go through each prompt and script step this is dependent on and add the grammar headers and commands to the grammar
+
+Add all macro and global commands to the header.
+
+Record the grammar in the appropriate field in the table.
+			}
+			else
+			{
+Load the grammar property from the text file indicated in the database
+			}
+}
+return 1;
+	}
+
+Interface/Exports
+	None.
+
+UI_Script_Step::Present(String strLeftOvers)
+
+Classification 	
+Method
+
+Definition
+This method is used to present the script step to the user and accept a response.
+
+Responsibilities
+This routine must load the appropriate grammar, read the appropriate text to the user, accept a response, evaluate the response, and choose the correct course of action based on the response.  It must also take any “left-overs,” or strings that were said in a previous prompt or script step, and try to apply them here.
+
+Constraints
+None.
+
+Uses/Interactions
+This method will be used from a UI_Dialog_Component.
+
+Resources
+None.
+
+Processing
+	The routine must take the following steps:
+	{
+do while true
+{
+	if (strLeftOvers.Length == 0)
+	{
+Load the grammar from the appropriate field in the table as the current grammar that the speech recognition is listening for.
+
+Go through each prompt text entry and determine based on the current user level and the number of times this prompt has been visited, what text should be read.
+
+Increment the number of times the prompt has been visited
+
+Add any help text to the beginning of any prompt text.
+	
+			Begin reading the text to the user.
+			
+				Begin listening for a user response.
+
+				Begin timer testing for a timeout.
+
+			Do while no response and no timeout
+					Wait;
+			}
+
+			If timeout and strLeftOvers.Length == 0
+			{
+				// The user said nothing.
+				User.UsedHelp();
+Go through the help levels and determine which should be read to the user.  Store it to be added to the prompt text in the next loop iteration.
+			}
+			else
+			{
+				// The user said something.
+Go through each command and attempt to match the recognized text to a possible command.  Take the longest string possible as the match.
+
+Switch (function associated with selected command):
+{
+	case uiUnrecognized:
+		User.UsedHelp();
+Add text to be said letting the user know it was not recognized.
+Go through the help levels and determine which should be read to the user.  Store it to be added to the prompt text in the next loop iteration.
+Break;
+
+case uiHelp:
+		User.UsedHelp();
+
+Go through the help levels and determine which should be read to the user.  Store it to be added to the prompt text in the next loop iteration.
+
+Break;
+
+	case uiBack:
+		Flag last action as uiBack.  Exit loop.		
+		Break;
+	case uiStartOver:
+		Flag last action as uiStartOver. Exit loop.
+		Break;
+
+	case uiCallPrompt:
+		Store the appropriate prompt as WorkComponent
+		Break;
+	case uiCallScript:
+		Store the appropriate script as WorkComponent
+		Break;
+	
+	Case uiCallMacro:
+		Assignment string = Macro.Querystring
+		Exit loop
+	
+	case uiReturnValue:
+Set the assignment string to ‘<VariableName> = <Command Value>’
+Exit loop
+
+}
+
+if (uiCallPrompt) || (uiCallScript)
+{
+	WorkComponent.Present();
+	Switch (WorkComponent.LastAction)
+	{
+		case uiStartOver:
+			LastAction = uiStartOver;
+			Exit loop.
+		Case uiBack:
+			// Do nothing-stay in the loop.
+		Default:
+			// They got a return value.
+Add WorkComponent.Assignment_String to this.assignment_string and add ‘<VariableName> = <Command Value>’
+Exit loop
+	}
+}
+			}
+		}
+	}
+
+Interface/Exports
+	None.
+
+UI_Command
+
+Classification 	
+Class
+
+Definition
+This class contains information about commands the user is allowed to give to various prompts.  It contains both the text the user is allowed to say and information about what is to occur when the command is said.
+
+Responsibilities
+This class does very little except to act as a lookup.  Each UI_Dialog_Component will possess a list of available commands.  The commands will contain the allowable text and the function to perform when the command is selected.
+
+Constraints
+	None.
+
+Uses/Interactions
+The command uses the type UI_Enum_Command_Functions.  It is utilized by UI_Dialog_Component and all subclasses.
+
+Resources
+None.
+
+Processing
+	See individual methods.
+
+Interface/Exports
+public UI_Command(String strText, UI_Enum_Command_Functions enumFunction)
+	//Initialize the properties.
+Private boolean IsMacro;  // True for macro, false for global command.
+Private String Macro_Query; // A string containing the query text to be sent on a macro (if macro)
+public UI_Enum_Command_Functions Function; 	//The function code to be executed when this         //command is recognized. 
+public String Text;		// The text to be recognized.
+public String ReturnValue;	// The value to be assigned to the variable if 
+//this command is used.
+public int Call_ID;	//The ID of the dialog component to call if //applicable.
+
+UI_Help_Level
+
+Classification 	
+Class
+
+Definition
+This object contains text that the computer may read to the user when the user is in need of help, the user level required, etc.
+
+Responsibilities
+Each help level simply contains the text to be read, the user level at which to read it, the number of times visited, the maximum number of visits before the next help is reached, etc.  Its job is simply to return the text and accumulate the number of times it is visited successively.
+
+Constraints
+	None.
+
+Uses/Interactions
+The class is used by UI_Dialog_Component and all subclasses.
+
+Resources
+None.
+
+Processing
+	See individual methods.
+
+Interface/Exports
+int User_Level;	//Defines the user level for which this text is presented
+int max_visits;	//If the user has been to help in this prompt more than this many times, read the 
+//next help level.
+string Return_Text();  // Simply returns the text of the help for the current user level.
+UI_Help_Level(String strText, int iUserLevel, int iMaxVisits); // Initialize the properties.
+
+UI_Prompt_Text
+
+Classification 	
+Class
+
+Definition
+This object contains text that the computer may read to the user when the user is at a prompt.
+
+Responsibilities
+Each help level simply contains the text to be read, the user level at which to read it, the maximum number of visits before the next prompt text is reached, etc.  Its job is simply to return the text and accumulate the number of times it is visited successively.
+
+Constraints
+	None.
+
+Uses/Interactions
+The class is used by UI_Dialog_Component and all subclasses.
+
+Resources
+None.
+
+Processing
+	See individual methods.
+
+Interface/Exports
+int User_Level;	//Defines the user level for which this text is presented
+int max_visits;	//If the user has been to this prompt more than this many times, read the next //prompt text.
+string Return_Text();  // Simply returns the text for the current user level.
+UI_Help_Level(String strText, int iUserLevel, int iMaxVisits); // Initialize the properties.
+
+
+UI_User
+
+Classification
+Class
+
+Definition
+	This is the class that represents the user.  It contains information such as user level, etc.
+
+Responsibilities
+This class is used to store information about the user.  It needs to keep track of things such as barge-ins and use of special features in order to come up with a user level.
+
+Constraints
+	Only one instance of this class should exist at any time.  
+
+Uses/Interactions
+The UI_User class is referenced by User_Interface, UI_Dialog_Component and all subclasses.
+
+Resources
+None.
+
+Processing
+	See the description of the methods.
+
+Interface/Exports
+UI_User(); // Just initialize the user level to the lowest possible user level.
+public Int Change_User_Level(int New_Level);  //Update the user level manually to a new level.
+public void BargedIn()
+public void UsedMacro()
+public void UsedShortcut()
+public void UsedHelp()
+Public int User_Level;  // The user level of the current user.
+Private float fUser_Level; 	// An internal user level that is a float—this provides some flexibility in //adjusting it.
+
+UI_User::BargedIn(), UI_User::UsedMacro(), UI_User::UsedShortCut()
+
+Classification 	
+Method
+
+Definition
+This method is simply used to notify the user class that the user has used an advanced feature and the user level may need to be adjusted.
+
+Responsibilities
+All this routine must do is evaluate the user’s current level and adjust it based on the use of the advanced feature.  It will use the internal user level, which is a float rather than an integer, so that it may advance it by some amount.
+
+Constraints
+None.
+
+Uses/Interactions
+This method will be used from a UI_Dialog_Component or any subclasses from the Present() routine.
+
+Resources
+None.
+
+Processing
+The routine must perform the following steps (note—the adjustment may be changed according to the spacing between user levels and the weight given to the feature):
+{
+	if (fUser_Level < MAX_USER_LEVEL)
+	fUser_Level = fUser_Level + 0.5;
+
+	User_Level = floor(fUser_Level);
+		
+}
+
+Interface/Exports
+	None.
+
+UI_User::Used_Help()
+
+Classification 	
+Method
+
+Definition
+This method is simply used to notify the user class that the user has used help and the user level may need to be adjusted.
+
+Responsibilities
+All this routine must do is evaluate the user’s current level and adjust it based on the fact that the user has asked for assistance and may be less advanced than previously thought.  It will use the internal user level, which is a float rather than an integer, so that it may advance it by some amount.
+
+Constraints
+None.
+
+Uses/Interactions
+This method will be used from a UI_Dialog_Component or any subclasses from the Present() routine.
+
+Resources
+None.
+
+Processing
+The routine must perform the following steps (note—the adjustment may be changed according to the spacing between user levels):
+{
+	if (fUser_Level > MIN_USER_LEVEL)
+	fUser_Level = fUser_Level - 0.5;
+
+	User_Level = floor(fUser_Level);		
+}
+
+Interface/Exports
+	None.
+
+UI_Response_Formulator
+
+Classification 	
+Class
+
+Definition
+This is the class that will put together responses for the user based on what the user asked for and what the server sends back.
+
+Responsibilities
+The class must be the starting point for loading up all of the possible response scenarios as well as deciding what responses to read to the user.
+
+Constraints
+	Only one instance of this class should exist at any time.  
+
+Uses/Interactions
+This class is referenced by the User_Interface::Main() routine.
+
+Resources
+None.
+
+Processing
+	See the description of the methods.
+
+Interface/Exports
+UI_Response_Formulator();  // Default constructor
+UI_Response_Formulator(ADOConnection conDB);
+string getResponses(String strClient, String strServer);
+private UI_Response_Node Response_Nodes[];  // Array of the possible response scenarios
+
+UI_Response_Formulator::UI_Response_Formulator(ADOConnection conDB)
+
+Classification 	
+Method
+
+Definition
+This method gets passed in an ADOConnection object that will connect it to the dialog database.  It returns nothing.  It is used to initialize the response formulator class.
+
+Responsibilities
+This routine will open up the appropriate database structures and will call the constructors for each response node with a response ID.  This will cause the response nodes to be filled up with the appropriate information.
+
+Constraints
+None.
+
+Uses/Interactions
+This method will be called from the User_Interface::Main() method.
+
+Resources
+None.
+
+Processing
+The routine will need to count the number of responses available in the database and allocate an array of response nodes large enough to hold them all.  It will then construct a response node for each array element, each corresponding to an available response definition in the database.  Finally, it will sort the response nodes based on the number of criteria for each one (in descending order), so that the first match found will be the most stringent match.
+
+Interface/Exports
+	None.
+
+String UI_Response_Formulator::getResponses(String strClient, String strServer)
+
+Classification 	
+Method
+
+Definition
+This method gets passed a string strClient, which contains the parameter definition for the client query.  It also gets passed a string strServer, which contains the parameter definition for the server response.  It will use these to create a response and will return that response in a string.
+
+Responsibilities
+This routine will accept the client and server-side communications and will create a response based upon the parameters within them and the response nodes set up.  It must parse out the variables and find the best criteria match.
+
+Constraints
+None.
+
+Uses/Interactions
+This method will be called from the User_Interface::Main() method.
+
+Resources
+None.
+
+Processing
+This routine will need to perform the following steps:
+{
+	Parameter_Parser ppClient, ppServer;
+	int iServerCount = 0;
+	String strResponse = “”;
+
+	ppClient = new Parameter_Parser();
+	ppServer = new Parameter_Parser;
+
+	if (ppClient.setVars(strClient) == False)
+		return strError;
+
+	if (ppServer.setVars(strServer) == False)
+		return strError;
+
+	while (ppServer.setVars(strServer,iServerCount)
+	{
+		for (int j = 0; j < # of Response Nodes; ++j)
+		{
+			if (Response_Nodes.getMatch(ppClient, ppServer))
+			{
+				strResponse = strResponse + Response_Nodes.getResponse();
+				break;
+			}
+			
+			if (j == # of Response Nodes – 1)
+				return strError;
+		}
+		
+		++iServerCount;
+	}
+	return strResponse;
+}
+
+Interface/Exports
+	None.
+
+
+UI_Response_Node
+
+Classification 	
+Class
+
+Definition
+This is a class that contains a single response scenario and the response format to use if it matches.
+
+Responsibilities
+This class must load a scenario from the dialog database, determine whether or not a given scenario is a match to this scenario, and formulate the proper response given the client and server side parameters.
+
+Constraints
+	None. 
+
+Uses/Interactions
+This class is referenced by the UI_Response_Formulator::getResponses() routine.
+
+Resources
+None.
+
+Processing
+	See the description of the methods.
+
+Interface/Exports
+UI_Response_Mode();	// Default Constructor
+UI_Response_Mode(ADOConnection conDB, long ResponseID);  	// Load up the appropriate //structures from the tables in the database.
+Boolean getMatch(Parameter_Parser ppClient, Parameter_Parser ppServer);
+String getResponse();  // Just returns the Response variable.
+int getCriteriaCount(); // Return the number of criteria that have been defined.
+private String Response;  // String set when getMatch executes to put together the response string.
+private String ClientReqs[?,2];  // The array of client requirements (Parameter Name, Value)
+private String ServerReqs[?,2];  // The array of server requirements (Parameter Name, Value)
+private String Rcomponents[];  // The array of the component text to be read back.
+private boolean Rcomponentvars[?,2]; // The array of booleans indicating whether or not the //corresponsing Rcomponents[] entry is a //variable name.  The second element is true //if it is a client variable, false for server
+
+Boolean UI_Response_Node::getMatch(Parameter_Parser ppClient, Parameter_Parser ppServer)
+
+Classification 	
+Method
+
+Definition
+This method gets passed a parameter parser for the client and for the server which contains the parameter definitions for each.  It returns a Boolean true if it found a match and a false if it did not.
+
+Responsibilities
+This routine will accept the client and server parameter definitions and will compare each parameter in its own definition with the parameter stored in the Parameter_Parser definition.  If the parameter is not defined in the Parameter_Parser or if the parameter has a different value, it will not be a match and a false will be returned.  Otherwise, we will formulate the response and return a true.
+
+Constraints
+None.
+
+Uses/Interactions
+This method will be called from the Response_Formulator::Formulate_Responses() method.
+
+Resources
+None.
+
+Processing
+This routine will need to perform the following steps:
+{
+	String strValue;
+
+	for each parameter defined in ClientReqs
+	{
+		strValue = ppClients.getVarValue(ClientReqs parameter name);
+
+		if (strValue != ClientReqs parameter value)
+			return False
+	}
+
+	for each parameter defined in ServerReqs
+	{
+		strValue = ppServer.getVarValue(ServerReqs parameter name);
+
+		if (strValue != ServerReqs parameter value)
+			return False
+	}
+
+	// At this point if we haven’t returned we found a match.
+	Response = “”
+
+	For each element in Rcomponentvars[]
+	{
+		if the element is a variable
+		{
+			if (Rcomponentvars[current,2] = True)
+			{
+				strValue = ppClient.getVarValue(Rcomponents);
+				if (strValue == null)
+				{
+					return False;
+				}
+				else
+				{
+					Response += strValue
+				}
+			}
+			else
+			{
+				strValue = ppServer.getVarValue(Rcomponents);
+			if (strValue == null)
+			{
+				return False;
+			}
+				else
+				{
+					Response += strValue
+				}
+			}
+		}
+		else
+		{
+			Response += corresponding element of Rcomponents[]
+		}
+	}
+
+	Return True;
+}
+
+Interface/Exports
+	None.
+
+
+Parameter_Parser
+
+Classification
+Class
+
+Definition
+This is a class that will act as an interface to the parameter strings that get sent from client to server and vice versa.
+
+Responsibilities
+This class will be responsible for taking a string and parsing out the parameter names and values from it.  It will need to have the ability to pull out the nth occurrence of a set of parameter values within a string.  It will also need to provide a simple method for accessing the variables, by name, to determine whether they are valid or invalid, and if they are valid, what their value is.
+
+Constraints
+	None. 
+
+Uses/Interactions
+This class is referenced by the UI_Response_Node::getMatch() routine.
+
+Resources
+None.
+
+Processing
+	See the description of the methods.
+
+Interface/Exports
+Parameter_Parser();  // The default constructor.
+clear();                       // Clear out all of the parameters that were obtained in the last parsing.
+Boolean setVars(String strVars, int iRecord);
+Boolean setVars(String strVars);  // Simply calls setVars(strVars,0)
+String getVarValue(String VarName);  // Just look up the variable and return the value (or null for //non-existence).
+private String Params[?,2]  // The list of parameters parsed and their associated values.
+
+Boolean Parameter_Parser::setVars(String strVars, int iRecord)
+
+Classification 	
+Method
+
+Definition
+This method is used to pull a set of variables out of the string set in.strVars is the string from which the parameters are to be extracted.  iRecord is an integer indicating the occurrence within the string to use.  This second variable is necessary because a string may contain multiple “records” to be read.
+
+Responsibilities
+The method must parse out the strVars variable into its given parameters and values.  strVars will follow the format:
+
+<Parameter 1>=<Value 1>
+<Parameter 2>=<Value 2>
+…
+
+If there are multiple records in the string, strVars will simply contain duplicate instances of the same parameters.  The parameters, however, must follow the same order in each record and must be of the same format.  iRecord, ranging in value from 0 to the maximum number of records – 1, will be passed in and must be used to determine which set of parameters is retrieved.
+
+Constraints
+None.
+
+Uses/Interactions
+This method will be called from a UI_Response_Node::getMatch() routine.
+
+Resources
+None.
+
+Processing
+The routine must perform the following steps:
+	{
+		int RecCount =  0;
+		String strFirstParam;
+		Int ParamCount = 0;
+
+Parse out the first parameter name and store it in strFirstParam
+
+while  (RecCount < iRecord)
+{
+	Parse out the current parameter.
+	
+	If we ran out of parameters
+		Return false;
+
+	If the current parameter name == strFirstParam
+	{
+		++RecCount;
+		ParamCount = 0;
+	}
+	else
+		++ParamCount;
+}
+		
+		// We found the right parameter set.
+		Allocate an array of size ParamCount + 1, 2;
+		Store the Parameter/Value pair in element 0;
+		++elementCount;
+
+		While (strFirstParam != Current Parameter Value)
+		{
+			if end of string
+				return False;
+
+			Store the Parameter/Value pair in element elementCount.
+			++elementCount;
+		}
+
+		return true;
+	}
+
+Interface/Exports
+	None.
+
+
+8 - Dialog Database
+
+
+9 - SSDB (Sports Score Database)
+
+10 - Dialog Generation Utility
+
+
+
+Glossary
+Query Strings are the final result of the user's interaction with the application.  They are sent to the Sports Score Server where they are interpreted and acted upon.
+
+Prompts will be defined as the point at which the computer and the user interact.  These are decision points in the control flow of the program, allowing the program to branch based on the user response.
+
+Prompt Text is the text that is read by the computer to the user at any given prompt.  There may be several levels of prompt text for any prompt; the actual prompt text read to the user depends on the current user level.
+
+Commands are the legal responses the user may make at any given prompt.
+
+Scripts are series of prompts that are executed in succession.  They may be used when multiple pieces of information must be determined in order to form a query string.
+
+Help Menus are sets of text that may be read to the user when help is requested at any prompt or at a global level.
+
+Help Text is the text read by the computer to the user at any given help menu.  There may be several levels of help text for any help menu; the actual help text read to the user depends on the current user level.
+
+Global is the term used to identify commands and help menus that are available at any prompt within the system.
+
+Local is the term used to identify commands and help menus that are available only when the user is at a specific prompt.
+
+
+Acronyms and Abbreviations 
+
+     WV			Web Viking
+     SSS			Sport Scores System
+     MLB		Major League Baseball
+     DI			Database Interface
+     MLBWS		Major League Baseball Web Site
+     ESPNWS		ESPN Web Site
+     CPAN		Comprehensive Perl Archive Network
+
+Bibliography
+Sports Score System Requirements revision 3.1
+Software Engineer, by Dick Hamlet and Joe Maybee
+Software Design Template, by Brad Appleton
+Web Programming with Perl 5, by William Middleton
+
+Brad Appleton <bradapp@enteract.com>
+http://www.enteract.com/~bradapp

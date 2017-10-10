@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+<suite name="DCI Test Suite" parallel="tests"
+	thread-count="4">
+
+	<listeners>
+		<listener class-name="com.elastica.beatle.PriorityListener" />
+	</listeners>
+
+	<test name="DCI File Types Tests">
+		<parameter name="environmentName" value="friends" />
+		<parameter name="cloudSocUName" value="admin" />
+		<parameter name="tenantName" value="dciciqbeatlecom" />
+		<parameter name="domainName" value="dciciqbeatle.com" />
+		<parameter name="saasApp" value="Box" />
+		<parameter name="apiBaseVersion" value="v1" />
+
+		<groups>
+			<run>
+				<include name="All" />
+			</run>
+		</groups>
+		<classes>
+			<class name="com.elastica.beatle.tests.dci.DCIFileTypeTests"></class>
+		</classes>
+	</test>
+
+
+
+
+
+</suite>

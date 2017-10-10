@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+<suite name="DCI Test Suite">
+
+	<test name="Download">
+		<classes>
+			<class name="com.elastica.beatle.tests.dci.temp.S3Download"></class>
+		</classes>
+	</test>
+	
+</suite>

@@ -1,0 +1,272 @@
+anadrol
+053.314.328-40 Identificação
+custom_dictionaries_only
+custom_terms_only
+STUDENT TRANSCRIPT
+ Official Transcript
+School's Name School's Complete Address
+Student's Name
+Student's Social Security Number_
+
+Student's Address
+Street Address
+Apt. #
+City
+State
+Zip
+Student's Program  Title:
+Program Title
+                             Enrollment Date   Required Hours Completion Date   Hours Completed      Final Grade      Grade Point Average
+
+
+
+Number of Transfer Hours (if applicable)
+Transfer Hours Accepted From (Name of School and Address)
+in Program/Course(s)
+
+
+Signature of School Official                                              Official’s Title                                           Date                                       Raised Seal of School
+A (Excellent)
+B (Above Average)
+C (Average)
+D (Below Average)
+F (Failure)
+WP - Withdrew Passing WF - Withdrew Failing Inc. - Incomplete
+93%-100%	4.0
+85%-92%	3.0
+75% - 84%	2.0
+70% - 74%	1.0
+
+Any grade falling below the school's graduation requirement of 70% (The above sample grades are aligned with recommendations from national accreditating agencies and various state agencies. It is the responsibility of each school to set their grading policy.)
+Sample Student Transcript Form/2004
+#include <stdio.h>int check_anagram(char [], char []);int main(){   char a[100], b[100];   int flag;   printf("Enter first string\n");   gets(a);   printf("Enter second string\n");   gets(b);   flag = check_anagram(a, b);   if (flag == 1)      printf("\"%s\" and \"%s\" are anagrams.\n", a, b);   else      printf("\"%s\" and \"%s\" are not anagrams.\n", a, b);   return 0;}int check_anagram(char a[], char b[]){   int first[26] = {0}, second[26] = {0}, c = 0;   while (a[c] != '\0')   {      first[a[c]-'a']++;      c++;   }   c = 0;   while (b[c] != '\0')   {      second[b[c]-'a']++;      c++;   }   for (c = 0; c < 26; c++)   {      if (first[c] != second[c])         return 0;   }   return 1;}Agreement of Lease
+
+THIS LEASE, made and entered this  10 day of  April , 20-16 , by and between:
+(hereinafter called "Owner) and Last Name: Cooper , First Name: Alan (hereinafter called "Resident"),
+WITNESS THAT:
+1.
+
+Lease Term
+In consideration of the covenants hereinafter contained on the part of the Resident to be kept and performed,
+Owner does hereby lease to resident the house located at	 934 Cobblestone Court, Kingston, New York 12401 . The term of this lease
+shall commence on the  10 day of April  , 20-16 and expire at 12:00 am midnight on the
+10 day of April  , 20-17.
+
+2.
+
+Rental
+Resident shall pay to Owner a total rental of $ 1000 for the full term of this lease. Owner
+hereby acknowledges receipt of $ 100 simultaneously with the execution and delivery of this
+Lease; which sum shall be applied to the said rental. The remainder of $ 900 shall be paid by
+Resident to Owner in 10 equal installments of $ 100 each, due and payable on the first
+day of each calendar month throughout the term of this Lease with the first such payment due on 10 day of May,
+20-16. Resident shall pay the rent to Owner at 10th Floor, 100 South Main Street, Los Angeles, California 90012 or to such
+other address as Owner shall direct from time to time.
+
+3.
+
+Security Deposit
+Owner hereby acknowledges receipt from Resident of $ 1000 as security for resident's full and
+faithful performance of each and every term, covenant and condition of this Lease. In the event that Resident
+shall default in the payment of any installment of rent when due, or shall fail to perform and/or observe any
+term/covenant or condition of this Lease on Resident's part to be kept and/or observed, Owner may use, apply
+or retain the whole or any part of Resident's security deposit for the payment of any rent and/or additional
+rent then or at time thereafter due, or for the satisfaction of other sums which Owner may expend or be
+required to expend or incur by reason of Resident's default hereunder, including any expenses incurred in the
+reletting of the house.
+In the event that Resident shall fully and faithfully comply with all of the terms, provisions, covenants and
+conditions of the Lease, the said security deposit (or any balance thereof) shall be returned to Residents
+within fourteen (14) days after the expiration of the term of the lease and vacation of the premises by tenant
+or after 14 days that the said landlord learns that the premises has been abandoned, and shall provide a
+written statement describing the basis for retaining any deposit. The security deposit shall be refunded only if,
+(a) a thirty (30) day written notice of intention to vacate is given by Resident to Owner prior to the
+expiration of this Lease;
+(b) the keys are promptly returned to the Owner; and
+(c) the house and its contents are found, upon inspection, to be in good, clean condition with no unusual
+ordinary wear and tear expected.
+
+4.
+
+Default
+In the event Resident defaults under this Lease and the security deposit does not cover all rent due and all
+damages and expenses Owner incurs as a result thereof, including reasonable attorneys' fees, owner shall be
+entitled to collect such rent and damages in any lawful manner after providing a statutory 3 day notice for late
+rent and a statutory ten day notice for any other breach of contract. Resident covenants and agrees that if
+default shall be made in the payment of any installment of rent, or if Resident shall violate any of the terms,
+covenants, or conditions of this Lease, then Owner shall be entitled to reenter and retake possession of the
+house and recover any and all resulting damages, including all costs and reasonable attorney's fees after a
+statutory 3 day notice for late rent and a statutory ten day notice for any other breach of contract. Resident
+hereby acknowledges and agrees that in the event any statement made by Resident in the Application For
+Lease delivered to Owner in connection with this Lease is subsequently determined to be false, Owner may,
+at its election, terminate this Lease after the statutory ten day notice is provided.
+
+Downloaded	  from	  http://www.tidyforms.com	  
+
+5.
+
+Subordination
+This Lease shall be subject and subordinate at all times to the lien of any existing mortgages which may
+hereafter become alien on ________________. Resident agrees to promptly execute and return any
+instrument evidencing such subordination that Owner may request.
+
+6.
+
+Miscellaneous Provisions
+Resident, for themselves, their heirs, legal representative, successors and assigns, hereby covenant and agree
+that:
+a) Resident shall pay all utilities, except water during the four consecutive months of June through
+September. Water bills will be submitted to owner and reimbursed as due.
+b)
+
+Parking space is allowed only on above listed property and at Residents own risk. Owner is not and
+shall not be deemed to be responsible for any damage to vehicles or to contents which are on the
+premises.
+
+c)
+
+Owner is not an insurer of Residents person or personal property. Resident agrees that all of
+Resident's personal property in the house or elsewhere shall be at the sole risk of Resident, and that
+Resident will carry such insurance as Resident deems necessary therefore. Resident agrees that
+Owner, and its partners, agents and employees, shall not be liable for any damage to the person or
+property of Resident of any person occupying/visiting the house _______________________ for any
+reason whatsoever.
+
+d)
+
+Resident agrees to use the said house solely for the purpose of Resident’s personal residence.
+Resident shall not rent, sublet, transfer or assign this lease, or any interest herein, without the prior
+written consent of owner, which consent may be granted, withheld, or conditioned in Owner's sole
+and complete discretion. Resident agrees to make no unlawful, improper or offensive use of the house
+and to quit and deliver up the house and its appliances and equipment at the end of the term of this
+Lease in as clean a condition as they were on the date of first possession, ordinary wear and tear
+excepted.
+
+e)
+
+Resident agrees to comply with all laws, orders and government regulations which affect the house at
+____________________________, as the same may be amended from time to time.
+
+f)
+
+Resident may only keep pets or animals with Owner's Prior Written consent, which consent may be
+granted, withheld or conditioned in Owner's sole and complete discretion.
+
+g)
+
+Resident may only paint or make alterations, additions or improvements to the house with Owner's
+prior written consent, which consent may be granted, withheld or conditioned in Owner's sole and
+complete discretion.
+
+h)
+
+Owner or any of its agents shall have the right to enter the house during all reasonable hours to make
+inspections, repairs, additions, or alterations as may be deemed reasonable necessary for the safety,
+comfort or preservation thereof, or of the building after providing a statutory two day notice.
+However, owner or any of its agents may enter the house at any time for emergency repairs necessary
+for the protection of any person.
+
+i)
+
+Motorcycles, campers, trucks, boats and boat trailers, and commercial vehicles are not permitted at
+the house of ___________________________, without Owner's prior written consent, which consent
+may be granted, withheld or conditioned in Owner's sole and complete discretion.
+
+j)
+
+The house shall be occupied only by the undersigned Resident and those people listed on the
+approved Application For Lease, which is incorporated herein by this reference.
+
+k)
+
+Waterbeds are strictly prohibited without Owner's prior written consent, which consent may be
+granted, withheld or conditioned in Owner's sole and complete discretion.
+
+l)
+
+Carports and garages may be used for storage of vehicles and other miscellaneous items specifically
+approved in writing by Owner.
+
+m) Outdoor storage structures are strictly prohibited.
+
+Downloaded	  from	  http://www.tidyforms.com	  
+
+n)
+
+No more than four vehicles are permissible on the said property and are not permitted to be parked on
+any yard or along the side of the garage or parked in the street.
+
+o)
+
+If any provisions of this Lease, or the application of any provision of this Lease to any person or
+circumstances shall be invalid or unenforceable to any extent, the remainder of the Lease, or the
+application of such provision to persons or circumstances other than those to which it is invalid or
+unenforceable, shall not be affected thereby; and each provision of their Lease shall be valid and
+enforced to the fullest extent permitted by law.
+
+p)
+
+Resident has examined the house before signing this Lease and agrees that the premises and the rooms
+of the house and all appliances furnished are in good and satisfactory condition. ________________
+initials of Resident
+
+q)
+
+A late fee of $ 10 will be assessed if rent has not been paid by the 5th day of each
+calendar month, plus an additional late fee equal to $ 1 per day shall be assessed
+for each day after the 5th day following the rental due date with such rent remains unpaid.
+Notwithstanding the foregoing, the rent is due on the 1st day of each calendar month, and Resident
+shall be deemed to be, at the election of Owner, in default of this Lease if the rent is not paid by the
+1st day of each calendar month.
+
+r)
+
+In addition to any late fees which may be due, a fee of $ 10 will be assessed if
+Resident tenders a check to Owner that is returned to Owner for "insufficient funds" or on a closed
+account.
+
+s)
+
+A fee of $59.00 shall be payable by Resident to Owner to defray the cost of cleaning the carpet in the
+house after Resident vacates the same. Such fee shall be delivered by Resident to Owner at the time
+Resident delivers his notice of intention to vacate the house.
+
+t)
+
+Resident has been shown the location of all smoke alarms in said house. ________________ initials
+of Resident. Resident shall be required to maintain all smoke alarms according to manufacturers
+specifications and Owner shall not be responsible for any negligence of Resident that results in
+damage of Owners property or the personal property of Resident, Resident’s family or any of the
+Resident’s guests.
+
+u)
+
+In addition to stated provisions, no smoking and drug activity is permitted inside of residence.
+
+v)
+
+Should any action of contest by resident or leasor that may lead to arbitration or legal action, Owner
+will not be liable for any court fees and will be paid of any monetary lost and/or damaged from court
+appearances and arbitration expenses.
+
+IN WITNESS WHEREOF, the parties hereto have executed this Lease in several counterparts, each of which shall be
+deemed an original, as of the day, month, and year first above written.
+RESIDENT
+
+OWNER
+
+Signature_________________________________________
+
+Signature___________________________________
+
+Date 10/April/2016
+
+Date 10/April/2016
+
+
+Print Name Alan Cooper
+
+
+
+
+ 
+

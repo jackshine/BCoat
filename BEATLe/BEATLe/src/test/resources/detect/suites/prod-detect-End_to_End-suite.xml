@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+<suite name="Detect End to End Test" preserve-order="true" > 
+<suite-files> 
+<suite-file path="./endtoendProd/prod-detect-dropbox-regression-suite.xml"/> 
+<suite-file path="./endtoendProd/prod-detect-office365-regression-suite.xml"></suite-file>
+</suite-files> 
+</suite>

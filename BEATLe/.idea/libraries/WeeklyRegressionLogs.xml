@@ -1,0 +1,29 @@
+<component name="libraryTable">
+  <library name="WeeklyRegressionLogs">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/BEATLe/src/test/resources/Audit/LogFiles/WeeklyRegressionLogs/Barracuda_Syslog.zip!/" />
+      <root url="jar://$PROJECT_DIR$/BEATLe/src/test/resources/Audit/LogFiles/WeeklyRegressionLogs/ZScaler_log.zip!/" />
+      <root url="jar://$PROJECT_DIR$/BEATLe/src/test/resources/Audit/LogFiles/WeeklyRegressionLogs/Barracuda_CLI.zip!/" />
+      <root url="jar://$PROJECT_DIR$/BEATLe/src/test/resources/Audit/LogFiles/WeeklyRegressionLogs/BlueCoatProxy.zip!/" />
+      <root url="jar://$PROJECT_DIR$/BEATLe/src/test/resources/Audit/LogFiles/WeeklyRegressionLogs/Cisco_CWSDeviceID_TSV.zip!/" />
+      <root url="jar://$PROJECT_DIR$/BEATLe/src/test/resources/Audit/LogFiles/WeeklyRegressionLogs/Cisco_WSA_w3c.zip!/" />
+      <root url="jar://$PROJECT_DIR$/BEATLe/src/test/resources/Audit/LogFiles/WeeklyRegressionLogs/Juniper_srx.txt.zip!/" />
+      <root url="jar://$PROJECT_DIR$/BEATLe/src/test/resources/Audit/LogFiles/WeeklyRegressionLogs/Wallmart_Mcaffe-web-gateway-final.zip!/" />
+      <root url="jar://$PROJECT_DIR$/BEATLe/src/test/resources/Audit/LogFiles/WeeklyRegressionLogs/Wallmart_PAN-Sys.zip!/" />
+      <root url="jar://$PROJECT_DIR$/BEATLe/src/test/resources/Audit/LogFiles/WeeklyRegressionLogs/CheckPoint_smartview.zip!/" />
+      <root url="jar://$PROJECT_DIR$/BEATLe/src/test/resources/Audit/LogFiles/WeeklyRegressionLogs/BlueCoatProxyDeviceID.zip!/" />
+      <root url="jar://$PROJECT_DIR$/BEATLe/src/test/resources/Audit/LogFiles/WeeklyRegressionLogs/PAN-CSV-Multiple-Device-IDs.zip!/" />
+      <root url="jar://$PROJECT_DIR$/BEATLe/src/test/resources/Audit/LogFiles/WeeklyRegressionLogs/CheckPoint_CSV.zip!/" />
+      <root url="jar://$PROJECT_DIR$/BEATLe/src/test/resources/Audit/LogFiles/WeeklyRegressionLogs/Cisco_ASA.zip!/" />
+      <root url="jar://$PROJECT_DIR$/BEATLe/src/test/resources/Audit/LogFiles/WeeklyRegressionLogs/Scansafe.zip!/" />
+      <root url="jar://$PROJECT_DIR$/BEATLe/src/test/resources/Audit/LogFiles/WeeklyRegressionLogs/Cisco_WSA_w3c_DeviceID.zip!/" />
+      <root url="jar://$PROJECT_DIR$/BEATLe/src/test/resources/Audit/LogFiles/WeeklyRegressionLogs/PAN-Syslog_Multiple_Device_IDs.log.zip!/" />
+      <root url="jar://$PROJECT_DIR$/BEATLe/src/test/resources/Audit/LogFiles/WeeklyRegressionLogs/Juniper_ScreenOS.zip!/" />
+      <root url="jar://$PROJECT_DIR$/BEATLe/src/test/resources/Audit/LogFiles/WeeklyRegressionLogs/Cisco_CWS.zip!/" />
+      <root url="jar://$PROJECT_DIR$/BEATLe/src/test/resources/Audit/LogFiles/WeeklyRegressionLogs/Wallmart_PAN_CSV.zip!/" />
+      <root url="jar://$PROJECT_DIR$/BEATLe/src/test/resources/Audit/LogFiles/WeeklyRegressionLogs/Cisco_WSA_acess_DeviceID.zip!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>

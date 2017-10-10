@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+<suite name="GW GMail EPD Regression Suite" parallel="false">
+	<parameter name="environmentName" value="eoe"/>
+	<parameter name="userName" value="admin@gatewaybeatle.com"/>
+	<parameter name="userPassword" value="Elastica@123"/>
+	<parameter name="tenantName" value="gatewaybeatlecom"/>
+	<parameter name="tenantDomainName" value="gatewaybeatle.com"/>
+	<parameter name="isLoggingOn" value="true"/>
+	<parameter name="apiBaseVersion" value="v1"/>
+	<parameter name="saasApp" value="Gmail"/>
+	<parameter name="saasAppUsername" value="testuser1@gatewaybeatle.com"/>
+	
+	<test name="GW - StreamIq GMail EPD Regression Test Suite">
+		<parameter name="environmentName" value="eoe"/>
+		<parameter name="saasAppUsername" value="testuser1@gatewaybeatle.com"/>
+		<classes>
+			<class name="com.elastica.beatle.tests.gateway.GoogleMailEpdTest">
+			</class>
+		</classes>
+	</test>
+	
+	
+</suite>

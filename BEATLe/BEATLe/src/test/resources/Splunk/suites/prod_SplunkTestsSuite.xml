@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+<suite name="Audit Test Suite" parallel="methods" thread-count="3">
+	<parameter name="auditDailyReportName" value="PROD-BE-ElasticaNet-Daily"></parameter>
+	<parameter name="auditWeeklyReportName" value="PROD-BE-elasticaNet-WeeklyDENIED IGNORE"></parameter>
+	<parameter name="auditMonthlyReportName" value="PROD-BE-ElasticaNet-Monthly"></parameter>
+	<parameter name="recipientName" value="bhaskar.maddi@elastica.net"></parameter>
+	<parameter name="environmentName" value="prod"></parameter>
+
+	<test name="Splunk Tests">
+		<classes>
+			<class name="com.elastica.beatle.tests.splunkTests.SplunkTest">
+				<!-- <methods>
+					<include name="testGatewayInternalServerInIcapServer"></include>
+				</methods> -->
+			</class>
+		</classes>
+	</test>
+</suite>

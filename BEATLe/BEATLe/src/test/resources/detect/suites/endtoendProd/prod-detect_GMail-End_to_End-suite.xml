@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+<suite name="Detect Gmail BBI Regression Test Suite" parallel="false">
+	<listeners>
+		<listener class-name="com.elastica.beatle.PriorityListener" />
+	</listeners>
+	
+	<parameter name="environmentName" value="prod"/>
+	
+	<parameter name="userName" value="admin@detectbbibeatle.com"/>
+	<parameter name="userPassword" value="Elastica@1234"/>
+	<parameter name="tenantName" value="detectbbibeatlecom"/>
+	<parameter name="tenantDomainName" value="detectbbibeatle.com"></parameter>
+	<parameter name="tenantToken" value="0hRPzv3Hv0oYnhLQDhUFFTpFhX6Aee5yBrOp19PKnQE="/>
+	  
+	<parameter name="isLoggingOn" value="true" />
+		<parameter name="apiBaseVersion" value="v1" />
+		<parameter name="esScriptsHostName" value="10.0.0.242" />
+		<parameter name="esScriptsUserName" value="madmin" />
+		<parameter name="referer" value="https://app.elastica.net" />
+	
+	<parameter name="saasApp" value="GMAIL"/>
+	
+	<parameter name="saasAppUsername" value="admin@detectbbibeatle.com"/>
+	<parameter name="saasAppPassword" value="s8gic7wtv*oQqAX"/>
+	<parameter name="saasAppUserRole" value="ADMIN"/>
+	
+	<parameter name="saasAppToken" value="1/SID8kxagHPQVsSVbazkyzpblgufjy05Teqti0FY5eAXBactUREZofsF9C7PrpE-j"/>
+	<parameter name="saasAppClientId" value="476823525582-es8dmpm52gn0nfs2qgcj5r3jjj6r5rir.apps.googleusercontent.com"/>
+	<parameter name="saasAppClientSecret" value="STHrnnz6Ipb6CepnMLnS3OL0"/>
+	
+	<test name="Detect GMail BBI Tests">
+		<classes>
+			<class name="com.elastica.beatle.tests.detect.DetectGMailTests">
+				<methods>
+					<include name="sendMail_frequent_session_BBI"></include>
+				</methods>
+			</class>
+		</classes>
+	</test>
+	
+</suite>

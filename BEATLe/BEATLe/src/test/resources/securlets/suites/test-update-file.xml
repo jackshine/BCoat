@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+<suite name="Update Box Regression Test Suite" parallel="false">
+	<parameter name="environmentName" value="eoe"/>
+	<parameter name="userName" value="qa-admin@elasticaqa.com"/>
+	<parameter name="userPassword" value="J8X9)SVC4TKYs5s"/>
+	<parameter name="tenantName" value="elasticaqacom"/>
+	<parameter name="isLoggingOn" value="true"/>
+	<parameter name="apiBaseVersion" value="v1"/>
+	<parameter name="esScriptsHostName" value="10.0.0.242"/>
+	<parameter name="esScriptsUserName" value="madmin"/>
+	<parameter name="referer" value="https://eoe.elastica-inc.com"/>
+	<parameter name="tenantToken" value="rJebsyAI3RUS1DpNf4Bdpg=="/>
+	<parameter name="saasAppUsername" value="qa-admin@elasticaqa.com"/>
+	<parameter name="saasAppPassword" value="mY)Bi6be3E()GOe"/>
+	<parameter name="saasAppUserRole" value="ADMIN"/>
+	<parameter name="saasApp" value="BOX"/>
+	
+	<test name="Securlets Box Regression Tests - Update">
+		<groups>
+		    <run> 
+		     <!--  <include name="GROUP"/>
+		      <include name="FILE"/>
+		      <include name="USER"/>
+		      <include name="FOLDER"/>
+		      <include name="WEBLINK"/>
+		      <include name="COLLABORATION"/> -->
+		    </run>
+		  </groups>
+		<classes>
+			<class name="com.elastica.beatle.tests.securlets.BoxSecurletTests">
+				<methods>
+				<include name="checkUpdateFile"></include>
+				
+				</methods>
+			</class>
+		</classes>
+	</test>
+</suite>

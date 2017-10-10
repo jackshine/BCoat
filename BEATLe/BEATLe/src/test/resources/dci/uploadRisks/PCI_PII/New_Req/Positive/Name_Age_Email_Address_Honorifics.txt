@@ -1,0 +1,5 @@
+Name: Alex Smith
+Age: 25 years old
+Email: lex@gmail.com
+Address: 580 Hawthorne Avenue Piedmont, South Carolina 29673
+Mrs. Julia Smith

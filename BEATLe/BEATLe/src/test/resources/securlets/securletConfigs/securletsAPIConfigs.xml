@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE properties SYSTEM "http://java.sun.com/dtd/properties.dtd">
+<properties>
+	<comment>Securlet APIs</comment>
+	<entry key="getForensicsLogs">/admin/application/list/get_forensics_logs/</entry>
+	<entry key="getBoxDocuments">/{tenant}/api/admin/{version}/el_box/docs/</entry>
+	<entry key="getExposedDocuments">/{tenant}/api/admin/{version}/{elappname}/docs/</entry>
+	<entry key="getRiskyDocuments">/{tenant}/api/admin/{version}/{elappname}/risky_docs/</entry>
+	<entry key="getExposedUsers">/{tenant}/api/admin/{version}/{elappname}/docs/users/</entry>
+	<entry key="getCollaborators">/{tenant}/api/admin/{version}/{elappname}/docs/collabs/</entry>
+	<entry key="getO365Documents">/{tenant}/api/admin/{version}/el_office_365/docs/</entry>	
+	<entry key="getO365Remediation">/{tenant}/api/admin/{version}/el_office_365/remediation/</entry>
+	<entry key="getInvestigateLogs">/eslogs/displaylogs/</entry>
+	<entry key="getBoxRemediation">/{tenant}/api/admin/{version}/el_box/remediation/</entry>
+	<entry key="getGoogleDriveRemediation">/{tenant}/api/admin/{version}/el_google_drive/remediation/</entry>
+	<entry key="getDropboxRemediation">/{tenant}/api/admin/{version}/el_dropbox/remediation/</entry>
+	<entry key="getOnedriveRemediation">/{tenant}/api/admin/{version}/el_office_365/remediation/</entry>
+	<entry key="getSalesforceRemediation">/{tenant}/api/admin/{version}/el_salesforce/remediation/</entry>
+	<entry key="getBoxUIRemediation">/admin/application/apply_remediation</entry>
+	<entry key="getOffice365ExposureTotals">/{tenant}/api/admin/{version}/el_office_365/metrics/exposure_totals/</entry>
+	<entry key="getBoxExposureTotals">/{tenant}/api/admin/{version}/el_box/metrics/exposure_totals/</entry>
+	<entry key="getExposureTotals">/{tenant}/api/admin/{version}/{elappname}/metrics/exposure_totals/</entry>
+	<entry key="getUIExposureTotals">/admin/application/list/get_metrics_exposure_totals</entry>
+	<entry key="getUserTotals">/{tenant}/api/admin/{version}/{elappname}/metrics/user_totals/</entry>
+	<entry key="getUserExposures">/{tenant}/api/admin/{version}/{elappname}/metrics/user_exposures/</entry>
+	<entry key="getUserVulnerabilities">/{tenant}/api/admin/{version}/{elappname}/metrics/user_vulnerabilities/</entry>
+	<entry key="getExposedFileTypes">/{tenant}/api/admin/{version}/{elappname}/metrics/file_class/</entry>
+	<!-- <entry key="getExposedContentTypes">/{tenant}/api/admin/{version}/{elappname}/metrics/content_types/</entry> -->
+	<entry key="getDocumentClass">/{tenant}/api/admin/{version}/{elappname}/metrics/doc_class/</entry>
+	<entry key="getVulnerabilityTypes">/{tenant}/api/admin/{version}/{elappname}/metrics/vulnerability_types/</entry>
+	<entry key="getBoxRiskyDocuments">/{tenant}/api/admin/{version}/el_box/risky_docs/</entry>
+	<entry key="getDocumentCollaborators">/{tenant}/api/admin/{version}/{elappname}/docs/collabs/</entry>
+	<entry key="getUIVulnerabilityTypes">/admin/application/list/get_metrics_vulnerability_types</entry>
+	<entry key="getUIContentTypes">/admin/application/list/get_metrics_content_types</entry>
+	<entry key="getUITenantAccountInfo">/admin/tenant/account/info</entry>
+	<entry key="getUIUserAnonymizationInfo">/admin/tenant/update_user_anonymization</entry>
+	<entry key="getUIRemediation">/admin/application/apply_remediation</entry>
+	<entry key="getUIExportCSV">/admin/application/list/export_exposures_data</entry>
+	<entry key="getActivityLogExport">/eslogs/convert_to_format/</entry>
+	<entry key="getGmailRemediation">/{tenant}/api/admin/{version}/el_google_apps/remediation/</entry>
+	<entry key="getAdminSession">/admin/user/sessions</entry>
+	<entry key="getAdminTenantParams">/admin/application/list/get_tenant_app_params</entry>
+	<entry key="getUIExposedDocuments">/admin/application/list/get_exposed_data</entry>
+	<entry key="getUISubFeatures">/admin/application/list/get_sub_features</entry>
+	<entry key="getUIContentTypesTotal">/admin/application/list/get_metrics_content_types</entry>
+	<entry key="getUIFileTypesTotal">/admin/application/list/get_metrics_file_types</entry>
+	<entry key="getUIVulnerabilityTypesTotal">/admin/application/list/get_metrics_vulnerability_types</entry>
+	<entry key="getUIMetricsUsersTotal">/admin/application/list/get_metrics_user_totals</entry>
+	<entry key="getUIMetricsUsersExposures">/admin/application/list/get_metrics_user_exposures</entry>
+	<entry key="getUIMetricsUsersVulnerabilities">/admin/application/list/get_metrics_user_vulnerabilities</entry>
+	<entry key="configureScanPolicy">/admin/application/configure_scan_policy</entry>
+	<entry key="getScanPolicy">/admin/application/controlled_scan_policy</entry>
+	<entry key="getApiScanPolicy">/{tenant}/api/admin/v1/scan_policy</entry>
+	<entry key="updateApiScanPolicy">/{tenant}/api/admin/v1/scan_policy/{policyid}</entry>
+</properties>

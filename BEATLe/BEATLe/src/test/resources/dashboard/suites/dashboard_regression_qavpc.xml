@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+<suite name="Dashboard Test Suite">
+	<parameter name="environmentName" value="qavpc" />
+	<parameter name="userName" value="qa-admin@elasticaqa.net" />
+	<parameter name="userPassword" value="Cloudsoc@123" />
+	<parameter name="tenantName" value="elasticaqanet" />
+	<parameter name="isLoggingOn" value="true" />
+	<parameter name="apiBaseVersion" value="v1" />
+	<parameter name="tenantToken" value="8Mcfo3OUrXx33ByfPIlCCA==" />
+	<test name="Dashboard Regression Tests">
+		<classes>
+			<class name="com.elastica.beatle.tests.dashboard.DashboardTests">
+				<methods>
+					<exclude name="testDashboardAuditServicesWidgetData"></exclude>
+					<exclude name="testAuditSummaryUsersSessionDestinationTraffic"></exclude>
+				</methods>
+			</class>
+		</classes>
+	</test>
+</suite>

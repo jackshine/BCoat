@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE properties SYSTEM "http://java.sun.com/dtd/properties.dtd">
+<properties>
+	<comment> Audit Test Cases</comment>
+		
+	<entry key="createDataSource">/{tenantName}/api/admin/{version}/datasources/</entry>	
+	<entry key="getSignedURL">/{tenantName}/api/admin/{version}/datasources/upload_url/{sourceID}/</entry>
+	<entry key="notifyFileUpload">/{tenantName}/api/admin/{version}/datasources/upload_status/{sourceID}/</entry>
+	<entry key="deleteDataSource">/{tenantName}/api/admin/{version}/datasources/{sourceID}/</entry>		
+	<entry key="pollDataSourceStatus">/{tenantName}/api/admin/{version}/datasources/{sourceID}/</entry>
+	<entry key="getAuditSummary">/{tenantName}/api/admin/{version}/audit/summary/</entry>
+	<entry key="getAuditReport">/{tenantName}/api/admin/{version}/audit/report/</entry>	
+	<entry key="auditPreferences">/{tenantName}/api/admin/{version}/tenantriskweights/</entry>
+	<entry key="getScpCredentials">/{tenantName}/api/admin/{version}/discovery/credentials/</entry>
+	<entry key="checkS3Credentials">/{tenantName}/api/admin/{version}/datasources/verify_s3_attributes/</entry>	
+	
+	<entry key="serviceUlsCSVExport">/{tenantName}/api/admin/{version}/discovery/servicesurl/</entry>
+	
+	<entry key="getRegKey">/admin/audit_agent/get_agent_token</entry>
+	
+	
+	
+	<!-- SpanvA apis -->
+	
+	<!-- Audit download urls -->
+	<entry key="getAllAuditAgentAppliances">/{tenantName}/api/admin/{version}/agent_download_urls/</entry>
+	<entry key="getAuditAgentAppliance">/{tenantName}/api/admin/{version}/agent_download_urls/{sourceID}/</entry>
+	<entry key="getSpanvaDownloadImageurl">/{tenantName}/api/admin/{version}/spanva/generate_image_url</entry>
+	
+	<!--  Audit Agent datasources Apis -->
+	<entry key="createAgentDS">/{tenantName}/api/admin/{version}/agentds/</entry>
+	<entry key="getAgentDS">/{tenantName}/api/admin/{version}/agentds/{sourceID}/</entry>
+	<entry key="listAgentDS">/{tenantName}/api/admin/{version}/agentds/</entry>
+	<entry key="deleteAgentDS">/{tenantName}/api/admin/{version}/agentds/{sourceID}/</entry>
+    
+    <!-- Audit Agent apis -->
+    <entry key="createAgent">/{tenantName}/api/admin/{version}/agents/</entry>
+	<entry key="getAgent">/{tenantName}/api/admin/{version}/agents/{sourceID}/</entry>
+	<entry key="listAgents">/{tenantName}/api/admin/{version}/agents/</entry>
+	<entry key="deleteAgent">/{tenantName}/api/admin/{version}/agents/{sourceID}</entry>	
+	
+	<!-- getService Details -->	
+	<entry key="getServiceDetails">/{tenantName}/api/admin/{version}/services/</entry>
+	
+	<!-- getService brr Details -->	
+	<entry key="serviceBRRScores">/{tenantName}/api/admin/{version}/audit/service_brr_scores/</entry>
+	
+	<!-- TIA Apis -->
+    <entry key="tiaGetPreferences">/admin/analytics/auditpreferences</entry>
+    <entry key="tiaUpdatePreferences">/admin/analytics/updateauditpreferences/</entry>
+   
+    <!--  -->
+    <entry key="db_reportsources">/reportsources/</entry>
+    <entry key="db_auditReportSourceConfig">/reportsources/config/</entry>
+    <entry key="reportSourceData">/reportsources/data/</entry>
+    <entry key="allPredefinedWidgets">/api/admin/v1/widgetlibrary/</entry>
+    
+    <entry key="serviceTabDataApi">/audit/services/</entry>
+    <entry key="serviceUsersTabDataApi">/audit/user_count/</entry>
+    <entry key="getDSAnonyUsers">/audit/users/</entry>
+     
+    <entry key="useranonymize">/{tenantName}/api/admin/{version}/useranonymize/audit/reveal/</entry>
+    
+  
+    
+    
+    
+   
+    
+    <!-- TenantServices -->
+    <entry key="tenantServices">/{tenantName}/api/admin/{version}/tenantservices/</entry>	
+    
+     <!-- Tag Apis -->
+    <entry key="addTag_or_getTags">/{tenantName}/api/admin/{version}/tags/</entry> <!-- addTag:POST -->
+    <entry key="delete_Or_get_Or_edit_Tag">/{tenantName}/api/admin/{version}/tags/{tagid}/</entry>  <!-- edit:PATCH, delete:DELETE -->
+    
+    
+    <!-- servicetags -->
+    <entry key="add_Or_getServiceTags">/{tenantName}/api/admin/{version}/discovery/servicetags/</entry> <!-- POST OR GET -->
+    <entry key="change_serviceTags">/{tenantName}/api/admin/{version}/discovery/servicetags/{service_tagid}</entry> <!-- Post -->
+    
+    <!-- comments -->
+    <entry key="addT_Comment">/{tenantName}/api/admin/{version}/comments/</entry> <!-- POST-->
+    <entry key="get_Comments">/{tenantName}/api/admin/{version}/comments</entry> <!-- POST-->
+    <entry key="edit_Or_delete_Comments">/{tenantName}/api/admin/{version}/comments/{commentId}</entry> <!-- POST-->
+    
+   
+</properties>

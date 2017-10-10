@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+<suite name="Audit Smoke Test Suite - EU">
+	<test name="Audit Webupload Sanity Tests">
+		<parameter name="userName" value="admin@dcibeatle.com"></parameter>
+		<parameter name="userPassword" value="Elastica123!"></parameter>
+		<parameter name="environmentName" value="cep"></parameter>
+		<parameter name="tenantName" value="dcibeatlecom"></parameter>
+		<parameter name="referer" value="https://app-cep.elastica.net" />
+		<parameter name="tenantToken" value="norz1GhMYMcqRkr9IxcuQA==" />
+		<parameter name="isLoggingOn" value="true"></parameter>
+		<parameter name="apiBaseVersion" value="v1"></parameter>
+		<classes>
+			<class
+				name="com.elastica.beatle.audit.factoryClass.AuditSanityTIAWebuploadFactory"></class>
+		</classes>
+	</test>
+</suite>
+

@@ -1,0 +1,5 @@
+Name: Alex Smith
+Age: 25 years old
+SSN: 576-55-4600
+Email: lex@gmail.com
+Gender: Male

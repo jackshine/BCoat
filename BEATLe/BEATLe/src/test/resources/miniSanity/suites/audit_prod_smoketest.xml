@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+<suite name="Audit moke Test Suite - Production">
+	<test name="Audit Webupload Sanity Tests">
+		<parameter name="userName" value="admin@gatewayo365beatle.com"></parameter>
+		<parameter name="userPassword" value="Elastica@123"></parameter>
+		<parameter name="environmentName" value="prod"></parameter>
+		<parameter name="tenantName" value="gatewayo365beatlecom"></parameter>
+		<parameter name="tenantToken"
+			value="1FbN0+nX+oWncuRkXFmfqL1OSsYNX9xIq0mymmsA90Y=" />
+		<parameter name="referer" value="https://app.elastica.net" />
+		<parameter name="isLoggingOn" value="true"></parameter>
+		<parameter name="apiBaseVersion" value="v1"></parameter>
+		<classes>
+			<class
+				name="com.elastica.beatle.audit.factoryClass.AuditSanityTIAWebuploadFactory"></class>
+		</classes>
+	</test>
+</suite>

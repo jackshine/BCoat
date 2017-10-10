@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE properties SYSTEM "http://java.sun.com/dtd/properties.dtd">
+<properties>
+	<comment> Detect API Configuration</comment>
+	<entry key="getAnomalyLogs">/admin/application/list/get_anomaly_logs</entry>	
+	<entry key="getSecurletlogVerification">/admin/application/list/get_forensics_logs</entry>
+	<entry key="createPolicy">/controls/addpolicy</entry>
+	<entry key="createPolicyProd">/controls/documentshare/add</entry>
+	<entry key="activatePolicy">/controls/update</entry>
+	<entry key="deletePolicy">/controls/archive</entry>
+	<entry key="createContentIQ">/controls/add_ciq_profile</entry>	
+	<entry key="listContentIQ">/controls/make_api_request</entry>
+	<entry key="createFileTransferPolicy">/controls/addpolicy</entry>
+	<entry key="createFileSharingPolicy">/controls/addpolicy</entry>
+	<entry key="createDictionary">/controls/add_dictionary</entry>
+	<entry key="policyList">/controls/list</entry>
+	<entry key="getForensicsLogs">/admin/application/list/get_forensics_logs/</entry>
+	<entry key="calculateImpact">/controls/calculate_impact</entry>
+	<entry key="getCollabDtlsForImpact">/admin/application/list/get_exposed_data</entry>
+	<entry key="getBlocks">/controls/get_blocks</entry>
+	<entry key="clearBlock">/controls/clear_block</entry>
+	<entry key="editPolicy">/controls/editpolicy</entry>
+	<entry key="createRespTemplate">/controls/add_response_template</entry>
+	<entry key="listRespTemplate">/controls/make_api_request</entry>
+	<entry key="getPolicy">/controls/get_policy</entry>
+	
+	<entry key="getEsLogs">/eslogs/displaylogs/</entry>
+	<entry key="getUserData">/eslogs/getUserThreatsData/</entry>
+	<entry key="getTotalUsers">/admin/user/ng/list/0</entry>
+	<entry key="getPolicyList">/controls/list</entry>
+	<entry key="getAnamoly">/admin/application/list/get_anomaly_logs</entry>
+	<entry key="getAuditSummary">/{tenantName}/api/admin/{version}/audit/summary</entry>
+	<entry key="getUITenantAccountInfo">/admin/tenant/account/info</entry>
+	<entry key="getUIUserAnonymizationInfo">/admin/tenant/update_user_anonymization</entry>
+	<entry key="getUIRemediation">/admin/application/apply_remediation</entry>
+	<entry key="getUIExportCSV">/admin/application/list/export_exposures_data</entry>
+	<entry key="getAdminTenantParams">/admin/application/list/get_tenant_app_params</entry>
+	<entry key="getUIExposedDocuments">/admin/application/list/get_exposed_data</entry>
+	<entry key="getUISubFeatures">/admin/application/list/get_sub_features</entry>
+	<entry key="getUIContentTypesTotal">/admin/application/list/get_metrics_content_types</entry>
+	<entry key="getUIFileTypesTotal">/admin/application/list/get_metrics_file_types</entry>
+	<entry key="getUIVulnerabilityTypesTotal">/admin/application/list/get_metrics_vulnerability_types</entry>
+	<entry key="getUIMetricsUsersTotal">/admin/application/list/get_metrics_user_totals</entry>
+	<entry key="getUIMetricsUsersExposures">/admin/application/list/get_metrics_user_exposures</entry>
+	<entry key="getUIMetricsUsersVulnerabilities">/admin/application/list/get_metrics_user_vulnerabilities</entry>
+	<entry key="configureScanPolicy">/admin/application/configure_scan_policy</entry>
+	<entry key="getScanPolicy">/admin/application/controlled_scan_policy</entry>
+	<entry key="getApiScanPolicy">/{tenant}/api/admin/v1/scan_policy</entry>
+	<entry key="updateApiScanPolicy">/{tenant}/api/admin/v1/scan_policy/{policyid}</entry>
+</properties>
+
+

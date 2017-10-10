@@ -1,0 +1,2 @@
+Personally identifiable information (PII) is any data that could potentially identify a specific individual. Any information that can be used to distinguish one person from another and can be used for de-anonymizing anonymous data can be considered PII.
+What is personally identifiable information (PII)? 

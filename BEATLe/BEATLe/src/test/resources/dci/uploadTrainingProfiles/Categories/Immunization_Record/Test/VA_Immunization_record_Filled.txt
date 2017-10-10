@@ -1,0 +1,624 @@
+(Page 1 of 2)
+Patient name:	Alex Smith
+4/14/1981
+Birthdate:			Chart
+number:	
+
+Vaccine Administration Record
+for Adults	
+
+Clinic name and address Small Town Clinic
+1st and Main Streets
+Anywhere, AB 12345
+
+Before administering any vaccines, give the patient copies of all pertinent Vaccine Information Statements (VISs) and make sure he/she understands
+the risks and benefits of the vaccine(s). Always provide or update the patient’s personal record card.
+Type of Vaccine1 Date given
+
+Vaccine
+Tetanus,
+Diphtheria, Pertussis
+(e.g., Td, Tdap)
+Give IM.3
+
+(mo/day/yr)
+
+	
+
+Funding Route3
+source & Site3
+(F,S,P)2
+
+Vaccine Information
+Statement (VIS)
+
+Vaccine
+Lot #
+
+Mfr.
+
+Date on VIS4
+
+Date given4
+
+Vaccinator5
+(signature or
+initials & title)
+
+Td	
+
+8/1/2002	 P	 IM/LA	U0376AA	
+
+AVP	6/10/94	 8/1/02	
+
+JTA
+
+	Td	
+
+9/1/2002	 P	 IM/LA	U0376AA	
+
+AVP	6/10/o4	 9/1/02	
+
+PWS
+
+Td	
+
+3/1/2003	 P	 IM/LA	U0376AA	
+
+AVP	6/10/94	 3/1/03	
+
+TAA
+
+	
+	
+
+Tdap
+
+	
+	
+	
+
+6/14/2010	
+
+P	
+
+IM/LA	
+
+AC52B030AA	 GSK	
+
+6/14/10	
+
+6/14/10	
+
+JTA
+
+HepA-HepB	
+
+8/1/2002	 P	 IM/RA	HAB239A4	 GSK	8/25/98	 8/1/02	
+
+JTA
+
+HepA-HepB	
+
+9/1/2002	 P	 IM/RA	HAB239A4	 GSK	8/25/98	 9/1/02	
+
+PWS
+
+HepA-HepB	
+
+3/1/2003	 P	 IM/RA	HAB239A4	 GSK	8/25/98	 3/1/03	
+
+TAA
+
+Hepatitis B
+	HepA-HepB	
+(e.g., HepB, HepA-HepB)
+	 HepA-HepB	
+Give IM.3
+
+9/1/2002	 P	 IM/RA	HAB239A4	 GSK	7/11/01	 9/1/02	
+
+PWS
+TAA
+
+6
+
+IM/RA	 HAB239A4	 GSK	 7/11/01	 8/1/02	
+
+HepA-HepB	
+
+3/1/2003	 P	 IM/RA	HAB239A4	 GSK	7/11/01	 3/1/03	
+
+	
+	
+
+MMR	
+
+8/1/2002	 P	
+
+MMR
+
+	 VAR	
+	 VAR
+
+Pneumococcal
+(e.g., PCV13, conjugate;
+PPSV23, polysaccharide)
+Give PCV13 IM.3
+Give PPSV23 IM or SC.3
+
+P	
+
+8/1/2002	 P	
+11/1/2002	
+
+P	
+
+MRK	6/13/02	 8/1/02	
+
+SC/RA	
+
+MRK	 6/13/02	
+
+0025L	
+
+11/1/02	
+
+JTA
+TAA
+
+SC/LA	 0799M	
+
+MRK	12/16/98	 8/1/02	
+
+JTA
+
+SC/LA	
+
+MRK	 12/16/98	
+
+TAA
+
+0689M	
+
+7/12/2010	 P	 IM/RA	28011	
+
+11/1/02	
+
+NOV	1/2/8/08	 7/12/10	
+
+Ex
+
+	Menveo	
+Meningococcal
+(e.g., MenACWY, conjugate;
+MPSV4, polysaccharide)
+Give MenACWY IM.3
+Give MPSV4 SC.3
+
+11/1/2002	
+
+SC/RA	0025L	
+
+am
+
+	
+
+JTA
+
+e	
+
+	
+
+Human papillomavirus
+(HPV2, HPV4)
+Give IM.3
+Measles, Mumps,
+Rubella
+(MMR) Give SC.3
+Varicella
+(VAR) Give SC.3
+
+8/1/2002	 P	
+
+pl
+
+Hepatitis A6
+(e.g., HepA, HepA-HepB)
+Give IM.3
+
+JTA
+
+See page 2 to record influenza, Hib, zoster, and other vaccines (e.g., travel vaccines).
+
+How to Complete This Record
+
+Abbreviation
+
+1. Record the generic abbreviation (e.g., Tdap) or the trade name for each vaccine
+(see table at right).
+2. Record the funding source of the vaccine given as either F (federal), S (state),
+or P (private).
+3.	Record the route by which the vaccine was given as either intramuscular (IM), subcutaneous (SC), intradermal (ID), intranasal (IN), or oral
+(PO) and also the site where it was administered as either RA (right arm),
+LA (left arm), RT (right thigh), or LT (left thigh).
+4. Record the publication date of each VIS as well as the date the VIS is given to
+the patient.
+
+Tdap
+Td
+HepA
+HepB
+HepA-HepB
+HPV2
+HPV4
+MMR
+VAR
+PCV13, PPSV23
+MenACWY
+MPSV4
+
+Trade Name and Manufacturer
+Adacel (sanofi pasteur); Boostrix (GlaxoSmithKline [GSK])
+Decavac (sanofi pasteur); generic Td (MA Biological Labs)
+Havrix (GSK); Vaqta (Merck)
+Engerix-B (GSK); Recombivax HB (Merck)
+Twinrix (GSK)
+Cervarix (GSK)
+Gardasil (Merck)
+MMRII (Merck)
+Varivax (Merck)
+Prevnar 13 (Pfizer); Pneumovax 23 (Merck)
+Menactra (sanofi pasteur); Menveo (Novartis)
+Menomune (sanofi pasteur)
+
+5. To meet the space constraints of this form and federal requirements for documentation, a healthcare setting may want to keep a reference list of vaccinators
+that includes their initials and titles.
+6. For combination vaccines, fill in a row for each antigen in the combination.
+Technical content reviewed by the Centers for Disease Control and Prevention
+
+For additional copies, visit www.immunize.org/catg.d/p2023.pdf • Item #P2023 (4/14)
+
+This form was created by the Immunization Action Coalition • www.immunize.org • www.vaccineinformation.org
+
+Vaccine Administration Record
+for Adults	
+
+(Page 2 of 2)
+Patient name:	 Mohammed Sharik
+4/14/1981
+Birthdate:			Chart
+number:	
+Clinic name and address Small Town Clinic
+1st and Main Streets
+Anywhere, AB 12345
+
+Before administering any vaccines, give the patient copies of all pertinent Vaccine Information Statements (VISs) and make sure he/she understands
+the risks and benefits of the vaccine(s). Always provide or update the patient’s personal record card.
+
+Vaccine
+
+Date given
+(mo/day/yr)
+
+Funding
+Route3
+Source
+& Site3
+(F,S,P)2
+
+Mfr.
+
+Date on VIS4
+
+Date given4
+
+(signature or
+initials & title)
+
+11/1/2002	
+
+P	
+
+IM/RA	 U088211	
+
+AVP	
+
+6/26/02	
+
+11/1/02 	
+
+PWS	
+
+	 TIV
+
+10/10/2003	
+
+P	
+
+IM/LA	
+
+U091145	
+
+AVP	
+
+5/6/03	
+
+10/10/03	
+
+DLW
+
+10/8/2004	
+
+P	
+
+IM/RA	 U100461	
+
+AVP	
+
+5/24/04	
+
+10/8/04 	
+
+TAA
+
+12/12/2005	
+
+P	
+
+IM/LA	
+
+SPI	
+
+7/18/05	
+
+12/12/05	
+
+JTA
+
+	 Fluzone	
+	 TIV
+	Fluvirin	
+
+10/9/2006	 P	
+
+U2169MA	
+
+IM/LA	 878771P	
+
+11/15/07	
+
+P	
+
+MED	
+
+7/6/07	
+
+11/15/07	
+
+DCP
+
+10/12/2008	
+
+P	
+
+IM/RA	 06949111A	
+
+CSL	
+
+7/24/08	
+
+10/12/08	
+
+JTA
+
+	 Flulaval
+
+10/12/2009	
+
+P	
+
+IM/LA	
+
+GSK	
+
+8/11/09	
+
+10/2/09	
+
+DCP
+
+	TIV	
+	 RIV
+
+500337P	
+
+KKC
+
+	 Afluria
+
+	 Fluzone ID
+
+IN		
+
+NOV	 6/30/06	 10/9/06	
+
+	 FluMist	
+
+	 Fluarix	
+
+2F600411	
+
+12/7/2009	 P	 IM/RA	1009224P	
+
+NOV	 10/2/09	 12/7/09	
+
+DLW
+
+9/9/2010	
+
+P	
+
+IM/LA	
+
+J5G53		
+
+GSK	
+
+8/10/10	
+
+9/9/10	
+
+JRM
+
+10/10/2011	
+
+P	
+
+ID/LA	
+
+UT4720BA	
+
+PMC	
+
+7/26/11	
+
+10/10/11	
+
+CJP
+
+P	
+
+IM/RA	 M50907	
+
+CSL	 7/2/12	
+
+P	
+
+IM/RA	 350603F	
+
+9/5/2012	
+12/12/2013	
+
+PSC	
+
+9/5/12	
+
+DLW
+
+7/26/13	
+
+12/12/13	
+
+JRM
+
+5/29/12	
+
+7/12/12	
+
+MAT
+
+	
+
+Zoster (Zos) Give SC.3
+
+7/12/12x4	
+
+P	
+
+PO	
+
+TXE355	
+
+Ex
+
+	 Oral typhoid	
+
+am
+
+pl
+
+	
+
+Other
+
+Lot #
+
+Vaccinator5
+
+	 TIV	
+
+	 H1N1	
+
+Hib Give IM.3
+
+Vaccine Information
+Statement (VIS)
+
+Vaccine
+
+e	
+
+Influenza
+(e.g., IIV3, trivalent
+inactivated;
+IIV4, quadrivalent inactivated;
+RIV, recombinant inactivated;
+LAIV4, quadrivalent live
+attenuated)
+Give IIV and RIV IM.3
+Give LAIV IN.3
+
+Type of Vaccine1
+
+BER	
+
+See page 1 to record Tdap/Td, hepatitis A, hepatitis B, HPV, MMR, varicella, pneumococcal, and meningococcal vaccines.
+
+How to Complete This Record
+
+1. Record the generic abbreviation (e.g., Tdap) or the trade name for each vaccine (see table at right).
+2. Record the funding source of the vaccine given as either F (federal), S (state),
+or P (private).
+3.		Record the route by which the vaccine was given as either intramuscular (IM), subcutaneous (SC), intradermal (ID), intranasal (IN), or oral
+(PO) and also the site where it was administered as either RA (right arm),
+LA (left arm), RT (right thigh), or LT (left thigh).
+
+Abbreviation
+
+Trade Name and Manufacturer
+
+LAIV (Live attenuated
+influenza vaccine]
+
+FluMist (MedImmune)
+
+IIV (Inactivated influenza vaccine), RIV
+(recombinant influenza
+vaccine)
+
+Afluria (CSL Biotherapies); Agriflu (Novartis); Fluarix (GSK);
+Flublok (Protein Sciences Corp.); Flucelvax (Novartis); FluLaval
+(GSK); Fluvirin (Novartis); Fluzone, Fluzone Intradermal, Fluzone
+High-Dose (sanofi pasteur)
+
+Hib
+
+ActHIB (sanofi pasteur); Hiberix (GSK); PedvaxHib (Merck)
+
+ZOS (shingles)
+
+Zostavax (Merck)
+
+4. Record the publication date of each VIS as well as the date the VIS is given
+to the patient.
+5. To meet the space constraints of this form and federal requirements for
+documentation, a healthcare setting may want to keep a reference list of
+vaccinators that includes their initials and titles.
+
+Technical content reviewed by the Centers for Disease Control and Prevention
+
+For additional copies, visit www.immunize.org/catg.d/p2023.pdf • Item #P2023 (4/14)
+
+This form was created by the Immunization Action Coalition • www.immunize.org • www.vaccineinformation.org
+

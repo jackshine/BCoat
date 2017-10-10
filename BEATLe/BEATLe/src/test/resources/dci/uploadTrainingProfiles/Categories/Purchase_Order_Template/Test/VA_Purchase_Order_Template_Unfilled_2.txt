@@ -1,0 +1,102 @@
+PURCHASE ORDER
+
+[COMPANY NAME]
+[Company Slogan]
+[Street Address]
+[City, ST ZIP Code]
+[Phone Number]
+[Fax Number]
+
+TO:
+
+SHIP TO:
+
+P.O. NUMBER:
+
+[Purchaser Name]
+[Company Name]
+[Street Address]
+[City, ST ZIP Code]
+[Phone Number]
+
+[Recipient Name]
+[Company Name]
+[Street Address]
+[City, ST ZIP Code]
+[Phone Number]
+
+[P.O. number]
+[The P.O. number must appear
+on all related correspondence,
+shipping papers, and invoices]
+
+P.O DATE
+
+REQUISITIONER
+
+SHIPPED VIA
+
+F.O.B. POINT
+
+TERMS
+
+Pick the Date
+
+QTY
+
+UNIT
+
+DESCRIPTION
+
+UNIT PRICE
+
+[Description of Item]
+
+TOTAL
+
+$[4.00]
+
+$[4.00]
+
+SUBTOTAL
+SALES TAX
+
+1.
+2.
+
+Please send two copies of your invoice.
+
+SHIPPING AND HANDLING
+
+Enter this order in accordance with the prices, terms, delivery
+method, and specifications listed above.
+
+OTHER
+
+3.
+
+Please notify us immediately if you are unable to ship as
+specified.
+
+TOTAL
+
+4.
+
+Send all correspondence to:
+Laurel Yan
+[Street Address]
+[City, ST ZIP Code]
+[Phone Number]
+[Fax Number]
+
+Authorized by Laurel Yan
+
+Downloaded	  from	  http://www.tidyforms.com	  
+
+[8.2%]
+
+$[4.33]
+
+Pick the Date
+
+

@@ -1,0 +1,137 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+<suite name="DCI Test Suite" parallel="tests" thread-count="5">
+
+	<listeners>
+		<listener class-name="com.elastica.beatle.PriorityListener" />
+	</listeners>
+
+	<parameter name="environmentName" value="friends" />
+	<parameter name="cloudSocUName" value="box-admin" />
+	<parameter name="tenantName" value="dciautobeatlecom" />
+	<parameter name="domainName" value="dciautobeatle.com" />
+	<parameter name="saasApp" value="Box" />
+	<parameter name="apiBaseVersion" value="v1" />
+	
+	<!-- <test name="DCI Image Content Type Tests">
+		<groups>
+			<run>
+				<include name="image" />
+			</run>
+		</groups>
+		<classes>
+			<class name="com.elastica.beatle.tests.dci.content.DCIContentTypeTests"></class>
+		</classes>
+	</test>
+
+	<test name="DCI Audio Content Type Tests">
+		<groups>
+			<run>
+				<include name="audio" />
+			</run>
+		</groups>
+		<classes>
+			<class name="com.elastica.beatle.tests.dci.content.DCIContentTypeTests"></class>
+		</classes>
+	</test>
+
+	<test name="DCI Video Content Type Tests">
+		<groups>
+			<run>
+				<include name="video" />
+			</run>
+		</groups>
+		<classes>
+			<class name="com.elastica.beatle.tests.dci.content.DCIContentTypeTests"></class>
+		</classes>
+	</test>
+
+	<test name="DCI Executable Content Type Tests">
+		<groups>
+			<run>
+				<include name="executable" />
+			</run>
+		</groups>
+		<classes>
+			<class name="com.elastica.beatle.tests.dci.content.DCIContentTypeTests"></class>
+		</classes>
+	</test> -->
+
+	<test name="DCI Cryptographic Keys Content Type Tests">
+		<groups>
+			<run>
+				<include name="crypto" />
+			</run>
+		</groups>
+		<classes>
+			<class name="com.elastica.beatle.tests.dci.content.DCIContentTypeTests"></class>
+		</classes>
+	</test>
+	
+	<test name="DCI Business Content Type Tests">
+		<groups>
+			<run>
+				<include name="business" />
+			</run>
+		</groups>
+		<classes>
+			<class name="com.elastica.beatle.tests.dci.content.DCIContentTypeTests"></class>
+		</classes>
+	</test>
+	
+	<test name="DCI Computing Content Type Tests">
+		<groups>
+			<run>
+				<include name="computing" />
+			</run>
+		</groups>
+		<classes>
+			<class name="com.elastica.beatle.tests.dci.content.DCIContentTypeTests"></class>
+		</classes>
+	</test>
+	
+	<test name="DCI Design Doc Content Type Tests">
+		<groups>
+			<run>
+				<include name="design" />
+			</run>
+		</groups>
+		<classes>
+			<class name="com.elastica.beatle.tests.dci.content.DCIContentTypeTests"></class>
+		</classes>
+	</test>
+	
+	<test name="DCI Engineering Content Type Tests">
+		<groups>
+			<run>
+				<include name="engineering" />
+			</run>
+		</groups>
+		<classes>
+			<class name="com.elastica.beatle.tests.dci.content.DCIContentTypeTests"></class>
+		</classes>
+	</test>
+	
+	<test name="DCI Health Content Type Tests">
+		<groups>
+			<run>
+				<include name="health" />
+			</run>
+		</groups>
+		<classes>
+			<class name="com.elastica.beatle.tests.dci.content.DCIContentTypeTests"></class>
+		</classes>
+	</test>
+	
+	<test name="DCI Legal Content Type Tests">
+		<groups>
+			<run>
+				<include name="legal" />
+			</run>
+		</groups>
+		<classes>
+			<class name="com.elastica.beatle.tests.dci.content.DCIContentTypeTests"></class>
+		</classes>
+	</test>
+
+</suite>

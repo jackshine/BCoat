@@ -1,0 +1,171 @@
+{
+  "source": {
+    "query": {
+      "filtered": {
+        "query": {
+          "bool": {
+            "must": [
+              {
+                "range": {
+                  "created_timestamp": {
+                    "from": "FROM_TIME",
+                    "to": "TO_TIME"
+                  }
+                }
+              }
+            ],
+            "must_not": [
+              {
+                "term": {
+                  "facility": "Elastica"
+                }
+              }
+            ]
+          }
+        },
+        "filter": {
+          
+        }
+      }
+    },
+    "from": 0,
+    "size": 50,
+    "sort": {
+      "created_timestamp": {
+        "order": "desc",
+        "ignore_unmapped": "true"
+      }
+    },
+    "facets": {
+      "histoGreen": {
+        "date_histogram": {
+          "field": "created_timestamp",
+          "interval": "minute",
+          "time_zone": "+05:00",
+          "post_zone": "+05:00"
+        },
+        "facet_filter": {
+          "term": {
+            "severity": "informational"
+          }
+        }
+      },
+      "histoOrange": {
+        "date_histogram": {
+          "field": "created_timestamp",
+          "interval": "minute",
+          "time_zone": "+05:00",
+          "post_zone": "+05:00"
+        },
+        "facet_filter": {
+          "term": {
+            "severity": "warning"
+          }
+        }
+      },
+      "histoRed": {
+        "date_histogram": {
+          "field": "created_timestamp",
+          "interval": "minute",
+          "time_zone": "+05:00",
+          "post_zone": "+05:00"
+        },
+        "facet_filter": {
+          "term": {
+            "severity": "critical"
+          }
+        }
+      },
+      "histoYellow": {
+        "date_histogram": {
+          "field": "created_timestamp",
+          "interval": "minute",
+          "time_zone": "+05:00",
+          "post_zone": "+05:00"
+        },
+        "facet_filter": {
+          "term": {
+            "severity": "error"
+          }
+        }
+      },
+      "user": {
+        "terms": {
+          "field": "user",
+          "size": 1000
+        }
+      },
+      "facility": {
+        "terms": {
+          "field": "facility",
+          "size": 1000
+        }
+      },
+      "location": {
+        "terms": {
+          "field": "location",
+          "size": 1000
+        }
+      },
+      "Object_type": {
+        "terms": {
+          "field": "Object_type",
+          "size": 1000
+        }
+      },
+      "Activity_type": {
+        "terms": {
+          "field": "Activity_type",
+          "size": 1000
+        }
+      },
+      "browser": {
+        "terms": {
+          "field": "browser",
+          "size": 1000
+        }
+      },
+      "severity": {
+        "terms": {
+          "field": "severity",
+          "size": 1000
+        }
+      },
+      "device": {
+        "terms": {
+          "field": "device",
+          "size": 1000
+        }
+      },
+      "device_mgmt": {
+        "terms": {
+          "field": "device_mgmt",
+          "size": 1000
+        }
+      },
+      "device_owner": {
+        "terms": {
+          "field": "device_owner",
+          "size": 1000
+        }
+      },
+      "device_compliance": {
+        "terms": {
+          "field": "device_compliance",
+          "size": 1000
+        }
+      },
+      "__source": {
+        "terms": {
+          "field": "__source",
+          "size": 1000
+        }
+      }
+    }
+  },
+  "sourceName": "investigate",
+  "apiServerUrl": "API_SERVER_HOST_NAME",
+  "csrftoken": "CSRF_TOKEN",
+  "sessionid": "SESSION_ID",
+  "userid": "USER_ID"
+}

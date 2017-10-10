@@ -1,0 +1,9 @@
+SSN: 639-88-0511
+DOB = 10/6/1987 
+age 29 years old
+Name Anna Peterson
+EMAIL: hudun@vijooc.org
+Street: 687 William Street
+City:  South Lyon
+State: Michigan
+Zip Code: 48178

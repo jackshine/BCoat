@@ -1,0 +1,6 @@
+SSN: 639-88-0511
+DOB = 10/6/1987 
+Age: 29
+NAME Jason Cox
+EMAIL: hudun@vijooc.org 
+Address: 342 Aspen Drive Saint Charles, Illinois 60174

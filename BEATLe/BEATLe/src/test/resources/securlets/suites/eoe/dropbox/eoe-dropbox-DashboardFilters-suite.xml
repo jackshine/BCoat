@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+<suite name="DropBox Dashboard Filter Test Suite" parallel="tests">
+    <parameter name="environmentName" value="eoe"/>
+    <parameter name="userName" value="admin@securletbeatle.com"/>
+    <parameter name="userPassword" value="Elastica1234!"/>
+    <parameter name="tenantName" value="securletbeatlecom"/>
+    <parameter name="isLoggingOn" value="true"/>
+    <parameter name="apiBaseVersion" value="v1"/>
+    <parameter name="esScriptsHostName" value="10.0.0.242"/>
+    <parameter name="esScriptsUserName" value="madmin"/>
+    <parameter name="tenantToken" value="H3YK/Vxr3p+qm9dfmKvmh7oYaPBJMqUsszm+LOStr4k="/>
+    <parameter name="referer" value="https://eoe.elastica-inc.com"/>
+    <parameter name="dropboxAdminAccessToken" value="R2VaTghjreAAAAAAAAAACLC6oj6NaOAhJFEtiu-GxlkGFm_PXYZnJzYW0hEIERP5"/>
+    <parameter name="dropboxTeamMemberManagementToken" value="OoI6e7PmtUAAAAAAAADRcfKky3nC-nRw1wkcKasY73_pA5BLUAFKanDakfcnEJiR"/>
+    <parameter name="dropboxTeamMemberFileAccessToken" value="OoI6e7PmtUAAAAAAAADRcysQoCn0MMmu0vn9GE6q6aL7xs3cxG2eEFJ7jfBuuEI2"/>
+    <parameter name="refreshToken_gmail" value="1/fPDwECsPhJAPh6F_TsHHhz7Q1AArPFC-fa6XdV_bNko"/>
+    <parameter name="CLIENT_ID_gmail" value="998314684213-34jm3g4k92nejio174qnnb32vojbqg0n.apps.googleusercontent.com"/>
+    <parameter name="CLIENT_SECRET_gmail" value="YkMqf5GWiHQgHbA1P7BNhxto"/>
+    <parameter name="delayBetweenSaaSActivity" value="70"/>   
+    <parameter name="waitPeriodForElasticSearchEngine" value="120"/> 
+    <parameter name="maxRetryCount" value="2"/> 
+    <parameter name="saasApp" value="DROPBOX"/>     
+   <test name="Securlets Dropbox Dashboard Metrics Regression Tests">
+        <groups>
+            <run>
+                <exclude name="OFFICE365"/>
+            </run>
+        </groups>
+        <classes>
+            <class name="com.elastica.beatle.tests.securlets.SecurletDashboardFilters">
+                <methods> 
+                    <exclude name="filterExposedFilesWithCombinedFilterExposureTypeVulnerabilityTypeAndFileType"/>
+                    <exclude name="filterExposedFilesWithCombinedFilterVulnerabilityTypeAndFileType"/>
+                    <exclude name="searchExposedFilesWithCombinedFilterExposureTypeVulnerabilityTypeAndFileType"/>
+                    <exclude name="searchForFilesWithSpecificFileTypes"/>                                
+                </methods>
+            </class>
+        </classes>
+    </test>
+</suite>

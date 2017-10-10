@@ -1,0 +1,9 @@
+SSN: 576-55-4600
+Age: 25
+Email: lex@gmail.com
+date of birth 8/27/1991
+Name - Carl Butler
+Street: 968 Clark Street 
+City: Gallatin
+State: Tennessee 
+Zip Code: 37066

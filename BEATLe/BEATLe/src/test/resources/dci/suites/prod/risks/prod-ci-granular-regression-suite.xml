@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+<suite name="DCI Test Suite" parallel="tests" thread-count="1">
+
+	<listeners>
+		<listener class-name="com.elastica.beatle.PriorityListener" />
+	</listeners>
+
+	<test name="DCI Customer Data Separation Granular Tests">
+		<parameter name="environmentName" value="prod" />
+		<parameter name="cloudSocUName" value="admin" />
+		<parameter name="tenantName" value="dcimigrationbeatlecom" />
+		<parameter name="domainName" value="dcimigrationbeatle.com" />
+		<parameter name="saasApp" value="Box" />
+		<parameter name="apiBaseVersion" value="v1" />
+		<parameter name="cloudSocUName2" value="admin" />	
+		<parameter name="tenantName2" value="dcifileformatbeatlecom" />
+		<parameter name="domainName2" value="dcifileformatbeatle.com" />
+		<groups>
+			<run>
+				<include name="Granular" />
+			</run>
+		</groups>
+		<classes>
+			<class name="com.elastica.beatle.tests.dci.ciq.DCICIQProfileGranularTests"></class>
+		</classes>
+	</test>
+	
+	<test name="DCI Customer Data Separation E2E Tests">
+		<parameter name="environmentName" value="prod" />
+		<parameter name="cloudSocUName" value="admin" />
+		<parameter name="tenantName" value="dcimigrationbeatlecom" />
+		<parameter name="domainName" value="dcimigrationbeatle.com" />
+		<parameter name="saasApp" value="Box" />
+		<parameter name="apiBaseVersion" value="v1" />
+		<parameter name="cloudSocUName2" value="admin" />	
+		<parameter name="tenantName2" value="dcifileformatbeatlecom" />
+		<parameter name="domainName2" value="dcifileformatbeatle.com" />
+		<groups>
+			<run>
+				<include name="E2E" />
+			</run>
+		</groups>
+		<classes>
+			<class name="com.elastica.beatle.tests.dci.ciq.DCICIQProfileGranularTests"></class>
+		</classes>
+	</test>
+	
+	<test name="DCI Notification Tests">
+		<parameter name="environmentName" value="prod" />
+		<parameter name="cloudSocUName" value="admin" />
+		<parameter name="tenantName" value="dcimigrationbeatlecom" />
+		<parameter name="domainName" value="dcimigrationbeatle.com" />
+		<parameter name="saasApp" value="Box" />
+		<parameter name="apiBaseVersion" value="v1" />
+		<parameter name="cloudSocUName2" value="admin" />	
+		<groups>
+			<run>
+				<include name="Notification" />
+			</run>
+		</groups>
+		<classes>
+			<class name="com.elastica.beatle.tests.dci.ciq.DCICIQNotificationsTests"></class>
+		</classes>
+	</test>
+
+</suite>

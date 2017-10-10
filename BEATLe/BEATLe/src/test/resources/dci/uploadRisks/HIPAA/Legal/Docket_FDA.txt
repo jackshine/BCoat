@@ -1,0 +1,128 @@
+[Federal Register: May 11, 1999 (Volume 64, Number 90)]
+[Notices]
+[Page 25350]
+From the Federal Register Online via GPO Access [wais.access.gpo.gov]
+[DOCID:fr11my99-76]
+
+[[Page 25350]]
+
+DEPARTMENT OF HEALTH AND HUMAN SERVICES
+
+Food and Drug Administration
+[Docket No. 98E-0319]
+
+
+Determination of Regulatory Review Period for Purposes of Patent
+Extension; GenESA<Register>
+
+AGENCY: Food and Drug Administration, HHS.
+
+ACTION: Notice.
+
+-----------------------------------------------------------------------
+
+SUMMARY: The Food and Drug Administration (FDA) has determined the
+regulatory review period for GenESA<Register> and is publishing this
+notice of that determination as required by law. FDA has made the
+determination because of the submission of an application to the
+Commissioner of Patents and Trademarks, Department of Commerce, for the
+extension of a patent which claims that human drug product.
+
+ADDRESSES: Written comments and petitions should be directed to the
+Dockets Management Branch (HFA-305), Food and Drug Administration, 5630
+Fishers Lane, rm. 1061, Rockville, MD 20852.
+
+FOR FURTHER INFORMATION CONTACT: Brian J. Malkin, Office of Health
+Affairs (HFY-20), Food and Drug Administration, 5600 Fishers Lane,
+Rockville, MD 20857, 301-827-6620.
+
+SUPPLEMENTARY INFORMATION: The Drug Price Competition and Patent Term
+Restoration Act of 1984 (Pub. L. 98-417) and the Generic Animal Drug
+and Patent Term Restoration Act (Pub. L. 100-670) generally provide
+that a patent may be extended for a period of up to 5 years so long as
+the patented item (human drug product, animal drug product, medical
+device, food additive, or color additive) was subject to regulatory
+review by FDA before the item was marketed. Under these acts, a
+product's regulatory review period forms the basis for determining the
+amount of extension an applicant may receive.
+    A regulatory review period consists of two periods of time: A
+testing phase and an approval phase. For human drug products, the
+testing phase begins when the exemption to permit the clinical
+investigations of the drug becomes effective and runs until the
+approval phase begins. The approval phase starts with the initial
+submission of an application to market the human drug product and
+continues until FDA grants permission to market the drug product.
+Although only a portion of a regulatory review period may count toward
+the actual amount of extension that the Commissioner of Patents and
+Trademarks may award (for example, half the testing phase must be
+subtracted as well as any time that may have occurred before the patent
+was issued), FDA's determination of the length of a regulatory review
+period for a human drug product will include all of the testing phase
+and approval phase as specified in 35 U.S.C. 156(g)(1)(B).
+    FDA recently approved for marketing the human drug product
+GenESA<Register> (arbutamine hydrochloride). GenESA<Register> is
+indicated for diagnosing the presence or absence of coronary artery
+disease in patients who cannot exercise adequately when used in
+conjunction with radionuclide myocardial perfusion imaging or
+echocardiography. Subsequent to this approval, the Patent and Trademark
+Office received a patent term restoration application for
+GenESA<Register> (U.S. Patent No. 5,234,404) from Gensia Sicor, Inc.,
+and the Patent and Trademark Office requested FDA's assistance in
+determining this patent's eligibility for patent term restoration. In a
+letter dated December 17, 1998, FDA advised the Patent and Trademark
+Office that this human drug product had undergone a regulatory review
+period and that the approval of GenESA<Register> represented the first
+permitted commercial marketing or use of the product. Shortly
+thereafter, the Patent and Trademark Office requested that FDA
+determine the product's regulatory review period.
+    FDA has determined that the applicable regulatory review period for
+GenESA<Register> is 2,641 days. Of this time, 1,295 days occurred
+during the testing phase of the regulatory review period, while 1,346
+days occurred during the approval phase. These periods of time were
+derived from the following dates:
+    1. The date an exemption under section 505 of the Federal Food,
+Drug, and Cosmetic Act (the act) (21 U.S.C. 355) became effective: June
+22, 1990. The applicant claims June 23, 1990, as the date the
+investigational new drug application (IND) became effective. However,
+FDA records indicate that the IND effective date was June 22, 1990,
+which was 30 days after FDA receipt of the IND.
+    2. The date the application was initially submitted with respect to
+the human drug product under section 505 of the act: January 6, 1994.
+The applicant claims December 21, 1993, as the date the new drug
+application (NDA) for GenESA<Register> (NDA 20-420) was initially
+submitted. However, FDA records indicate that NDA 20-420 was submitted
+on January 6, 1994.
+    3. The date the application was approved: September 12, 1997. FDA
+has verified the applicant's claim that NDA 20-420 was approved on
+September 12, 1997.
+    This determination of the regulatory review period establishes the
+maximum potential length of a patent extension. However, the U.S.
+Patent and Trademark Office applies several statutory limitations in
+its calculations of the actual period for patent extension. In its
+application for patent extension, this applicant seeks 399 days of
+patent term extension.
+    Anyone with knowledge that any of the dates as published is
+incorrect may, on or before July 12, 1999, submit to the Dockets
+Management Branch (address above) written comments and ask for a
+redetermination. Furthermore, any interested person may petition FDA,
+on or before November 8, 1999, for a determination regarding whether
+the applicant for extension acted with due diligence during the
+regulatory review period. To meet its burden, the petition must contain
+sufficient facts to merit an FDA investigation. (See H. Rept. 857, part
+1, 98th Cong., 2d sess., pp. 41-42, 1984.) Petitions should be in the
+format specified in 21 CFR 10.30.
+    Comments and petitions should be submitted to the Dockets
+Management Branch (address above) in three copies (except that
+individuals may submit single copies) and identified with the docket
+number found in brackets in the heading of this document. Comments and
+petitions may be seen in the Dockets Management Branch between 9 a.m.
+and 4 p.m., Monday through Friday.
+
+    Dated: April 29, 1999.
+Thomas J. McGinnis,
+Deputy Associate Commissioner for Health Affairs.
+[FR Doc. 99-11822 Filed 5-10-99; 8:45 am]
+BILLING CODE 4160-01-F
+
+Dayton, S.; Pearce, M.L.; Hashimoto, S.; Dixon, W.J.: and Tomiyasu. U. l%9. A controlled
+clinical trial of a diet high in unsaturated fat in preventing complications of atherosclerosis.

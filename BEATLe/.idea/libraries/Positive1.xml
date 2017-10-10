@@ -1,0 +1,10 @@
+<component name="libraryTable">
+  <library name="Positive1">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/BEATLe/src/test/resources/dci/uploadRisks/GLBA/Positive/c81071_JohannaPayDayLoan.zip!/" />
+      <root url="jar://$PROJECT_DIR$/BEATLe/src/test/resources/dci/uploadRisks/GLBA/Positive/glba.zip!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>

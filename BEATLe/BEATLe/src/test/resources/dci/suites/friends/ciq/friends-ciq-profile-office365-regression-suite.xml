@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+<suite name="DCI Test Suite" parallel="tests" thread-count="2">
+
+	<listeners>
+		<listener class-name="com.elastica.beatle.PriorityListener" />
+	</listeners>
+
+	 <test
+		name="DCI ContentIQ Profile Dictionaries/Terms Office365 Mail Attachment Tests">
+		<parameter name="environmentName" value="friends" />
+		<parameter name="cloudSocUName" value="admin" />
+		<parameter name="tenantName" value="dcio365beatlecom" />
+		<parameter name="domainName" value="dcio365beatlecom" />
+		<parameter name="saasApp" value="Office365MailAttachment" />
+		<parameter name="apiBaseVersion" value="v1" />
+		<groups>
+			<run>
+				<include name="PredefDictAttachment" />
+				<include name="PredefTermsAttachment" />
+			</run>
+		</groups>
+		<classes>
+			<class name="com.elastica.beatle.tests.dci.ciq.DCIContentIQProfileTests"></class>
+		</classes>
+	</test>
+
+	<test
+		name="DCI ContentIQ Profile Dictionaries/Terms Office365 Mail Body Tests">
+		<parameter name="environmentName" value="friends" />
+		<parameter name="cloudSocUName" value="admin" />
+		<parameter name="tenantName" value="securleto365featlecom" />
+		<parameter name="domainName" value="securleto365featlecom" />
+		<parameter name="saasApp" value="Office365MailBody" />
+		<parameter name="apiBaseVersion" value="v1" />
+		<groups>
+			<run>
+				<include name="PredefDictBody" />
+				<include name="PredefTermsBody" />
+			</run>
+		</groups>
+		<classes>
+			<class name="com.elastica.beatle.tests.dci.ciq.DCIContentIQProfileTests"></class>
+		</classes>
+	</test> 
+
+</suite>

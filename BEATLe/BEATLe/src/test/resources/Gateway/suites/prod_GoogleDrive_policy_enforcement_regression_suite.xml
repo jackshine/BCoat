@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+<suite name="Gateway Regression Test Suite" parallel="false">
+	<parameter name="environmentName" value="prod"/>
+	<parameter name="gwHostname" value="50.18.198.37" />
+	<parameter name="userName" value="admin@gatewaybeatle.com"/>
+	<parameter name="userPassword" value="Elastica@123"/>
+	<parameter name="tenantName" value="gatewaybeatlecom"/>
+	<parameter name="tenantDomainName" value="gatewaybeatle.com"/>
+	<parameter name="isLoggingOn" value="true"/>
+	<parameter name="apiBaseVersion" value="v1"/>
+	<parameter name="saasApp" value="GoogleDrive"/>
+	<parameter name="saasAppUsername" value="testuser4@gatewaybeatle.com"/>
+	
+	<test name="Gateway/StreamIq GoogleDrive Access enforcement policy suite">
+		<groups>
+		    <run>
+		       <include name="TEST"/>
+		    </run>
+		  </groups>
+		<classes>
+			<class name="com.elastica.beatle.tests.gateway.GDrivePolicyEnforcementTest">
+			</class>
+		</classes>
+	</test>
+	
+	<test name="Gateway/StreamIq GoogleDrive File sharing policy suite">
+		<groups>
+		    <run>
+		       <include name="TEST"/>
+		    </run>
+		  </groups>
+		<classes>
+			<class name="com.elastica.beatle.tests.gateway.GDriveFileSharingPolicyTest">
+			</class>
+		</classes>
+	</test>
+</suite>

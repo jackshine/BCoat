@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+<suite name="Detect dashboard Tests"> 
+
+	<listeners>
+		<listener class-name="com.elastica.beatle.PriorityListener" />
+	</listeners>
+	
+		<parameter name="environmentName" value="qavpc" />
+		<parameter name="userName" value="admin@detecttbibeatle.com"/>
+		<parameter name="userPassword" value="Elastica@123"/>
+		<parameter name="tenantName" value="detecttbibeatlecom"/>
+		<parameter name="tenantDomainName" value="detecttbibeatle.com"></parameter>
+		<parameter name="tenantToken" value="TRmYTI2h3mZBrFNbW5WBejpFhX6Aee5yBrOp19PKnQE="/>
+
+		<parameter name="isLoggingOn" value="true" />
+		<parameter name="apiBaseVersion" value="v1" />
+		<parameter name="esScriptsHostName" value="10.0.0.242" />
+		<parameter name="esScriptsUserName" value="madmin" />
+	
+	<parameter name="referer" value="https://qa-vpc-ui.elastica-inc.com/static/ng/appThreats/index.html"/>
+	<parameter name="host" value="qa-vpc-ui.elastica-inc.com"/>
+	<parameter name="apiServer" value="qa-vpc-api.elastica-inc.com"/>
+	
+	<test name="Detect dashboard Tests">
+		<classes>
+			<class name="com.elastica.beatle.tests.detect.DetectDashBoardTests"/>
+		</classes>
+	</test>
+</suite>

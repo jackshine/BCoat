@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+<suite name="Audit Test Suite" parallel="instances" thread-count="25">
+	<parameter name="userName" value="user@auditweeklyscp.co"></parameter>
+	<parameter name="userPassword" value="Elastica@123"></parameter>
+	<parameter name="environmentName" value="eoe"></parameter>
+	<parameter name="tenantName" value="auditweeklyscpco"></parameter>
+	<parameter name="isLoggingOn" value="true"></parameter>
+	<parameter name="apiBaseVersion" value="v1"></parameter>
+	<test name="Audit DataSources Equality Regression Tests">
+		<parameter name="loadApparraziServicesCheck" value="yes" />
+		<classes>
+			<class name="com.elastica.beatle.audit.factoryClass.AuditWeeklyDatasourceEqualityTestsFactory"/>
+			
+		</classes>
+	</test>	
+</suite>

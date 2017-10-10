@@ -1,0 +1,170 @@
+﻿
+PAY SLIP
+
+
+
+
+
+Year
+Month
+
+    
+     
+Name
+Social security number
+Telephone number
+     
+     
+     
+Address
+Post code
+Town
+     
+     
+     
+Company
+Employee no.
+Date
+
+     
+     
+Salary period
+Tax table
+Account no.
+Date of payment
+     
+
+     
+     
+     
+
+Wages type
+Terms
+Date
+Quantity/INFO
+Price/Unit
+Amount
+     
+     
+     
+     
+
+     
+0
+     
+     
+     
+     
+
+     
+0
+     
+     
+     
+     
+
+     
+0
+     
+     
+     
+     
+
+     
+0
+     
+     
+     
+     
+
+     
+0
+     
+     
+     
+     
+
+     
+0
+     
+     
+     
+     
+
+     
+0
+     
+     
+     
+     
+
+     
+0
+     
+     
+     
+     
+
+     
+0
+     
+     
+     
+     
+
+     
+0
+     
+     
+     
+     
+
+     
+0
+     
+     
+     
+     
+
+     
+0
+Paid holiday
+Acc. Gross income
+Tax %
+Tax survey pay
+Gross income
+     
+     
+     
+0
+0
+Unpaid holiday
+Acc. Tax
+Tax adjustment
+Employer’s contribution
+Preliminary pay
+     
+     
+     
+0
+0,0
+Saved holiday
+Acc. Employee’s contribution
+Extras
+Personal fee
+Net income
+     
+     
+     
+     
+0
+
+Hours of work
+Remaining time
+ Absence
+Comp. leave
+     
+     
+     
+     
+

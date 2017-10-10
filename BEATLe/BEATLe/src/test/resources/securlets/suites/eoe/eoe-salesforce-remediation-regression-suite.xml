@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+<suite name="Securlets Salesforce Remediation Regression Test Suite" parallel="false">
+		<!-- <parameter name="environmentName" value="eoe"/>
+		<parameter name="userName" value="admin@securletbeatle.com"/>
+		<parameter name="userPassword" value="Elastica1234!"/>
+		<parameter name="tenantName" value="securletbeatlecom"/>
+		<parameter name="isLoggingOn" value="true"/>
+		<parameter name="apiBaseVersion" value="v1"/>
+		<parameter name="esScriptsHostName" value="10.0.0.242"/>
+		<parameter name="esScriptsUserName" value="madmin"/>
+		<parameter name="referer" value="https://eoe.elastica-inc.com"/>
+		<parameter name="tenantToken" value="H3YK/Vxr3p+qm9dfmKvmh7oYaPBJMqUsszm+LOStr4k="/>
+		<parameter name="saasAppUsername" value="admin@securletbeatle.com"/>
+		<parameter name="saasAppPassword" value="NBB(6GCxGlArr47"/>
+		<parameter name="saasAppUserRole" value="ADMIN"/>
+		<parameter name="saasApp" value="SALESFORCE"/>
+		<parameter name="domainName" value="securletbeatlecom"/>
+		<parameter name="saasAppLoginHost" value="na34.salesforce.com"/>
+		<parameter name="socUserName" value="QA Admin"/>
+		<parameter name="saasAppExternalUser1Name" value="t.pushparaj@gmail.com"/>
+		<parameter name="saasAppExternalUser2Name" value="pushparaj@aol.in"/>
+		<parameter name="saasAppEndUser1Name" value="securletuser@securletbeatle.com"/>  
+		
+		 -->
+		 <!-- 
+		 <parameter name="environmentName" value="eoe"/>
+		<parameter name="userName" value="admin@securletbeatle.com"/>
+		<parameter name="userPassword" value="Elastica1234!"/>
+		<parameter name="tenantName" value="securletbeatlecom"/>
+		<parameter name="isLoggingOn" value="true"/>
+		<parameter name="apiBaseVersion" value="v1"/>
+		<parameter name="esScriptsHostName" value="10.0.0.242"/>
+		<parameter name="esScriptsUserName" value="madmin"/>
+		<parameter name="referer" value="https://eoe.elastica-inc.com"/>
+		<parameter name="tenantToken" value="H3YK/Vxr3p+qm9dfmKvmh7oYaPBJMqUsszm+LOStr4k="/>
+		<parameter name="saasAppUsername" value="admin@securletbeatle.com.Sandbox3"/>
+		<parameter name="saasAppPassword" value="NBB(6GCxGlArr47"/>
+		<parameter name="saasAppUserRole" value="ADMIN"/>
+		<parameter name="saasApp" value="SALESFORCE"/>
+		<parameter name="domainName" value="securletbeatlecom"/>
+		<parameter name="saasAppLoginHost" value="cs3.salesforce.com"/>
+		<parameter name="socUserName" value="QA Admin"/>
+		<parameter name="saasAppExternalUser1Name" value="tpush.paraj@gmail.com"/>
+		<parameter name="saasAppExternalUser2Name" value="push.paraj@aol.in"/>
+		<parameter name="saasAppEndUser1Name" value="securletuser@securletbeatle.com"/>
+		<parameter name="saasAppClientId" value="3MVG9pHRjzOBdkd_Nh_Ht8JGegV0U6G.BCYjtyWzv0_qUV.R0G.Nau2wsbpYW4yPCXw4_Qkj0oZcBB3RKFB6c"/>
+	    <parameter name="saasAppClientSecret" value="6882061335135002637"/>
+	    <parameter name="saasAppToken" value="EQUZEc3QoEa0EqBzHVpoMLgr"/>
+	     -->
+	    
+	    <parameter name="environmentName" value="eoe"/>
+		<parameter name="userName" value="admin@securletbeatle.com"/>
+		<parameter name="userPassword" value="Elastica1234!"/>
+		<parameter name="tenantName" value="securletbeatlecom"/>
+		<parameter name="isLoggingOn" value="true"/>
+		<parameter name="apiBaseVersion" value="v1"/>
+		<parameter name="esScriptsHostName" value="10.0.0.242"/>
+		<parameter name="esScriptsUserName" value="madmin"/>
+		<parameter name="referer" value="https://eoe.elastica-inc.com"/>
+		<parameter name="tenantToken" value="H3YK/Vxr3p+qm9dfmKvmh7oYaPBJMqUsszm+LOStr4k="/>
+		<parameter name="saasAppUsername" value="admin@securletbeatle.com.Sandbox6"/>
+		<parameter name="saasAppPassword" value="NBB(6GCxGlArr47"/>
+		<parameter name="saasAppUserRole" value="ADMIN"/>
+		<parameter name="saasApp" value="SALESFORCE"/>
+		<parameter name="domainName" value="securletbeatlecom"/>
+		<parameter name="saasAppLoginHost" value="cs52.salesforce.com"/>
+		<parameter name="socUserName" value="QA Admin"/>
+		<parameter name="saasAppExternalUser1Name" value="t.push.paraj@gmail.com"/>
+		<parameter name="saasAppExternalUser2Name" value="push.pa.raj@aol.in"/>
+		<parameter name="saasAppEndUser1Name" value="secu.rlet.user@securletbeatle.com"/>  
+		<parameter name="saasAppClientId" value="3MVG9jfQT7vUue.Eo_PTDL3Iqm_St1W8HwjV8o3HLsSiAQ_lXZwEA1fz8xMCL82sAe3YdJ1OY.CGcqCus4ehC"/>
+	    <parameter name="saasAppClientSecret" value="6136402971934082815"/>
+	    <parameter name="saasAppToken" value="EQUZEc3QoEa0EqBzHVpoMLgr"/>
+	
+	<test name="Securlets Salesforce Remediation Regression Tests" enabled="true">
+		<classes>
+			<class name="com.elastica.beatle.tests.securlets.salesforce.SalesforceRemediationTests">
+				<methods>
+				<!-- <include name="exposeFilepubliclyAndRemediateWithUnshare"></include> -->
+				</methods> 
+			</class>
+		</classes>
+	</test>
+</suite>

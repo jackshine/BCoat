@@ -1,0 +1,6 @@
+SSN:  530-42-3575
+age = 53 years old
+email address- surez@ni.org 
+Name - David Jackson
+DOB: 29/3/1963
+Address: 558 Chapel Street Mount Laurel, New Jersey 08054

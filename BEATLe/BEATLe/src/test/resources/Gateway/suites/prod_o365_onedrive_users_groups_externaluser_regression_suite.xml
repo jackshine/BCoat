@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+<suite name="GW - StreamIQ - O365 OneDrive - Users and Groups EXternal Users monitoring Policy Regression Suite"
+	parallel="false">
+	<parameter name="environmentName" value="prod" />
+	<parameter name="gwHostname" value="50.18.198.37" />
+	<!-- <parameter name="dpoUserName" value="testdpo@gatewayo365beatle.com"/>
+	<parameter name="dpoUserPassword" value="Elastica@123"/> -->
+	<parameter name="tenantName" value="gwexternalo365beatlecom" />
+	<parameter name="tenantDomainName" value="gwexternalo365beatle.com" />
+	<parameter name="apiBaseVersion" value="v1" />
+	<parameter name="saasApp" value="onedrive" />
+	<parameter name="saasAppUsername" value="testuser1@gatewayo365beatle.com" />
+	
+	<test name="GW - StreamIQ - O365 Onedrive - Users and Groups External Users Monitoring Policy Regression Test">
+		<parameter name="userName" value="admin@gatewayo365beatle.com"/>
+		<parameter name="userPassword" value="Elastica@1234"/>
+		<parameter name="isLoggingOn" value="true" />
+		<classes>
+			<class name="com.elastica.beatle.tests.gateway.o365.UsersGroupsExternalFSPolicyTest">
+			</class>
+		</classes>
+	</test>
+	
+	<test name="GW - StreamIQ - O365 Onedrive - Users and Groups File Transfer Policy External Users Monitoring Regression Test">
+		<parameter name="userName" value="admin@gatewayo365beatle.com"/>
+		<parameter name="userPassword" value="Elastica@1234"/>
+		<parameter name="isLoggingOn" value="true" />
+		<classes>
+			<class name="com.elastica.beatle.tests.gateway.UsersGroupsO365OneDriveFileTransferPolicyTest">
+			</class>
+		</classes>
+	</test>
+	 
+	 <test name="GW - StreamIQ - O365 Onedrive - Users and Groups AE Policy External Users Monitoring Regression Test">
+	 	<parameter name="userName" value="admin@gatewayo365beatle.com"/>
+		<parameter name="userPassword" value="Elastica@1234"/>
+		<parameter name="isLoggingOn" value="true" />
+		<classes>
+			<class name="com.elastica.beatle.tests.gateway.o365.UsersGroupsAEPolicyTest">
+			</class>
+		</classes>
+	</test>
+	
+</suite>

@@ -1,0 +1,3 @@
+SSN : 457225138 
+Name Alex Smith 
+age 50 years old

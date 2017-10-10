@@ -1,0 +1,41 @@
+<component name="libraryTable">
+  <library name="LogFiles">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/BEATLe/src/test/resources/Audit/LogFiles/Blue_Coat_22389.zip!/" />
+      <root url="jar://$PROJECT_DIR$/BEATLe/src/test/resources/Audit/LogFiles/CheckPoint-2015-09-04.zip!/" />
+      <root url="jar://$PROJECT_DIR$/BEATLe/src/test/resources/Audit/LogFiles/pan_csv_traffic.zip!/" />
+      <root url="jar://$PROJECT_DIR$/BEATLe/src/test/resources/Audit/LogFiles/Cisco_ASA_IPs.zip!/" />
+      <root url="jar://$PROJECT_DIR$/BEATLe/src/test/resources/Audit/LogFiles/Cisco_CWS.zip!/" />
+      <root url="jar://$PROJECT_DIR$/BEATLe/src/test/resources/Audit/LogFiles/BE_McAfee_SEF_Format.log.zip!/" />
+      <root url="jar://$PROJECT_DIR$/BEATLe/src/test/resources/Audit/LogFiles/Barracuda_Activity_Format.zip!/" />
+      <root url="jar://$PROJECT_DIR$/BEATLe/src/test/resources/Audit/LogFiles/wsa-acess.zip!/" />
+      <root url="jar://$PROJECT_DIR$/BEATLe/src/test/resources/Audit/LogFiles/BlueCoatProxy.zip!/" />
+      <root url="jar://$PROJECT_DIR$/BEATLe/src/test/resources/Audit/LogFiles/PAN-CSV-Multiple-Device-IDs.zip!/" />
+      <root url="jar://$PROJECT_DIR$/BEATLe/src/test/resources/Audit/LogFiles/scansafe.zip!/" />
+      <root url="jar://$PROJECT_DIR$/BEATLe/src/test/resources/Audit/LogFiles/Juniper_ScreenOS.csv.zip!/" />
+      <root url="jar://$PROJECT_DIR$/BEATLe/src/test/resources/Audit/LogFiles/Mcaffe-web-gateway-negative1.zip!/" />
+      <root url="jar://$PROJECT_DIR$/BEATLe/src/test/resources/Audit/LogFiles/Wallmart_Mcaffe-web-gateway-final.zip!/" />
+      <root url="jar://$PROJECT_DIR$/BEATLe/src/test/resources/Audit/LogFiles/WSA-W3cDeviceIds.zip!/" />
+      <root url="jar://$PROJECT_DIR$/BEATLe/src/test/resources/Audit/LogFiles/pan_csv_url.zip!/" />
+      <root url="jar://$PROJECT_DIR$/BEATLe/src/test/resources/Audit/LogFiles/wsa_access_headeronly3.zip!/" />
+      <root url="jar://$PROJECT_DIR$/BEATLe/src/test/resources/Audit/LogFiles/blue-coat.zip!/" />
+      <root url="jar://$PROJECT_DIR$/BEATLe/src/test/resources/Audit/LogFiles/Barracuda_Syslog.zip!/" />
+      <root url="jar://$PROJECT_DIR$/BEATLe/src/test/resources/Audit/LogFiles/BE_Squid-2015-04-02.zip!/" />
+      <root url="jar://$PROJECT_DIR$/BEATLe/src/test/resources/Audit/LogFiles/ZScaler_diff_col_orders.log.zip!/" />
+      <root url="jar://$PROJECT_DIR$/BEATLe/src/test/resources/Audit/LogFiles/Mcaffe-web-gateway-negative2.zip!/" />
+      <root url="jar://$PROJECT_DIR$/BEATLe/src/test/resources/Audit/LogFiles/PAN-Syslog_Multiple_Device_IDs.log.zip!/" />
+      <root url="jar://$PROJECT_DIR$/BEATLe/src/test/resources/Audit/LogFiles/wsa_access_headeronly2.zip!/" />
+      <root url="jar://$PROJECT_DIR$/BEATLe/src/test/resources/Audit/LogFiles/PAN_CVS_log_File.zip!/" />
+      <root url="jar://$PROJECT_DIR$/BEATLe/src/test/resources/Audit/LogFiles/Dec20_McAfee_20Nov15_NOV20_LowRepURL_ianfetteorg.zip!/" />
+      <root url="jar://$PROJECT_DIR$/BEATLe/src/test/resources/Audit/LogFiles/McAfee_LowRepURL_30Nov15_UserTIA30.zip!/" />
+      <root url="jar://$PROJECT_DIR$/BEATLe/src/test/resources/Audit/LogFiles/Wallmart_PAN-Sys.zip!/" />
+      <root url="jar://$PROJECT_DIR$/BEATLe/src/test/resources/Audit/LogFiles/Cisco_wsa_w3c.zip!/" />
+      <root url="jar://$PROJECT_DIR$/BEATLe/src/test/resources/Audit/LogFiles/wallmart_PAN-post-vald.zip!/" />
+      <root url="jar://$PROJECT_DIR$/BEATLe/src/test/resources/Audit/LogFiles/Juniper-srx-datavald.txt.zip!/" />
+      <root url="jar://$PROJECT_DIR$/BEATLe/src/test/resources/Audit/LogFiles/Mcaffe-web-gateway-negative3.zip!/" />
+      <root url="jar://$PROJECT_DIR$/BEATLe/src/test/resources/Audit/LogFiles/wsa_access_headeronly1.zip!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>

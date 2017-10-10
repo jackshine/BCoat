@@ -1,0 +1,3 @@
+SSN : 427-22-4512
+Name = John Smith
+Age = 50 years old

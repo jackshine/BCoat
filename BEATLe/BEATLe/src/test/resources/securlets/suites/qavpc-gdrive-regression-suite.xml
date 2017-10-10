@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+<suite name="DropBox Regression Test Suite" parallel="false">
+    <parameter name="environmentName" value="qavpc"/>
+    <parameter name="userName" value="qa-admin@elasticaqa.net"/>
+    <parameter name="userPassword" value="6t@mkBx1eyvMSrs"/>
+    <parameter name="tenantName" value="elasticaqanet"/>
+    <parameter name="isLoggingOn" value="true"/>
+    <parameter name="apiBaseVersion" value="v1"/>
+    <parameter name="esScriptsHostName" value="10.0.0.242"/>
+    <parameter name="esScriptsUserName" value="madmin"/>
+    <parameter name="referer" value="https://qa-vpc-api.elastica-inc.com/"/>
+    <parameter name="tenantToken" value="8Mcfo3OUrXx33ByfPIlCCA=="/>
+    <parameter name="gdriveRefreshToken" value="1/r2lqtuGqqagkGNH_Zg6ctrdk1UO1fNJG05Y9XYm1-yc"/>
+    <parameter name="gdriveClientId" value="501464058594-u5l9b2kbs0pnaq0d22tb131sgutdk718.apps.googleusercontent.com"/>
+    <parameter name="gdriveClientSecret" value="h6qXovBfNGON3YXNkmU0slkh"/>
+    	
+	
+    <test name="Securlets GDrive Regression Tests" preserve-order="true" parallel="false">
+		
+        <groups>
+            <run>
+                <include name="PERMISSION"/> 
+                <include name="FILE"/> 
+            </run>
+        </groups>
+        <classes>
+            <class name="com.elastica.beatle.tests.securlets.GDriveSecurletTestDisplaylog">
+            </class>
+        </classes>
+    </test>
+</suite>

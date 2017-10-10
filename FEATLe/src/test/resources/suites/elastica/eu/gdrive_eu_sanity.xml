@@ -1,0 +1,52 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+
+<suite name="GDrive FE Sanity Test Suite">
+
+	<listeners>
+		<listener class-name="org.uncommons.reportng.HTMLReporter" />
+		<listener class-name="org.uncommons.reportng.JUnitXMLReporter" />
+		<listener class-name="com.elastica.listeners.SuiteListener" />
+		<listener class-name="com.elastica.listeners.MethodListener" />
+		<listener class-name="com.elastica.listeners.ScreenShotListener" />
+		<listener class-name="com.elastica.listeners.PriorityListener" />
+	</listeners>
+
+	<parameter name="env" value="eu" />
+	<parameter name="browser" value="Firefox" />
+	<parameter name="mode" value="local" />
+	<parameter name="saasAppBaseUrl" value="https://drive.google.com" />
+	<parameter name="username" value="admin@gatewaybeatle.com" />
+	<!-- <parameter name="password" value="Elastica456!" /> -->
+	<parameter name="testUsername" value="testusereu@gatewaybeatle.com" />
+	<parameter name="testPassword" value="Elastica@123" />
+	<parameter name="saasAppName" value="Google Drive" />
+	<parameter name="accountType" value="Internal" />
+	<parameter name="saasAppUsername" value="testusereu@gatewaybeatle.com" />
+	<parameter name="saasAppPassword" value="Elastica@123" />
+	<parameter name="tenant" value="gatewaybeatle.com" />
+	<parameter name="referer" value="https://app.eu.elastica.net" />
+	<parameter name="tenantDomainName" value="gatewaybeatle.com" />
+	<parameter name="tenantToken"
+		value="FGCkwUL5roSPS7TwmIlBIojwfpY5A2Geg+2ugXIPGGk=" />
+	<parameter name="proxyUrl"
+		value="https://api.eu.elastica.net/426e956df3fb443da38b3c98be8ac263/1454053263/elastica.pac"></parameter>
+	<parameter name="proxyExtension" value="Load"></parameter>
+
+	<test name="Gatelet - GDrive UI Sanity EU">
+		<parameter name="platform" value="Windows 8.1" />
+		<parameter name="browserVersion" value="40.0" />
+		<parameter name="browserName" value="firefox" />
+		<groups>
+			<run>
+				<include name="cloud"></include>
+				<include name="SANITY"></include>
+			</run>
+		</groups>
+		<classes>
+			<class name="com.elastica.tests.google.GDriveTests">
+			</class>
+		</classes>
+	</test>
+
+
+</suite>

@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+<suite name="Audit Test Suite">
+	<parameter name="userName" value="user@spanonydis5.co"></parameter>
+	<parameter name="userPassword" value="Elastica@123"></parameter>
+	<parameter name="environmentName" value="eoe"></parameter>
+	<parameter name="tenantName" value="spanonydis5co"></parameter>
+	<parameter name="isLoggingOn" value="true"></parameter>
+	<parameter name="referer" value="https://eoe.elastica-inc.com" />
+	<parameter name="apiBaseVersion" value="v1"></parameter>
+	<parameter name="tenantToken" value="20Hzq1jxC2+x8ahfwa25Kw==" />
+	<parameter name="spanvaip" value="10.0.61.11" />
+	<parameter name="spanvausername" value="admin" />
+	<parameter name="spanvapwd" value="Admin123!" />
+	<parameter name="spanvaAgentName" value="eoetest1" />
+	<parameter name="logCompressionFormat" value="7z" />
+	
+	<test name="Audit_SpanVA_Integration_Upgrade_Regression_Tests_on_1_10_2_51_0-9rc">
+		<classes>
+			<class name="com.elastica.beatle.tests.audit.spanvatests.SpanvaUpgradeTests.Audit_SpanVA_Scp_to_Upgraded_NFS_Tests"/>
+		</classes>
+		</test>
+	
+</suite>

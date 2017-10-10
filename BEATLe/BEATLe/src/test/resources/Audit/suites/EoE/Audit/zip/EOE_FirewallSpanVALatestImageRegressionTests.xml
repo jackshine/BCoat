@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+<suite name="Audit Test Suite" parallel="instances" thread-count="7">
+	<parameter name="userName" value="user@auditweeklyscp.co"></parameter>
+	<parameter name="userPassword" value="Elastica@123"></parameter>
+	<parameter name="environmentName" value="eoe"></parameter>
+	<parameter name="tenantName" value="auditweeklyscpco"></parameter>
+	<parameter name="isLoggingOn" value="true"></parameter>
+	<parameter name="referer" value="https://eoe.elastica-inc.com" />
+	<parameter name="apiBaseVersion" value="v1"></parameter>
+	<parameter name="tenantToken" value="NV3a35KFHmxDYZGk3jviwIjwfpY5A2Geg+2ugXIPGGk=" />
+	<parameter name="spanvaip" value="10.0.62.33" />
+	<parameter name="spanvausername" value="admin" />
+	<parameter name="spanvapwd" value="Admin123!" />
+	<parameter name="spanvaAgentName" value="EOE_SpanVaAgent1" />
+		<parameter name="loadApparraziServicesCheck" value="yes" />
+	
+	
+	<test name="Audit SpanVA Latest Image (1.10.2.59.0-14rc) SCP Regression Tests">
+		<classes>
+			<class name="com.elastica.beatle.audit.factoryClass.AuditSpanVAUploadFactory"/>
+		</classes>
+	</test>	
+
+</suite>
+

@@ -1,0 +1,25 @@
+#Software: SGOS 5.2.6.1
+#Version: 1.0
+#Start-Date: 2016-02-26 23:40:16
+#Date: 2013-05-24 17:24:46
+#Fields: date time time-taken c-ip sc-status s-action sc-bytes cs-bytes cs-method cs-uri-scheme cs-host cs-uri-port cs-uri-path cs-uri-query cs-username cs-auth-group s-hierarchy s-supplier-name rs(Content-Type) cs(User-Agent) sc-filter-result cs-category x-virus-id s-ip s-sitename r-ip
+#Remark: 0606020157 "AXXA - 192.168.111.196 - Blue Coat SG400" "192.168.111.196" "main"
+2016-02-26 23:40:16 168 192.168.4.55 200 TCP_TUNNELED 626 612 CONNECT tcp www.box.com 443 / - Kumail - DIRECT box.com - "Mozilla/5.0 (Windows NT 6.3; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/37.0.2049.0 Safari/537.36" OBSERVED "Technology/Internet" - 192.168.111.196 SG-HTTP-Service 63.251.34.53
+2016-02-26 23:40:16 24697 192.168.3.196 200 TCP_TUNNELED 6187 6965 CONNECT tcp www.box.com 443 / - Muhammad - DIRECT dropbox.com - "Mozilla/5.0 (Windows; U; Windows NT 5.1; en-US) AppleWebKit/532.2 (KHTML, like Gecko) ChromePlus/4.0.222.3 Chrome/4.0.222.3 Safari/532.2" OBSERVED "Non-Viewable/Infrastructure" - 192.168.111.196 SG-HTTP-Serviceƒ• 74.125.227.162
+2016-02-26 23:40:16 167 192.168.4.55 403 TCP_DENIED 498 650 CONNECT tcp www.dropbox.com 443 / - John - DIRECT os-bo-app05-01.boldchat.com - "Mozilla/5.0 (X11; U; Linux i586; de; rv:5.0) Gecko/20100101 Firefox/5.0" OBSERVED "Technology/Internet" - 192.168.111.196 SG-HTTP-Service 63.251.34.53
+2016-02-26 23:40:16 30 192.168.4.53 200 TCP_TUNNELED 1370 1713 GET http www.dropbox.com 80 /thumbs/7768310-1.jpg ?v=8 Ali - DIRECT 148.202.34.1 image/jpeg "Mozilla/5.0 (Windows NT 6.1; WOW64; rv:28.0) Gecko/20100101 Firefox/28.0" OBSERVED "Shopping" - 192.168.111.196 SG-HTTP-Service 148.202.34.1
+2016-02-26 23:40:16 30 192.168.4.53 200 "" 1902 1714 GET http www.linkedin.com 80 /thumbs/6670625-1.jpg ?v=79 Zain - DIRECT 148.202.34.1 image/jpeg "Mozilla/5.0 (Windows NT 6.1; WOW64; rv:28.0) Gecko/20100101 Firefox/28.0" OBSERVED "Shopping" - 192.168.111.196 SG-HTTP-Service 148.202.34.1
+2016-02-26 23:40:16 2 192.168.4.53 200 TCP_HIT 1851 1714 GET http www.github.com 80 /thumbs/7628729-1.jpg ?v=24 Fabregas - DIRECT 148.202.34.1 image©/jpeg "Mozilla/5.0 (Macintosh; U; Intel Mac OS X; en-US; rv:1.8.1.11pre) Gecko/20071206 Netscape/2.0.0.11 Netscape/9.0.0.5" OBSERVED "Shopping" - 192.168.111.196 SG-HTTP-Service 148.202.34.1
+2016-02-26 23:40:16 66 192.168.4.53 200 TCP_DENIED 2062 1709 GET http www.skype.com 80 /thumbs/7935040-1.jpg - - - DIRECT 148.202.34.1 image/jpeg "Mozilla/5.0 (Windows; U; Windows NT 6.0; en-US; rv:1.7.5) Gecko/20060912 Netscape/8.1.2" OBSERVED "Shopping" - 192.168.111.196 SG-HTTP-Service 148.202.34.1
+2016-02-26 23:40:16 21 192.168.4.53 200 TCP_DENIED 1837 1713 GET http www.twitter.com 80 /thumbs/6702788-1.jpg ?v=3 - - DIRECT 148.202.34.1 image/jpeg "Mozilla/5.0 (Windows NT 6.1; WOW64; rv:28.0) Gecko/20100101 Firefox/28.0" OBSERVED "Shopping" - 192.168.111.196 SG-HTTP-Service 148.202.34.1
+2016-02-26 23:40:16 68 192.168.4.53 200 TCP_HIT 1430 1709 GET http www.youtube.com 80 /thumbs/7921298-1.jpg - Kumail - DIRECT 148.202.34.1 image/jpeg "Mozilla/5.0 (iPad; CPU OS 6_0 like Mac OS X) AppleWebKit/536.26 (KHTML, like Gecko) Version/6.0 Mobile/10A5355d Safari/8536.25" OBSERVED "Shopping" - 192.168.111.196 SG-HTTP-Service 148.202.34.1
+2016-02-26 23:40:16 67 192.168.4.53 200 TCP_HIT 1896 1709 GET http www.zendesk.com 80 /thumbs/7921274-1.jpg - Muhammad - DIRECT 148.202.34.1 image/jpeg "Mozilla/5.0 (Windows NT 6.1; WOW64; rv:28.0) Gecko/20100101 Firefox/28.0" OBSERVED "Shopping" - 192.168.111.196 SG-HTTP-Service 148.202.34.1
+2016-02-26 23:40:16 68 192.168.4.53 200 TCP_HIT 1430 1709 GET http www.facebook.com 80 /thumbs/7921298-1.jpg - Kumail - DIRECT 148.202.34.1 image/jpeg "Mozilla/5.0 (iPad; CPU OS 6_0 like Mac OS X) AppleWebKit/536.26 (KHTML, like Gecko) Version/6.0 Mobile/10A5355d Safari/8536.25" OBSERVED "Shopping" - 192.168.111.196 SG-HTTP-Service 148.202.34.1
+2016-02-26 23:40:16 67 192.168.4.53 200 TCP_HIT 1896 1709 GET http www.zendesk.com 80 /thumbs/7921274-1.jpg - Muhammad - DIRECT 148.202.34.1 image/jpeg "Mozilla/5.0 (Windows NT 6.1; WOW64; rv:28.0) Gecko/20100101 Firefox/28.0" OBSERVED "Shopping" - 192.168.111.196 SG-HTTP-Service 148.202.34.1
+2016-02-26 23:40:16 68 192.168.4.53 200 TCP_HIT 10000 20000 GET http www.trimble.com 80 /thumbs/7921298-1.jpg - Kumail - DIRECT 148.202.34.1 image/jpeg "Mozilla/5.0 (iPad; CPU OS 6_0 like Mac OS X) AppleWebKit/536.26 (KHTML, like Gecko) Version/6.0 Mobile/10A5355d Safari/8536.25" OBSERVED "Shopping" - 192.168.111.196 SG-HTTP-Service 148.202.34.1
+2016-02-26 23:40:16 67 192.168.4.53 200 TCP_HIT 190000 500000 GET http www.zendesk.com 80 /thumbs/7921274-1.jpg - Muhammad - DIRECT 148.202.34.1 image/jpeg "Mozilla/5.0 (Windows NT 6.1; WOW64; rv:28.0) Gecko/20100101 Firefox/28.0" OBSERVED "Shopping" - 192.168.111.196 SG-HTTP-Service 148.202.34.1
+
+
+
+
+

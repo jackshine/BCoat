@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE properties SYSTEM "http://java.sun.com/dtd/properties.dtd">
+<properties>
+	<entry key="slaveLink">http://10.0.0.38:8080/view/BE%20Sanity/job/PROD%20BE%20Smoke%20Test/ws/BEATLe/target/surefire-reports/emailable-report.html</entry>
+	<!-- <entry key="slaveLink">http://10.0.0.38:8080/view/FE%20Sanity/job/Detect%20FE%20Sanity%20Prod/ws/target/surefire-reports/emailable-report-sauce.html</entry>-->
+	
+	<entry key="slaveLink">http://10.0.1.205:8080/job/O365_FE_Prod_SJC_GW_Sanity/ws/target/surefire-reports/emailable-report.html</entry>
+	<entry key="slaveLink">http://10.0.1.205:8080/job/O365_FE_Prod_SYD_GW_Sanity/ws/target/surefire-reports/emailable-report.html</entry>
+	<entry key="slaveLink">http://10.0.1.205:8080/job/O365_FE_Prod_SIG_GW_Sanity/ws/target/surefire-reports/emailable-report.html</entry>
+	<entry key="slaveLink">http://10.0.1.205:8080/job/O365_FE_Prod_DUB_GW_Sanity/ws/target/surefire-reports/emailable-report.html</entry>
+	<entry key="slaveLink">http://10.0.1.205:8080/job/O365_FE_Prod_CUL_GW_Sanity/ws/target/surefire-reports/emailable-report.html</entry> 
+	<entry key="slaveLink">http://10.0.1.205:8080/job/GDrive_FE_Prod_CUL_GW_Sanity/ws/target/surefire-reports/emailable-report.html</entry>
+	<entry key="slaveLink">http://10.0.1.205:8080/job/GDrive_FE_Prod_DUB_GW_Sanity/ws/target/surefire-reports/emailable-report.html</entry>
+	<entry key="slaveLink">http://10.0.1.205:8080/job/GDrive_FE_Prod_SIG_GW_Sanity/ws/target/surefire-reports/emailable-report.html</entry>
+	<entry key="slaveLink">http://10.0.1.205:8080/job/GDrive_FE_Prod_SJC_GW_Sanity/ws/target/surefire-reports/emailable-report.html</entry>
+	<entry key="slaveLink">http://10.0.1.205:8080/job/GDrive_FE_Prod_SYD_GW_Sanity/ws/target/surefire-reports/emailable-report.html</entry>
+	<entry key="slaveLink">http://10.0.1.205:8080/job/O365_FE_PROD_GW_REACH_AGENT_Sanity/ws/target/surefire-reports/emailable-report.html</entry>
+	<entry key="slaveLink">http://10.0.1.205:8080/job/O365_FE_PROD_GW_REACH_AGENT_SIG_Sanity/ws/target/surefire-reports/emailable-report.html</entry>
+	<entry key="slaveLink">http://10.0.1.205:8080/job/AWS_GW_FE_Sanity_Prod/ws/target/surefire-reports/emailable-report.html</entry>
+	
+	<entry key="slaveLink">http://10.0.1.205:8080/job/Salesforce_GW_FE_Sanity_Prod/ws/target/surefire-reports/emailable-report.html</entry>
+	<entry key="slaveLink">http://10.0.1.205:8080/job/Box_GW_FE_Sanity_Prod/ws/target/surefire-reports/emailable-report.html</entry>
+	<entry key="slaveLink">http://10.0.1.205:8080/job/Dropbox_FE_Prod_GW_Sanity/ws/target/surefire-reports/emailable-report.html</entry>
+	
+
+</properties>

@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+<suite name="Infra  Regression Test Group Suite" parallel="false">
+	<parameter name="environmentName" value="eoe"/>
+	<parameter name=" executiontype" value="sanity"/>
+	<parameter name="userName" value="admin@infrabeatle.com"/>
+	<parameter name="userPassword" value="Elastica@123"/>
+	<parameter name="tenantName" value="infrabeatle.com"/>
+	<parameter name="bopUser" value="vijay.gangwar@elastica.co"/>
+	<parameter name="bopPassword" value="Elastica@123"/>
+	<parameter name="isLoggingOn" value="true"/>
+	<parameter name="apiBaseVersion" value="v1"/>
+	<parameter name="esScriptsHostName" value="10.0.0.242"/>
+	<parameter name="esScriptsUserName" value="madmin"/>
+	<parameter name="referer" value="https://eoe.elastica-inc.com/"/>
+	<parameter name="apiServer" value="https://api-eoe.elastica-inc.com/"/>
+	<parameter name="tanentdb" value="infrabeatlecom"/>
+	<parameter name="hostName" value="eoe.elastica-inc.com"/>
+	<parameter name="tenantDomainName" value="infrabeatlecom"/>
+	<test name="Infra Signin Regression Tests">
+		<classes>
+			
+			
+			<class name="com.elastica.beatle.tests.infra.FeatureEnablement">
+				
+			</class>
+		</classes>
+	</test>
+</suite>

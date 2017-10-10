@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+<suite name="Securlet Smoke Test Suite - EU">
+	
+
+	<test name="Securlet - Box Quick Sanity Tests" enabled="true">
+
+		<parameter name="environmentName" value="cep" />
+		<parameter name="userName" value="admin@securletbeatle.com" />
+		<parameter name="userPassword" value="Elastica123!" />
+		<parameter name="tenantName" value="securletbeatlecom" />
+		<parameter name="isLoggingOn" value="true" />
+		<parameter name="apiBaseVersion" value="v1" />
+		<parameter name="esScriptsHostName" value="10.0.0.242" />
+		<parameter name="esScriptsUserName" value="madmin" />
+		<parameter name="referer" value="https://app-cep.elastica.net" />
+		<parameter name="tenantToken" value="H3YK/Vxr3p+qm9dfmKvmh7oYaPBJMqUsszm+LOStr4k=" />
+		<parameter name="saasAppUsername" value="box-admin@securletbeatle.com" />
+		<parameter name="saasAppPassword" value="lYvA7)DZ1zD@CPQgt5zw" />
+		<parameter name="saasAppUserRole" value="ADMIN" />
+		<parameter name="saasApp" value="BOX" />
+		<parameter name="socUserName" value="box admin securlet automation" />
+		<parameter name="dpoUserName" value="securletuser@securletbeatle.com" />
+		<parameter name="dpoUserPassword" value="Elastica1234!" />
+
+		<groups>
+			<run>
+				<include name="QUICKSANITY" />
+			</run>
+		</groups>
+		<classes>
+			<class name="com.elastica.beatle.tests.securlets.BoxSecurletTests" />
+		</classes>
+	</test>
+</suite>

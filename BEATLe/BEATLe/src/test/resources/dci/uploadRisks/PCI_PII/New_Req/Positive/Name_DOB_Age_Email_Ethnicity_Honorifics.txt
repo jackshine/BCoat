@@ -1,0 +1,6 @@
+Name: Alex Smith
+DOB: 01/02/1992
+Age: 25 years old
+Email: lex@gmail.com
+Ethnicity - White Hispanic Male
+Mrs. Julia Smith

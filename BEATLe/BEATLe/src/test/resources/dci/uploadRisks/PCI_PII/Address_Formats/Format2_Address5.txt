@@ -1,0 +1,9 @@
+SSN:  530-42-3575
+age = 53 years old
+email address- surez@ni.org 
+Name Lawrence Taylor
+DOB: 29/3/1963
+Street: 910 Hamilton Street
+City: Hummelstown
+State: Pennsylvania
+Zip Code: 17036

@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+<suite name="[EoE] GDrive Remediation Regression Test Suite" parallel="tests">
+    <parameter name="environmentName" value="cep"/>
+    <parameter name="userName" value="admin@securletbeatle.com"/>
+    <parameter name="userPassword" value="Elastica123!"/>
+    <parameter name="tenantName" value="securletbeatlecom"/>
+    <parameter name="isLoggingOn" value="true"/>
+    <parameter name="apiBaseVersion" value="v1"/>
+    <parameter name="esScriptsHostName" value="10.0.0.242"/>
+    <parameter name="esScriptsUserName" value="madmin"/>
+    <parameter name="tenantToken" value="H3YK/Vxr3p+qm9dfmKvmh7oYaPBJMqUsszm+LOStr4k="/>
+    <parameter name="referer" value="https://app.eu.elastica.net/static/ng/appSecurlets/index.html"/>
+   
+     <test name="Securlets GDrive Remediation Regression Test Suite" preserve-order="true" parallel="false">	
+        <classes>
+            <class name="com.elastica.beatle.tests.securlets.gdrive.GDriveSecurletsRemediationTests">
+                <methods>
+                    <include name="performFolderCreateInSaasApp"/>
+                    <include name="performFileUploadInSaaSApp"/>
+                    <include name="publicExposedFile"/>
+                    <include name="validateUploadedFileInElasticaSearchEngine"/>
+                    <include name="validateRemediation"/>                  
+                </methods>
+            </class>
+        </classes>
+    </test>
+    
+    <test name="Securlets GDrive Bulk Remediation Regression Test" preserve-order="true" parallel="false">		
+        <classes>
+            <class name="com.elastica.beatle.tests.securlets.gdrive.GDriveSecurletsRemediationTests">
+                <methods>       
+                    <include name="validateBulkRemediation"/>
+                    <include name="validateCountForExternalUserAfterBulkRemediation"/>      
+                </methods>
+            </class>
+        </classes>
+    </test>
+    
+    <test name="Securlets GDrive Prevent Remediation Regression Test" preserve-order="true" parallel="false">	
+        <classes>
+            <class name="com.elastica.beatle.tests.securlets.gdrive.GDrivePreventRemediation">
+                <methods>            
+                    <include name="performFileUploadsBeforePreventShareTest"/>
+                    <include name="validatePreventExternalUserFromSharing"/>
+                    <include name="fetchDisplayLogResponse"/>
+                    <include name="validatePreventRemediationActivityDisplayLogs"/>
+                    <include name="validatePreventCIDisplayLogs"/>
+                    <include name="validatePreventFileUploadDisplayLogs"/>
+                    <include name="validatePreventFileShareActivityDisplayLogs"/>   
+                </methods>
+            </class>
+        </classes>
+    </test>
+</suite>

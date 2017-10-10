@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+<suite name="Audit moke Test Suite - Production">
+	<test name="Audit Webupload Sanity Tests">
+		
+		<parameter name="userName" value="user@vpcauditwu.co"></parameter>
+		<parameter name="userPassword" value="Elastica456!"></parameter>
+		<parameter name="environmentName" value="qavpc"></parameter>
+		<parameter name="tenantName" value="vpcauditwuco"></parameter>
+		<parameter name="referer" value="https://qa-vpc-ui.elastica-inc.com" />
+		<parameter name="tenantToken" value="kz2uy9+RSzqmArjrNhE2uA==" />
+		<parameter name="isLoggingOn" value="true"></parameter>
+		<parameter name="apiBaseVersion" value="v1"></parameter>
+		<parameter name="loadApparraziServicesCheck" value="no" />
+		
+		
+		<classes>
+			<class
+				name="com.elastica.beatle.audit.factoryClass.AuditSanityTIAWebuploadFactory"></class>
+		</classes>
+	</test>
+</suite>

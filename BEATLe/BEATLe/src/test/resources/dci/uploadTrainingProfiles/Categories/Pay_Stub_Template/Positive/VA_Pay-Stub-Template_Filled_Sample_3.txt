@@ -1,0 +1,177 @@
+ABC Corp.
+450 Chamber Street
+Somewhere, USA 01010
+
+Employee Name: Mary Smith
+Social Security #: 999-99-9999
+Period End Date: 01/07/05
+
+Wages
+
+Deductions
+
+Description
+
+Hours
+
+Rate
+
+Current
+Amount
+
+Regular
+Overtime
+Holiday
+Tuition
+
+40.00
+1.00
+
+10.00
+15.00
+
+400.00
+15.00
+
+Y-T-D
+Amount
+400.00
+15.00
+0.00
+37.43
+
+37.43*
+
+Description
+Federal Withholdings
+Social Security Tax
+Medicare
+Tax
+1
+NY State
+Income Tax
+NYC Income Tax
+NY SUI/SDI Tax
+Other
+401(k)
+Life Insurance
+Loan
+Dental
+HMO
+Dep Care FSA
+
+Totals
+
+452.43
+
+452.43
+
+Taxable Gross
+
+335.85
+
+335.85
+
+Deduction Totals
+
+2
+
+3
+
+Current
+Amount
+
+Y-T-D
+Amount
+
+37.29
+24.83
+5.81
+8.26
+5.11
+0.61
+
+37.29
+24.83
+5.81
+8.26
+5.11
+0.61
+
+27.15*
+2.00
+30.00
+2.00*
+20.00*
+30.00*
+
+27.15
+2.00
+30.00
+2.00
+20.00
+30.00
+
+193.06
+
+193.06
+
+1
+
+Details of
+applicable
+federal,
+state, and
+local taxes
+paid.
+
+2
+
+401(k)
+savings is a
+pre-tax
+deduction.
+3
+
+NET PAY
+•
+
+259.38
+
+259.38
+
+Excluded from federal taxable wages
+
+ABC Corp.
+450 Chamber Street
+Somewhere, USA 01010
+
+Payroll
+Advice of Credit
+
+Advice # 00000000
+Date 1/07/2005
+
+Pay TWO HUNDRED FIFTY NINE AND 38/100 DOLLARS
+To the
+Order of
+
+MARY SMITH
+215 MAIN STREET
+ANYTOWN, USA 98765
+NON-NEGOTIABLE
+
+Flexible
+Spending
+Accounts
+(for health
+care, child
+or
+dependant
+care,
+parking
+expenses)
+are pre-tax
+deductions.
+
+

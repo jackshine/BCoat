@@ -1,0 +1,157 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+<suite name="Infra RBAC P1  Regression Test Suite" parallel="false">
+	
+	
+ 	
+	<test name="Infra RBAC P1 Common Tests">
+<parameter name="environmentName" value="prod"/>
+	<parameter name=" executiontype" value="sanity"/>
+	<parameter name="userName" value="admin@infrabeatle.com"/>
+	<parameter name="userPassword" value="Elastica@123"/>
+	<parameter name="tenantName" value="infrabeatle.com"/>
+	<parameter name="isLoggingOn" value="true"/>
+	<parameter name="apiBaseVersion" value="v1"/>
+	<parameter name="esScriptsHostName" value="10.0.0.242"/>
+	<parameter name="esScriptsUserName" value="madmin"/>
+	<parameter name="referer" value="https://app.elastica.net/"/>
+	<parameter name="apiServer" value="https://api-vip.elastica.net/"/>
+		<groups>
+     	 	<run>
+     		 <include name="P1" />
+     	 	</run>
+   		</groups>
+		<classes>
+			<class name="com.elastica.beatle.tests.infra.InfraRBAC">
+				   <!--  <methods>
+					<include name="profileFilterTest"></include>
+					 <include name="profileCombinationFilter"></include>
+				</methods> --> 
+			</class>
+		</classes>
+	</test> 
+	
+	 <test name="Infra RBAC P1 Single domain Admin access Tests">
+		
+		
+	<parameter name="environmentName" value="prod"/>
+	<parameter name=" executiontype" value="sanity"/>
+	<parameter name="userName" value="vijay.gangwar+130@infrabeatle.com"/>
+	<parameter name="userPassword" value="Matrix$123"/>
+	<parameter name="tenantName" value="infrabeatle.com"/>
+	<parameter name="isLoggingOn" value="true"/>
+	<parameter name="apiBaseVersion" value="v1"/>
+	<parameter name="esScriptsHostName" value="10.0.0.242"/>
+	<parameter name="esScriptsUserName" value="madmin"/>
+	<parameter name="referer" value="https://app.elastica.net/"/>
+	<parameter name="apiServer" value="https://api-vip.elastica.net/"/>
+	<parameter name="tenantToken" value="7eXU8Mnxo3CiStZoeHwXQg=="/>
+	
+		<parameter name="tanentdb" value="infrabeatlecom"/>
+		<parameter name="tenantDomainName" value="infrabeatlecom"/>
+		<groups>
+     	 	<run>
+     		 <include name="SingleDomain" />
+     	 	</run>
+   		</groups>
+		<classes>
+			<class name="com.elastica.beatle.tests.infra.InfraRBAC">
+				  <!-- <methods>
+					<include name="CreateAndDeleteUser"></include>
+					<include name="BulkDeleteSingleDomain"></include>
+				</methods>  -->
+			</class>
+		</classes>
+	</test>
+  
+	 <test name="Infra RBAC P1 Multi domain Admin access Tests">
+		
+		
+	<parameter name="environmentName" value="prod"/>
+	<parameter name=" executiontype" value="sanity"/>
+	<parameter name="userName" value="vijay.gangwar+131@infrabeatle.com"/>
+	<parameter name="userPassword" value="Matrix$123"/>
+	<parameter name="tenantName" value="infrabeatle.com"/>
+	<parameter name="isLoggingOn" value="true"/>
+	<parameter name="apiBaseVersion" value="v1"/>
+	<parameter name="esScriptsHostName" value="10.0.0.242"/>
+	<parameter name="esScriptsUserName" value="madmin"/>
+	<parameter name="referer" value="https://app.elastica.net/"/>
+	<parameter name="apiServer" value="https://api-vip.elastica.net/"/>
+	<parameter name="tenantDomainName" value="infrabeatlecom"/>	
+		<groups>
+     	 	<run>
+     		 <include name="MultiDomain" />
+     	 	</run>
+   		</groups>
+		<classes>
+			<class name="com.elastica.beatle.tests.infra.InfraRBAC">
+				 <!-- <methods>
+					<include name="MultiDomain"></include>
+				</methods> --> 
+			</class>
+		</classes>
+	</test> 
+	
+	<test name="Infra RBAC P1 All domain Admin access Tests">
+		
+		
+	<parameter name="environmentName" value="prod"/>
+	<parameter name=" executiontype" value="sanity"/>
+	<parameter name="userName" value="vijay.gangwar+87@infrabeatle.com"/>
+	<parameter name="userPassword" value="Matrix#123"/>
+	<parameter name="tenantName" value="infrabeatle.com"/>
+	<parameter name="isLoggingOn" value="true"/>
+	<parameter name="apiBaseVersion" value="v1"/>
+	<parameter name="esScriptsHostName" value="10.0.0.242"/>
+	<parameter name="esScriptsUserName" value="madmin"/>
+	<parameter name="tenantToken" value="7eXU8Mnxo3CiStZoeHwXQg=="/>
+	<parameter name="referer" value="https://app.elastica.net/"/>
+	<parameter name="apiServer" value="https://api-vip.elastica.net/"/>
+	<parameter name="tenantDomainName" value="infrabeatlecom"/>	
+		<groups>
+     	 	<run>
+     		 <include name="AllDomain" />
+     	 	</run>
+   		</groups>
+		<classes>
+			<class name="com.elastica.beatle.tests.infra.InfraRBAC">
+				 <!-- <methods>
+					<include name="MultiDomain"></include>
+				</methods>  -->
+			</class>
+		</classes>
+	</test> 
+	
+	 
+<!-- 	<test name="Infra RBAC P1 Securlet Activation Tests">
+		
+		
+	<parameter name="environmentName" value="eoe"/>
+	<parameter name=" executiontype" value="sanity"/>
+	<parameter name="userName" value="vijay.gangwar+133@infrabeatle.com"/>
+	<parameter name="userPassword" value="Matrix$123"/>
+	<parameter name="tenantName" value="infrabeatle.com"/>
+	<parameter name="isLoggingOn" value="true"/>
+	<parameter name="apiBaseVersion" value="v1"/>
+	<parameter name="esScriptsHostName" value="10.0.0.242"/>
+	<parameter name="esScriptsUserName" value="madmin"/>
+	<parameter name="referer" value="https://eoe.elastica-inc.com/"/>
+	<parameter name="apiServer" value="https://api-eoe.elastica-inc.com/"/>
+	<parameter name="tenantDomainName" value="infrabeatlecom"/>	
+		<groups>
+     	 	<run>
+     		 <include name="AllDomain" />
+     	 	</run>
+   		</groups>
+		<classes>
+			<class name="com.elastica.beatle.tests.infra.InfraRBAC">
+				   <methods>
+					<include name="adminSecurletActivation"></include>
+					<include name="adminSecurletDeactivation"></include>
+				</methods> 
+			</class>
+		</classes>
+	</test>   -->
+ </suite>
+ 

@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+<suite name="Dashboard Test Suite">
+	<parameter name="environmentName" value="prod"/>
+	<!-- <parameter name="userName" value="protectauto@protectbeatle.com"/>
+	<parameter name="userPassword" value="Elastica@123"/>
+	<parameter name="tenantName" value="protectbeatlecom"/> -->
+	<parameter name="userName" value="qa-admin@elasticaqa.net"/>
+	<parameter name="userPassword" value="d!Yz$jqa%5&amp;VfGy"/>
+	<parameter name="tenantName" value="elasticaqanet"/>
+	<parameter name="isLoggingOn" value="true"/>
+	<parameter name="apiBaseVersion" value="v1"/>
+	<parameter name="apiserverHostName" value="api-vip.elastica.net"/>
+	<!-- <parameter name="tenantToken" value="nIzqjM7QUjS4OcWe2Oti74jwfpY5A2Geg+2ugXIPGGk="/>-->
+	<parameter name="tenantToken" value="8Mcfo3OUrXx33ByfPIlCCA=="/>
+	<test name="Dashboard Tests">
+		<classes>
+			<class name="com.elastica.beatle.tests.dashboard.DashboardSanityTests"></class>
+		</classes>
+	</test>
+</suite>

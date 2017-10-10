@@ -1,0 +1,40 @@
+Social Security No: 576-55-4600
+age 32 years old
+name= Alex Curry
+Email: lex@gmail.com
+Address: 580 Hawthorne Avenue Piedmont, South Carolina 29673
+date of birth 08/27/1991
+
+Department of Veterans Affairs Summarization of Episode Note
+VA Continuity of Care Document (VA CCD)
+Created On: 24 Feb 2014
+Patient: ONE VLERPATIENT
+000 ANY STREET
+ANY CITY, FL, 33777
+tel:+1-000-123-4567 Home
+Medical Record Number: 123456789123
+Birthdate: 10 Apr 1900 Next of Kin: FIRSTNAME_NOK LASTNAME_NOK
+111 ANY STREET
+APT 0000
+ANY CITY, CA, 92038
+tel:+1-000-123-4567 Home
+Relationship: FATHER
+Gender: M Emergency Contact: FIRSTNAME_ECON
+LASTNAME_ECON
+222 ANY STREET.
+ANY CITY, CA, 92038
+tel:+1-000-333-5555 Home
+Relationship: WIFE
+Language(s): English
+Source: Veterans Affairs
+Table of Contents
+Allergies
+History of Encounters
+History of Procedures
+Immunizations
+Lab Results - Chemistry and Hematology
+Medications - Prescription and Non-Prescription
+Problems/Conditions
+Vital Signs
+NWHINZZZTESTPATIENT, NWHINONE Hin CONFIDENTIAL Page 1 of 8
+Department of Veterans Affairs Summarization of Episode Note VA Continuity of Care Document (VA CCD)

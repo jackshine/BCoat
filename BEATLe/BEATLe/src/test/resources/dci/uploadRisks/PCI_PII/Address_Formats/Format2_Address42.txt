@@ -1,0 +1,9 @@
+Email: alex@yahoo.com
+SSN: 118-60-6458
+DOB 2/23/1986
+Age: 30
+Name Peter Nelson
+Street: 433 Ivy Court
+City: Boca Raton
+State: Florida
+Zip Code: 33428

@@ -1,0 +1,150 @@
+Employee Expense Report
+University of San Diego Office of Accounts Payable
+1. Employee/Payee Information
+Employee/Payee Name:
+
+Ext:
+
+USD Email:
+
+Prepared by (if not prepared by Payee):
+
+Ext:
+
+USD Email:
+
+Payment Type: Select
+
+Today’s Date:
+
+from list of types HERE
+
+2. General Description of Expense Report
+Please provide a general description of the expense report here. You may include a business purpose that adequately describes the expense as a necessary,
+reasonable and appropriate business expense for the university. A Business Purpose should answer five basic questions: 1) Who was involved? 2) What activity
+was performed? 3) Why was the activity done and how did it benefit USD? 4) When did the activity occur? 5) Where did the activity take place?
+
+3. Approvals - I certify that the expense(s) itemized herein have been reviewed and are accurate, allowable and an appropriate expenditure(s). It is within my
+budgetary authority to approve the expense(s).
+
+Employee/Payee
+
+Print Name:___________________________
+
+Signature:_________________________
+
+Date:_______________
+
+Signature:_________________________
+
+Date:_______________
+
+Signature:_________________________
+
+Date:_______________
+
+Signature:_________________________
+
+Date:_______________
+
+Budget Administrator
+
+Print Name:___________________________
+Supervisor
+
+Print Name:___________________________
+Grants & Contracts Accounting (if applicable)
+
+Print Name:___________________________
+4. Office of Accounts Payable Use Only
+
+Date Stamp - Received
+AP Reviewed & Approved:
+
+Initials:
+
+Date Approved:
+
+Emailed (questions/concerns):
+Paid Via Direct Deposit (ACH):
+ACH Confirmation #:
+
+Exception to Policy Procedure:
+Total Owed to Payee: 0.00
+Page 1
+
+Pay T&E Card: 0.00
+
+Expense Report Total: 0.00
+
+Expense Report Instructions
+1) To receive reimbursement for expenses, the employee must prove the expenses were incurred, and that they were incurred in
+connection with a business purpose
+2) Fill out the Funding POETS
+3) Complete the Funding Expense Details, either grouped or itemized expenses
+4) Grand Total will calculate automatically. If T&E card should be paid, type in amount to be paid into the “Pay T&E Card” box
+*Please attach original documentary evidence such as: itemized receipts; credit card charge statements; or a copy of the front and back of
+canceled check. All documentation should be attached in sequential order (per #).
+
+5. Funding – POETS (If more than one POETS, indicate (1) or (2) in “Description of Expense Field Below”)
+(1) Project:
+
+(2) Project:
+
+(1) Organization:
+
+(2) Organization:
+
+(1) Task:
+
+(2) Task:
+
+(1) Source:
+
+(2) Source:
+
+6. Funding - Expense Details
+#
+Date
+Merchant
+
+Description of Expense & (1)/(2)
+
+Expenditure Type
+
+1
+2
+3
+4
+5
+6
+7
+8
+9
+10
+11
+12
+13
+14
+15
+16
+17
+18
+19
+20
+21
+22
+23
+24
+25
+7. Totals and Payments
+Total Owed to Payee:
+Page 2
+
+Pay T&E Card:
+
+Expense Report Total: 0.00
+
+Amount
+
+

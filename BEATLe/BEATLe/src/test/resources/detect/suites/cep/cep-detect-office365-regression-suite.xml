@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+<suite name="Detct Office 365 Mail End to End Test Suit-CEP" parallel="false">
+	<parameter name="environmentName" value="cep"/>
+
+	
+
+	<parameter name="environmentName" value="cep"/>
+	<parameter name="userName" value="admin@securleto365beatle.com"/>
+	<parameter name="userPassword" value="Elastica123!"/>
+	<parameter name="tenantName" value="securletO365beatlecom"/>
+	<parameter name="isLoggingOn" value="true"/>
+	<parameter name="apiBaseVersion" value="v1"/>
+	<parameter name="esScriptsHostName" value="10.0.0.242"/>
+	<parameter name="esScriptsUserName" value="madmin"/>
+	<parameter name="referer" value="http://app-cep.elastica.net/"/>
+	<parameter name="tenantToken" value="a5fJSgfR2eLjkwqm1pzF06cNrhCguy1t904na91NOtY="/>
+	<parameter name="domainName" value="securletO365beatle"/>
+	<parameter name="saasAppUsername" value="admin@securleto365beatle.com"/>
+	<parameter name="saasAppPassword" value="MHikwjETdOgeFS!"/>
+	<parameter name="saasAppUserRole" value="ADMIN"/>
+	<parameter name="saasApp" value="Office365"/>
+	
+	
+	<test name="Detct Office 365 Mail End to End Test Suit">
+		
+		<classes>
+			<class name="com.elastica.beatle.tests.detect.DetectEndtoEndTests">
+				<methods>
+				<include name="o365_upload_TBI_Test"></include>
+				
+				</methods>
+			</class>
+		</classes>
+	</test>
+</suite>

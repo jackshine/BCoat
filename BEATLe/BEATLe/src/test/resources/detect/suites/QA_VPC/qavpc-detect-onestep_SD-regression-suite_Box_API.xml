@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+<suite name="Detct One Step Sequence Detector Regression Tests Box  API"> 
+
+	<listeners>
+		<listener class-name="com.elastica.beatle.PriorityListener" />
+	</listeners>
+
+	<parameter name="environmentName" value="qavpc"/>
+	<parameter name="userName" value="admin@securletbeatle.com"/>
+	<parameter name="userPassword" value="Elastica1234!"/>
+	<parameter name="tenantName" value="securletbeatlecom"/>
+	<parameter name="isLoggingOn" value="true"/>
+	<parameter name="apiBaseVersion" value="v1"/>
+	<parameter name="esScriptsHostName" value="10.0.0.242"/>
+	<parameter name="esScriptsUserName" value="madmin"/>
+	<parameter name="tenantToken" value="H3YK/Vxr3p+qm9dfmKvmh7oYaPBJMqUsszm+LOStr4k="/>
+	<parameter name="saasAppUsername" value="box-admin@securletbeatle.com"/>
+	<parameter name="saasAppPassword" value="lYvA7)DZ1zD@CPQgt5zw"/>
+	<parameter name="saasAppUserRole" value="ADMIN"/>
+	<parameter name="saasApp" value="BOX"/>
+	
+	<parameter name="referer" value="https://qa-vpc-ui.elastica-inc.com/static/ng/appThreats/index.html"/>
+	<parameter name="host" value="qa-vpc-ui.elastica-inc.com"/>
+	<parameter name="apiServer" value="qa-vpc-api.elastica-inc.com"/>
+	
+	<test name="Detct One Step Sequence Detector Regression Tests Box  API">
+		<classes>
+		<class name="com.elastica.beatle.tests.detect.DetectOnestepSequence_Box_API">
+		</class>
+		</classes>
+	</test>
+</suite>

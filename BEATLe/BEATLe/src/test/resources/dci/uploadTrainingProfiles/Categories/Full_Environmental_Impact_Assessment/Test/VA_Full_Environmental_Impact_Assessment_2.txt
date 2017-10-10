@@ -1,0 +1,2087 @@
+617.20
+Appendix A
+State Environmental Quality Review
+
+FULL ENVIRONMENTAL ASSESSMENT FORM
+Purpose: The full EAF is designed to help applicants and agencies determine, in an orderly manner, whether a project or action may
+be significant. The question of whether an action may be significant is not always easy to answer. Frequently, there are aspects of
+a project that are subjective or unmeasurable. It is also understood that those who determine significance may have little or no formal
+knowledge of the environment or may not be technically expert in environmental analysis. In addition, many who have knowledge
+in one particular area may not be aware of the broader concerns affecting the question of significance.
+The full EAF is intended to provide a method whereby applicants and agencies can be assured that the determination process
+has been orderly, comprehensive in nature, yet flexible enough to allow introduction of information to fit a project or action.
+Full EAF Components: The full EAF is comprised of three parts:
+Part 1:
+
+Provides objective data and information about a given project and its site. By identifying basic project data, it assists
+a reviewer in the analysis that takes place in Parts 2 and 3.
+
+Part 2: Focuses on identifying the range of possible impacts that may occur from a project or action. It provides guidance
+as to whether an impact is likely to be considered small to moderate or whether it is a potentially-large impact. The
+form also identifies whether an impact can be mitigated or reduced.
+Part 3: If any impact in Part 2 is identified as potentially-large, then Part 3 is used to evaluate whether or not the impact is
+actually important.
+
+THIS AREA FOR LEAD AGENCY USE ONLY
+
+DETERMINATION OF SIGNIFICANCE -- Type 1 and Unlisted Actions
+Identify the Portions of EAF completed for this project:
+Part 1
+Part 2
+Part 3
+Upon review of the information recorded on this EAF (Parts 1 and 2 and 3 if appropriate), and any other supporting information, and
+considering both the magnitude and importance of each impact, it is reasonably determined by the lead agency that:
+A.
+
+The project will not result in any large and important impact(s) and, therefore, is one which will not have a
+significant impact on the environment, therefore a negative declaration will be prepared.
+
+B.
+
+Although the project could have a significant effect on the environment, there will not be a significant effect
+for this Unlisted Action because the mitigation measures described in PART 3 have been required, therefore
+a CONDITIONED negative declaration will be prepared.*
+
+C.
+
+The project may result in one or more large and important impacts that may have a significant impact on the
+environment, therefore a positive declaration will be prepared.
+
+*A Conditioned Negative Declaration is only valid for Unlisted Actions
+
+Name of Action
+
+Name of Lead Agency
+
+Print or Type Name of Responsible Officer in Lead Agency
+
+Title of Responsible Officer
+
+Signature of Responsible Officer in Lead Agency
+
+Signature of Preparer (If different from responsible officer)
+
+website
+
+Date
+
+Page 1 of 21
+
+Reset
+
+PART 1--PROJECT INFORMATION
+Prepared by Project Sponsor
+NOTICE: This document is designed to assist in determining whether the action proposed may have a significant effect on the
+environment. Please complete the entire form, Parts A through E. Answers to these questions will be considered as part of the
+application for approval and may be subject to further verification and public review. Provide any additional information you believe
+will be needed to complete Parts 2 and 3.
+It is expected that completion of the full EAF will be dependent on information currently available and will not involve new studies,
+research or investigation. If information requiring such additional work is unavailable, so indicate and specify each instance.
+
+Name of Action
+
+Location of Action (include Street Address, Municipality and County)
+
+Name of Applicant/Sponsor
+Address
+City / PO
+
+State
+
+Zip Code
+
+State
+
+Zip Code
+
+Business Telephone
+
+Name of Owner (if different)
+Address
+City / PO
+Business Telephone
+
+Description of Action:
+
+Page 2 of 21
+
+Reset
+
+Please Complete Each Question--Indicate N.A. if not applicable
+A. SITE DESCRIPTION
+Physical setting of overall project, both developed and undeveloped areas.
+1.
+
+2.
+
+Present Land Use:
+
+Urban
+
+Industrial
+
+Commercial
+
+Forest
+
+Agriculture
+
+Other
+
+Total acreage of project area:
+
+Residential (suburban)
+
+acres.
+
+APPROXIMATE ACREAGE
+
+3.
+
+PRESENTLY
+acres
+
+acres
+
+Forested
+
+acres
+
+acres
+
+Agricultural (Includes orchards, cropland, pasture, etc.)
+
+acres
+
+acres
+
+Wetland (Freshwater or tidal as per Articles 24,25 of ECL)
+
+acres
+
+acres
+
+Water Surface Area
+
+acres
+
+acres
+
+Unvegetated (Rock, earth or fill)
+
+acres
+
+acres
+
+Roads, buildings and other paved surfaces
+
+acres
+
+acres
+
+Other (Indicate type)
+
+acres
+
+acres
+
+What is predominant soil type(s) on project site?
+Soil drainage:
+
+Well drained
+
+% of site
+
+Poorly drained
+b.
+
+Moderately well drained
+
+% of site.
+
+% of site
+
+If any agricultural land is involved, how many acres of soil are classified within soil group 1 through 4 of the NYS Land
+acres (see 1 NYCRR 370).
+Classification System?
+
+Are there bedrock outcroppings on project site?
+a.
+
+5.
+
+AFTER COMPLETION
+
+Meadow or Brushland (Non-agricultural)
+
+a.
+
+4.
+
+Rural (non-farm)
+
+What is depth to bedrock
+
+Yes
+
+No
+
+(in feet)
+
+Approximate percentage of proposed project site with slopes:
+0-10%
+
+%
+
+10- 15%
+
+%
+
+15% or greater
+
+%
+
+6.
+
+Is project substantially contiguous to, or contain a building, site, or district, listed on the State or National Registers of
+Historic Places?
+Yes
+No
+
+7.
+
+Is project substantially contiguous to a site listed on the Register of National Natural Landmarks?
+
+8.
+
+What is the depth of the water table?
+
+9.
+
+Is site located over a primary, principal, or sole source aquifer?
+
+Yes
+
+No
+
+(in feet)
+Yes
+
+10. Do hunting, fishing or shell fishing opportunities presently exist in the project area?
+
+Page 3 of 21
+
+No
+Yes
+
+No
+
+Reset
+
+11. Does project site contain any species of plant or animal life that is identified as threatened or endangered?
+
+Yes
+
+No
+
+According to:
+
+Identify each species:
+
+12. Are there any unique or unusual land forms on the project site? (i.e., cliffs, dunes, other geological formations?
+Yes
+
+No
+
+Describe:
+
+13. Is the project site presently used by the community or neighborhood as an open space or recreation area?
+Yes
+
+No
+
+If yes, explain:
+
+14. Does the present site include scenic views known to be important to the community?
+
+Yes
+
+No
+
+15. Streams within or contiguous to project area:
+
+a.
+
+16.
+
+Name of Stream and name of River to which it is tributary
+
+Lakes, ponds, wetland areas within or contiguous to project area:
+
+b.
+
+Size (in acres):
+
+Page 4 of 21
+
+Reset
+
+17. Is the site served by existing public utilities?
+
+Yes
+
+No
+
+a.
+
+If YES, does sufficient capacity exist to allow connection?
+
+b.
+
+If YES, will improvements be necessary to allow connection?
+
+Yes
+
+No
+Yes
+
+No
+
+18. Is the site located in an agricultural district certified pursuant to Agriculture and Markets Law, Article 25-AA, Section 303 and
+304?
+Yes
+No
+19. Is the site located in or substantially contiguous to a Critical Environmental Area designated pursuant to Article 8 of the ECL,
+Yes
+No
+and 6 NYCRR 617?
+
+20. Has the site ever been used for the disposal of solid or hazardous wastes?
+B.
+
+Project Description
+
+1.
+
+Physical dimensions and scale of project (fill in dimensions as appropriate).
+a.
+
+Total contiguous acreage owned or controlled by project sponsor:
+
+b.
+
+Project acreage to be developed:
+
+c.
+
+Project acreage to remain undeveloped:
+
+d.
+
+Length of project, in miles:
+
+e.
+
+If the project is an expansion, indicate percent of expansion proposed.
+
+f.
+
+Number of off-street parking spaces existing
+
+g.
+
+Maximum vehicular trips generated per hour:
+
+h.
+
+If residential: Number and type of housing units:
+
+Yes
+
+No
+
+acres.
+
+acres initially;
+
+acres ultimately.
+
+acres.
+
+(if appropriate)
+
+One Family
+
+;
+
+%
+
+proposed
+(upon completion of project)?
+
+Two Family
+
+Multiple Family
+
+Condominium
+
+Initially
+Ultimately
+i. Dimensions (in feet) of largest proposed structure:
+
+height;
+
+width;
+
+length.
+
+j. Linear feet of frontage along a public thoroughfare project will occupy is?
+
+ft.
+
+2.
+
+How much natural material (i.e. rock, earth, etc.) will be removed from the site?
+
+tons/cubic yards.
+
+3.
+
+Will disturbed areas be reclaimed
+
+4.
+
+Yes
+
+No
+
+a.
+
+If yes, for what intended purpose is the site being reclaimed?
+
+b.
+
+Will topsoil be stockpiled for reclamation?
+
+c.
+
+Will upper subsoil be stockpiled for reclamation?
+
+N/A
+
+Yes
+
+No
+Yes
+
+No
+
+How many acres of vegetation (trees, shrubs, ground covers) will be removed from site?
+
+Page 5 of 21
+
+acres.
+
+Reset
+
+5.
+
+Will any mature forest (over 100 years old) or other locally-important vegetation be removed by this project?
+Yes
+
+No
+
+6.
+
+If single phase project: Anticipated period of construction:
+
+7.
+
+If multi-phased:
+
+months, (including demolition)
+
+a.
+
+Total number of phases anticipated
+
+(number)
+
+b.
+
+Anticipated date of commencement phase 1:
+
+month
+
+year, (including demolition)
+
+c.
+
+Approximate completion date of final phase:
+
+month
+
+year.
+
+d.
+
+Is phase 1 functionally dependent on subsequent phases?
+
+8.
+
+Will blasting occur during construction?
+
+Yes
+
+9.
+
+Number of jobs generated: during construction
+
+Yes
+
+No
+
+No
+; after project is complete
+
+10. Number of jobs eliminated by this project
+
+.
+
+11. Will project require relocation of any projects or facilities?
+
+Yes
+
+No
+
+If yes, explain:
+
+12. Is surface liquid waste disposal involved?
+
+Yes
+
+No
+
+a.
+
+If yes, indicate type of waste (sewage, industrial, etc) and amount
+
+b.
+
+Name of water body into which effluent will be discharged
+
+13. Is subsurface liquid waste disposal involved?
+
+Yes
+
+No
+
+Type
+
+14. Will surface area of an existing water body increase or decrease by proposal?
+
+Yes
+
+No
+
+If yes, explain:
+
+15. Is project or any portion of project located in a 100 year flood plain?
+16. Will the project generate solid waste?
+
+Yes
+
+Yes
+
+No
+
+No
+
+a.
+
+If yes, what is the amount per month?
+
+tons
+
+b.
+
+If yes, will an existing solid waste facility be used?
+
+c.
+
+If yes, give name
+
+d.
+
+Will any wastes not go into a sewage disposal system or into a sanitary landfill?
+
+Yes
+
+No
+; location
+
+Page 6 of 21
+
+Yes
+
+No
+
+Reset
+
+e.
+
+If yes, explain:
+
+17. Will the project involve the disposal of solid waste?
+a.
+
+If yes, what is the anticipated rate of disposal?
+
+b.
+
+If yes, what is the anticipated site life?
+
+18. Will project use herbicides or pesticides?
+
+Yes
+
+No
+
+tons/month.
+years.
+
+Yes
+
+No
+
+19. Will project routinely produce odors (more than one hour per day)?
+
+Yes
+
+20. Will project produce operating noise exceeding the local ambient noise levels?
+21. Will project result in an increase in energy use?
+
+Yes
+
+No
+Yes
+
+No
+
+No
+
+If yes, indicate type(s)
+
+22. If water supply is from wells, indicate pumping capacity
+23. Total anticipated water usage per day
+
+gallons/minute.
+
+gallons/day.
+
+24. Does project involve Local, State or Federal funding?
+
+Yes
+
+No
+
+If yes, explain:
+
+Page 7 of 21
+
+Reset
+
+25. Approvals Required:
+
+Type
+
+City, Town, Village Board
+
+Yes
+
+No
+
+City, Town, Village Planning Board
+
+Yes
+
+No
+
+City, Town Zoning Board
+
+Yes
+
+No
+
+City, County Health Department
+
+Yes
+
+No
+
+Other Local Agencies
+
+Yes
+
+No
+
+Other Regional Agencies
+
+Yes
+
+No
+
+State Agencies
+
+Yes
+
+No
+
+Federal Agencies
+
+Yes
+
+Submittal Date
+
+No
+
+C. Zoning and Planning Information
+1.
+
+Does proposed action involve a planning or zoning decision?
+
+Yes
+
+No
+
+If Yes, indicate decision required:
+Zoning amendment
+
+Zoning variance
+
+New/revision of master plan
+
+Subdivision
+
+Site plan
+
+Special use permit
+
+Resource management plan
+
+Other
+
+Page 8 of 21
+
+Reset
+
+2.
+
+What is the zoning classification(s) of the site?
+
+3.
+
+What is the maximum potential development of the site if developed as permitted by the present zoning?
+
+4.
+
+What is the proposed zoning of the site?
+
+5.
+
+What is the maximum potential development of the site if developed as permitted by the proposed zoning?
+
+6.
+
+Is the proposed action consistent with the recommended uses in adopted local land use plans?
+
+7.
+
+What are the predominant land use(s) and zoning classifications within a ¼ mile radius of proposed action?
+
+8.
+
+Is the proposed action compatible with adjoining/surrounding land uses with a ¼ mile?
+
+9.
+
+If the proposed action is the subdivision of land, how many lots are proposed?
+a.
+
+Yes
+
+Yes
+
+No
+
+No
+
+What is the minimum lot size proposed?
+
+Page 9 of 21
+
+Reset
+
+10. Will proposed action require any authorization(s) for the formation of sewer or water districts?
+
+Yes
+
+No
+
+11. Will the proposed action create a demand for any community provided services (recreation, education, police, fire protection?
+Yes
+
+a.
+
+No
+
+If yes, is existing capacity sufficient to handle projected demand?
+
+Yes
+
+No
+
+12. Will the proposed action result in the generation of traffic significantly above present levels?
+a.
+
+If yes, is the existing road network adequate to handle the additional traffic.
+
+Yes
+
+Yes
+
+No
+
+No
+
+D. Informational Details
+Attach any additional information as may be needed to clarify your project. If there are or may be any adverse impacts
+associated with your proposal, please discuss such impacts and the measures which you propose to mitigate or avoid them.
+E.
+
+Verification
+I certify that the information provided above is true to the best of my knowledge.
+Applicant/Sponsor Name
+
+Date
+
+Signature
+
+Title
+
+If the action is in the Coastal Area, and you are a state agency, complete the Coastal Assessment Form before proceeding with this
+assessment.
+
+Page 10 of 21
+
+Reset
+
+PART 2 - PROJECT IMPACTS AND THEIR MAGNITUDE
+Responsibility of Lead Agency
+General Information (Read Carefully)
+In completing the form the reviewer should be guided by the question: Have my responses and determinations been
+!
+reasonable? The reviewer is not expected to be an expert environmental analyst.
+The Examples provided are to assist the reviewer by showing types of impacts and wherever possible the threshold of
+!
+magnitude that would trigger a response in column 2. The examples are generally applicable throughout the State and for
+most situations. But, for any specific project or site other examples and/or lower thresholds may be appropriate for a
+Potential Large Impact response, thus requiring evaluation in Part 3.
+The impacts of each project, on each site, in each locality, will vary. Therefore, the examples are illustrative and have been
+!
+offered as guidance. They do not constitute an exhaustive list of impacts and thresholds to answer each question.
+The number of examples per question does not indicate the importance of each question.
+!
+!
+In identifying impacts, consider long term, short term and cumulative effects.
+Instructions (Read carefully)
+Answer each of the 20 questions in PART 2. Answer Yes if there will be any impact.
+a.
+b.
+Maybe answers should be considered as Yes answers.
+If answering Yes to a question then check the appropriate box(column 1 or 2)to indicate the potential size of the impact. If
+c.
+impact threshold equals or exceeds any example provided, check column 2. If impact will occur but threshold is lower than
+example, check column 1.
+d.
+Identifying that an Impact will be potentially large (column 2) does not mean that it is also necessarily significant. Any
+large impact must be evaluated in PART 3 to determine significance. Identifying an impact in column 2 simply asks that it
+be looked at further.
+If reviewer has doubt about size of the impact then consider the impact as potentially large and proceed to PART 3.
+e.
+f.
+If a potentially large impact checked in column 2 can be mitigated by change(s) in the project to a small to moderate
+impact, also check the Yes box in column 3. A No response indicates that such a reduction is not possible. This must be
+explained in Part 3.
+1
+Small to
+Moderate
+Impact
+
+2
+Potential
+Large
+Impact
+
+3
+Can Impact Be
+Mitigated by
+Project Change
+
+Impact on Land
+1. Will the Proposed Action result in a physical change to the project
+site?
+NO
+YES
+Examples that would apply to column 2
+C
+Any construction on slopes of 15% or greater, (15 foot
+rise per 100 foot of length), or where the general slopes
+in the project area exceed 10%.
+
+Yes
+
+No
+
+C
+
+Construction on land where the depth to the water table
+is less than 3 feet.
+
+Yes
+
+No
+
+C
+
+Construction of paved parking area for 1,000 or more
+vehicles.
+
+Yes
+
+No
+
+C
+
+Construction on land where bedrock is exposed or
+generally within 3 feet of existing ground surface.
+
+Yes
+
+No
+
+C
+
+Construction that will continue for more than 1 year or
+involve more than one phase or stage.
+
+Yes
+
+No
+
+C
+
+Excavation for mining purposes that would remove
+more than 1,000 tons of natural material (i.e., rock or
+soil) per year.
+
+Yes
+
+No
+
+Page 11 of 21
+
+Reset
+
+1
+Small to
+Moderate
+Impact
+
+2.
+
+2
+Potential
+Large
+Impact
+
+3
+Can Impact Be
+Mitigated by
+Project Change
+
+C
+
+Construction or expansion of a santary landfill.
+
+Yes
+
+No
+
+C
+
+Construction in a designated floodway.
+
+Yes
+
+No
+
+C
+
+Other impacts:
+
+Yes
+
+No
+
+Yes
+
+No
+
+Examples that would apply to column 2
+C
+Developable area of site contains a protected water body.
+
+Yes
+
+No
+
+C
+
+Dredging more than 100 cubic yards of material from channel of
+a protected stream.
+
+Yes
+
+No
+
+C
+
+Extension of utility distribution facilities through a protected water
+body.
+
+Yes
+
+No
+
+C
+
+Construction in a designated freshwater or tidal wetland.
+
+Yes
+
+No
+
+C
+
+Other impacts:
+
+Yes
+
+No
+
+Examples that would apply to column 2
+C
+A 10% increase or decrease in the surface area of any body of
+water or more than a 10 acre increase or decrease.
+
+Yes
+
+No
+
+C
+
+Construction of a body of water that exceeds 10 acres of surface
+area.
+
+Yes
+
+No
+
+C
+
+Other impacts:
+
+Yes
+
+No
+
+Will there be an effect to any unique or unusual land forms found on
+the site? (i.e., cliffs, dunes, geological formations, etc.)
+NO
+YES
+C
+
+Specific land forms:
+
+Impact on Water
+3.
+
+4.
+
+Will Proposed Action affect any water body designated as protected?
+(Under Articles 15, 24, 25 of the Environmental Conservation Law,
+ECL)
+NO
+YES
+
+Will Proposed Action affect any non-protected existing or new body of
+water?
+NO
+YES
+
+Page 12 of 21
+
+Reset
+
+1
+Small to
+Moderate
+Impact
+5.
+
+2
+Potential
+Large
+Impact
+
+3
+Can Impact Be
+Mitigated by
+Project Change
+
+Will Proposed Action affect surface or groundwater quality or
+quantity?
+NO
+YES
+Examples that would apply to column 2
+C
+Proposed Action will require a discharge permit.
+
+Yes
+
+No
+
+C
+
+Proposed Action requires use of a source of water that does not
+have approval to serve proposed (project) action.
+
+Yes
+
+No
+
+C
+
+Proposed Action requires water supply from wells with greater
+than 45 gallons per minute pumping capacity.
+
+Yes
+
+No
+
+C
+
+Construction or operation causing any contamination of a water
+supply system.
+
+Yes
+
+No
+
+C
+
+Proposed Action will adversely affect groundwater.
+
+Yes
+
+No
+
+C
+
+Liquid effluent will be conveyed off the site to facilities which
+presently do not exist or have inadequate capacity.
+
+Yes
+
+No
+
+C
+
+Proposed Action would use water in excess of 20,000 gallons
+per day.
+
+Yes
+
+No
+
+C
+
+Proposed Action will likely cause siltation or other discharge into
+an existing body of water to the extent that there will be an
+obvious visual contrast to natural conditions.
+
+Yes
+
+No
+
+C
+
+Proposed Action will require the storage of petroleum or
+chemical products greater than 1,100 gallons.
+
+Yes
+
+No
+
+C
+
+Proposed Action will allow residential uses in areas without
+water and/or sewer services.
+
+Yes
+
+No
+
+C
+
+Proposed Action locates commercial and/or industrial uses
+which may require new or expansion of existing waste treatment
+and/or storage facilities.
+
+Yes
+
+No
+
+C
+
+Other impacts:
+
+Yes
+
+No
+
+Page 13 of 21
+
+Reset
+
+1
+Small to
+Moderate
+Impact
+
+6.
+
+2
+Potential
+Large
+Impact
+
+3
+Can Impact Be
+Mitigated by
+Project Change
+
+Will Proposed Action alter drainage flow or patterns, or surface water
+runoff?
+NO
+YES
+Examples that would apply to column 2
+C
+Proposed Action would change flood water flows
+
+Yes
+
+No
+
+C
+
+Proposed Action may cause substantial erosion.
+
+Yes
+
+No
+
+C
+
+Proposed Action is incompatible with existing drainage patterns.
+
+Yes
+
+No
+
+C
+
+Proposed Action will allow development in a designated
+floodway.
+
+Yes
+
+No
+
+C
+
+Other impacts:
+
+Yes
+
+No
+
+Examples that would apply to column 2
+C
+Proposed Action will induce 1,000 or more vehicle trips in any
+given hour.
+
+Yes
+
+No
+
+C
+
+Proposed Action will result in the incineration of more than 1 ton
+of refuse per hour.
+
+Yes
+
+No
+
+C
+
+Emission rate of total contaminants will exceed 5 lbs. per hour
+or a heat source producing more than 10 million BTU’s per
+hour.
+
+Yes
+
+No
+
+C
+
+Proposed Action will allow an increase in the amount of land
+committed to industrial use.
+
+Yes
+
+No
+
+C
+
+Proposed Action will allow an increase in the density of
+industrial development within existing industrial areas.
+
+Yes
+
+No
+
+C
+
+Other impacts:
+
+Yes
+
+No
+
+Yes
+
+No
+
+IMPACT ON AIR
+7.
+
+Will Proposed Action affect air quality?
+NO
+YES
+
+IMPACT ON PLANTS AND ANIMALS
+8.
+
+Will Proposed Action affect any threatened or endangered species?
+NO
+YES
+Examples that would apply to column 2
+C
+Reduction of one or more species listed on the New York or
+Federal list, using the site, over or near
+the site, or found on the site.
+
+Page 14 of 21
+
+Reset
+
+1
+Small to
+Moderate
+Impact
+
+9.
+
+2
+Potential
+Large
+Impact
+
+3
+Can Impact Be
+Mitigated by
+Project Change
+
+C
+
+Removal of any portion of a critical or significant wildlife habitat.
+
+Yes
+
+No
+
+C
+
+Application of pesticide or herbicide more than twice a year,
+other than for agricultural purposes.
+
+Yes
+
+No
+
+C
+
+Other impacts:
+
+Yes
+
+No
+
+Examples that would apply to column 2
+C
+Proposed Action would substantially interfere with any resident
+or migratory fish, shellfish or wildlife species.
+
+Yes
+
+No
+
+C
+
+Proposed Action requires the removal of more than 10 acres of
+mature forest (over 100 years of age) or other locally important
+vegetation.
+
+Yes
+
+No
+
+C
+
+Other impacts:
+
+Yes
+
+No
+
+Yes
+
+No
+
+Will Proposed Action substantially affect non-threatened or nonendangered species?
+NO
+YES
+
+IMPACT ON AGRICULTURAL LAND RESOURCES
+10. Will Proposed Action affect agricultural land resources?
+NO
+YES
+Examples that would apply to column 2
+C
+The Proposed Action would sever, cross or limit access to
+agricultural land (includes cropland, hayfields, pasture, vineyard,
+orchard, etc.)
+C
+
+Construction activity would excavate or compact the soil profile of
+agricultural land.
+
+Yes
+
+No
+
+C
+
+The Proposed Action would irreversibly convert more than 10
+acres of agricultural land or, if located in an Agricultural District,
+more than 2.5 acres of agricultural land.
+
+Yes
+
+No
+
+Page 15 of 21
+
+Reset
+
+1
+Small to
+Moderate
+Impact
+
+2
+Potential
+Large
+Impact
+
+3
+Can Impact Be
+Mitigated by
+Project Change
+
+C
+
+The Proposed Action would disrupt or prevent installation of
+agricultural land management systems (e.g., subsurface drain
+lines, outlet ditches, strip cropping); or create a need for such
+measures (e.g. cause a farm field to drain poorly due to
+increased runoff).
+
+Yes
+
+No
+
+C
+
+Other impacts:
+
+Yes
+
+No
+
+Yes
+
+No
+
+IMPACT ON AESTHETIC RESOURCES
+11. Will Proposed Action affect aesthetic resources? (If necessary, use
+the Visual EAF Addendum in Section 617.20, Appendix B.)
+NO
+YES
+Examples that would apply to column 2
+C
+Proposed land uses, or project components obviously different
+from or in sharp contrast to current surrounding land use
+patterns, whether man-made or natural.
+C
+
+Proposed land uses, or project components visible to users of
+aesthetic resources which will eliminate or significantly reduce
+their enjoyment of the aesthetic qualities of that resource.
+
+Yes
+
+No
+
+C
+
+Project components that will result in the elimination or
+significant screening of scenic views known to be important to
+the area.
+
+Yes
+
+No
+
+C
+
+Other impacts:
+
+Yes
+
+No
+
+Yes
+
+No
+
+IMPACT ON HISTORIC AND ARCHAEOLOGICAL RESOURCES
+12. Will Proposed Action impact any site or structure of historic,
+prehistoric or paleontological importance?
+NO
+YES
+Examples that would apply to column 2
+C
+Proposed Action occurring wholly or partially within or
+substantially contiguous to any facility or site listed on the State
+or National Register of historic places.
+C
+
+Any impact to an archaeological site or fossil bed located within
+the project site.
+
+Yes
+
+No
+
+C
+
+Proposed Action will occur in an area designated as sensitive
+for archaeological sites on the NYS Site Inventory.
+
+Yes
+
+No
+
+Page 16 of 21
+
+Reset
+
+1
+Small to
+Moderate
+Impact
+C
+
+Other impacts:
+
+2
+Potential
+Large
+Impact
+
+3
+Can Impact Be
+Mitigated by
+Project Change
+Yes
+
+No
+
+Examples that would apply to column 2
+C
+The permanent foreclosure of a future recreational opportunity.
+
+Yes
+
+No
+
+C
+
+A major reduction of an open space important to the community.
+
+Yes
+
+No
+
+C
+
+Other impacts:
+
+Yes
+
+No
+
+Examples that would apply to column 2
+C
+Proposed Action to locate within the CEA?
+
+Yes
+
+No
+
+C
+
+Proposed Action will result in a reduction in the quantity of the
+resource?
+
+Yes
+
+No
+
+C
+
+Proposed Action will result in a reduction in the quality of the
+resource?
+
+Yes
+
+No
+
+C
+
+Proposed Action will impact the use, function or enjoyment of the
+resource?
+
+Yes
+
+No
+
+C
+
+Other impacts:
+
+Yes
+
+No
+
+IMPACT ON OPEN SPACE AND RECREATION
+13. Will proposed Action affect the quantity or quality of existing or future
+open spaces or recreational opportunities?
+NO
+YES
+
+IMPACT ON CRITICAL ENVIRONMENTAL AREAS
+14. Will Proposed Action impact the exceptional or unique
+characteristics of a critical environmental area (CEA) established
+pursuant to subdivision 6NYCRR 617.14(g)?
+NO
+YES
+List the environmental characteristics that caused the designation of
+the CEA.
+
+Page 17 of 21
+
+Reset
+
+1
+Small to
+Moderate
+Impact
+
+2
+Potential
+Large
+Impact
+
+3
+Can Impact Be
+Mitigated by
+Project Change
+
+IMPACT ON TRANSPORTATION
+15. Will there be an effect to existing transportation systems?
+NO
+YES
+Examples that would apply to column 2
+C
+Alteration of present patterns of movement of people and/or
+goods.
+
+Yes
+
+No
+
+C
+
+Proposed Action will result in major traffic problems.
+
+Yes
+
+No
+
+C
+
+Other impacts:
+
+Yes
+
+No
+
+Examples that would apply to column 2
+C
+Proposed Action will cause a greater than 5% increase in the
+use of any form of energy in the municipality.
+
+Yes
+
+No
+
+C
+
+Proposed Action will require the creation or extension of an
+energy transmission or supply system to serve more than 50
+single or two family residences or to serve a major commercial
+or industrial use.
+
+Yes
+
+No
+
+C
+
+Other impacts:
+
+Yes
+
+No
+
+Examples that would apply to column 2
+C
+Blasting within 1,500 feet of a hospital, school or other sensitive
+facility.
+
+Yes
+
+No
+
+C
+
+Odors will occur routinely (more than one hour per day).
+
+Yes
+
+No
+
+C
+
+Proposed Action will produce operating noise exceeding the
+local ambient noise levels for noise outside of structures.
+
+Yes
+
+No
+
+C
+
+Proposed Action will remove natural barriers that would act as a
+noise screen.
+
+Yes
+
+No
+
+C
+
+Other impacts:
+
+Yes
+
+No
+
+IMPACT ON ENERGY
+16. Will Proposed Action affect the community’s sources of fuel or
+energy supply?
+NO
+
+YES
+
+NOISE AND ODOR IMPACT
+17. Will there be objectionable odors, noise, or vibration as a result of
+the Proposed Action?
+NO
+
+YES
+
+Page 18 of 21
+
+Reset
+
+1
+Small to
+Moderate
+Impact
+
+2
+Potential
+Large
+Impact
+
+3
+Can Impact Be
+Mitigated by
+Project Change
+
+IMPACT ON PUBLIC HEALTH
+18. Will Proposed Action affect public health and safety?
+NO
+YES
+C
+
+Proposed Action may cause a risk of explosion or release of
+hazardous substances (i.e. oil, pesticides, chemicals, radiation,
+etc.) in the event of accident or upset conditions, or there may be
+a chronic low level discharge or emission.
+
+Yes
+
+No
+
+C
+
+Proposed Action may result in the burial of “hazardous wastes”
+in any form (i.e. toxic, poisonous, highly reactive, radioactive,
+irritating, infectious, etc.)
+
+Yes
+
+No
+
+C
+
+Storage facilities for one million or more gallons of liquefied
+natural gas or other flammable liquids.
+
+Yes
+
+No
+
+C
+
+Proposed Action may result in the excavation or other
+disturbance within 2,000 feet of a site used for the disposal of
+solid or hazardous waste.
+
+Yes
+
+No
+
+C
+
+Other impacts:
+
+Yes
+
+No
+
+Examples that would apply to column 2
+C
+The permanent population of the city, town or village in which the
+project is located is likely to grow by more than 5%.
+
+Yes
+
+No
+
+C
+
+The municipal budget for capital expenditures or operating
+services will increase by more than 5% per year as a result of
+this project.
+
+Yes
+
+No
+
+C
+
+Proposed Action will conflict with officially adopted plans or
+goals.
+
+Yes
+
+No
+
+C
+
+Proposed Action will cause a change in the density of land use.
+
+Yes
+
+No
+
+C
+
+Proposed Action will replace or eliminate existing facilities,
+structures or areas of historic importance to the community.
+
+Yes
+
+No
+
+C
+
+Development will create a demand for additional community
+services (e.g. schools, police and fire, etc.)
+
+Yes
+
+No
+
+IMPACT ON GROWTH AND CHARACTER
+OF COMMUNITY OR NEIGHBORHOOD
+19. Will Proposed Action affect the character of the existing community?
+NO
+YES
+
+Page 19 of 21
+
+Reset
+
+1
+Small to
+Moderate
+Impact
+
+2
+Potential
+Large
+Impact
+
+3
+Can Impact Be
+Mitigated by
+Project Change
+
+C
+
+Proposed Action will set an important precedent for future
+projects.
+
+Yes
+
+No
+
+C
+
+Proposed Action will create or eliminate employment.
+
+Yes
+
+No
+
+C
+
+Other impacts:
+
+Yes
+
+No
+
+20. Is there, or is there likely to be, public controversy related to potential
+adverse environment impacts?
+NO
+YES
+
+If Any Action in Part 2 Is Identified as a Potential Large Impact or If you Cannot Determine the Magnitude of
+Impact, Proceed to Part 3
+
+Page 20 of 21
+
+Reset
+
+Part 3 - EVALUATION OF THE IMPORTANCE OF IMPACTS
+Responsibility of Lead Agency
+Part 3 must be prepared if one or more impact(s) is considered to be potentially large, even if the impact(s) may
+be mitigated.
+Instructions (If you need more space, attach additional sheets)
+Discuss the following for each impact identified in Column 2 of Part 2:
+1.
+
+Briefly describe the impact.
+
+2.
+
+Describe (if applicable) how the impact could be mitigated or reduced to a small to moderate impact by
+project change(s).
+
+3.
+
+Based on the information available, decide if it is reasonable to conclude that this impact is important.
+To answer the question of importance, consider:
+! The probability of the impact occurring
+! The duration of the impact
+! Its irreversibility, including permanently lost resources of value
+! Whether the impact can or will be controlled
+! The regional consequence of the impact
+! Its potential divergence from local needs and goals
+! Whether known objections to the project relate to this impact.
+
+Page 21 of 21
+
+Reset
+
+

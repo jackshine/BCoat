@@ -1,0 +1,10 @@
+<component name="libraryTable">
+  <library name="Positive">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/BEATLe/src/test/resources/dci/uploadRisks/PII/Positive/Sample_Sheet.zip!/" />
+      <root url="jar://$PROJECT_DIR$/BEATLe/src/test/resources/dci/uploadRisks/PII/Positive/Sample.zip!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>

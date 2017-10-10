@@ -1,0 +1,48 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+
+<suite name="Gateway Salesforce FE Sanity Test Suite">
+
+	<listeners>
+		<listener class-name="com.elastica.listeners.EmailableReporterSauce" />
+		<listener class-name="org.uncommons.reportng.HTMLReporter" />
+		<listener class-name="org.uncommons.reportng.JUnitXMLReporter" />
+		<listener class-name="com.elastica.listeners.SuiteListener" />
+		<listener class-name="com.elastica.listeners.MethodListener" />
+		<listener class-name="com.elastica.listeners.ScreenShotListener" />
+		<listener class-name="com.elastica.listeners.PriorityListener" />
+	</listeners>
+	
+
+	<parameter name="env" value="eoe" />
+	<parameter name="browser" value="Firefox" />
+	<parameter name="mode" value="local" />
+	<parameter name="saasAppBaseUrl" value="https://console.aws.amazon.com/" />
+	<parameter name="username" value="admin@protectbeatle.com" />
+	<parameter name="testUsername" value="admin@protectbeatle.com" />
+	<parameter name="saasAppName" value="Amazon Web Services" />
+	<parameter name="saasAppUsername" value="admin@protectbeatle.com" />
+	<parameter name="tenant" value="protectbeatle.com" />
+	<parameter name="tenantDomainName" value="protectbeatle.com" />
+	<parameter name="proxyExtension" value="Load"></parameter>
+
+	
+	
+	<test name="Gatelet Tests - AWS Sao Paulo Region">
+		<parameter name="platform" value="Windows 8.1" />
+		<parameter name="browserVersion" value="40.0" />
+		<parameter name="browserName" value="firefox" />
+		<parameter name="regionName" value="Sao Paulo"/>
+		<parameter name="regionCode" value="sa-east-1"/>
+		<groups>
+			<run>
+				<include name="cloud"></include>
+				<include name="Regression"></include>
+			</run>
+		</groups>
+		<classes>
+			<class name="com.elastica.tests.aws.AWSPolicyTests" />
+		</classes>
+	</test>
+	
+
+</suite>

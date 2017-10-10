@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+<suite name="Audit Test Suite" parallel="instances" thread-count="4">
+	<parameter name="userName" value="user@eoeauditanonyenabled.co"></parameter>
+	<parameter name="userPassword" value="Elastica#123"></parameter>
+	<parameter name="environmentName" value="eoe"></parameter>
+	<parameter name="tenantName" value="eoeauditanonyenabledco"></parameter>
+	<parameter name="isLoggingOn" value="true"></parameter>
+	<parameter name="apiBaseVersion" value="v1"></parameter>
+	<parameter name="tenantToken" value="0RjH0hDCOpBYW+w+Gxa+SiDUnpE6SZKj3kGv+rt/00U=" />
+	<parameter name="spanvaip" value="10.0.61.167" />
+	<parameter name="spanvausername" value="admin" />
+	<parameter name="spanvapwd" value="Admin123!"/>
+	<parameter name="spanvaAgentName" value="EOE_SpanVaAgent_Enabled" />
+	<parameter name="dpoUserName" value="dpotest@eoeauditanonyenabled.co" />
+	<parameter name="dpoUserPassword" value="KLLcmf8#" />
+		
+	<!-- <parameter name="userName" value="elastica-support@spanvatestanyena.com"></parameter>
+	<parameter name="userPassword" value="sCIcU5uB"></parameter>
+	<parameter name="environmentName" value="eoe"></parameter>
+	<parameter name="tenantName" value="spanvatestanyenacom"></parameter>
+	<parameter name="isLoggingOn" value="true"></parameter>
+	<parameter name="referer" value="https://eoe.elastica-inc.com" />
+	<parameter name="apiBaseVersion" value="v1"></parameter>
+	<parameter name="tenantToken" value="VMhFh8ZBphbrFgbHQc8Ywfb7n+TCLSx6y0qKJqvM9eY=" />
+	<parameter name="spanvaip" value="10.0.63.62" />
+	<parameter name="spanvausername" value="admin" />
+	<parameter name="spanvapwd" value="Admin123!" />
+	<parameter name="spanvaAgentName" value="EOE_AnonyEna_Upgrades" /> 
+	<parameter name="dpoUserName" value="dpotest@spanvatestanyena.com" />
+	<parameter name="dpoUserPassword" value="PFKara0&amp;" />
+	<parameter name="loadApparraziServicesCheck" value="yes" />
+
+ -->
+	<test name="Audit SpanVA Latest Image Anony Regression Tests">
+		<classes>
+			<class name="com.elastica.beatle.audit.factoryClass.spanva.AuditSpanvaLatestImageAnonyEnabledFactory"/>
+		</classes>
+	</test>	
+
+</suite>
+
+

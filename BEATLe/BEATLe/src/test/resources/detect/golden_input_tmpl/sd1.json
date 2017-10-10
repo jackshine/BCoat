@@ -1,0 +1,111 @@
+{
+  "requestType": "insert",
+  "source": {
+    "description": "upload Share Download Delete",
+    "enabled": true,
+    "importance": 3,
+    "groups": [
+      {
+        "steps": [
+          {
+            "source": [
+              "__any"
+            ],
+            "source_individually": false,
+            "user": [
+              "__any"
+            ],
+            "user_individually": true,
+            "facility": [
+              "__any"
+            ],
+            "facility_individually": false,
+            "Object_type": [
+              "__any"
+            ],
+            "Activity_type": [
+              "Upload"
+            ],
+            "threshold": 0,
+            "window": 1,
+            "max_gap_time": -1
+          },
+          {
+            "source": [
+              "__any"
+            ],
+            "source_individually": false,
+            "user": [
+              "__any"
+            ],
+            "user_individually": true,
+            "facility": [
+              "__any"
+            ],
+            "facility_individually": false,
+            "Object_type": [
+              "__any"
+            ],
+            "Activity_type": [
+              "Share"
+            ],
+            "threshold": 0,
+            "window": 1,
+            "max_gap_time": -1
+          },
+          {
+            "source": [
+              "__any"
+            ],
+            "source_individually": false,
+            "user": [
+              "__any"
+            ],
+            "user_individually": true,
+            "facility": [
+              "__any"
+            ],
+            "facility_individually": false,
+            "Object_type": [
+              "__any"
+            ],
+            "Activity_type": [
+              "Download"
+            ],
+            "threshold": 0,
+            "window": 1,
+            "max_gap_time": -1
+          },
+          {
+            "source": [
+              "__any"
+            ],
+            "source_individually": false,
+            "user": [
+              "__any"
+            ],
+            "user_individually": true,
+            "facility": [
+              "__any"
+            ],
+            "facility_individually": false,
+            "Object_type": [
+              "__any"
+            ],
+            "Activity_type": [
+              "Delete"
+            ],
+            "threshold": 0,
+            "window": 1,
+            "max_gap_time": -1
+          }
+        ],
+        "threshold": 10,
+        "window": 3600
+      }
+    ],
+    "name": "UploadShareDownloadDelete",
+    "ts_label": ""
+  },
+  "id": ""
+}

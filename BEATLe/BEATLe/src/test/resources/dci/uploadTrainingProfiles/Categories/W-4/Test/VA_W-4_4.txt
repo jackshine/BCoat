@@ -1,0 +1,1049 @@
+Form NJ-W4
+
+State of New Jersey - Division of Taxation
+
+(1-10, R-13)
+
+Employee’s Withholding Allowance Certificate
+
+1. SS#
+
+2. Filing Status: (Check only one box)
+1.  Single
+2.  Married/Civil Union Couple Joint
+3.  Married/Civil Union Partner Separate
+4.  Head of Household
+
+Name
+Address
+City
+
+State
+
+Zip
+
+5.  Qualifying Widow(er)/Surviving Civil Union Partner
+
+3. If you have chosen to use the chart from instruction A, enter the appropriate letter here . . . . . . . . . . . 3.
+4. Total number of allowances you are claiming (see instructions) . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 4.
+5. Additional amount you want deducted from each pay . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 5.
+
+$
+
+6. I claim exemption from withholding of NJ Gross Income Tax and I certify that I have met the
+conditions in the instructions of the NJ-W4. If you have met the conditions, enter “EXEMPT” here . . . 6.
+7. Under penalties of perjury, I certify that I am entitled to the number of withholding allowances claimed on this certificate or entitled to
+claim exempt status.
+Employee’s Signature
+
+Date
+
+Employer’s Name and Address
+
+Employer Identification Number
+
+BASIC INSTRUCTIONS
+Line 1 Enter your name, address and social security number in the spaces provided.
+Line 2 Check the box that indicates your filing status. If you checked Box 1 (Single) or Box 3 (Married/Civil Union Partner Separate) you will be withheld at
+Rate A.
+Note: If you have checked Box 2 (Married/Civil Union Couple Joint), Box 4 (Head of Household) or Box 5 (Qualifying
+Widow(er)/Surviving Civil Union Partner) and either your spouse/civil union partner works or you have more than one job
+or more than one source of income and the combined total of all wages is greater than $50,000, see instruction A below.
+If you do not complete Line 3, you will be withheld at Rate B.
+Line 3 If you have chosen to use the wage chart below, enter the appropriate letter.
+Line 4 Enter the number of allowances you are claiming. Entering a number on this line will decrease the amount of withholding and could result in an
+underpayment on your return.
+Line 5 Enter the amount of additional withholdings you want deducted from each pay.
+Line 6 Enter “EXEMPT” to indicate that you are exempt from New Jersey Gross Income Tax Withholdings, if you meet one of the following conditions:
+• Your filing status is SINGLE or MARRIED/CIVIL UNION PARTNER SEPARATE and your wages plus your taxable nonwage
+income will be $10,000 or less for the current year.
+• Your filing status is MARRIED/CIVIL UNION COUPLE JOINT, and your wages combined with your spouse’s/civil union
+partner’s wages plus your taxable non wage income will be $20,000 or less for the current year.
+• Your filing status is HEAD OF HOUSEHOLD or QUALIFYING WIDOW(ER)/SURVIVING CIVIL UNION PARTNER and your
+wages plus your taxable nonwage income will be $20,000 or less for the current year.
+Your exemption is good for ONE year only. You must complete and submit a form each year certifying you have no New Jersey Gross Income Tax liability and
+claim exemption from withholding. If you have questions about eligibility, filing status, withholding rates, etc. when completing this form, call the Division of
+Taxation’s Customer Service Center at 609-292-6400.
+Instruction A - Wage Chart
+This chart is designed to increase withholdings on your wages, if these wages will be taxed at a higher rate due to inclusion of other wages or income on
+your NJ-1040 return. It is not intended to provide withholding for other income or wages. If you need additional withholdings for other income or wages
+use Line 5 on the NJ-W4. This Wage Chart applies to taxpayers who are married/civil union couple filing jointly, heads of households or qualifying
+widow(er)/surviving civil union partner. Single individuals or married/civil union partners filing separate returns do not need to use this chart. If you
+have indicated filing status #2, 4 or 5 on the above NJ-W4 and your taxable income is greater than $50,000, you should strongly consider using the Wage
+Chart. (See the Rate Tables on the reverse side to estimate your withholding amount).
+WAGE CHART
+
+HOW TO USE THE CHART
+
+Total of All
+Other Wages
+
+0
+10,000
+
+10,001
+20,000
+
+20,001
+30,000
+
+30,001
+40,000
+
+40,001
+50,000
+
+50,001
+60,000
+
+60,001
+70,000
+
+70,001
+80,000
+
+80,001
+90,000
+
+OVER
+90,000
+
+1) Find the amount of your wages in the left-hand column.
+
+0
+10,000
+
+B
+
+B
+
+B
+
+B
+
+B
+
+B
+
+B
+
+B
+
+B
+
+B
+
+2) Find the amount of the total for all other wages (including
+your spouse’s/civil union partner’s wages) along the top
+row.
+
+10,001
+20,000
+
+B
+
+B
+
+B
+
+B
+
+C
+
+C
+
+C
+
+C
+
+C
+
+C
+
+20,001
+30,000
+
+B
+
+B
+
+B
+
+A
+
+A
+
+D
+
+D
+
+D
+
+D
+
+D
+
+30,001
+40,000
+
+B
+
+B
+
+A
+
+A
+
+A
+
+A
+
+A
+
+E
+
+E
+
+E
+
+40,001
+50,000
+
+B
+
+C
+
+A
+
+A
+
+A
+
+A
+
+A
+
+E
+
+E
+
+E
+
+50,001
+60,000
+
+B
+
+C
+
+D
+
+A
+
+A
+
+A
+
+E
+
+E
+
+E
+
+E
+
+60,001
+70,000
+
+B
+
+C
+
+D
+
+A
+
+A
+
+E
+
+E
+
+E
+
+E
+
+E
+
+70,001
+80,000
+
+B
+
+C
+
+D
+
+E
+
+E
+
+E
+
+E
+
+E
+
+E
+
+E
+
+80,001
+90,000
+
+B
+
+C
+
+D
+
+E
+
+E
+
+E
+
+E
+
+E
+
+E
+
+E
+
+over
+90,000
+
+B
+
+C
+
+D
+
+E
+
+E
+
+E
+
+E
+
+E
+
+E
+
+E
+
+3) Follow along the row that contains your wages until you
+come to the column that contains the other wages.
+4) This meeting point indicates the Withholding Table that best
+reflects your income situation.
+5) If you have chosen this method, enter the “letter” of the
+withholding rate table on Line 3 of the NJ-W4.
+NOTE: If your income situation substantially increases (or
+decreases) in the future, you should resubmit a
+revised NJ-W4 to your employer.
+
+THIS FORM MAY BE REPRODUCED
+
+Y
+O
+U
+R
+W
+A
+G
+E
+S
+
+RATE TABLES FOR WAGE CHART
+The rate tables listed below correspond to the letters in the Wage Chart on the front page. Use these to estimate the amount
+of withholding that will occur if you choose to use the wage chart. Compare this to your estimated income tax liability for your
+New Jersey Income Tax return to see if this is the correct amount of withholding that you should have.
+RATE ‘A’
+WEEKLY PAYROLL PERIOD (Allowance $19.20)
+If the amount of taxable
+The amount of income
+wages is:
+tax to be withheld is:
+Over
+$
+$
+$
+$
+$
+$
+
+0
+384
+673
+769
+1,442
+9,615
+
+But Not Over
+$
+384
+$
+673
+$
+769
+$
+1,442
+
+$
+$
+$
+$
+$
+
+5.76
+11.54
+15.28
+56.34
+628.45
+
++
++
++
++
++
+
+1.5%
+2.0%
+3.9%
+6.1%
+7.0%
+9.9%
+
+Of Excess Over
+$
+0
+$
+384
+$
+673
+$
+769
+$
+1,442
+$
+9,615
+
+ANNUAL PAYROLL PERIOD (Allowance $1,000)
+If the amount of taxable
+The amount of income
+wages is:
+tax to be withheld is:
+Over
+$
+0
+$ 20,000
+$ 35,000
+$ 40,000
+$ 75,000
+$ 500,000
+
+But Not Over
+$
+20,000
+$
+35,000
+$
+40,000
+$
+75,000
+
+$
+300.00 +
+$
+600.00 +
+$
+795.00 +
+$ 2,930.00 +
+$ 32,680.00 +
+
+1.5%
+2.0%
+3.9%
+6.1%
+7.0%
+9.9%
+
+Of Excess Over
+$
+0
+$
+20,000
+$
+35,000
+$
+40,000
+$
+75,000
+$
+500,000
+
+RATE ‘B’
+WEEKLY PAYROLL PERIOD (Allowance $19.20)
+If the amount of taxable
+The amount of income
+wages is:
+tax to be withheld is:
+Over
+$
+$
+$
+$
+$
+$
+$
+
+0
+384
+961
+1,346
+1,538
+2,884
+9,615
+
+But Not Over
+$
+384
+$
+961
+$
+1,346
+$
+1,538
+2,884
+
+$
+$
+$
+$
+$
+$
+
+5.76
+17.30
+27.70
+35.18
+117.29
+588.46
+
++
++
++
++
++
++
+
+1.5%
+2.0%
+2.7%
+3.9%
+6.1%
+7.0%
+9.9%
+
+ANNUAL PAYROLL PERIOD (Allowance $1,000)
+If the amount of taxable
+The amount of income
+wages is:
+tax to be withheld is:
+
+Of Excess Over
+$
+0
+$
+384
+$
+961
+$
+1,346
+$
+1,538
+$
+2,884
+$
+9,615
+
+Over
+$
+0
+$ 20,000
+$ 50,000
+$ 70,000
+$ 80,000
+$ 150,000
+$ 500,000
+
+But Not Over
+$
+20,000
+$
+50,000
+$
+70,000
+$
+80,000
+$
+150,000
+
+$ 300.00
+$ 900.00
+$ 1,440.00
+$ 1,830.00
+$ 6,100.00
+$ 30,600.00
+
++
++
++
++
++
++
+
+1.5%
+2.0%
+2.7%
+3.9%
+6.1%
+7.0%
+9.9%
+
+Of Excess Over
+$
+0
+$
+20,000
+$
+50,000
+$
+70,000
+$
+80,000
+$
+150,000
+$
+500,000
+
+RATE ‘C’
+WEEKLY PAYROLL PERIOD (Allowance $19.20)
+If the amount of taxable
+The amount of income
+wages is:
+tax to be withheld is:
+Over
+$
+$
+$
+$
+$
+$
+$
+
+0
+384
+769
+961
+1,153
+2,884
+9,615
+
+But Not Over
+$
+384
+$
+769
+$
+961
+$
+1,153
+$
+2,884
+
+$
+$
+$
+$
+$
+$
+
+5.76
+14.62
+19.99
+26.71
+123.65
+567.90
+
++
++
++
++
++
++
+
+1.5%
+2.3%
+2.8%
+3.5%
+5.6%
+6.6%
+9.9%
+
+ANNUAL PAYROLL PERIOD (Allowance $1,000)
+If the amount of taxable
+The amount of income
+wages is:
+tax to be withheld is:
+
+Of Excess Over
+$
+0
+$
+384
+$
+769
+$
+961
+$
+1,153
+$
+2,884
+$
+9,615
+
+Over
+$
+0
+$ 20,000
+$ 40,000
+$ 50,000
+$ 60,000
+$ 150,000
+$ 500,000
+
+But Not Over
+$
+20,000
+$
+40,000
+$
+50,000
+$
+60,000
+$
+150,000
+
+$
+300.00
+$
+760.00
+$ 1,040.00
+$ 1,390.00
+$ 6,430.00
+$ 29,530.00
+
++
++
++
++
++
++
+
+1.5%
+2.3%
+2.8%
+3.5%
+5.6%
+6.6%
+9.9%
+
+Of Excess Over
+$
+0
+$
+20,000
+$
+40,000
+$
+50,000
+$
+60,000
+$
+150,000
+$
+500,000
+
+RATE ‘D’
+WEEKLY PAYROLL PERIOD (Allowance $19.20)
+If the amount of taxable
+The amount of income
+wages is:
+tax to be withheld is:
+Over
+$
+$
+$
+$
+$
+$
+$
+
+0
+384
+769
+961
+1,153
+2,884
+9,615
+
+But Not Over
+$
+384
+$
+769
+$
+961
+$
+1,153
+$
+2,884
+
+$
+$
+$
+$
+$
+$
+
+5.76
+16.16
+22.68
+30.94
+127.88
+565.40
+
++
++
++
++
++
++
+
+1.5%
+2.7%
+3.4%
+4.3%
+5.6%
+6.5%
+9.9%
+
+ANNUAL PAYROLL PERIOD (Allowance $1,000)
+If the amount of taxable
+The amount of income
+wages is:
+tax to be withheld is:
+
+Of Excess Over
+$
+0
+$
+384
+$
+769
+$
+961
+$
+1,153
+$
+2,884
+$
+9,615
+
+Over
+$
+0
+$ 20,000
+$ 40,000
+$ 50,000
+$ 60,000
+$ 150,000
+$ 500,000
+
+But Not Over
+$
+20,000
+$
+40,000
+$
+50,000
+$
+60,000
+$
+150,000
+
+$
+$
+$
+$
+$
+$
+
+300.00
+840.00
+1,180.00
+1,610.00
+6,650.00
+29,400.00
+
++
++
++
++
++
++
+
+1.5%
+2.7%
+3.4%
+4.3%
+5.6%
+6.5%
+9.9%
+
+Of Excess Over
+$
+0
+$
+20,000
+$
+40,000
+$
+50,000
+$
+60,000
+$
+150,000
+$
+500,000
+
+RATE ‘E’
+WEEKLY PAYROLL PERIOD (Allowance $19.20)
+If the amount of taxable
+The amount of income
+wages is:
+tax to be withheld is:
+Over
+$
+$
+$
+$
+$
+
+0
+384
+673
+1,923
+9,615
+
+But Not Over
+$
+384
+$
+673
+$
+1,923
+
+$
+$
+$
+$
+
+5.76
+11.54
+84.04
+584.20
+
++
++
++
++
+
+1.5%
+2.0%
+5.8%
+6.5%
+9.9%
+
+Of Excess Over
+$
+0
+$
+384
+$
+673
+$
+1,923
+$
+9,615
+
+ANNUAL PAYROLL PERIOD (Allowance $1,000)
+If the amount of taxable
+The amount of income
+wages is:
+tax to be withheld is:
+Over
+$
+0
+$ 20,000
+$ 35,000
+$ 100,000
+$ 500,000
+
+But Not Over
+$
+20,000
+$
+35,000
+$
+100,000
+
+$
+300.00 +
+$
+600.00 +
+$ 4,370.00 +
+$ 30,370.00 +
+
+1.5%
+2.0%
+5.8%
+6.5%
+9.9%
+
+Of Excess Over
+$
+0
+$
+20,000
+$
+35,000
+$
+100,000
+$
+500,000
+
+

@@ -1,0 +1,9 @@
+<component name="libraryTable">
+  <library name="10MB">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/BEATLe/src/test/resources/detect/upload/10MB.zip!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>

@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+<suite name="Detect Preferences Regression Test Suite-CEP" parallel="false">
+	<parameter name="environmentName" value="cep" />
+	
+		<parameter name="userName" value="admin@securletbeatle.com" />
+		<parameter name="userPassword" value="Elastica123!" />
+		<parameter name="tenantName" value="securletbeatlecom" />
+		<parameter name="tenantDomainName" value="securletbeatle.com"></parameter>
+
+
+		 <parameter name="referer" value="https://app-cep.elastica.net"/>
+    <parameter name="host" value="app-cep.elastica.net"/>
+	<parameter name="apiServer" value="api-app-cep.elastica.net"/>
+		
+		<parameter name="isLoggingOn" value="true" />
+		<parameter name="apiBaseVersion" value="v1" />
+		<parameter name="esScriptsHostName" value="10.0.0.242" />
+		<parameter name="esScriptsUserName" value="madmin" />
+
+	
+	<parameter name="goldenInputTmplPath" value="src/test/resources/detect/golden_input_tmpl/"></parameter>
+	<parameter name="goldenInputPath" value="src/test/resources/detect/golden_input/"></parameter>
+	
+		
+	<test name="Detect Preferences Tests">
+		<classes>
+			<class name="com.elastica.beatle.tests.detect.DetectPreferencesTests">
+			</class>  
+		</classes>
+	</test>
+	
+	
+	
+</suite>

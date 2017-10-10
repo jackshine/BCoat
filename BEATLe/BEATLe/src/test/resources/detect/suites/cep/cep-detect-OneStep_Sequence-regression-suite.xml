@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+<suite name="Detect GDrive OneStep Sequence End To End Test"> 
+
+	<listeners>
+		<listener class-name="com.elastica.beatle.PriorityListener" />
+	</listeners>
+	
+	
+		<parameter name="environmentName" value="cep" />
+		<parameter name="userName" value="admin@detecttbibeatle.com"/>
+	<parameter name="userPassword" value="Elastica@123"/>
+	<parameter name="tenantName" value="detecttbibeatlecom"/>
+	<parameter name="tenantDomainName" value="detecttbibeatle.com"></parameter>
+	<parameter name="tenantToken" value="TRmYTI2h3mZBrFNbW5WBejpFhX6Aee5yBrOp19PKnQE="/>
+	
+	<parameter name="isLoggingOn" value="true"></parameter>
+	<parameter name="apiBaseVersion" value="v1"></parameter>
+
+	<parameter name="saasApp" value="Google Drive" />
+	
+		<parameter name="saasAppUsername" value="admin@detecttbibeatle.com"/>
+	<parameter name="saasAppPassword" value="8h1Dse7h2%zCh#o"/>
+	<parameter name="saasAppUserRole" value="ADMIN"/>
+	
+	<parameter name="saasAppToken" value="1/SCeTf9eP3gqvy1C-HfeDGRZRatX4-CRUYiJb3yCE9URIgOrJDtdun6zK6XiATCKT"/>
+	<parameter name="saasAppClientId" value="42371802545-9c7uti32njoicd67lj6dvvcpu6bocqbd.apps.googleusercontent.com"/>
+	<parameter name="saasAppClientSecret" value="LEQittS8MF04JEaxAOsfctnJ"/>
+
+	<test name="Detect Sequence One Step End To End Test">
+		<classes>
+			<class name="com.elastica.beatle.tests.detect.DetectSequenceOneStepEndtoEndTests"/>
+		</classes>
+	</test>
+</suite>

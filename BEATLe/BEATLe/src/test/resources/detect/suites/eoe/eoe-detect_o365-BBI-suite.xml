@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+<suite name="Detect o365mail BBI Regression Test Suite" parallel="false">
+	<parameter name="environmentName" value="eoe"></parameter>
+	
+	<parameter name="environmentName" value="eoe"/>
+	<parameter name="userName" value="admin@securleto365beatle.com"/>
+	<parameter name="userPassword" value="Elastica123!"/>
+	<parameter name="tenantName" value="securleto365beatlecom"/>
+	<parameter name="isLoggingOn" value="true"/>
+	<parameter name="apiBaseVersion" value="v1"/>
+	<parameter name="esScriptsHostName" value="10.0.0.242"/>
+	<parameter name="esScriptsUserName" value="madmin"/>
+	<parameter name="referer" value="https://eoe.elastica-inc.com"/>
+	<parameter name="tenantToken" value="a5fJSgfR2eLjkwqm1pzF06cNrhCguy1t904na91NOtY="/>
+	<parameter name="domainName" value="securleto365beatle"/>
+	<parameter name="saasAppUsername" value="admin@securleto365beatle.com"/>
+	<parameter name="saasAppPassword" value="MHikwjETdOgeFS!"/>
+	<parameter name="saasAppUserRole" value="ADMIN"/>
+	
+	
+	<test name="Detect o365mail BBI Regression Tests">
+		<classes>
+			<class name="com.elastica.beatle.tests.detect.DetectOffice365MailTests">
+				<methods>
+					<include name="sendMail_frequent_session_BBI"></include>
+				</methods>
+			</class>
+		</classes>
+	</test>
+	
+</suite>
+

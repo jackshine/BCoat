@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+<suite name="Getelet Policy Update-Splunk Tests" parallel="methods" thread-count="5">
+	<parameter name="environmentName" value="eoe" />
+	<parameter name="userName" value="protectauto@protectbeatle.com" />
+	<parameter name="userPassword" value="Elastica@123" />
+	<parameter name="tenantName" value="protectbeatlecom" />
+	<parameter name="isLoggingOn" value="true" />
+	<parameter name="apiBaseVersion" value="v1" />
+	<parameter name="referer" value="https://eoe.elastica-inc.com/static/ng/appAccount/index.html" />
+	<parameter name="tenantToken" value="8Mcfo3OUrXx33ByfPIlCCA==" />
+	<parameter name="saasApp" value="Box"/>
+	<test name="Getelet Policy Update-Splunk Tests">
+		<classes>
+			<!-- <class name="com.elastica.beatle.tests.splunkTests.GateletPolicyUpdateSplunkTests"></class> -->
+			<class name="com.elastica.beatle.tests.splunkTests.regionalGWTests.GateletPolicyUpdateSplunkTests"></class>
+		</classes>
+	</test>
+</suite>

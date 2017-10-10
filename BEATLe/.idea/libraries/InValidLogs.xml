@@ -1,0 +1,13 @@
+<component name="libraryTable">
+  <library name="InValidLogs">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/BEATLe/src/test/resources/Audit/LogFiles/InValidLogs/Filenamewithslash.zip!/" />
+      <root url="jar://$PROJECT_DIR$/BEATLe/src/test/resources/Audit/LogFiles/InValidLogs/ciscoasa_jpeg.zip!/" />
+      <root url="jar://$PROJECT_DIR$/BEATLe/src/test/resources/Audit/LogFiles/InValidLogs/empty_wsa_acess.zip!/" />
+      <root url="jar://$PROJECT_DIR$/BEATLe/src/test/resources/Audit/LogFiles/InValidLogs/header_only_CWS-DeviceID-TSV.zip!/" />
+      <root url="jar://$PROJECT_DIR$/BEATLe/src/test/resources/Audit/LogFiles/InValidLogs/pancsv_exe.zip!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>

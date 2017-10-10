@@ -1,0 +1,692 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+<suite name="Smoke Test Suite - CHA" parallel="tests"
+	thread-count="3">
+
+	<listeners>
+		<listener class-name="com.elastica.beatle.PriorityListener" />
+	</listeners>
+
+
+	<test name="Audit Scp Sanity Tests">
+		<parameter name="userName" value="elastica-support-elastica@auditddd2.com"></parameter>
+		<parameter name="userPassword" value="Elastica@123"></parameter>
+		<parameter name="environmentName" value="envX"></parameter>
+		<parameter name="tenantName" value="auditddd2com"></parameter>
+		<parameter name="tenantToken" value="PnytMl+DQiUdwmE8Gb8xug==" />
+		<parameter name="referer" value="https://cha.elastica-inc.com" />
+		<parameter name="isLoggingOn" value="true"></parameter>
+		<parameter name="apiBaseVersion" value="v1"></parameter>
+		<parameter name="loadApparraziServicesCheck" value="no" />
+
+		<classes>
+			<class name="com.elastica.beatle.audit.factoryClass.AuditSanityScpFactory"></class>
+
+		</classes>
+	</test>
+
+	<test name="Audit Webupload Sanity Tests">
+		<parameter name="userName" value="elastica-support-elastica@auditddd2.com"></parameter>
+		<parameter name="userPassword" value="Elastica@123"></parameter>
+		<parameter name="environmentName" value="envX"></parameter>
+		<parameter name="tenantName" value="auditddd2com"></parameter>
+		<parameter name="tenantToken" value="PnytMl+DQiUdwmE8Gb8xug==" />
+		<parameter name="referer" value="https://cha.elastica-inc.com" />
+		<parameter name="isLoggingOn" value="true"></parameter>
+		<parameter name="apiBaseVersion" value="v1"></parameter>
+		<parameter name="loadApparraziServicesCheck" value="no" />
+		<classes>
+			<class
+				name="com.elastica.beatle.audit.factoryClass.AuditSanityTIAWebuploadFactory">
+			</class>
+		</classes>
+	</test>
+
+
+	<test name="Audit S3 Sanity Tests">
+		<parameter name="userName" value="elastica-support-elastica@auditddd2.com"></parameter>
+		<parameter name="userPassword" value="Elastica@123"></parameter>
+		<parameter name="environmentName" value="envX"></parameter>
+		<parameter name="tenantName" value="auditddd2com"></parameter>
+		<parameter name="tenantToken" value="PnytMl+DQiUdwmE8Gb8xug==" />
+		<parameter name="referer" value="https://cha.elastica-inc.com" />
+		<parameter name="isLoggingOn" value="true"></parameter>
+		<parameter name="apiBaseVersion" value="v1"></parameter>
+		<parameter name="loadApparraziServicesCheck" value="no" />
+		<classes>
+
+			<class name="com.elastica.beatle.audit.factoryClass.AuditSanityS3Factory"></class>
+		</classes>
+	</test>
+
+	<test name="Audit Spanva Sanity Tests">
+		<parameter name="userName" value="elastica-support-elastica@auditddd2.com"></parameter>
+		<parameter name="userPassword" value="Elastica@123"></parameter>
+		<parameter name="environmentName" value="envX"></parameter>
+		<parameter name="tenantName" value="auditddd2com"></parameter>
+		<parameter name="tenantToken" value="PnytMl+DQiUdwmE8Gb8xug==" />
+		<parameter name="referer" value="https://cha.elastica-inc.com" />
+		<parameter name="isLoggingOn" value="true"></parameter>
+		<parameter name="apiBaseVersion" value="v1"></parameter>
+		<parameter name="loadApparraziServicesCheck" value="no" />
+		<classes>
+			<class name="com.elastica.beatle.tests.audit.AuditSpanvaSanityTests" />
+
+		</classes>
+	</test>
+
+
+
+	<test name="Protect Box-Dropbox-GDrive Policy Tests">
+		<parameter name="environmentName" value="envX" />
+		<parameter name="cloudSocUName" value="protectauto" />
+		<parameter name="tenantName" value="protectbeatlecom" />
+		<parameter name="isLoggingOn" value="true" />
+		<parameter name="apiBaseVersion" value="v1" />
+		<parameter name="saasApp" value="Dropbox" />
+		<classes>
+			<class
+				name="com.elastica.beatle.tests.protect.dataexposure.ProtectSanityTests">
+				<methods>
+					<!--<exclude name="testProtect"></exclude> <exclude name="testPolicyImpactTab"></exclude> 
+						<exclude name="testPolicyEmailTrigger"></exclude> <exclude name="testPolicySmsTrigger"></exclude> -->
+				</methods>
+			</class>
+		</classes>
+	</test>
+
+	<test name="Dashboard Sanity Tests">
+		<parameter name="environmentName" value="envX" />
+		<parameter name="cloudSocUName" value="protectauto" />
+		<parameter name="tenantName" value="protectbeatlecom" />
+		<parameter name="isLoggingOn" value="true" />
+		<parameter name="apiBaseVersion" value="v1" />
+		<classes>
+			<class name="com.elastica.beatle.tests.dashboard.DashboardTests">
+				<methods>
+					<exclude name="testDashboardAuditServicesWidgetData"></exclude>
+					<exclude name="testAuditSummaryUsersSessionDestinationTraffic"></exclude>
+				</methods>
+			</class>
+		</classes>
+	</test>
+
+	<test name="Protect O365 Policy Tests">
+		<parameter name="environmentName" value="envX" />
+		<parameter name="userName" value="admin@protecto365autobeatle.com" />
+		<parameter name="userPassword" value="Elastica1234!" />
+		<parameter name="tenantName" value="protecto365autobeatlecom" />
+		<parameter name="isLoggingOn" value="true" />
+		<parameter name="apiBaseVersion" value="v1" />
+		<parameter name="apiserverHostName" value="chaapi.elastica-inc.com" />
+		<parameter name="tenantToken"
+			value="OTvuLKboVDvZECaCIIzphWZBI051s+gcjd0HiHAPkFI=" />
+		<parameter name="domainName" value="protecto365autobeatlecom" />
+		<parameter name="saasApp" value="Office365" />
+		<parameter name="saasAppUsername" value="admin@protecto365autobeatle.com" />
+		<parameter name="saasAppPassword" value="&amp;1CMlIvd!JWp6n2" />
+		<parameter name="saasAppUserRole" value="ADMIN" />
+		<parameter name="domainName" value="protecto365autobeatlecom" />
+		<classes>
+			<class
+				name="com.elastica.beatle.tests.protect.dataexposure.ProtectO365SanityTests">
+			</class>
+		</classes>
+	</test>
+
+	<test name="Protect O365 Mail Policy Tests">
+		<parameter name="environmentName" value="envX" />
+		<parameter name="userName" value="admin@protecto365autobeatle.com" />
+		<parameter name="userPassword" value="Elastica1234!" />
+		<parameter name="tenantName" value="protecto365autobeatlecom" />
+		<parameter name="isLoggingOn" value="true" />
+		<parameter name="apiBaseVersion" value="v1" />
+		<parameter name="apiserverHostName" value="chaapi.elastica-inc.com" />
+		<parameter name="tenantToken"
+			value="OTvuLKboVDvZECaCIIzphWZBI051s+gcjd0HiHAPkFI=" />
+		<parameter name="saasApp" value="office365mailattachmentsanity" />
+		<parameter name="saasAppUsername" value="admin@protecto365autobeatle.com" />
+		<parameter name="saasAppPassword" value="&amp;1CMlIvd!JWp6n2" />
+		<parameter name="saasAppUserRole" value="ADMIN" />
+		<classes>
+			<class
+				name="com.elastica.beatle.tests.protect.dataexposure.Office365MailTests">
+			</class>
+		</classes>
+	</test>
+
+	<test name="Protect Gmail Policy Tests">
+		<parameter name="environmentName" value="envX" />
+		<parameter name="userName" value="protectauto@protectbeatle.com" />
+		<parameter name="userPassword" value="Elastica@123" />
+		<parameter name="tenantName" value="protectbeatlecom" />
+		<parameter name="isLoggingOn" value="true" />
+		<parameter name="apiBaseVersion" value="v1" />
+		<parameter name="apiserverHostName" value="chaapi.elastica-inc.com" />
+		<parameter name="domainName" value="protectbeatle.com" />
+		<parameter name="saasApp" value="GmailSanity"></parameter>
+		<parameter name="tenantToken"
+			value="nIzqjM7QUjS4OcWe2Oti74jwfpY5A2Geg+2ugXIPGGk=" />
+
+		<parameter name="saasAppClientId"
+			value="287386021131-l3tprddtegfkjblib53d5jocmhe5jgft.apps.googleusercontent.com" />
+		<parameter name="saasAppClientSecret" value="wh3fPxSuNwwvs-fDEs3LcCDm" />
+		<parameter name="saasAppRefreshToken"
+			value="1/cd7POgIHXlDzJAgwrXhDLWtCgeAozQxzR_r3MSDI1rU" />
+		<parameter name="saasAppUsername" value="admin@protectbeatle.com" />
+
+		<parameter name="externalSaasAppClientId"
+			value="395072213916-ll2adudv66mubfvddesp8j6u2fuvaruk.apps.googleusercontent.com" />
+		<parameter name="externalSaasAppClientSecret" value="j0ONnv9_R7nOdh-Dt81kTbTF" />
+		<parameter name="externalSaasAppRefreshToken"
+			value="1/SkidmOaQXkvQO6RAUYio1gIgUqF5nfyezLxikLOFxmw" />
+		<parameter name="externalSaasAppUsername" value="mayurbelekar@gmail.com" />
+
+		<parameter name="internalSaasAppClientId"
+			value="1004916255039-2ot9p1th0cdjoquuhvbdrrfpumdsn91l.apps.googleusercontent.com" />
+		<parameter name="internalSaasAppClientSecret" value="mhLilGjqtLXwUO0sjiGUtpb2" />
+		<parameter name="internalSaasAppRefreshToken"
+			value="1/Cx7PxdY5x4PbELu1OzvZHH8G1jFZWkReuwA8aNZcEs8" />
+		<parameter name="internalSaasAppUsername" value="protectauto1@protectbeatle.com" />
+		<classes>
+			<class
+				name="com.elastica.beatle.tests.protect.dataexposure.GMailMoveToTrashTests">
+			</class>
+		</classes>
+	</test>
+
+	<test name="Securlet - Office 365 Mail Sanity Tests" parallel="true">
+		<parameter name="environmentName" value="envX" />
+		<parameter name="userName" value="admin1@securletdddo365beatle.com" />
+		<parameter name="userPassword" value="SGNlyq3$" />
+		<parameter name="tenantName" value="securletdddo365beatlecom" />
+		<parameter name="isLoggingOn" value="true" />
+		<parameter name="apiBaseVersion" value="v1" />
+		<parameter name="esScriptsHostName" value="10.0.0.242" />
+		<parameter name="esScriptsUserName" value="madmin" />
+		<parameter name="referer" value="https://cha.elastica-inc.com" />
+		<parameter name="tenantToken"
+			value="d0a7fGRj8qB/b+qC1EAEB2ZBI051s+gcjd0HiHAPkFI=" />
+		<parameter name="domainName" value="securletdddo365beatle" />
+		<parameter name="saasAppUsername" value="admin1@securletdddo365beatle.com" />
+		<parameter name="saasAppPassword" value="Elastica@123" />
+		<parameter name="saasAppUserRole" value="ADMIN" />
+		<parameter name="saasAppEndUser1Name" value="testuser1_b1@securletdddo365beatle.com" />
+		<parameter name="saasAppEndUser1Password" value="Elastica@123" />
+		<parameter name="saasAppEndUser2Name" value="testuser2_b1@securletdddo365beatle.com" />
+		<parameter name="saasAppEndUser2Password" value="Elastica@123" />
+		<parameter name="saasAppExternalUser1Name" value="user1@gatewaybeatle.com" />
+		<parameter name="saasAppExternalUser1Password" value="ThisIsGoogleAccount" />
+		<parameter name="saasAppExternalUser2Name" value="admin@protecto365autobeatle.com" />
+		<parameter name="saasAppExternalUser2Password" value="&amp;1CMlIvd!JWp6n2" />
+		<parameter name="saasAppGroupMailId" value="mygroup@securletO365beatle.com" />
+
+		<groups>
+			<run>
+				<include name="PROD" />
+			</run>
+		</groups>
+		<classes>
+			<class
+				name="com.elastica.beatle.tests.securlets.Office365MailSecurletTests">
+
+			</class>
+		</classes>
+	</test>
+
+
+
+	<test name="DCI Sanity Tests">
+		<parameter name="environmentName" value="envX" />
+		<parameter name="cloudSocUName" value="box-admin" />
+		<parameter name="tenantName" value="dcibeatlecom" />
+		<parameter name="domainName" value="dcibeatle.com" />
+		<parameter name="saasApp" value="Box" />
+		<parameter name="apiBaseVersion" value="v1" />
+		<groups>
+			<run>
+				<include name="Sanity" />
+			</run>
+		</groups>
+		<classes>
+			<class name="com.elastica.beatle.tests.dci.DCISanityTests"></class>
+		</classes>
+	</test>
+
+
+	<test name="Securlet - Box Sanity Tests">
+
+		<parameter name="environmentName" value="envX" />
+		<parameter name="tenantName" value="securletbeatlecom" />
+		<parameter name="isLoggingOn" value="true" />
+		<parameter name="apiBaseVersion" value="v1" />
+		<parameter name="socUserName" value="box admin securlet automation" />
+		<parameter name="saasApp" value="BOX" />
+		<parameter name="dpoUserName" value="securletuser@securletbeatle.com" />
+		<parameter name="dpoUserPassword" value="Elastica1234!" />
+		<parameter name="cloudSocUName" value="admin" />
+
+		<groups>
+			<run>
+				<include name="P1" />
+			</run>
+		</groups>
+		<classes>
+			<class name="com.elastica.beatle.tests.securlets.BoxSanityTests" />
+		</classes>
+	</test>
+
+	<test name="Securlet - GDrive Sanity Tests" parallel="false">
+		<parameter name="environmentName" value="envX" />
+		<parameter name="userName" value="admin@securletbeatle.com" />
+		<parameter name="userPassword" value="Elastica1234!" />
+		<parameter name="tenantName" value="securletbeatlecom" />
+		<parameter name="isLoggingOn" value="true" />
+		<parameter name="apiBaseVersion" value="v1" />
+		<parameter name="esScriptsHostName" value="10.0.0.242" />
+		<parameter name="esScriptsUserName" value="madmin" />
+		<parameter name="referer"
+			value="https://cha.elastica-inc.com/static/ng/appSecurlets/index.html" />
+		<parameter name="tenantToken"
+			value="H3YK/Vxr3p+qm9dfmKvmh7oYaPBJMqUsszm+LOStr4k=" />
+		<parameter name="gdriveRefreshToken"
+			value="1/eckCHbIndshTd6zxoq5Ds13OqYondPtDxMNV2BUIzGhIgOrJDtdun6zK6XiATCKT" />
+		<parameter name="gdriveClientId"
+			value="531581515230-0k9p8gne8a0uh116u4fff7j93o7nsdu1.apps.googleusercontent.com" />
+		<parameter name="gdriveClientSecret" value="EQUZEc3QoEa0EqBzHVpoMLgr" />
+		<parameter name="gDriveaccessToken"
+			value="ya29.2gFrwi5rwwq8fFq1JBE_iomNsjizj3TmmwTNmmRMypxcaivt5iHwn-4QoNtblcc7SITW" />
+		<parameter name="delayBetweenSaaSActivity" value="60" />
+		<parameter name="waitPeriodForElasticSearchEngine" value="120" />
+		<parameter name="maxRetryCount" value="1" />
+		<classes>
+			<class
+				name="com.elastica.beatle.tests.securlets.gdrive.GDriveSecurletsRemediationTests">
+				<methods>
+					<include name="performFolderCreateInSaasApp" />
+					<include name="performFileUploadInSaaSApp" />
+					<include name="publicExposedFile" />
+					<include name="validateUploadedFileInElasticaSearchEngine" />
+					<include name="validateRemediation" />
+				</methods>
+			</class>
+		</classes>
+	</test>
+
+	<test name="Securlet - Dropbox Sanity Tests" parallel="false">
+		<parameter name="environmentName" value="envX" />
+		<parameter name="userName" value="admin@securletbeatle.com" />
+		<parameter name="userPassword" value="Elastica1234!" />
+		<parameter name="tenantName" value="securletbeatlecom" />
+		<parameter name="isLoggingOn" value="true" />
+		<parameter name="apiBaseVersion" value="v1" />
+		<parameter name="esScriptsHostName" value="10.0.0.242" />
+		<parameter name="esScriptsUserName" value="madmin" />
+		<parameter name="referer"
+			value="https://cha.elastica-inc.com/static/ng/appSecurlets/index.html" />
+		<parameter name="tenantToken"
+			value="H3YK/Vxr3p+qm9dfmKvmh7oYaPBJMqUsszm+LOStr4k=" />
+		<parameter name="delayBetweenSaaSActivity" value="60" />
+		<parameter name="waitPeriodForElasticSearchEngine" value="120" />
+		<parameter name="maxRetryCount" value="1" />
+		<parameter name="dropboxAdminAccessToken"
+			value="R2VaTghjreAAAAAAAAAACLC6oj6NaOAhJFEtiu-GxlkGFm_PXYZnJzYW0hEIERP5" />
+		<parameter name="dropboxTeamMemberManagementToken"
+			value="OoI6e7PmtUAAAAAAAADRcfKky3nC-nRw1wkcKasY73_pA5BLUAFKanDakfcnEJiR" />
+		<parameter name="dropboxTeamMemberFileAccessToken"
+			value="OoI6e7PmtUAAAAAAAADRcysQoCn0MMmu0vn9GE6q6aL7xs3cxG2eEFJ7jfBuuEI2" />
+		<classes>
+			<class
+				name="com.elastica.beatle.tests.securlets.DropboxSecurletRemediation">
+				<methods>
+					<include name="performFileUploadAndFolderCreationInSaasApp" />
+					<include name="createPublicLinkOfFileinSaasApp" />
+					<include name="performDeleteRemediationAndValidateInSaaSApp" />
+				</methods>
+			</class>
+		</classes>
+	</test>
+
+	<test name="Securlet - OneDrive Sanity Tests">
+
+		<parameter name="environmentName" value="envX" />
+		<parameter name="userName" value="admin@securlet365mailbeatle.com" />
+		<parameter name="userPassword" value="Elastica1234!" />
+		<parameter name="tenantName" value="securlet365mailbeatlecom" />
+		<parameter name="isLoggingOn" value="true" />
+		<parameter name="apiBaseVersion" value="v1" />
+		<parameter name="esScriptsHostName" value="10.0.0.242" />
+		<parameter name="esScriptsUserName" value="madmin" />
+		<parameter name="referer" value="https://eoe.elastica-inc.com" />
+		<parameter name="tenantToken"
+			value="IWhFYAti8ZAFWkW0FzIzoGZBI051s+gcjd0HiHAPkFI=" />
+		<parameter name="saasAppUsername" value="admin@securlet365mailbeatle.com" />
+		<parameter name="saasAppPassword" value="o&amp;8Cg3wKScNe(4V" />
+		<parameter name="saasAppUserRole" value="ADMIN" />
+		<parameter name="saasApp" value="ONEDRIVEBUSINESS" />
+		<parameter name="domainName" value="securlet365mailbeatle" />
+		<parameter name="saasAppEndUser1Name" value="securletuser1@securlet365mailbeatle.com" />
+		<parameter name="saasAppEndUser1Password" value="Wasu8700" />
+		<parameter name="saasAppEndUser2Name" value="securletuser1@securlet365mailbeatle.com" />
+		<parameter name="saasAppEndUser2Password" value="Wasu8700" />
+		<parameter name="saasAppExternalUser1Name" value="pushpan@gmail.com" />
+
+		<classes>
+			<class name="com.elastica.beatle.tests.securlets.OnedriveSanityTests" />
+		</classes>
+	</test>
+
+	<test name="Securlets ServiceNow Regression Tests" enabled="false">
+		<parameter name="environmentName" value="envX" />
+		<parameter name="userName" value="admin@securletbeatle.com" />
+		<parameter name="userPassword" value="Elastica1234!" />
+		<parameter name="tenantName" value="securletbeatlecom" />
+		<parameter name="isLoggingOn" value="true" />
+		<parameter name="apiBaseVersion" value="v1" />
+		<parameter name="esScriptsHostName" value="10.0.0.242" />
+		<parameter name="esScriptsUserName" value="madmin" />
+		<parameter name="referer" value="https://cha.elastica-inc.com" />
+		<parameter name="tenantToken"
+			value="H3YK/Vxr3p+qm9dfmKvmh7oYaPBJMqUsszm+LOStr4k=" />
+		<parameter name="saasAppUsername" value="admin@securletbeatle.com" />
+		<parameter name="saasAppPassword" value="lYvA7)DZ1zD@CPQgt5zw" />
+		<parameter name="saasAppUserRole" value="ADMIN" />
+		<parameter name="saasApp" value="SERVICENOW" />
+		<groups>
+			<run>
+				<include name="INCIDENT" />
+			</run>
+		</groups>
+		<classes>
+			<class name="com.elastica.beatle.tests.securlets.ServiceNowSanityTests">
+			</class>
+		</classes>
+	</test>
+
+	<test name="Detect Sequence Detector Sanity Tests" parallel="false">
+
+		<parameter name="environmentName" value="envX" />
+		<parameter name="userName" value="admin@detecttbibeatle.com" />
+		<parameter name="userPassword" value="Elastica@123" />
+		<parameter name="tenantName" value="detecttbibeatlecom" />
+		<parameter name="tenantDomainName" value="detecttbibeatle.com"></parameter>
+		<parameter name="tenantToken"
+			value="TRmYTI2h3mZBrFNbW5WBejpFhX6Aee5yBrOp19PKnQE=" />
+		<parameter name="isLoggingOn" value="true" />
+		<parameter name="apiBaseVersion" value="v1" />
+		<parameter name="esScriptsHostName" value="10.0.0.242" />
+		<parameter name="esScriptsUserName" value="madmin" />
+		<parameter name="referer" value="https://cha.elastica-inc.com" />
+
+		<parameter name="saasApp" value="Google Drive" />
+
+
+		<parameter name="saasAppUsername" value="admin@detecttbibeatle.com" />
+		<parameter name="saasAppPassword" value="8h1Dse7h2%zCh#o" />
+		<parameter name="saasAppUserRole" value="ADMIN" />
+
+		<parameter name="saasAppToken"
+			value="1/SCeTf9eP3gqvy1C-HfeDGRZRatX4-CRUYiJb3yCE9URIgOrJDtdun6zK6XiATCKT" />
+		<parameter name="saasAppClientId"
+			value="42371802545-9c7uti32njoicd67lj6dvvcpu6bocqbd.apps.googleusercontent.com" />
+		<parameter name="saasAppClientSecret" value="LEQittS8MF04JEaxAOsfctnJ" />
+
+		<parameter name="host" value="cha.elastica-inc.com" />
+		<parameter name="apiServer" value="chaapi.elastica-inc.com" />
+
+		<classes>
+			<class name="com.elastica.beatle.tests.detect.DetectSequenceEndtoEndTests">
+
+				<methods>
+					<include name="UploadShareWaitRepeatSDTest"></include>
+				</methods>
+			</class>
+
+		</classes>
+	</test>
+
+	<test name="Detect TBI Sanity Tests">
+
+		<parameter name="environmentName" value="envX" />
+		<parameter name="userName" value="admin@securletbeatle.com" />
+		<parameter name="userPassword" value="Elastica1234!" />
+		<parameter name="tenantName" value="securletbeatlecom" />
+		<parameter name="tenantDomainName" value="securletbeatle.com"></parameter>
+
+		<parameter name="isLoggingOn" value="true" />
+		<parameter name="apiBaseVersion" value="v1" />
+		<parameter name="esScriptsHostName" value="10.0.0.242" />
+		<parameter name="esScriptsUserName" value="madmin" />
+		<parameter name="referer" value="https://cha.elastica-inc.com" />
+		<parameter name="host" value="eoe.elastica-inc.com" />
+		<parameter name="apiServer" value="api-eoe.elastica-inc.com" />
+		<parameter name="tenantToken"
+			value="H3YK/Vxr3p+qm9dfmKvmh7oYaPBJMqUsszm+LOStr4k=" />
+
+		<parameter name="saasApp" value="Box" />
+		<parameter name="saasAppUsername" value="box-admin@securletbeatle.com" />
+		<parameter name="saasAppPassword" value="lYvA7)DZ1zD@CPQgt5zw" />
+		<parameter name="saasAppUserRole" value="ADMIN" />
+
+		<parameter name="host" value="cha.elastica-inc.com" />
+		<parameter name="apiServer" value="chaapi.elastica-inc.com" />
+
+
+		<classes>
+			<class name="com.elastica.beatle.tests.detect.DetectEndtoEndTests">
+				<methods>
+					<include name="box_upload_TBI_Test"></include>
+				</methods>
+			</class>
+		</classes>
+
+	</test>
+
+	<test name="Securlets Salesforce Sanity Tests" enabled="true">
+		<parameter name="environmentName" value="envX" />
+		<parameter name="userName" value="admin@securletbeatle.com" />
+		<parameter name="userPassword" value="Elastica1234!" />
+		<parameter name="tenantName" value="securletbeatlecom" />
+		<parameter name="isLoggingOn" value="true" />
+		<parameter name="apiBaseVersion" value="v1" />
+		<parameter name="esScriptsHostName" value="10.0.0.242" />
+		<parameter name="esScriptsUserName" value="madmin" />
+		<parameter name="referer" value="https://cha.elastica-inc.com" />
+		<parameter name="tenantToken"
+			value="H3YK/Vxr3p+qm9dfmKvmh7oYaPBJMqUsszm+LOStr4k=" />
+		<parameter name="saasAppUsername" value="admin@securletbeatle.com.Sandbox1" />
+		<parameter name="saasAppPassword" value="A1200@sx2" />
+		<parameter name="saasAppUserRole" value="ADMIN" />
+		<parameter name="saasApp" value="SALESFORCE" />
+		<parameter name="domainName" value="securletbeatlecom" />
+		<parameter name="saasAppLoginHost" value="cs50.salesforce.com" />
+		<parameter name="socUserName" value="QA Admin" />
+		<parameter name="saasAppExternalUser1Name" value="t.pushparaj@gmail.com" />
+		<parameter name="saasAppExternalUser2Name" value="pushparaj@aol.in" />
+		<parameter name="saasAppEndUser1Name" value="securletuser@securletbeatle.com" />
+		<parameter name="saasAppClientId"
+			value="3MVG9snqYUvtJB1ORUdSLAGX6emrK35AnLjvs5DRs86.STsO_2taXLHoZHgMs2fvfH6xLeVTTJSMUd4XFCq0S" />
+		<parameter name="saasAppClientSecret" value="6055977005232219979" />
+		<parameter name="saasAppToken" value="EQUZEc3QoEa0EqBzHVpoMLgr" />
+
+		<groups>
+			<run>
+				<include name="FILE" />
+			</run>
+		</groups>
+		<classes>
+			<class name="com.elastica.beatle.tests.securlets.SalesforceSanityTests">
+			</class>
+		</classes>
+	</test>
+
+	<test name="Securlet AWS Sanity Tests ">
+		<parameter name="accessKey" value="AKIAIZO5VRUAK4VOK5UQ"></parameter>
+		<parameter name="accessKeySecreat" value="4vRnr6FRh7A9YFmGgLT4N3jJEhB7OMeI8ZyXmUHz"></parameter>
+		<parameter name="environmentName" value="envX"></parameter>
+		<parameter name="userName" value="admin@securletbeatle.com" />
+		<parameter name="userPassword" value="Elastica1234!" />
+		<parameter name="tenantName" value="securletbeatlecom"></parameter>
+		<parameter name="tenantToken"
+			value="H3YK/Vxr3p+qm9dfmKvmh7oYaPBJMqUsszm+LOStr4k="></parameter>
+		<parameter name="AWSregionToRun" value="SA_EAST_1"></parameter>
+		<classes>
+			<class name="com.elastica.beatle.tests.securlets.aws.AWSInstanceTests"></class>
+		</classes>
+	</test>
+
+	<test name="Securlet - Yammer Sanity Tests">
+		<parameter name="environmentName" value="envX" />
+		<parameter name="userName" value="admin@securleto365beatle.com" />
+		<parameter name="userPassword" value="Elastica123!" />
+		<parameter name="tenantName" value="securletO365beatlecom" />
+		<parameter name="isLoggingOn" value="true" />
+		<parameter name="apiBaseVersion" value="v1" />
+		<parameter name="esScriptsHostName" value="10.0.0.242" />
+		<parameter name="esScriptsUserName" value="madmin" />
+		<parameter name="referer" value="https://cha.elastica-inc.com" />
+		<parameter name="tenantToken"
+			value="a5fJSgfR2eLjkwqm1pzF06cNrhCguy1t904na91NOtY=" />
+		<parameter name="domainName" value="securletO365beatle" />
+		<parameter name="saasAppUsername" value="admin@securleto365beatle.com" />
+		<parameter name="saasAppPassword" value="MHikwjETdOgeFS!" />
+		<parameter name="saasAppUserRole" value="ADMIN" />
+		<parameter name="saasAppEndUser1Name" value="testuser1@securleto365beatle.com" />
+		<parameter name="saasAppEndUser1Password" value="Cafu0340" />
+		<parameter name="saasAppEndUser2Name" value="testuser2@securleto365beatle.com" />
+		<parameter name="saasAppEndUser2Password" value="j*!uBL3ZndJ4kNC" />
+		<parameter name="saasAppExternalUser" value="user1@gatewaybeatle.com" />
+		<parameter name="yammerToken" value="2203355-JoIGldRKHNXraFqfDH1Yw" />
+		<parameter name="delayBetweenSaaSActivity" value="120" />
+		<parameter name="waitPeriodForElasticSearchEngine" value="300" />
+		<classes>
+			<class name="com.elastica.beatle.tests.securlets.YammerInvestigateTests">
+				<methods>
+					<include name="performYammerMessageActivity"></include>
+					<include name="validatePostMesageToAll"></include>
+				</methods>
+			</class>
+		</classes>
+	</test>
+
+	<test name="Securlet - Gmail ActivityLogs Sanity Test" enabled="true">
+		<parameter name="environmentName" value="envX" />
+		<parameter name="userName" value="admin@securletbeatle.com" />
+		<parameter name="userPassword" value="Elastica1234!" />
+		<parameter name="tenantName" value="securletbeatlecom" />
+		<parameter name="isLoggingOn" value="true" />
+		<parameter name="apiBaseVersion" value="v1" />
+		<parameter name="esScriptsHostName" value="10.0.0.242" />
+		<parameter name="esScriptsUserName" value="madmin" />
+		<parameter name="referer" value="https://cha.elastica-inc.com" />
+		<parameter name="tenantToken"
+			value="H3YK/Vxr3p+qm9dfmKvmh7oYaPBJMqUsszm+LOStr4k=" />
+		<parameter name="saasAppUsername" value="box-admin@securletbeatle.com" />
+		<parameter name="saasAppPassword" value="lYvA7)DZ1zD@CPQgt5zw" />
+		<parameter name="saasAppEndUser1Name" value="testuser3@securleto365beatle.com" />
+		<parameter name="saasAppEndUser1Password" value="RP)!UZVg5ap^TB1" />
+		<parameter name="saasAppUserRole" value="ADMIN" />
+		<parameter name="socUserName" value="box admin securlet automation" />
+		<parameter name="saasApp" value="GMAIL" />
+		<parameter name="saasAppClientId"
+			value="812119916773-hb47rkktb3p8appsc93cr8tokau0r1gs.apps.googleusercontent.com" />
+		<parameter name="saasAppClientSecret" value="iSZQfwpG9RP8dKdusaevG1y6" />
+		<parameter name="saasAppToken"
+			value="1/CGpA7p1rtHOWjMGJsNRLKiCoRKIkOpV7ZLo1LPMiKBkMEudVrK5jSpoR30zcRFq6" />
+
+		<parameter name="saasAppClientIdTest1"
+			value="51398359740-0k0fsk5vmgkm00m1vedi1246jqvketbu.apps.googleusercontent.com" />
+		<parameter name="saasAppClientSecretTest1" value="kMrrAfDABmn42Ytccjgj9t5o" />
+		<parameter name="saasAppTokenTest1"
+			value="1/9Dvu1l5buYH5JLaZV9YoHY01EdpoCliIKKkdyIgc8XQ" />
+
+
+		<classes>
+			<class name="com.elastica.beatle.tests.gmail.GmailActivityLogsTests">
+
+				<methods>
+					<!-- <include name="sendMailwithAttachmentSanity"></include> -->
+					<include name="verifySendAttachmentMessageActivitySanity"></include>
+				</methods>
+
+			</class>
+		</classes>
+	</test>
+
+	<test name="Securlet - Gmail Exposure and Remediation Sanity Tests"
+		enabled="true">
+		<parameter name="environmentName" value="envX" />
+		<parameter name="userName" value="admin@securletbeatle.com" />
+		<parameter name="userPassword" value="Elastica1234!" />
+		<parameter name="tenantName" value="securletbeatlecom" />
+		<parameter name="isLoggingOn" value="true" />
+		<parameter name="apiBaseVersion" value="v1" />
+		<parameter name="esScriptsHostName" value="10.0.0.242" />
+		<parameter name="esScriptsUserName" value="madmin" />
+		<parameter name="referer" value="https://cha.elastica-inc.com" />
+		<parameter name="tenantToken"
+			value="H3YK/Vxr3p+qm9dfmKvmh7oYaPBJMqUsszm+LOStr4k=" />
+		<parameter name="saasAppUsername" value="admin@securletbeatle.com" />
+		<parameter name="saasAppPassword" value="Aut0mat10n#123" />
+		<parameter name="saasAppUserRole" value="ADMIN" />
+		<parameter name="socUserName" value="box admin securlet automation" />
+		<parameter name="saasApp" value="GMAIL" />
+		<parameter name="saasAppClientId"
+			value="998314684213-34jm3g4k92nejio174qnnb32vojbqg0n.apps.googleusercontent.com" />
+		<parameter name="saasAppClientSecret" value="YkMqf5GWiHQgHbA1P7BNhxto" />
+		<parameter name="saasAppToken"
+			value="1/fPDwECsPhJAPh6F_TsHHhz7Q1AArPFC-fa6XdV_bNko" />
+		<parameter name="saasAppEndUser1Name" value="testuser1@securletbeatle.com" />
+		<parameter name="saasAppEndUser1Password" value="Elastica@123" />
+		<parameter name="saasAppEndUser1ClientId"
+			value="812119916773-hb47rkktb3p8appsc93cr8tokau0r1gs.apps.googleusercontent.com" />
+		<parameter name="saasAppEndUser1ClientSecret" value="iSZQfwpG9RP8dKdusaevG1y6" />
+		<parameter name="saasAppEndUser1Token"
+			value="1/CGpA7p1rtHOWjMGJsNRLKiCoRKIkOpV7ZLo1LPMiKBkMEudVrK5jSpoR30zcRFq6" />
+		<parameter name="saasAppEndUser2Name" value="testuser2@securletbeatle.com" />
+		<parameter name="saasAppEndUser2Password" value="Elastica@123" />
+		<parameter name="saasAppEndUser2ClientId"
+			value="51398359740-0k0fsk5vmgkm00m1vedi1246jqvketbu.apps.googleusercontent.com" />
+		<parameter name="saasAppEndUser2ClientSecret" value="kMrrAfDABmn42Ytccjgj9t5o" />
+		<parameter name="saasAppEndUser2Token"
+			value="1/9Dvu1l5buYH5JLaZV9YoHY01EdpoCliIKKkdyIgc8XQ" />
+		<parameter name="saasAppExternalUser1Name" value="user1@gatewaybeatle.com" />
+		<parameter name="saasAppExternalUser1Password" value="ThisIsGoogleAccount" />
+		<parameter name="saasAppExternalUser2Name" value="admin@protecto365autobeatle.com" />
+		<parameter name="saasAppExternalUser2Password" value="&amp;1CMlIvd!JWp6n2" />
+		<parameter name="saasAppGroupMailId" value="group1@securletO365beatle.com" />
+
+		<classes>
+			<class name="com.elastica.beatle.tests.gmail.GmailRemediationTests">
+				<methods>
+					<include name="verifyMailExposureAndRemediationDeleteMail"></include>
+				</methods>
+			</class>
+		</classes>
+	</test>
+
+	<test name="Reporting Dashboard Metrics Regression Suite">
+		<parameter name="environmentName" value="envX" />
+		<parameter name="userName" value="admin@securletbeatle.com" />
+		<parameter name="userPassword" value="Elastica1234!" />
+		<parameter name="tenantName" value="securletbeatlecom" />
+		<parameter name="isLoggingOn" value="true" />
+		<parameter name="apiBaseVersion" value="v1" />
+		<parameter name="esScriptsHostName" value="10.0.0.242" />
+		<parameter name="esScriptsUserName" value="madmin" />
+		<parameter name="referer"
+			value="https://cha.elastica-inc.com/static/ng/appSecurlets/index.html" />
+		<parameter name="tenantToken"
+			value="H3YK/Vxr3p+qm9dfmKvmh7oYaPBJMqUsszm+LOStr4k=" />
+		<classes>
+			<class name="com.elastica.beatle.reporting.AuditDashBoardReportTests">
+				<methods>
+					<include name="createDataSourceTest" />
+					<include name="testAuditReportRawParams" />
+				</methods>
+			</class>
+		</classes>
+	</test>
+
+
+</suite>

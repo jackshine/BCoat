@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+<suite name="DCI Smoke Test Suite - Production">
+
+	<test name="DCI Risk/Content Type Sanity Tests">
+		<parameter name="environmentName" value="cep" />
+		<parameter name="userName" value="admin@dcio365beatle.com" />
+		<parameter name="userPassword" value="Elastica123!" />
+		<parameter name="tenantName" value="dcio365beatlecom" />
+		<parameter name="isLoggingOn" value="true" />
+		<parameter name="apiBaseVersion" value="v1" />
+		<parameter name="esScriptsHostName" value="10.0.0.242" />
+		<parameter name="esScriptsUserName" value="madmin" />
+		<parameter name="referer" value="https://app-cep.elastica.net" />
+		<parameter name="tenantToken"
+			value="yQdsxK/uViwM+LymafPKMIjwfpY5A2Geg+2ugXIPGGk=" />
+		<parameter name="saasApp" value="Office365" />
+		<parameter name="saasAppUsername" value="admin@dcio365beatle.com" />
+		<parameter name="saasAppPassword" value="Elastica@123!" />
+		<parameter name="saasAppUserRole" value="ADMIN" />
+		<parameter name="domainName" value="dcio365beatlecom" />
+		<groups>
+			<run>
+				<include name="Sanity" />
+			</run>
+		</groups>
+		<classes>
+			<class name="com.elastica.beatle.tests.dci.DCISanityTests"></class>
+		</classes>
+	</test>
+</suite>

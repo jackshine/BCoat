@@ -1,0 +1,49 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+
+<suite name="GW O365 FE Sanity Test Suite">
+
+	<listeners>
+		<listener class-name="com.elastica.listeners.EmailableReporterSauce" />
+		<listener class-name="org.uncommons.reportng.HTMLReporter" />
+		<listener class-name="org.uncommons.reportng.JUnitXMLReporter" />
+		<listener class-name="com.elastica.listeners.SuiteListener" />
+		<listener class-name="com.elastica.listeners.MethodListener" />
+		<listener class-name="com.elastica.listeners.ScreenShotListener" />
+		<listener class-name="com.elastica.listeners.PriorityListener" />
+		<!-- <listener class-name="com.elastica.listeners.RetryListener" /> -->
+	</listeners>
+
+	<parameter name="env" value="eoe" />
+	<parameter name="browser" value="Firefox" />
+	<parameter name="mode" value="local" />
+	<parameter name="saasAppBaseUrl" value="https://portal.office.com" />
+	<parameter name="username" value="admin@gatewayo365beatle.com" />
+	<parameter name="testUsername" value="ciqregression@gatewayo365beatle.com" />
+	<!-- <parameter name="testPassword" value="Elastica@1234" /> -->
+	<parameter name="accountType" value="Internal" />
+	<parameter name="saasAppName" value="Sites" />
+		<parameter name="saasAppUsername" value="ciqregression@gatewayO365beatle.com" />
+		<parameter name="saasAppPassword" value="Elastica@1234" />
+	<parameter name="tenant" value="gatewayo365beatle.com" />
+	<parameter name="tenantDomainName" value="gatewayo365beatle.com" />
+	<parameter name="proxyExtension" value="Load"></parameter>
+	
+	<test name="Gatelet Tests -O365 Sharepoint P1 Tests">
+		<parameter name="platform" value="Windows 8.1" />
+		<parameter name="browserVersion" value="40.0" />
+		<parameter name="browserName" value="firefox" />
+		<groups>
+			<run>
+				<include name="cloud"></include>
+				<include name="P1"></include>
+				<!--  <include name="DOWNLOAD"></include> -->
+				
+			</run>
+		</groups>
+		<classes>
+			<class name="com.elastica.tests.o365.O365SharePoint">
+			</class>
+		</classes>
+	</test>
+		
+</suite>

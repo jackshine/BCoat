@@ -1,0 +1,180 @@
+@@@version 2
+@@@RequestHeader
+POST https://gears.opswat.com/gears/api/1/agent/imhere HTTP/1.1
+Host: gears.opswat.com
+Accept: */*
+Content-Type: application/json
+Cookie: AWSELB=19B797D706038534FA6FC124278049B287915451974B1859F3073FFB71FD20E5F75A522EB01C8260DCED4692957339C8F015ABDC99084453E3210926C5A3671BE52B79FD2F
+Accept-Language: en-us
+Content-Length: 107
+Accept-Encoding: gzip, deflate
+User-Agent: opswat-gears-od (unknown version) CFNetwork/720.4.4 Darwin/14.4.0 (x86_64)
+@@@RequestBody
+{"hwid":"C17Q32EAFVH3FVH3","opt":0,"agent_token":"17191ED927423BFE13D604A569CD7B507697929E","agent_type":0}
+@@@ResponseHeader
+HTTP/1.1 200 OK
+Cache-Control: no-cache, no-store, max-age=0, must-revalidate
+Content-Type: application/json;charset=UTF-8
+Date: Mon, 04 Apr 2016 07:55:11 GMT
+Expires: 0
+Pragma: no-cache
+Server: Apache-Coyote/1.1
+Content-Length: 97
+Connection: keep-alive
+@@@ResponseBody
+{"autoupdate":1,"rem_page":0,"policy":431,"rp_time":1800,"survey":0,"show":1,"logon":1,"inApp":0}
+@@@RequestHeader
+POST https://outlook.office365.com/EWS/Exchange.asmx HTTP/1.1
+Host: outlook.office365.com
+User-Agent: MacOutlook/0.0.0.160109 (Intel Mac OS X Version 10.10.4 (Build 14E46))
+Client-Request-Id: {5804F4B2-C2D5-4A68-ACD5-15B145DC6B0C}
+Accept-Language: en
+Content-Type: text/xml; charset=utf-8
+SOAPAction: "http://schemas.microsoft.com/exchange/services/2006/messages/CreateItem"
+X-ClientStatistics: DeviceID=D78F6AAB-7B75-509B-B890-4D0E04D5447B; SessionID=BBC7A275-5184-4DC5-BB2B-5CF422C1AE71
+Authorization: Basic dGVzdHVzZXIxQGdhdGV3YXlvMzY1YmVhdGxlLmNvbTpmQHluNHRLTGxZYmZPYVM=
+Content-Length: 3208
+Cookie: exchangecookie=c707b07e53c54800a2059c8f53a158f9
+@@@RequestBody
+<?xml version="1.0" encoding="UTF-8"?><soap:Envelope xmlns:soap="http://schemas.xmlsoap.org/soap/envelope/" xmlns:t="http://schemas.microsoft.com/exchange/services/2006/types" xmlns:m="http://schemas.microsoft.com/exchange/services/2006/messages"><soap:Header><t:RequestServerVersion Version="Exchange2010_SP2" /><t:MailboxCulture>en-US</t:MailboxCulture><t:TimeZoneContext><t:TimeZoneDefinition Id="Sri Lanka Standard Time"/></t:TimeZoneContext></soap:Header><soap:Body><CreateItem xmlns="http://schemas.microsoft.com/exchange/services/2006/messages" MessageDisposition="SendAndSaveCopy"><SavedItemFolderId><t:FolderId Id="AQMkADBjYTJkZTY4LWMxMzgtNDk2Yy05NzMwLWI5YjRlOTg5YTE1MgAuAAADHH3mqjRuMUOyuLeKla963AEACp7oxUAqSU+W/QL/6tcp3gAAAgEJAAAA"/></SavedItemFolderId><Items><t:Message><t:MimeContent CharacterSet="UTF-8">VXNlci1BZ2VudDogTWljcm9zb2Z0LU1hY091dGxvb2svMC4wLjAuMTYwMTA5DQpEYXRlOiBNb24sIDA0IEFwciAyMDE2IDEzOjI1OjIxICswNTMwDQpTdWJqZWN0OiB0ZXN0IG1haWwgLSBzZW5kbWFpbCB3aXRob3V0IGF0dGFjaG1lbnQNCkZyb206IFRlc3QgVXNlcjEgPHRlc3R1c2VyMUBnYXRld2F5bzM2NWJlYXRsZS5jb20+DQpUbzogUUEgQWRtaW4gPGFkbWluQGdhdGV3YXlPMzY1YmVhdGxlLmNvbT4NCk1lc3NhZ2UtSUQ6IDw0NzVEMEJBQi0xNDZGLTRBQkQtQjE5Qy00OURFODRBRkFEOTZAZ2F0ZXdheW8zNjViZWF0bGUuY29tPg0KVGhyZWFkLVRvcGljOiB0ZXN0IG1haWwgLSBzZW5kbWFpbCB3aXRob3V0IGF0dGFjaG1lbnQNCk1pbWUtdmVyc2lvbjogMS4wDQpDb250ZW50LXR5cGU6IG11bHRpcGFydC9hbHRlcm5hdGl2ZTsNCglib3VuZGFyeT0iQl8zNTQyNjIxMTIxXzE5NTgwMzE1ODEiDQoNCj4gVGhpcyBtZXNzYWdlIGlzIGluIE1JTUUgZm9ybWF0LiBTaW5jZSB5b3VyIG1haWwgcmVhZGVyIGRvZXMgbm90IHVuZGVyc3RhbmQNCnRoaXMgZm9ybWF0LCBzb21lIG9yIGFsbCBvZiB0aGlzIG1lc3NhZ2UgbWF5IG5vdCBiZSBsZWdpYmxlLg0KDQotLUJfMzU0MjYyMTEyMV8xOTU4MDMxNTgxDQpDb250ZW50LXR5cGU6IHRleHQvcGxhaW47DQoJY2hhcnNldD0iVVRGLTgiDQpDb250ZW50LXRyYW5zZmVyLWVuY29kaW5nOiA3Yml0DQoNCnRlc3QgbWFpbCAtIHNlbmRtYWlsIHdpdGhvdXQgYXR0YWNobWVudA0KDQoNCi0tQl8zNTQyNjIxMTIxXzE5NTgwMzE1ODENCkNvbnRlbnQtdHlwZTogdGV4dC9odG1sOw0KCWNoYXJzZXQ9IlVURi04Ig0KQ29udGVudC10cmFuc2Zlci1lbmNvZGluZzogcXVvdGVkLXByaW50YWJsZQ0KDQo8aHRtbD48aGVhZD48L2hlYWQ+PGJvZHkgc3R5bGU9M0Qid29yZC13cmFwOiBicmVhay13b3JkOyAtd2Via2l0LW5ic3AtbW9kZTogcz0NCnBhY2U7IC13ZWJraXQtbGluZS1icmVhazogYWZ0ZXItd2hpdGUtc3BhY2U7IGNvbG9yOiByZ2IoMCwgMCwgMCk7IGZvbnQtc2l6ZTo9DQogMTRweDsgZm9udC1mYW1pbHk6IENhbGlicmksIHNhbnMtc2VyaWY7Ij48ZGl2PjxkaXY+PGRpdj50ZXN0IG1haWwgLSBzZW5kbWFpPQ0KbCB3aXRob3V0IGF0dGFjaG1lbnQ8L2Rpdj48ZGl2PjxkaXYgaWQ9M0QiTUFDX09VVExPT0tfU0lHTkFUVVJFIj48L2Rpdj48L2Rpdj48PQ0KL2Rpdj48L2Rpdj48L2JvZHk+PC9odG1sPg0KDQotLUJfMzU0MjYyMTEyMV8xOTU4MDMxNTgxLS0NCg0K</t:MimeContent><t:Sensitivity>Normal</t:Sensitivity><t:Importance>Normal</t:Importance><t:ExtendedProperty><t:ExtendedFieldURI PropertyTag="0x0E07" PropertyType="Integer"/><t:Value>12</t:Value></t:ExtendedProperty><t:ExtendedProperty><t:ExtendedFieldURI PropertyTag="0xE9F" PropertyType="StringArray"/><t:Values><t:Value>:R:0</t:Value></t:Values></t:ExtendedProperty><t:ToRecipients><t:Mailbox><t:Name>QA Admin</t:Name><t:EmailAddress>admin@gatewayO365beatle.com</t:EmailAddress></t:Mailbox></t:ToRecipients><t:From><t:Mailbox><t:Name>Test User1</t:Name><t:EmailAddress>testuser1@gatewayo365beatle.com</t:EmailAddress></t:Mailbox></t:From><t:IsRead>false</t:IsRead></t:Message></Items></CreateItem></soap:Body></soap:Envelope>
+@@@ResponseHeader
+HTTP/1.1 200 OK
+Cache-Control: private
+Content-Type: text/xml; charset=utf-8
+Server: Microsoft-IIS/8.0
+request-id: 58040d17-0406-4453-b9d1-b779d804ee61
+X-CalculatedBETarget: SN1PR15MB0255.namprd15.prod.outlook.com
+X-BackEndHttpStatus: 200
+Set-Cookie: exchangecookie=c707b07e53c54800a2059c8f53a158f9; path=/
+x-EwsHandler: CreateItem
+X-AspNet-Version: 4.0.30319
+X-DiagInfo: SN1PR15MB0255
+X-BEServer: SN1PR15MB0255
+X-Powered-By: ASP.NET
+X-FEServer: BY1PR16CA0020
+Date: Mon, 04 Apr 2016 07:55:21 GMT
+Content-Length: 901
+@@@ResponseBody
+<?xml version="1.0" encoding="utf-8"?><s:Envelope xmlns:s="http://schemas.xmlsoap.org/soap/envelope/"><s:Header><h:ServerVersionInfo MajorVersion="15" MinorVersion="1" MajorBuildNumber="447" MinorBuildNumber="27" Version="V2016_01_06" xmlns:h="http://schemas.microsoft.com/exchange/services/2006/types" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"/></s:Header><s:Body><m:CreateItemResponse xmlns:m="http://schemas.microsoft.com/exchange/services/2006/messages" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:t="http://schemas.microsoft.com/exchange/services/2006/types"><m:ResponseMessages><m:CreateItemResponseMessage ResponseClass="Success"><m:ResponseCode>NoError</m:ResponseCode><m:Items/></m:CreateItemResponseMessage></m:ResponseMessages></m:CreateItemResponse></s:Body></s:Envelope>
+@@@RequestHeader
+POST https://outlook.office365.com/EWS/Exchange.asmx HTTP/1.1
+Host: outlook.office365.com
+User-Agent: MacOutlook/0.0.0.160109 (Intel Mac OS X Version 10.10.4 (Build 14E46))
+Client-Request-Id: {39BB3534-DC90-4A8B-94AB-F1F17ECFACF2}
+Accept-Language: en
+Content-Type: text/xml; charset=utf-8
+SOAPAction: "http://schemas.microsoft.com/exchange/services/2006/messages/SyncFolderItems"
+X-ClientStatistics: DeviceID=D78F6AAB-7B75-509B-B890-4D0E04D5447B; SessionID=BBC7A275-5184-4DC5-BB2B-5CF422C1AE71
+Authorization: Basic dGVzdHVzZXIxQGdhdGV3YXlvMzY1YmVhdGxlLmNvbTpmQHluNHRLTGxZYmZPYVM=
+Content-Length: 2668
+Cookie: exchangecookie=c707b07e53c54800a2059c8f53a158f9
+@@@RequestBody
+<?xml version="1.0" encoding="UTF-8"?><soap:Envelope xmlns:soap="http://schemas.xmlsoap.org/soap/envelope/" xmlns:t="http://schemas.microsoft.com/exchange/services/2006/types" xmlns:m="http://schemas.microsoft.com/exchange/services/2006/messages"><soap:Header><t:RequestServerVersion Version="Exchange2013_SP1" /><t:MailboxCulture>en-US</t:MailboxCulture><t:TimeZoneContext><t:TimeZoneDefinition Id="Sri Lanka Standard Time"/></t:TimeZoneContext></soap:Header><soap:Body><SyncFolderItems xmlns="http://schemas.microsoft.com/exchange/services/2006/messages"><ItemShape><t:BaseShape>IdOnly</t:BaseShape><t:AdditionalProperties><t:FieldURI FieldURI="item:ItemClass"/><t:FieldURI FieldURI="item:DateTimeReceived"/><t:FieldURI FieldURI="item:HasAttachments"/><t:FieldURI FieldURI="item:Categories"/><t:FieldURI FieldURI="item:ConversationId"/><t:FieldURI FieldURI="item:DateTimeSent"/><t:FieldURI FieldURI="message:From"/><t:FieldURI FieldURI="item:Importance"/><t:FieldURI FieldURI="item:Size"/><t:FieldURI FieldURI="item:Subject"/><t:FieldURI FieldURI="item:DisplayTo"/><t:FieldURI FieldURI="item:Preview"/><t:FieldURI FieldURI="message:IsRead"/><t:ExtendedFieldURI PropertyTag="0x1090" PropertyType="Integer"/><t:ExtendedFieldURI PropertyTag="0x1081" PropertyType="Integer"/><t:ExtendedFieldURI PropertyTag="0x1082" PropertyType="SystemTime"/><t:ExtendedFieldURI PropertySetId="00020386-0000-0000-C000-000000000046" PropertyName="content-class" PropertyType="String"/><t:FieldURI FieldURI="message:ConversationIndex"/><t:FieldURI FieldURI="message:ConversationTopic"/><t:FieldURI FieldURI="message:InternetMessageId"/><t:FieldURI FieldURI="message:References"/><t:FieldURI FieldURI="item:InReplyTo"/><t:ExtendedFieldURI PropertyTag="0x1213" PropertyType="Integer"/></t:AdditionalProperties></ItemShape><SyncFolderId><t:FolderId Id="AQMkADBjYTJkZTY4LWMxMzgtNDk2Yy05NzMwLWI5YjRlOTg5YTE1MgAuAAADHH3mqjRuMUOyuLeKla963AEACp7oxUAqSU+W/QL/6tcp3gAAAgEJAAAA"/></SyncFolderId><SyncState>H4sIAAAAAAAEAGNgYGcAAotqE0tHE2NTA0ddZ3NHC10TR2djXSdnJ2ddNyMnC2cnczdLU1OD2vBgveDKvOTgksSSVOfEvMSiSgYr0nW65eekpBZ5pjBYkq43LLWoODM/j8GaaK3+QMuKS4JSk1Mzy1JTQjJzU0nwrU9icYlnXnFJYl5yqncqKb71zS9K9SxJzS32zwtOLSpLLSLByXDfhgNxUW5iUTYklrgYGISA0tDwAxkOUskgCJQyAGI9kBqZ2merTPIMnTft2N41dX3VHUYGrnkvjjpoefpP+8v0/9V1zXsgVYycQMzAx8AM4nAz3O6blv4j7DIHgxBQlBeIgdbVMTIw+DoGePo6+oEUMbiZuoWBlaOBACCWQ+KrAfX5YFGXB8RmSHx0ZwWBRYGalYRM+xnuhbDvVqvn8J2s/69qrtKPvWxQWXy6+jBkmRgYgnhZlFmA2CBIqOybOhDbB4l9OLoeiDcESch4rADi1UFSJ723AvE2Fjn973Esip/j2wMGgQt8mRgaACvBIs2gAwAA</SyncState><Ignore></Ignore><MaxChangesReturned>512</MaxChangesReturned><t:NumberOfDays>14600</t:NumberOfDays></SyncFolderItems></soap:Body></soap:Envelope>
+@@@ResponseHeader
+HTTP/1.1 200 OK
+Cache-Control: private
+Content-Type: text/xml; charset=utf-8
+Server: Microsoft-IIS/8.0
+request-id: 5d08433e-9482-465b-a01a-9cdbc5cda8a9
+X-CalculatedBETarget: SN1PR15MB0255.namprd15.prod.outlook.com
+X-BackEndHttpStatus: 200
+Set-Cookie: exchangecookie=c707b07e53c54800a2059c8f53a158f9; path=/
+x-EwsHandler: SyncFolderItems
+X-AspNet-Version: 4.0.30319
+X-DiagInfo: SN1PR15MB0255
+X-BEServer: SN1PR15MB0255
+X-Powered-By: ASP.NET
+X-FEServer: BY1PR16CA0020
+Date: Mon, 04 Apr 2016 07:55:24 GMT
+Content-Length: 2988
+@@@ResponseBody
+<?xml version="1.0" encoding="utf-8"?><s:Envelope xmlns:s="http://schemas.xmlsoap.org/soap/envelope/"><s:Header><h:ServerVersionInfo MajorVersion="15" MinorVersion="1" MajorBuildNumber="447" MinorBuildNumber="27" Version="V2016_01_06" xmlns:h="http://schemas.microsoft.com/exchange/services/2006/types" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"/></s:Header><s:Body><m:SyncFolderItemsResponse xmlns:m="http://schemas.microsoft.com/exchange/services/2006/messages" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:t="http://schemas.microsoft.com/exchange/services/2006/types"><m:ResponseMessages><m:SyncFolderItemsResponseMessage ResponseClass="Success"><m:ResponseCode>NoError</m:ResponseCode><m:SyncState>H4sIAAAAAAAEAGNgYGcAAotqE0tHE2NTA0ddZ3NHC10TR2djXSdnJ2ddNyMnC2cnczdLU1OD2vBgveDKvOTgksSSVOfEvMSiSgYr0nW65eekpBZ5pjBYkq43LLWoODM/j8GaaK3+QMuKS4JSk1Mzy1JTQjJzU0nwrU9icYlnXnFJYl5yqncqKb71zS9K9SxJzS32zwtOLSpLLSLByXDfhgNxUW5iUTYklrgYGISA0tDwAxkOUskgCJQyAGI9kBqZ2merTPIMnTft2N41dX3VHUYGrnkvjjpoefpP+8v0/9V1zXsgVYycQMzAx8AM4nAz3O6blv4j7DIHgxBQlBeIgdbVMTIw+DoGePo6+oEUMbiZuoWBlaOBJUAsh8Q/BMQBWNQJAc0zQ+KjOysILApUpCRk2s9wL4R9t1o9h+9k/X9Vc5V+7GWDyuLT1YdXdhKGLBMDQxAvizILEBsECZV9Uwdi+yCxD0fXA/GGIAkZjxVAvDpI6qT3ViDexiKn/z0uSPFzfDsQdwSQ5caJDETYwQKyI4AhgImhAQCHZ1UNoAMAAA==</m:SyncState><m:IncludesLastItemInRange>true</m:IncludesLastItemInRange><m:Changes><t:Create><t:Message><t:ItemId Id="AAMkADBjYTJkZTY4LWMxMzgtNDk2Yy05NzMwLWI5YjRlOTg5YTE1MgBGAAAAAAAcfeaqNG4xQ7K4t4qVr3rcBwAKnujFQCpJT5b9Av/q1yneAAAAAAEJAAAKnujFQCpJT5b9Av/q1yneAAAh81+IAAA=" ChangeKey="CQAAABYAAAAKnujFQCpJT5b9Av/q1yneAAAiEjWS"/><t:ItemClass>IPM.Note</t:ItemClass><t:Subject>test mail - sendmail without attachment</t:Subject><t:DateTimeReceived>2016-04-04T13:25:21+05:30</t:DateTimeReceived><t:Size>5401</t:Size><t:Importance>Normal</t:Importance><t:DateTimeSent>2016-04-04T13:25:21+05:30</t:DateTimeSent><t:DisplayTo>QA Admin</t:DisplayTo><t:HasAttachments>false</t:HasAttachments><t:ExtendedProperty><t:ExtendedFieldURI PropertyTag="0x1213" PropertyType="Integer"/><t:Value>0</t:Value></t:ExtendedProperty><t:ConversationId Id="AAQkADBjYTJkZTY4LWMxMzgtNDk2Yy05NzMwLWI5YjRlOTg5YTE1MgAQAFupu8ZY4e1DtawDxQtPDTA="/><t:Preview>test mail - sendmail without attachment</t:Preview><t:ConversationIndex>AQHRjkdWW6m7xljh7UO1rAPFC08NMA==</t:ConversationIndex><t:ConversationTopic>test mail - sendmail without attachment</t:ConversationTopic><t:From><t:Mailbox><t:Name>Test User1</t:Name><t:EmailAddress>testuser1@gatewayO365beatle.com</t:EmailAddress><t:RoutingType>SMTP</t:RoutingType><t:MailboxType>Mailbox</t:MailboxType></t:Mailbox></t:From><t:InternetMessageId>&lt;475D0BAB-146F-4ABD-B19C-49DE84AFAD96@gatewayo365beatle.com&gt;</t:InternetMessageId><t:IsRead>true</t:IsRead></t:Message></t:Create></m:Changes></m:SyncFolderItemsResponseMessage></m:ResponseMessages></m:SyncFolderItemsResponse></s:Body></s:Envelope>
+@@@RequestHeader
+POST https://outlook.office365.com/EWS/Exchange.asmx HTTP/1.1
+Host: outlook.office365.com
+User-Agent: MacOutlook/0.0.0.160109 (Intel Mac OS X Version 10.10.4 (Build 14E46))
+Client-Request-Id: {277A7321-CDFA-4943-A8A8-560AD8976FB6}
+Accept-Language: en
+Content-Type: text/xml; charset=utf-8
+SOAPAction: "http://schemas.microsoft.com/exchange/services/2006/messages/GetItem"
+X-ClientStatistics: DeviceID=D78F6AAB-7B75-509B-B890-4D0E04D5447B; SessionID=BBC7A275-5184-4DC5-BB2B-5CF422C1AE71
+Authorization: Basic dGVzdHVzZXIxQGdhdGV3YXlvMzY1YmVhdGxlLmNvbTpmQHluNHRLTGxZYmZPYVM=
+Content-Length: 5002
+Cookie: exchangecookie=c707b07e53c54800a2059c8f53a158f9
+@@@RequestBody
+<?xml version="1.0" encoding="UTF-8"?><soap:Envelope xmlns:soap="http://schemas.xmlsoap.org/soap/envelope/" xmlns:t="http://schemas.microsoft.com/exchange/services/2006/types" xmlns:m="http://schemas.microsoft.com/exchange/services/2006/messages"><soap:Header><t:RequestServerVersion Version="Exchange2010_SP2" /><t:MailboxCulture>en-US</t:MailboxCulture><t:TimeZoneContext><t:TimeZoneDefinition Id="Sri Lanka Standard Time"/></t:TimeZoneContext></soap:Header><soap:Body><GetItem xmlns="http://schemas.microsoft.com/exchange/services/2006/messages"><ItemShape><t:BaseShape>IdOnly</t:BaseShape><t:BodyType>Best</t:BodyType><t:AdditionalProperties><t:FieldURI FieldURI="item:Sensitivity"/><t:ExtendedFieldURI PropertyTag="0x10F4" PropertyType="Boolean"/><t:FieldURI FieldURI="item:Categories"/><t:FieldURI FieldURI="item:Body"/><t:ExtendedFieldURI PropertyTag="0x7D" PropertyType="String"/><t:FieldURI FieldURI="item:Attachments"/><t:FieldURI FieldURI="item:Subject"/><t:FieldURI FieldURI="item:Size"/><t:FieldURI FieldURI="message:From"/><t:FieldURI FieldURI="message:Sender"/><t:FieldURI FieldURI="message:InternetMessageId"/><t:FieldURI FieldURI="message:ReplyTo"/><t:FieldURI FieldURI="message:ToRecipients"/><t:FieldURI FieldURI="message:CcRecipients"/><t:FieldURI FieldURI="message:BccRecipients"/><t:FieldURI FieldURI="message:References"/><t:FieldURI FieldURI="item:HasAttachments"/><t:FieldURI FieldURI="message:ConversationIndex"/><t:FieldURI FieldURI="message:ConversationTopic"/><t:FieldURI FieldURI="item:DateTimeReceived"/><t:FieldURI FieldURI="item:DateTimeSent"/><t:FieldURI FieldURI="item:Importance"/><t:FieldURI FieldURI="item:InReplyTo"/><t:FieldURI FieldURI="item:IsDraft"/><t:FieldURI FieldURI="message:IsRead"/><t:FieldURI FieldURI="item:ConversationId"/><t:FieldURI FieldURI="item:DateTimeCreated"/><t:FieldURI FieldURI="item:LastModifiedTime"/><t:FieldURI FieldURI="item:ItemClass"/><t:FieldURI FieldURI="message:ReceivedBy"/><t:FieldURI FieldURI="message:ReceivedRepresenting"/><t:ExtendedFieldURI DistinguishedPropertySetId="Appointment" PropertyId="33336" PropertyType="String"/><t:ExtendedFieldURI DistinguishedPropertySetId="PublicStrings" PropertyName="http://schemas.microsoft.com/entourage/entouragesentitem" PropertyType="Boolean"/><t:ExtendedFieldURI PropertyTag="0xE9F" PropertyType="StringArray"/><t:FieldURI FieldURI="message:IsReadReceiptRequested"/><t:ExtendedFieldURI PropertySetId="00020386-0000-0000-C000-000000000046" PropertyName="content-class" PropertyType="String"/><t:ExtendedFieldURI PropertyTag="0x1090" PropertyType="Integer"/><t:ExtendedFieldURI DistinguishedPropertySetId="Task" PropertyId="33029" PropertyType="SystemTime"/><t:ExtendedFieldURI DistinguishedPropertySetId="Task" PropertyId="33028" PropertyType="SystemTime"/><t:ExtendedFieldURI DistinguishedPropertySetId="Task" PropertyId="33039" PropertyType="SystemTime"/><t:ExtendedFieldURI DistinguishedPropertySetId="Common" PropertyId="34229" PropertyType="Boolean"/><t:ExtendedFieldURI DistinguishedPropertySetId="Common" PropertyId="34230" PropertyType="String"/><t:ExtendedFieldURI DistinguishedPropertySetId="Common" PropertyId="34231" PropertyType="String"/><t:ExtendedFieldURI DistinguishedPropertySetId="Common" PropertyId="34234" PropertyType="Boolean"/><t:ExtendedFieldURI DistinguishedPropertySetId="Common" PropertyId="34144" PropertyType="SystemTime"/><t:ExtendedFieldURI DistinguishedPropertySetId="Common" PropertyId="34050" PropertyType="SystemTime"/><t:ExtendedFieldURI DistinguishedPropertySetId="Common" PropertyId="34051" PropertyType="Boolean"/><t:ExtendedFieldURI PropertyTag="0x1081" PropertyType="Integer"/><t:ExtendedFieldURI PropertyTag="0x1082" PropertyType="SystemTime"/><t:ExtendedFieldURI PropertyTag="0x1213" PropertyType="Integer"/><t:ExtendedFieldURI PropertySetId="23239608-685D-4732-9C55-4C95CB4E8E33" PropertyName="XmlExtractedTasks" PropertyType="String"/><t:ExtendedFieldURI PropertySetId="23239608-685D-4732-9C55-4C95CB4E8E33" PropertyName="XmlExtractedMeetings" PropertyType="String"/><t:ExtendedFieldURI PropertySetId="23239608-685D-4732-9C55-4C95CB4E8E33" PropertyName="XmlExtractedAddresses" PropertyType="String"/><t:ExtendedFieldURI PropertySetId="23239608-685D-4732-9C55-4C95CB4E8E33" PropertyName="XmlExtractedEmails" PropertyType="String"/><t:ExtendedFieldURI PropertySetId="23239608-685D-4732-9C55-4C95CB4E8E33" PropertyName="XmlExtractedPhones" PropertyType="String"/><t:ExtendedFieldURI PropertySetId="23239608-685D-4732-9C55-4C95CB4E8E33" PropertyName="XmlExtractedUrls" PropertyType="String"/><t:ExtendedFieldURI PropertySetId="23239608-685D-4732-9C55-4C95CB4E8E33" PropertyName="XmlExtractedContacts" PropertyType="String"/></t:AdditionalProperties></ItemShape><ItemIds><t:ItemId Id="AAMkADBjYTJkZTY4LWMxMzgtNDk2Yy05NzMwLWI5YjRlOTg5YTE1MgBGAAAAAAAcfeaqNG4xQ7K4t4qVr3rcBwAKnujFQCpJT5b9Av/q1yneAAAAAAEJAAAKnujFQCpJT5b9Av/q1yneAAAh81+IAAA=" ChangeKey="CQAAABYAAAAKnujFQCpJT5b9Av/q1yneAAAiEjWS"/></ItemIds></GetItem></soap:Body></soap:Envelope>
+@@@ResponseHeader
+HTTP/1.1 200 OK
+Cache-Control: private
+Content-Type: text/xml; charset=utf-8
+Server: Microsoft-IIS/8.0
+request-id: 8ae80374-92a1-44f2-aeb8-e88642940843
+X-CalculatedBETarget: SN1PR15MB0255.namprd15.prod.outlook.com
+X-BackEndHttpStatus: 200
+Set-Cookie: exchangecookie=c707b07e53c54800a2059c8f53a158f9; path=/
+X-AspNet-Version: 4.0.30319
+X-DiagInfo: SN1PR15MB0255
+X-BEServer: SN1PR15MB0255
+X-Powered-By: ASP.NET
+X-FEServer: BY1PR16CA0020
+Date: Mon, 04 Apr 2016 07:55:25 GMT
+Content-Length: 4782
+@@@ResponseBody
+<?xml version="1.0" encoding="utf-8"?><s:Envelope xmlns:s="http://schemas.xmlsoap.org/soap/envelope/"><s:Header><h:ServerVersionInfo MajorVersion="15" MinorVersion="1" MajorBuildNumber="447" MinorBuildNumber="27" Version="V2016_01_06" xmlns:h="http://schemas.microsoft.com/exchange/services/2006/types" xmlns="http://schemas.microsoft.com/exchange/services/2006/types" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"/></s:Header><s:Body xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema"><m:GetItemResponse xmlns:m="http://schemas.microsoft.com/exchange/services/2006/messages" xmlns:t="http://schemas.microsoft.com/exchange/services/2006/types"><m:ResponseMessages><m:GetItemResponseMessage ResponseClass="Success"><m:ResponseCode>NoError</m:ResponseCode><m:Items><t:Message><t:ItemId Id="AAMkADBjYTJkZTY4LWMxMzgtNDk2Yy05NzMwLWI5YjRlOTg5YTE1MgBGAAAAAAAcfeaqNG4xQ7K4t4qVr3rcBwAKnujFQCpJT5b9Av/q1yneAAAAAAEJAAAKnujFQCpJT5b9Av/q1yneAAAh81+IAAA=" ChangeKey="CQAAABYAAAAKnujFQCpJT5b9Av/q1yneAAAiEjWS"/><t:ItemClass>IPM.Note</t:ItemClass><t:Subject>test mail - sendmail without attachment</t:Subject><t:Sensitivity>Normal</t:Sensitivity><t:Body BodyType="HTML">&lt;html&gt;&#xD;
+&lt;head&gt;&#xD;
+&lt;meta http-equiv="Content-Type" content="text/html; charset=utf-8"&gt;&#xD;
+&lt;/head&gt;&#xD;
+&lt;body style="word-wrap: break-word; -webkit-nbsp-mode: space; -webkit-line-break: after-white-space; color: rgb(0, 0, 0); font-size: 14px; font-family: Calibri, sans-serif;"&gt;&#xD;
+&lt;div&gt;&#xD;
+&lt;div&gt;&#xD;
+&lt;div&gt;test mail - sendmail without attachment&lt;/div&gt;&#xD;
+&lt;div&gt;&#xD;
+&lt;div id="MAC_OUTLOOK_SIGNATURE"&gt;&lt;/div&gt;&#xD;
+&lt;/div&gt;&#xD;
+&lt;/div&gt;&#xD;
+&lt;/div&gt;&#xD;
+&lt;/body&gt;&#xD;
+&lt;/html&gt;&#xD;
+</t:Body><t:DateTimeReceived>2016-04-04T13:25:21+05:30</t:DateTimeReceived><t:Size>5401</t:Size><t:Importance>Normal</t:Importance><t:IsDraft>false</t:IsDraft><t:DateTimeSent>2016-04-04T13:25:21+05:30</t:DateTimeSent><t:DateTimeCreated>2016-04-04T13:25:21+05:30</t:DateTimeCreated><t:HasAttachments>false</t:HasAttachments><t:ExtendedProperty><t:ExtendedFieldURI PropertyTag="0x7d" PropertyType="String"/><t:Value>User-Agent: Microsoft-MacOutlook/0.0.0.160109&#xD;
+Date: Mon, 4 Apr 2016 13:25:21 +0530&#xD;
+Subject: test mail - sendmail without attachment&#xD;
+From: Test User1 &lt;testuser1@gatewayo365beatle.com&gt;&#xD;
+To: QA Admin &lt;admin@gatewayO365beatle.com&gt;&#xD;
+Message-ID: &lt;475D0BAB-146F-4ABD-B19C-49DE84AFAD96@gatewayo365beatle.com&gt;&#xD;
+Thread-Topic: test mail - sendmail without attachment&#xD;
+MIME-Version: 1.0&#xD;
+Content-Type: multipart/alternative; boundary="B_3542621121_1958031581"&#xD;
+</t:Value></t:ExtendedProperty><t:ExtendedProperty><t:ExtendedFieldURI PropertyTag="0xe9f" PropertyType="StringArray"/><t:Values><t:Value>:R:0</t:Value></t:Values></t:ExtendedProperty><t:ExtendedProperty><t:ExtendedFieldURI PropertyTag="0x1213" PropertyType="Integer"/><t:Value>0</t:Value></t:ExtendedProperty><t:LastModifiedTime>2016-04-04T13:25:22+05:30</t:LastModifiedTime><t:ConversationId Id="AAQkADBjYTJkZTY4LWMxMzgtNDk2Yy05NzMwLWI5YjRlOTg5YTE1MgAQAFupu8ZY4e1DtawDxQtPDTA="/><t:Sender><t:Mailbox><t:Name>Test User1</t:Name><t:EmailAddress>testuser1@gatewayO365beatle.com</t:EmailAddress><t:RoutingType>SMTP</t:RoutingType><t:MailboxType>Mailbox</t:MailboxType></t:Mailbox></t:Sender><t:ToRecipients><t:Mailbox><t:Name>QA Admin</t:Name><t:EmailAddress>admin@gatewayO365beatle.com</t:EmailAddress><t:RoutingType>SMTP</t:RoutingType><t:MailboxType>Mailbox</t:MailboxType></t:Mailbox></t:ToRecipients><t:IsReadReceiptRequested>false</t:IsReadReceiptRequested><t:ConversationIndex>AQHRjkdWW6m7xljh7UO1rAPFC08NMA==</t:ConversationIndex><t:ConversationTopic>test mail - sendmail without attachment</t:ConversationTopic><t:From><t:Mailbox><t:Name>Test User1</t:Name><t:EmailAddress>testuser1@gatewayO365beatle.com</t:EmailAddress><t:RoutingType>SMTP</t:RoutingType><t:MailboxType>Mailbox</t:MailboxType></t:Mailbox></t:From><t:InternetMessageId>&lt;475D0BAB-146F-4ABD-B19C-49DE84AFAD96@gatewayo365beatle.com&gt;</t:InternetMessageId><t:IsRead>true</t:IsRead><t:ReceivedBy><t:Mailbox><t:Name>Test User1</t:Name><t:EmailAddress>testuser1@gatewayO365beatle.com</t:EmailAddress><t:RoutingType>SMTP</t:RoutingType><t:MailboxType>Mailbox</t:MailboxType></t:Mailbox></t:ReceivedBy><t:ReceivedRepresenting><t:Mailbox><t:Name>Test User1</t:Name><t:EmailAddress>testuser1@gatewayO365beatle.com</t:EmailAddress><t:RoutingType>SMTP</t:RoutingType><t:MailboxType>Mailbox</t:MailboxType></t:Mailbox></t:ReceivedRepresenting></t:Message></m:Items></m:GetItemResponseMessage></m:ResponseMessages></m:GetItemResponse></s:Body></s:Envelope>
+@@@RequestHeader
+POST https://outlook.office365.com/EWS/Exchange.asmx HTTP/1.1
+Host: outlook.office365.com
+User-Agent: MacOutlook/0.0.0.160109 (Intel Mac OS X Version 10.10.4 (Build 14E46))
+Client-Request-Id: {C09455C2-0767-4225-A92F-0162EFF8D822}
+Accept-Language: en
+Content-Type: text/xml; charset=utf-8
+SOAPAction: "http://schemas.microsoft.com/exchange/services/2006/messages/Subscribe"
+X-ClientStatistics: DeviceID=D78F6AAB-7B75-509B-B890-4D0E04D5447B; SessionID=BBC7A275-5184-4DC5-BB2B-5CF422C1AE71
+Authorization: Basic dGVzdHVzZXIxQGdhdGV3YXlvMzY1YmVhdGxlLmNvbTpmQHluNHRLTGxZYmZPYVM=
+Content-Length: 903
+Cookie: exchangecookie=c707b07e53c54800a2059c8f53a158f9
+@@@RequestBody
+<?xml version="1.0" encoding="UTF-8"?><soap:Envelope xmlns:soap="http://schemas.xmlsoap.org/soap/envelope/" xmlns:t="http://schemas.microsoft.com/exchange/services/2006/types" xmlns:m="http://schemas.microsoft.com/exchange/services/2006/messages"><soap:Header><t:RequestServerVersion Version="Exchange2010_SP1" /><t:MailboxCulture>en-US</t:MailboxCulture><t:TimeZoneContext><t:TimeZoneDefinition Id="Sri Lanka Standard Time"/></t:TimeZoneContext></soap:Header><soap:Body><Subscribe xmlns="http://schemas.microsoft.com/exchange/services/2006/messages"><StreamingSubscriptionRequest SubscribeToAllFolders="true"><t:EventTypes><t:EventType>CopiedEvent</t:EventType><t:EventType>CreatedEvent</t:EventType><t:EventType>DeletedEvent</t:EventType><t:EventType>ModifiedEvent</t:EventType><t:EventType>MovedEvent</t:EventType></t:EventTypes></StreamingSubscriptionRequest></Subscribe></soap:Body></soap:Envelope>
+@@@ResponseHeader
+HTTP/1.1 200 OK
+Cache-Control: private
+Content-Type: text/xml; charset=utf-8
+Server: Microsoft-IIS/8.0
+request-id: bcaf38ce-4739-41d5-8510-895f7fb1b37c
+X-CalculatedBETarget: SN1PR15MB0255.namprd15.prod.outlook.com
+X-BackEndHttpStatus: 200
+Set-Cookie: exchangecookie=c707b07e53c54800a2059c8f53a158f9; path=/
+x-EwsHandler: Subscribe
+X-AspNet-Version: 4.0.30319
+X-DiagInfo: SN1PR15MB0255
+X-BEServer: SN1PR15MB0255
+X-Powered-By: ASP.NET
+X-FEServer: BY1PR16CA0020
+Date: Mon, 04 Apr 2016 07:56:00 GMT
+Content-Length: 1044
+@@@ResponseBody
+<?xml version="1.0" encoding="utf-8"?><s:Envelope xmlns:s="http://schemas.xmlsoap.org/soap/envelope/"><s:Header><h:ServerVersionInfo MajorVersion="15" MinorVersion="1" MajorBuildNumber="447" MinorBuildNumber="27" Version="V2016_01_06" xmlns:h="http://schemas.microsoft.com/exchange/services/2006/types" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"/></s:Header><s:Body><m:SubscribeResponse xmlns:m="http://schemas.microsoft.com/exchange/services/2006/messages" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:t="http://schemas.microsoft.com/exchange/services/2006/types"><m:ResponseMessages><m:SubscribeResponseMessage ResponseClass="Success"><m:ResponseCode>NoError</m:ResponseCode><m:SubscriptionId>JwBzbjFwcjE1bWIwMjU1Lm5hbXByZDE1LnByb2Qub3V0bG9vay5jb20QAAAANVGXPGwZsEaL6l8RFwvHDcAQbpBeXNMIEAAAAGjeogw4wWxJlzC5tOmJoVI=</m:SubscriptionId></m:SubscribeResponseMessage></m:ResponseMessages></m:SubscribeResponse></s:Body></s:Envelope>

@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+<suite name="Audit Test Suite" parallel="instances" thread-count="15">
+	<parameter name="userName" value="user@auditbescp.co"></parameter>
+	<parameter name="userPassword" value="Elastica1!"></parameter>
+	<parameter name="environmentName" value="eoe"></parameter>
+	<parameter name="tenantName" value="auditbescpco"></parameter>
+	<parameter name="referer" value="https://eoe.elastica-inc.com" />
+	<parameter name="tenantToken" value="lJ1qP4O+YDQZGKP0yR2fXg==" />
+	<parameter name="isLoggingOn" value="true"></parameter>
+	<parameter name="apiBaseVersion" value="v1"></parameter>
+		<parameter name="loadApparraziServicesCheck" value="yes" />
+	<test name="Audit SCP/SFTP Regression Tests">
+		<classes>
+			<class name="com.elastica.beatle.audit.factoryClass.AuditScpUploadFactory"/>
+		</classes>
+	</test>	
+</suite>

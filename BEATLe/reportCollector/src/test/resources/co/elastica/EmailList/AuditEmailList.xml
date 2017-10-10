@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE properties SYSTEM "http://java.sun.com/dtd/properties.dtd">
+<properties>
+	<comment>EoE Email List</comment>
+	<entry key="addTo">anuvrath.joshi@elastica.co</entry>
+	<entry key="addTo">vijay.mummaneni@elastica.co</entry>
+	<entry key="addTo">tanveer.zamir@elastica.co</entry>
+	<entry key="addTo">sunil.yarram@elastica.co</entry>
+	<entry key="addTo">team-qa@elastica.co</entry>
+	<entry key="addTo">project-audit@elastica.co</entry>
+</properties>

@@ -1,0 +1,9 @@
+SSN: 639-88-0511
+DOB = 10/6/1987 
+age 29 years old
+Name Alan Cooper
+EMAIL: hudun@vijooc.org
+Street: 529 Shady Lane
+City: Summerfield
+State: Florida
+Zip Code: 34491

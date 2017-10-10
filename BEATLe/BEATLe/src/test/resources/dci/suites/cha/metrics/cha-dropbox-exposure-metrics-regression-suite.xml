@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+<suite name="DCI Test Suite" parallel="tests" thread-count="3">
+
+	<listeners>
+		<listener class-name="com.elastica.beatle.PriorityListener" />
+	</listeners>
+
+	<test name="Securlet Dropbox DCI Filter Metrics Tests - Unexposed Files">
+		<parameter name="environmentName" value="envX" />
+		<parameter name="cloudSocUName" value="admin" />
+		<parameter name="tenantName" value="dcibeatlecom" />
+		<parameter name="domainName" value="dcibeatle.com" />
+		<parameter name="saasApp" value="Dropbox" />
+		<parameter name="apiBaseVersion" value="v1" />
+		<groups>
+			<run>
+				<include name="Unexposed" />
+			</run>
+		</groups>
+		<classes>
+			<class name="com.elastica.beatle.tests.dci.DCIExposureMetricsTests"></class>
+		</classes>
+	</test>
+	
+	<test
+		name="Securlet Dropbox DCI Filter Metrics Tests - Publicly Exposed Files">
+		<parameter name="environmentName" value="envX" />
+		<parameter name="cloudSocUName" value="admin" />
+		<parameter name="tenantName" value="dciautobeatlecom" />
+		<parameter name="domainName" value="dciautobeatle.com" />
+		<parameter name="saasApp" value="Dropbox" />
+		<parameter name="apiBaseVersion" value="v1" />
+		<groups>
+			<run>
+				<include name="ExposedPublic" />
+			</run>
+		</groups>
+		<classes>
+			<class name="com.elastica.beatle.tests.dci.DCIExposureMetricsTests"></class>
+		</classes>
+	</test>
+
+	<test
+		name="Securlet Dropbox DCI Filter Metrics Tests - Internally Exposed Files">
+		<parameter name="environmentName" value="envX" />
+		<parameter name="cloudSocUName" value="admin" />
+		<parameter name="tenantName" value="securletautofeatlecom" />
+		<parameter name="domainName" value="securletautofeatle.com" />
+		<parameter name="saasApp" value="Dropbox" />
+		<parameter name="apiBaseVersion" value="v1" />
+		<groups>
+			<run>
+				<include name="ExposedInternal" />
+			</run>
+		</groups>
+		<classes>
+			<class name="com.elastica.beatle.tests.dci.DCIExposureMetricsTests"></class>
+		</classes>
+	</test>
+	
+	<test
+		name="Securlet Dropbox DCI Filter Metrics Tests - Externally Exposed Files">
+		<parameter name="environmentName" value="envX" />
+		<parameter name="cloudSocUName" value="admin" />
+		<parameter name="tenantName" value="dcibeatlecom" />
+		<parameter name="domainName" value="dcibeatle.com" />
+		<parameter name="saasApp" value="Dropbox" />
+		<parameter name="apiBaseVersion" value="v1" />
+		<parameter name="saasAppExternalUserName" value="admin@securletfeatle.com" />		
+ 		<parameter name="saasAppExternalUserToken" value="SWj60UQU0SAAAAAAAAAACBaFAAec7UEF7_kucoqOP_Hx4vknuRGsFvEtvgXWoOZO" />
+		<groups>
+			<run>
+				<include name="ExposedExternal" />
+			</run>
+		</groups>
+		<classes>
+			<class name="com.elastica.beatle.tests.dci.DCIExposureMetricsTests"></class>
+		</classes>
+	</test>
+
+</suite>

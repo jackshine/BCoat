@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE properties SYSTEM "http://java.sun.com/dtd/properties.dtd">
+<properties>
+	<comment> Protect API Configuration</comment>
+	<entry key="getAnomalyLogs">/admin/application/list/get_anomaly_logs</entry>	
+	<entry key="getSecurletlogVerification">/admin/application/list/get_forensics_logs</entry>
+	<entry key="createPolicy">/controls/addpolicy</entry>
+	<entry key="createPolicyProd">/controls/documentshare/add</entry>
+	<entry key="activatePolicy">/controls/update</entry>
+	<entry key="deletePolicy">/controls/archive</entry>
+	<entry key="createContentIQ">/controls/add_ciq_profile</entry>	
+	<entry key="listContentIQ">/controls/make_api_request</entry>
+	<entry key="createFileTransferPolicy">/controls/addpolicy</entry>
+	<entry key="createFileSharingPolicy">/controls/addpolicy</entry>
+	<entry key="createDictionary">/controls/add_dictionary</entry>
+	<entry key="policyList">/controls/list</entry>
+	<entry key="getForensicsLogs">/admin/application/list/get_forensics_logs/</entry>
+	<entry key="calculateImpact">/controls/calculate_impact</entry>
+	<entry key="getCollabDtlsForImpact">/admin/application/list/get_exposed_data</entry>
+	<entry key="getBlocks">/controls/get_blocks</entry>
+	<entry key="clearBlock">/controls/clear_block</entry>
+	<entry key="editPolicy">/controls/editpolicy</entry>
+	<entry key="createRespTemplate">/controls/add_response_template</entry>
+	<entry key="listRespTemplate">/controls/make_api_request</entry>
+	<entry key="getPolicy">/controls/get_policy</entry>
+</properties>
+
+

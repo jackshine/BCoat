@@ -1,0 +1,6 @@
+SSN:  530-42-3575
+age = 53 years old
+email address- surez@ni.org 
+Name -Richard Russell
+DOB: 29/3/1963
+Address: 130 Franklin Avenue Florence, South Carolina 29501

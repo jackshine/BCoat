@@ -1,0 +1,45 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+
+<suite name="GDrive FE Sanity Test Suite">
+
+	<listeners>
+		<listener class-name="org.uncommons.reportng.HTMLReporter" />
+		<listener class-name="org.uncommons.reportng.JUnitXMLReporter" />
+		<listener class-name="com.elastica.listeners.SuiteListener" />
+		<listener class-name="com.elastica.listeners.MethodListener" />
+		<listener class-name="com.elastica.listeners.ScreenShotListener" />
+		<listener class-name="com.elastica.listeners.PriorityListener" />
+		<!-- <listener class-name="com.elastica.listeners.RetryListener" /> -->
+	</listeners>
+
+	<parameter name="env" value="eoe" />
+	<parameter name="browser" value="Firefox" />
+	<parameter name="mode" value="local" />
+	<parameter name="saasAppBaseUrl" value="https://drive.google.com" />
+	<parameter name="username" value="admin@gatewaybeatle.com" />
+	<parameter name="testUsername" value="testuserlargefiles@gatewaybeatle.com" />
+	<parameter name="saasAppName" value="Google Drive" />
+	<parameter name="saasAppUsername" value="testuserlargefiles@gatewaybeatle.com" />
+	<parameter name="accountType" value="Internal" />
+	<parameter name="tenant" value="gatewaybeatle.com" />
+	<parameter name="tenantDomainName" value="gatewaybeatle.com" />
+	<parameter name="proxyExtension" value="Load"></parameter>
+
+	<test name="Gatelet-GDrive Very Larger files Upload (100MB-500MB)">
+		<parameter name="platform" value="Windows 8.1" />
+		<parameter name="browserVersion" value="40.0" />
+		<parameter name="browserName" value="firefox" />
+		<groups>
+			<run>
+				<include name="cloud"></include>
+				<include name="Upload"></include>
+			</run>
+		</groups>
+		<classes>
+			<class name="com.elastica.tests.google.GDriveTest_Upload_Big">
+			</class>
+		</classes>
+	</test>
+
+
+</suite>

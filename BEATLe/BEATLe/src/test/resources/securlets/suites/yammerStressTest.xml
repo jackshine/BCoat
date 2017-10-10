@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+<suite name="Yammer Stress Test Suite" parallel="false">
+    <parameter name="environmentName" value="eoe" />
+    <parameter name="userName" value="qa-admin@o365security.net" />
+    <parameter name="userPassword" value="ebzSBY*EB1IwpGp" />
+    <parameter name="tenantName" value="o365securitynet" />
+    <parameter name="isLoggingOn" value="true" />
+    <parameter name="apiBaseVersion" value="v1" />
+    <parameter name="esScriptsHostName" value="10.0.0.242" />
+    <parameter name="esScriptsUserName" value="madmin" />
+    <parameter name="referer" value="https://eoe.elastica-inc.com/static/ng/appForensics/index.html" />
+    <parameter name="tenantToken"
+                       value="rJu5qTHa9428sYsdpxO4eg==" />
+    <parameter name="domainName" value="o365securitynet" />
+    <parameter name="saasAppUsername" value="admin@securleto365beatle.com" />
+    <parameter name="saasAppPassword" value="MHikwjETdOgeFS!" />
+    <parameter name="saasAppUserRole" value="ADMIN" />
+    <parameter name="saasAppEndUser1Name" value="testuser1@securleto365beatle.com" />
+    <parameter name="saasAppEndUser1Password" value="Cafu0340" />
+    <parameter name="saasAppEndUser2Name" value="testuser2@securleto365beatle.com" />
+    <parameter name="saasAppEndUser2Password" value="j*!uBL3ZndJ4kNC" />
+    <parameter name="saasAppExternalUser" value="user1@gatewaybeatle.com" />
+    <parameter name="yammerToken" value="2203355-JoIGldRKHNXraFqfDH1Yw"/>
+    <parameter name="delayBetweenSaaSActivity" value="60"/>   
+    <parameter name="waitPeriodForElasticSearchEngine" value="120"/>
+    <test name="Yammer Stress Test">	
+        <classes>
+            <class name="com.elastica.beatle.tests.securlets.YammerStressTest">
+                <methods>
+                    <include name="performYammerStressTest"></include>
+                </methods>
+            </class>
+        </classes>
+    </test>
+</suite>

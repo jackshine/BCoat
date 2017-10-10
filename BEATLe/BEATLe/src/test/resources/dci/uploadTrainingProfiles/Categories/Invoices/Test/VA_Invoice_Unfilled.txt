@@ -1,0 +1,136 @@
+ABC Pvt Ltd
+
+INVOICE
+
+Address :
+Phone:
+Fax:
+Website:
+
+DATE
+INVOICE #
+CUSTOMER ID
+DUE DATE
+
+4/14/2016
+[123456]
+[123]
+5/14/2016
+
+TAXED
+
+AMOUNT
+
+BILL TO
+Name:
+
+DESCRIPTION
+
+[42]
+
+OTHER COMMENTS
+1. Total payment due in 30 days
+2. Please include the invoice number on your check
+
+Subtotal
+Taxable
+Tax rate
+Tax due
+Other
+
+TOTAL
+
+6.250%
+$-
+
+Make all checks payable to
+[Your Company Name]
+If you have any questions about this invoice, please contact
+[Name, Phone #, E-mail]
+
+Thank You For Your Business!
+
+Invoice Template © 2013-2014 Vertex42.com
+
+Company Name
+
+INVOICE
+
+[Street Address]
+[City, ST ZIP]
+Phone: [000-000-0000]
+Fax: [000-000-0000]
+Website: somedomain.com
+
+DATE
+INVOICE #
+CUSTOMER ID
+DUE DATE
+
+4/14/2016
+[123456]
+[123]
+5/14/2016
+
+TAXED
+
+AMOUNT
+
+BILL TO
+[Name]
+[Company Name]
+[Street Address]
+[City, ST ZIP]
+[Phone]
+
+DESCRIPTION
+
+UNIT PRICE
+
+[Service Fee]
+[Labor @ $75/hr]
+[Parts]
+
+150.00
+75.00
+25.00
+
+QTY
+5
+3
+
+[42]
+
+OTHER COMMENTS
+1. Total payment due in 30 days
+2. Please include the invoice number on your check
+
+X
+
+Subtotal
+Taxable
+Tax rate
+Tax due
+Other
+
+TOTAL
+
+150.00
+375.00
+75.00
+600.00
+75.00
+6.250%
+4.69
+$604.69
+
+Make all checks payable to
+[Your Company Name]
+If you have any questions about this invoice, please contact
+[Name, Phone #, E-mail]
+
+Thank You For Your Business!
+
+Invoice Template © 2013-2014 Vertex42.com
+
+

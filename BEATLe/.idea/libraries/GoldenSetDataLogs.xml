@@ -1,0 +1,29 @@
+<component name="libraryTable">
+  <library name="GoldenSetDataLogs">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/BEATLe/src/test/resources/Audit/LogFiles/GoldenSetDataLogs/pan_20recs_with_raw_splunk_header_only.zip!/" />
+      <root url="jar://$PROJECT_DIR$/BEATLe/src/test/resources/Audit/LogFiles/GoldenSetDataLogs/WSA_W3c-KU.log.zip!/" />
+      <root url="jar://$PROJECT_DIR$/BEATLe/src/test/resources/Audit/LogFiles/GoldenSetDataLogs/BE_ZScaler_Synthetic_File2_CEST.log.zip!/" />
+      <root url="jar://$PROJECT_DIR$/BEATLe/src/test/resources/Audit/LogFiles/GoldenSetDataLogs/BE_PAN_CSV.zip!/" />
+      <root url="jar://$PROJECT_DIR$/BEATLe/src/test/resources/Audit/LogFiles/GoldenSetDataLogs/Websense_Hosted_No_CustomHeader.zip!/" />
+      <root url="jar://$PROJECT_DIR$/BEATLe/src/test/resources/Audit/LogFiles/GoldenSetDataLogs/Juniper-srx-datavald.txt.zip!/" />
+      <root url="jar://$PROJECT_DIR$/BEATLe/src/test/resources/Audit/LogFiles/GoldenSetDataLogs/McAfee_LowRepURL_01Apr16_UserTIA01.zip!/" />
+      <root url="jar://$PROJECT_DIR$/BEATLe/src/test/resources/Audit/LogFiles/GoldenSetDataLogs/pan_20recs_with_all_splunk_header_only.log.zip!/" />
+      <root url="jar://$PROJECT_DIR$/BEATLe/src/test/resources/Audit/LogFiles/GoldenSetDataLogs/BE_Bluecoat_Splunk_mandatory_headers.zip!/" />
+      <root url="jar://$PROJECT_DIR$/BEATLe/src/test/resources/Audit/LogFiles/GoldenSetDataLogs/BE_Barracuda_C120773_Postprocessing_Activity_Format.zip!/" />
+      <root url="jar://$PROJECT_DIR$/BEATLe/src/test/resources/Audit/LogFiles/GoldenSetDataLogs/BE_Barracuda_C120773_Postprocessing_Syslog_Format.zip!/" />
+      <root url="jar://$PROJECT_DIR$/BEATLe/src/test/resources/Audit/LogFiles/GoldenSetDataLogs/BE_Squid-2015-04-02.zip!/" />
+      <root url="jar://$PROJECT_DIR$/BEATLe/src/test/resources/Audit/LogFiles/GoldenSetDataLogs/McAfee_LowRepURL_30Nov15_UserTIA30.zip!/" />
+      <root url="jar://$PROJECT_DIR$/BEATLe/src/test/resources/Audit/LogFiles/GoldenSetDataLogs/BE_Bluecoat_Splunk_20rec.zip!/" />
+      <root url="jar://$PROJECT_DIR$/BEATLe/src/test/resources/Audit/LogFiles/GoldenSetDataLogs/WSA-Access_KU.log.zip!/" />
+      <root url="jar://$PROJECT_DIR$/BEATLe/src/test/resources/Audit/LogFiles/GoldenSetDataLogs/Websense-ArcSight-vald-final.zip!/" />
+      <root url="jar://$PROJECT_DIR$/BEATLe/src/test/resources/Audit/LogFiles/GoldenSetDataLogs/Zscaler_Edited_10Logs.zip!/" />
+      <root url="jar://$PROJECT_DIR$/BEATLe/src/test/resources/Audit/LogFiles/GoldenSetDataLogs/BE_McAfee_SEF_Format.log.zip!/" />
+      <root url="jar://$PROJECT_DIR$/BEATLe/src/test/resources/Audit/LogFiles/GoldenSetDataLogs/bluecoat-vald-auto.log.zip!/" />
+      <root url="jar://$PROJECT_DIR$/BEATLe/src/test/resources/Audit/LogFiles/GoldenSetDataLogs/audit_weekly_be_BE_SonicWall_all_syslog_time_format_in_one.zip!/" />
+      <root url="jar://$PROJECT_DIR$/BEATLe/src/test/resources/Audit/LogFiles/GoldenSetDataLogs/Net-screen-final.zip!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>

@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+<suite name="Protect Test Suite" parallel="tests" thread-count="3">
+    <parameter name="environmentName" value="cep"/>
+	<parameter name="userName" value="protectauto@protectautobeatle.com"/>
+	<parameter name="userPassword" value="kT6%8HdB"/>
+	<parameter name="tenantName" value="protectautobeatlecom"/>
+	<parameter name="domainName" value="protectautobeatle.com"/>
+	<parameter name="isLoggingOn" value="true"/>
+	<parameter name="apiBaseVersion" value="v1"/>
+	<parameter name="apiserverHostName" value="app-cep.elastica.net"/>
+	<parameter name="saasApp" value="Box"/>
+	<parameter name="saasAppUsername" value="box-admin@protectautobeatle.com"/>
+	<parameter name="saasAppPassword" value="f)XCj13#B5rpEd*"/>
+	<parameter name="saasAppUserRole" value="ADMIN"/>
+	<parameter name="tenantToken" value="rm/POmQIqcKZDmXTpJdATL1OSsYNX9xIq0mymmsA90Y="/> 
+	
+	<test name="Protect Access Monitoring Box User Activities">
+		<classes>
+			<class name="com.elastica.beatle.tests.protect.accessmonitoring.BoxUserOperationTests"></class>
+		</classes>
+	</test>
+	<test name="Protect Access Monitoring Box File Activities">
+		<classes>
+			<class name="com.elastica.beatle.tests.protect.accessmonitoring.BoxFileOperationTests"></class>
+		</classes>
+	</test>
+	<test name="Protect Access Monitoring Box Folder Activities">
+		<classes>
+			<class name="com.elastica.beatle.tests.protect.accessmonitoring.BoxFolderOperationTests"></class>
+		</classes>
+	</test>
+	
+</suite>

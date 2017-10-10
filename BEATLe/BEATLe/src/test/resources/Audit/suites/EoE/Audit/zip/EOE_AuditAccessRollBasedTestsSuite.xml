@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+<suite name="Audit Test Suite" parallel="instances" thread-count="19">
+	
+	<!-- Tenant A- Sysadmin Details -->
+	<parameter name="userName" value="user@auditweeklyscp.co" />
+	<parameter name="userPassword" value="Elastica#123" />
+	<parameter name="tenantName" value="auditweeklyscpco" />
+	<parameter name="tenantToken" value="NV3a35KFHmxDYZGk3jviwIjwfpY5A2Geg+2ugXIPGGk=" />
+	
+	<!-- Tenant B- Sysadmin Details -->
+	<parameter name="userName2" value="user@eoeauditanonyenabled.co"></parameter>
+	<parameter name="userPassword2" value="Elastica#123"></parameter>
+	<parameter name="tenantName2" value="eoeauditanonyenabledco"></parameter>
+	<parameter name="tenantToken2" value="0RjH0hDCOpBYW+w+Gxa+SiDUnpE6SZKj3kGv+rt/00U=" />
+	
+	<!-- Tenant- Admin User Details 
+	anam@auditguru.co/Elastica@1234-->
+	<parameter name="adminUser" value="anam@auditguru.co"></parameter>
+	<parameter name="adminUserPwd" value="Elastica#123"></parameter>
+	<parameter name="adminUserTen" value="auditguruco"></parameter>
+	<parameter name="adminUserTenantToken" value="fSxrn4fKJoTmdqRiY5F+dg==" />
+	
+	<!-- DPO User Details for eoeauditanonyenabledco -->
+	<parameter name="dpoUserName" value="dpotest@eoeauditanonyenabled.co" />
+	<parameter name="dpoUserPassword" value="KLLcmf8#" />
+	<parameter name="dpoUserTen" value="eoeauditanonyenabledco" />
+	
+	
+	<!-- Other config details -->
+	<parameter name="environmentName" value="eoe" />
+	<parameter name="isLoggingOn" value="true" />
+	<parameter name="referer" value="https://eoe.elastica-inc.com" />
+	<parameter name="apiBaseVersion" value="v1" />
+	<parameter name="loadApparraziServicesCheck" value="no" />
+	<parameter name="tenant2Aclcheck" value="yes" /> 
+	
+	
+	
+	<test name="Audit Customer Seperation Regression Tests">
+		<classes>
+			<class name="com.elastica.beatle.audit.factoryClass.AuditAclFactory"></class>
+		</classes>
+	</test>	
+	
+		
+	
+</suite>
+

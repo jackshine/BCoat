@@ -1,0 +1,88 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+
+<suite name="Gateway Salesforce FE Sanity Test Suite">
+
+	<listeners>
+		<listener class-name="com.elastica.listeners.EmailableReporterSauce" />
+		<listener class-name="org.uncommons.reportng.HTMLReporter" />
+		<listener class-name="org.uncommons.reportng.JUnitXMLReporter" />
+		<listener class-name="com.elastica.listeners.SuiteListener" />
+		<listener class-name="com.elastica.listeners.MethodListener" />
+		<listener class-name="com.elastica.listeners.ScreenShotListener" />
+		<listener class-name="com.elastica.listeners.PriorityListener" />
+	</listeners>
+	
+	<!-- <parameter name="env" value="prod" />
+	<parameter name="browser" value="Firefox" />
+	<parameter name="mode" value="local" />
+	<parameter name="saasAppBaseUrl" value="https://portal.office.com" />
+	<parameter name="username" value="admin@gatewayo365beatle.com" />
+	<parameter name="password" value="Elastica@123" />
+	<parameter name="testUsername" value="testuserprod@gatewayo365beatle.com" />
+	<parameter name="testPassword" value="Test123!@#" />
+	<parameter name="testUsername" value="admin@gatewayo365beatle.com" />
+	<parameter name="testPassword" value="Elastica@123"/>
+	<parameter name="accountType" value="Internal" />
+	
+	
+
+	<parameter name="env" value="eoe" />
+	<parameter name="browser" value="firefox" />
+	<parameter name="mode" value="local" />
+	<parameter name="saasAppBaseUrl" value="https://na34.salesforce.com" />
+	<parameter name="username" value="admin@securletbeatle.com" />
+	<parameter name="password" value="Elastica1234!" />
+	<parameter name="testUsername" value="admin@securletbeatle.com" />
+	<parameter name="testPassword" value="Elastica1234!" />
+	<parameter name="saasAppName" value="Salesforce" />
+	<parameter name="saasAppUsername" value="admin@securletbeatle.com" />
+	<parameter name="saasAppPassword" value="Q#V(7dkkbA@GLz3" />
+	<parameter name="referer" value="https://eoe.elastica-inc.com" />
+	<parameter name="tenant" value="securletbeatle.com" />
+	<parameter name="tenantDomainName" value="securletbeatle.com" />
+	<parameter name="tenantToken" value="H3YK/Vxr3p+qm9dfmKvmh7oYaPBJMqUsszm+LOStr4k=" />
+	<parameter name="proxyUrl"
+		value="https://api-eoe.elastica-inc.com/aae977733f4a42c992cf8dade97a9f70/1454340315/elastica.pac"></parameter>
+	<parameter name="proxyExtension" value="/lib/elastica_auth.xpi"></parameter>
+	<parameter name="proxyExtensionVersion" value="1.0.2"></parameter> -->
+
+	<test name="Gatelet Tests - Salesforce">
+		<parameter name="platform" value="Windows 8.1" />
+		<parameter name="browserVersion" value="40.0" />
+		<parameter name="browserName" value="firefox" />
+		<groups>
+			<run>
+				<include name="cloud"></include>
+				<include name="Regression"></include>
+				<include name="Contact"></include>
+				<include name="Account"></include>
+				<include name="Opportunity"></include>
+				<include name="Contact"></include>
+				<include name="Lead"></include>
+				<include name="Report"></include>
+				<include name="Files"></include>
+			</run>
+		</groups>
+		<classes>
+			<class name="com.elastica.tests.salesforce.SalesforceReportTests" />
+		</classes>
+	</test>
+
+
+
+	<parameter name="env" value="eoe" />
+	<parameter name="browser" value="Firefox" />
+	<parameter name="mode" value="local" />
+	<parameter name="saasAppBaseUrl" value="https://ap2.salesforce.com" />
+	<parameter name="username" value="gwadmin@securletautoo365featle.com" />
+	<parameter name="testUsername" value="sanityuser2@securletautoo365featle.com" />
+	<parameter name="saasAppName" value="Salesforce" />
+	<parameter name="saasAppUsername" value="sanityuser2@securletautoo365featle.com" />
+	<parameter name="tenant" value="securletautoo365featle.com" />
+	<parameter name="tenantToken" value="HrRC0QAqEIg/CR7xWolh33ujXNJE2VJZCgIQ4xLU+p0=" />
+	<parameter name="tenantDomainName" value="securletautoo365featle.com" />
+	<parameter name="proxyExtension" value="Load"></parameter>
+	<!-- <parameter name="proxyUrl" value="https://api-eoe.elastica-inc.com/b8c578d237f44c1387804f1264029681/1462653799/elastica.pac"></parameter> -->
+	<!-- <parameter name="proxyUrl" value="https://api-vip.elastica.net/5a155f8055d242928b1108a27ed0996c/1462254928/elastica.pac"></parameter> -->
+
+</suite>

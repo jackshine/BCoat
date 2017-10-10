@@ -1,0 +1,44 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+
+<suite name="GW O365 FE Sanity Test Suite">
+
+
+	<parameter name="env" value="prod" />
+	<parameter name="browser" value="Firefox" />
+	<parameter name="mode" value="local" />
+	<parameter name="saasAppBaseUrl" value="https://portal.office.com" />
+	<parameter name="username" value="gwadmin@securletautoo365featle.com" />
+	<!-- <parameter name="password" value="Elastica@123" /> -->
+	<parameter name="testUsername" value="testusersjc.prod@securletautoo365featle.com" />
+	<!-- <parameter name="testPassword" value="Elastica@123"/> -->
+	<parameter name="accountType" value="Internal" />
+	<parameter name="saasAppName" value="Office 365" />
+		<parameter name="saasAppUsername" value="testusersjc.prod@securletautoo365featle.com" />
+	<!-- <parameter name="saasAppPassword" value="Elastica@123" /> -->
+	<parameter name="referer" value="https://app.elastica.net"/>
+	<parameter name="tenant" value="securletautoo365featle.com" />
+	<parameter name="tenantDomainName" value="securletautoo365featle.com" />
+	<!-- <parameter name="tenantToken"
+		value="HrRC0QAqEIg/CR7xWolh33ujXNJE2VJZCgIQ4xLU+p0=" />
+	<parameter name="proxyUrl"
+		value="https://api-vip.elastica.net/5a155f8055d242928b1108a27ed0996c/1457590592/elastica.pac"></parameter> -->
+	<parameter name="proxyExtension" value="Load"></parameter>
+
+	<test name="Gatelet - O365(mail, onedrive) UI Sanity - SJC">
+		<parameter name="platform" value="Windows 8.1" />
+		<parameter name="browserVersion" value="40.0" />
+		<parameter name="browserName" value="firefox" />
+		<groups>
+			<run>
+				<include name="cloud"></include>
+				<include name="START"></include>
+			</run>
+		</groups>
+		<classes>
+			<class name="com.elastica.gw.utils.AWSMachines">
+			</class>
+		</classes>
+	</test>
+
+
+</suite>

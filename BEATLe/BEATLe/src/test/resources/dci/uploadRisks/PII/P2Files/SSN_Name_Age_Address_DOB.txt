@@ -1,0 +1,33 @@
+Social Security No: 576-55-4600
+age 32 years old
+Name: Layla Abbott
+Address: 580 Hawthorne Avenue Piedmont, South Carolina 29673
+Date of birth - 1/1/1961
+
+
+8.0 Changing Technologies
+
+Presently, there are new data collection and processing technologies available that offer  considerable improvements over traditional methods.  These include developments in integrated Global Positioning System/Geographical Information System, soft-copy photointerpretation, and data loggers with automated forms.
+
+Furthermore, it is anticipated that over the life of the mapping program, additional and perhaps dramatic improvements in technology will occur.  These new technologies offer the potential of cost savings and, in some cases more useful output or products.  Nevertheless, new technology always presents risks that must be considered and then managed.
+
+
+8.1 Integrated GIS/GPS and Data Loggers
+
+One of the more promising new technologies is the automation of field data collection using integrated GIS/GPS.  The convergence of GPS and GIS and document management technologies and the arrival of rugged and portable computers provide new means of collecting field data.  Portable GIS with GPS will allow the rapid capture of information about features and phenomena, and the ability to map them in the field.  The incorporation of automated forms packages and data logging software can speed data capture using menus and pick lists with predefined features, attributes, and space for numeric, or character value entry. (i.e., hydrologic regime or aspect).  These automated forms packages can be customized with mathematical macros to perform some functions that would require a calculator, such as relative abundance calculated automatically by entering the species occurrence along a transect.  These data can be automatically tagged to a GPS coordinate via connections to GPS receivers.  Data collection templates can also be designed for quick transfer to relational databases or any SQL DBASE format.  It is recommended that a data logging system built from offtheshelf hardware and software be tested during the prototype stage.  For additional discussion of GPS technology see Section 7.1 in the Accuracy Assessment Methodology document.
+
+8.2 Digital Orthophotography
+
+The use of digital orthophotography (soft copy) in the photointerpretation process is also a very promising technology.  It is still considered developmental for many applications, but recent advances have pushed it to the point where an investment in testing and evaluation is warranted.
+
+Digital orthophotos are terrain-corrected images that can be used as precision basemaps, or they can be viewed on a screen as three-dimensional digital images for extracting and delineating features through a manual or partially automated process.  The process involves scanning a film positive and then rectifying the image to a dense network of known points  on a pixel-by-pixel basis. The digital terrain model (DTM) can be generated automatically in many systems following the standard photogrammetric steps of obtaining ground control and performing aerotriangulation.  However, automated DTM feature extraction is far from perfected and it is often necessary to manually add breaklines and edit the DTM.
+
+Once the orthophoto is created, it can be viewed on the screen in three dimensions (stereo) using special glasses, much like a mirror stereoscope except the display is heads-up and the operator can draw the digital line work directly on the image using a puck. Land base information can be added as well as thematic information.  The advantages of the process are that certain steps, such as the transfer of line work and digitization of line work, are accomplished as the interpretation proceeds.  It also means that the final products are highly accurate as the number of steps are reduced and the method is essentially photogrammetric.  Additionally, if the original DTM is sufficiently dense, and the vertical  as well as the horizontal control are field surveyed, then accurate NMAS topographic information, in the form of contours, can also be generated.  This does mean additional expense.
+
+Some of the disadvantages are the initial high cost of the software and hardware and the large size of the files created, particularly those associated with high resolution.  Additionally, using the orthophoto for the land base means the polygon information will, in all likelihood, not register with other existing digital data tied to a USGS quadrangle without some manipulation.  This could be a factor in the design of an overall multipurpose GIS.
+
+However, the most basic concerns are whether photointerpretation can be accomplished as accurately on the screen as with the original diapositives and a high-powered mirror stereoscope, and does the use of the process significantly reduce total man-hours for a positive cost benefit ratio?  It is proposed that these questions be tested during the prototype stage.
+
+8.3 Strategy for Implementation of New Technology
+
+The basic strategy for dealing with changing technology during the NPS mapping contract is to develop standards that will stand independently of the technology.  That is to say the standards will not dictate how something is to be accomplished but rather define the content, accuracy, and documentation of the product.  This will ensure that data being derived from the new technologies will not affect the utility of the existing data.  Secondly, as new, promising technology becomes available, it will be evaluated first in benchmarks and then in prototype efforts to gauge its reliability, its cost-effectiveness, and, most importantly, whether or not it can perform to the documented standard.

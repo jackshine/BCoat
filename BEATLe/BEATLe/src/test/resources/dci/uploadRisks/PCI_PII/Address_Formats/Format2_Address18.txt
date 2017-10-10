@@ -1,0 +1,9 @@
+SSN: 639-88-0511
+DOB = 10/6/1987 
+age 29 years old
+Name Ryan Edwards
+EMAIL: hudun@vijooc.org
+Street: 481 Hawthorne Lane
+City: Hackettstown
+State: New Jersey 
+Zip Code: 07840

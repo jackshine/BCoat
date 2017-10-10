@@ -1,0 +1,45 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+
+<suite name="Gateway Salesforce FE Sanity Test Suite">
+
+	<listeners>
+		<listener class-name="org.uncommons.reportng.HTMLReporter" />
+		<listener class-name="org.uncommons.reportng.JUnitXMLReporter" />
+		<listener class-name="com.elastica.listeners.SuiteListener" />
+		<listener class-name="com.elastica.listeners.MethodListener" />
+		<listener class-name="com.elastica.listeners.ScreenShotListener" />
+		<listener class-name="com.elastica.listeners.PriorityListener" />
+	</listeners>
+	
+	<parameter name="env" value="eoe" />
+	<parameter name="browser" value="Firefox" />
+	<parameter name="mode" value="local" />
+	<parameter name="saasAppBaseUrl" value="https://ap2.salesforce.com" />
+	<parameter name="username" value="gwadmin@securletautoo365featle.com" />
+	<parameter name="testUsername" value="regression.reach@securletautoo365featle.com" />
+	<parameter name="saasAppName" value="Salesforce" />
+	<parameter name="saasAppUsername" value="sanityuser1@securletautoo365featle.com" />
+	<parameter name="tenant" value="securletautoo365featle.com" />
+	<parameter name="tenantToken" value="HrRC0QAqEIg/CR7xWolh33ujXNJE2VJZCgIQ4xLU+p0=" />
+	<parameter name="tenantDomainName" value="securletautoo365featle.com" />
+	
+
+	<test name="Gatelet Tests - Salesforce">
+		<parameter name="platform" value="Windows 8.1" />
+		<parameter name="browserVersion" value="40.0" />
+		<parameter name="browserName" value="firefox" />
+		<groups>
+			<run>
+				<include name="cloud"></include>
+				<include name="Reach1"></include>
+			</run>
+		</groups>
+		<classes>
+			<class name="com.elastica.tests.salesforce.SalesforceReportTests" />
+		</classes>
+	</test>
+
+
+
+	
+</suite>

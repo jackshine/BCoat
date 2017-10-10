@@ -1,0 +1,9 @@
+SSN: 639-88-0511
+DOB = 10/6/1987 
+age 29 years old
+Name Betty Miller
+EMAIL: hudun@vijooc.org
+Street: 421 Bridle Court 
+City: South El Monte
+State: California
+Zip Code: 91733

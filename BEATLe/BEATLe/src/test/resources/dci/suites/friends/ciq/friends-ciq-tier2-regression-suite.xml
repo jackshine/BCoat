@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+<suite name="DCI Test Suite" parallel="tests" thread-count="4">
+
+	<listeners>
+		<listener class-name="com.elastica.beatle.PriorityListener" />
+	</listeners>
+
+	<test name="DCI ContentIQ Profile Terms Real World File Tests">
+		<parameter name="environmentName" value="friends" />
+		<parameter name="cloudSocUName" value="box-admin" />
+		<parameter name="tenantName" value="dcibeatlecom" />
+		<parameter name="domainName" value="dcibeatle.com" />
+		<parameter name="saasApp" value="Box" />
+		<parameter name="apiBaseVersion" value="v1" />
+		<groups>
+			<run>
+				<include name="PredefTerms" />
+			</run>
+		</groups>
+		<classes>
+			<class
+				name="com.elastica.beatle.tests.dci.ciq.DCICIQPDTRealWorldFileTests"></class>
+		</classes>
+	</test>
+
+	<test name="DCI Company Confidential Tests">
+		<parameter name="environmentName" value="friends" />
+		<parameter name="cloudSocUName" value="box-admin" />
+		<parameter name="tenantName" value="dciautobeatlecom" />
+		<parameter name="domainName" value="dciautobeatle.com" />
+		<parameter name="saasApp" value="Box" />
+		<parameter name="apiBaseVersion" value="v1" />
+		<groups>
+			<run>
+
+				<include name="All" />
+			</run>
+		</groups>
+		<classes>
+			<class
+				name="com.elastica.beatle.tests.dci.ciq.DCICIQCompanyConfidentialTests"></class>
+		</classes>
+	</test>
+
+	<test name="DCI Foreign Language Support Tests">
+		<parameter name="environmentName" value="friends" />
+		<parameter name="cloudSocUName" value="admin" />
+		<parameter name="tenantName" value="dciciqbeatlecom" />
+		<parameter name="domainName" value="dciciqbeatle.com" />
+		<parameter name="saasApp" value="Box" />
+		<parameter name="apiBaseVersion" value="v1" />
+		<groups>
+			<run>
+
+				<include name="CustomTerms" />
+			</run>
+		</groups>
+		<classes>
+			<class name="com.elastica.beatle.tests.dci.ciq.DCICIQForeignLanguageTests"></class>
+		</classes>
+	</test>
+
+
+	<test name="DCI Titus Regression Tests">
+		<parameter name="environmentName" value="friends" />
+		<parameter name="cloudSocUName" value="admin" />
+		<parameter name="tenantName" value="dcimultibeatlecom" />
+		<parameter name="domainName" value="dcimultibeatle.com" />
+		<parameter name="saasApp" value="Box" />
+		<parameter name="apiBaseVersion" value="v1" />
+		<groups>
+			<run>
+				<include name="All" />
+			</run>
+		</groups>
+		<classes>
+			<class name="com.elastica.beatle.tests.dci.ciq.DCICIQTitusTests"></class>
+		</classes>
+	</test>
+
+</suite>

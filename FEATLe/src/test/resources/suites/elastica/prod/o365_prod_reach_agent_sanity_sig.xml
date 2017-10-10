@@ -1,0 +1,46 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+
+<suite name="GW O365 FE Sanity Test Suite">
+
+	<listeners>
+		<listener class-name="org.uncommons.reportng.HTMLReporter" />
+		<listener class-name="org.uncommons.reportng.JUnitXMLReporter" />
+		<listener class-name="com.elastica.listeners.SuiteListener" />
+		<listener class-name="com.elastica.listeners.MethodListener" />
+		<listener class-name="com.elastica.listeners.ScreenShotListener" />
+		<listener class-name="com.elastica.listeners.PriorityListener" />
+		<listener class-name="com.elastica.listeners.EmailableReporter2" />
+		<listener class-name="com.elastica.listeners.RetryListener" />
+	
+	</listeners>
+
+<parameter name="env" value="prod" />
+	<parameter name="browser" value="Firefox" />
+	<parameter name="mode" value="local" />
+	<parameter name="saasAppBaseUrl" value="https://portal.office.com" />
+	<parameter name="username" value="gwadmin@securletautoo365featle.com" />
+	<parameter name="testUsername" value="singapore.reach@securletautoo365featle.com" />
+	<parameter name="accountType" value="Internal" />
+	<parameter name="saasAppName" value="Office 365" />
+	<parameter name="saasAppUsername" value="singapore.reach@securletautoo365featle.com" />
+	<parameter name="tenant" value="securletautoo365featle.com" />
+	<parameter name="tenantDomainName" value="securletautoo365featle.com" />
+	
+	<test name="Gatelet - O365(mail, onedrive) - SIG Reach">
+		<parameter name="platform" value="Windows 8.1" />
+		<parameter name="browserVersion" value="40.0" />
+		<parameter name="browserName" value="firefox" />
+		<groups>
+			<run>
+				<include name="cloud"></include>
+				<include name="REACH_AGENT"></include>
+			</run>
+		</groups>
+		<classes>
+			<class name="com.elastica.tests.o365.O365Tests">
+			</class>
+		</classes>
+	</test>
+
+
+</suite>

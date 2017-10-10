@@ -1,0 +1,9 @@
+Social Security No: 576-55-4600
+age 32 years old
+name= John Powell
+Email: lex@gmail.com
+date of birth 27-08-1991
+Street: 483 Pine Street
+City: Valdosta
+State: Georgia 
+Zip Code:31601

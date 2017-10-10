@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+<suite name="GDrive Regression Test Suite" parallel="tests">
+    <parameter name="environmentName" value="prod"/>
+    <parameter name="userName" value="admin@securletbeatle.com"/>
+    <parameter name="userPassword" value="Elastica12345!"/>
+    <parameter name="tenantName" value="securletbeatlecom"/>
+    <parameter name="isLoggingOn" value="true"/>
+    <parameter name="apiBaseVersion" value="v1"/>
+    <parameter name="esScriptsHostName" value="10.0.0.242"/>
+    <parameter name="esScriptsUserName" value="madmin"/>
+    <parameter name="tenantToken" value="H3YK/Vxr3p+qm9dfmKvmh7oYaPBJMqUsszm+LOStr4k="/>
+    <parameter name="referer" value="https://app.elastica.net/static/ng/appSecurlets/index.html"/>
+    <parameter name="internalSwitch" value="true"/>
+    <test name="Securlets GDrive File Permission Activities And Exposure-INTERNAL SWITCH" preserve-order="true">
+        <classes>
+            <class name="com.elastica.beatle.tests.securlets.gdrive.GDriveFilePermissionAndExposure">
+                <methods>    
+                    <include name="fileInsertPermissionOperations"/>
+                    <include name="validateIncrementCountAfterFilePermissionActivities"/>
+                    <include name="validateExposedFileAfterApplyingExposure"/>
+                    <include name="validateFileInsertPermission"/>
+                    <include name="validateCILogsVariousExposedFile"/>
+                    <include name="performFile_Update_Patch_Remove_PermissionOperations"/>
+                    <include name="validateDecrementCountAfterFilePermissionActivities"/>
+                    <include name="validateExposedFileAfterRemovingExposure"/>
+                    <include name="validateFileUpdatePermission"/>
+                    <include name="validatePatchFilePermission"/>
+                    <include name="validateUnShareFile"/>
+                </methods>
+            </class>
+        </classes>
+    </test>
+</suite>

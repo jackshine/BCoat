@@ -1,0 +1,5 @@
+Name: Alex Smith
+Age: 25 years old
+Gender: Male
+Ethnicity White Hispanic Male
+Mrs. Julia Smith

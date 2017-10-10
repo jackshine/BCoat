@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+<suite name="Prod AWS Regression Tests" parallel="tests" thread-count="6">
+	<parameter name="accessKey" value="AKIAIYFXIWAOHHNQXVQA"></parameter>
+	<parameter name="accessKeySecreat" value="pGxJcSS62DIPL7YXM56a5j9VJB7i9PClKUCwiSHR"></parameter>
+	<parameter name="environmentName" value="prod"></parameter>
+	<parameter name="userName" value="protectauto@protectbeatle.com" />
+	<parameter name="userPassword" value="Elastica#123" />
+	<parameter name="tenantName" value="protectbeatlecom"></parameter>
+	<parameter name="tenantToken"
+		value="nIzqjM7QUjS4OcWe2Oti74jwfpY5A2Geg+2ugXIPGGk="></parameter>
+	<parameter name="AWSregionToRun" value="US_EAST_1"></parameter>
+
+
+	<test name="Securlets AWS Instance Regression tests ">
+		<classes>
+			<class name="com.elastica.beatle.tests.securlets.aws.AWSInstanceTests"></class>
+		</classes>
+	</test>
+
+	<test name="Securlets AWS Volume Regression tests ">
+		<classes>
+			<class name="com.elastica.beatle.tests.securlets.aws.AWSVolumeTests"></class>
+		</classes>
+	</test>
+
+	<test name="Securlets AWS Group Regression tests ">
+		<classes>
+			<class name="com.elastica.beatle.tests.securlets.aws.AWSGroupTests"></class>
+		</classes>
+	</test>
+
+	<test name="Securlets AWS GroupPolicy Regression Tests">
+		<classes>
+			<class name="com.elastica.beatle.tests.securlets.aws.AWSGroupPolicyTests"></class>
+		</classes>
+	</test>
+
+	<test name="Securlets AWS User Regression Tests">
+		<classes>
+			<class name="com.elastica.beatle.tests.securlets.aws.AWSUserTest"></class>
+		</classes>
+	</test>
+
+	<test name="Securlets AWS Roles Regression Tests">
+		<classes>
+			<class name="com.elastica.beatle.tests.securlets.aws.AWSRoleTests"></class>
+		</classes>
+	</test>
+</suite>
+

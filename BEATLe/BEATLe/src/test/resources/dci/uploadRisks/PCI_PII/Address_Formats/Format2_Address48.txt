@@ -1,0 +1,9 @@
+SSN: 639-88-0511
+DOB = 10/6/1987 
+age 29 years old
+Name Mildred Howard
+EMAIL: hudun@vijooc.org 
+Street: 678 Hamilton Road
+City: Jamestown
+State: New York 
+Zip Code: 14701

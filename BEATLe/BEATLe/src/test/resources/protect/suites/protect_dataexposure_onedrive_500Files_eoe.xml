@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+<suite name="Protect Test Suite">
+	<parameter name="environmentName" value="eoe"/>
+	<parameter name="userName" value="qa-admin@o365security.net"/>
+	<parameter name="userPassword" value="ebzSBY*EB1IwpGp"/>
+	<parameter name="tenantName" value="o365securitynet"/>
+	<parameter name="isLoggingOn" value="true"/>
+	<parameter name="apiBaseVersion" value="v1"/>
+	<parameter name="apiserverHostName" value="api-eoe.elastica-inc.com"/>
+	<parameter name="tenantToken" value="rJu5qTHa9428sYsdpxO4eg=="/>
+	<parameter name="domainName" value="o365securitynet"/>
+	<parameter name="saasApp" value="ONEDRIVEBUSINESS"/>
+	<parameter name="tenantToken" value="rJu5qTHa9428sYsdpxO4eg=="/>
+	
+	<test name="Protect DataExposure O365 Securlet Stress Testing">
+		<classes>
+			<class name="com.elastica.beatle.tests.protect.dataexposure.Office365500FileUploadStressTests"></class>
+		</classes>
+	</test>
+</suite>

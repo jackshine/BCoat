@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+<suite name="GW - StreamIQ - O365 OneDrive - Users and Groups Policy Regression Suite"
+	parallel="false">
+	<parameter name="environmentName" value="eoe" />
+	<parameter name="gwHostname" value="10.0.55.113" />
+	<parameter name="dpoUserName" value="testdpo@gatewayo365beatle.com"/>
+	<parameter name="dpoUserPassword" value="Elastica12!@"/>
+	<parameter name="tenantName" value="gatewayo365beatlecom" />
+	<parameter name="tenantDomainName" value="gatewayo365beatle.com" />
+	<parameter name="apiBaseVersion" value="v1" />
+	<parameter name="saasApp" value="onedrive" />
+	<parameter name="saasAppUsername" value="testuser1@gatewayo365beatle.com" />
+	
+	<test name="GW - StreamIQ - O365 Onedrive - Users and Groups AE Policy Regression Test">
+		<parameter name="userName" value="admin@gatewayo365beatle.com" />
+		<parameter name="userPassword" value="Elastica12!@" />
+		<parameter name="isLoggingOn" value="true" />
+		<classes>
+			<class name="com.elastica.beatle.tests.gateway.o365.UsersGroupsAEPolicyTest">
+			</class>
+		</classes>
+	</test>
+	
+	<test name="GW - StreamIQ - O365 Onedrive - Users and Groups AE Policy with Anonymization Regression Test">
+		<parameter name="userName" value="admin@gatewayo365beatle.com" />
+		<parameter name="userPassword" value="Elastica12!@" />
+		<parameter name="isLoggingOn" value="true" />
+		<classes>
+			<class name="com.elastica.beatle.tests.gateway.o365.UsersGroupsAnonymizationAEPolicyTest">
+			</class>
+		</classes>
+	</test>
+</suite>

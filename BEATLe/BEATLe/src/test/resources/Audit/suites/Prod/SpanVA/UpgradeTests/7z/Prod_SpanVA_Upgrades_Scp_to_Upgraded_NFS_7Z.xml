@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+<suite name="Audit Test Suite">
+	<parameter name="userName" value="qa-admin@elasticaqa.net"></parameter>
+	<parameter name="userPassword" value="6)Yda#!%HXFBh8)"></parameter>
+	<parameter name="environmentName" value="prod"></parameter>
+	<parameter name="tenantName" value="elasticaqanet"></parameter>
+	<parameter name="isLoggingOn" value="true"></parameter>
+	<parameter name="referer" value="https://app.elastica.net" />
+	<parameter name="apiBaseVersion" value="v1"></parameter>
+	<parameter name="spanvaip" value="10.0.62.133" />
+	<parameter name="tenantToken" value="8Mcfo3OUrXx33ByfPIlCCA==" />
+	<parameter name="spanvausername" value="admin" />
+	<parameter name="spanvapwd" value="Admin123!" />
+	<parameter name="spanvaAgentName" value="eoetest1" />
+	<parameter name="logCompressionFormat" value="7z" />
+	
+	<test name="Audit_SpanVA_Integration_Upgrade_Regression_Tests_on_1_10_2_51_0-9rc">
+	<classes>
+			<class name="com.elastica.beatle.tests.audit.spanvatests.SpanvaUpgradeTests.Audit_SpanVA_Scp_to_Upgraded_NFS_Tests"/>
+		</classes>
+		
+		</test>
+	
+</suite>

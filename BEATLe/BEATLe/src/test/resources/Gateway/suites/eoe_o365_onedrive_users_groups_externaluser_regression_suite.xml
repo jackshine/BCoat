@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+<suite name="GW - StreamIQ - O365 OneDrive - Users and Groups EXternal Users monitoring Policy Regression Suite"
+	parallel="false">
+	<parameter name="environmentName" value="eoe" />
+	<!-- <parameter name="dpoUserName" value="testdpo@gatewayo365beatle.com"/>
+	<parameter name="dpoUserPassword" value="Elastica@123"/> -->
+	<parameter name="tenantName" value="gwexternalo365beatlecom" />
+	<parameter name="tenantDomainName" value="gwexternalo365beatle.com" />
+	<parameter name="apiBaseVersion" value="v1" />
+	<parameter name="saasApp" value="onedrive" />
+	<parameter name="saasAppUsername" value="testuser1@gatewayo365beatle.com" />
+	<parameter name="userName" value="admin@gwexternalo365beatle.com" />
+	<parameter name="userPassword" value="Elastica12!@" />
+	<parameter name="isLoggingOn" value="true" />
+	
+	<test name="GW - StreamIQ - O365 Onedrive - Users and Groups External Users Monitoring Policy Regression Test">
+		<classes>
+			<class name="com.elastica.beatle.tests.gateway.o365.UsersGroupsExternalFSPolicyTest">
+			<methods><include name="verify_FileSharingPolicyOnGroups"></include></methods>
+			</class>
+		</classes>
+	</test>
+	
+	<test name="GW - StreamIQ - O365 Onedrive - Users and Groups File Transfer Policy External Users Monitoring Regression Test">
+		
+		<classes>
+			<class name="com.elastica.beatle.tests.gateway.UsersGroupsO365OneDriveFileTransferPolicyTest">
+			</class>
+		</classes>
+	</test>
+	 
+	 <test name="GW - StreamIQ - O365 Onedrive - Users and Groups AE Policy External Users Monitoring Regression Test">
+		<classes>
+			<class name="com.elastica.beatle.tests.gateway.o365.UsersGroupsAEPolicyTest">
+			</class>
+		</classes>
+	</test>
+	
+</suite>

@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+<suite name="DCI Test Suite" parallel="tests" thread-count="4">
+
+	<listeners>
+		<listener class-name="com.elastica.beatle.PriorityListener" />
+	</listeners>
+	
+	<!-- <test name="DCI Stress Box Tests" group-by-instances="true" preserve-order="true">
+		<parameter name="environmentName" value="eoe" />
+		<parameter name="cloudSocUName" value="box-admin" />
+		<parameter name="tenantName" value="dcibeatlecom" />
+		<parameter name="domainName" value="dcibeatle.com" />
+		<parameter name="saasApp" value="Box" />
+		<parameter name="apiBaseVersion" value="v1" />
+		<groups>
+			<run>
+				<include name="All" />
+			</run>
+		</groups>
+		<classes>
+			<class name="com.elastica.beatle.tests.dci.DCIStressTests"></class>
+		</classes>
+	</test>
+
+	<test name="DCI Stress Dropbox Tests" group-by-instances="true" preserve-order="true">
+		<parameter name="environmentName" value="eoe" />
+		<parameter name="cloudSocUName" value="admin" />
+		<parameter name="tenantName" value="dcibeatlecom" />
+		<parameter name="domainName" value="dcibeatle.com" />
+		<parameter name="saasApp" value="Dropbox" />
+		<parameter name="apiBaseVersion" value="v1" />
+		<groups>
+			<run>
+				<include name="All" />
+			</run>
+		</groups>
+		<classes>
+			<class name="com.elastica.beatle.tests.dci.DCIStressTests"></class>
+		</classes>
+	</test>
+
+	<test name="DCI Stress GoogleDrive Tests" group-by-instances="true" preserve-order="true">
+		<parameter name="environmentName" value="eoe" />
+		<parameter name="cloudSocUName" value="admin" />
+		<parameter name="tenantName" value="dcibeatlecom" />
+		<parameter name="domainName" value="dcibeatle.com" />
+		<parameter name="saasApp" value="Google Drive" />
+		<parameter name="apiBaseVersion" value="v1" />
+		<groups>
+			<run>
+				<include name="All" />
+			</run>
+		</groups>
+		<classes>
+			<class name="com.elastica.beatle.tests.dci.DCIStressTests"></class>
+		</classes>
+	</test>
+
+	<test name="DCI Stress Office365 Tests" group-by-instances="true" preserve-order="true">
+		<parameter name="environmentName" value="eoe" />
+		<parameter name="cloudSocUName" value="admin" />
+		<parameter name="tenantName" value="dcio365beatlecom" />
+		<parameter name="domainName" value="dcio365beatlecom" />
+		<parameter name="saasApp" value="Office365" />
+		<parameter name="apiBaseVersion" value="v1" />
+		<groups>
+			<run>
+				<include name="All" />
+			</run>
+		</groups>
+		<classes>
+			<class name="com.elastica.beatle.tests.dci.DCIStressTests"></class>
+		</classes>
+	</test>
+ -->
+	
+</suite>

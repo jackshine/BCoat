@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+<suite name="Protect Test Suite">
+	<parameter name="environmentName" value="prod"/>
+	<parameter name="userName" value="protectauto@protectbeatle.com"/>
+	<parameter name="userPassword" value="Elastica#123"/>
+	<parameter name="tenantName" value="protectbeatlecom"/>
+	<parameter name="isLoggingOn" value="true"/>
+	<parameter name="apiBaseVersion" value="v1"/>
+	<parameter name="apiserverHostName" value="api-vip.elastica.net"/>
+	<parameter name="domainName" value="protectbeatle.com"/>
+	<parameter name="tenantToken" value="nIzqjM7QUjS4OcWe2Oti74jwfpY5A2Geg+2ugXIPGGk="/>
+	<parameter name="saasApp" value="Dropbox"/>
+	<parameter name="saasAppUsername" value="admin@protectbeatle.com"/>
+	<parameter name="saasAppPassword" value="Elastica@123"/>
+	<parameter name="saasAppUserRole" value="ADMIN"/>
+	<parameter name="saasAppToken" value="jYjld9_6elAAAAAAAAAABicNYvT0sh52Hb1GiDXQGWt6u_ejZ0-XC9MTJuFayLsq"/>
+	
+	<test name="Protect Threatscore Dropbox Tests">
+		<classes>
+			<class name="com.elastica.beatle.tests.protect.threatscore.DropboxThreatScoreTests"></class>
+		</classes>
+	</test>
+</suite>

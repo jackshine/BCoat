@@ -1,0 +1,10 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+
+<suite name="Daily Regression Reports Collection">
+	<parameter name="envName" value="EOE_FE"></parameter>
+	<test name="DAILY REGRESSION REPORT IN EOE FE">
+		<classes>
+			<class name="co.elastica.ReportCollector.App" />
+		</classes>
+	</test>
+</suite>

@@ -1,0 +1,187 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+<suite name="DCI Test Suite" parallel="tests" thread-count="10">
+
+	<listeners>
+		<listener class-name="com.elastica.beatle.PriorityListener" />
+	</listeners>
+
+	<test name="DCI File Types Tests" group-by-instances="true"
+		preserve-order="true">
+		<parameter name="environmentName" value="envX" />
+		<parameter name="cloudSocUName" value="admin" />
+		<parameter name="tenantName" value="securletautofeatlecom" />
+		<parameter name="domainName" value="securletautofeatle.com" />
+		<parameter name="saasApp" value="Box" />
+		<parameter name="apiBaseVersion" value="v1" />
+		<groups>
+			<run>
+				<include name="All" />
+			</run>
+		</groups>
+		<classes>
+			<class name="com.elastica.beatle.tests.dci.DCIFileTypeTests"></class>
+		</classes>
+	</test>
+
+	
+	<test name="DCI Golden Set Files Tests">
+	    <parameter name="environmentName" value="envX" />
+		<parameter name="cloudSocUName" value="admin" />
+		<parameter name="tenantName" value="dcimigrationbeatlecom" />
+		<parameter name="domainName" value="dcimigrationbeatle.com" />
+		<parameter name="saasApp" value="Box" />
+		<parameter name="apiBaseVersion" value="v1" />
+		<groups>
+			<run>
+				<include name="All" />
+			</run>
+		</groups>
+		<classes>
+			<class name="com.elastica.beatle.tests.dci.DCIGoldenSetTests"></class>
+		</classes>
+	</test>
+
+	<test name="DCI PCI and PII New Requirements Tests" group-by-instances="true"
+		preserve-order="true">
+		<parameter name="environmentName" value="envX" />
+		<parameter name="cloudSocUName" value="admin" />
+		<parameter name="tenantName" value="dcimultibeatlecom" />
+		<parameter name="domainName" value="dcimultibeatle.com" />
+		<parameter name="saasApp" value="Box" />
+		<parameter name="apiBaseVersion" value="v1" />
+		<groups>
+			<run>
+				<include name="All" />
+			</run>
+		</groups>
+		<classes>
+			<class name="com.elastica.beatle.tests.dci.risks.DCIPCIPIINewTests"></class>
+		</classes>
+	</test>
+
+	<test name="DCI PII Address Format Changes Tests" group-by-instances="true"
+		preserve-order="true">
+	    <parameter name="environmentName" value="envX" />
+		<parameter name="cloudSocUName" value="admin" />
+		<parameter name="tenantName" value="securletautofeatlecom" />
+		<parameter name="domainName" value="securletautofeatle.com" />
+		<parameter name="saasApp" value="Box" />
+		<parameter name="apiBaseVersion" value="v1" />
+		<groups>
+			<run>
+				<include name="Address" />
+			</run>
+		</groups>
+		<classes>
+			<class name="com.elastica.beatle.tests.dci.risks.DCIPCIPIINewTests"></class>
+		</classes>
+	</test>
+	
+	<test name="DCI PCI/PII No Anchor Tests" group-by-instances="true" preserve-order="true">
+		<parameter name="environmentName" value="envX" />
+		<parameter name="cloudSocUName" value="admin" />
+		<parameter name="tenantName" value="dcifileformatbeatlecom" />
+		<parameter name="domainName" value="dcifileformatbeatle.com" />
+		<parameter name="saasApp" value="Box" />
+		<parameter name="apiBaseVersion" value="v1" />
+		<groups>
+			<run>
+				<include name="NoAnchor" />
+			</run>
+		</groups>
+		<classes>
+			<class name="com.elastica.beatle.tests.dci.risks.DCINoAnchorPCIPIITests"></class>
+		</classes>
+	</test>
+	
+	<test name="DCI PCI/PII No Anchor Combination Tests" group-by-instances="true" preserve-order="true">
+		<parameter name="environmentName" value="envX" />
+		<parameter name="cloudSocUName" value="admin" />
+		<parameter name="tenantName" value="dcifileformatbeatlecom" />
+		<parameter name="domainName" value="dcifileformatbeatle.com" />
+		<parameter name="saasApp" value="Box" />
+		<parameter name="apiBaseVersion" value="v1" />
+		<groups>
+			<run>
+				<include name="All" />
+			</run>
+		</groups>
+		<classes>
+			<class name="com.elastica.beatle.tests.dci.risks.DCINoAnchorPCIPIITests"></class>
+		</classes>
+	</test>
+
+	<test name="DCI French Foreign Language PII Tests" group-by-instances="true"
+		preserve-order="true">
+		<parameter name="environmentName" value="envX" />
+		<parameter name="cloudSocUName" value="box-admin" />
+		<parameter name="tenantName" value="dcibeatlecom" />
+		<parameter name="domainName" value="dcibeatle.com" />
+		<parameter name="saasApp" value="Box" />
+		<parameter name="apiBaseVersion" value="v1" />
+		<groups>
+			<run>
+				<include name="French" />
+			</run>
+		</groups>
+		<classes>
+			<class name="com.elastica.beatle.tests.dci.risks.DCIForeignLanguageTests"></class>
+		</classes>
+	</test>
+
+	<test name="DCI German Foreign Language PII Tests" group-by-instances="true"
+		preserve-order="true">
+		<parameter name="environmentName" value="envX" />
+		<parameter name="cloudSocUName" value="box-admin" />
+		<parameter name="tenantName" value="dciautobeatlecom" />
+		<parameter name="domainName" value="dciautobeatle.com" />
+		<parameter name="saasApp" value="Box" />
+		<parameter name="apiBaseVersion" value="v1" />
+		<groups>
+			<run>
+				<include name="German" />
+			</run>
+		</groups>
+		<classes>
+			<class name="com.elastica.beatle.tests.dci.risks.DCIForeignLanguageTests"></class>
+		</classes>
+	</test>
+
+	<test name="DCI UK Foreign Language PII Tests" group-by-instances="true"
+		preserve-order="true">
+		<parameter name="environmentName" value="envX" />
+		<parameter name="cloudSocUName" value="admin" />
+		<parameter name="tenantName" value="dciciqbeatlecom" />
+		<parameter name="domainName" value="dciciqbeatle.com" />
+		<parameter name="saasApp" value="Box" />
+		<parameter name="apiBaseVersion" value="v1" />
+		<groups>
+			<run>
+				<include name="UK" />
+			</run>
+		</groups>
+		<classes>
+			<class name="com.elastica.beatle.tests.dci.risks.DCIForeignLanguageTests"></class>
+		</classes>
+	</test>
+
+	<test name="DCI Others Foreign Language PII and PCI Tests" group-by-instances="true"
+		preserve-order="true">
+		<parameter name="environmentName" value="envX" />
+		<parameter name="cloudSocUName" value="admin" />
+		<parameter name="tenantName" value="securletfeatlecom" />
+		<parameter name="domainName" value="securletfeatle.com" />
+		<parameter name="saasApp" value="Box" />
+		<parameter name="apiBaseVersion" value="v1" />
+		<groups>
+			<run>
+				<include name="Others" />
+			</run>
+		</groups>
+		<classes>
+			<class name="com.elastica.beatle.tests.dci.risks.DCIForeignLanguageTests"></class>
+		</classes>
+	</test>
+	
+</suite>

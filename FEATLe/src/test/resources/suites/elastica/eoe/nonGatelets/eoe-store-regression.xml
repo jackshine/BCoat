@@ -1,0 +1,74 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+
+
+<suite name="Store Page Test Suite" parallel="tests" thread-count="3">
+
+	<listeners>
+		<listener class-name="org.uncommons.reportng.HTMLReporter" />
+		<listener class-name="org.uncommons.reportng.JUnitXMLReporter" />
+		<listener class-name="com.elastica.listeners.SuiteListener" />
+		<listener class-name="com.elastica.listeners.MethodListener" />
+		<listener class-name="com.elastica.listeners.ScreenShotListener" />
+		<listener class-name="com.elastica.listeners.PriorityListener" />
+	</listeners>
+
+	<parameter name="env" value="eoe" />
+	<parameter name="browser" value="chrome" />
+	<parameter name="mode" value="local" />
+	<parameter name="platform" value="Windows 8.1" />
+	<parameter name="browserVersion" value="40" />
+	<parameter name="browserName" value="chrome" />
+
+	<test name="Store UI Tests - Box Securlet">
+	    <parameter name="username" value="admin@securletfeatle.com" />
+		<parameter name="tenantName" value="securletfeatlecom" />
+		<parameter name="tenantDomainName" value="securletfeatle.com" />
+		<parameter name="saasAppName" value="Box" />
+		<groups>
+			<run>
+				<include name="local"></include>
+				<include name="regression"></include>
+			</run>
+		</groups>
+		<classes>
+			<class name="com.elastica.tests.store.StoreTests" />
+		</classes>
+	</test>
+	
+	<test name="Store UI Tests - Dropbox Securlet">
+	    <parameter name="username" value="admin@securletfeatle.com" />
+		<parameter name="tenantName" value="securletfeatlecom" />
+		<parameter name="tenantDomainName" value="securletfeatle.com" />
+		<parameter name="saasAppName" value="Dropbox" />
+		<groups>
+			<run>
+				<include name="local"></include>
+				<include name="regression"></include>
+			</run>
+		</groups>
+		<classes>
+			<class name="com.elastica.tests.store.StoreTests" />
+		</classes>
+	</test>
+	
+	<test name="Store UI Tests - Salesforce Securlet">
+		<parameter name="username" value="admin@securletbeatle.com" />
+		<parameter name="tenantName" value="securletbeatlecom" />
+		<parameter name="tenantDomainName" value="securletbeatle.com" />
+		<parameter name="saasAppName" value="Salesforce" />
+		<parameter name="saasAppUsername" value="admin@securletbeatle.com.Sandbox1" />
+		<parameter name="saasAppPassword" value="A1200@sx3"/>
+		
+		<groups>
+			<run>
+				<include name="local"></include>
+				<include name="regression"></include>
+			</run>
+		</groups>
+		<classes>
+			<class name="com.elastica.tests.store.StoreTests" />
+		</classes>
+	</test>
+	
+
+</suite>

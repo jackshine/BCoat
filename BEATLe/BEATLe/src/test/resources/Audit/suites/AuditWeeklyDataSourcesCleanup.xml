@@ -1,0 +1,324 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+
+
+
+<suite name="Audit Weekly datasource cleanup suite">
+
+
+<!-- Audit weekly weubupload datasources cleanup -->
+
+<test name="auditweekwu7zco datasources cleanup">
+    <parameter name="userName" value="user@auditweekwu7z.co"></parameter>
+	<parameter name="userPassword" value="Elastica@123"></parameter>
+	<parameter name="environmentName" value="eoe"></parameter>
+	<parameter name="tenantName" value="auditweekwu7zco"></parameter>
+	<parameter name="referer" value="https://eoe.elastica-inc.com" />
+	<parameter name="tenantToken" value="9u7knWSVf9vCm+pbdH2zfg==" />
+	<parameter name="isLoggingOn" value="true"></parameter>
+	<parameter name="apiBaseVersion" value="v1"></parameter>
+		<classes>
+			<class
+				name="com.elastica.beatle.tests.audit.AuditDataSourcesCleanUpScriptForAllAutomationTenants">
+				<methods>
+					<include name="cleanupDatasources" />
+				</methods>
+
+			</class>
+		</classes>
+</test>
+
+<test name="auditweekwu7zaco datasources cleanup">
+   <parameter name="userName" value="user@auditweekwu7za.co"></parameter>
+	<parameter name="userPassword" value="Elastica@123"></parameter>
+	<parameter name="environmentName" value="eoe"></parameter>
+	<parameter name="tenantName" value="auditweekwu7zaco"></parameter>
+	<parameter name="referer" value="https://eoe.elastica-inc.com" />
+	<parameter name="tenantToken" value="w9FLiErFiCEo6B2CtKVuyYjwfpY5A2Geg+2ugXIPGGk=" />
+	<parameter name="isLoggingOn" value="true"></parameter>
+	<parameter name="apiBaseVersion" value="v1"></parameter>
+	
+		<classes>
+			<class
+				name="com.elastica.beatle.tests.audit.AuditDataSourcesCleanUpScriptForAllAutomationTenants">
+				<methods>
+					<include name="cleanupDatasources" />
+				</methods>
+
+			</class>
+		</classes>
+</test>
+
+<test name="auditweekwubz2co datasources cleanup">
+    <parameter name="userName" value="user@auditweekwubz2.co"></parameter>
+	<parameter name="userPassword" value="Elastica@123"></parameter>
+	<parameter name="environmentName" value="eoe"></parameter>
+	<parameter name="tenantName" value="auditweekwubz2co"></parameter>
+	<parameter name="referer" value="https://eoe.elastica-inc.com" />
+	<parameter name="tenantToken" value="kDs2jr4dBZwh51VR0P42RojwfpY5A2Geg+2ugXIPGGk=" />
+	<parameter name="isLoggingOn" value="true"></parameter>
+	<parameter name="apiBaseVersion" value="v1"></parameter>
+	
+		<classes>
+			<class
+				name="com.elastica.beatle.tests.audit.AuditDataSourcesCleanUpScriptForAllAutomationTenants">
+				<methods>
+					<include name="cleanupDatasources" />
+				</methods>
+
+			</class>
+		</classes>
+</test>
+
+<test name="auditweekwugzco datasources cleanup">
+    <parameter name="userName" value="user@auditweekwugz.co"></parameter>
+	<parameter name="userPassword" value="Elastica@123"></parameter>
+	<parameter name="environmentName" value="eoe"></parameter>
+	<parameter name="tenantName" value="auditweekwugzco"></parameter>
+	<parameter name="referer" value="https://eoe.elastica-inc.com" />
+	<parameter name="tenantToken" value="6jwCizL66gRLZQ2puCImlg==" />
+	<parameter name="isLoggingOn" value="true"></parameter>
+	<parameter name="apiBaseVersion" value="v1"></parameter>
+	
+		<classes>
+			<class
+				name="com.elastica.beatle.tests.audit.AuditDataSourcesCleanUpScriptForAllAutomationTenants">
+				<methods>
+					<include name="cleanupDatasources" />
+				</methods>
+
+			</class>
+		</classes>
+</test>
+
+<test name="auditweekwu1zipco datasources cleanup">
+    <parameter name="userName" value="user@auditweekwu1zip.co"></parameter>
+	<parameter name="userPassword" value="Elastica@123"></parameter>
+	<parameter name="environmentName" value="eoe"></parameter>
+	<parameter name="tenantName" value="auditweekwu1zipco"></parameter>
+	<parameter name="referer" value="https://eoe.elastica-inc.com" />
+	<parameter name="tenantToken" value="OObIuUOajzpszJRHcBx4jLejBXugZTNsTFNiEntos0I=" />
+	<parameter name="isLoggingOn" value="true"></parameter>
+	<parameter name="apiBaseVersion" value="v1"></parameter>
+	
+		<classes>
+			<class
+				name="com.elastica.beatle.tests.audit.AuditDataSourcesCleanUpScriptForAllAutomationTenants">
+				<methods>
+					<include name="cleanupDatasources" />
+				</methods>
+
+			</class>
+		</classes>
+</test>
+
+
+<!-- SCP Jobs clean up -->
+
+<test name="auditweekscp7zco datasources cleanup">
+    <parameter name="userName" value="user@auditweekscp7z.co"></parameter>
+	<parameter name="userPassword" value="Elastica@123"></parameter>
+	<parameter name="environmentName" value="eoe"></parameter>
+	<parameter name="tenantName" value="auditweekscp7zco"></parameter>
+	<parameter name="referer" value="https://eoe.elastica-inc.com" />
+	<parameter name="tenantToken" value="GVVe7hz55jNO31Sl0AoC14jwfpY5A2Geg+2ugXIPGGk=" />
+	<parameter name="isLoggingOn" value="true"></parameter>
+	<parameter name="apiBaseVersion" value="v1"></parameter>
+	
+		<classes>
+			<class
+				name="com.elastica.beatle.tests.audit.AuditDataSourcesCleanUpScriptForAllAutomationTenants">
+				<methods>
+					<include name="cleanupDatasources" />
+				</methods>
+
+			</class>
+		</classes>
+</test>
+
+<test name="auditweekscp7zaco datasources cleanup">
+    <parameter name="userName" value="user@auditweekscp7za.co"></parameter>
+	<parameter name="userPassword" value="Elastica@123"></parameter>
+	<parameter name="environmentName" value="eoe"></parameter>
+	<parameter name="tenantName" value="auditweekscp7zaco"></parameter>
+	<parameter name="referer" value="https://eoe.elastica-inc.com" />
+	<parameter name="tenantToken" value="QLFS4Ik9hW/QTmSRhoQiibejBXugZTNsTFNiEntos0I=" />
+	<parameter name="isLoggingOn" value="true"></parameter>
+	<parameter name="apiBaseVersion" value="v1"></parameter>
+
+		<classes>
+			<class
+				name="com.elastica.beatle.tests.audit.AuditDataSourcesCleanUpScriptForAllAutomationTenants">
+				<methods>
+					<include name="cleanupDatasources" />
+				</methods>
+
+			</class>
+		</classes>
+</test>
+
+<test name="auditweekscp1bz2co datasources cleanup">
+   <parameter name="userName" value="user@auditweekscp1bz2.co"></parameter>
+	<parameter name="userPassword" value="Elastica@123"></parameter>
+	<parameter name="environmentName" value="eoe"></parameter>
+	<parameter name="tenantName" value="auditweekscp1bz2co"></parameter>
+	<parameter name="referer" value="https://eoe.elastica-inc.com" />
+	<parameter name="tenantToken" value="VtOIf7AWniSgXzhwwVyQ9BVFi9kYPOV/sfTeE10Jses=" />
+	<parameter name="isLoggingOn" value="true"></parameter>
+	<parameter name="apiBaseVersion" value="v1"></parameter>
+
+		<classes>
+			<class
+				name="com.elastica.beatle.tests.audit.AuditDataSourcesCleanUpScriptForAllAutomationTenants">
+				<methods>
+					<include name="cleanupDatasources" />
+				</methods>
+
+			</class>
+		</classes>
+</test>
+
+<test name="auditweekscpgzco datasources cleanup">
+    <parameter name="userName" value="user@auditweekscpgz.co"></parameter>
+	<parameter name="userPassword" value="Elastica@123"></parameter>
+	<parameter name="environmentName" value="eoe"></parameter>
+	<parameter name="tenantName" value="auditweekscpgzco"></parameter>
+	<parameter name="referer" value="https://eoe.elastica-inc.com" />
+	<parameter name="tenantToken" value="FMJZ22bCvujyu35TzwMuL4jwfpY5A2Geg+2ugXIPGGk=" />
+	<parameter name="isLoggingOn" value="true"></parameter>
+	<parameter name="apiBaseVersion" value="v1"></parameter>
+
+		<classes>
+			<class
+				name="com.elastica.beatle.tests.audit.AuditDataSourcesCleanUpScriptForAllAutomationTenants">
+				<methods>
+					<include name="cleanupDatasources" />
+				</methods>
+
+			</class>
+		</classes>
+</test>
+<test name="auditweekscp2zipco datasources cleanup">
+    <parameter name="userName" value="user@auditweekscp2zip.co"></parameter>
+	<parameter name="userPassword" value="Elastica@123"></parameter>
+	<parameter name="environmentName" value="eoe"></parameter>
+	<parameter name="tenantName" value="auditweekscp2zipco"></parameter>
+	<parameter name="referer" value="https://eoe.elastica-inc.com" />
+	<parameter name="tenantToken" value="V1cxbk0VNI+eDvnWEsd5gxVFi9kYPOV/sfTeE10Jses=" />
+	<parameter name="isLoggingOn" value="true"></parameter>
+	<parameter name="apiBaseVersion" value="v1"></parameter>
+
+		<classes>
+			<class
+				name="com.elastica.beatle.tests.audit.AuditDataSourcesCleanUpScriptForAllAutomationTenants">
+				<methods>
+					<include name="cleanupDatasources" />
+				</methods>
+
+			</class>
+		</classes>
+</test>
+<!-- Audit Weekly S3 jobs cleanup -->
+
+<test name="auditweeks37zco datasources cleanup">
+    <parameter name="userName" value="user@auditweeks37z.co"></parameter>
+	<parameter name="userPassword" value="Elastica@123"></parameter>
+	<parameter name="environmentName" value="eoe"></parameter>
+	<parameter name="tenantName" value="auditweeks37zco"></parameter>
+	<parameter name="referer" value="https://eoe.elastica-inc.com" />
+	<parameter name="tenantToken" value="mG7ICZM9Q+evvI0V5fAITQ==" />
+	<parameter name="isLoggingOn" value="true"></parameter>
+	<parameter name="apiBaseVersion" value="v1"></parameter>
+		<classes>
+			<class
+				name="com.elastica.beatle.tests.audit.AuditDataSourcesCleanUpScriptForAllAutomationTenants">
+				<methods>
+					<include name="cleanupDatasources" />
+				</methods>
+
+			</class>
+		</classes>
+</test>
+	
+<test name="auditweeks317zaco datasources cleanup">
+ 	<parameter name="userName" value="user@auditweeks317za.co"></parameter>
+	<parameter name="userPassword" value="Elastica@123"></parameter>
+	<parameter name="environmentName" value="eoe"></parameter>
+	<parameter name="tenantName" value="auditweeks317zaco"></parameter>
+	<parameter name="referer" value="https://eoe.elastica-inc.com" />
+	<parameter name="tenantToken" value="OX+i/oVAAsF2+leBfzqYCLejBXugZTNsTFNiEntos0I=" />
+	<parameter name="isLoggingOn" value="true"></parameter>
+	<parameter name="apiBaseVersion" value="v1"></parameter>
+		<classes>
+			<class
+				name="com.elastica.beatle.tests.audit.AuditDataSourcesCleanUpScriptForAllAutomationTenants">
+				<methods>
+					<include name="cleanupDatasources" />
+				</methods>
+
+			</class>
+		</classes>
+</test>	
+
+<test name="auditweeks3bz2co datasources cleanup">
+	<parameter name="userName" value="user@auditweeks3bz2.co"></parameter>
+	<parameter name="userPassword" value="Elastica@123"></parameter>
+	<parameter name="environmentName" value="eoe"></parameter>
+	<parameter name="tenantName" value="auditweeks3bz2co"></parameter>
+	<parameter name="referer" value="https://eoe.elastica-inc.com" />
+	<parameter name="tenantToken" value="eaMQVVx+px7EkMv+1DaxRojwfpY5A2Geg+2ugXIPGGk=" />
+	<parameter name="isLoggingOn" value="true"></parameter>
+	<parameter name="apiBaseVersion" value="v1"></parameter>
+		<classes>
+			<class
+				name="com.elastica.beatle.tests.audit.AuditDataSourcesCleanUpScriptForAllAutomationTenants">
+				<methods>
+					<include name="cleanupDatasources" />
+				</methods>
+
+			</class>
+		</classes>
+</test>
+
+<test name="auditweeks3gzco datasources cleanup">
+	<parameter name="userName" value="user@auditweeks3gz.co"></parameter>
+	<parameter name="userPassword" value="Elastica@123"></parameter>
+	<parameter name="environmentName" value="eoe"></parameter>
+	<parameter name="tenantName" value="auditweeks3gzco"></parameter>
+	<parameter name="referer" value="https://eoe.elastica-inc.com" />
+	<parameter name="tenantToken" value="WZ8y7VB15hcv2Soa57pOCQ==" />
+	<parameter name="isLoggingOn" value="true"></parameter>
+	<parameter name="apiBaseVersion" value="v1"></parameter>
+		<classes>
+			<class
+				name="com.elastica.beatle.tests.audit.AuditDataSourcesCleanUpScriptForAllAutomationTenants">
+				<methods>
+					<include name="cleanupDatasources" />
+				</methods>
+
+			</class>
+		</classes>
+</test>
+
+<test name="auditweeks3zipco datasources cleanup">
+	<parameter name="userName" value="user@auditweeks3zip.co"></parameter>
+	<parameter name="userPassword" value="Elastica@123"></parameter>
+	<parameter name="environmentName" value="eoe"></parameter>
+	<parameter name="tenantName" value="auditweeks3zipco"></parameter>
+	<parameter name="referer" value="https://eoe.elastica-inc.com" />
+	<parameter name="tenantToken" value="95befHjmSiNSjTYqFD8EAIjwfpY5A2Geg+2ugXIPGGk=" />
+	<parameter name="isLoggingOn" value="true"></parameter>
+	<parameter name="apiBaseVersion" value="v1"></parameter>
+		<classes>
+			<class
+				name="com.elastica.beatle.tests.audit.AuditDataSourcesCleanUpScriptForAllAutomationTenants">
+				<methods>
+					<include name="cleanupDatasources" />
+					<exclude name="cleanUpSpanvaDataSources" />
+				</methods>
+
+			</class>
+		</classes>
+</test>
+ 
+</suite>

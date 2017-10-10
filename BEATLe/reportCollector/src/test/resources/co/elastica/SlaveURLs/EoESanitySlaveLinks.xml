@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE properties SYSTEM "http://java.sun.com/dtd/properties.dtd">
+<properties>
+	<entry key="slaveLink">http://10.0.0.38:8080/job/EoE%20BE%20Smoke%20Test/ws/BEATLe/target/surefire-reports/emailable-report.html</entry>
+	<entry key="slaveLink">http://10.0.1.205:8080/view/eoe_sanity/job/O365_FE_EOE_GW_Sanity_P1/ws/target/surefire-reports/emailable-report.html</entry>
+	
+	
+	<!-- <entry key="slaveLink">http://10.0.0.38:8080/view/FE%20Sanity/job/Detect%20FE%20Sanity%20EoE/ws/target/surefire-reports/emailable-report-sauce.html</entry> -->	
+
+
+</properties>

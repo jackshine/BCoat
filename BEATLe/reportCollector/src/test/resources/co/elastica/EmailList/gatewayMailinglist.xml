@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE properties SYSTEM "http://java.sun.com/dtd/properties.dtd">
+<properties>
+	<comment>EoE Email List</comment>
+	<entry key="addTo">anuvrath.joshi@elastica.co</entry>
+	<entry key="addTo">russ.daigle@elastica.co</entry>
+	<entry key="addTo">arun.dheena@elastica.co</entry>
+	<entry key="addTo">sakella@elastica.co</entry>
+	<entry key="addTo">krishna.chaganti@elastica.co</entry>
+	<entry key="addTo">bharat.bhojwani@elastica.co</entry>
+	<entry key="addTo">prashanth.prabhu@elastica.co</entry>
+	<entry key="addTo">vijay.mummaneni@elastica.co</entry>
+	<entry key="addTo">chaks.chigurupati@elastica.co</entry>
+	<entry key="addTo">tanveer.zamir@elastica.co</entry>
+	<entry key="addTo">nabeel.akhtar@elastica.co</entry>
+	<entry key="addTo">ahmed.shahid@elastica.co</entry>
+	<entry key="addTo">asad.somji@elastica.co</entry>
+	<entry key="addTo">mayur.belekar@elastica.co</entry>
+	<entry key="addTo">juzerk@elastica.co</entry>	
+	<entry key="addTo">team-qa@elastica.co</entry>
+</properties>

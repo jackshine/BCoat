@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+<suite name="Detect BBI Regression Test Suite" parallel="false">
+	<parameter name="environmentName" value="eoe"></parameter>
+	
+	<parameter name="userName" value="rocky@detectbeatle.com"/>
+    <parameter name="userPassword" value="RKLkod3!"/>
+    <parameter name="tenantName" value="detectbeatlecom"/>
+    <parameter name="tenantDomainName" value="detectbeatle.com"></parameter>
+    <parameter name="tenantToken" value="pDcDPx7NqsSqfU5mhJrMhg=="/>
+	
+	<parameter name="referer" value="https://eoe.elastica-inc.com"/>
+	<parameter name="host" value="eoe.elastica-inc.com"/>
+	<parameter name="apiServer" value="https://api-eoe.elastica-inc.com/"/>
+	
+	
+	<parameter name="isLoggingOn" value="true"></parameter>
+	<parameter name="apiBaseVersion" value="v1"></parameter>
+	
+	<parameter name="goldenInputTmplPath" value="src/test/resources/detect/golden_input_tmpl/"></parameter>
+	<parameter name="goldenInputPath" value="src/test/resources/detect/golden_input/"></parameter>
+	
+	<parameter name="esScriptsHostName" value="10.0.0.242"></parameter>
+	<parameter name="esScriptsUserName" value="madmin"></parameter>
+	
+	<test name="Detect BBI Regression Tests">
+		<classes>
+			<class name="com.elastica.beatle.tests.detect.DetectBBITests">
+			</class>
+			
+		</classes>
+	</test>
+</suite>

@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+<suite name="Audit Test Suite" parallel="methods" thread-count="3">
+	<test name="Audit Splunk Query Based Tests">
+		<parameter name="auditDailyReportName" value="CEP-BE-cloudsecurity.mobi-Daily"></parameter>
+		<parameter name="auditWeeklyReportName" value="CEP-BE-cloudsecurity.mobi-Weekly"></parameter>
+		<parameter name="auditMonthlyReportName" value="CEP-BE-cloudsecurity.mobi-Monthly"></parameter>
+		<parameter name="recipientName" value="syed.muzaffar@cloudsecurity.mobi"></parameter>
+		<parameter name="environmentName" value="cep"></parameter>
+		<classes>
+			<class name="com.elastica.beatle.tests.splunkTests.SplunkTest">
+				<methods>
+					<include name="testAuditMonthlyReport"></include>
+					<include name="testAuditDailyReport"></include>
+					<include name="testAuditWeeklyReport"></include>
+				</methods>
+			</class>
+		</classes>
+	</test>
+</suite>

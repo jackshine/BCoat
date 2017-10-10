@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+<suite name="Protect Test Suite">
+	<parameter name="environmentName" value="qavpc"/>
+	<parameter name="userName" value="admin@protectbeatle.com"/>
+	<parameter name="userPassword" value="Elastica1234!"/>
+	<parameter name="tenantName" value="protectbeatlecom"/>
+	<parameter name="isLoggingOn" value="true"/>
+	<parameter name="apiBaseVersion" value="v1"/>
+	<parameter name="apiserverHostName" value="qa-vpc-api.elastica-inc.com" />
+	<parameter name="saasApp" value="Box"/>
+	<parameter name="saasAppUsername" value="box-admin@protectbeatle.com"/>
+	<parameter name="saasAppPassword" value="WN&amp;VbrsV340L2^t"/>
+	<parameter name="saasAppUserRole" value="ADMIN"/>
+	<parameter name="tenantToken" value="nIzqjM7QUjS4OcWe2Oti74jwfpY5A2Geg+2ugXIPGGk="/>
+	
+	<test name="Protect Access Monitoring Box User Activities">
+		<classes>
+			<class name="com.elastica.beatle.tests.protect.accessmonitoring.BoxUserOperationTests"></class>
+		</classes>
+	</test>
+	<test name="Protect Access Monitoring Box Group Activities">
+		<classes>
+			<class name="com.elastica.beatle.tests.protect.accessmonitoring.BoxGroupOperationTests"></class>
+		</classes>
+	</test>
+	<test name="Protect Access Monitoring Box File Activities">
+		<classes>
+			<class name="com.elastica.beatle.tests.protect.accessmonitoring.BoxFileOperationTests"></class>
+		</classes>
+	</test>
+	<test name="Protect Access Monitoring Box Folder Activities">
+		<classes>
+			<class name="com.elastica.beatle.tests.protect.accessmonitoring.BoxFolderOperationTests"></class>
+		</classes>
+	</test>
+</suite>
